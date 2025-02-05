@@ -1,0 +1,38 @@
+{
+    "Demographics": {
+        "Age": 27,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文学得不错"
+        ],
+        "Career_Information": "兼职插画师",
+        "Name": "王思琪"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "I",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "喜欢用画笔表达内心世界",
+            "对人生的深刻思考有浓厚兴趣",
+            "喜欢安静的独处时间",
+            "热爱自然和艺术",
+            "支持环境保护和可持续发展"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "倾向于提出富有哲理性的问题，希望通过交流获得启发，对于简单的事实回答表示不感兴趣",
+        "Usage_Pattern": "经常询问有关心理学、哲学、艺术创作技巧方面的信息，偶尔会寻求关于创意灵感的建议",
+        "Emotion_Pattern": "希望获得温暖、鼓励和理解性的回应，不喜欢被过度理性和冷漠对待",
+        "Purchase_Pattern": "喜欢购买具有独特设计和环保材料的产品，价格相对高但重视品质和意义"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢富有情感色彩且有启发性的回答，倾向于详细描述和背景故事",
+        "Preferred_Formats": "喜欢图文并茂的内容，有时也会欣赏音频或视频形式",
+        "Preferred_Workflows": "喜欢从分享人文关怀和生活经验的角度出发逐步展开，通过设问和反思引导解决问题"
+    },
+    "scenes": []
+}

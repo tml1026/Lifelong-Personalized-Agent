@@ -1,0 +1,254 @@
+{
+    "Demographics": {
+        "Age": 50,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "四川话"
+        ],
+        "Career_Information": "成都某餐厅老板，擅长川菜烹饪",
+        "Name": "林芳"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "S",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "性格爽朗好交朋友",
+            "热爱美食和烹饪",
+            "喜欢挑战新事物，注重实际效果",
+            "偶尔参与地方社区活动，热衷于分享菜谱"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "时常和AI助理闲聊，喜欢讨论有趣的话题，不局限于特定领域",
+        "Usage_Pattern": "倾向于寻求实用性的信息和建议，例如新的菜谱和烹饪技巧",
+        "Emotion_Pattern": "喜欢分享自己的感受和心得，尤其是在菜品和烹饪方面",
+        "Purchase_Pattern": "喜欢尝试新奇产品，但实际操作性是优先考虑的因素"
+    },
+    "Preference": {
+        "Preferred_Styles": "偏好轻松愉快且互动性强的沟通风格，喜欢实用的小贴士",
+        "Preferred_Formats": "喜欢以图文并茂的方式呈现信息，有时也会希望有视频讲解",
+        "Preferred_Workflows": "喜欢从大局出发，再慢慢分解细节，重视实际操作和即时反馈"
+    },
+    "scenes": [
+        {
+            "scene_type": "新菜品研发：林芳想要在餐厅推出一款创新的川菜，寻求AI助理提供一些灵感和参考。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search the web for innovative Sichuan cuisine recipes and ideas, and provide the most relevant results."
+                }
+            },
+            "scene_desc": "林芳刚结束了一天的工作，正在餐厅的休息区放松。他想到最近餐厅的菜单需要一些新的菜品来吸引更多的顾客，因此决定向AI助理寻求一些创新川菜的灵感和参考。他拿出手机，打开AI助理应用，准备开始讨论新菜品的研发。",
+            "expected_response": "\n根据林芳的人设和行为模式，AI助理应该首先表现出对林芳的需求表示兴趣，并询问是否有特定的食材或菜系方向的偏好。由于林芳性格爽朗并喜欢分享，AI可以建议他尝试一些结合川菜经典元素和现代烹饪技巧的新菜品，并提供一些图文并茂的菜谱灵感。鉴于林芳喜欢实际操作和即时反馈，AI助理还可以推荐一些视频讲解，以便他能更直观地理解新菜品的制作方法。最后，AI应询问林芳是否需要进一步的详细步骤或具体的烹饪技巧建议，以确保新菜品在餐厅推出的实际效果。\n\n",
+            "scene_context": "林芳想要在餐厅推出一款创新的川菜，他希望AI助理能够提供一些灵感和参考。林芳具体关注的食材包括：花椒、辣椒、豆瓣酱和鱼。他希望这些食材可以融合现代烹饪技巧，例如分子料理或者西式摆盘，来创造一道既有川菜经典风味又具备创新视觉效果的新菜品。",
+            "personalized_query": "嘿，朋友，我刚刚结束了一天的忙碌，坐到餐厅的休息区放松一下。最近我在琢磨着咱们的菜单上可以添上一道新的创新川菜，想请你帮我出谋划策一下。\n\n我考虑用花椒、辣椒、豆瓣酱和鱼这些经典的川菜食材，结合一些现代的烹饪技巧，比如分子料理或者西式的摆盘风格。有没有什么灵感或者建议可以给我参考一下？",
+            "neutralized_query": "我正在寻找关于川菜创新菜品的灵感和建议，特别是结合一些经典食材和现代烹饪技巧。"
+        },
+        {
+            "scene_type": "餐厅管理：林芳在餐厅管理上遇到困难，希望AI助理能提供一些提高员工效率和顾客满意度的方法。",
+            "available_apis": {
+                "getEmployeeFeedback": {
+                    "arguments": [
+                        "employee_id"
+                    ],
+                    "description": "Retrieves feedback from employees regarding their work experience, challenges, and suggestions for improvement."
+                },
+                "getCustomerFeedback": {
+                    "arguments": [
+                        "time_period",
+                        "survey_type"
+                    ],
+                    "description": "Collects customer feedback from recent visits, focusing on their satisfaction and any suggestions for improvements."
+                },
+                "analyzeFeedback": {
+                    "arguments": [
+                        "feedback_data"
+                    ],
+                    "description": "Analyzes the collected feedback from employees and customers to identify common issues and areas for improvement."
+                },
+                "recommendStrategy": {
+                    "arguments": [
+                        "analysis_results"
+                    ],
+                    "description": "Based on the analysis results, recommends strategies to improve employee efficiency and customer satisfaction."
+                },
+                "resourceSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Searches for resources and articles on best practices for restaurant management, employee motivation, and customer satisfaction."
+                }
+            },
+            "scene_desc": "林芳是一位在成都经营餐厅的老板，最近他发现餐厅员工效率不高，顾客满意度也有所下降。他希望通过AI助理找到一些有效的方法来改善管理现状。林芳性格爽朗，热爱美食，喜欢和人打交道，因此他希望AI助理能提供一些实用且易于实施的建议，帮助提升整体的餐厅运营效果。",
+            "expected_response": "AI首先应该询问林芳遇到的具体管理困难以及他希望优先改善的方面，如员工效率或顾客满意度。考虑到林芳喜欢实用的信息和建议，AI可以推荐一些关于员工激励和顾客服务的现代管理技巧，可能会包括改善团队沟通、优化服务流程等具体措施。根据林芳喜欢图文并茂信息的偏好，AI可以提供图示和视频教程来帮助他更好地理解这些建议。AI还可以建议一些能够即时反馈的工具或应用，帮助他追踪改进效果。最后，AI应该鼓励林芳尝试新方法，并在过程中分享他的经验和心得，以便进一步优化餐厅管理。",
+            "scene_context": "林芳目前遇到的具体管理困难包括：员工在高峰时段的配合不佳，常出现错误订单和延迟服务的情况。此外，顾客反馈说菜品的口感和服务态度不稳定，这导致顾客满意度下降。林芳希望优先改善员工的工作效率，特别是在高峰时段的配合和服务质量，同时提升顾客满意度，确保菜品质量和服务的一致性。",
+            "personalized_query": "嗨，AI助手。最近我餐厅的员工效率不高，高峰时段配合不佳，顾客满意度也下降了。我想看看有没有什么实用的建议可以改善这个情况。有哪些办法可以提升员工在高峰期的配合效率，保证菜品和服务的一致性呢？",
+            "neutralized_query": "我需要一些建议来提高餐厅员工在高峰期的配合效率和顾客满意度的方法。"
+        },
+        {
+            "scene_type": "社交活动：林芳在当地社区活动中认识了很多新朋友，希望AI助理能推荐一些适合带朋友去的餐厅和活动。",
+            "available_apis": {
+                "getLocation": {
+                    "arguments": [],
+                    "description": "Gets the current location of the user to provide contextual recommendations."
+                },
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "林芳参加了社区举办的聚餐活动，认识了一些志趣相投的新朋友，他们对当地的美食文化非常感兴趣。为了增进友谊，林芳希望能邀请这些朋友一起去一些有趣的餐厅或者参与有特色的活动。他希望AI助理能够帮助他找到既能提供美味川菜，又有良好氛围的餐厅，并推荐一些适合朋友们共同参与的社区活动。",
+            "expected_response": "AI应该询问林芳对餐厅的具体要求，例如是否有特别的菜系偏好、餐厅的地理位置或者价位区间。随后，AI可以根据林芳对川菜的专业知识，推荐一些能够提供正宗川菜且适合社交活动的餐厅。接着，AI可以建议一些社区活动，特别是那些与美食相关的活动，以迎合林芳和朋友们的兴趣。AI还应提供这些餐厅和活动的详细信息，以图文并茂的形式呈现，并询问林芳是否需要查看用户评价或预订信息。",
+            "scene_context": "林芳需要查询的餐厅要求为：提供正宗川菜、地理位置在市中心、价位中等偏高、良好氛围适合社交活动。社区活动要求：与美食相关、适合多个朋友共同参与、有当地特色。",
+            "personalized_query": "AI助手，昨天我参加了一个社区聚餐，认识了些对成都美食非常感兴趣的新朋友。我想请他们吃一顿正宗的川菜。你能帮我推荐一下市中心有哪些氛围好的川菜馆吗？价位可以稍微高一点。我想找个适合社交活动的地方。",
+            "neutralized_query": "我需要推荐一些市中心氛围好的川菜馆，适合社交活动，价位可以稍微高一点。"
+        },
+        {
+            "scene_type": "美食分享：林芳准备在社交媒体上分享自己的新菜谱，希望AI助理帮忙优化和美化发布内容。",
+            "available_apis": {
+                "textOptimization": {
+                    "arguments": [
+                        "recipe_description",
+                        "highlighted_features"
+                    ],
+                    "description": "Optimize and beautify the given recipe description based on the highlighted features."
+                },
+                "imageSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search for high-quality images related to the given query (e.g., specific dishes or ingredients)."
+                },
+                "socialMediaAdvice": {
+                    "arguments": [
+                        "platform"
+                    ],
+                    "description": "Provide best practices for posting on the specified social media platform, including hashtags, posting times, and engagement tips."
+                }
+            },
+            "scene_desc": "林芳是一位50岁的餐厅老板，擅长川菜烹饪，性格爽朗且热爱与人交朋友。他喜欢在社交媒体上分享自己的美食创意和烹饪心得。这次，他准备在社交媒体上发布一份新的菜谱，希望通过AI助理的帮助来优化和美化发布内容。林芳希望菜谱在图文并茂的同时还能吸引更多的关注，并愿意尝试一些新颖的表现形式，以引起观众的兴趣。",
+            "expected_response": "根据林芳的个人设定，他喜欢轻松愉快且互动性强的沟通风格，同时对信息的实用性有较高的要求。AI助理首先应该询问林芳是否有特定的风格或主题，希望在发布内容中体现出来。接着，AI可以建议使用一些实用的小贴士来增加菜谱的吸引力，比如烹饪技巧的小视频或动态图片。在林芳确认后，AI应帮助优化文字描述，使其更加生动有趣并准确传达菜品的特点。最后，AI可以协助林芳选择合适的图片或视频格式，并在发布前预览效果，确保内容达到最佳的视觉和信息传达效果。",
+            "scene_context": "林芳准备在社交媒体上分享的菜谱是：麻婆豆腐、宫保鸡丁和鱼香肉丝。",
+            "personalized_query": "嘿，助手，我最近打算在社交媒体上分享一些新的川菜菜谱。想要你的帮助，看看怎样能让内容更吸引人、更有趣！我准备发布的菜谱有麻婆豆腐、宫保鸡丁和鱼香肉丝。有没有什么好建议来让这些菜谱既图文并茂又吸引眼球呢？",
+            "neutralized_query": "我需要一些建议来使即将分享的菜谱内容更吸引人、更有趣，并做到图文并茂。"
+        },
+        {
+            "scene_type": "营养均衡：林芳注重健康饮食，需要AI助理帮助搭配出既美味又营养均衡的每日餐单。",
+            "available_apis": {
+                "recipeRecommendation": {
+                    "arguments": [
+                        "dietary_preferences",
+                        "nutrition_requirements"
+                    ],
+                    "description": "Provides a list of daily meal plans that are both delicious and nutritionally balanced based on the user's dietary preferences and nutritional requirements."
+                },
+                "nutritionInfo": {
+                    "arguments": [
+                        "food_item"
+                    ],
+                    "description": "Returns detailed nutritional information for a given food item."
+                }
+            },
+            "scene_desc": "林芳是一位50岁的成都餐厅老板，热爱美食和烹饪，尤其擅长川菜。他性格爽朗好交朋友，喜欢挑战新事物，并热衷于分享菜谱。他注重实际效果，喜欢从大局出发，再慢慢分解细节，重视实际操作和即时反馈。林芳希望他的AI助理能够帮他制定每日既美味又营养均衡的餐单，以确保健康饮食。他喜欢轻松愉快且互动性强的沟通风格，偏好图文并茂的方式呈现信息，有时候也希望有视频讲解。",
+            "expected_response": "\nAI应该首先询问林芳的饮食偏好和任何特别的营养需求（例如低盐、低脂等），并确认是否有任何食材禁忌。接着，AI应该会根据这些信息和林芳擅长的川菜，提供几种营养均衡的菜品建议，并附上详细的食材清单和烹饪步骤。为了让林芳更容易理解和执行，AI可能会选择图文并茂的方式呈现这些信息，甚至提供相关的视频讲解。\n\n此外，AI应该会考虑林芳喜欢挑战新事物的特点，推荐一些新颖但实际操作性强的菜品。AI还可以根据林芳的餐厅经营情况，建议一些适合餐厅推广的新品。这些建议应当轻松愉快地进行互动，并结合林芳喜欢的实际操作和即时反馈，使得整个过程对他来说既有趣又实用。最后，AI可能还会定期跟进，询问林芳对这些餐单的实际体验和反馈，进一步优化以后的建议。",
+            "scene_context": "林芳的饮食偏好：喜欢川菜，偏辣。\n特别的营养需求：低盐、低脂。\n食材禁忌：对海鲜过敏。\n林芳希望每天的餐单包括：早餐、午餐、晚餐和两次小吃。\n他擅长的菜品：麻婆豆腐、宫保鸡丁、鱼香肉丝。\n他愿意尝试的新菜品种类：健康沙拉、新式烤菜。",
+            "personalized_query": "今天我想要制定一个健康美味的每日餐单，早餐、午餐、晚餐和两次小吃都要涵盖。饮食需要低盐、低脂，因为我对海鲜过敏，所以不需要海鲜的选项。你能帮我设计一下吗？",
+            "neutralized_query": "我想要制定一个健康美味的每日餐单，包括早餐、午餐、晚餐和两次小吃，要求低盐、低脂，并且不包括海鲜。你能帮我设计一下吗？"
+        },
+        {
+            "scene_type": "地方特色菜：林芳想要学习其他地区的特色菜品，希望AI助理能推荐一些经典且适合改良的地方菜谱。",
+            "available_apis": {
+                "recipeRecommendation": {
+                    "arguments": [
+                        "region"
+                    ],
+                    "description": "Recommends classic and modifiable regional recipes based on the specified region."
+                }
+            },
+            "scene_desc": "林芳在其餐厅经营中希望引入一些其他地区的特色菜，以吸引更多的顾客。他对烹饪新菜有兴趣，并乐于尝试不同的地方风味，同时也希望这些菜肴能够经过改良，以适应本地顾客的口味。因此，林芳寻求AI助手的建议，来获得一些值得尝试和适合改良的经典地方菜谱。",
+            "expected_response": "根据林芳的persona，他是一个热爱美食和烹饪的人，喜欢挑战新事物且注重实际效果。AI应该首先询问林芳对哪些地区的菜品特别感兴趣，并了解他是否有特定的烹饪风格或食材偏好。接着，AI应提供一份图文并茂的地方经典菜谱列表，并标记出哪些菜谱适合进行改良。AI还可以询问林芳是否需要视频教程，以便更好地掌握烹饪技巧。最后，AI可以提供一些关于如何将这些菜谱改良以适应本地口味的小贴士，并询问林芳是否需要进一步的即时反馈或建议。",
+            "scene_context": "林芳对以下几个地区的菜品特别感兴趣：四川、广东和湖南。林芳希望能够获得一些经典的地方菜谱，并且这些菜谱适合进行改良以适应本地顾客的口味。他特别喜欢使用川菜中的麻辣味、粤菜中的清淡鲜美和湘菜中的香辣风味。\n\n具体的菜谱查询需求如下：\n1. 四川菜：宫保鸡丁、麻婆豆腐、水煮鱼\n2. 广东菜：白切鸡、广式烧腊、虾饺\n3. 湖南菜：剁椒鱼头、香辣牛蛙、腊味合蒸\n\n他希望AI能够提供这些菜谱的详细制作过程，并且标注哪些步骤和食材可以进行改良。此外，林芳希望看到图文并茂的菜谱展示并获取一些改良小贴士，以便更好地适应本地顾客的口味。",
+            "personalized_query": "最近我想在餐厅增加一些其他地区的特色菜来吸引顾客。对四川、广东和湖南的几道经典菜有兴趣，但希望能稍微改良，让它们更适合本地人的口味。你能帮我找到这些菜的详细制作过程和可以改良的地方吗？另外，有图文并茂的菜谱就更好了！",
+            "neutralized_query": "我需要推荐一些其他地区的特色菜的制作过程和适合改良的地方，以便吸引顾客。"
+        },
+        {
+            "scene_type": "烹饪新手：林芳想要做一些烹饪教程视频，需要AI助理建议一些简单易学的菜品和视频制作技巧。",
+            "available_apis": {
+                "recipeSuggestion": {
+                    "arguments": [
+                        "cuisine_type",
+                        "difficulty_level"
+                    ],
+                    "description": "Suggests simple and easy-to-learn recipes based on the specified cuisine type and difficulty level."
+                },
+                "videoProductionTips": {
+                    "arguments": [
+                        "aspect"
+                    ],
+                    "description": "Provides tips on various aspects of video production such as lighting, audio, editing, and presentation."
+                }
+            },
+            "scene_desc": "林芳是一位50岁的成都餐厅老板，热爱烹饪和分享菜谱，喜欢尝试新事物。最近，他对制作烹饪教程视频产生了兴趣，想要拍摄一些简单易学的菜品，并希望获得AI助理的建议。林芳希望视频能够图文并茂，最好能包含一些视频制作的小技巧，以便他能够呈现出最好的效果。他通常会在闲暇时使用AI助理，不局限于特定领域的讨论，但在这次请求中，他更倾向于寻求实用性的建议和信息。",
+            "expected_response": "\n根据林芳的persona，AI助理应该首先询问他有没有特别喜欢的一些简单易学的川菜，或者他想介绍的招牌菜。AI还可以推荐一些容易制作且受欢迎的川菜食谱，考虑到林芳的烹饪技巧和经验，推荐的菜品应该适合新手但又能充分展示川菜的特点。接着，AI助理应该分享一些视频制作的小技巧，例如如何选择合适的拍摄角度、灯光布置以及如何进行简单的视频剪辑。因为林芳偏好图文并茂的呈现方式，AI可以提供一些图文教程或链接到相关的视频教程。同时，AI助理应该保持轻松愉快且互动性强的沟通风格，回答林芳关于视频制作的所有问题，并及时提供反馈，确保林芳能够顺利完成视频制作。",
+            "scene_context": "林芳想要做的几道简单易学的菜品包括：鱼香肉丝、宫保鸡丁和麻婆豆腐。",
+            "personalized_query": "你好，小助理！最近我对做烹饪教程视频很感兴趣，想拍摄鱼香肉丝、宫保鸡丁和麻婆豆腐这些简单易学的菜品。有没有什么建议可以帮助我把视频做得更好呢？比如一些视频制作的小技巧啊，或者怎样能做到图文并茂？",
+            "neutralized_query": "我需要一些关于拍摄烹饪教程视频的建议，比如简单易学的菜品选择和视频制作技巧。"
+        },
+        {
+            "scene_type": "食材采购：林芳在采购食材时遇到选择困难，希望AI助理提供最新的食材市场动态和性价比高的采购建议。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "林芳在他常去的批发市场采购食材时，面对琳琅满目的选择感到有些无从下手。他希望能够快速了解当前市场上有哪些食材性价比高，以及最新的市场动态。这时，他决定求助于AI助手，以便做出更明智的采购决策。",
+            "expected_response": "AI应该首先欢迎林芳，并询问他具体需要的食材种类，以便提供更有针对性的建议。接着，AI可以根据市场的实时数据，分享当前哪些食材价格实惠且质量好，特别是哪些适合用来烹饪川菜。AI应该提供图文并茂的信息，以便林芳快速浏览。同时，AI可以推荐一些采购技巧和保存方法，确保食材的新鲜度和实用性。最后，AI可以询问林芳是否需要其他的帮助，例如菜谱推荐或新菜品灵感。",
+            "scene_context": "林芳需要采购的食材有：青椒、鸡胸肉和蘑菇",
+            "personalized_query": "唉，今天在批发市场看着这么多食材，我有点晕哦。我想买点青椒、鸡胸肉和蘑菇，不晓得目前市场上哪种性价比最高，还有有没有一些最新的市场动态帮我参考一下？",
+            "neutralized_query": "我需要了解青椒、鸡胸肉和蘑菇的性价比以及最新的市场动态。"
+        },
+        {
+            "scene_type": "新奇厨具：林芳对一款新型智能厨具感兴趣，但不确定是否值得购买，希望AI助理提供详细评测和使用心得。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "林芳在某个周末的午后，正好在厨房里准备下周餐厅的新菜品。他在一个烹饪论坛上看到了一款新型智能厨具，这款厨具声称可以极大地提高烹饪效率并且保留食物的原味。林芳对此很感兴趣，但他不确定这款厨具是否真的如广告所说的那么好用，特别是对川菜的烹饪是否有帮助。因此，他打开了AI助手，希望能够得到详细的评测和使用心得，以便做出是否购买的决定。",
+            "expected_response": "\nAI助理应该首先询问林芳这款新型智能厨具的具体型号或名称，以便进行精准的搜索。接下来，AI助理应尽量提供详细的评测信息，包括用户评价、专业评测、功能特点、优缺点分析等，并特别关注这款厨具在川菜烹饪中的表现。考虑到林芳喜欢图文并茂的呈现方式，AI助理应该提供包含图片和视频的详细评测。此外，AI助理可以分享一些实际使用这款厨具烹饪川菜的视频教程，帮助林芳更好地理解其操作性和效果。最后，AI助理应该总结评测信息，并根据林芳的实际需求提供购买建议，例如是否值得购买，和餐厅现有厨具的兼容性如何等。",
+            "scene_context": "林芳感兴趣的新型智能厨具是「某某智能炒菜机2023版」。",
+            "personalized_query": "嘿，今天有空想和你聊聊。最近在研究一个新的炒菜机，说是可以提高效率，还能保留食物原味。感觉挺有意思的，但我还在想，要不要用它来试试做川菜。你有什么建议吗？知不知道它到底靠谱吗？",
+            "neutralized_query": "我需要关于一款新型炒菜机的详细评测和使用心得，尤其是它的效率和食物原味保留方面，它是否值得购买？"
+        },
+        {
+            "scene_type": "美食旅游：林芳计划去一个新的地方旅游，希望AI助理推荐当地的美食和必去的餐厅。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google for the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "林芳计划前往四川以外的一个城市进行美食旅游，他希望AI助理能够推荐当地的美食和必去的餐厅。林芳注重实际效果，喜欢挑战新的事物，并且倾向于获得实用信息和建议。他希望这次旅行能帮助他拓展对其他地方美食的认识，并可能启发他的新菜品创作。",
+            "expected_response": "AI应该首先询问林芳计划前往的具体城市，以便提供精准的建议。接着，AI应根据林芳的偏好，推荐一些当地知名的餐厅和特色菜品，并附上图文并茂的介绍。此外，AI应该提供一些视频链接，帮助林芳了解这些菜品的制作过程或者餐厅的风格。考虑到林芳喜欢实际操作性的信息，AI可以推荐一些游客常去的市场或烹饪课程，供林芳体验当地新鲜食材和烹饪技巧。最后，AI还可以提醒林芳关注餐厅的营业时间和是否需要提前预约，以确保行程顺利。",
+            "scene_context": "林芳计划前往的城市是西安。他希望了解西安的特色美食和必去的餐厅。",
+            "personalized_query": "嘿，小助手，我最近想去西安搞个美食旅游，你能帮我推荐一些当地特色美食和必去的餐厅吗？我想看看有没有什么新鲜的东西，可以给我的川菜馆带来一些灵感。",
+            "neutralized_query": "我需要你推荐一个旅游目的地的当地特色美食和必去的餐厅。"
+        }
+    ]
+}

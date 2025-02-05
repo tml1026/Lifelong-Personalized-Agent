@@ -1,0 +1,279 @@
+{
+    "Demographics": {
+        "Age": 50,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文"
+        ],
+        "Career_Information": "某建筑公司工地主管，拥有丰富的施工管理经验",
+        "Name": "张志强"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "S",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "热衷运动和户外活动",
+            "喜欢尝试新事物",
+            "享受解决实际问题的成就感"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "喜欢讨论实际问题和解决方案",
+        "Usage_Pattern": "使用频繁，喜欢直接提问和寻求快捷解决方案",
+        "Emotion_Pattern": "乐观向上，有时幽默风趣",
+        "Purchase_Pattern": "偏好高性价比和实用性强的产品"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢简明扼要、直截了当的回复风格",
+        "Preferred_Formats": "简短精炼，最好有步骤指导",
+        "Preferred_Workflows": "倾向于使用快速导航和直接解决方法"
+    },
+    "scenes": [
+        {
+            "scene_type": "项目进度跟踪：张志强需要制定一个高效的项目进度跟踪表，以确保施工进度按计划进行。",
+            "available_apis": {
+                "createProgressTrackingSheet": {
+                    "arguments": [
+                        "project_name",
+                        "tasks",
+                        "team_members",
+                        "timeline"
+                    ],
+                    "description": "Creates a project progress tracking sheet with specified tasks, team members, and timeline."
+                },
+                "updateProgress": {
+                    "arguments": [
+                        "task_id",
+                        "status",
+                        "comments"
+                    ],
+                    "description": "Updates the status and comments for a specific task in the project progress tracking sheet."
+                }
+            },
+            "scene_desc": "张志强正在为一个重要的建筑项目制定进度跟踪表。他需要确保施工进度能够按照计划推进，避免任何延误。面对复杂的施工流程和多样的任务，他希望能够制定一个高效且易于管理的进度表，以便于他和他的团队能够快速了解项目的当前状态及下一步任务。",
+            "expected_response": "AI应该首先询问张志强是否已经有一个基础的项目计划或需要从头开始制定。考虑到张志强喜欢简明扼要和直接的操作，AI应该提供一个模板或建议使用的工具，以便快速建立进度表。AI接着应询问是否需要对不同类型的任务进行分类，如设计、施工、审核等。由于张志强倾向于高性价比的解决方案，AI可以推荐一些免费的或性价比高的项目管理工具。AI还应该提供步骤指导，帮助张志强输入具体的任务、负责人员和预计完成时间。最后，AI应询问是否需要设置自动提醒功能，以便张志强及时跟踪项目进展，确保项目按计划推进。",
+            "scene_context": "张志强目前的项目计划包含以下主要里程碑和任务：\n1. **设计阶段**：\n   - 完成初步设计方案 - 预计完成时间：2023年10月15日\n   - 收集设计反馈并修订方案 - 预计完成时间：2023年10月22日\n   - 最终设计方案确认 - 预计完成时间：2023年10月29日\n\n2. **施工准备阶段**：\n   - 获得所有必要的施工许可 - 预计完成时间：2023年11月5日\n   - 采购和交付主要施工材料 - 预计完成时间：2023年11月12日\n\n3. **施工阶段**：\n   - 地基施工 - 预计完成时间：2023年11月19日\n   - 结构施工 - 预计完成时间：2023年12月10日\n   - 屋顶及外墙施工 - 预计完成时间：2023年12月24日\n\n4. **审核和验收阶段**：\n   - 内部审核 - 预计完成时间：2023年12月31日\n   - 外部验收 - 预计完成时间：2024年1月7日\n\n张志强希望能够使用一款免费的项目管理工具，并需要设置任务分类（如设计、施工、审核等）以及自动提醒功能，以确保任何任务延误都能及时处理。",
+            "personalized_query": "哎，最近我正在搞一个重要的建筑项目，想做一个进度跟踪表。需要一款免费的项目管理工具，有任务分类和自动提醒功能的推荐吗？",
+            "neutralized_query": "我需要推荐一款免费的项目管理工具，具有任务分类和自动提醒功能，用于制作进度跟踪表。"
+        },
+        {
+            "scene_type": "施工现场安全管理：张志强发现工地上某些安全措施落实不到位，需要立即采取行动并制定改善方案。",
+            "available_apis": {
+                "checkSafetyMeasures": {
+                    "arguments": [
+                        "site_id"
+                    ],
+                    "description": "Checks the current safety measures implemented at the given construction site and returns a report on their status."
+                },
+                "sendAlert": {
+                    "arguments": [
+                        "recipients",
+                        "message"
+                    ],
+                    "description": "Sends an urgent alert to the specified recipients (e.g., site manager, safety officer) with the provided message."
+                },
+                "recordImprovementPlan": {
+                    "arguments": [
+                        "site_id",
+                        "plan_details"
+                    ],
+                    "description": "Records the planned improvements for the specified construction site and tracks the implementation progress."
+                }
+            },
+            "scene_desc": "张志强在工地巡视时发现，某些安全措施比如安全帽和防护栏杆的使用并没有完全落实到位。考虑到他的丰富施工管理经验和对工地安全的重视，他需要立即采取行动，制定一个改善方案。张志强希望尽快找到解决方案，以确保工人的安全不受威胁。\n\n在这个场景中，张志强会使用他的终端AI助手来寻求帮助，了解如何立即改善这些安全措施。他希望AI助手能提供简明扼要、直接有效的建议和解决方法。\n\n假设张志强打开AI助手并开始询问有关施工现场安全管理的问题。",
+            "expected_response": "\n根据张志强的persona描述，他是一个经验丰富的施工管理主管，喜欢简明扼要和直接的沟通，并且倾向于使用快速导航和直接解决方法。AI助手应该首先确认张志强具体发现了哪些安全措施没有落实，询问是否有具体的安全问题（例如，工人没有佩戴安全帽、护栏缺失等）。然后，AI应该提供一系列具体且可操作的步骤来改善这些安全措施，可能包括：\n\n1. 提供立即可执行的安全检查清单，以确保所有工人都佩戴了安全帽和其他防护装备。\n2. 建议张志强立即安排一次全体工人的安全培训，强调安全措施的重要性。\n3. 背景联网搜索最新的施工安全管理最佳实践，并推荐适用于当前工地的一些改善方案。\n4. 提供联系人信息或链接到相关的安全设备供应商，以便张志强可以立即订购缺失的防护装备。\n5. 提示张志强记录当前的安全问题，并在后续的施工中进行持续的监控和改进。\n\nAI助手还应该简明扼要地呈现这些信息，以便张志强能够快速了解和执行。最后，AI可能会建议张志强定期使用AI工具进行自动化的安全检查，以防止类似问题再次发生。",
+            "scene_context": "张志强需要改善的具体安全措施包括：确保所有工人佩戴安全帽、安装和检查防护栏杆的稳固性、清理施工现场的杂物和障碍物、加强高空作业区域的安全防护。",
+            "personalized_query": "我在工地发现一些安全措施没有落实到位，比如安全帽和防护栏杆的问题。你能给我一些直接有效的建议，帮我改善这些安全措施吗？",
+            "neutralized_query": "我需要一些直接有效的建议来改善工地上的安全措施。"
+        },
+        {
+            "scene_type": "户外探险活动：张志强在周末组织了一次户外探险活动，享受大自然的同时挑战自我。",
+            "available_apis": {
+                "locationFinder": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Finds suitable outdoor locations based on the given query, such as 'best hiking trails near me'."
+                },
+                "weatherCheck": {
+                    "arguments": [
+                        "location"
+                    ],
+                    "description": "Checks the weather forecast for the given location to ensure safe and enjoyable outdoor activities."
+                },
+                "inviteParticipants": {
+                    "arguments": [
+                        "participants",
+                        "message"
+                    ],
+                    "description": "Sends invitations to the list of participants with details about the planned outdoor activity."
+                }
+            },
+            "scene_desc": "张志强利用周末组织了一次户外探险活动，他喜欢挑战自我并享受大自然。在这次活动中，他带领一群同事和朋友，计划探索一条具有一定挑战性的山路。他希望在活动中能顺利地指导团队，确保每个人都能安全而愉快地完成这次探险。",
+            "expected_response": "根据张志强的persona描述，他倾向于直接解决问题和获取快速响应。AI应该首先协助他规划这次探险活动，包括推荐适合的路线、天气预报以及必要的装备清单。AI可以帮助他快速查找相关路线的地图和注意事项。同时，AI应该提供简单易懂的步骤来确保活动的安全性，比如紧急联系信息或急救措施。最后，AI应该询问是否需要设定提醒，以便在活动前一天提醒他检查所有必要物品是否准备齐全。",
+            "scene_context": "张志强需要探索的山路是：黄山西海大峡谷、峨眉山金顶路线和青海湖二郎剑景区环湖路。",
+            "personalized_query": "最近我组织了一次户外探险活动，打算探索一条比较有挑战性的山路。我带着一群同事和朋友，希望能顺利地指导整个团队，让大家安全愉快地完成这次探险。你能帮我查询一下黄山西海大峡谷、峨眉山金顶路线和青海湖二郎剑景区环湖路的相关信息吗？比如天气状况、路线难度、以及一些注意事项。",
+            "neutralized_query": "<neutralized_query>  \n我需要查询黄山西海大峡谷、峨眉山金顶路线和青海湖二郎剑景区环湖路的相关信息，包括天气状况、路线难度，以及一些注意事项。    "
+        },
+        {
+            "scene_type": "紧急情况处理：张志强在施工现场遇到突发问题，需要他快速做出决策并指导团队解决。",
+            "available_apis": {
+                "evaluateIssue": {
+                    "arguments": [
+                        "issue_description",
+                        "urgency_level"
+                    ],
+                    "description": "Evaluates the issue described and provides professional suggestions based on the urgency level."
+                },
+                "contactSupport": {
+                    "arguments": [
+                        "contact_personnel",
+                        "issue_details"
+                    ],
+                    "description": "Contacts the relevant personnel or experts to provide support and coordinate resources needed to resolve the issue."
+                }
+            },
+            "scene_desc": "张志强是某建筑公司工地的主管，拥有丰富的施工管理经验。他当天在施工现场监督一项重要的工程进展时，突然遇到一个突发问题：一块关键的支撑梁在安装过程中出现了偏差，导致整个施工进度受到影响。由于这个问题需要快速解决，以免影响整个工程的进度和安全，张志强需要立刻做出决策并指导团队进行调整。\n\n现场情况复杂，有大量施工设备和工人，张志强需要迅速评估情况，并找到最有效的解决方案。同时，他需要与远程的技术团队和供应商沟通，以确保有足够的资源和支持。他紧急打开终端上的AI助手，寻求帮助。",
+            "expected_response": "\n根据张志强的persona描述，他是一个热衷于解决实际问题的乐观向上的人，有着丰富的施工管理经验。AI应该首先迅速理解问题的紧急性，并直接询问具体问题的细节（如支撑梁的型号、安装的具体位置和当前偏差的程度）。接着，AI应该根据张志强提供的信息，立即搜索可能的解决方案，并提供步骤指导。\n\nAI应优先推荐实用且高效的解决方法，并提出具体的操作步骤（如调整支撑梁的位置、临时加固等）。同时，AI可以帮助张志强联系相关的远程技术团队或供应商，快速获取专业建议或所需资源。\n\n此外，AI应该保持简明扼要的回复风格，确保信息传达清晰，帮助张志强迅速做出决策并指导团队实施。AI还可以提供紧急情况下的安全指导和注意事项，确保在解决问题的同时，工地的安全不受影响。\n\n总结来说，AI在这种紧急情况下，应该快速、有效地提供具体的解决方案，并且步骤清晰简明，符合张志强的需求和工作习惯。",
+            "scene_context": "张志强遇到的具体问题是：在施工现场，一块关键的支撑梁型号为H200X200，被安装在楼层的第三层位置，但安装过程中出现了5度的偏差，导致整体结构不稳定。现需张志强紧急决策并指导团队进行调整，以确保施工进度和安全。",
+            "personalized_query": "AI助手，我在现场发现一块H200X200的支撑梁在安装时出现了5度的偏差，这直接影响了结构的稳定性和施工进度。我需要迅速找到一个可靠的解决方案来调整它。你能帮我分析一下有哪些可行的方法吗？同时，帮我查一下相关技术文档或者解决这种情况的最佳实践。",
+            "neutralized_query": "我需要一个关于施工现场支撑梁安装出现偏差的解决方案，并查找相关技术文档或最佳实践。"
+        },
+        {
+            "scene_type": "新设备试用：张志强得到机会试用一款新的建筑设备，他非常兴奋地想要测试其性能并评估其实际效果。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "张志强作为一名建筑公司工地主管，得到了试用新建筑设备的机会。他在施工管理方面经验丰富，对于新设备的性能和实际效果充满期待。他计划在工地上通过实际操作来测试这款设备，以便判断其在项目中的适用性和效率提高方面的潜力。张志强希望尽快了解设备的特点和使用方法，以便在工地上进行实地测试。他打算利用AI助手来帮助他迅速获取设备的相关信息，并指导他如何进行有效的测试。",
+            "expected_response": "根据张志强的persona描述，AI应该能够快速响应他对新设备的兴趣。AI首先应该提供关于设备的简明扼要的性能和特点介绍，以便张志强能够快速掌握基本信息。接下来，AI应提供设备试用的步骤指导，帮助张志强在工地上进行实际操作测试。此外，AI可以推荐一些设备的最佳使用场景，帮助张志强评估设备在实际工程中的表现。由于张志强偏好高性价比和实用性强的产品，AI还可以帮助他评估设备的成本效益分析。最后，AI可以询问张志强是否需要进一步的技术支持或培训资源，以便充分利用新设备的功能。",
+            "scene_context": "张志强需要试用的新建筑设备为：XYZ2000型智能挖掘机、ABC1000型混凝土搅拌机、DEF3000型塔式起重机",
+            "personalized_query": "嘿，我刚拿到一些新设备，想尽快了解一下它们的特点和使用方法，特别是XYZ2000型智能挖掘机。能给我提供一些信息，还有怎么在工地上有效测试的方法吗？",
+            "neutralized_query": "我需要了解XYZ2000型智能挖掘机的特点和使用方法，以及如何在工地上有效测试这种设备。"
+        },
+        {
+            "scene_type": "成本优化方案：张志强在施工过程中发现材料费用超预算，需要他重新评估并提出更经济的解决方案。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search the web for market prices of the materials and potential alternatives, and return the most relevant response."
+                },
+                "getSupplierInfo": {
+                    "arguments": [
+                        "material"
+                    ],
+                    "description": "Retrieve information on suppliers and their quotes for the specified material."
+                },
+                "generateReport": {
+                    "arguments": [
+                        "currentMaterials",
+                        "alternativeMaterials",
+                        "costComparison"
+                    ],
+                    "description": "Generate a detailed cost optimization report comparing current materials with potential alternatives."
+                }
+            },
+            "scene_desc": "张志强在施工过程中发现材料费用超预算，这对项目的整体预算产生了不小的影响。他需要重新评估当前的材料使用情况，寻找更经济的替代方案，同时确保质量不受影响。他打开了AI助手，准备询问关于成本优化的建议和方案。",
+            "expected_response": "根据张志强的persona描述，他是一个务实且直接的人，AI应该能够迅速理解并响应他的需求。首先，AI应该询问具体的材料费用超预算的部分，了解详细情况。接着，AI应该提供几种常见的成本优化策略，并建议张志强考虑几种替代材料或供应商。AI还应该提供相关的市场调查数据或供应商报价，帮助他做出决策。为了简化操作，AI可以生成一个步骤指南，指导张志强如何实施这些建议。最后，AI应该提醒张志强在实施方案时需要注意的质量控制要点，并提供相关的文档和工具链接。整个过程中，AI应该保持简明扼要、步骤明确的回复风格，以符合张志强的偏好和使用习惯。",
+            "scene_context": "张志强发现超预算的材料包括：钢筋、水泥和木材。钢筋的价格比预期高15%，水泥的价格高10%，而木材的价格高20%。张志强希望AI助手能够提供这三种材料的替代方案，并推荐可信赖的供应商。同时，他需要了解市场上这些材料的当前价格和质量评估报告，以便做出更明智的决策。",
+            "personalized_query": "我在施工项目中发现了材料费用超预算，尤其是钢筋、水泥和木材的价格比预期高了不少。我需要你帮我找些更经济的替代方案，同时要确保质量不受影响。你能给我一些建议吗？",
+            "neutralized_query": "我需要在施工项目中找些更经济的材料替代方案，同时确保质量不受影响。你能给我一些建议吗？"
+        },
+        {
+            "scene_type": "工地沟通技巧：张志强需要参与一个关于如何更有效地与工人和团队沟通的培训活动。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "张志强正在准备参加一个关于如何更有效地与工人和团队沟通的培训活动。作为一个建筑公司工地主管，张志强希望通过这次培训提高自己的沟通技巧，以便更好地解决实际工作中的问题，提升团队的工作效率和合作精神。他对培训内容非常关注，尤其希望能够获得一些实际的、可操作的建议和方法。",
+            "expected_response": "\nAI应该首先询问张志强对培训内容的具体期望和关注点，特别是他希望解决的实际沟通问题。AI还应该为张志强推荐一些与建筑行业相关的沟通技巧和案例研究，确保内容简明扼要、直截了当。AI可以提供一个步骤指导，帮助张志强在培训前做好准备，例如如何提出问题、如何与不同性格的工人进行有效沟通等。由于张志强喜欢讨论实际问题和解决方案，AI还可以建议一些实际的情景模拟或角色扮演练习，帮助他在培训中更好地理解和应用所学的技巧。最后，AI可以为张志强提供一些高性价比和实用性强的培训资源或书籍推荐，确保培训效果最大化。",
+            "scene_context": "张志强在工地沟通中遇到的具体问题包括：1. 如何有效传达安全措施和工作指令；2. 如何处理工人之间的冲突；3. 如何激励工人提高工作效率和合作精神。他希望能够获得以下方面的具体建议和方法：1. 面对面沟通技巧；2. 非语言沟通技巧；3. 运用技术手段（如手机应用或对讲机）优化沟通流程。此外，张志强还对以下培训内容感兴趣：1. 通过真实案例学习成功的沟通方法；2. 角色扮演练习；3. 推荐的书籍或在线资源。",
+            "personalized_query": "最近我报名参加了一个关于提高沟通技巧的培训，想提前做些准备。工地上，我在传达安全措施和处理工人冲突上有些困惑。你能帮我找些实用的技巧和方法吗？比如，不知道有没有适合工地现场的沟通规范或者高效的技术手段之类的。",
+            "neutralized_query": "我需要一些关于在工地上提高沟通技巧的实用方法和技巧，特别是在传达安全措施和处理冲突方面。"
+        },
+        {
+            "scene_type": "团队激励活动：张志强计划策划一次团队建设活动，以提高工地团队的凝聚力和工作积极性。",
+            "available_apis": {
+                "eventPlanner": {
+                    "arguments": [
+                        "event_type",
+                        "participants",
+                        "preferred_dates",
+                        "activity_preferences"
+                    ],
+                    "description": "Plans and organizes a team-building event based on the given parameters such as event type, participants, preferred dates, and activity preferences."
+                },
+                "sendInvitation": {
+                    "arguments": [
+                        "recipients",
+                        "event_details"
+                    ],
+                    "description": "Sends invitations to the selected recipients with the details of the planned team-building event."
+                }
+            },
+            "scene_desc": "张志强作为建筑公司工地的主管，计划策划一次团队建设活动，以提高工地团队的凝聚力和工作积极性。因为他热衷运动和户外活动，他可能会考虑组织一个户外运动或拓展训练。同时，张志强喜欢直接讨论实际问题和解决方案，因此他会希望这次活动不仅能提升团队精神，还能解决一些实际工作中的问题。他对高性价比和实用性强的活动形式有偏好，并且希望活动安排简明扼要、直截了当。",
+            "expected_response": "\n根据人设，AI应该首先询问张志强对于团队建设活动的具体目标和期望。接着，AI可以建议几种不同类型的活动，例如户外运动或者拓展训练，并简要介绍每种活动的优势和可能的效果。AI还应该询问活动的预算、时间安排和参加人数，以便提供更精确的建议。由于张志强喜欢简短精炼的步骤指导，AI应提供清晰的活动组织步骤，包括预订场地、活动流程、所需物资等。由于张志强倾向于高性价比，AI可以推荐一些实用性强且价格合理的活动选项，并帮助他进行预订和协调工作。最后，AI可以提供一个概述性的活动计划供张志强确认，并在必要时发送邀请函给团队成员。",
+            "scene_context": "张志强计划组织的团队建设活动包括以下几种可能的选择：野外攀岩、团队拓展训练和徒步旅行。他的预算大约在5000元左右，活动时间安排在周末，预计参加人数为20人。张志强希望通过这次活动提升团队合作能力，同时解决一些在日常工作中遇到的问题，例如沟通不畅和任务分配不合理的问题。他希望AI助手能够提供这些活动的具体安排指导和预订建议。",
+            "personalized_query": "你好，我计划组织一次团队建设活动，想要了解一些适合户外运动或者拓展训练的选择，预算大概在5000元左右。我想提升团队的沟通合作能力，解决日常工作中遇到的沟通不畅等问题。你有什么建议吗？",
+            "neutralized_query": "我需要建议一些适合户外运动或拓展训练的团队建设活动，以提高团队的沟通和合作能力。预算大概在5000元左右。"
+        },
+        {
+            "scene_type": "高效工具推荐：张志强希望找到一些性价比高且实用的工具，以提高施工现场的工作效率。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "getProductDetails": {
+                    "arguments": [
+                        "product_name"
+                    ],
+                    "description": "Get detailed information and purchase link for the specified product."
+                }
+            },
+            "scene_desc": "张志强是一名50岁的建筑公司工地主管，他有丰富的施工管理经验。他热衷于运动和户外活动，喜欢尝试新事物，并享受解决实际问题的成就感。他性格外向，乐观向上，有时幽默风趣。他喜欢简明扼要、直截了当的回复风格，倾向于使用快速导航和直接解决方法。在某个早晨，张志强正在工地巡视并思考如何提高施工现场的工作效率。他决定使用他的AI助手来寻找一些性价比高且实用的工具，以便提高现场的工作效率。他希望这些工具能够帮助他和他的团队更快地完成任务，同时保证施工质量。",
+            "expected_response": "\n根据张志强的persona描述，AI应该首先针对性地询问他所需要的工具的具体类别或用途（如测量工具、电动工具等），以便推荐最合适的选项。接着，AI应该提供一些高性价比且实用的工具清单，并附上每个工具的简短描述和优缺点对比。AI还应该询问他的预算范围，以便推荐符合预算的产品列表。由于张志强喜欢简明扼要的回复，AI在提供工具信息时应尽量简短精炼。为进一步提高效率，AI可以直接给出购买链接或附近有售的实体店地址。最后，AI可以询问是否需要进一步的施工管理建议或其他帮助，以确保张志强能够快速、高效地作出决策。",
+            "scene_context": "张志强希望找到以下几类工具以提高施工现场的工作效率：\n1. 测量工具（如激光测距仪、水平仪）\n2. 电动工具（如电钻、电锤）\n3. 安全防护用品（如安全帽、防护手套）\n\n他希望这些工具性价比高且实用，并且预算在5000元以内。",
+            "personalized_query": "早上好，今天天气不错，适合在工地上干活。我现在有个问题，我想购买一些性价比高且实用的工具，以提高施工现场的工作效率。我的预算是5000元内。能不能帮我推荐一些测量工具、电动工具或者安全防护用品之类的？",
+            "neutralized_query": "我需要购买一些性价比高且实用的工具，以提高施工现场的工作效率，预算是5000元内。能推荐一些测量工具、电动工具或安全防护用品吗？"
+        },
+        {
+            "scene_type": "运动健身计划：张志强在繁忙工作之余，寻找一个针对性强的健身计划来保持身体健康。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "generateFitnessPlan": {
+                    "arguments": [
+                        "user_profile",
+                        "goals"
+                    ],
+                    "description": "Generates a personalized fitness plan based on the user's profile and fitness goals."
+                }
+            },
+            "scene_desc": "张志强是一位50岁的建筑公司工地主管，拥有丰富的施工管理经验。在繁忙的工作之余，他热衷于运动和户外活动，并喜欢尝试新事物。为了保持身体健康，他正在寻找一个有针对性的健身计划。张志强喜欢讨论实际问题和解决方案，性格乐观向上，有时幽默风趣。作为一名实际问题解决者，他偏好高性价比和实用性强的产品，喜欢简明扼要的回复风格和快速导航的解决方法。",
+            "expected_response": "\n首先，AI应该询问张志强的健身目标是什么，例如是减肥、增肌还是增强体能。接着，AI应询问他每天或每周能投入多少时间进行锻炼，以及他是否有任何特定的健身偏好或限制（比如特别喜欢的运动项目或需要避免的动作）。AI应该提供一个简明扼要、步骤清晰的健身计划，具体包括每周的锻炼次数、每次锻炼的时间及具体的锻炼内容（如有氧运动、力量训练、拉伸等），并建议所需的器材。AI还应考虑张志强对高性价比和实用性强的产品的偏好，推荐性价比高、适合家庭或户外使用的健身器材。最后，AI可以询问张志强是否需要定期的提醒和记录功能来跟踪他的进展，并提供一些激励机制帮助他保持运动习惯。",
+            "scene_context": "张志强的健身目标是增强体能和增肌。他每天可以投入30分钟进行锻炼，每周可以锻炼5天。他特别喜欢户外跑步和徒步旅行，但由于膝盖有些旧伤，需要避免高冲击力的动作。他还希望在健身计划中包含一些力量训练和核心训练，但不确定如何开始。他已经有一些基础的健身器材，比如哑铃和瑜伽垫，希望尽量利用现有器材，避免额外的高额花费。",
+            "personalized_query": "嘿，我最近想定制一个健身计划，主要是增强体能和增肌。每天我大概能投入30分钟锻炼时间，每周锻炼5天。户外跑步和徒步是我比较喜欢的，但因为膝盖有点旧伤，所以要避免高冲击力动作。手边有哑铃和瑜伽垫，希望能够利用这些器材而不需要额外开销。能帮我设计个计划吗？",
+            "neutralized_query": "我需要一个健身计划，主要是增强体能和增肌，每天大约30分钟，每周锻炼5天，避免高冲击力动作，并利用现有的哑铃和瑜伽垫。"
+        }
+    ]
+}

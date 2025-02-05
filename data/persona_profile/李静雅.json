@@ -1,0 +1,36 @@
+{
+    "Demographics": {
+        "Age": 35,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "在某时尚杂志担任编辑",
+        "Name": "李静雅"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "I",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "关注潮流趋势",
+            "热衷文化艺术",
+            "喜欢心理学"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "喜欢探索新概念和趋势",
+        "Usage_Pattern": "使用频率中等；喜欢进行深度对话和分享见解",
+        "Emotion_Pattern": "对新的和创新的回复感到兴奋",
+        "Purchase_Pattern": "偏爱独特和有个性的商品"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢细腻且富有层次的表达",
+        "Preferred_Formats": "偏好对话形式",
+        "Preferred_Workflows": "喜欢从背景到细节逐步展开的讨论"
+    },
+    "scenes": []
+}

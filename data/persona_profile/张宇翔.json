@@ -1,0 +1,265 @@
+{
+    "Demographics": {
+        "Age": 29,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "自由职业摄影师，喜欢探索城市的每个角落",
+        "Name": "张宇翔"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "热爱旅行，尤其是城市探险",
+            "喜欢摄影，尤其街头摄影",
+            "喜欢与各种人交流，获取不同视角",
+            "是科技发烧友，喜欢尝试新科技产品",
+            "对艺术有独特的见解，常参观画廊和艺术展"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "近期关注各类摄影比赛和展览的信息",
+        "Usage_Pattern": "用AI助手来获取创意灵感和新拍摄地点的推荐",
+        "Emotion_Pattern": "对照片的评价和建议有敏感的反应",
+        "Purchase_Pattern": "偏爱高质量摄影设备，对价格相对敏感"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢简洁明了的建议和信息",
+        "Preferred_Formats": "倾向于视觉化的信息展示，比如图表和照片",
+        "Preferred_Workflows": "希望AI在提供创意时能有一定的灵活度，给出多种选项"
+    },
+    "scenes": [
+        {
+            "scene_type": "新城市探查：张宇翔在一个新城市寻找独特的街头景象，探索未被发现的拍摄地点。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "张宇翔在一个新城市，他背着相机，走在城市的街头，寻找独特的拍摄地点。他对城市探险充满了热情，希望能捕捉到那些未被广泛摄影师发现的隐秘角落。这时候，他拿出手机，启动了AI助手，准备寻求一些灵感和拍摄地点的推荐。",
+            "expected_response": "\n根据张宇翔的persona描述，他是一个喜欢探索城市角落和进行街头摄影的自由职业摄影师，并且对艺术和新科技充满兴趣。AI应该首先询问张宇翔是否有特定的拍摄主题或风格（如街头艺术、夜景、建筑等）。接着，AI可以基于他对视觉化信息的偏好，提供一些经过筛选的推荐地点，可能包括地图标记、街景图片和地点的简短描述。AI还可以建议一些最新的摄影比赛或展览，让张宇翔获取更多灵感。考虑到张宇翔对新科技产品的兴趣，AI还可以推荐一些适合街头摄影的新摄影设备或配件。最终，AI应该保持简洁明了的建议和信息，并提供灵活的选项，让张宇翔可以根据自己的兴趣和需求进行选择。",
+            "scene_context": "张宇翔当前所在的城市是柏林，他对以下拍摄主题和风格感兴趣：街头艺术、工业风建筑和夜景。他希望探索一些未被广泛摄影师发现的隐秘角落，包括废弃工厂、涂鸦墙和有独特灯光效果的街道。",
+            "personalized_query": "嘿，小助手！我现在在柏林，正走在街头寻找一些特别的拍摄地点。你能推荐一些不太有名但很有趣的地方吗？尤其是那些有街头艺术、工业风建筑或是夜景灯光效果独特的地方。谢谢！",
+            "neutralized_query": "我需要寻找一些不太有名但很有趣的拍摄地点，特别是有街头艺术、工业风建筑或夜景灯光效果独特的地方。"
+        },
+        {
+            "scene_type": "摄影合同洽谈：张宇翔与潜在客户进行摄影合同的洽谈，确保拍摄需求和预算都得到满足。",
+            "available_apis": {
+                "queryClientRequirements": {
+                    "arguments": [
+                        "client_name"
+                    ],
+                    "description": "Queries the specific photography requirements and budget from the potential client."
+                },
+                "generateQuoteAndProposal": {
+                    "arguments": [
+                        "photography_requirements",
+                        "budget"
+                    ],
+                    "description": "Generates a quote and proposal based on the client's photography requirements and budget."
+                },
+                "scheduleMeeting": {
+                    "arguments": [
+                        "participants",
+                        "preferred_time_slot"
+                    ],
+                    "description": "Schedules a meeting with the participants to discuss the photography contract in detail."
+                }
+            },
+            "scene_desc": "张宇翔正在与一位潜在客户通过视频会议商讨一份摄影合同。客户希望在预算内获得高质量的城市街头摄影作品，用于新的广告宣传。张宇翔需要确保了解客户的具体拍摄需求、风格偏好，以及预算范围。他希望能够通过AI助手快速获取相关拍摄灵感和场地建议，以便在洽谈中展示给客户。",
+            "expected_response": "根据张宇翔的persona描述，AI应该首先询问客户的具体拍摄需求，包括风格和预期用途。接着，AI应提供几个城市中适合街头摄影的地点建议，并展示相关照片，以便张宇翔可以向客户展示。AI还应询问预算限制，并帮助张宇翔在预算内提出合适的方案。为了确保合作顺利，AI应提供多个拍摄选项，展示灵活性，并且记录会议要点以便后续跟进。由于张宇翔对艺术有独特见解，AI可以推荐一些近期相关的摄影展览或比赛，作为潜在的灵感来源。",
+            "scene_context": "张宇翔需要谈判的摄影合同涉及以下几个方面：\n1. 拍摄需求：客户希望在城市中拍摄一些具有创意和艺术感的街头摄影，用于广告宣传。具体风格偏好为现代、简约和富有活力的作品。\n2. 拍摄地点：希望在以下几个城市中选择合适的街头摄影地点：\n   - 纽约：推荐拍摄地点包括布鲁克林大桥、SOHO区和时代广场。\n   - 东京：推荐拍摄地点包括涩谷十字路口、原宿和秋叶原。\n   - 巴黎：推荐拍摄地点包括蒙马特高地、圣米歇尔广场和玛黑区。\n3. 预算范围：客户的预算为5000美元，希望在这范围内实现高质量的拍摄。\n4. 拍摄灵感：AI助手需要推荐一些近期相关的摄影展览和比赛，例如：\n   - 纽约摄影展览：“纽约街头摄影节”\n   - 东京摄影展览：“东京国际摄影节”\n   - 巴黎摄影展览：“巴黎街头艺术摄影展”\n5. 会议记录：AI助手需要记录会议要点，包括客户的需求、风格偏好、预算限制和讨论的所有拍摄选项，以便后续跟进。\n6. 灵活方案：AI助手应帮助张宇翔提出多个拍摄方案，展示灵活性，以便更好地满足客户的需求。",
+            "personalized_query": "嘿，今天我跟一个潜在的客户在视频会议上聊了一份街头摄影的合同。客户希望在预算内获得一些现代、简约和富有活力的城市街头摄影作品，但我需要确保了解他们的具体需求、风格喜好，以及预算限制。我想让你帮我获取一些创意灵感和地点建议，可以吗？",
+            "neutralized_query": "我需要一些创意灵感和地点建议，以满足客户对现代、简约、富有活力的城市街头摄影的需求，并考虑预算限制。"
+        },
+        {
+            "scene_type": "创意头脑风暴：张宇翔与朋友们在咖啡馆讨论新的摄影创意，激发彼此的灵感。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google for the given query and return the most relevant response."
+                },
+                "recommendResources": {
+                    "arguments": [
+                        "resource_type"
+                    ],
+                    "description": "Recommend tools, software, or resources related to photography."
+                }
+            },
+            "scene_desc": "张宇翔与几个朋友坐在咖啡馆的角落，桌上摆放着几本摄影杂志和各自的笔记本电脑。他们正在讨论如何以一种新的视角拍摄城市生活，以便参加即将到来的摄影比赛。张宇翔希望AI助手能为他们提供一些新颖的摄影创意，以及推荐合适的地点进行拍摄。",
+            "expected_response": "AI应该首先询问张宇翔对本次创意的具体需求，例如是否有特定主题或风格的偏好。接着，AI可以根据城市探索和街头摄影的兴趣，提供一些关于城市生活的新鲜角度或视角的建议。这些建议应该通过视觉化的方式展示，如参考照片或简洁的图表。然后，AI应该根据近期展览和比赛的信息推荐一些适合拍摄的城市地点。AI还可以询问张宇翔和他的朋友们是否需要多样化的选项，以便更好地激发灵感并让他们选择最感兴趣的创意。此外，AI应考虑到张宇翔对评价的敏感性，在提供建议时保持积极和鼓励的态度。",
+            "scene_context": "张宇翔和他的朋友们正在讨论以下几个方面的摄影创意： \n1. 以“夜晚的城市”为主题，捕捉城市在夜晚的灯光和阴影变化。\n2. 以“城市中的自然元素”为主题，拍摄城市中的公园、街头花卉和树木。\n3. 以“城市生活的瞬间”为主题，记录行人、街头艺人、市场和咖啡馆中的人们。\n他们希望AI助手能提供一些具体的拍摄建议和推荐适合拍摄的城市地点，如夜间灯光效果好的街区、有特色的城市公园和热闹的市场。",
+            "personalized_query": "嘿，AI助手，这次我们有一个摄影比赛，主题是城市生活。我和朋友们想要一些新的拍摄创意和地点推荐。你能帮我们想一些有趣的点子吗？",
+            "neutralized_query": "我们需要一些关于城市生活主题的摄影创意和地点推荐。"
+        },
+        {
+            "scene_type": "即兴拍摄：在城市漫步时，张宇翔发现一处独特的涂鸦墙，决定立即进行即兴拍摄。",
+            "available_apis": {
+                "cameraCheck": {
+                    "arguments": [
+                        "device_id"
+                    ],
+                    "description": "Checks the status of the camera or smartphone, including battery level and storage availability."
+                },
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google for the given query to find information on photography tips or weather conditions."
+                },
+                "locationRecord": {
+                    "arguments": [
+                        "location"
+                    ],
+                    "description": "Records the GPS location of the shooting spot."
+                },
+                "photoEdit": {
+                    "arguments": [
+                        "photo_id",
+                        "edit_options"
+                    ],
+                    "description": "Applies simple edits to the photo, such as brightness adjustment or cropping."
+                }
+            },
+            "scene_desc": "张宇翔在一个周末的下午，漫步在城市的老城区，突然发现一处独特的涂鸦墙，这面墙上充满了丰富的色彩和复杂的图案，非常适合即兴进行街头摄影。他立刻决定展开拍摄。但由于光线复杂，他希望能够捕捉到最佳的一瞬间，同时还希望能获得一些创意建议来更好地表达涂鸦的艺术性。",
+            "expected_response": "\n根据张宇翔的persona描述，AI应该会首先识别出张宇翔对街头摄影和艺术的热爱。为了帮助他进行即兴拍摄，AI应该迅速查询当前的光线和天气条件，并建议最好的拍摄角度和设置。AI还可以通过联网搜索，提供一些关于涂鸦艺术的创意灵感，帮助他更好地构图。为了满足张宇翔对简洁明了信息的偏好，AI可以给出一些直观的拍摄建议和实例照片。此外，AI可以提供多个创意选项，供张宇翔选择最佳的拍摄方案。最后，AI可以记录此次拍摄的位置和情况，以便他日后参考或再次光临。",
+            "scene_context": "张宇翔使用的设备为：Canon EOS R5相机和一部iPhone 12 Pro。\n当前时间是下午3点，天气有点阴，光线变化较快。\n拍摄的涂鸦墙位于老城区的东南角，靠近一座小型公园，涂鸦墙的色彩以红色和黄色为主。\n张宇翔希望了解最佳相机设置（如ISO、快门速度和光圈），以及一些创意拍摄角度和构图建议。",
+            "personalized_query": "嘿，我现在在老城区发现了一面很酷的涂鸦墙，想要拍一些照片。不过这里的光线有点复杂。你能帮我推荐一下相机的最佳设置，还有一些创意的拍摄角度或构图建议吗？",
+            "neutralized_query": "我想要拍摄一些有趣的涂鸦墙照片，但光线有点复杂。你能推荐一下相机的最佳设置和一些创意的拍摄角度或构图建议吗？"
+        },
+        {
+            "scene_type": "社区交流：张宇翔参与一个本地摄影展览的开幕式，与其他摄影师分享他的作品和心得。",
+            "available_apis": {
+                "mediaUpload": {
+                    "arguments": [
+                        "file_path",
+                        "description"
+                    ],
+                    "description": "Uploads media files to a specified platform with an optional description."
+                },
+                "eventDetails": {
+                    "arguments": [
+                        "event_id"
+                    ],
+                    "description": "Fetches details about the specified event, including location, time, participants, and agenda."
+                }
+            },
+            "scene_desc": "在一个本地摄影展览的开幕式上，张宇翔作为参展摄影师之一受邀出席。他带着自己的摄影作品来展示，并希望与其他摄影师分享他的创作心得与技巧。现场有许多摄影爱好者和专业摄影师，张宇翔希望能通过交流获取更多的创意灵感和拍摄技巧。他也打算利用AI助手来记录一些有趣的交流内容，并即时获取关于其他摄影师作品的背景信息和拍摄技巧。此外，他希望能够找到一些新的拍摄地点和创意灵感来丰富自己的创作。",
+            "expected_response": "\n根据张宇翔的persona描述，AI应该首先理解他参与活动的主要目标——分享作品、获取创意灵感，以及提升自己的拍摄技巧。AI可以主动询问他是否需要记录他与其他摄影师的交流内容，并提供语音转文字的功能，以便他以后参考。AI还应能够即时联网搜索，提供关于其他摄影师作品的背景信息和拍摄技巧，这能帮助张宇翔更深入地了解并与他人讨论。由于张宇翔对新拍摄地点和创意灵感的需求，AI应适时推荐一些本地或附近值得探索的摄影地点，并附上相关的照片和简要介绍。AI应遵循简洁明了的建议和信息展示风格，利用图表和照片进行视觉化展示，以便张宇翔快速获取所需信息。AI还应在提供创意建议时保持灵活度，给出多种选项供张宇翔选择。",
+            "scene_context": "张宇翔的摄影作品主题包括城市夜景、人像摄影和自然风光。  \n他希望记录的交流内容主要包括对方的拍摄心得、使用的设备和技巧。  \n他感兴趣的其他摄影师作品包括：李华的城市街拍、王明的黑白人像摄影、赵倩的自然生态摄影。  \n张宇翔希望推荐的拍摄地点是本地及周边地区，尤其是鲜为人知的景点。",
+            "personalized_query": "嘿，今天的摄影展览真不错，我遇到了不少有趣的摄影师，没想到能有这么多灵感和新点子。不过，我需要你的帮助来记录一些交流内容和获取一些关于这些摄影师作品的背景信息。你帮我处理下吧？\n\n我对李华的城市街拍、王明的黑白人像摄影以及赵倩的自然生态摄影很感兴趣，能帮我查查他们的背景和拍摄技巧吗？另外，有没有推荐一些本地及周边不太知名的拍摄地点？想多攒点素材。",
+            "neutralized_query": "我需要你帮助记录一些在摄影展览中交流的内容，并获取一些关于摄影师作品的背景信息。请查找关于城市街拍、黑白人像摄影和自然生态摄影的相关背景和拍摄技巧。此外，能否推荐一些本地及周边不太知名的拍摄地点？"
+        },
+        {
+            "scene_type": "艺术交流：张宇翔在画廊内与其他艺术爱好者探讨一幅当代艺术作品的独特之处。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "张宇翔正在一间现代画廊内，和几个同样对艺术有深厚兴趣的参观者讨论一幅当代艺术作品。这幅作品以其丰富的色彩和抽象的形式引发了热烈的讨论。张宇翔对作品的独特之处以及背后的创作理念充满好奇，试图获取更多的信息和不同的视角。他拿出手机，打开了AI助手，希望能获得一些关于这幅作品的背景资料及评论。",
+            "expected_response": "\nAI应该首先识别出张宇翔对艺术作品及其创作背景的浓厚兴趣。然后，AI可以通过联网搜索提供一些关于这幅当代艺术作品的创作背景、作者的介绍以及一些艺术评论家的观点。由于张宇翔偏好视觉化的信息展示，AI应该优先展示图片和图表，并辅以简洁明了的文字说明。此外，AI还可以给出一些其他参观者对这幅作品的评论和反应，以帮助张宇翔从不同视角理解这件作品。最后，考虑到张宇翔喜欢与各种人交流，AI还可以推荐一些在线艺术社区或论坛，让他继续深入讨论和交流。",
+            "scene_context": "张宇翔正在讨论的当代艺术作品是《无尽梦境》——一幅由著名当代艺术家王丽创作的抽象画。作品以鲜艳的色彩和繁复的线条著称，表达了艺术家对现实与梦想交织的复杂情感。张宇翔希望AI助手能提供以下信息：\n1. 《无尽梦境》的创作背景及艺术家的介绍。\n2. 这幅作品在艺术评论界的评价和解读。\n3. 其他参观者对《无尽梦境》的评论及反应。\n4. 推荐一些在线艺术社区或论坛，供张宇翔进一步探讨这幅作品。",
+            "personalized_query": "嘿，AI助手，我现在在画廊，看到一幅名为《无尽梦境》的作品。它由一个叫王丽的艺术家创作。能帮我找一些关于这幅作品的创作背景和艺术家的信息吗？我对这幅作品代表的理念很感兴趣。",
+            "neutralized_query": "我需要一些关于名为《无尽梦境》的当代艺术作品的创作背景和艺术家的信息。"
+        },
+        {
+            "scene_type": "AI灵感：张宇翔利用AI助手推荐新的拍摄地点和创意构思，寻找灵感来源。",
+            "available_apis": {
+                "locationRecommendation": {
+                    "arguments": [
+                        "location_type",
+                        "preferences"
+                    ],
+                    "description": "Recommend new shooting locations based on the given type (e.g., urban, rural, historical sites) and user preferences."
+                },
+                "creativeConcepts": {
+                    "arguments": [
+                        "shooting_style",
+                        "theme"
+                    ],
+                    "description": "Suggest creative concepts and ideas for the shooting based on the specified style and theme."
+                },
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search the web for additional inspiration or relevant information about the proposed locations and concepts."
+                }
+            },
+            "scene_desc": "张宇翔准备进行一次城市探索摄影活动，他希望通过AI助手推荐一些独特的城市拍摄地点和创意构思。由于他最近关注摄影比赛和展览的信息，他希望能找到一些符合比赛主题的创意点。张宇翔对艺术有独特的见解，因此他期待AI能提供一些艺术性较强的建议，同时也能够灵活地提出多种选项供他选择。",
+            "expected_response": "AI应该首先询问张宇翔是否有特定的主题或风格偏好，以便定位合适的拍摄地点和创意。接着，AI可以通过分析最近的摄影比赛主题和艺术展览趋势，提供一些具有独特视角和艺术性的拍摄建议。AI应展示相关地点的图片或地图，以视觉化的方式帮助张宇翔更直观地选择。此外，AI应该提供多种创意选项，允许张宇翔根据自己的喜好进行调整。最后，AI可以询问是否需要将推荐的地点和构思保存到他的日程安排中，以便日后参考。",
+            "scene_context": "张宇翔最近关注的摄影比赛主题包括“都市夜景”、“废弃建筑的美学”和“城市中的自然元素”。他准备探索的城市是纽约。",
+            "personalized_query": "好的，我现在是张宇翔。准备去进行一次城市探索摄影。最近关注的摄影比赛主题是“都市夜景”、“废弃建筑的美学”和“城市中的自然元素”。计划在纽约拍摄。我希望AI助手推荐一些符合这些主题的独特城市拍摄地点和创意构思，尤其是那些具有艺术性和多种选择的建议。\n\n我现在就把这个需求告诉我的AI助手：\n\n“嘿，帮我找一下纽约适合拍摄‘都市夜景’、‘废弃建筑的美学’和‘城市中的自然元素’的地方。最好有不同风格的选项。”",
+            "neutralized_query": "我需要AI推荐一些适合拍摄“都市夜景”、“废弃建筑的美学”和“城市中的自然元素”的城市拍摄地点和创意构思。"
+        },
+        {
+            "scene_type": "设备评测：张宇翔在摄影论坛上查看最新的相机设备评测，选择最具性价比的新装备。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "张宇翔是一位自由职业的摄影师，他热爱探索城市的每个角落，喜欢与人交流获取不同的视角，并且对摄影设备有着高质量的追求。他目前正在一个摄影论坛上查看最新的相机设备评测，以选择最具性价比的新装备。由于他对高质量设备的敏感，并且对价格也有一定考量，所以他希望AI助手能帮助他高效地筛选出最适合他的相机设备。\n\n在这个场景中，张宇翔希望通过AI助手来获取最新的相机设备评测信息，并且希望AI能够根据评测结果给出简洁明了的建议，以帮助他做出购买决策。",
+            "expected_response": "\n根据张宇翔的persona描述，AI助手应该首先询问他对相机设备有什么具体的需求和偏好，比如预算范围、主要用途（如街头摄影、风景摄影等）以及是否有对某些品牌的偏好。接着，AI助手应该能够从摄影论坛上获取最新的设备评测，并根据张宇翔的需求和偏好，给出几款最具性价比的相机推荐。\n\nAI助手还应该提供视觉化的信息展示，比如图表和照片，帮助张宇翔更直观地比较不同设备的性能和特点。同时，AI助手应当具备一定的灵活度，提供多种选项以供张宇翔选择。\n\n此外，AI助手还应该关注设备的质量和价格，确保推荐的设备既能满足张宇翔的高质量要求，又在他的预算范围内。最后，AI助手可以建议他查看相关的购买链接或店铺，以便他能够直接进行购买。",
+            "scene_context": "张宇翔希望AI助手能够帮助他筛选出以下几款相机设备的评测信息：Canon EOS R6、Sony A7 III和Fujifilm X-T4。他的预算范围在1500美元到2500美元之间，主要用途是街头摄影，并且他对这些品牌没有特别的偏好，希望在性能、价格和用户评价方面进行综合对比。",
+            "personalized_query": "你好，我正在考虑购买一款性价比较高的新相机，想请你帮助我筛选一下最新的评测信息。我感兴趣的型号有Canon EOS R6、Sony A7 III和Fujifilm X-T4。我的预算在1500美元到2500美元之间，着重考虑的是街头摄影方面的性能。能帮我看看这几款相机的性能、价格以及用户评价吗？谢谢！",
+            "neutralized_query": "我需要帮助筛选最新相机的评测信息，重点关注性能、价格以及用户评价。预算在1500美元到2500美元之间，侧重于街头摄影方面的表现。"
+        },
+        {
+            "scene_type": "多种构图选择：张宇翔在后期处理时，AI助手提供多种照片构图和调色建议供他选择。",
+            "available_apis": {
+                "photoCompositionSuggestions": {
+                    "arguments": [
+                        "photo"
+                    ],
+                    "description": "Analyzes the given photo and provides multiple composition suggestions based on photography principles like the rule of thirds, leading lines, symmetry, etc."
+                },
+                "colorAdjustmentRecommendations": {
+                    "arguments": [
+                        "photo"
+                    ],
+                    "description": "Analyzes the color properties of the given photo and provides multiple color adjustment recommendations, such as color balance, brightness, contrast, and filters."
+                }
+            },
+            "scene_desc": "张宇翔在后期处理一组街头摄影照片，他希望从不同的构图和调色方案中选择最合适的一个，以突出照片的艺术效果和故事性。他打开AI助手，寻求多种构图和调色建议。",
+            "expected_response": "\n根据张宇翔的人设，AI应该首先提供几种不同的构图选项，可能包括对称构图、三分法构图、黄金分割构图等，并通过直观的视觉化方式展示这些选项，如预览图或构图示例。接着，AI应该提供多种调色方案，可能包括黑白风格、复古色调、高对比度等，并同样通过视觉化方式展示每种调色方案的效果。AI还应该能够根据张宇翔的反馈调整推荐，提供更多灵活的选择。最后，AI可能会询问张宇翔是否需要对这些建议进行进一步调整，或者是否需要结合其他创意建议，以确保最终效果符合他的艺术标准和个人偏好。",
+            "scene_context": "张宇翔正在后期处理的街头摄影照片包括：一张人来人往的繁华街头场景、一张孤独的街头艺人表演照片、以及一张夜晚霓虹灯下的街道景象。",
+            "personalized_query": "嗨，助手，我现在在处理几张街头摄影的照片。我想从不同的构图和调色方案中选择最合适的一个，来突出照片的艺术效果和故事性。可以帮我提供一些建议吗？",
+            "neutralized_query": "我需要从不同的构图和调色方案中选择最合适的一个，来突出照片的艺术效果和故事性。请提供一些建议。"
+        },
+        {
+            "scene_type": "作品展示：张宇翔准备参加一个国际摄影比赛，并利用AI助手制作作品展示材料。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "张宇翔准备参加一个备受瞩目的国际摄影比赛，他希望利用AI助手制作一份出色的作品展示材料。比赛要求参赛者提交一个综合展示，包括照片的简短描述、拍摄想法和技术细节。张宇翔需要AI助手帮他选择最佳照片，撰写简洁有力的描述，以及生成一个视觉效果突出的展示文档。他还希望能获得一些专家意见和建议，以确保他的作品展示在比赛中脱颖而出。",
+            "expected_response": "\n根据张宇翔的persona描述，AI助手应该首先询问具体的比赛要求和参赛作品的主题，确保了解所有必要的细节。接着，AI应该根据张宇翔的摄影风格和之前的作品，从他的摄影库中推荐几张符合比赛要求的最佳照片，并提供简洁明了的描述和技术细节。同时，AI还应该提供多种创意灵感和展示文档的模板供选择，优先展示简洁且视觉效果突出的选项。AI助手还应该考虑张宇翔对照片评价的敏感性，提供一些专家的建议和意见，帮助他进一步完善作品展示。总体来说，AI助手应灵活、高效地提供多种选项，并确保信息直观易懂，以满足张宇翔的高要求。",
+            "scene_context": "张宇翔需要展示的摄影主题为：“自然之美”。他的摄影库里有以下几张照片候选：\n\n1. 一张日出时分的湖泊照片，湖面的宁静与天空的绚丽色彩相映成趣。\n2. 一张森林里的瀑布照片，捕捉到了水流的动态美。\n3. 一张沙漠中的星空照片，展示了浩瀚的夜空和沙丘的静谧。\n\nAI助手需要帮助选择哪几张照片最能体现“自然之美”的主题，并提供以下信息：\n- 每张照片的简短描述\n- 拍摄想法和灵感来源\n- 拍摄技术细节（如相机型号、镜头、光圈、快门速度、ISO等）\n- 一个视觉效果突出的展示文档模板\n\n此外，AI助手还需要提供一些摄影专家的建议和意见，以帮助张宇翔完善他的作品展示。",
+            "personalized_query": "嘿，AI助手，我现在有个国际摄影比赛要准备作品展示。比赛的主题是“自然之美”，我需要从我的照片库里选择几张最能体现这个主题的照片，然后要写出简短的描述、拍摄想法和技术细节。最后，我还想生成一个视觉效果突出的展示文档。你能帮我整理一下吗？",
+            "neutralized_query": "我需要为一个国际摄影比赛准备作品展示，包括选择符合“自然之美”主题的照片，撰写描述、拍摄想法和技术细节，并生成一个视觉效果突出的展示文档。你能帮我整理吗？  "
+        }
+    ]
+}

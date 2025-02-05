@@ -1,0 +1,38 @@
+{
+    "Demographics": {
+        "Age": 34,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "在深圳某科技公司担任产品经理",
+        "Name": "李玉兰"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "I",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "对用户体验有独到见解",
+            "喜欢爬山和健身",
+            "热衷于心理学和人类行为学",
+            "喜欢烹饪和尝试新菜谱",
+            "对古典音乐和剧院有浓厚兴趣"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "经常研究心理学书籍和文章来提高自我认知",
+        "Usage_Pattern": "时常使用AI助手来获取心理学相关的信息，或者寻找新菜谱",
+        "Emotion_Pattern": "经常在心情愉悦时与AI互动，倾向于分享个人兴趣和爱好",
+        "Purchase_Pattern": "喜欢购买高质量的健身器材和音乐会门票，对价格不太敏感"
+    },
+    "Preference": {
+        "Preferred_Styles": "偏好详细的解释和数据支持的分析",
+        "Preferred_Formats": "喜欢图文并茂的输出模式",
+        "Preferred_Workflows": "偏好给AI一个清晰的问题或任务，并希望AI能提供多种解决方案供选择"
+    },
+    "scenes": []
+}

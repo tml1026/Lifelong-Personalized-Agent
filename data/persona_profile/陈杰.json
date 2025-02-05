@@ -1,0 +1,36 @@
+{
+    "Demographics": {
+        "Age": 60,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文"
+        ],
+        "Career_Information": "辽宁退休工人",
+        "Name": "陈杰"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "喜欢种花和制作手工艺品",
+            "热衷于参与社区活动和公益活动",
+            "喜欢与朋友和家人分享自己的作品",
+            "对新事物充满好奇心，乐于接受新知识"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "倾向于寻找详细且有趣的教程和项目，喜欢视觉化的学习材料",
+        "Usage_Pattern": "经常寻找种植新技巧、手工艺品制作方法，及社区活动信息",
+        "Emotion_Pattern": "在看到别人欣赏她的作品时会感到特别开心",
+        "Purchase_Pattern": "喜欢购买与园艺和手工艺相关的工具和材料，常常在网上购物，注重产品的质量和创意"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢详细且带有图片和视频的指导，尤其是那些能够一步步展示过程的内容",
+        "Preferred_Formats": "喜欢视频教程和带有插图的文章",
+        "Preferred_Workflows": "喜欢从基础入门开始，再逐步学习高级技巧，希望有明确的步骤和可视化的过程"
+    },
+    "scenes": []
+}

@@ -1,0 +1,38 @@
+{
+    "Demographics": {
+        "Age": 50,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "在一家专注于环境保护和可持续发展的研究机构担任科学研究员",
+        "Name": "刘静"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "I",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "支持环境保护和可持续发展",
+            "喜欢古典音乐和戏剧",
+            "热衷于园艺和陶艺",
+            "喜欢徒步旅行和露营",
+            "爱好围棋和拼图游戏"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "倾向于在晚上查阅各种环境保护和可持续发展的最新研究和论文",
+        "Usage_Pattern": "习惯于使用AI来整理和分析复杂的数据，或者当面对挑战性难题时寻求AI的建议",
+        "Emotion_Pattern": "在面对新的挑战时表现出兴奋和专注",
+        "Purchase_Pattern": "倾向于购买环保和可持续发展的产品，对这些产品的价格相对敏感"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢详细且逻辑清晰的输出，倾向于条理分明的解释和分析",
+        "Preferred_Formats": "对于视觉化的数据展示有强烈的偏好，如图表和图形",
+        "Preferred_Workflows": "喜欢直接指出问题并要求AI提供结构化的解决方案，必要时会提供背景信息以帮助AI更好地理解问题"
+    },
+    "scenes": []
+}

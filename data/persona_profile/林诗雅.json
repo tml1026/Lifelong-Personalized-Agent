@@ -1,0 +1,290 @@
+{
+    "Demographics": {
+        "Age": 31,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "上海某金融公司分析师",
+        "Name": "林诗雅"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "S",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "重视家庭和朋友",
+            "热爱烹饪",
+            "喜爱瑜伽"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "喜欢讨论家庭和朋友的关系，分享烹饪和健康生活方式",
+        "Usage_Pattern": "使用频率中等，主要在周末和晚上活跃，询问有关健康、生活平衡的建议",
+        "Emotion_Pattern": "积极，乐观",
+        "Purchase_Pattern": "偏爱体验型消费，如课程和活动"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢富有同理心和有温度的回复",
+        "Preferred_Formats": "None",
+        "Preferred_Workflows": "喜欢循序渐进的指导和鼓励"
+    },
+    "scenes": [
+        {
+            "scene_type": "投资策略：林诗雅需要制定一个适合中长线投资的策略，以最大化她客户的利益。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "林诗雅正在为她的客户制定一个中长线投资策略，她希望最大化客户的利益。作为一名金融公司分析师，她需要分析市场趋势、评估风险和选择合适的投资组合。林诗雅通常在周末和晚上处理这些任务，因为这是她最活跃的时间。她希望AI能帮助她在投资选择上提供循序渐进的建议，并确保策略符合健康的生活平衡理念。",
+            "expected_response": "AI应该首先询问林诗雅是否有特定的投资目标或时间范围，以更好地理解客户的需求。接着，AI应该通过访问最新的市场数据，提供几个适合中长线投资的选择，并评估每个选项的风险和潜在回报。AI应该以富有同理心和温度的方式解释每个策略的优缺点，并鼓励她做出最合适的选择。AI还可以建议她参加相关的投资课程或活动，以提升她的分析能力。最后，AI应该为她提供一个清晰的行动计划，并在必要时提供情感支持和鼓励。",
+            "scene_context": "林诗雅的客户有一部分资金已经投入了科技股，但是她希望寻找多元化的投资组合以分散风险。她希望AI助手能够提供一些具体的中长线投资建议，包括但不限于以下几类资产：\n1. 固定收益证券（如政府债券、公司债券）\n2. 指数基金（如标普500指数基金）\n3. 价值股（稳定且长期增长的公司股票）\n4. 房地产投资信托基金（REITs）\n\n此外，林诗雅希望AI能够提供每个投资选项的最新市场表现、预期回报率和潜在风险评估。她也希望了解每种投资选项对未来经济变化的敏感度，以便做出更加明智的决策。",
+            "personalized_query": "嗨，我正在为一个客户制定中长线的投资策略，需要你的帮助。我希望你能给我一些关于如何多元化投资组合的建议，包括固收证券、指数基金、价值股和REITs。你能帮我提供这些投资选项的最新市场表现、预期回报率和风险评估吗？",
+            "neutralized_query": "我需要一些关于如何多元化投资组合的建议，包括固收证券、指数基金、价值股和REITs，并提供这些投资选项的最新市场表现、预期回报率和风险评估。"
+        },
+        {
+            "scene_type": "数据分析工具：林诗雅在工作中遇到一个复杂的数据集，寻找合适的分析工具来提高效率。",
+            "available_apis": {
+                "dataAnalysisToolSuggestion": {
+                    "arguments": [
+                        "data_type",
+                        "analysis_goal"
+                    ],
+                    "description": "Suggests the most suitable data analysis tools based on the given data type and analysis goal."
+                },
+                "toolComparison": {
+                    "arguments": [
+                        "tools"
+                    ],
+                    "description": "Compares the provided data analysis tools based on user reviews, functionalities, and ease of use."
+                }
+            },
+            "scene_desc": "林诗雅是一位31岁的金融公司分析师，她正在处理一个复杂的数据集，寻找合适的分析工具来提高工作效率。她平时在周末和晚上活跃，对健康和生活平衡有深厚的兴趣，积极乐观，喜欢分享烹饪和瑜伽的经验。她希望找到一个既能高效处理数据，又能使用简单直观的工具。在办公室里，她希望能迅速找到合适的工具，不仅能提高工作效率，还能减少工作带来的压力。",
+            "expected_response": "\n根据林诗雅的人设，AI应该首先表达同理心，理解她的工作压力，并询问具体的数据分析需求或面临的问题，例如数据集的规模和类型。接着，AI应该推荐一些适合的分析工具，并简要说明每种工具的优缺点，特别关注那些操作简便且能提高效率的工具。AI还应该提供一些循序渐进的指导，帮助林诗雅快速上手，并给予鼓励，表示用这些工具能有效减轻她的工作压力。此外，AI可以建议一些健康的工作习惯，如如何平衡工作和休息，甚至可以推荐一些应对压力的瑜伽练习，以帮助她在工作之余保持身心健康。",
+            "scene_context": "林诗雅需要处理的数据集涉及金融交易记录，包括交易时间、交易金额、交易类型等字段。数据集规模大约有500,000条记录，格式为CSV文件。她需要进行数据清理、统计分析和可视化展示，以便生成季度报告和发现潜在的异常交易模式。",
+            "personalized_query": "嗨，我正在处理一个复杂的数据集，想找一个工具来提高工作效率。你能推荐一些简单直观的分析工具吗？尤其是方便数据清理、统计分析和可视化展示的。",
+            "neutralized_query": "你能推荐一些简单直观的数据分析工具吗？特别是那些方便数据清理、统计分析和可视化展示的工具。"
+        },
+        {
+            "scene_type": "团队协作：林诗雅在团队项目中表现出色，总是主动关心同事的需求，确保每个人都清楚自己的任务。",
+            "available_apis": {
+                "checkTeamMembersTasks": {
+                    "arguments": [
+                        "team_member"
+                    ],
+                    "description": "Checks the current tasks and workload of a specific team member to ensure they are clear on their responsibilities."
+                },
+                "sendSupportMessage": {
+                    "arguments": [
+                        "team_member",
+                        "message"
+                    ],
+                    "description": "Sends a supportive message to a team member, offering help or clarification on their tasks."
+                }
+            },
+            "scene_desc": "林诗雅最近在一个团队项目中表现出色，她总是主动关心同事的需求，确保每个人都清楚自己的任务。今天，她发现团队成员中有几个人对于任务分配有些困惑，于是她决定通过AI助手来协调团队任务，确保每个人都知道自己的职责和截止日期。她希望AI助手能帮助她更好地分配任务，并提供一些鼓励的话语，保持团队的积极性。",
+            "expected_response": "\n根据林诗雅的persona描述，她是一个外向且注重感受的人，喜欢分享和讨论家庭、朋友以及健康生活方式。她重视团队合作，喜欢循序渐进的指导，并偏好有温度的回复。AI应该首先询问林诗雅具体需要帮助的团队成员和任务细节，然后根据每个成员的能力和当前工作量，建议合理的任务分配方案。AI还应该提供鼓励的话语，帮助林诗雅传递积极的团队精神。最后，AI可以为每个任务设置明确的截止日期，并提醒林诗雅是否需要在团队沟通工具中创建任务列表或发送任务提醒，以确保每个人都清楚自己的职责和时间表。\n",
+            "scene_context": "林诗雅需要协调的团队成员包括：张伟、李娜、王鹏和刘芳。具体任务分配如下：\n1. 张伟：负责项目的前端开发，包括UI设计和用户交互部分。\n2. 李娜：负责项目的后端开发，包括数据库设计和服务器端逻辑。\n3. 王鹏：负责项目的测试工作，包括编写测试用例和进行功能测试。\n4. 刘芳：负责项目的文档编写和报告撰写。\n\n林诗雅希望每个任务的截止日期为两周后，并希望AI助手提供一些鼓励的话语，如“你们的努力是项目成功的关键，加油！”、“相信自己的能力，我们一定能按时完成任务！”等。",
+            "personalized_query": "嗨，AI助手，我需要一些帮助来协调我们团队的任务。我发现有几位同事对任务分配有些困惑，我想确保每个人都清楚自己的职责和截止日期。你能帮我制定一个任务分配方案并提供一些鼓励的话吗？谢谢！",
+            "neutralized_query": "我需要一些帮助来协调团队任务，确保每个人都清楚自己的职责和截止日期。你能帮我制定一个任务分配方案并提供一些鼓励的话吗？"
+        },
+        {
+            "scene_type": "组织活动：作为一个ESFJ，林诗雅自愿组织公司年度团建活动，确保同事们都能愉快地参与。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "calendarCheck": {
+                    "arguments": [
+                        "participants",
+                        "preferred_time_slot"
+                    ],
+                    "description": "Checks the availability of the participants for the preferred time slot and suggests a suitable meeting time."
+                },
+                "sendEmail": {
+                    "arguments": [
+                        "recipients",
+                        "subject",
+                        "body"
+                    ],
+                    "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+                }
+            },
+            "scene_desc": "林诗雅自愿组织公司年度团建活动，她希望确保每位同事都能愉快地参与。林诗雅的主要任务是选择一个适合所有人的活动日期，并策划一些有趣且能促进团队融合的活动。她需要AI助手协助她安排这次活动，包括挑选活动地点、确定活动项目、通知所有同事，并确保每个细节都能顺利进行。作为一个重视家庭和朋友、热爱烹饪和瑜伽的人，林诗雅可能会倾向选择一些健康、有趣且能增强团队合作的活动，如户外瑜伽课程或烹饪比赛。",
+            "expected_response": "\nAI应该首先询问林诗雅是否有一个初步的活动日期和地点。接着，AI应该建议一些与林诗雅兴趣相符合的活动类型，如户外瑜伽课程、烹饪比赛或健康生活方式讲座。AI还应确保活动的安排能满足大多数同事的时间和兴趣爱好。\n\n在具体安排上，AI可以帮助林诗雅通过公司内部通讯工具发送调查问卷，了解同事们对不同活动的兴趣和参与意愿，并根据反馈调整计划。AI还应该根据公司的预算建议适合的活动场地和供应商，并提醒林诗雅进行预订。\n\n在活动通知和安排方面，AI应协助林诗雅编写并发送详细的活动通知邮件，包含活动日期、时间、地点及具体安排。AI还应设置自动提醒功能，确保同事们不会忘记参与。AI也可以帮助林诗雅在活动前一天再次发送提醒，并在活动当天提供实时支持，确保活动顺利进行。\n\n此外，AI应该提供一些鼓励和支持的言辞，帮助林诗雅感到更加自信和从容地组织这次活动，符合她喜欢循序渐进的指导和鼓励的偏好。",
+            "scene_context": "林诗雅希望组织的活动日期为: 11月20日\n林诗雅考虑的活动地点为: 城郊的一个生态农场\n林诗雅希望AI助手能提供以下活动建议:\n1. 户外瑜伽课程\n2. 烹饪比赛\n3. 健康生活方式讲座\n\n林诗雅需要AI助手协助发送问卷，了解同事们对这些活动的兴趣和参与意愿，并根据反馈调整计划。她还希望AI助手能帮助联系场地和活动供应商，并编写和发送详细的活动通知邮件，同时设置自动提醒功能。",
+            "personalized_query": "我正在计划公司年度团建活动，需要你的帮助。首先，我想确定一个合适的活动日期，并且想要组织一些能促进团队融合的活动，比如户外瑜伽课程、烹饪比赛和健康生活方式讲座。你能帮我看看11月20日是否是一个合适的日期，并且在同事中开展个问卷调查，了解大家对这些活动的兴趣和参与意愿吗？",
+            "neutralized_query": "我正在计划公司年度团建活动，想确定一个合适的活动日期，并组织一些促进团队融合的活动。你能帮我确认11月20日是否是合适的日期，并开展问卷调查，了解同事对活动的兴趣和参与意愿吗？"
+        },
+        {
+            "scene_type": "烹饪课：林诗雅报名参加了一门高级烹饪课程，学习新菜系以更好地为家人和朋友准备美食。",
+            "available_apis": {
+                "courseRegistration": {
+                    "arguments": [
+                        "course_name",
+                        "student_name"
+                    ],
+                    "description": "Register the student for the specified cooking course."
+                },
+                "fetchCourseDetails": {
+                    "arguments": [
+                        "course_name"
+                    ],
+                    "description": "Fetch the details of the specified cooking course, including the syllabus, schedule, and requirements."
+                }
+            },
+            "scene_desc": "林诗雅报名参加了一门高级烹饪课程，课程内容包括各种国际菜系的新技巧和食谱。她希望通过这些新技能为家人和朋友准备更多样化的美食。在课程期间，她经常在周末晚上练习新学到的菜谱，并喜欢在社交媒体上分享她的烹饪成果和体验。她希望AI助理能帮助她更好地组织学习内容，并提供一些关于如何改进烹饪技巧的建议。",
+            "expected_response": "根据林诗雅的persona，AI应该首先询问她在课程中最感兴趣的菜系，并了解她目前的烹饪水平。AI可以建议她在练习新菜谱时注意的技巧，或者推荐一些相关的烹饪视频或文章来扩展她的知识。AI还应该鼓励她分享她的进步，并提供一些社交媒体分享的技巧，以便她能更好地展示她的作品。考虑到她对循序渐进指导的偏好，AI可以帮助她制定一个逐步提高的计划，并在她取得进展时给出积极的反馈。",
+            "scene_context": "林诗雅最近在高级烹饪课程中学习了三种新菜系，分别是：意大利菜、中东菜和日本料理。她希望AI助理能帮助她组织学习内容，并提供一些关于意大利菜中的意大利面制作技巧、中东菜中的烤肉串技巧以及日本料理中的寿司制作技巧的建议。此外，她还希望获得一些相关的烹饪视频或文章的推荐，以便更好地掌握这些菜系的精华。",
+            "personalized_query": "嘿，帮我想想怎么更好地组织我学到的烹饪课程内容吧。我想在周末时更有效地练习，尤其是最近学到的意大利、中东和日本料理。你有什么建议吗？",
+            "neutralized_query": "你能给我一些建议，如何更有效地组织我学到的烹饪课程内容，并在周末进行练习吗？"
+        },
+        {
+            "scene_type": "瑜伽修行：林诗雅参加了一次为期一周的瑜伽静修，寻找内心的平静和身体的平衡。",
+            "available_apis": {
+                "recommendYogaCourses": {
+                    "arguments": [
+                        "goals",
+                        "experience_level"
+                    ],
+                    "description": "Recommends suitable yoga courses based on the user's goals (e.g., relaxation, flexibility enhancement) and experience level (e.g., beginner, advanced)."
+                },
+                "recommendMeditationPractices": {
+                    "arguments": [
+                        "goals"
+                    ],
+                    "description": "Recommends meditation practices that align with the user's goals (e.g., mindfulness, stress reduction)."
+                },
+                "provideDietSuggestions": {
+                    "arguments": [
+                        "dietary_preferences"
+                    ],
+                    "description": "Provides dietary suggestions that support the user's overall well-being and yoga practice."
+                },
+                "scheduleDailyRoutine": {
+                    "arguments": [
+                        "courses",
+                        "meditation_sessions",
+                        "break_times"
+                    ],
+                    "description": "Schedules a daily routine that includes yoga courses, meditation sessions, and breaks for optimal balance and rest."
+                }
+            },
+            "scene_desc": "林诗雅最近感到工作和生活的压力有些大，因此决定参加一个为期一周的瑜伽静修，以寻找内心的宁静和平衡。在这个过程中，她希望能够专注于自己的身体和心灵健康，同时获得一些关于健康生活方式的新见解。她携带着智能手机，希望在需要时可以通过终端上的AI助手获得一些支持和建议，特别是关于静修期间的饮食建议，舒缓情绪的音乐，以及一些简单的冥想指导。",
+            "expected_response": "根据林诗雅的persona描述，AI应该在她进入瑜伽静修状态后，主动询问她是否需要帮助来优化这段期间的体验。AI应该能够提供一些低盐、低糖的素食食谱推荐，以帮助她保持清淡健康的饮食。因为她注重健康生活方式，AI还应该能推荐一些适合冥想时播放的轻柔音乐。考虑到她热爱瑜伽，AI也可以提供一些简单可行的冥想或呼吸练习指导。AI应该表现出同理心，提供温暖且建设性的建议，以帮助她在这段时间内达到内心的平静与身体的平衡。",
+            "scene_context": "林诗雅希望AI提供的支持和建议包括：\n1. 一些低盐、低糖的素食食谱，例如：早餐的燕麦水果粥、午餐的蔬菜沙拉和晚餐的南瓜汤。\n2. 舒缓情绪的音乐推荐，例如：自然声音（如鸟鸣、流水声）、轻柔的钢琴曲和瑜伽冥想音乐。\n3. 简单的冥想指导，例如：5分钟的呼吸练习、10分钟的静坐冥想和15分钟的引导式冥想练习。",
+            "personalized_query": "您好，我最近感到工作和生活的压力有些大，决定参加一个为期一周的瑜伽静修。希望能在这个过程中专注于身心健康，还想得到一些健康生活方式的新见解。能帮我推荐一些低盐、低糖的素食食谱吗？可以从早餐、午餐和晚餐分别给我一些建议。谢谢！",
+            "neutralized_query": "请推荐一些低盐、低糖的素食食谱，包括早餐、午餐和晚餐的建议。"
+        },
+        {
+            "scene_type": "家庭聚会：林诗雅每月都安排一次家庭聚会，保持与亲朋好友的紧密联系。",
+            "available_apis": {
+                "calendarCheck": {
+                    "arguments": [
+                        "participants",
+                        "preferred_time_slot"
+                    ],
+                    "description": "Checks the availability of the participants (e.g., Lin Shiya and her friends and family) for the preferred time slot and suggests a suitable time for the gathering."
+                },
+                "sendEmail": {
+                    "arguments": [
+                        "recipients",
+                        "subject",
+                        "body"
+                    ],
+                    "description": "Sends a professional invitation email to the selected recipients, including the proposed gathering time and any additional details."
+                }
+            },
+            "scene_desc": "林诗雅正在为本月的家庭聚会做准备。她希望这个聚会能够让所有的家人和朋友都感受到温馨和亲密。为了确保聚会的成功，林诗雅计划准备一些美味的家庭菜肴，并且考虑安排一些活动来让大家更好地互动和娱乐。她想要寻找一些新的食谱和活动创意，以便让这次聚会与众不同。",
+            "expected_response": "\n根据林诗雅的persona描述，她重视家庭和朋友关系，并且热爱烹饪和分享健康生活方式。AI应该首先询问林诗雅是否需要一些特别的食谱推荐，并根据她的喜好提供健康且适合家庭聚会的菜肴建议。接着，AI可以推荐一些适合家庭聚会的活动创意，帮助增加互动和娱乐性。考虑到林诗雅平时活跃的时间段，AI可以建议她一些事先可以准备好的食物和活动，以便她在聚会当天能够更好地享受与家人和朋友的时光。在整个过程中，AI的应答应该富有同理心，并提供循序渐进的指导和鼓励，以帮助她实现一个完美的家庭聚会。",
+            "scene_context": "林诗雅希望准备的家庭菜肴包括：健康的烤鸡、蔬菜沙拉和水果拼盘。她也希望安排一些适合全家参与的活动，比如桌游、电影之夜和DIY手工制作。",
+            "personalized_query": "你好！我正在为本月的家庭聚会做准备。我希望聚会能让大家感到温馨和愉快，所以我打算准备一些特别的菜肴和活动来增添乐趣。你能帮我找一些新颖的菜谱和适合全家参与的活动创意吗？",
+            "neutralized_query": "我需要一些特别的菜肴和适合全家参与的活动创意来为家庭聚会做准备。"
+        },
+        {
+            "scene_type": "健康饮食：林诗雅在周末活跃于社交媒体，分享她的健康饮食计划和最新的瑜伽心得。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "generateContentTemplate": {
+                    "arguments": [
+                        "content",
+                        "platform"
+                    ],
+                    "description": "Generates a content template suitable for publishing on the given social media platform."
+                }
+            },
+            "scene_desc": "周末时，林诗雅活跃于社交媒体，她准备分享一个新的健康饮食计划和一些瑜伽心得。她希望AI助手能帮她组织分享内容，并提供一些关于健康饮食的最新资讯以便她更好地与朋友和关注者交流。",
+            "expected_response": "根据林诗雅的persona描述，AI应该主动询问她是否需要帮助整理和优化她的饮食计划和瑜伽心得，以便更好地分享。AI可能会建议一些有趣的分享方式，比如制作图文并茂的帖子或短视频。此外，AI还应该提供一些最新的健康饮食资讯或研究，以帮助她增加内容的专业性。AI应注意提供循序渐进的指导，同时展现出同理心和支持，符合林诗雅偏好有温度的互动风格。",
+            "scene_context": "林诗雅的健康饮食计划包括以下内容：\n1. 早餐：燕麦粥搭配水果和坚果。\n2. 午餐：鸡胸肉沙拉配低脂酸奶。\n3. 晚餐：烤三文鱼、烤蔬菜和糙米饭。\n4. 间食：全麦饼干和果蔬汁。\n\n她的瑜伽心得包括以下几点：\n1. 早晨瑜伽可以帮助唤醒身体，提高新陈代谢。\n2. 瑜伽呼吸法对减压非常有效。\n3. 每天坚持至少30分钟的瑜伽练习，能够显著提升身体柔韧性和心理健康。\n\n她需要AI助手帮助她组织这些内容，并提供一些关于最新健康饮食趋势和研究的资讯，如：\n1. 最新的超级食物介绍。\n2. 最新的饮食搭配研究成果。\n3. 健康饮食与心理健康的关系研究。\n\n同时，AI助手还可以建议一些创意的分享方式，例如：\n1. 制作早餐、午餐、晚餐的美食照片合集。\n2. 拍摄一段瑜伽练习的短视频。\n3. 分享她自己的一天饮食和瑜伽日常的图文故事。",
+            "personalized_query": "Hello! 希望你今天过得愉快~ 我打算在周末分享一些新的健康饮食计划和瑜伽心得。我需要你的帮助来组织这些内容，并提供一些最新的健康饮食资讯。这样我就可以更好地与朋友和关注者交流了。你可以帮我吗？",
+            "neutralized_query": "我需要帮助来组织健康饮食计划和瑜伽心得的内容，并提供一些最新的健康饮食资讯。"
+        },
+        {
+            "scene_type": "烹饪分享：林诗雅喜欢在社交媒体上分享她最新尝试的创意菜谱，收集朋友们的反馈。",
+            "available_apis": {
+                "postToSocialMedia": {
+                    "arguments": [
+                        "content",
+                        "platform"
+                    ],
+                    "description": "Posts the given content (e.g., creative recipes) to the specified social media platform."
+                },
+                "collectFeedback": {
+                    "arguments": [
+                        "post_id"
+                    ],
+                    "description": "Collects feedback (e.g., comments and likes) from a specified post on social media."
+                }
+            },
+            "scene_desc": "林诗雅正在为周末的一次家庭聚餐准备新的创意菜谱，她想分享自己的作品并从朋友那里获得反馈。她决定在社交媒体上发布一张关于她最新菜谱的图片，并附上她的烹饪心得。为了让帖子更吸引人，她希望AI能帮助她润色文字描述，加入一些健康小贴士，同时建议一些合适的标签来增加帖子的曝光率。",
+            "expected_response": "AI应该首先询问林诗雅目前的创意菜谱的主题以及她希望传达的主要信息。然后，AI可以根据她的描述提供一些温暖且富有同理心的文字建议，以增强社交媒体帖子的吸引力。考虑到林诗雅对健康生活方式的重视，AI还可以建议一些与菜谱相关的健康小贴士或附加信息。最后，AI应该帮助林诗雅选择一些合适的标签，以便她的帖子能够更好地传播和覆盖她的社交圈。根据林诗雅的偏好，AI需要确保提供的建议循序渐进，并在过程中鼓励她的创造力和表达。",
+            "scene_context": "林诗雅的创意菜谱是“蔬菜五彩炒饭”，她希望传达的信息是这道菜品不仅色彩丰富，口感美味，还富含多种维生素和膳食纤维，适合全家人一起享用。她的烹饪心得包括使用新鲜的蔬菜、适量的橄榄油和健康的调料。健康小贴士可以包括这些蔬菜的营养价值，以及如何在烹饪过程中保持蔬菜的鲜美和营养。合适的标签可能包括#健康饮食、#家庭聚餐、#创意菜谱、#蔬菜炒饭、#健康生活。",
+            "personalized_query": "嗨，我正在准备周末的家庭聚餐，想在社交媒体上发布一张关于我的最新菜谱——\"蔬菜五彩炒饭\"的图片。能帮我润色一下文字描述，并加入一些健康小贴士吗？另外，还需要一些合适的标签来增加曝光率。谢谢！",
+            "neutralized_query": "我正在准备发布一张关于一道新创意菜谱图片的文字描述，能帮我润色一下并加入一些健康小贴士吗？另外，还需要一些合适的标签来增加曝光率。"
+        },
+        {
+            "scene_type": "瑜伽工作坊：林诗雅参加了一个专门为高级练习者设计的瑜伽工作坊，提升自己的技能。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google for the given query and return the most relevant response. This can be used to find advanced yoga courses, video tutorials, and related resources."
+                },
+                "schedulePlanner": {
+                    "arguments": [
+                        "current_level",
+                        "goals"
+                    ],
+                    "description": "Generates a detailed practice schedule for the user based on their current yoga level and goals."
+                },
+                "progressTracker": {
+                    "arguments": [
+                        "user_id"
+                    ],
+                    "description": "Tracks the user's progress over time, providing feedback and adjustments to the practice schedule if necessary."
+                }
+            },
+            "scene_desc": "在一个阳光明媚的周末，林诗雅参加了一个为高级练习者设计的瑜伽工作坊。工作坊在一个安静的瑜伽馆举行，周围环境非常舒适，适合深度练习和冥想。林诗雅希望通过这次工作坊提升她的瑜伽技能，并且学习一些高级的瑜伽姿势。她对课程内容充满了热情，并且希望在练习过程中能够得到有效的指导和反馈。\n\n在工作坊的中间休息时间，林诗雅打开了她的AI助手，准备记录一些她在工作坊中学到的要点，并寻求一些关于瑜伽练习和健康生活方式的建议。她还希望AI能够帮助她找到一些与瑜伽相关的高级课程或活动，以便在未来继续提升自己的技能。",
+            "expected_response": "根据林诗雅的persona，AI助手应该首先以温暖和同理心的方式回应她，询问她对工作坊的体验和收获。接着，AI应该循序渐进地帮助林诗雅记录她学到的要点，并提供一些关于如何改进和深化她的练习的建议。\n\nAI还应该主动推荐一些与瑜伽相关的高级课程或活动，特别是那些注重体验和深度练习的课程，以符合林诗雅偏爱体验型消费的习惯。同时，AI可以建议她加入一些瑜伽社区或线上论坛，以便与其他高级练习者交流经验，并提供一些健康生活方式的建议，如瑜伽后的最佳饮食搭配和休息方式。\n\n整个过程中，AI应该保持积极和乐观的语气，并给予林诗雅鼓励和支持，以增强她对瑜伽练习的信心和热情。",
+            "scene_context": "林诗雅在瑜伽工作坊中学到的一些要点包括： \n1. 高级瑜伽姿势如轮式（Urdhva Dhanurasana）、头倒立（Sirsasana）和鹤禅式（Bakasana）的正确对齐和呼吸技巧。\n2. 深度冥想技巧，如何通过冥想提升专注力和内心平静。\n3. 呼吸控制技巧（Pranayama），如交替鼻孔呼吸（Nadi Shodhana）和狮子呼吸（Simhasana）。\n\n她还希望AI助手推荐一些高级瑜伽课程或活动，例如：\n1. 专门针对高级练习者的密集瑜伽训练营。\n2. 在线高级瑜伽课程平台，如Glo或Yoga International。\n3. 本地或国际知名瑜伽导师的工作坊或大师班。\n\n此外，林诗雅希望获得一些健康生活方式的建议，包括：\n1. 瑜伽后的最佳饮食搭配，如富含蛋白质和纤维的食物。\n2. 适合高级练习者的休息和恢复策略，如使用泡沫轴放松肌肉。\n3. 与其他高级练习者交流经验的线上论坛或社交媒体平台，如Reddit的r/yoga社区或Facebook的瑜伽群组。",
+            "personalized_query": "嗨，今天上午的瑜伽工作坊真的让我收获满满。我正在记录一些要点，并希望得到一些建议。上午我们学到了高级瑜伽姿势和一些呼吸技巧，我希望可以进一步提升，或者找到类似的课程。你能帮我找一些高级瑜伽课程或活动吗？另外，也希望获得一些瑜伽后的健康生活方式建议。谢谢！",
+            "neutralized_query": "我需要一些高级瑜伽课程或活动的推荐，以及瑜伽后的健康生活方式建议。"
+        }
+    ]
+}

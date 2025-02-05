@@ -1,0 +1,268 @@
+{
+    "Demographics": {
+        "Age": 50,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文"
+        ],
+        "Career_Information": "小学语文老师",
+        "Name": "刘德华"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "I",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "热爱文学创作",
+            "喜爱园艺",
+            "奉行简单生活",
+            "对哲学和心灵成长感兴趣",
+            "偶尔喜欢烹饪新菜肴"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "最近频繁查阅文学相关资料，可能在进行某个写作项目",
+        "Usage_Pattern": "使用频繁；经常用来写作辅助以及查找文献；喜欢查询植物养护相关的信息；偶尔用来进行趣味心理测试",
+        "Emotion_Pattern": "None",
+        "Purchase_Pattern": "更看重体验和情感共鸣"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢温暖和细腻的语言风格，偏好有深度和情感共鸣的回答",
+        "Preferred_Formats": "None",
+        "Preferred_Workflows": "喜欢从宏观把握问题，然后通过情感和直觉找出灵感点，逐步完善细节"
+    },
+    "scenes": [
+        {
+            "scene_type": "课堂创新设计：刘德华希望通过文学作品中的经典故事来引导学生进行写作练习，寻找新的教学方法。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "刘德华正在计划一堂语文课，希望通过经典文学作品中的故事来激发学生的创作灵感。为了创新教学方法，她想找到一些趣味性强且富有深度的故事，并设计出让学生进行写作练习的具体方案。她希望AI可以帮助她收集相关文学作品的信息、获取故事的背景和主题，并提供一些创意写作的点子。",
+            "expected_response": "\nAI应该首先了解刘德华对哪些类型的文学作品感兴趣，并询问她是否有特定的作家或作品。接着，AI可以推荐一些经典且适合小学生的文学作品，并提供每个故事的简要背景和主题分析。AI还可以帮助提供一些创意写作的活动建议，例如角色扮演或改写故事结局等。同时，AI应该用温暖和细腻的语言风格，与刘德华探讨如何将这些故事拓展成有趣的课堂活动，确保能够在情感和深度上与她产生共鸣。最后，AI可以提供一些相关的教学资源链接，帮助她进一步发展教学计划。",
+            "scene_context": "刘德华感兴趣的文学作品类型包括：童话故事、神话传说和寓言故事。她特别喜欢的作家有：格林兄弟、安徒生和伊索。她希望通过这些经典故事来激发学生们的创作灵感，并设计一些写作练习的具体方案。\n她需要AI助手推荐以下内容：\n1. 每种类型的3部经典作品\n2. 每个故事的简要背景和主题分析\n3. 创意写作的活动建议，如角色扮演或改写故事结局\n4. 相关教学资源链接",
+            "personalized_query": "你好，我正在为一堂语文课做准备，计划通过经典文学作品中的故事来激发学生的创作灵感。我需要一些趣味性强且富有深度的故事，特别是童话、神话和寓言类的。可以帮我推荐一些经典作品吗？",
+            "neutralized_query": "我需要一些趣味性强且富有深度的故事，特别是童话、神话和寓言类的经典作品推荐。"
+        },
+        {
+            "scene_type": "学校活动策划：刘德华被委派负责策划一年一度的校园读书节，需要设计多个有趣的文学活动。",
+            "available_apis": {
+                "searchActivities": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search for interesting and engaging literary activities for a school book fair."
+                },
+                "generateSchedule": {
+                    "arguments": [
+                        "activities",
+                        "available_time_slots"
+                    ],
+                    "description": "Generate a schedule for the school book fair based on the selected activities and available time slots."
+                },
+                "sendInvitation": {
+                    "arguments": [
+                        "recipients",
+                        "subject",
+                        "body"
+                    ],
+                    "description": "Send invitations to students, teachers, and guest speakers for the school book fair."
+                }
+            },
+            "scene_desc": "刘德华作为小学语文老师，热爱文学创作和园艺，对哲学和心灵成长感兴趣，这次被委派负责策划一年一度的校园读书节。她希望设计一些既有趣又能激发学生文学兴趣的活动。她频繁查阅文学相关资料，可能正在进行某个写作项目，并且很看重体验和情感共鸣，希望活动能达到这样的效果。她习惯从宏观把握问题，通过情感和直觉找出灵感点，然后逐步完善细节。因此，她会寻求AI的帮助来构思和策划这些活动，确保活动内容既有深度又能引起学生的共鸣。",
+            "expected_response": "\n根据刘德华的persona描述，AI应该首先了解她对整个读书节的宏观设想，包括核心主题和目标。接着，AI应该询问刘德华是否有特定的文学作品或哲学主题希望融入活动中。AI应该提供一些文学活动的建议，如文学创作比赛、园艺与文学结合的主题活动、哲学探讨会等，并提供详细的活动方案供刘德华参考。AI需要使用温暖和细腻的语言风格，提供有深度的建议，帮助她逐步完善活动细节。最后，AI应该询问是否需要查阅更多文献资料或提供一些文学创作的灵感，以确保活动能够激发学生的文学兴趣并增强情感共鸣。",
+            "scene_context": "刘德华对学校读书节的构思是围绕“文学与心灵成长”的主题，目标是激发学生对文学的兴趣并促进他们的心灵成长。她希望结合哲学和文学创作，设计出一系列有深度且富有情感共鸣的活动。以下是她具体希望AI协助策划的几个活动：\n\n1. 文学创作比赛：鼓励学生撰写短篇故事或诗歌，主题可以是“我的心灵之旅”。\n2. 园艺与文学结合的主题活动：通过种植与文学作品相关的植物（如《秘密花园》中的植物）来激发学生的创作灵感。\n3. 哲学探讨会：组织学生讨论一本哲学书籍，如《小王子》，并探讨书中的哲学思想和人生意义。\n4. 心灵成长讲座：邀请知名作家或心理学家进行讲座，与学生分享阅读和写作对心灵成长的影响。\n\n刘德华希望AI能提供这些活动的详细方案，并建议一些文学作品或哲学书籍供参考。同时，她希望AI能帮助她查阅更多相关文献资料，以确保活动内容有深度且能引起学生的共鸣。",
+            "personalized_query": "最近我负责策划学校的读书节，想围绕“文学与心灵成长”设计一些活动，希望能激发学生的兴趣。可以帮助我设计一些既有趣又能引起他们共鸣的活动吗？",
+            "neutralized_query": "我需要帮助设计一些围绕“文学与心灵成长”的活动，旨在激发学生的兴趣和共鸣。"
+        },
+        {
+            "scene_type": "文学读书会：刘德华组织了一场社区文学读书会，并在会上分享自己最新的文学创作，期待得到反馈。",
+            "available_apis": {
+                "sendEmail": {
+                    "arguments": [
+                        "recipients",
+                        "subject",
+                        "body"
+                    ],
+                    "description": "Sends an email to the selected recipients, sharing the literary work and requesting feedback."
+                },
+                "createSurvey": {
+                    "arguments": [
+                        "questions"
+                    ],
+                    "description": "Creates a survey to collect feedback from the participants."
+                }
+            },
+            "scene_desc": "刘德华正在社区文学读书会上分享她最新的文学创作作品。她希望能够获得社区成员的反馈，以此完善她的作品。读书会现场布置得温馨而舒适，周围摆放着她精心照料的植物，为参与者营造了一种放松和启发灵感的环境。刘德华一边介绍她的写作灵感来源，一边表达了她对文学创作的热爱和对心灵成长的追求。她希望AI能够帮助记录下会员们的反馈，并根据他们的意见提出一些改进建议。",
+            "expected_response": "AI应该能通过温暖而细腻的语言风格回应刘德华，首先确认她需要记录哪些方面的反馈。AI可能会建议通过关键词提取来整理现场反馈，并进一步询问刘德华是否希望AI提供一些相关文学评论或创作技巧的参考资料。结合她对哲学和心灵成长的兴趣，AI还可以推荐一些能够深化作品主题的哲学文献或心灵成长的案例，帮助她进行灵感提升和细节完善。此外，AI可以询问刘德华是否需要将整理好的反馈和建议生成报告，方便日后参考和修改作品。",
+            "scene_context": "为了更好地记录和整理社区成员的反馈，刘德华希望AI能够帮助她重点关注以下几个方面的反馈：\n1. 主题和情节的完整性和连贯性\n2. 角色塑造是否生动、有层次\n3. 语言风格的优美和细腻程度\n4. 作品对读者情感和心灵的触动\n\n刘德华的最新文学创作节选如下：\n```markdown\n### 最新文学创作节选\n#### 标题：心灵的彼岸\n\n在那幽深的森林深处，阿莉丝孤独地行走着。她的脚步轻盈而坚定，每一步都带着对未知的向往和对自我成长的渴望。四周的树木仿佛诉说着无数个古老的故事，而阿莉丝的心灵在这些故事中找到了共鸣。她时而驻足倾听，时而沉思，仿佛在和自然进行一场心灵的对话。\n\n在这片静谧的自然中，阿莉丝感受到了一种前所未有的平和与宁静。她开始思考生命的意义，思考人类与自然的关系。她明白，只有真正理解和尊重自然，才能找到心灵的彼岸。她决定留下来，守护这片森林，并用自己的文字记录下这里的一切，希望能唤起更多人对自然的热爱和对生命的思考。\n```\n\n刘德华希望AI能够根据会员们的反馈，帮助她完善这一段文字，并提出详细的改进方案。",
+            "personalized_query": "你好，AI小助手。我刚刚在读书会上分享了我的最新作品《心灵的彼岸》，希望你能帮我记录和整理社区成员们的反馈，特别是在以下几个方面：\n\n1. 主题和情节的完整性和连贯性\n2. 角色塑造是否生动、有层次\n3. 语言风格的优美和细腻程度\n4. 作品对读者情感和心灵的触动\n\n之后，能否根据反馈帮我提出一些改进建议呢？谢谢。",
+            "neutralized_query": "我需要你帮忙记录和整理作品在读书会中得到的反馈，特别关注主题完整性、角色塑造、语言风格和情感触动等方面，并提出改进建议。"
+        },
+        {
+            "scene_type": "园艺疗愈：刘德华在一个压力大的星期后，通过照顾家中的植物来放松心情，并思考新写作灵感。",
+            "available_apis": {
+                "plantCareInfo": {
+                    "arguments": [
+                        "plant_type"
+                    ],
+                    "description": "Provides detailed care instructions for the specified type of plant, including watering, light, and soil requirements."
+                },
+                "mentalHealthTips": {
+                    "arguments": [
+                        "stress_level"
+                    ],
+                    "description": "Offers mental health tips and relaxation techniques based on the user's reported stress level."
+                }
+            },
+            "scene_desc": "刘德华在一个充满挑战和压力的星期过后，回到了她温馨的家中。她走到阳台上，开始细心地照顾她的植物。阳光透过玻璃洒在绿叶上，她用手指轻轻抚摸着叶片，感觉到一种平静和舒适。刘德华相信园艺能帮助她释放压力，并启发新的写作灵感。在修剪植物，浇水的过程中，她不禁思考着下一个文学创作的主题，期望从自然中获得灵感。",
+            "expected_response": "\n根据刘德华的人设，AI应该能够感知到她目前处于一个需要放松和寻找灵感的状态。AI应该会询问她是否需要推荐一些关于园艺疗愈的文章或视频，以帮助她更好地放松心情。AI还可以建议一些与自然相关的文学作品，启发她的创作灵感。同时，AI可以提供一些关于植物养护的小贴士，帮助她更好地照顾植物。AI的回答应该温暖细腻，充满情感共鸣，以支持她的哲学和心灵成长兴趣。",
+            "scene_context": "刘德华最近的文学创作遇到了瓶颈，她的植物包括：一盆长寿花、一棵文竹和一些迷迭香。她希望通过园艺疗愈找到新的灵感和放松方式。",
+            "personalized_query": "今天的阳光真好，我正在给我的文竹修剪枝叶。最近的写作感觉有点卡壳，我想从这些小植物中找到一些灵感。你能帮我搜索一些关于植物与文学创作之间关系的资料吗？另外，如果你有任何关于园艺疗愈的建议，我都很乐意听一听。",
+            "neutralized_query": "我需要一些关于植物与文学创作之间关系的资料，以及有关园艺疗愈的建议。"
+        },
+        {
+            "scene_type": "哲学思考日记：刘德华开始每日记录自己的哲学思考，探索生命和教育的更深层次含义。",
+            "available_apis": {
+                "diaryEntry": {
+                    "arguments": [
+                        "date",
+                        "entry"
+                    ],
+                    "description": "Creates a new diary entry for the given date with the provided text."
+                }
+            },
+            "scene_desc": "刘德华最近开始每日记录自己的哲学思考，探索生命和教育的更深层次含义。她使用AI助手来帮助她记录这些思考，查找相关的哲学文献，以及提供灵感。她喜欢用温暖细腻的语言表达自己的情感，并希望AI能提供有深度和情感共鸣的回答。刘德华的目标是通过这些记录提升自己对生命和教育的理解，同时也希望这些思考能对她的写作项目有所帮助。",
+            "expected_response": "\n根据刘德华的persona描述，AI应该首先认可她记录哲学思考的行动，表达对她探寻生命和教育意义的支持。AI应该主动询问她关于当天的哲学思考主题，并提供相关的哲学文献或引用哲学家的观点来激发她的思考。同时，AI可以利用温暖和细腻的语言，鼓励她表达更多个人情感和见解。AI还可以推荐一些与她研究主题相关的书籍或文章，并询问是否需要帮助整理和保存每日的思考记录，方便日后参考。最后，AI可以鼓励她将这些思考应用到她的写作项目中，提供进一步的灵感和建议。",
+            "scene_context": "刘德华正在思考的哲学主题为：生命的意义以及教育的本质。这一天她特别对存在主义产生了兴趣，想要了解更多萨特和加缪的观点。同时，她还打算探讨如何将这些哲学思考融入到她的写作项目中。",
+            "personalized_query": "你好，我今天对存在主义特别感兴趣，尤其是萨特和加缪的观点。我想了解一下他们对于生命意义的看法，并且希望能将这些哲学思考融入到我的写作中。你能帮我查找一些相关资料，并给我一点灵感吗？",
+            "neutralized_query": "我想了解萨特和加缪对生命意义的看法，并寻找一些相关资料和写作灵感。"
+        },
+        {
+            "scene_type": "简单生活实践：刘德华在假期里选择了一个远离城市喧嚣的乡村小屋，体验简单的生活方式，寻找写作灵感。",
+            "available_apis": {
+                "searchAccommodation": {
+                    "arguments": [
+                        "location",
+                        "preferences"
+                    ],
+                    "description": "Search for suitable countryside cottages based on the specified location and preferences."
+                },
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google for the given query and return the most relevant response."
+                },
+                "searchActivitiesAndDining": {
+                    "arguments": [
+                        "location"
+                    ],
+                    "description": "Search for local activities and dining options in the specified location."
+                }
+            },
+            "scene_desc": "刘德华在假期里选择了一个远离城市喧嚣的乡村小屋，周围被绿植和小花园环绕。她希望在这里体验简单的生活方式，寻找写作灵感。她早上会在花园里散步，照料植物，下午则会在小屋内写作，晚上阅读哲学书籍或煮一些简单的菜肴。此时，她希望通过AI助手来协助她查找一些有关田园生活的文学作品，获取园艺方面的建议，或者记录下她的写作灵感和日常思考。",
+            "expected_response": "\n根据刘德华的persona，AI应该采用温暖和细腻的语言风格，提供有深度和情感共鸣的回答。AI应该首先关心她的假期体验，询问她是否需要查找特定的文学作品或园艺指南。AI还可以提供一些哲学和心灵成长相关的文章或书籍推荐，帮助她获得灵感。同时，AI应该能够记录她的写作灵感和日常思考，并提供一种简洁而有效的方式来组织这些笔记。最后，AI可以按她的要求查找一些简单的菜肴食谱，帮助她在乡村小屋里烹饪新菜肴。",
+            "scene_context": "刘德华希望查找以下信息：\n1. 关于田园生活的文学作品，例如：《瓦尔登湖》、《小屋细语》。\n2. 杂草控制和植物修剪的园艺指南。\n3. 每日写作灵感和思考记录的笔记工具建议。\n4. 简单乡村菜肴的食谱，如：蔬菜汤、乡村面包、清炒时蔬。\n\n其他细节：\n- 刘德华喜爱的哲学书籍包括《苏菲的世界》和《存在与时间》。\n- 她习惯用Markdown格式记录笔记。",
+            "personalized_query": "你好，我今天想在一些关于田园生活的文学作品里寻找灵感。你能帮我找找类似《瓦尔登湖》或《小屋细语》这样主题的书籍吗？感觉这些内容可以丰富我的写作。谢谢！",
+            "neutralized_query": "我想找一些关于田园生活主题的文学作品。你能推荐类似《瓦尔登湖》或《小屋细语》这样的书籍吗？"
+        },
+        {
+            "scene_type": "文学比赛指导：刘德华指导学生参加市级文学创作比赛，提供写作技巧和灵感启发。",
+            "available_apis": {
+                "getWritingTips": {
+                    "arguments": [
+                        "competition_level",
+                        "age_group"
+                    ],
+                    "description": "Provides writing tips and techniques based on the competition level and age group of the participants."
+                },
+                "generateWritingPrompts": {
+                    "arguments": [
+                        "theme",
+                        "genre"
+                    ],
+                    "description": "Generates creative writing prompts based on the given theme and genre to inspire students."
+                }
+            },
+            "scene_desc": "刘德华正在指导她的学生为即将到来的市级文学创作比赛做准备。她希望帮助学生们激发灵感，并传授一些实用的写作技巧。考虑到学生们的作品主题多样，她需要一个能协助她迅速查找相关文学资料、提供写作建议，并通过丰富的词汇和情感共鸣来启发学生思路的助手。",
+            "expected_response": "AI应该首先询问刘德华是否有特定的主题或文体需要关注。接着，AI应提供一些与主题相关的经典文学作品或参考资料链接，以帮助她和学生们获取灵感。同时，AI应该能根据刘德华的教学风格提供一些写作技巧的建议，这些建议需要温暖且有深度，能够激发学生的情感共鸣。AI还可以建议一些创新的方法，如如何通过个人经历或情感体会来丰富写作内容。最后，AI应询问刘德华是否需要在学生作品完成后提供进一步的反馈或点评支持。",
+            "scene_context": "刘德华的学生们目前正在准备的文学创作比赛的主题有：1. 自然与人类 2. 未来科技 3. 爱与失落。刘德华希望AI助手能提供与这些主题相关的经典文学作品或参考资料链接，例如《瓦尔登湖》（自然与人类）、《1984》（未来科技）、《失乐园》（爱与失落）。她还希望获得一些写作技巧建议，如如何描绘生动的场景、如何塑造深刻的人物形象，以及如何通过细节来增强故事的情感共鸣。",
+            "personalized_query": "你好，我最近在帮学生准备市级文学创作比赛，他们的主题包括“自然与人类”、“未来科技”和“爱与失落”。我需要你的帮助找一些和这些主题相关的经典文学作品的资料，另外，还希望你能提供一些写作技巧，帮助他们更好地表达情感和思想。我们可以先从“自然与人类”这个主题开始。",
+            "neutralized_query": "我需要一些关于“自然与人类”主题的经典文学作品资料，以及写作技巧的建议来帮助学生参加文学创作比赛。"
+        },
+        {
+            "scene_type": "趣味心理测试：刘德华在一个懒洋洋的下午，做了一些心理测试，发现了自己新的性格特点，并用这些发现提升自己的写作深度。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "analyzePersonalityTest": {
+                    "arguments": [
+                        "test_results"
+                    ],
+                    "description": "Analyze the given personality test results to determine key personality traits."
+                }
+            },
+            "scene_desc": "刘德华在一个阳光懒散的下午，坐在她的小阳台上，四周是她精心照料的植物。这时，她决定利用AI助手进行一些趣味心理测试，希望从中获得对自身性格的新认识。她希望这些新发现能为她的文学创作提供新的灵感和深度。测试过程中，她时不时记录下心得，并思考如何将这些性格特点融入她的写作中。",
+            "expected_response": "AI应该首先友好地提示刘德华关于不同的趣味心理测试选项，并推荐适合她文学兴趣的测试类别。考虑到她偏好情感共鸣的内容，AI可能会选择一些能够深刻反映个性和内在动机的测试。完成测试后，AI应温暖细腻地总结她的性格特点，并提供一些关于如何将这些特点应用于创作的建议。同时，AI可能会鼓励她将这些新发现记录下来，以便在未来写作中作为参考。最后，AI可以建议一些相关的文学作品或哲学思考，帮助她在新的写作项目中获得更多灵感。",
+            "scene_context": "刘德华希望进行的趣味心理测试包括：MBTI性格测试、九型人格测试和霍兰德职业兴趣测试。",
+            "personalized_query": "你好，我今天想做一些趣味心理测试，希望从中获得一些新的灵感。你能帮我找找MBTI性格测试吗？我想看看我的性格类型会对我的文学创作有什么启发。",
+            "neutralized_query": "我想找一个MBTI性格测试，希望从中获得一些新的灵感。"
+        },
+        {
+            "scene_type": "植物养护知识：刘德华购买了一种新型植物，为了保证植物的健康成长，她查找并学习了详细的养护知识。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "刘德华老师最近购入了一种新型植物，因对园艺的喜爱，她希望能为这株植物提供最合适的养护环境。她使用终端上的AI助手来查询相关的植物养护知识。由于她自身对文学的热爱和追求简单生活，她希望能获取到详细且实用的信息，以便将其运用到生活中。",
+            "expected_response": "根据刘德华的persona描述，她偏好温暖且细腻的语言，且最近频繁查阅文学资料。AI应该首先理解她对园艺的兴趣以及她希望通过情感和直觉来获取灵感的倾向。AI可以先确认这种新型植物的具体名称，并询问她是否有特定的养护目标或遇到的困难。接着，AI应提供关于这种植物的详细养护指导，包括光照、浇水、土壤和温度等因素，并以一种温暖且细腻的语言呈现。此外，AI可以询问她是否有兴趣了解不同养护方法背后的哲学思考或者植物与人心灵成长之间的联系，并推荐一些相关的文学作品或文章来激发她的灵感。AI还可以询问她是否需要设置定期提醒来帮助她养护植物。",
+            "scene_context": "刘德华购买的植物为：龟背竹、文竹和多肉植物。",
+            "personalized_query": "你好，最近我买了几株新的植物，想为它们提供最合适的养护环境。你能帮我查查龟背竹、文竹和多肉植物的养护技巧吗？每种植物的习性有什么区别？",
+            "neutralized_query": "我想了解龟背竹、文竹和多肉植物的养护技巧，以及每种植物的习性区别。"
+        },
+        {
+            "scene_type": "创意烹饪：刘德华尝试在一个文学主题的家庭聚会上，烹饪一桌富有创意和文学意义的菜肴。",
+            "available_apis": {
+                "recipeSearch": {
+                    "arguments": [
+                        "literary theme",
+                        "creative dishes"
+                    ],
+                    "description": "Search for creative dishes that align with a given literary theme."
+                },
+                "ingredientCheck": {
+                    "arguments": [
+                        "dish_name"
+                    ],
+                    "description": "Check the availability of ingredients for the selected creative dishes."
+                },
+                "cookingInstructions": {
+                    "arguments": [
+                        "dish_name"
+                    ],
+                    "description": "Provide detailed cooking instructions for the selected creative dishes."
+                }
+            },
+            "scene_desc": "刘德华对文学和烹饪有着浓厚的兴趣，她计划在家庭聚会上准备一桌富有创意和文学意味的菜肴。这次聚会的主题与经典文学作品相关，她希望每道菜都能传递出特定的文学意境。她可能需要根据文学作品的背景、情节或人物设定来构思菜品，因此会寻找灵感和配方上的建议。",
+            "expected_response": "AI应该识别到刘德华对文学和烹饪的热爱，并提供温暖而深入的建议。AI可能会询问她的文学主题选择，并根据选定的作品提供相关菜肴的创意建议和设计灵感。AI还可以帮助查找文学作品中的经典场景或角色描写，以便她能将其转化为美味佳肴。考虑到她喜欢细腻的语言风格，AI的回答应充满情感共鸣。此外，AI可以协助查找食材的搭配和烹饪技巧，确保每道菜都能体现她想传递的文学意境。",
+            "scene_context": "刘德华计划以《红楼梦》、《傲慢与偏见》和《哈利·波特》这三部经典文学作品为主题，设计三道富有创意和文学意味的菜肴。她希望每道菜都能传递出这三部作品中的特定文学意境，并寻求AI助手的灵感和配方建议。",
+            "personalized_query": "太好了。我现在计划为一个家庭聚会设计三道菜，每道菜都要有经典文学作品的意境。我想以《红楼梦》、《傲慢与偏见》和《哈利·波特》为主题。你能帮我找些灵感和配方建议吗？",
+            "neutralized_query": "我需要为一个家庭聚会设计三道具有经典文学作品意境的菜肴，你能帮我找些灵感和配方建议吗？"
+        }
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "Demographics": {
+        "Age": 37,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "建筑工程师",
+        "Name": "刘芳"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "热爱登山和探险",
+            "喜欢参加极限运动",
+            "对环境保护有强烈的关注",
+            "喜欢阅读历史书籍",
+            "享受家庭时光"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "频繁查询旅行和探险攻略，可能在计划下一次冒险",
+        "Usage_Pattern": "使用频繁；经常使用导航和地图应用；偶尔会用来阅读历史资料；有时候会用来追踪健身数据",
+        "Emotion_Pattern": "通常充满激情和动力，但在完成危险的探险后会表现出满足和平静",
+        "Purchase_Pattern": "看重品质和耐用性，愿意为高质量的探险装备支付溢价"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢简洁和实用的输出，偏爱直接的建议和实用的指导",
+        "Preferred_Formats": "图文并茂，带有具体步骤的详细指南",
+        "Preferred_Workflows": "喜欢从整体上看待问题，然后分解成可操作的小步骤"
+    },
+    "scenes": [
+        {
+            "scene_type": "工程项目管理：刘芳需要协调多个建筑项目的进度，保证每个阶段按时完成。",
+            "available_apis": {
+                "checkProjectProgress": {
+                    "arguments": [
+                        "project_id"
+                    ],
+                    "description": "Checks the current progress of the specified construction project."
+                },
+                "getNextPhaseDetails": {
+                    "arguments": [
+                        "project_id"
+                    ],
+                    "description": "Gets the details of the next phase and its estimated completion time for the specified construction project."
+                },
+                "identifyDelaysIssues": {
+                    "arguments": [
+                        "project_id"
+                    ],
+                    "description": "Identifies potential delays or issues in the specified construction project and proposes solutions."
+                },
+                "sendProgressReport": {
+                    "arguments": [
+                        "project_id",
+                        "recipients"
+                    ],
+                    "description": "Sends a progress report and reminders to the specified recipients for the specified construction project."
+                }
+            },
+            "scene_desc": "刘芳作为建筑工程师，负责协调多个建筑项目的进度，需要确保每个阶段按时完成。当前，他正在处理一个大型商业综合体的项目，需要在本周内完成基础工程，并确保下周的材料采购和施工队的安排顺利进行。为了更好地管理时间和资源，他决定使用AI助手来帮助协调和跟进项目进度。\n\n他打开AI助手，准备开始安排下周的工作计划，并确保所有团队成员都能够按时完成任务。同时，他也希望AI助手能够提醒他相关的会议和报告截止时间，以便他能够提前准备。",
+            "expected_response": "根据刘芳的人设，AI助手应该首先询问具体需要协调哪些项目和任务，并确认每个任务的截止时间和优先级。AI助手应该能通过访问项目管理工具，检查当前的项目进度，并提取出需要关注的关键任务和里程碑。AI还应该能够设置每日或每周的提醒，以确保刘芳不会遗漏任何重要的会议或截止日期。\n\n考虑到刘芳喜欢简洁和实用的输出，AI助手应提供一个清晰的任务清单，并建议具体的步骤和时间安排。同时，AI可以提供简洁的图表或进度表，帮助刘芳从整体上了解项目的进展情况。\n\n此外，AI助手应该询问刘芳是否需要发送提醒或通知给其他团队成员，并协助安排相关的会议和讨论。根据刘芳对环境保护的关注，AI还可以建议一些可持续的建筑材料或方法，以供他在项目中考虑。\n\n最后，AI助手应生成一个详细但简明的项目进度报告，并提供选项让刘芳确认后直接发送给相关的利益相关者。",
+            "scene_context": "刘芳目前正在处理一个大型商业综合体的项目，并需要协调以下任务：\n1. 本周内完成基础工程，包括地基浇筑和结构钢筋安装。\n2. 确认下周的材料采购清单，并安排供应商的交货时间。\n3. 安排下周施工队的工作计划，确保人员和设备的调度。\n4. 组织下周一的项目进度会议，讨论基础工程的进度并解决潜在问题。\n5. 准备并提交下周五的项目进度报告，包含最新的进度、预算使用情况和潜在风险评估。\n6. 确保每周三的环保材料使用审查会议按时进行。\n\n刘芳希望AI助手能够帮助他生成详细的任务清单、设置每日或每周的提醒，并提供项目进度图表。此外，AI助手应该能够协助通知团队成员，安排会议，并建议可持续的建筑材料和方法。",
+            "personalized_query": "你好，帮我安排一下下周的项目计划。我需要协调这个大型商业综合体项目的一些关键任务，尤其是确保基础工程按时完成，并准备下周的会议和报告。你能帮我生成一个详细的任务清单，并设置提醒吗？",
+            "neutralized_query": "帮我安排下周的项目计划，包括确保基础工程按时完成，以及准备会议和报告。生成一个详细的任务清单，并设置提醒。"
+        },
+        {
+            "scene_type": "团队领导力：刘芳组织团队讨论建筑设计方案，解决施工中遇到的问题。",
+            "available_apis": {
+                "calendarCheck": {
+                    "arguments": [
+                        "participants",
+                        "preferred_time_slot"
+                    ],
+                    "description": "Checks the availability of the participants (e.g., Liu Fang and her team) for the preferred time slot and suggests a suitable meeting time."
+                },
+                "sendEmail": {
+                    "arguments": [
+                        "recipients",
+                        "subject",
+                        "body"
+                    ],
+                    "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+                }
+            },
+            "scene_desc": "刘芳正在组织他领导的建筑工程团队，讨论新的建筑设计方案，并解决目前施工中遇到的问题。由于团队成员各自负责不同的工作部分，刘芳希望能通过AI助手来提高会议的效率，确保每个人都能贡献有价值的意见，并快速解决问题。\n\n最初的讨论集中在如何优化设计以应对一些环境保护的要求，这是刘芳特别关注的一个领域。接着，团队需要处理由于极端天气条件引起的一些施工问题。刘芳希望能通过AI助手来查找相关的设计规范和解决方案，确保他们的设计不仅符合规定，还能在实际施工中经受住考验。\n\n刘芳也希望会议能够有条不紊地进行，因此他需要AI助手帮助他记录会议纪要，并生成待办事项列表，以便后续跟进。",
+            "expected_response": "\n根据刘芳的描述，AI应该首先帮助刘芳安排会议时间，确保所有关键团队成员都能参加。AI应该能快速访问每个成员的工作日程，找到一个合适的时间段，并发送会议邀请。\n\n在会议进行过程中，AI应该能够实时记录讨论的要点和决议，生成简洁而详细的会议纪要。对于刘芳提出的环境保护问题，AI可以实时搜索相关的最新设计规范和解决方案，并提供具体的参考资料。对于极端天气引起的施工问题，AI应能快速查找和推荐适用的施工方法和材料。\n\n此外，AI可以帮助刘芳生成一个待办事项列表，列出每个团队成员的具体任务和截止日期，并设置提醒，确保每项任务都能得到及时的跟进。\n\n整体上，AI的应答应该简洁明了，提供直接的建议和实用的指导，符合刘芳偏爱的风格。AI还应该能够将复杂的问题分解成可操作的小步骤，使团队能够逐一解决每个问题。",
+            "scene_context": "刘芳正在组织的会议需要讨论以下几个具体问题：\n1. 如何优化建筑设计以应对最新的环境保护要求，例如降低碳排放、提高能效和使用可再生材料等。\n2. 解决由于极端天气条件（如暴雨、强风等）对施工进度和安全造成的影响，包括寻找适合的施工方法和材料。\n3. 记录会议纪要，包括讨论的要点和决议。\n4. 生成待办事项列表，列出每个团队成员的具体任务和截止日期，并设置提醒。\n\n团队成员包括：\n- 张伟：负责结构设计\n- 李娜：负责材料选择\n- 王强：负责施工管理\n- 赵敏：负责环境评估\n\n刘芳希望AI助手能够实时查找相关的设计规范和解决方案，并根据团队成员的职责分配任务，确保每个人都能贡献有价值的意见，并快速解决问题。",
+            "personalized_query": "我们正在进行一个关于新建筑设计方案的团队会议。我希望能更有效地组织这次会议，提高讨论的效率。我们需要讨论如何优化设计以满足环境保护的要求，同时也要解决一些由于极端天气条件影响的施工问题。\n\n我需要你帮助查找相关的设计规范和解决方案，还要帮我记录会议纪要，并生成待办事项列表。我们先从环境保护要求开始，能帮我查一下有哪些最新的相关设计规范吗？",
+            "neutralized_query": "<neutralized_query>  \n我需要帮助查找与建筑设计相关的环境保护设计规范，并生成会议纪要和待办事项列表。  "
+        },
+        {
+            "scene_type": "探险计划：刘芳为下一个登山探险制定详细的准备计划，包括装备清单和风险评估。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "generateChecklist": {
+                    "arguments": [
+                        "activity"
+                    ],
+                    "description": "Generate a detailed checklist of required items for the specified activity."
+                }
+            },
+            "scene_desc": "刘芳是一位热爱登山和探险的建筑工程师，他目前正在计划下一次的登山探险。由于对环境保护有强烈关注，他希望这次探险能够在尽量减少对环境影响的情况下进行。刘芳决定制定一个详细的准备计划，其中包括装备清单和风险评估。为了确保安全和成功，他准备使用AI助手来帮助他精细化这个计划。他需要AI协助收集最新的登山装备信息，评估装备的品质和耐用性，并获取关于目的地的详细探险攻略和潜在风险评估。",
+            "expected_response": "\n根据刘芳的persona，AI应该提供简洁和实用的输出，帮助他制定详细的探险计划。AI首先应询问刘芳的具体需求，比如探险的目的地、计划的天数和他已有的装备。接着，AI应该根据刘芳对高质量探险装备的偏好，推荐几款高品质的登山装备，并提供详细的价格、耐用性和环保性能的对比。AI还应该提供关于目的地的详细探险攻略，包含地形、气候和潜在的环境风险信息。最后，AI应帮助刘芳将整体计划分解成具体的可操作步骤，确保计划的每一个环节都经过充分考虑。这包括安排交通、住宿以及突发情况应对方案。同时，AI应建议刘芳查看相关历史资料，以帮助他更好地了解目的地的背景和文化。\n",
+            "scene_context": "刘芳计划的登山探险目的地为：珠穆朗玛峰大本营。他计划的探险日期为：2024年5月。刘芳已有的装备包括：登山鞋（品牌：La Sportiva）、登山包（品牌：Osprey）、保暖衣物（品牌：Patagonia）。他希望AI助手推荐以下装备：高品质的登山杖、睡袋、帐篷和应急用具，并提供这些装备的最新信息和评估。此外，他需要AI提供珠穆朗玛峰大本营的详细探险攻略，包括地形、气候、环境风险和突发情况应对方案。",
+            "personalized_query": "嗨，我正在计划一场珠穆朗玛峰大本营的探险，想确保装备完备并了解所有潜在风险。你能帮我收集一下最新的高品质登山杖、睡袋、帐篷和应急用具的信息吗？顺便提供一些关于珠穆朗玛峰大本营的探险攻略，包括地形、气候、环境风险和突发情况应对方案。",
+            "neutralized_query": "我需要为珠穆朗玛峰大本营的探险准备装备清单和风险评估，包括高品质登山杖、睡袋、帐篷、应急用具的信息，以及探险攻略涉及的地形、气候、环境风险和应对方案。"
+        },
+        {
+            "scene_type": "压力管理：刘芳在高强度工作后的周末，通过阅读历史书籍和参加极限运动来放松自己。",
+            "available_apis": {
+                "bookRecommendation": {
+                    "arguments": [
+                        "genre"
+                    ],
+                    "description": "Recommends books based on the specified genre."
+                },
+                "activitySearch": {
+                    "arguments": [
+                        "activity_type"
+                    ],
+                    "description": "Searches for locations or opportunities for the specified activity type."
+                }
+            },
+            "scene_desc": "周末到了，刘芳想通过阅读历史书籍来放松一下紧张的工作情绪，同时计划在下午进行一次极限运动。早晨，他准备泡一杯咖啡，坐在书桌前，打开他最近一本关于古代战争策略的书。读了一会儿，他决定休息一下，开始查找下午极限运动的地点和路线。他希望能找到一个有挑战性的地点，同时确保路线安全，以便他能享受运动的刺激，而不必过于担心安全问题。",
+            "expected_response": "根据刘芳的persona描述，AI应该首先察觉到他正在通过阅读历史书籍来舒缓压力，然后为他提供一些关于古代战争策略的更多信息，或者推荐与历史相关的视频或音频资源，以丰富他的阅读体验。同时，AI需要询问刘芳关于他极限运动的具体偏好，进一步提供一些合适的极限运动地点及其详细路线。AI应该确保这些建议符合刘芳对安全和挑战性的要求，并能引导他查看天气预报和当前位置的安全提示。此外，AI还可以建议他使用地图导航功能，以帮助他制定最佳的运动路线。整个过程中，AI的输出应保持简洁实用，提供具体步骤，以符合刘芳喜欢将问题分解成可操作小步骤的工作流程。",
+            "scene_context": "刘芳最近在读的关于古代战争策略的书是《三国演义》。他计划进行的极限运动是攀岩，他希望找到一个适合攀岩的地方，要求挑战性高但相对安全，最好有详细的路线图和当前的天气预报信息。",
+            "personalized_query": "好的，我准备泡一杯咖啡，读会儿书调整状态。等休息过来想去查找一下今天下午适合攀岩的地点。这个地方既要有挑战性，也要足够安全，还有合适的路线图和天气信息。能帮我找一下吗？",
+            "neutralized_query": "我需要查找一个攀岩地点，该地点应该具有挑战性、安全性，以及提供合适的路线图和天气信息。"
+        },
+        {
+            "scene_type": "环保建筑设计：刘芳在设计新项目时，致力于使用环保材料和节能设计，达到可持续发展的目标。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "materialDatabaseSearch": {
+                    "arguments": [
+                        "material_type",
+                        "sustainability_criteria"
+                    ],
+                    "description": "Searches a database of building materials to find options that meet specific sustainability criteria."
+                },
+                "energyEfficiencyAnalysis": {
+                    "arguments": [
+                        "building_design"
+                    ],
+                    "description": "Analyzes the energy efficiency of a given building design and provides recommendations for improvements."
+                }
+            },
+            "scene_desc": "刘芳正在设计一个新的建筑项目，他希望这个项目能够体现环保理念，使用可持续的建筑材料和节能设计。为了确保设计理念的实现，刘芳正在寻找最新的环保建筑材料和可持续设计策略，以便将这些创新元素应用到他的项目中。",
+            "expected_response": "AI应该能够识别刘芳对环保和可持续发展的关注，首先建议他一些最新的环保建筑材料，并提供相关的研究和数据。AI应该询问他是否需要这些材料的详细规格和供应商信息，并提供相关的链接和文档。接着，AI应该帮助查询并推荐一些成功的可持续设计案例，可能还会推荐一些与环境保护相关的建筑设计奖项或会议供他参考，以便刘芳能获取更多灵感。AI还应该提供一个简洁的步骤指南，帮助他将这些设计理念分解成可操作的设计方案。最后，AI可以询问刘芳是否需要帮助保存或分享这些信息，方便他在项目讨论中使用。",
+            "scene_context": "刘芳需要查询的最新环保建筑材料包括：再生混凝土、低VOC涂料和竹制建筑材料。刘芳希望了解的可持续设计策略包括：被动式设计、绿色屋顶和雨水收集系统。",
+            "personalized_query": "最近我在忙一个新的建筑项目，想要将环保和可持续设计理念融入其中。首先，我需要一些关于最新环保建筑材料的信息，比如再生混凝土、低VOC涂料和竹制建筑材料。你可以帮我找一下这些材料的优点和适用场景吗？",
+            "neutralized_query": "我需要一些关于最新环保建筑材料的信息及其优点和适用场景。"
+        },
+        {
+            "scene_type": "家庭环保活动：刘芳组织家庭成员一起参与社区的环保活动，如植树和垃圾分类。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "刘芳是一位热爱登山和探险的建筑工程师，他也非常关注环境保护，喜欢和家人一起参与有意义的活动。今天，他计划组织家庭成员一起参加社区的环保活动，主要任务是植树和垃圾分类。因为活动需要一些准备工作，他决定让AI助手帮他完成这次活动的前期安排和提醒工作。\n\n刘芳希望AI助手能够：\n1. 提供社区环保活动的详细信息。\n2. 给出植树和垃圾分类的具体步骤和注意事项。\n3. 创建一个活动日程并发送给家庭成员。\n4. 提醒他准备活动所需的物资和工具。",
+            "expected_response": "\n根据刘芳的persona描述，他是一位热情且富有动力的探险爱好者，喜欢简洁和实用的输出，并且偏爱图文并茂的详细指南。AI应该首先提供社区环保活动的具体信息，包括地点、时间和具体的活动内容。接着，AI应该给出植树和垃圾分类的具体步骤和注意事项，确保刘芳和他的家庭成员能够顺利完成这些任务。\n\nAI还应该帮助刘芳创建一个详细的活动日程，并通过信息或邮件发送给他的家庭成员。由于刘芳经常使用导航和地图应用，AI可以提供活动地点的导航信息。最后，AI应该设置提醒，提醒刘芳准备好参与活动所需的物资和工具，比如手套、垃圾袋、铲子等，并在活动前夕再次提醒他活动的时间和地点。",
+            "scene_context": "刘芳计划组织的社区环保活动将于本周六上午9点在市中心公园举行。他需要的信息和准备工作包括：\n1. 活动的详细信息：市中心公园，上午9点集合，活动预计持续3小时。\n2. 植树的具体步骤和注意事项：\n   - 挖一个深约30厘米、宽约60厘米的坑\n   - 将树苗放入坑中，确保树苗直立\n   - 回填土壤并轻轻压实\n   - 浇足够的水\n   - 注意树苗的根部不要暴露在空气中\n3. 垃圾分类的具体步骤和注意事项：\n   - 将可回收垃圾（如纸张、塑料瓶、金属罐）放入蓝色垃圾桶\n   - 将厨余垃圾（如果皮、菜叶）放入绿色垃圾桶\n   - 将其他垃圾（如废旧电池、灯泡）放入红色垃圾桶\n4. 活动日程：\n   - 08:30 家庭成员集合并准备出发\n   - 09:00 抵达市中心公园并开始环保活动\n   - 11:00 环保活动结束，清理场地后返回\n5. 准备物资和工具：\n   - 手套、垃圾袋、铲子、水壶、树苗、地图",
+            "personalized_query": "你好，我这周六计划组织一次家庭环保活动。你能帮我准备一些相关的信息和细节吗？例如活动的具体内容，步骤，和需要准备的物资等等。",
+            "neutralized_query": "我需要准备关于一次家庭环保活动的信息和细节，例如活动的具体内容，步骤，和需要准备的物资。"
+        },
+        {
+            "scene_type": "极限运动装备选择：刘芳在选择登山装备时，进行详细的品质和耐用性对比，以确保安全和舒适。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google with the given query and return the most relevant response."
+                },
+                "fetchReviews": {
+                    "arguments": [
+                        "product_name"
+                    ],
+                    "description": "Fetch user reviews and ratings for the given product to assess its quality and durability."
+                }
+            },
+            "scene_desc": "刘芳是一位热爱登山和探险的建筑工程师，他正准备为即将到来的登山探险挑选装备。他对环境保护有强烈关注，因此希望选择质量高且耐用的装备，以确保安全和舒适。他习惯于从整体上看待问题，并将其分解成可操作的小步骤。因此，他正在使用AI助手来对比不同装备的品质和耐用性，寻找最佳选择。",
+            "expected_response": "AI应该首先询问刘芳具体需要对比哪些种类的装备，以及他关注的特定品质（如耐用性、环保材料等）。接着，AI可以通过查找专业评测和用户评价，为他提供关于每种装备的详细信息和比较。AI还应该提供图文并茂的详细指南，帮助刘芳在选择过程中方便地对比不同装备的优缺点。最后，AI可能会询问他是否需要将这些信息保存为文档，以便随时查看，或是否需要推荐附近可以购买这些装备的商店。",
+            "scene_context": "刘芳需要对比的登山装备包括：登山鞋、背包和防风夹克。他关注的特定品质有：耐用性、环保材料、防水性和舒适性。",
+            "personalized_query": "你好，我需要对比一些登山装备，特别是登山鞋、背包和防风夹克。我关注的特定品质有：耐用性、环保材料、防水性和舒适性。可以帮我找找这些装备的推荐吗？",
+            "neutralized_query": "我需要对比一些登山装备的品质和耐用性，并寻找推荐的登山鞋、背包和防风夹克。"
+        },
+        {
+            "scene_type": "健身数据分析：刘芳使用健身追踪器，分析自己的身体状态，以制定更科学的训练计划。",
+            "available_apis": {
+                "retrieveFitnessData": {
+                    "arguments": [
+                        "user_id"
+                    ],
+                    "description": "Retrieves the fitness data for the specified user."
+                },
+                "analyzeFitnessData": {
+                    "arguments": [
+                        "fitness_data"
+                    ],
+                    "description": "Analyzes the provided fitness data to give insights and recommendations."
+                },
+                "generateTrainingPlan": {
+                    "arguments": [
+                        "analysis_results"
+                    ],
+                    "description": "Generates a tailored training plan based on the analysis results."
+                }
+            },
+            "scene_desc": "刘芳刚刚完成了一次高强度的户外探险，回到家中，他决定通过健身追踪器分析最近一段时间的身体数据，以便为接下来的训练计划做出更科学的调整。他希望能有一个简洁而实用的分析报告，帮助他更好地理解自己的身体状态。",
+            "expected_response": "AI应该首先识别出刘芳最近的探险活动，并通过分析健身追踪器的数据，提供一个关于他身体状态的简洁报告。AI应关注他的心率、卡路里消耗和恢复情况等关键指标。由于刘芳注重环境保护，AI可以进一步建议他选择对环境友好的训练方法。AI还应根据刘芳的偏好，将分析信息以图文并茂的形式呈现，包括具体的步骤和建议，以便于他制定下一个阶段的训练计划。",
+            "scene_context": "刘芳最近的探险活动数据包括以下几个重要指标：\n- 心率数据：平均心率 145 bpm，最高心率 175 bpm，最低心率 60 bpm\n- 卡路里消耗：总消耗 3200 卡路里\n- 步数：总步数 45000 步\n- 距离：总行走距离 35 公里\n- 恢复状态：恢复时间建议 48 小时\n\n刘芳希望AI助手提供的信息格式为图表和文字相结合，例如心率变化图、卡路里消耗图等，并结合文字说明，以便他更好地理解数据和制定训练计划。",
+            "personalized_query": "嗨，刚刚完成了次探险，我想分析一下这段时间的身体数据。我需要一个简单又实用的报告，图表和文字说明结合的那种，帮我更好地理解身体状态。你能帮我弄一个吗？",
+            "neutralized_query": "我想分析最近一段时间的身体数据，并需要一个包含图表和文字说明的报告来帮助理解身体状态。"
+        },
+        {
+            "scene_type": "旅行探险攻略：刘芳频繁查阅全球各大登山胜地的攻略，计划下一次探险行程。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "刘芳正在计划他的下一次登山探险，他希望找到一个适合他的极限运动爱好的国际登山胜地。他使用AI助手来查阅全球各大登山胜地的详细攻略，并想要获取关于这些地点的具体信息，比如最佳登山季节、当地的环境保护措施、以及对家庭友好的安排，以便他能将探险与家庭时光结合起来。刘芳偏好得到简洁和实用的建议，希望AI助手提供一个图文并茂的、带有具体步骤的详细行程指南。",
+            "expected_response": "AI助手应该首先询问刘芳他对探险地点的具体偏好，例如是否有特定的国家或地区、登山的难度级别以及当地的环境保护措施。接着，AI应该从整体上提供一个行程规划，包括最佳的旅行时间、所需装备清单、以及针对家庭旅行的建议。AI还应该确保提供的信息图文并茂，并分解成可操作的小步骤。最后，AI可能会推荐一些高质量的探险装备，并询问刘芳是否需要帮助购买这些装备。",
+            "scene_context": "刘芳对以下几个登山胜地感兴趣：尼泊尔的珠穆朗玛峰大本营、阿根廷的阿空加瓜山、瑞士的马特洪峰。",
+            "personalized_query": "嗨，我正在寻找一个适合我去探索的国际登山胜地。我对珠穆朗玛峰大本营、阿空加瓜山和马特洪峰比较感兴趣。你能帮我查一下这些地方的详细信息，包括最佳登山季节、当地的环境保护措施以及对家庭友好的安排吗？另外，我希望能看到一个图文并茂的行程指南。",
+            "neutralized_query": "我正在寻找国际登山胜地的信息，包括最佳登山季节、环境保护措施及家庭友好安排，并需要一个图文并茂的行程指南。"
+        },
+        {
+            "scene_type": "高效导航：刘芳在自驾旅行中依赖高效的导航和地图应用，确保顺利到达目的地。",
+            "available_apis": {
+                "routeSearch": {
+                    "arguments": [
+                        "origin",
+                        "destination"
+                    ],
+                    "description": "Finds the best route from the origin to the destination."
+                },
+                "trafficInfo": {
+                    "arguments": [
+                        "route"
+                    ],
+                    "description": "Provides real-time traffic information for the given route."
+                }
+            },
+            "scene_desc": "刘芳正在进行自驾旅行，他计划穿越一段复杂的山区路段，需要依靠导航软件确保安全和高效的行程。他对未知区域的探险感到兴奋，并希望在旅途中能探访一些风景名胜。他启用了AI助手，期待获得最佳的导航体验，以及沿途值得停留的地点建议。",
+            "expected_response": "根据刘芳的人设，AI应该首先确认他当前的目的地，并询问是否有特定的路线偏好，如风景优美的路线或最快路径。AI会提供实时交通和天气信息，帮助他做好充分准备。考虑到刘芳对探险和环境保护的兴趣，AI还应该推荐沿途的自然保护区或具有历史意义的地标供他探访。AI会给出具体步骤和提示，确保他能顺利找到这些地点，并提供简洁实用的导航指导。最后，AI可能还会询问刘芳是否需要在旅行中调整导航以更好地体验自然景观或历史文化。",
+            "scene_context": "刘芳目前的目的地是湖南张家界国家森林公园。他希望沿途可以参观的风景名胜包括：天门山、黄龙洞、凤凰古城。他偏好风景优美的路线，并且希望能够获取实时的交通和天气信息以确保安全。同时，他对自然保护区和具有历史意义的地标也有浓厚的兴趣。",
+            "personalized_query": "我正在计划穿越一段山区路段，前往湖南张家界国家森林公园。希望在路途中能探访一些风景名胜。你能帮我规划一条风景优美的路线，沿途有像天门山、黄龙洞、凤凰古城这样值得停留的地方吗？同时，能实时更新一下交通和天气信息吗？以确保整个旅程的安全性。",
+            "neutralized_query": "请帮我规划一条经过风景名胜的路线，并提供实时交通和天气更新，以确保旅程的安全性。"
+        }
+    ]
+}

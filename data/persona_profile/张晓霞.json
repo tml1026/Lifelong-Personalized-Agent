@@ -1,0 +1,38 @@
+{
+    "Demographics": {
+        "Age": 18,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "正在准备高考",
+        "Name": "张晓霞"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "S",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "对物理和天文学非常感兴趣",
+            "喜欢玩电子游戏和篮球",
+            "热爱探索未知的科学领域",
+            "追求自由和冒险",
+            "重视生活中的乐趣和互动"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "经常搜索关于天文学的最新研究和物理学的前沿话题",
+        "Usage_Pattern": "偏好通过AI快速获取最新的科学资讯和研究成果",
+        "Emotion_Pattern": "使用AI时情绪稳定，但会在有趣的发现上表现出兴奋",
+        "Purchase_Pattern": "喜欢购买与天文学和电子游戏相关的书籍和设备"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢简短且直截了当的回答，尤其是在复杂的问题上",
+        "Preferred_Formats": "None",
+        "Preferred_Workflows": "喜欢通过AI进行知识探索，会不断提出新的问题以深入了解某个主题"
+    },
+    "scenes": []
+}

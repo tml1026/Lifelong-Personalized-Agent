@@ -1,0 +1,266 @@
+{
+    "Demographics": {
+        "Age": 62,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文"
+        ],
+        "Career_Information": "天津某研究所退休化学工程师",
+        "Name": "赵云龙"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "S",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "热衷于环保和科技进步",
+            "支持社区建设和志愿服务",
+            "喜欢种植盆栽和园艺",
+            "对传统文化和艺术有浓厚兴趣",
+            "喜欢户外活动，尤其是徒步旅行"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "经常咨询AI关于最新的园艺技巧和环保项目",
+        "Usage_Pattern": "喜欢用AI寻找新的兴趣爱好和志愿服务的机会",
+        "Emotion_Pattern": "常常从AI的回答中获得启发和乐趣",
+        "Purchase_Pattern": "对园艺和环保相关的产品有较高的购买需求"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢详细和系统化的回答，便于记录和实践",
+        "Preferred_Formats": "偏好表格和清单格式的信息展示",
+        "Preferred_Workflows": "喜欢逐步指示AI进行特定任务，会不断调整和细化问题以达到最佳效果"
+    },
+    "scenes": [
+        {
+            "scene_type": "化学实验室参观：赵云龙在社区组织了一次化学实验室参观活动，为年轻人讲解基础化学原理和环保知识。",
+            "available_apis": {
+                "scheduleTour": {
+                    "arguments": [
+                        "participants",
+                        "date",
+                        "time"
+                    ],
+                    "description": "Schedules the chemistry lab tour for the specified participants on the given date and time."
+                },
+                "sendNotification": {
+                    "arguments": [
+                        "recipients",
+                        "message_body"
+                    ],
+                    "description": "Sends a notification to the selected recipients about the scheduled chemistry lab tour, including details such as date, time, and location."
+                }
+            },
+            "scene_desc": "赵云龙在天津某研究所退休后，积极参与和组织社区活动。这次他组织了一次化学实验室参观活动，目的是为年轻人讲解基础化学原理以及环保知识。参观活动在一个现代化的化学实验室进行，赵云龙准备了一些简单的实验以及关于环保的演示，以便让年轻人能够更直观地理解这些知识。他还计划通过AI助手来帮助他准备讲解材料和演示内容，并确保活动的顺利进行。\n\n在这次活动中，赵云龙希望AI助手能够提供一些最新的化学实验室安全指南，帮助他找到一些适合年轻人的化学实验素材，并提供一些关于环保的最新资讯和项目案例，以便他能更好地讲解和展示。",
+            "expected_response": "\n根据赵云龙的persona，AI应该会理解他对详细和系统化的信息的偏好。AI应该首先询问赵云龙具体需要哪些实验材料和教具，并提供一个详细的清单，方便他逐项确认。接着，AI应该能够提供最新的化学实验室安全指南，以确保活动的安全性。AI还应该帮助赵云龙找到一些适合不同年龄段年轻人的化学实验素材，并提供最新的环保资讯和项目案例，这样能帮助赵云龙更好地进行讲解和演示。此外，AI应该按照赵云龙的要求，以表格或清单格式展示信息，以便于他记录和实践。最后，AI还应提供逐步的指示，帮助赵云龙更有条理地进行准备工作，并在活动过程中随时提供支持和反馈。",
+            "scene_context": "赵云龙需要准备的具体实验材料和教具包括：酸碱指示剂、试管和试管架、小烧杯、酒精灯、量筒、滴管、护目镜、实验手套。适合年轻人的化学实验素材可以包括：酸碱指示剂变色实验、自制溶液密度层实验、简易电解水实验。最新的环保资讯和项目案例可以包括：塑料回收再利用项目、空气污染监测与减少措施、废水处理与再利用的最新技术。",
+            "personalized_query": "你好，我正在准备一次化学实验室的参观活动，主要是为年轻人讲解基础化学原理和环保知识。我需要你帮我准备一些讲解材料和演示内容。\n\n首先，我需要最新的化学实验室安全指南，确保一切顺利进行。你能帮我找到相关信息吗？",
+            "neutralized_query": "我需要最新的化学实验室安全指南以及一些讲解材料和演示内容，以便为年轻人讲解基础化学原理和环保知识。能帮我找到相关信息吗？"
+        },
+        {
+            "scene_type": "可再生能源咨询：赵云龙被邀请到本地大学，作为客座讲师，分享他关于化学工程在可再生能源领域的应用和经验。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "generatePresentation": {
+                    "arguments": [
+                        "topic",
+                        "key_points"
+                    ],
+                    "description": "Generates a PowerPoint presentation based on the given topic and key points."
+                }
+            },
+            "scene_desc": "赵云龙准备在本地大学的讲座中分享他在化学工程领域的丰富经验，尤其是在可再生能源的应用方面。为了确保讲座内容的科学性和实用性，他计划利用AI助手进行深入的资料搜索和整理。他希望AI能帮助他找到最新的可再生能源技术动态，并将这些信息整理成易于理解的表格和清单，以便在讲座中使用。此外，他还想获取一些关于如何将化学工程应用于实际环保项目的案例，以丰富他的演讲内容。",
+            "expected_response": "\nAI应该首先确认赵云龙的具体需求，例如他希望涵盖哪些可再生能源技术领域，如太阳能、风能或生物燃料。接着，AI应快速搜索并提供有关这些技术的最新研究和应用案例，并以系统化的方式进行整理，呈现为表格或清单，以符合赵云龙的偏好。同时，AI应该询问赵云龙是否需要额外的信息，例如传统文化与现代技术结合的环保项目，以便更好地准备讲座内容。最后，AI可以提供逐步的指导，帮助赵云龙将这些信息整合到演讲中，并确保所有内容在实际应用中也具有可行性。",
+            "scene_context": "赵云龙希望涵盖的可再生能源技术领域有：太阳能、风能和生物燃料。他还想获取这些具体信息：\n1. 最新的太阳能技术动态，包括高效太阳能电池和光伏技术。\n2. 最新的风能技术动态，包括新型风力涡轮机设计和风能储存方式。\n3. 最新的生物燃料技术动态，包括第二代和第三代生物燃料的研究进展。\n4. 实际环保项目的案例，尤其是如何将化学工程应用于这些项目中，例如利用化学工程技术提高能源转换效率或减少污染排放的具体案例。",
+            "personalized_query": "你好，我今天需要你的帮助。我在准备一场关于可再生能源应用的讲座，希望你能帮我搜集一些最新的技术动态和实际的环保项目案例。可以先帮我查查最新的太阳能技术进展吗？比如高效太阳能电池和光伏技术方面的。等你有了信息之后咱们再继续聊别的领域。",
+            "neutralized_query": "我需要帮助搜集一些关于可再生能源应用的最新技术动态和实际的环保项目案例，特别是太阳能技术方面的进展。"
+        },
+        {
+            "scene_type": "社区园艺交流：赵云龙在社区花园活动中，带领邻居们一起讨论如何有效地种植盆栽和管理园艺。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                }
+            },
+            "scene_desc": "赵云龙在社区花园活动中，聚集了一群对园艺感兴趣的邻居。他们围在一起，讨论如何更有效地种植盆栽和管理园艺。赵云龙希望通过AI助手来获取一些最新的园艺技巧和环保项目的资讯，以便能更好地指导和分享给邻居们。他打算通过AI助手寻找详细的、系统化的种植指导，以及对于社区园艺管理的最佳实践，尤其是那些对环境友好的方法。",
+            "expected_response": "\n根据赵云龙的persona描述，AI应该会首先询问具体需要哪方面的园艺技巧和环保项目的信息，是否有特定的植物种类或栽培方法。然后，AI应该能提供详细的、系统化的指导，最好是以表格或清单的形式展示，便于赵云龙记录和实践。同时，AI应该能够推荐一些最新的、对环境友好的园艺管理方法，可能包括使用有机肥料、雨水收集系统等。AI也应该考虑到赵云龙喜欢逐步指示的工作流，因此应在提供信息的过程中，逐步引导他进行各项任务，并提供进一步的调整和细化选项。最后，AI可以建议一些社区建设和志愿服务的机会，符合赵云龙支持社区建设和志愿服务的兴趣。",
+            "scene_context": "赵云龙希望AI助手提供有关以下植物和方法的园艺技巧和环保项目的资讯：\n- 如何种植和管理多肉植物\n- 如何种植和管理番茄盆栽\n- 使用有机肥料的最佳实践\n- 建立雨水收集系统的步骤和注意事项\n- 社区花园的管理技巧\n- 环保的病虫害防治方法",
+            "personalized_query": "大家好，我是赵云龙。今天我们聚在一起讨论如何更有效地种植盆栽和管理园艺。为了让我们的社区花园更加环保和高效，我想请我的AI助手帮忙。AI助手，请你提供关于种植和管理多肉植物的一些最新技巧，特别是如何在我们的气候条件下让它们更好地生长。",
+            "neutralized_query": "请提供关于种植和管理多肉植物的一些最新技巧，特别是如何在特定气候条件下让它们更好地生长。"
+        },
+        {
+            "scene_type": "团队合作志愿活动：赵云龙带领一群志愿者清理社区公园，并通过组织能力和细致的计划让活动顺利进行，展现了他的ESFJ特质。",
+            "available_apis": {
+                "taskOrganizer": {
+                    "arguments": [
+                        "task_name",
+                        "participants",
+                        "task_details"
+                    ],
+                    "description": "Organizes the task, including setting timelines, assigning roles, and detailing the steps needed for the task."
+                }
+            },
+            "scene_desc": "赵云龙正在组织一场社区公园的清理志愿活动。他带领一群志愿者，通过他的组织能力和详细计划确保活动顺利进行。他希望这次活动不仅能有效清理公园，还能提升社区环保意识。他打算向AI咨询如何更好地分配任务、安排活动流程，并寻找一些能增强团队凝聚力的互动活动建议。",
+            "expected_response": "AI应该首先询问赵云龙关于参与志愿者的具体人数和他们的技能，然后提供一个详细的任务分配清单，以便赵云龙可以根据志愿者的特长合理分配工作。AI还应建议清理时的最佳步骤和注意事项，以有效组织活动并确保安全。接下来，AI可以帮助赵云龙寻找一些适合团队合作的互动活动或小游戏，提供增强团队凝聚力的建议。此外，AI可以提供关于环保主题的小提示或教育材料，这样赵云龙可以在活动中分享给志愿者，提升大家的环保意识。AI的回答应详细且系统化，以便赵云龙可以记录和实践。",
+            "scene_context": "赵云龙组织的社区公园清理志愿活动将有20名志愿者参与。这些志愿者包括学生、社区居民和一些公司员工，他们的技能各异，有些擅长清理和搬运，有些擅长协调和管理。赵云龙希望AI能够帮助他制定一个详细的任务分配清单，安排活动流程，并寻找一些增强团队凝聚力的互动活动建议。同时，赵云龙希望能够获得一些关于环保主题的小提示或教育材料，以便在活动中分享给志愿者。",
+            "personalized_query": "最近我正在筹备一次社区公园的清理活动，希望这次活动不仅能有效地清理公园，还能增强志愿者的团队凝聚力。同时也想借此机会提升大家的环保意识。因此，我需要一些帮助来制定详细的任务分配清单，安排活动流程，并设计一些能够增强团队凝聚力的互动活动。你能帮我出一些主意吗？",
+            "neutralized_query": "我需要一些建议来制定详细的任务分配清单，安排活动流程，并设计一些能够增强团队凝聚力的互动活动，以便有效地进行社区清理活动并提升参与者的环保意识。"
+        },
+        {
+            "scene_type": "传统文化讲座：赵云龙参加了一个关于古代化学与现代科技结合的讲座，并积极分享自己的见解。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "textGeneration": {
+                    "arguments": [
+                        "input_text"
+                    ],
+                    "description": "Generate a summary or discussion points based on the input text."
+                }
+            },
+            "scene_desc": "赵云龙参加了一个关于古代化学与现代科技结合的讲座。讲座上，主讲人详细讲解了古代化学在现代科技中的应用，并探讨了如何通过现代科技手段来保护和传承这些传统知识。赵云龙非常感兴趣，并积极地在讲座上分享了他自己的见解，讨论了自己在研究所工作期间进行的相关研究和发现。他还提出了一些关于如何将这些传统知识应用到环保和社区建设中的建议，吸引了很多与会者的关注和讨论。\n\n在讲座结束后，赵云龙与AI助手交谈，想要进一步了解更多关于古代化学在现代环境保护中的应用，以及是否有相关的社区项目或志愿服务机会。",
+            "expected_response": "\n根据赵云龙的persona描述，AI应该首先认可赵云龙在讲座中的积极参与和分享，并询问他具体想了解的古代化学应用领域。AI应提供一些详细和系统化的信息，可能会以表格或清单格式展示，以便赵云龙记录和实践。接着，AI应该搜索相关的环保项目和志愿服务机会，并列举出适合赵云龙参与的项目或活动。此外，AI还可以推荐一些最新的园艺技巧或环保产品，以满足赵云龙在这些领域的兴趣和需求。总体来说，AI的应答应该是详细、有条理，并能够提供实际可行的建议和资源。",
+            "scene_context": "赵云龙在讲座后与AI助手交谈，他具体想了解的古代化学在现代环境保护中的应用领域包括：利用古代化学方法处理工业废水、传统染料在环保中的应用以及古代生物降解技术。同时，赵云龙希望AI助手能够提供一些与这些领域相关的社区项目或志愿服务机会。",
+            "personalized_query": "今天的讲座让我大开眼界，尤其是古代化学在现代科技中的应用这一块儿。我想进一步了解这些知识在环境保护中的应用，特别是在处理工业废水、传统染料和生物降解技术方面。我还希望能找到一些社区项目或志愿服务的机会，助力这些领域。你能帮我查一查吗？",
+            "neutralized_query": "我想进一步了解古代化学在现代科技中的应用，特别是在环境保护中涉及工业废水处理、传统染料和生物降解技术方面的知识。请帮我查找相关的社区项目或志愿服务的机会。"
+        },
+        {
+            "scene_type": "科技环保项目：赵云龙在当地科技博览会中，展示了他退休后开发的环保化学品，并强调其对社区和环境的益处。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google for relevant research papers, articles, and studies on the benefits of the showcased environmental chemicals."
+                },
+                "generatePresentation": {
+                    "arguments": [
+                        "content"
+                    ],
+                    "description": "Generate a professional presentation or slides based on the provided content about the environmental chemicals and their benefits."
+                },
+                "dataAnalysis": {
+                    "arguments": [
+                        "environmental_data"
+                    ],
+                    "description": "Analyze environmental and community data to demonstrate the effectiveness of the environmental chemicals."
+                }
+            },
+            "scene_desc": "赵云龙在当地的科技博览会上向公众展示了他新开发的环保化学品。他的产品强调了对社区和环境的益处，吸引了许多参观者的兴趣。在展示过程中，他希望利用AI来帮助他更好地解释产品的技术细节和环保优势，并收集观众的反馈意见。",
+            "expected_response": "考虑到赵云龙的个性和偏好，AI应该首先提供一个详细且系统化的产品简介，以表格或清单的形式展示产品的技术细节和环保优势。随后，AI应该协助赵云龙收集观众的反馈，可能通过一个简单的问卷或调查工具。此外，AI还可以建议一些相关的环保项目或技术创新，以便赵云龙能够与参观者分享更多信息。最后，AI有可能为赵云龙提供新的环保志愿服务机会，以进一步激发他的兴趣。",
+            "scene_context": "赵云龙展示的环保化学品包括以下几种：无毒清洁剂、可生物降解塑料替代品和低排放涂料。",
+            "personalized_query": "嗨，我正在参加一个科技博览会，向公众展示我开发的环保化学品。这些产品主要包括无毒清洁剂、可生物降解塑料替代品和低排放涂料。我希望你能帮我用简明易懂的方式解释这些产品的技术细节和它们的环保优势，这样我能够更好地向参观者传达信息。同时，我也想收集一些参观者的反馈意见。你能帮我吗？",
+            "neutralized_query": "我需要帮助用简明易懂的方式解释环保化学品的技术细节和它们的环保优势，以便更好地向参观者传达信息。同时，我也想收集一些参观者的反馈意见。"
+        },
+        {
+            "scene_type": "园艺创新工具：赵云龙在AI的帮助下，设计和改造了一个自动化浇水系统，提升了他在花园中的工作效率。",
+            "available_apis": {
+                "scheduleWatering": {
+                    "arguments": [
+                        "garden_section",
+                        "watering_time",
+                        "water_amount"
+                    ],
+                    "description": "Schedules the automatic watering system to water the specified garden section at the designated time with the given amount of water."
+                },
+                "adjustWateringSettings": {
+                    "arguments": [
+                        "garden_section",
+                        "new_settings"
+                    ],
+                    "description": "Adjusts the settings of the automatic watering system for a specific garden section, such as changing the watering frequency, duration, or water amount."
+                }
+            },
+            "scene_desc": "赵云龙退休后，热衷于在自家花园中进行园艺活动。他经常利用AI助手来获取最新的园艺技巧和环保项目，并在最近成功设计和改造了一个自动化浇水系统，从而提升了花园中的工作效率。这一天，赵云龙打算对这个自动化浇水系统进行进一步优化，以更好地管理不同植物的浇水需求。他希望AI能帮助他找到更先进的传感器和控制器，并提供详细的安装和调试步骤。",
+            "expected_response": "\n根据赵云龙的persona，AI应该首先询问他具体想要优化哪些方面的浇水系统，例如：需要更精准的湿度监测还是更灵活的浇水时间设置。接着，AI应该提供一些最新的园艺传感器和控制器选项，并详细说明它们的功能和优缺点。AI应该以表格或清单的形式展示这些信息，方便赵云龙对比和记录。随后，AI需要提供详细的安装和调试步骤，确保赵云龙能够按步骤操作。最后，AI可以建议一些相关的环保项目或社区志愿服务机会，符合赵云龙对环保和社区建设的兴趣。",
+            "scene_context": "赵云龙希望优化的方面包括：\n1. 更精准的湿度监测，以确保不同植物的浇水需求得到满足。\n2. 更灵活的浇水时间设置，使浇水系统能够适应不同植物的生长周期。\n3. 高效节水的浇水方式，以减低水资源的浪费。\n\n他希望AI能推荐以下内容：\n1. 最新的湿度传感器（例如：土壤湿度传感器、气象站传感器等）。\n2. 先进的控制器（例如：智能浇水控制器，可以通过手机APP控制）。\n3. 详细的安装和调试步骤（包括硬件连接、软件配置、测试步骤）。\n\n赵云龙还希望了解一些社区环保项目的机会，以便参与更多的志愿活动。",
+            "personalized_query": "你好，我想对我家花园的自动化浇水系统进行一些升级。最近系统运作挺不错的，但我觉得可以在湿度监测和节水方面做得更好。你能否帮我找一下最新的湿度传感器和控制器，还要有详细的安装调试步骤？如果你有相关的资料或者推荐的话，可以分享一下。谢谢。",
+            "neutralized_query": "我需要对花园的自动化浇水系统进行升级，特别是在湿度监测和节水方面。请帮助我寻找最新的湿度传感器和控制器，并提供详细的安装调试步骤和推荐资料。"
+        },
+        {
+            "scene_type": "产品测评分享：赵云龙购买了一些新型环保园艺工具，并在社区论坛上分享了他的使用心得和评测。",
+            "available_apis": {
+                "submitReview": {
+                    "arguments": [
+                        "product_id",
+                        "user_id",
+                        "review_content",
+                        "rating"
+                    ],
+                    "description": "Submits a product review including user feedback and rating."
+                },
+                "fetchProductDetails": {
+                    "arguments": [
+                        "product_id"
+                    ],
+                    "description": "Fetches details about a specific product, including its specifications and user reviews."
+                }
+            },
+            "scene_desc": "赵云龙最近在社区论坛上分享了他对新购买的环保园艺工具的使用心得和测评。他详细记录了这些工具在实际园艺操作中的表现，包括设计、功能和环保特性。他希望通过分享这些信息，帮助更多的社区成员了解如何选择适合的园艺工具，并推动环保意识的提升。",
+            "expected_response": "AI应该首先关注赵云龙分享的工具具体有哪些环保特性，并询问是否需要进一步查找更多相关信息或用户评价，以丰富他的测评内容。AI可能会建议将测评整理成一个结构化的清单或表格，以便他在论坛上发布时更易于阅读和理解。AI还可以帮助赵云龙撰写一段引人注目的开头，强调他对环保的热情和对这些工具的实际体验。另外，AI可以协助检查赵云龙的文字表达是否流畅，并提供修改建议，以确保他的分享能够有效传达重要信息并引发讨论。",
+            "scene_context": "赵云龙购买并测评的环保园艺工具包括：太阳能草坪灯、可降解植物盆和电动可伸缩树篱修剪机。",
+            "personalized_query": "你好，我最近在社区论坛上分享了一些关于新购买环保园艺工具的心得，我希望能更深入探讨这些工具的特性，并希望能找到更多的相关信息和使用技巧。譬如太阳能草坪灯、可降解植物盆和电动可伸缩树篱修剪机，你能帮我提供一些关于这些工具的最新资讯或者使用建议吗？",
+            "neutralized_query": "我希望能更深入探讨一些新型环保园艺工具的特性，并寻找更多的相关信息和使用技巧。你能提供一些关于太阳能草坪灯、可降解植物盆和电动可伸缩树篱修剪机的最新资讯或者使用建议吗？"
+        },
+        {
+            "scene_type": "徒步旅行路线规划：赵云龙通过AI规划了一条新的徒步旅行路线，包括途中的自然景观和环保教育点。",
+            "available_apis": {
+                "mapRoute": {
+                    "arguments": [
+                        "start_point",
+                        "end_point",
+                        "waypoints"
+                    ],
+                    "description": "Creates a hiking route on a map from a start point to an end point with specified waypoints, including natural scenery and environmental education points."
+                }
+            },
+            "scene_desc": "赵云龙计划进行一次徒步旅行，并希望通过AI助手规划一条新的路线。他希望路线不仅能提供令人愉悦的自然景观，还能包括一些具有环保教育意义的地点。赵云龙期待AI能帮助他找到适合他兴趣点的旅行路径，并提供详细的信息以便他记录和实践。",
+            "expected_response": "AI应该首先询问赵云龙对徒步路线的具体偏好，例如距离、地形类型以及对自然景观和环保教育点的关注程度。接着，AI应该利用联网搜索功能，为他找到几条可能的路线，并以列表或表格的形式展示每条路线的详细信息，包括地形描述、景观特点及环保教育点的介绍。AI还应提供逐步的指示，协助赵云龙选择并优化最终路线，并确保信息足够详细以便他记录和实践。如果可能，AI可以推荐附近与环保相关的活动或志愿服务机会，以满足赵云龙的兴趣和价值观。",
+            "scene_context": "赵云龙希望徒步旅行的地点在中国四川省，具体出发点定在峨眉山。对此，他对徒步路线有以下要求：\n1. 徒步距离：15-20公里。\n2. 地形类型：山地和森林。\n3. 自然景观：希望能看到山峰、瀑布和珍稀植物。\n4. 环保教育点：包括自然保护区、环保宣传点和生态恢复区。\n\n赵云龙希望AI助手能够提供至少三条不同的徒步路线，每条路线包含详细的地形描述、景观特点和环保教育点的信息，并以列表或表格的形式展示。此外，赵云龙对环保非常感兴趣，希望了解并参与附近的环保相关活动或志愿服务机会。",
+            "personalized_query": "你好，我准备进行一次徒步旅行，需要你帮我规划一条新的徒步路线。希望路线能够提供令人愉悦的自然景观，还能包括一些具有环保教育意义的地点。地点可以定在中国的四川省，特别是从峨眉山出发。希望你能提供几条不同的路线，并以列表或表格形式展示详细信息。感谢！",
+            "neutralized_query": "请帮我规划一条新的徒步旅行路线，包括自然景观和环保教育意义的地点，并提供详细信息。"
+        },
+        {
+            "scene_type": "盆栽种植指南：赵云龙请求AI生成一份详细和系统化的盆栽种植指南，并根据季节和土壤类型进行调整，以便记录和实践。",
+            "available_apis": {
+                "webSearch": {
+                    "arguments": [
+                        "query"
+                    ],
+                    "description": "Search Google the given query and return the most relevant response."
+                },
+                "weatherCheck": {
+                    "arguments": [
+                        "location"
+                    ],
+                    "description": "Checks the current weather and season information for the provided location."
+                },
+                "soilInfoCheck": {
+                    "arguments": [
+                        "soil_type"
+                    ],
+                    "description": "Fetches detailed information about the provided soil type and suitable plants for it."
+                }
+            },
+            "scene_desc": "赵云龙是一位退休的化学工程师，喜欢种植盆栽和园艺。他热衷于将环保和科技进步融入到日常生活中。他经常咨询AI关于最新的园艺技巧，并喜欢使用详细和系统化的指南来实践。在春季的一个早晨，赵云龙希望AI能够帮助他生成一份详细的盆栽种植指南，其中包括根据当前季节和他所在地区土壤类型的种植技巧。他计划记录这份指南，以便在实际操作中使用。",
+            "expected_response": "AI应该首先确认赵云龙的地理位置和当前季节，以便提供适合的种植建议。接着，AI应该询问他目前使用的土壤类型，以及他特别感兴趣的植物种类。AI应能提供一份详细的、系统化的指南，包括选土、施肥、浇水频率、光照需求等方面的信息，以清单或表格的格式呈现，方便赵云龙记录和实践。此外，AI可以建议一些与环保相关的园艺技巧和产品，合乎赵云龙的兴趣。最后，AI应该询问是否需要定期提醒或更新园艺信息，以帮助他持续改进种植技巧。",
+            "scene_context": "地理位置：北京市，当前季节：春季\n土壤类型：壤土\n特别感兴趣的植物种类：罗勒、薰衣草、薄荷",
+            "personalized_query": "早上好。我想准备一份关于春季盆栽种植的详细指南，特别是罗勒、薰衣草和薄荷。因为我这里是壤土，你能提供一些相关技巧和方法吗？如果有这个季节的具体建议就更好了。",
+            "neutralized_query": "我需要一份关于春季盆栽种植的详细指南，包括罗勒、薰衣草和薄荷的种植技巧和方法，以及适合壤土的具体建议。"
+        }
+    ]
+}

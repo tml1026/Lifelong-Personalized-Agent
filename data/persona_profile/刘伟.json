@@ -1,0 +1,37 @@
+{
+    "Demographics": {
+        "Age": 17,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "重庆话",
+            "普通话"
+        ],
+        "Career_Information": "重庆高中篮球校队队员，喜欢探险活动和极限运动。",
+        "Name": "刘伟"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "S",
+        "Thinking_or_Feeling": "T",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "热衷于挑战自我，喜欢各种极限运动如攀岩和滑板",
+            "非常享受在大自然中探险，常常组织朋友一起远足",
+            "对未来职业发展有着无限的想象力，梦想成为一名探险家或极限运动教练",
+            "社交能力强，喜欢和不同兴趣的人交流"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "经常会询问如何更高效地安排时间和管理活动。",
+        "Usage_Pattern": "使用频率较高，主要用于寻找新的探险地点和了解极限运动的技巧；偶尔会询问学习方法以平衡学习和兴趣。",
+        "Emotion_Pattern": "倾向于积极和兴奋，但也可能在受伤或失败时表现出挫败感。",
+        "Purchase_Pattern": "喜欢购买冒险装备和运动服饰，注重这些物品的功能性和耐用性，有时也会花钱购买最新的运动科技产品。"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢直截了当的表达方式，讨厌复杂和冗长的解释。",
+        "Preferred_Formats": "None",
+        "Preferred_Workflows": "喜欢得到具体的步骤或行动计划。"
+    },
+    "scenes": []
+}

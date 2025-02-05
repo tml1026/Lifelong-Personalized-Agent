@@ -1,0 +1,38 @@
+{
+    "Demographics": {
+        "Age": 35,
+        "Gender": "女",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "在一家非营利组织担任项目经理，关注社会公平和环境保护",
+        "Name": "李雅涵"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "I",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "J",
+        "Values_and_Interests": [
+            "文学",
+            "插花艺术",
+            "瑜伽",
+            "社会正义",
+            "环境保护"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "经常阅读和分享关于环境保护和社会公平的文章",
+        "Usage_Pattern": "使用频繁，特别是在查找社会公平和环境保护等方面的信息；经常寻求情感支持和安慰；喜欢获取具有启发性的内容",
+        "Emotion_Pattern": "情绪细腻，容易感动，喜欢表达感激",
+        "Purchase_Pattern": "偏好购买可持续和环保产品，对价格不是很敏感"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢温暖、富有人文气息的表达方式和支持性的语气",
+        "Preferred_Formats": "喜欢简洁但富有感情的短文，图片和视频也能接受",
+        "Preferred_Workflows": "偏好系统性和结构化的解决问题方法，喜欢逐步引导的过程"
+    },
+    "scenes": []
+}

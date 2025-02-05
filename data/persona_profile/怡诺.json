@@ -1,0 +1,40 @@
+{
+    "Demographics": {
+        "Age": 18,
+        "Gender": "男",
+        "Nationality": "中国",
+        "Language": [
+            "中文",
+            "英文"
+        ],
+        "Career_Information": "上海某高中学生，参加学校的合唱团和科技创新俱乐部",
+        "Name": "怡诺"
+    },
+    "Personality": {
+        "Extraversion_or_Introversion": "E",
+        "Sensing_or_Intuition": "N",
+        "Thinking_or_Feeling": "F",
+        "Judging_or_Perceiving": "P",
+        "Values_and_Interests": [
+            "对人工智能有浓厚兴趣",
+            "喜欢各种音乐类型，尤其是合唱和流行音乐",
+            "热衷于科技创新和科学竞赛",
+            "经常参加学校的社团活动和志愿活动",
+            "喜欢看科幻电影和读科幻小说",
+            "喜欢尝试各种新奇的电子产品",
+            "希望未来能够进入名牌大学并从事AI相关的研究"
+        ]
+    },
+    "Pattern": {
+        "Behavior_Engagement_Pattern": "经常搜索人工智能和科技创新方面的最新动态和研究成果",
+        "Usage_Pattern": "习惯于利用AI助手解决学习问题和获取最新资讯，也会用于拓展自己的音乐兴趣",
+        "Emotion_Pattern": "当获取到新的AI研究成果时会表现得非常兴奋",
+        "Purchase_Pattern": "喜欢购买新款智能设备和高科技产品，价格不是首要考虑因素"
+    },
+    "Preference": {
+        "Preferred_Styles": "喜欢简洁明了的输出，偶尔会要求详细解释技术细节",
+        "Preferred_Formats": "None",
+        "Preferred_Workflows": "喜欢给AI一个清晰的问题或任务，让AI提供详细的解答和建议，如果不满意会明确指出问题并要求重新回答"
+    },
+    "scenes": []
+}
