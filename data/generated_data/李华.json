@@ -1,0 +1,242 @@
+{
+  "Demographics": {
+    "Age": 28,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "时尚摄影师",
+    "Name": "李华"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱冒险和发现新奇事物，喜欢体验城市中的独特一面",
+      "注重实用性和功能性，喜欢简洁但又富有创意的事物",
+      "钟情于视觉艺术，特别是能够表达独特视角的作品",
+      "认为生活需要保持活力和多样性，喜欢尝试新事物"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "偶尔会和AI助理闲聊，喜欢探索新功能和有趣的交互方式",
+    "Usage_Pattern": "常会要求AI提供快速且具体的建议，尤其是关于生活方式和兴趣推荐方面",
+    "Emotion_Pattern": "在遇到新的刺激或发掘独特事物时情绪高涨",
+    "Purchase_Pattern": "偏好那些既实用又具有新颖设计感的产品，喜欢中途发现惊喜"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简洁、直观且带有创意的回答风格，能激发想象力",
+    "Preferred_Formats": "喜欢图文并茂的说明，特别是搭配具有视觉冲击力的图片",
+    "Preferred_Workflows": "喜欢探索新功能，从新的视角去解决问题，崇尚灵活且不拘一格的方式"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：_李华在拍摄时需要跟踪任务进度，如安排拍摄日程、分配团队任务和设置截止日期，以确保项目顺利进行。",
+      "available_apis": null,
+      "scene_desc": "李华正在进行一个复杂的城市时尚摄影项目，需要跟踪任务进度以确保所有拍摄活动顺利进行。他必须安排拍摄日程、分配团队任务并设置每个任务的截止日期。此外，为了确保项目进展顺利，他还需要实时了解每个队员的完成情况，及时调整计划。由于李华钟情于能够表达独特视角的视觉艺术作品，同时注重简洁和高效，他希望整个过程能通过一个简洁直观的界面来操作。",
+      "expected_response": "\n根据李华的persona，AI应该首先询问具体的拍摄项目细节及其优先级，并收集李华对各个团队成员的任务分配和截止日期的要求。AI应提供一个简洁且带有创意的界面来展示整个项目任务列表和日程安排，供李华查看和编辑。然后，AI应设置自动提醒功能，提醒李华和团队成员即将到来的截止日期。AI还应能够实时收集并汇报每个团队成员的任务完成情况，并在必要时提供调整建议，以确保项目顺利进行。最后，AI应能够根据李华的反馈灵活调整任务和日程安排，以满足拍摄过程中可能出现的新需求或变化。\n",
+      "scene_context": "李华需要管理的是一个城市时尚摄影项目，其中包含以下具体任务：\n1. 安排拍摄日程：\n   - 任务：确定每一天的拍摄地点和时间。\n   - 优先级：高\n   - 截止日期：每周一提供本周拍摄计划。\n\n2. 分配团队任务：\n   - 任务：分配摄影师、化妆师、模特和后期制作的具体工作。\n   - 优先级：中\n   - 截止日期：拍摄开始前至少两天完成分配。\n\n3. 设置截止日期：\n   - 任务：为每个拍摄任务和后期制作设置具体的完成日期。\n   - 优先级：高\n   - 截止日期：在拍摄开始前一周确定所有截止日期。\n\n李华团队成员及其职责：\n- 摄影师A：负责街头摄影\n- 摄影师B：负责室内摄影\n- 化妆师C：负责模特妆容\n- 模特D：城市街头拍摄\n- 后期制作E：负责照片修饰和编辑\n\n李华希望通过AI助手设置自动提醒功能，提醒团队成员即将到来的截止日期，并实时收集和汇报每个团队成员的任务完成情况。",
+      "personalized_query": "今天我们有一系列拍摄任务要安排。我需要你帮助我协调一下拍摄日程和团队任务。\n\n首先，麻烦你帮我确定这周的拍摄计划。具体来说，每一天的拍摄地点和时间都需要安排妥当。你能做到吗？",
+      "neutralized_query": "<neutralized_query>\n我要你帮助协调拍摄日程和团队任务，特别是安排本周每一天的拍摄地点和时间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：_李华需要协调与客户、模特或其他合作伙伴的会议时间，发送邀请函并生成会议纪要，确保沟通顺畅。",
+      "available_apis": null,
+      "scene_desc": "李华是一位时尚摄影师，喜欢冒险和发现新奇事物，同时注重实用性和功能性。他需要协调与客户、模特或其他合作伙伴的会议时间，以确保沟通顺利。李华偏好简洁直观且带有创意的回答风格，同时喜欢图文并茂的说明。他希望AI助理能够提供灵活且不拘一格的方式来解决问题，并在安排会议时给予具体且快速的建议。",
+      "expected_response": "\n根据李华的persona和场景描述，AI首先应该询问李华具体需要邀请哪些客户、模特或其他合作伙伴参加会议，并获取这些人的联系方式和可用时间段。接着，AI应该利用访问日程安排的功能，快速查找所有相关人员的可用时间，并建议一个合适的会议时间。AI还应该生成一个专业的会议邀请，包含会议的议程和相关信息，并附带视觉冲击力的图片或图表以增加创意感。最后，AI应该询问李华是否需要在会议前发送提醒，并提供生成会议纪要的功能，以确保沟通顺畅。",
+      "scene_context": "李华需要协调的会议参与者包括：客户张三（联系方式：zhangsan@example.com，可用时间段：周一至周五上午9点至11点）、模特王丽（联系方式：wangli@example.com，可用时间段：周二和周四下午1点至4点）、合作伙伴刘强（联系方式：liuq@example.com，可用时间段：周三和周五全天）。李华希望安排的会议议题包括：项目进展汇报、下一步计划讨论以及新创意的头脑风暴。",
+      "personalized_query": "嗨，帮我安排一个会议吧。这次会议需要邀请客户张三、模特王丽和合作伙伴刘强，主要讨论项目进展汇报、下一步计划和新创意头脑风暴。尽量找一个大家都能参加的时间。",
+      "neutralized_query": "<neutralized_query>\n帮我安排一个会议，邀请客户、模特和合作伙伴，主要讨论项目进展汇报、下一步计划和新创意头脑风暴。尽量找一个大家都能参加的时间。\n"
+    },
+    {
+      "scene_type": "文档编辑：_李华需要在对话中修改和整理项目提案或拍摄计划文档，确保内容简洁且富有创意。",
+      "available_apis": null,
+      "scene_desc": "李华是一位时尚摄影师，正在忙于整理一个重要的项目提案和拍摄计划文档。他希望这些文档内容不仅简洁明了，还要富有创意，以便能够吸引客户和合作伙伴的注意。李华通常在工作中注重实用性和功能性，并且喜欢简洁而富有创意的表达形式。他需要AI助手帮助他在对话中修改和优化这些文档。",
+      "expected_response": "根据李华的persona描述，AI应该首先询问他具体需要修改或者整理的部分，例如是项目提案的哪一部分或是拍摄计划的哪一环节。接着，AI应该根据李华的描述，提供一些简洁但富有创意的表达方式和视觉元素建议。AI可能会推荐使用图文并茂的方式来提升文档的视觉冲击力，符合李华偏好的简洁直观且带有创意的风格。AI还应该能够迅速理解李华的需求，提供具体的修改建议，并询问是否需要进一步的调整或其他帮助。最后，AI可以帮助李华生成一个最终版本的文档，确保内容既简洁明了又富有创意。",
+      "scene_context": "李华正在整理的文档包括：\n1. 项目提案的市场分析部分，需要更加简洁明了的表达方式。\n2. 拍摄计划的时间安排部分，希望增加一些创意元素，使其更具吸引力。\n3. 项目提案的执行方案部分，要求内容条理清晰并且富有说服力。\n\n以下是项目提案的市场分析部分的初稿：\n```\n市场分析：\n目标市场主要为20-35岁的年轻女性，她们追求时尚和个性化的摄影体验。市场调研显示，这一群体每年在摄影上的消费增长率达到15%。竞争对手主要有A摄影工作室和B摄影公司，它们以高品质和个性化服务著称。我们的优势在于能够提供更多元化的风格选择和更灵活的拍摄方案。\n```\n\n以下是拍摄计划的时间安排部分的初稿：\n```\n拍摄计划：\n- 2023年10月1日：前期准备，包括场地布置和设备调试\n- 2023年10月2日：拍摄日，全天拍摄\n- 2023年10月3日：后期处理，包括照片筛选和初步修图\n- 2023年10月4日：最终交付，客户审核\n```\n\n以下是项目提案的执行方案部分的初稿：\n```\n执行方案：\n1. 前期准备：联系客户确认需求，签订合同，制定拍摄方案。\n2. 拍摄实施：安排专业摄影师和化妆师，现场布置，进行拍摄。\n3. 后期处理：筛选照片，修图，制作相册或其他成品。\n4. 客户反馈：交付作品，听取客户反馈，进行必要的修改。\n```",
+      "personalized_query": "嘿，小助手，我在整理一份项目提案，需要你帮我优化一些内容，让它看起来更简洁明了且有创意。首先是市场分析部分，我已经有了初稿，但感觉有些平淡，需要你的帮助让它更精炼且有吸引力。以下是初稿内容：\n\n```\n市场分析：\n目标市场主要为20-35岁的年轻女性，她们追求时尚和个性化的摄影体验。市场调研显示，这一群体每年在摄影上的消费增长率达到15%。竞争对手主要有A摄影工作室和B摄影公司，它们以高品质和个性化服务著称。我们的优势在于能够提供更多元化的风格选择和更灵活的拍摄方案。\n```\n\n你有什么建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我优化一份项目提案的市场分析部分，使其简洁明了且有创意。以下是初稿内容：\n\n```\n市场分析：\n目标市场主要为20-35岁的年轻女性，她们追求时尚和个性化的摄影体验。市场调研显示，这一群体每年在摄影上的消费增长率达到15%。竞争对手主要有A摄影工作室和B摄影公司，它们以高品质和个性化服务著称。我们的优势在于能够提供更多元化的风格选择和更灵活的拍摄方案。\n```\n\n你有什么建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：_李华常需要撰写专业的电子邮件，与客户、合作伙伴沟通拍摄细节和合作计划。",
+      "available_apis": {
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional email to the specified recipients, including details about shooting schedules, collaboration plans, or other relevant topics."
+        }
+      },
+      "scene_desc": "李华正在准备给一位重要的客户撰写一封电子邮件，内容涉及到即将进行的时尚拍摄项目的细节和合作计划。因为客户对项目的要求十分具体，李华需要在邮件中清晰地陈述拍摄日程、团队安排、需要准备的道具和服装等。同时，李华希望邮件能够简洁明了且富有创意，以便给客户留下深刻印象。",
+      "expected_response": "\n根据李华的persona描述，他是一个注重实用性和功能性，喜欢简洁但富有创意的东西的时尚摄影师。AI应该首先询问李华这封邮件需要发送给哪些客户，并是否有特定的主题或关键内容需要强调。接着，AI应该帮助李华组织邮件的布局，例如拍摄日程、团队安排、道具服装等各部分的具体内容。AI还应该提供一些创意性的表达方式，以确保邮件不仅简洁明了，还能体现出独特的视觉艺术风格。最后，AI应该生成一个专业且富有创意的邮件草稿，并提供选项让李华确认和编辑后直接发送。同时，AI应该建议李华附上相关的视觉素材，如拍摄计划的示意图或参考图片，以增强邮件的视觉冲击力。",
+      "scene_context": "李华需要给客户撰写的电子邮件具体包括以下内容：\n1. **拍摄日程**：\n   - 拍摄日期：2023年10月15日\n   - 拍摄时间：上午9点至下午5点\n2. **团队安排**：\n   - 主摄影师：李华\n   - 助理摄影师：张伟\n   - 化妆师：王丽\n   - 造型师：陈芳\n3. **需要准备的道具和服装**：\n   - 道具：复古相机、古典家具、花艺布置\n   - 服装：三套不同风格的时尚服装（复古、现代、前卫）\n4. **其他细节**：\n   - 拍摄地点：上海市黄浦区某豪华酒店\n   - 拍摄主题：复古与现代的融合\n\n请AI协助撰写一封简洁明了且富有创意的邮件草稿，并附上拍摄计划的示意图或参考图片。",
+      "personalized_query": "嗨，伙计，我需要写封邮件给一个重要客户，关于我们即将进行的时尚拍摄项目。先帮我拟个简洁明了又富有创意的开头吧，让客户对这次合作充满期待。",
+      "neutralized_query": "<neutralized_query>\n我需要一个关于即将进行的拍摄项目的电子邮件开头，简洁明了且富有创意，让客户充满期待。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：_李华需要规划出差行程，如旅行、访问客户或参加展会等，以寻找新的拍摄灵感和合作机会。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search relevant travel destinations, client locations, and exhibitions based on specific requirements."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "preferred_dates"
+          ],
+          "description": "Check availability for the preferred travel dates."
+        },
+        "bookTravel": {
+          "arguments": [
+            "destination",
+            "dates",
+            "preferences"
+          ],
+          "description": "Book flights, hotels, and transportation for the specified travel itinerary."
+        }
+      },
+      "scene_desc": "李华正在计划一场出差，目的是拜访一些客户和参加即将举行的摄影展会，以寻找新的拍摄灵感和合作机会。李华希望这次出差能够高效安排，包括选择最佳的旅行时间、预订合适的酒店和餐厅，以及获取一些当地的旅行须知。李华喜欢冒险和发现新事物，因此希望在行程中也能有一些自由时间来探索这个城市的独特一面。",
+      "expected_response": "\n根据李华的persona描述，他喜欢探索新功能并从新的视角解决问题。AI应该首先询问李华的出差目的地和出发日期，并确认他是否有偏好的旅行日期。接着，AI应该使用calendarCheck API检查他在这些日期的日程安排。然后，AI可以使用bookTravel API预订航班和住宿，确保它们符合李华偏好实用性和新颖设计感的需求。AI应该还可以使用webSearch API来推荐一些李华可能会感兴趣的当地旅游景点和餐厅。为了满足他对视觉冲击力的偏好，AI还应该提供一些图文并茂的信息，比如旅馆的图片和当地景点的照片。最后，AI可以提醒李华注意一些旅行须知，如天气、签证和货币兑换信息，确保他能够全面准备这次出差。",
+      "scene_context": "李华计划前往的出差目的地为：纽约，出发日期为：2023年11月15日，返回日期为：2023年11月22日。他希望参观的摄影展会为：纽约国际摄影艺术展（New York International Photography Art Expo）。他有几个客户需要拜访：A公司、B公司、C公司。李华还对以下景点感兴趣：大都会艺术博物馆、中央公园、时代广场。希望能够推荐的餐厅类型为：当地风味餐厅和高档西餐厅。",
+      "personalized_query": "我正在计划一次去纽约的出差，需要安排好行程。首先，我需要你帮我确认一下最佳的旅行时间，然后推荐一些合适的酒店。出发日期定在11月15日，返回日期是11月22日。麻烦你给我一些建议。",
+      "neutralized_query": "<neutralized_query>\n我需要规划一次去纽约的出差行程，包括确认最佳的旅行时间和推荐合适的酒店。出发日期是11月15日，返回日期是11月22日。请提供一些建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "酒店和餐厅推荐：_李华在出差或拍摄期间需要根据目的地推荐适合的酒店和餐厅，并提供预订帮助。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "hotelBooking": {
+          "arguments": [
+            "destination",
+            "check_in_date",
+            "check_out_date",
+            "preferences"
+          ],
+          "description": "Book a hotel based on the given destination, check-in and check-out dates, and preferences."
+        },
+        "restaurantRecommendation": {
+          "arguments": [
+            "location",
+            "cuisine",
+            "preferences"
+          ],
+          "description": "Recommend a restaurant based on the given location, preferred cuisine, and other preferences."
+        }
+      },
+      "scene_desc": "李华正在计划一趟出差，目的是为了寻找新的拍摄灵感和合作机会。他决定在旅途中寻找既实用又具有新颖设计感的酒店，同时也希望在拍摄间隙能够品尝到当地的特色美食。他打开了AI助手，希望能够得到一些推荐和预订帮助。考虑到李华的需求，AI助手需要根据李华的偏好推荐适合的酒店和餐厅，并提供预订选项。",
+      "expected_response": "\n根据李华的persona描述，他是一个热爱冒险和发现新奇事物的时尚摄影师，喜欢体验城市中的独特一面，注重实用性和功能性，并且对视觉艺术特别钟情。AI助手应该先询问李华的目的地和具体的出行日期。接着，AI应使用webSearch功能查找该目的地具有设计感且实用的酒店，并根据他的偏好提供几个选项，同时展示这些酒店的视觉图片和相关细节。AI助手还应该推荐一些当地有特色的餐厅，并根据李华的具体要求（如菜系、氛围等）提供推荐，并展示餐厅的图片和评价。最后，AI应询问李华是否需要帮助预订，并在得到确认后通过相应的API如hotelBooking或restaurantRecommendation进行预订。这同时符合李华喜欢简洁、直观且带有创意的回答风格，能够激发他的想象力。",
+      "scene_context": "李华的出行目的地为东京，出行日期为2023年12月15日至2023年12月20日。他希望AI助手推荐具有新颖设计感且实用的酒店，并在拍摄间隙能够品尝到当地特色美食。李华偏好日式料理和有独特氛围的餐厅。",
+      "personalized_query": "AI助手，你好！我要在12月15日至12月20日出差到东京，这次是为了寻找拍摄灵感和合作机会。我需要你帮我推荐几家既有新颖设计感又实用的酒店。另外，我也想在拍摄间隙品尝一些当地的特色美食，特别是日式料理和有独特氛围的餐厅。能帮我推荐一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你推荐东京从12月15日至12月20日适合住宿的酒店和当地有特色的餐厅。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：_李华在规划拍摄旅行时，需要了解目的地的天气、签证、货币兑换等相关信息，以便做出全面的准备。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "currencyExchange": {
+          "arguments": [
+            "currency_from",
+            "currency_to",
+            "amount"
+          ],
+          "description": "Provides the latest currency exchange rate and converts the specified amount from one currency to another."
+        }
+      },
+      "scene_desc": "李华正在计划一次前往巴黎的拍摄旅行，他需要了解目的地的天气情况、签证要求以及货币兑换信息，以便提前做好准备。由于李华对新奇事物和视觉艺术有浓厚兴趣，他希望在拍摄之余也能探索巴黎的独特一面。因此，他需要AI帮助他收集并整理相关信息，确保整个行程的顺利进行。",
+      "expected_response": "\n根据李华的persona描述，AI应该首先询问具体的旅行日期和停留时间，以便提供更准确的天气预报。接着，AI应该查找并反馈巴黎的当前和未来几天的天气情况。对于签证要求，AI应该能够提供详细的签证申请步骤和所需材料清单。关于货币兑换，AI应该查询最新的汇率，并建议最佳的兑换地点。由于李华注重实用性和功能性，AI应该提供简洁但富有创意的回答，搭配具有视觉冲击力的图片，帮助李华更好地理解和计划。同时，AI可以额外推荐一些巴黎的独特地点和活动，以增加李华的旅行体验。最后，AI可以整理以上信息并生成一个可视化的旅行准备清单，方便李华查看和使用。",
+      "scene_context": "李华的旅行日期为：2023年12月1日至2023年12月7日。 \n他需要了解以下信息：\n1. 巴黎2023年12月1日至12月7日的天气情况。\n2. 中国公民前往法国的签证要求，包括所需材料和申请步骤。\n3. 人民币兑换欧元的最新汇率，并建议在巴黎的最佳兑换地点。\n4. 巴黎的一些独特旅游景点和活动推荐，以便在拍摄之外进行探索。\n\n李华对新奇的事物和视觉艺术有浓厚的兴趣。",
+      "personalized_query": "我需要你帮我查一下巴黎在2023年12月1日至12月7日的天气情况。",
+      "neutralized_query": "<neutralized_query>\n请帮我查一下巴黎在2023年12月1日至12月7日的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：_李华根据自己的视觉艺术爱好，常需要AI根据听歌习惯和阅读偏好推荐新歌、专辑或艺术家，以及推荐各类视觉艺术相关书籍，涵盖不同类型和题材。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's music listening habits and reading preferences based on their user ID."
+        },
+        "recommendMusic": {
+          "arguments": [
+            "listening_habits"
+          ],
+          "description": "Recommends new songs, albums, and artists based on the user's listening habits."
+        },
+        "recommendBooks": {
+          "arguments": [
+            "reading_preferences"
+          ],
+          "description": "Recommends books related to visual arts based on the user's reading preferences."
+        }
+      },
+      "scene_desc": "李华刚刚完成了一次城市探索拍摄，他觉得需要一些新的音乐和视觉艺术类书籍来激发灵感。他打开AI助手，要求根据他的听歌习惯和阅读偏好推荐一些新歌、专辑、艺术家，以及视觉艺术相关的书籍。他对简洁且富有创意的事物特别感兴趣，喜欢图文并茂的说明，能激发他的想象力。",
+      "expected_response": "\nAI应该首先确认李华是否希望根据最近的听歌记录和阅读偏好进行推荐。接着，AI应该访问相关API获取李华的音乐听歌习惯和阅读偏好。基于获取的信息，AI应该推荐一些符合他口味的新歌、专辑和艺术家，同时提供详细的简介和相关图片。对于书籍推荐，AI应选择那些与视觉艺术相关且能激发创意的作品，并提供书籍封面和简要介绍。AI还应询问李华是否需要进一步的推荐或具体的购买链接，保证推荐内容既实用又具有新颖设计感，符合李华的偏好。",
+      "scene_context": "李华最近正在听的音乐包括：Radiohead的《OK Computer》、Nujabes的《Modal Soul》和Björk的《Vespertine》。他喜欢的阅读类型包括视觉艺术与设计，最近读过的书包括《Steal Like an Artist》 by Austin Kleon、《The Art of Looking Sideways》 by Alan Fletcher 和《Interaction of Color》 by Josef Albers。",
+      "personalized_query": "刚完成拍摄的李华轻触手机屏幕，唤醒了AI助手：\n\n\"嘿，刚刚结束拍摄，感觉需要点新的音乐和视觉艺术类的书籍来激发灵感，你有什么推荐吗？\"",
+      "neutralized_query": "<neutralized_query>\n我需要一些新的音乐和视觉艺术类书籍推荐来激发灵感，你有什么推荐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：_李华喜欢观看电影或电视剧来寻找灵感，需要AI根据其喜好推荐新作品，并提供详细的剧情介绍。",
+      "available_apis": {
+        "getPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetch the user's (Li Hua) preferences for movies or TV shows."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for movies or TV shows based on the user's preferences and provide detailed plot descriptions."
+        }
+      },
+      "scene_desc": "李华，作为一名热爱视觉艺术且喜欢探索新事物的时尚摄影师，平时喜欢通过观看电影和电视剧来寻找灵感。今天，他决定让AI助手帮助他推荐几部新的影视作品，并希望AI不仅能够根据他的喜好来推荐，还能提供详细的剧情介绍。同时，李华希望这些推荐能激发他的创造力，并且内容要与时尚、视觉艺术或颇具创意的题材相关。",
+      "expected_response": "\n根据李华的persona描述，AI首先应该询问李华最近观看并喜欢的影视作品，以便更好地理解他的偏好。接着，AI需要通过访问李华的观影记录或直接询问他的具体喜好（例如，他是否喜欢视觉效果出众的影片，或是具有深刻剧情的作品）。在获取这些信息后，AI会使用search APIs来查找符合李华偏好的影视作品，并为每部推荐的作品提供详细的剧情介绍，以及其在视觉艺术或时尚方面的独特之处。AI还应该考虑李华喜欢简洁、直观且富有创意的内容呈现方式，尽量图文并茂地展示推荐结果。同时，AI可能会询问李华是否希望对这些推荐进行进一步的筛选，例如按照评分、类别或上映时间来筛选，以便更贴合他的需求。\n",
+      "scene_context": "最近李华观看并且喜欢的影视作品有：《她》、《盗梦空间》和《布达佩斯大饭店》。",
+      "personalized_query": "嗨，最近我在找一些新的电影或电视剧看。你能推荐几部符合我口味的吗？我喜欢那些和时尚、视觉艺术或是颇具创意的题材有关的作品。希望这些推荐能激发我的创造力。",
+      "neutralized_query": "<neutralized_query>\n我在找一些新的电影或电视剧，希望你能推荐几部颇具创意的作品。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：_李华偏好设计感和实用性的产品，AI可以根据他的需求推荐合适的摄影设备、道具或时尚单品，并提供购买链接。",
+      "available_apis": {
+        "collectUserInput": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Collect specific needs and budget from the user to ensure accurate recommendations."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for suitable products based on the user’s preferences and provide purchase links."
+        }
+      },
+      "scene_desc": "李华最近在计划购买一些新的摄影设备和道具，以提升他的拍摄灵感和作品质量。他希望AI助理能根据他的需求推荐一些既实用又富有设计感的产品，并提供购买链接。他对新奇和创意的产品有着特别的热情，同时注重产品的功能性和实用性。李华通常会和AI助理闲聊，探索一些有趣的交互方式，因此他可能会在对话中提到一些具体的需求和偏好。",
+      "expected_response": "\n根据李华的persona描述，AI应该首先询问李华具体需要购买的摄影设备或道具的类型，并进一步确认他对这些产品的功能和设计有哪些特殊要求。AI可以通过询问李华的预算范围和对产品设计感的偏好，来确保推荐的产品符合他的期待。接着，AI可以使用联网搜索功能查找符合李华需求的摄影设备和道具，并提供详细的产品信息和购买链接。此外，AI可以推荐一些具有创新设计的时尚单品，激发李华的灵感。考虑到李华对视觉艺术的钟爱和他偏好的图文并茂的说明，AI应该提供带有图片和详细描述的推荐，确保这些推荐能够激发李华的想象力并满足他的审美需求。最后，AI应该询问李华是否还需要其他方面的建议或帮助，保持对话的灵活性和互动趣味性。",
+      "scene_context": "李华需要购买的摄影设备和道具包括：一台高分辨率的无反光镜相机、一个多功能的摄影三脚架和一个便携的外置闪光灯。他还对新奇且实用的时尚单品有兴趣，例如带有创意设计的摄影背包和具有防水功能的相机保护套。李华的预算范围在5000元到10000元之间，希望产品兼具设计感和实用性。",
+      "personalized_query": "你好，最近我在考虑入手一些新的摄影装备，想提升一下拍摄质量和灵感。能帮我推荐几款既实用又有设计感的产品吗？预算大概在5000到10000元之间。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要一些实用且有设计感的摄影装备推荐，预算在5000到10000元之间。\n</neutralized_query>"
+    }
+  ]
+}

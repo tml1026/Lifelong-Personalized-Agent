@@ -1,0 +1,246 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "浙江某大学音乐系学生",
+    "Name": "陈伟"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "古典音乐爱好者",
+      "钢琴演奏",
+      "写作",
+      "喜欢沉思和哲学"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常搜索与音乐理论和创作相关的知识，关注名家演奏",
+    "Usage_Pattern": "使用频繁；常询问音乐理论问题、曲谱分析；需要歌词润色和译文帮助；喜欢AI助手提供文学作品和诗歌灵感",
+    "Emotion_Pattern": "时而表现出创作压力，但总体情绪趋于平稳",
+    "Purchase_Pattern": "偏好购买与音乐相关的书籍和设备，有时候会购买高质量的文具"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢结构化且带有美学的输出风格，包含情感丰富的语言",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢以问题为导向的询问方式，并重视结果的精确性和深度"
+  },
+  "scenes": [
+    {
+      "scene_type": "个性化推荐：陈伟喜欢古典音乐和名家演奏，因此会经常使用个性化推荐来发现新的作品、专辑或艺术家。",
+      "available_apis": null,
+      "scene_desc": "陈伟刚刚完成了一次音乐理论课的作业，打算放松一下并发现一些新的古典音乐作品。她打开了AI助手，想要得到一些个性化推荐的古典音乐专辑和艺术家，希望能找到一些新的灵感。同时，她希望这些推荐能包括一些名家演奏的经典曲目。",
+      "expected_response": "\n根据陈伟的persona描述，她是一个古典音乐爱好者，喜欢名家演奏，且经常使用个性化推荐来发现新的作品。AI应该首先询问陈伟是否有特定的音乐类型或时期的偏好（例如巴洛克时期、浪漫主义时期等）。接着，AI应该根据她的历史听歌记录和喜好，推荐一些与她最喜欢的作品和艺术家相似的专辑和艺术家。AI还应该提供一些名家演奏的经典曲目，并附上详细的背景信息和推荐理由。此外，AI可以进一步根据她的反馈调整推荐内容，以确保推荐的音乐作品能真正符合她的喜好和需求。最后，AI还可以询问是否需要将推荐的专辑和艺术家加入到她的个人播放列表中。",
+      "scene_context": "陈伟最近的听歌记录包括：巴赫的《勃兰登堡协奏曲》、莫扎特的《安魂曲》、贝多芬的《第九交响曲》。她特别喜欢巴洛克时期和古典主义时期的作品，尤其是这些作品的名家演奏版本。",
+      "personalized_query": "嗨，帮我推荐几张古典音乐专辑吧，最好是一些名家演奏的经典曲目。我最近刚听完巴赫的《勃兰登堡协奏曲》和贝多芬的《第九交响曲》，挺喜欢巴洛克和古典主义时期的作品。",
+      "neutralized_query": "<neutralized_query>\n请推荐几张古典音乐专辑，最好是名家演奏的经典曲目。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：陈伟经常搜索与音乐理论和创作相关的知识，关注名家演奏，因此会希望在对话中得到扩展阅读材料或深度分析。",
+      "available_apis": null,
+      "scene_desc": "陈伟正准备为她的期末论文撰写部分关于巴洛克时期的音乐理论。然而，她对某些乐理方面的问题存有疑惑，尤其是对某位名家演奏的特定作品的理解。她希望通过AI助手获取更多扩展阅读材料，并希望能够深入分析这些理论和作品，以便更好地完成她的论文。",
+      "expected_response": "\nAI助手应该首先询问陈伟具体想要了解的音乐理论话题或名家的作品细节，确保能够提供针对性的信息。接着，AI应该使用联网搜索功能，找到相关的扩展阅读材料，如学术论文、书籍和名家演奏的视频资源，并提供这些链接。AI还应该进行深度分析，解释巴洛克时期音乐理论的关键点，并分析所提到的名家作品的独特之处和表现手法。AI助手应确保输出结构化且带有美学的风格，使用情感丰富的语言，以保持陈伟对信息的兴趣和理解的深度。同时，AI可建议一些高质量的文献或书籍供陈伟进一步阅读，满足她对精确性和深度的重视。",
+      "scene_context": "陈伟需要了解的音乐理论话题是巴洛克时期的音乐理论，她对约翰·塞巴斯蒂安·巴赫（Johann Sebastian Bach）的《勃兰登堡协奏曲》（Brandenburg Concertos）有特别的兴趣。她希望获取关于巴洛克音乐理论的关键点、巴赫作品的独特之处及其演奏特点的扩展阅读材料和深度分析。",
+      "personalized_query": "你好，今天需要我帮你做些什么呢？",
+      "neutralized_query": "<neutralized_query>\n你好，今天需要我帮你做些什么呢？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：陈伟需要歌词润色和译文帮助，可能会需要解释语法规则，并进行练习以提升写作能力。",
+      "available_apis": null,
+      "scene_desc": "陈伟正在创作一首新的歌词，但在润色过程中遇到了一些语法问题。她希望AI助手能帮助她解释这些语法规则，并提供一些相关的练习，以提升她的写作能力。她打开终端上的AI助手，准备请求帮助。",
+      "expected_response": "\n根据陈伟的persona描述，她是一个内向且注重结构化思考的音乐系学生，喜欢结构化且带有美学的输出风格，包含情感丰富的语言。AI应该首先询问她具体在哪些部分遇到了语法问题，并请求她提供需要润色的歌词文本。接着，AI应该能通过对歌词的分析，指出具体的语法错误，并详细解释相关的语法规则。AI还应该提供一些相关的练习题，以便陈伟能进一步提升她的写作能力。最后，AI应该为她润色好歌词，并提供一些建议，让她的文字更加优美和流畅。",
+      "scene_context": "陈伟需要润色的歌词片段如下：\n```\nI saw you standing there, under the pale moonlight,\nYour eyes were like stars, shining so bright.\nBut words we never spoke, linger in the air,\nA love that's unspoken, a silent despair.\n```\n她遇到的语法问题包括：\n1. “Your eyes were like stars, shining so bright.” 中的形容词使用是否准确。\n2. “But words we never spoke, linger in the air,” 这句的标点符号和句子结构是否合适。\n3. “A love that's unspoken, a silent despair.” 中的从句结构是否正确。\n\n此外，她还希望了解以下语法规则：\n1. 形容词和副词的使用区别。\n2. 标点符号在复合句中的正确使用。\n3. 定语从句的结构和用法。\n\n她希望能够通过AI助手提供的解释和练习，来进一步提升她的写作能力，并最终润色出更优美的歌词。",
+      "personalized_query": "Hi，你好，我正在创作一首歌词，但在润色过程中遇到了一些语法问题，想请你帮我看看。\n\n首先，这句：\n“Your eyes were like stars, shining so bright.”\n中的形容词使用是否准确？\n\n谢谢！",
+      "neutralized_query": "<neutralized_query>\n请帮忙检查这句歌词中的语法和形容词使用是否准确：“Your eyes were like stars, shining so bright.”\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：陈伟在学习英文，并且需要提升交流能力，可能会进行模拟口语练习。",
+      "available_apis": {
+        "getUserInput": {
+          "arguments": [
+            "prompt"
+          ],
+          "description": "Prompts the user for input regarding their current English level and specific practice goals."
+        },
+        "generatePracticePlan": {
+          "arguments": [
+            "english_level",
+            "practice_goal"
+          ],
+          "description": "Generates a suitable oral practice plan based on the user's English level and practice goals."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for relevant resources such as video tutorials, audio materials, or other practice tools."
+        }
+      },
+      "scene_desc": "陈伟正在学习英文，并希望提升自己的口语交流能力。她准备进行一次模拟口语练习，以提高自己的发音准确性和语言流畅度。她通常会选择与音乐相关的题材进行练习，并希望AI能提供一个结构化且充满情感的对话场景来模拟真实的交流环境。",
+      "expected_response": "AI应该首先询问陈伟当前的英语水平和具体的练习目标，以便生成一个合适的口语练习计划。接着，AI应该根据她对音乐的兴趣，提供一些与音乐相关的对话主题，并生成一个充满情感且结构化的对话脚本。AI还应该提供实时纠正和反馈，帮助她改进发音和句式。此外，AI可以推荐一些视频教程或音频材料，以帮助她进一步提升口语能力。最后，AI应该鼓励陈伟，并询问是否需要进一步的帮助或调整练习计划，以确保她的学习效果。",
+      "scene_context": "陈伟当前的英语水平为中级(B1-B2)，她的具体练习目标是提高发音准确性和语言流畅度。她希望进行的模拟对话场景与音乐相关，可能的对话主题包括：\n1. 讨论她最喜欢的音乐类型及原因。\n2. 分享她最近听的一首歌及其感受。\n3. 想象自己是一名音乐会的观众，描述音乐会的氛围和表演。\n4. 谈论她的音乐偶像及其影响。",
+      "personalized_query": "Hi, I’d like to practice my English speaking skills. Could you help me with a conversation about music? I want to discuss my favorite type of music and why I like it. Please correct my pronunciation and give me feedback on fluency.",
+      "neutralized_query": "<neutralized_query>\n我需要进行一段关于音乐的英语对话练习，请帮助我纠正发音并提供流利度方面的反馈。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：陈伟写作需要润色歌词和文稿，因此会在对话中请求帮助修改、整理或优化文档内容。",
+      "available_apis": {
+        "textEnhancement": {
+          "arguments": [
+            "text"
+          ],
+          "description": "Enhances the quality of the given text by improving grammar, style, and overall readability."
+        },
+        "documentOrganization": {
+          "arguments": [
+            "document"
+          ],
+          "description": "Organizes the content of the given document to improve its structure and flow."
+        }
+      },
+      "scene_desc": "陈伟正在写一首新歌的歌词，但她感觉有些段落的用词和结构还不够理想。因此，她决定使用AI助手来润色她的歌词并优化文档内容。她打开终端，开始与AI助手交流，希望获得一些有关如何改进歌词的建议，并最终提升整体的表达效果。",
+      "expected_response": "AI助手应该首先询问陈伟是否希望对整个歌词进行全面润色，还是只针对特定段落进行优化。然后，AI助手应该分析歌词的语法、结构和表达方式，提供具体的改进建议，如调整用词、优化句子结构或增强情感表达。接着，AI助手应该根据陈伟的反馈进行进一步的润色，并确保最终的输出符合她的美学和感情丰富的风格。最后，AI助手应该将润色后的歌词整理成一个结构化的文档，并询问是否需要保存或进一步修改。",
+      "scene_context": "陈伟正在写的歌词如下：\n\n```\n第一段:\n天空的颜色渐渐变灰\n我的心情也随之沉默\n曾经的梦像泡沫般破碎\n我在黑暗中寻找光的轮廓\n\n第二段:\n你曾是我唯一的慰藉\n如今却只剩下回忆\n那些誓言都被时间抹去\n我们之间还有什么值得珍惜\n\n副歌:\n爱已成往事，再也无法追寻\n我们曾经的故事，只剩下伤心\n未来的路，我会独自走下去\n不再为你停留，不再为你哭泣\n```\n\n陈伟希望对整个歌词进行全面润色，特别是确保每一段的情感表达更加丰富，并且优化用词和句子结构。",
+      "personalized_query": "你好，我正在写一首新歌的歌词，有些段落感觉用词和结构还不够理想，想请你帮我润色一下。首先，帮我看看第一段有没有改进的空间：\n\n```\n天空的颜色渐渐变灰\n我的心情也随之沉默\n曾经的梦像泡沫般破碎\n我在黑暗中寻找光的轮廓\n```",
+      "neutralized_query": "<neutralized_query>\n请帮我润色一下以下歌词的第一段，并提出改进建议：\n\n```\n天空的颜色渐渐变灰\n我的心情也随之沉默\n曾经的梦像泡沫般破碎\n我在黑暗中寻找光的轮廓\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：陈伟可能需要撰写专业的电子邮件，联络音乐导师、演出组织者或出版社等。",
+      "available_apis": {
+        "getContactDetails": {
+          "arguments": [
+            "contact_type"
+          ],
+          "description": "Retrieves the contact details for the specified type of contact (e.g., music tutor, event organizer, publisher)."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional email to the specified recipients with the given subject and body content."
+        }
+      },
+      "scene_desc": "陈伟最近需要联系她的音乐导师，以讨论她正在创作的一首新曲子，并寻求一些专业建议。她希望能够写一封专业且情感丰富的电子邮件，以表达她的感谢和对导师帮助的期待。她需要AI助手帮她组织邮件的内容，并在适当的地方润色语言。",
+      "expected_response": "\n根据陈伟的persona描述，她是一个注重结构和情感表达的音乐系学生。AI应该首先询问陈伟她希望邮件包含的具体内容，如她目前创作的进展、希望导师提供的具体帮助或建议，以及她对导师的感谢。接着，AI应该会根据这些要点，生成一封结构合理、语言优美且情感丰富的邮件草稿。AI还应该关注邮件的语法和格式，确保其专业性和可读性。最后，AI应提供选项让陈伟确认或进一步修改邮件内容，然后帮助她发送邮件。",
+      "scene_context": "陈伟需要联系的音乐导师姓名为：李教授。她正在创作的新曲子名称为《晨曦之音》。陈伟希望在邮件中表达以下几个要点：\n1. 介绍新曲子的创作背景和灵感来源。\n2. 当前创作进展和遇到的问题。\n3. 希望李教授提供具体的专业建议，例如关于曲子的旋律和编曲部分。\n4. 表达对李教授过去支持和帮助的感谢。\n5. 希望能够安排一次面对面的讨论或视频会议进行进一步指导。\n\n邮件草稿示例：\n```\n尊敬的李教授，\n\n您好！\n\n首先，非常感谢您一直以来对我的关心和指导。我正在创作一首名为《晨曦之音》的新曲子，灵感来自于清晨的阳光和大自然的声音。我目前已经完成了初步的旋律和部分编曲，但在一些细节上遇到了困难，希望能得到您的专业建议。\n\n具体来说，我在旋律的过渡部分和编曲的和声处理上感到有些困惑，不知道是否可以请您给出一些指导意见。此外，若方便的话，希望能安排一次面对面的讨论或视频会议，以便深入交流和学习。\n\n再次感谢您一直以来的支持和帮助，期待您的回复。\n\n祝好！\n\n陈伟\n```",
+      "personalized_query": "你好！我需要你的帮助来写一封邮件给李教授，以讨论我正在创作的新曲子《晨曦之音》。我想在邮件中介绍一下这首曲子的背景和灵感来源，并提到我在创作过程中遇到的一些问题，希望能得到他的专业建议。另外，我也想表达对他一直以来的支持和帮助的感谢，并请求安排一次面对面的讨论或视频会议。可以帮我组织一下邮件的内容，并润色语言吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你的帮助来写一封邮件给教授，以讨论我正在创作的新曲子。我想在邮件中介绍一下这首曲子的背景和灵感来源，并提到我在创作过程中遇到的一些问题，希望能得到他的专业建议。另外，我也想表达对他一直以来的支持和帮助的感谢，并请求安排一次面对面的讨论或视频会议。可以帮我组织一下邮件的内容，并润色语言吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化播放单：根据陈伟的音乐喜好和习惯，可以创建定制化的播放列表，帮助她更好地整理和欣赏音乐。",
+      "available_apis": {
+        "getUserMusicPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the music preferences and listening history of the user to understand their music taste and habits."
+        },
+        "generatePersonalizedPlaylist": {
+          "arguments": [
+            "user_preferences"
+          ],
+          "description": "Generate a personalized playlist based on the user's music preferences and listening habits."
+        }
+      },
+      "scene_desc": "陈伟在一个安静的周末，决定整理一份新的古典音乐播放列表。她希望这份播放列表不仅包含一些她熟悉的经典作品，还能介绍一些新的艺术家和作品，帮助她拓展音乐视野。她打开AI助手，准备请求创建一份个性化的播放单。",
+      "expected_response": "\n根据陈伟的persona，AI助手应该首先确认她的具体需求，例如是否有特定的古典音乐家或风格偏好。AI应询问是否需要包括一些她最近关注的名家演奏作品或新发现的艺术家。接着，AI可以根据她的音乐喜好和听歌历史，使用相关API生成一份个性化的播放列表。AI还可能会推荐一些与她关注的音乐理论相关的作品，帮助她在欣赏音乐的同时进行学习和创作灵感的积累。最终，AI会提供一个选项，允许她预览和调整播放列表，并询问是否需要进一步个性化或直接开始播放。",
+      "scene_context": "陈伟的音乐喜好包括巴赫、莫扎特和肖邦，她最近还对一些现代古典音乐作曲家如马克斯·里希特（Max Richter）和卢多维科·艾奥迪（Ludovico Einaudi）产生了兴趣。此外，她喜欢钢琴独奏和弦乐四重奏，希望在播放列表中能够包含这些类型的作品。",
+      "personalized_query": "你好，AI助手。今天我想整理一份新的古典音乐播放列表，除了我平时喜欢的巴赫、莫扎特和肖邦，还希望能有一些新的艺术家和作品推荐，特别是现代古典音乐作曲家。你能帮我创建一个个性化的播放单吗？",
+      "neutralized_query": "<neutralized_query>\n我想整理一份新的古典音乐播放列表，并希望能有一些新的艺术家和作品推荐，特别是现代古典音乐作曲家。你能帮我创建一个个性化的播放单吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "倾听与建议：作为一个音乐系学生，陈伟可能会遇到创作压力，需要一个AI助手来聆听她的烦恼，并提供适当的建议或解决方案。",
+      "available_apis": {
+        "listenAndUnderstand": {
+          "arguments": [
+            "user_input"
+          ],
+          "description": "Listens to the user's problems and understands the context and details."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈伟正在为她的最新钢琴曲谱感到困惑和压力。她已经在这首曲子上花了很多时间，但总觉得有些地方不够完美。情绪上，她感到有些焦虑和挫败，因此她决定向AI助手倾诉自己的烦恼，希望得到一些情感上的安慰和专业的建议来克服创作瓶颈。\n\n在她打开AI助手后，她表达了自己对这首曲子的期望和遇到的问题，希望AI能为她提供一些有效的建议或解决方法。",
+      "expected_response": "AI应该首先表现出理解和共情，倾听陈伟所表达的烦恼和压力，并给予适当的情感支持，缓解她的情绪。接着，AI可以询问更多关于曲子的细节，例如她遇到困难的具体部分，是否有特定的风格或情感表达目标。\n\n基于陈伟的具体问题，AI可以进一步提供参考资料或建议，例如推荐一些名家演奏的类似曲子，或者提供音乐理论上的指导。AI还可以通过联网搜索，找到相关的音乐创作技巧和资源。\n\n如果陈伟表达了需要，更可以帮助她进行曲谱分析，或者提供一些灵感和创意，帮助她突破创作瓶颈。最终，AI会鼓励陈伟继续坚持创作，并提醒她照顾好自己的情绪和身体，合理安排休息和工作时间。",
+      "scene_context": "陈伟正在创作一首钢琴曲，遇到的具体问题包括：1) 中间部分的旋律总觉得不流畅，她希望这个部分能更富有情感表达；2) 她希望整首曲子的风格能有些创新，但又不知道如何在传统的钢琴曲风格中加入新的元素。\n\n她对这首曲子的期望是，希望它能够表达出一种逐渐走出低谷、重拾信心的情感历程。她也提到自己最近听了一些肖邦和拉赫玛尼诺夫的作品，觉得这些作品有助于激发她的灵感。\n\n她希望AI助手不仅能提供情感上的支持，还能给予一些实际的创作建议，如推荐相关的曲谱分析、音乐理论指导，或提供一些创新的创意点子。",
+      "personalized_query": "唉，我最近真的有点焦头烂额。我在创作这首钢琴曲的时候，尤其是中间部分，总觉得旋律不够流畅，无法顺利地表达出我想传达的情感。你能帮我看看这个问题吗？另外，我还希望整首曲子能够有一些创新的元素，但是又不想完全脱离传统的钢琴曲风格。你有什么建议吗？",
+      "neutralized_query": "<neutralized_query>\n我在创作一首钢琴曲时遇到了一些问题，特别是中间部分的旋律不够流畅，无法表达出预期的情感。你能帮我解决这个问题吗？另外，我希望整首曲子能够有一些创新的元素，但又不想完全脱离传统的钢琴曲风格。你有什么建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：陈伟可能需要生成复习计划，提供音乐理论考点总结和练习题，帮助她准备考试。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "exam_date",
+            "topics",
+            "daily_hours"
+          ],
+          "description": "Generates a detailed study plan based on the provided exam date, topics to cover, and daily study hours."
+        },
+        "getMusicTheorySummary": {
+          "arguments": [
+            "topics"
+          ],
+          "description": "Provides a summary of key points for the given music theory topics."
+        },
+        "getPracticeQuestions": {
+          "arguments": [
+            "topics",
+            "difficulty_level"
+          ],
+          "description": "Provides practice questions for the specified music theory topics and difficulty level."
+        }
+      },
+      "scene_desc": "陈伟即将面临音乐理论考试，需要制定一个详细的复习计划来提高备考效率。她希望AI助手能帮助她生成一个适合她时间安排的复习计划，并提供具体的音乐理论考点总结和练习题。此外，陈伟对复习资料的质量和深度有较高的要求，希望能够进行全面而深入的复习。",
+      "expected_response": "\n根据陈伟的persona描述，她是一位注重结果精确性和深度的音乐系学生。AI应该首先询问陈伟的考试日期、需要复习的具体音乐理论主题以及她每天可以投入的学习时间。接着，AI应该生成一个详细的复习计划，涵盖每日的学习任务和时间安排。\n\nAI还应该为每个主题提供详细的考点总结，并附上相应的练习题，确保每个知识点都能得到充分的练习和巩固。在过程中，AI应该关注提供结构化且美学感强的输出，以符合陈伟的喜好。\n\n最后，AI可以询问陈伟是否需要更多的阅读材料或深度分析，进一步扩展她的知识面和理解力。AI还应该能识别出陈伟可能的创作压力，提供一些鼓励和建议，帮助她保持良好的心态备考。",
+      "scene_context": "陈伟的考试日期是两周后，需要复习的具体音乐理论主题包括：和声学、对位法与曲式分析。她每天可以投入的学习时间为4小时。",
+      "personalized_query": "我需要一个详细的复习计划来准备两周后的音乐理论考试。主要复习内容包括和声学、对位法和曲式分析。我每天可以投入4个小时。希望复习计划能够涵盖这些重点知识，并且包含具体的练习题。请帮我生成一个适合的复习计划。",
+      "neutralized_query": "<neutralized_query>\n我需要一个详细的复习计划来准备即将到来的音乐理论考试。主要复习内容包括和声学、对位法和曲式分析，且计划每天的复习时间为4个小时。请生成一个涵盖这些重点知识并包含具体练习题的复习计划。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：陈伟可能需要规划出差行程，如旅行参加音乐比赛、访问音乐会场地或参加音乐研讨会等。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "bookTravel": {
+          "arguments": [
+            "destination",
+            "travel_date",
+            "return_date",
+            "preferences"
+          ],
+          "description": "Books travel arrangements including flights, train tickets, and accommodation based on the provided preferences."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the user for the preferred time slot and suggests a suitable travel time."
+        }
+      },
+      "scene_desc": "陈伟需要规划一次出差行程，以便参加一个国际音乐比赛和访问相关的音乐会场地。她希望能够安排合适的交通方式、住宿以及参观活动，还需要确认自己的时间安排是否合适。由于她是一个音乐系学生，对细节和美学要求较高，同时，她也希望能够有充足的时间进行比赛准备和场地访谈。",
+      "expected_response": "\nAI应该首先询问出行的具体目的地、出发日期和返回日期，及陈伟的偏好（如交通方式、高端或经济住宿等）。接着，AI应该检查她的日程安排，确认是否有空闲时间进行出差。如果时间允许，AI应通过联网搜索为她找到合适的航班或火车票，并推荐几家适合她审美和预算的酒店。AI还可以提供一些目的地的音乐会场地信息和参观活动。最后，AI应该为她生成一个详细的行程计划，包括交通、住宿和参观活动的具体安排，并询问她是否需要进一步的调整或确认预订细节。",
+      "scene_context": "陈伟需要规划的具体行程如下：\n- 目的地：维也纳，奥地利\n- 出发日期：2023年11月15日\n- 返回日期：2023年11月22日\n- 交通方式偏好：高端航班\n- 住宿偏好：高端酒店\n- 主要任务：\n  1. 参加11月17日的国际音乐比赛\n  2. 访问11月18日的维也纳金色大厅\n  3. 参观11月20日的维也纳国家歌剧院\n- 需要充足的比赛准备时间和场地访谈时间\n- 预算：约3000美元",
+      "personalized_query": "我需要帮忙规划一次出差行程，目的是参加一个国际音乐比赛并访问相关的音乐会场地。具体来说，我要从2023年11月15日出发，前往维也纳，返回日期是11月22日。我偏好乘坐高端航班，并且希望入住高端酒店。主要任务包括11月17日参加比赛，11月18日访问维也纳金色大厅，以及11月20日参观维也纳国家歌剧院。另外，我需要充足的时间进行比赛准备和场地访谈。预算大概是3000美元。能帮我安排一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要帮忙规划一次出差行程，目的是参加一个国际比赛并访问相关的场地。具体来说，我要从2023年11月15日出发，前往维也纳，返回日期是11月22日。我偏好乘坐高端航班，并且希望入住高端酒店。主要任务包括11月17日参加比赛，11月18日访问一个著名的音乐厅，以及11月20日参观一个国家歌剧院。另外，我需要充足的时间进行比赛准备和场地访谈。预算大概是3000美元。能帮我安排一下吗？\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "Demographics": {
+    "Age": 28,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "独立摄影师",
+    "Name": "林轩"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热衷于探索新事物和新地点",
+      "重视自由与独立",
+      "偏爱动手实践的活动",
+      "有时会享受独处的安静时光",
+      "喜欢解决实际问题",
+      "崇尚个人的成长与自我提升"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "更倾向于通过视觉和实物获取信息，喜欢能带来启发和创意的内容",
+    "Usage_Pattern": "经常查询关于摄影技巧、旅行攻略和户外探险的信息，也会关注摄影设备的新技术和评测",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "偏好高质量且耐用的户外和摄影设备，对品牌的忠诚度较高，但也会关注新兴品牌的创新产品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢结构清晰、带有实际案例和图示的指导内容",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "倾向于灵活多变的解决方案，希望能自主安排时间和步骤，灵感驱动式的工作流程"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：林轩需要规划拍摄地点的行程，包括旅行、探险和寻找新的拍摄点。",
+      "available_apis": null,
+      "scene_desc": "林轩计划近期前往云南进行一周的旅行摄影。他希望能够制定一个详细的行程，包括拍摄的最佳地点、住宿安排和餐饮推荐。他对拍摄点的选择非常讲究，希望能够找到未被广泛拍摄过的自然景观，同时也希望能在行程中有一些探险活动。林轩会携带大量摄影设备，因此住宿的安全性和便捷性也很重要。此外，他希望能够灵活安排时间，以便根据实际情况调整拍摄计划。",
+      "expected_response": "\n根据林轩的persona描述，他是一个热衷于探索新事物和新地点的独立摄影师，AI应该首先询问具体的旅行时间和拍摄偏好。AI应该能够通过访问旅游和摄影相关的数据库，提供一些云南地区未被广泛拍摄过的自然景观和探险活动推荐。接着，AI应该能通过联网搜索找到适合林轩需求的住宿和餐饮选项，确保这些地方安全且便捷。此外，AI应该生成一个灵活的行程规划，允许林轩根据实际情况调整拍摄计划，并包含每个拍摄点的详细信息和最佳拍摄时间。最后，AI可以为林轩提供天气预报和实用的旅行提示，确保他能够顺利进行拍摄活动。",
+      "scene_context": "林轩的旅行时间为：5月1日至5月7日。\n他拍摄的偏好包括：自然景观、未被广泛拍摄过的地方、探险活动。\n林轩希望前往的拍摄点包括：元阳梯田、腾冲热海、香格里拉普达措国家公园。\n对于住宿，林轩希望找到：安全且便捷的酒店，最好靠近拍摄点。\n餐饮方面，他希望能够尝试当地特色美食，同时确保餐厅的卫生和安全。",
+      "personalized_query": "我计划近期前往云南进行一周的旅行摄影。我想制定一个详细的行程，包括拍摄的最佳地点、住宿安排和餐饮推荐。你能帮忙提供一些建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要制定一个详细的旅行摄影行程，包括拍摄的最佳地点、住宿安排和餐饮推荐。你能帮忙提供一些建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "酒店和餐厅推荐：林轩在不同地点拍摄时，需要推荐适合的住宿和餐饮选项，并提供预订帮助。",
+      "available_apis": null,
+      "scene_desc": "林轩正在前往一处新的拍摄地点，他需要在当地找到一家舒适且方便的酒店，并计划在拍摄间隙找到一些高评价的餐厅来用餐。他希望AI能够根据他的摄影行程安排，推荐合适的酒店和餐厅，并帮助他完成预订。此外，林轩希望AI能够提供关于这些推荐地点的详细信息，例如价格范围、用户评价和具体位置，以便他能做出最好的选择。",
+      "expected_response": "\n根据林轩的persona描述，AI应该首先询问他具体前往的地点和拍摄行程安排，然后基于这些信息推荐适合的酒店和餐厅。AI应该优先推荐那些方便拍摄、评价高且性价比较好的住宿和餐饮选项。接着，AI应该提供详细的酒店和餐厅信息，包括价格、用户评价和具体位置，并询问是否需要直接进行预订。如果林轩确认需要预订，AI应该帮助他完成预订流程。考虑到林轩是一个独立摄影师，重视自由和独立，AI在推荐时应尽量提供一些富有创意和独特风格的住宿和餐饮选择。此外，AI可以根据林轩的喜好，推荐一些带有当地特色的餐饮选项。\n",
+      "scene_context": "林轩需要前往的拍摄地点是上海市区。他的拍摄行程主要集中在外滩、南京路步行街和豫园附近。林轩需要推荐以下内容：\n- 酒店：希望找到在外滩或南京路步行街附近的酒店，预算为每晚500-800元人民币，要求干净、舒适、方便。\n- 餐厅：希望找到一些具有当地特色的高评价餐厅，例如上海本帮菜、海鲜餐厅以及一些适合午餐和晚餐的地点。\n\n林轩希望AI能够提供酒店和餐厅的详细信息，包括价格、用户评价和具体位置，并帮助他完成预订。",
+      "personalized_query": "Hi，助手。今天我要去上海市区拍摄，主要集中在外滩、南京路步行街和豫园附近。可以帮我找一家舒适方便的酒店吗？预算每晚500-800元人民币。",
+      "neutralized_query": "<neutralized_query>\n可以帮我找一家位于上海市区外滩、南京路步行街和豫园附近的舒适方便的酒店吗？预算每晚500-800元人民币。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：林轩在前往不同拍摄地点时，需要了解目的地的天气情况、签证流程和货币兑换信息。",
+      "available_apis": null,
+      "scene_desc": "林轩计划前往一个新的拍摄地点，他需要提前了解该地的天气情况、签证流程以及货币兑换信息。他希望在动身之前做好充分的准备，以确保行程的顺利进行。这次，他的目的地是冰岛，这个地方对于他来说既充满了未知，也充满了拍摄的潜力。",
+      "expected_response": "\n根据林轩的persona描述，他是一个偏好动手实践并崇尚自由与独立的独立摄影师，AI应该能迅速且高效地提供他所需的信息。AI应该首先询问他具体需要的信息类别，如天气情况、签证流程和货币兑换。接着，AI应该通过联网搜索提供冰岛的详细天气预报，包括温度、降水和风速等信息。然后，AI应该提供相关的签证流程信息，包括所需材料、申请步骤和注意事项。最后，AI应该提供货币兑换的信息，包含汇率、兑换点和注意事项。这些信息应该以结构清晰、带有实际案例和图示的形式呈现，符合林轩喜欢结构清晰指导内容的偏好。AI还应确保提供的信息准确且详细，以便林轩可以自主安排他的行程和拍摄计划。",
+      "scene_context": "林轩需要查询的具体信息包括：\n1. 冰岛的天气情况（具体时间段：未来一周）\n2. 冰岛签证流程（包括所需材料和申请步骤）\n3. 冰岛的货币兑换信息（包括当前汇率、主要兑换点和注意事项）",
+      "personalized_query": "嘿，我计划下周去冰岛拍摄一组风景照片。帮我查查未来一周冰岛的天气情况。",
+      "neutralized_query": "<neutralized_query>\n帮我查查未来一周冰岛的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：林轩在进行户外探险和拍摄时，跟踪他的运动数据，如步数和跑步距离，并提供反馈。",
+      "available_apis": {
+        "getFitnessData": {
+          "arguments": [
+            "user_id",
+            "date_range"
+          ],
+          "description": "Retrieves the fitness data including steps and running distance for the specified user over the given date range."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "user_id",
+            "fitness_data"
+          ],
+          "description": "Analyzes the given fitness data and provides feedback on the user's performance."
+        }
+      },
+      "scene_desc": "林轩是一名独立摄影师，经常在户外探险和拍摄时需要跟踪自己的运动数据，如步数和跑步距离。今天，他在一个偏远的自然景区拍摄，想要知道他今天运动的步数和跑步的距离，并希望能得到一些反馈和建议，以便提升他的体能状态和拍摄效率。AI需要根据他的运动数据，提供一些有针对性的反馈和建议。",
+      "expected_response": "根据林轩的persona描述，AI应该首先通过调用getFitnessData接口获取他指定日期范围内的运动数据，包括步数和跑步距离。获取数据后，AI应进行分析并通过provideFeedback接口提供反馈，这些反馈应包括对他当前体能状态的评估以及一些实际的建议，如增加或减少运动量、注意休息时间等。此外，考虑到林轩热衷于探索新事物和新地点，AI可以提供一些与他目前拍摄地点相关的户外活动推荐，帮助他在拍摄间隙保持活力并获取更多灵感。最后，AI应确保反馈内容结构清晰，并附带实际案例和图示，以便林轩能够直观地理解和应用这些建议。",
+      "scene_context": "林轩在进行户外探险和拍摄时，使用的运动数据设备记录了他今天的运动数据如下：\n- 步数：12,580步\n- 跑步距离：6.2公里\n\n他希望了解这些数据，并希望AI能够提供以下内容：\n1. 对他今天运动数据的分析和反馈，包括对他当前体能状态的评估。\n2. 一些实际的建议，如增加或减少运动量、注意休息时间等。\n3. 与他目前拍摄地点相关的户外活动推荐，帮助他在拍摄间隙保持活力并获取更多灵感。",
+      "personalized_query": "今天拍摄途中走了不少路，我看到设备记录步数是12,580步，跑步距离是6.2公里。能帮我分析下这些数据吗？我想知道我目前的体能状态如何，还有什么地方需要注意的。",
+      "neutralized_query": "<neutralized_query>\n能帮我分析下今天的运动数据吗？步数是12,580步，跑步距离是6.2公里。我想知道目前的体能状态如何，还有什么地方需要注意的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "摄影设备评测：林轩关注摄影设备的最新技术和评测，帮助他选择高质量且耐用的摄影器材。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "林轩最近关注到了一款新发布的摄影相机，他希望了解这款设备的最新技术和用户评测，以决定是否购买用于他的摄影项目。他打开了AI助手，准备查询这款相机的详细信息和评测。由于林轩重视设备的耐用性和技术创新，他希望能看到全面的评测，包括技术规格、用户体验、市场分析和价格趋势。",
+      "expected_response": "\n根据林轩的persona，AI应该首先询问具体型号的摄影相机，以便进行精准搜索。接着，AI会通过网络搜索功能获取相关的详细技术规格，并结合用户评测和专家评测，提供一个综合的评测报告。AI应该特别关注设备的耐用性和技术创新点，以符合林轩对高质量和创新产品的偏好。此外，AI还会通过市场分析功能，提供这款相机的价格趋势和市场对比，帮助林轩做出明智的购买决定。最后，AI可以给出一些购买建议，并询问林轩是否需要进一步的信息或直接提供购买链接。",
+      "scene_context": "林轩想要查询的摄影相机型号为：Sony Alpha 7 IV",
+      "personalized_query": "你好，帮我查一下Sony Alpha 7 IV的详细信息和用户评测。我最近对这款新发布的相机很感兴趣，想了解它的技术规格、用户体验、市场分析和价格趋势。",
+      "neutralized_query": "<neutralized_query>\n请查一下Sony Alpha 7 IV的详细信息和用户评测，尤其是技术规格、用户体验、市场分析和价格趋势。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：林轩在使用后期处理软件时，可能会涉及到简单的代码调试，如调整脚本和插件。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for solutions or documentation related to the specific code issue or software plugin/script adjustment."
+        }
+      },
+      "scene_desc": "林轩在一次拍摄后回到工作室，使用后期处理软件对照片进行调整。然而，他发现一个自定义的Photoshop脚本在执行过程中出现了错误。由于林轩有时需要动手解决实际问题，他决定尝试自己调试脚本，但他对编程并不是很熟悉。为了快速找到解决方案，他向AI助手求助，希望能尽快修复这个问题，以便继续他的工作。",
+      "expected_response": "\n根据林轩的persona描述，他偏向于通过视觉和实物获取信息，喜欢结构清晰且带有实际案例和图示的指导内容。AI应该首先询问林轩遇到的具体问题，并请他提供错误信息或截图。接着，AI可利用联网搜索功能查找相关代码调试的解决方案，并返回带有实际案例和图示的指导内容。如果问题复杂，AI还可以推荐相关的教程视频或文档供林轩参考。同时，AI应确保提供的信息简明扼要且易于理解，以便林轩能够自主解决问题并继续他的工作流程。",
+      "scene_context": "林轩正在使用Photoshop脚本进行后期处理，但遇到了一个错误。具体的错误信息如下：\n\n```\nError: 21: undefined is not an object\n```\n\n这是林轩的自定义脚本的一部分代码：\n\n```javascript\n// 初始化变量\nvar layer = app.activeDocument.activeLayer;\n\n// 检查图层是否为文本图层\nif (layer.kind == LayerKind.TEXT) {\n    var textItem = layer.textItem;\n    textItem.contents = \"新的文本内容\";\n} else {\n    alert(\"选中的图层不是文本图层！\");\n}\n```\n\nAI助手需要帮助林轩解决这个错误，并提供带有实际案例和图示的指导内容，以帮助他理解和修复代码。",
+      "personalized_query": "最近在调试Photoshop脚本的时候遇到了点麻烦，脚本执行时出现了错误信息：\n\n```\nError: 21: undefined is not an object\n```\n\n这是我脚本的一部分代码：\n\n```javascript\n// 初始化变量\nvar layer = app.activeDocument.activeLayer;\n\n// 检查图层是否为文本图层\nif (layer.kind == LayerKind.TEXT) {\n    var textItem = layer.textItem;\n    textItem.contents = \"新的文本内容\";\n} else {\n    alert(\"选中的图层不是文本图层！\");\n}\n```\n\n能帮我看看这个错误是怎么回事吗？希望你能提供一些具体的指导。",
+      "neutralized_query": "<neutralized_query>\n在调试Photoshop脚本时，遇到了错误信息：\n\n```\nError: 21: undefined is not an object\n```\n\n这是脚本的一部分代码：\n\n```javascript\n// 初始化变量\nvar layer = app.activeDocument.activeLayer;\n\n// 检查图层是否为文本图层\nif (layer.kind == LayerKind.TEXT) {\n    var textItem = layer.textItem;\n    textItem.contents = \"新的文本内容\";\n} else {\n    alert(\"选中的图层不是文本图层！\");\n}\n```\n\n能解释一下这个错误是怎么回事并提供一些具体的指导吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：林轩热衷于自我提升，需要扩展阅读材料或深度分析关于摄影技术、构图理论等方面的知识。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "林轩在一个周末的下午想要扩展自己关于摄影技术和构图理论的知识。他打开AI助手，希望能推荐一些深度的阅读材料和分析文章。他特别感兴趣的是如何在不同光线条件下拍摄出更具艺术感的照片，以及如何利用构图技巧增强作品的视觉吸引力。他希望这些材料能启发他的创作思路，让他在未来的拍摄中有所突破。",
+      "expected_response": "\nAI应该首先确认林轩是否有具体的主题偏好，例如特定的光线条件或构图技巧。接着，AI会通过联网搜索功能查找相关的深度分析文章和扩展阅读材料。AI应该优先选择那些结构清晰、带有实际案例和图示的内容，因为林轩偏好这种形式的指导材料。AI还可能推荐一些知名摄影网站或摄影师的博客，帮助林轩获取更具创意和启发性的内容。最后，AI会整理这些材料，并提供一个清晰的阅读清单或者链接集，方便林轩快速访问和学习。",
+      "scene_context": "林轩对以下主题特别感兴趣：\n1. 如何在日出、日落、夜晚等不同光线条件下拍摄出更具艺术感的照片。\n2. 经典的三分法、对角线构图以及其他高级构图技巧。\n3. 如何在自然风光摄影中利用光线和构图增强作品的视觉吸引力。\n\n他希望阅读材料包括实际案例、图示和知名摄影师的作品分析。",
+      "personalized_query": "下午好，我在找一些关于摄影技术和构图理论的深度阅读材料，特别是如何在不同光线条件下拍摄出更具艺术感的照片，以及如何利用构图技巧增强作品的视觉吸引力。可以帮我推荐一些实际案例和图示丰富的文章吗？",
+      "neutralized_query": "<neutralized_query>\n我在找一些关于摄影技术和构图理论的深度阅读材料，特别是如何在不同光线条件下拍摄出更具艺术感的照片，以及如何利用构图技巧增强作品的视觉吸引力。可以推荐一些实际案例和图示丰富的文章吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：帮助林轩安排拍摄日程，设定提醒，并管理待办事项，确保拍摄计划的有序进行。",
+      "available_apis": {
+        "createEvent": {
+          "arguments": [
+            "title",
+            "start_time",
+            "end_time",
+            "participants",
+            "location",
+            "description"
+          ],
+          "description": "Creates a calendar event with the given details, including title, start time, end time, participants, location, and description."
+        },
+        "setReminder": {
+          "arguments": [
+            "event_id",
+            "reminder_time"
+          ],
+          "description": "Sets a reminder for the specified event at the given reminder time."
+        },
+        "manageTodoList": {
+          "arguments": [
+            "action",
+            "task_details"
+          ],
+          "description": "Manages the to-do list by performing the specified action (add, update, remove) on the task with the given details."
+        }
+      },
+      "scene_desc": "林轩最近接到了一个拍摄项目，需要前往不同的城市进行一系列的拍摄。为了确保行程的顺利进行，他需要安排详细的拍摄日程，包括各个拍摄地点的时间安排、交通工具的预订以及每日需要完成的任务清单。林轩习惯通过灵感驱动的工作流程来进行创作，因此他的日程安排需要具有一定的灵活性，同时保证各项任务的有序进行。\n\n林轩坐在咖啡馆中，打开 AI 助手，准备开始安排这次拍摄的详细日程。他希望 AI 助手能帮助他设定每日的拍摄计划，添加必要的提醒，并管理他的待办事项，以确保他不会遗漏任何重要的细节。",
+      "expected_response": "\n根据林轩的人设，AI 助手应该首先了解他具体的拍摄需求，如拍摄地点、所需时间和交通工具。AI 应该询问林轩是否有特定的时间框架或拍摄顺序的偏好，并根据他的需求和灵感驱动的工作流程提供一个灵活的日程安排。\n\n接着，AI 助手应该帮助林轩创建详细的日程，包括每个拍摄地点的具体时间安排、交通工具的预订以及每日需要完成的任务清单。AI 应该确保这些安排具有足够的灵活性，以便林轩可以根据实际情况进行调整。\n\n此外，AI 助手还应该提醒林轩设置必要的提醒，确保他不会遗漏任何重要的拍摄任务。AI 可以建议设置一些关键时间节点的提醒，如出发前一小时提醒、关键拍摄时间的提醒等。\n\n最后，AI 助手应该帮助林轩管理他的待办事项，确保每项任务都能够有序进行。在林轩完成某项任务后，AI 可以自动更新待办事项列表，并提醒他接下来的任务。总之，AI 助手应该提供一种灵活且高效的方式，帮助林轩安排和管理这次拍摄的日程，确保他能够专注于创作本身。",
+      "scene_context": "林轩需要安排的拍摄行程和任务如下：\n1. 拍摄地点：上海外滩，拍摄时间：早上9点至中午12点，交通工具：高铁（从北京到上海），高铁出发时间：早上6点\n2. 拍摄地点：杭州西湖，拍摄时间：下午2点至晚上6点，交通工具：高铁（从上海到杭州），高铁出发时间：中午12点30分\n3. 拍摄地点：苏州园林，拍摄时间：早上8点至中午12点，交通工具：高铁（从杭州到苏州），高铁出发时间：早上6点\n另外，林轩需要设定以下提醒和待办事项：\n1. 每天早上7点提醒：检查相机设备和电池\n2. 出发前一小时提醒：确认交通工具预订信息\n3. 每日结束拍摄后提醒：备份当天拍摄的照片",
+      "personalized_query": "AI助手，接下来我有一系列拍摄任务要安排在不同城市，需要你的帮助来制定详细的日程安排，并设置一些提醒和待办事项。\n\n先帮我安排下第一天的行程。我要从北京去上海外滩拍摄，计划早上9点到中午12点拍摄。高铁出发时间是早上6点。需要你帮我设定相关的提醒和待办事项。",
+      "neutralized_query": "<neutralized_query>\n请帮我制定详细的日程安排，并设置提醒和待办事项。具体来说，第一天我要从一个城市去另一个城市拍摄，计划早上9点到中午12点拍摄，高铁出发时间是早上6点。请帮我设定相关的提醒和待办事项。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "新设备评测：林轩收到一款新发布的摄影相机，需要撰写一个详细的评测以决定是否推荐给其他摄影师。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "productDetails": {
+          "arguments": [
+            "product_name"
+          ],
+          "description": "Fetch detailed specifications and features of the given product."
+        },
+        "userReviews": {
+          "arguments": [
+            "product_name"
+          ],
+          "description": "Retrieve user reviews for the given product to gather insights on user experiences."
+        },
+        "marketAnalysis": {
+          "arguments": [
+            "product_name"
+          ],
+          "description": "Obtain market comparison information and price trends for the given product."
+        }
+      },
+      "scene_desc": "林轩收到一款新发布的摄影相机，需要撰写一个详细的评测以决定是否推荐给其他摄影师。为了完成这项任务，他需要获取相机的详细规格、用户评价、市场对比和价格趋势等信息，以便形成一个全面的评价报告。",
+      "expected_response": "根据林轩的persona描述，AI应该先确认林轩需要评测的具体相机型号。接着，AI应该利用联网搜索功能获取该相机的详细规格和特性。之后，AI应检索用户评价，关注摄影师们对这款相机的实际使用体验。为了帮助林轩全面评估相机，AI还需要进行市场对比，获取类似价位和功能的其他相机的信息，并分析其优缺点。此外，AI应提供该相机的价格趋势和市场反馈，帮助林轩了解其性价比和受欢迎程度。最终，AI可以整理出一份数据丰富且有结构的报告，方便林轩撰写评测文章。",
+      "scene_context": "林轩需要评测的相机型号为：Canon EOS R6 Mark II、Sony Alpha 7 IV、Nikon Z6 II",
+      "personalized_query": "我收到了一款新相机，需要撰写一个详细的评测。目前手里有三款候选相机：Canon EOS R6 Mark II、Sony Alpha 7 IV、Nikon Z6 II。我需要你帮我获取这些相机的详细规格和用户评价。先从Canon EOS R6 Mark II开始吧。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我获取Canon EOS R6 Mark II的详细规格和用户评价，以便撰写一篇相机评测。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行摄影规划：林轩准备前往云南进行一周的旅行摄影，需要制定详细的行程和拍摄计划。",
+      "available_apis": {
+        "travelItinerary": {
+          "arguments": [
+            "destination",
+            "duration"
+          ],
+          "description": "Generates a detailed travel itinerary for the given destination and duration."
+        },
+        "photoSpotsSearch": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Search for popular photography spots in the given destination."
+        }
+      },
+      "scene_desc": "林轩是一名独立摄影师，他准备前往云南进行为期一周的旅行摄影。这次旅行不仅仅是为了放松，更是为了捕捉一些独特的自然景观和人文风情。林轩计划覆盖多个地点，包括大理、丽江和香格里拉等地。他希望详细规划每日的行程，以便高效地利用时间进行拍摄，同时也要确保有足够的时间休息和整理照片。他对每个拍摄点的最佳拍摄时间、光线条件和独特的拍摄角度非常感兴趣，并希望能够在行程中得到这些信息。此外，林轩还需要一些关于当地交通、天气和住宿的建议，以便使他的旅行更加顺利。",
+      "expected_response": "\n根据林轩的persona描述，他热衷于探索新地点，并且重视规划和效率。AI应该首先询问林轩是否有具体的拍摄主题或特殊需求，例如人文风情、自然景观等。接着，AI应该利用相关API（如travelItinerary和photoSpotsSearch）生成一个覆盖大理、丽江和香格里拉等地的详细行程，包括每日的拍摄点、最佳拍摄时间和独特的拍摄角度。AI还应提供关于当地交通、天气和住宿的建议，并为林轩提供预订帮助。如果林轩有特定的时间和步行距离的限制，AI也应该灵活调整行程方案。此外，AI还应在行程中设定提醒，以确保林轩不会错过任何重要的拍摄时间和地点。",
+      "scene_context": "林轩需要的具体拍摄主题包括：自然景观（如苍山、洱海、玉龙雪山），人文风情（如大理古城、丽江古城、香格里拉独克宗古城）。此外，林轩特别感兴趣的拍摄时间和光线条件为：早晨和黄昏的黄金时段。林轩还需要知道大理、丽江和香格里拉之间的交通方式和时间，预计的天气情况，以及推荐的住宿地点。这是为了确保他的行程能够顺利进行，并且能够在最佳时间拍摄到理想的景观和人文照片。",
+      "personalized_query": "好的，这次旅行我需要做好周详的安排。首先，我想要了解一下大理、丽江和香格里拉之间的交通方式和时间。你能给我提供一些具体的信息吗？",
+      "neutralized_query": "<neutralized_query>\n我需要了解大理、丽江和香格里拉之间的交通方式和时间。\n</neutralized_query>"
+    }
+  ]
+}

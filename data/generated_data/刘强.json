@@ -1,0 +1,239 @@
+{
+  "Demographics": {
+    "Age": 19,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "浙江某大学大一学生，主修生物学",
+    "Name": "刘强"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢通过插画表达内心感受",
+      "欣赏音乐，尤其是小提琴演奏",
+      "倾向于沉浸在自己的世界中，享受安静的环境",
+      "喜欢探索生物学领域的未知"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢循序渐进的说明，着重于解释背后的原理，能触发她的好奇心",
+    "Usage_Pattern": "经常查询有关插画技巧和小提琴曲谱，偶尔会询问生物学学习资源，偏爱富有创意性的互动",
+    "Emotion_Pattern": "在感到压力时会寻求舒缓心情的建议，如冥想或音乐推荐",
+    "Purchase_Pattern": "倾向于购买能提升艺术创作和音乐表现的工具或软件，不太在意价格，只要能带来灵感"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢富有洞察力和启发性的回答，能够激发创意和灵感",
+    "Preferred_Formats": "偏好图文并茂的解释，尤其是能够结合实际例子的说明",
+    "Preferred_Workflows": "喜欢从基础理念开始逐步深入，最终应用到复杂的艺术创作或科学探索中"
+  },
+  "scenes": [
+    {
+      "scene_type": "知识拓展：_刘强在大学期间会常常希望通过阅读和探讨深入了解生物学的前沿研究和未知领域。",
+      "available_apis": null,
+      "scene_desc": "刘强在图书馆度过了一整天，深深沉浸在生物学的书籍中。她对最近在基因编辑技术方面的突破产生了浓厚的兴趣。她希望通过AI助手找到更多关于CRISPR技术的最新研究论文和相关讨论。她还希望能找到一些科普性强的文章，帮助她更好地理解复杂的科学概念。刘强喜欢循序渐进的说明，特别是能够解释背后的原理，并启发她的好奇心。",
+      "expected_response": "\n根据刘强的persona，AI应该首先询问她是否有具体的研究方向或关键词，例如“CRISPR技术”或者其他基因编辑相关的主题。AI会提供一个简洁的概述，解释CRISPR技术的基本原理，并推荐几篇最新的研究论文供她深入阅读。AI还会附上几篇科普文章，帮助她更好地理解复杂的概念。最后，AI可能会建议她加入一些在线讨论组或论坛，进一步探讨这一领域的前沿研究。通过这样的个性化推荐和详尽的解释，AI能够激发刘强的好奇心，增强她对生物学研究的热情。",
+      "scene_context": "刘强期望找到更多关于CRISPR技术的最新研究论文和相关讨论，她喜欢循序渐进的说明，以及能够解释背后的原理并启发她好奇心的科普文章。因此，她希望AI助手能帮助她找到以下具体信息：\n1. CRISPR技术的基本原理和应用。\n2. 几篇最新的CRISPR技术研究论文。\n3. 有关CRISPR技术的科普性强的文章。\n4. 一些关于基因编辑技术的在线讨论组或论坛的推荐。",
+      "personalized_query": "今天在图书馆泡了一整天，简直太有收获了。最近对CRISPR技术特别感兴趣，想深入了解一下。你能帮我找一些相关的资源吗？比如CRISPR的基本原理和应用，以及几篇最新的研究论文？谢谢啦。",
+      "neutralized_query": "<neutralized_query>\n我想深入了解CRISPR技术，能帮我找一些相关的资源吗？比如CRISPR的基本原理和应用，以及几篇最新的研究论文？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：_刘强会需要练习英文语法，以提高她的英语水平，更好地阅读和理解生物学领域的英文文献。",
+      "available_apis": null,
+      "scene_desc": "刘强是浙江某大学生物学专业的大一学生，她倾向于沉浸在自己的世界中，喜欢安静的环境，同时具有内向和感性思维的特点。她对生物学的前沿研究和未知领域充满好奇，英文文献是她探索这些知识的重要工具。为了提高她的英语水平，特别是英文文献的阅读理解能力，她需要练习英文语法。刘强喜欢循序渐进的说明，尤其是能触发她好奇心并帮助她理解背后的原理的解释。经常查询有关插画技巧和小提琴曲谱的她，也希望在语法练习中找到一些带有创造性和趣味性的互动。",
+      "expected_response": "根据刘强的人设，AI应该首先询问她目前希望提高的特定语法点，或是否有具体的语法问题需要解决。接着，AI应该提供一个循序渐进的学习计划，解释每个语法点的原理和用法，以满足她对深入理解的需求。AI可以通过图文并茂的方式进行解释，结合实际的例子帮助她应用这些语法知识。AI还可以推荐一些与生物学相关的英文短文或句子，帮助她在练习语法的同时熟悉专业术语。为了增加趣味性，AI可能会设计一些互动练习或小游戏，例如填空题或句子重组，鼓励她通过实际操作来掌握语法。在感到压力时，AI也可以提供一些舒缓心情的建议，如冥想或音乐推荐，帮助她保持良好的学习状态。",
+      "scene_context": "刘强目前希望提高的特定语法点包括：定冠词和不定冠词的使用、动词时态的变化以及主被动语态的转换。她最近在阅读一篇关于基因编辑技术的英文文献时，遇到了以下几个句子，希望能通过这些句子练习和理解对应的语法点：\n1. \"The CRISPR-Cas9 system is revolutionizing genetic research.\"\n2. \"A scientist discovered an unexpected result in the experiment.\"\n3. \"The results of the study were published in a reputable journal.\"\n\n她希望AI助手能够提供这些句子的详细语法解释，并推荐一些相关的练习题和互动小游戏。",
+      "personalized_query": "Hi，有点问题想请教你。我最近在读一篇关于基因编辑技术的英文文献，遇到了几句话有点不确定它们的语法点，尤其是关于定冠词、不定冠词、动词时态和主被动语态这些方面的。能帮我解释一下这几句话的详细语法吗？我希望能好好理解这些句子的结构和用法。\n\n1. \"The CRISPR-Cas9 system is revolutionizing genetic research.\"\n2. \"A scientist discovered an unexpected result in the experiment.\"\n3. \"The results of the study were published in a reputable journal.\"\n\n另外，如果有相关的练习题和小游戏推荐也非常感谢！",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙解释几句话的详细语法，特别是关于定冠词、不定冠词、动词时态和主被动语态这些方面。希望能好好理解这些句子的结构和用法。\n\n1. \"The CRISPR-Cas9 system is revolutionizing genetic research.\"\n2. \"A scientist discovered an unexpected result in the experiment.\"\n3. \"The results of the study were published in a reputable journal.\"\n\n另外，如果有相关的练习题和小游戏推荐也非常感谢！\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：_刘强可能会在与外籍教授或同学交流时需要提升自己的英语口语能力。",
+      "available_apis": null,
+      "scene_desc": "刘强在准备与外籍教授进行生物学课题讨论时，觉得自己的英语口语能力不足，希望通过AI助手来提升她的口语表达能力。她希望能模拟一个真实的对话场景，特别是在生物学术语和专业讨论的语境下进行练习。",
+      "expected_response": "\n根据刘强的persona描述，AI应该首先询问她具体希望练习的主题或生物学课题的范围，以便提供更相关的对话场景。AI可以通过联网搜索相关的生物学研究话题，生成一些与刘强的课题相关的问题和讨论点。接着，AI应该模拟一个外籍教授的角色，与刘强进行对话，并在过程中纠正她的发音和语法错误。AI还可以提供即时的翻译和解释，帮助刘强理解和使用生物学术语。同时，AI应该鼓励刘强进行更多的口语练习，并记录她的进步和需要改进的地方。总之，AI的应答应该富有洞察力和启发性，激发刘强的学习兴趣和信心。",
+      "scene_context": "刘强目前正在研究的生物学课题是关于\"基因编辑技术在癌症治疗中的应用\"。她希望重点练习以下几个方面的口语表达：\n1. 基因编辑技术的基本概念和原理。\n2. 基因编辑在癌症治疗中的具体应用实例。\n3. 讨论基因编辑技术的伦理问题和未来发展前景。\n\n为了模拟真实的对话场景，AI助手可以提出以下问题和讨论点：\n1. \"Can you explain the basic principles of gene editing technology?\"\n2. \"How is gene editing technology being applied in cancer treatment?\"\n3. \"What are some specific examples of gene editing used in treating cancer?\"\n4. \"What ethical concerns are associated with gene editing?\"\n5. \"What do you think is the future of gene editing in medical science?\"\n\n此外，AI助手应该在对话过程中纠正刘强的发音和语法错误，并提供即时的翻译和解释，帮助她更好地理解和使用生物学术语。",
+      "personalized_query": "Hi! 我准备和一位外籍教授讨论关于基因编辑技术在癌症治疗中的应用。我觉得自己的英语口语有点弱，尤其是在专业术语和讨论方面。你能帮我模拟一下对话练习吗？\n\n可以先从解释基因编辑技术的基本原理开始吗？",
+      "neutralized_query": "<neutralized_query>\n我准备和一位外籍教授讨论关于基因编辑技术在癌症治疗中的应用。你能帮我模拟一下对话练习吗？可以先从解释基因编辑技术的基本原理开始吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：_刘强需要撰写专业的电子邮件，与教授或同学讨论课题、询问学习资源或安排会议。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional email to the selected recipients, including the email's subject and body."
+        }
+      },
+      "scene_desc": "刘强需要撰写一封专业的电子邮件，向她的生物学教授讨论一个课题，同时询问是否有推荐的学习资源，并安排一个面谈时间。刘强希望邮件内容准确且专业，因为这是她与教授的首次正式交流。",
+      "expected_response": "\nAI应该首先询问刘强具体讨论的课题内容、她希望教授推荐哪些具体方面的学习资源，以及她的可用时间段。接着，AI应该提供一个专业的邮件模板，并根据刘强提供的信息自动生成邮件内容。AI还应该推荐一些适合的表达方式和措辞，以确保邮件得体和专业。最后，AI应该提供一个选项让刘强确认邮件内容，并帮助她发送给教授。根据刘强的偏好，AI可以在邮件内容中尽量使用富有洞察力和启发性的语言，从而激发教授的兴趣和回应。\n",
+      "scene_context": "刘强希望讨论的课题是关于\"基因编辑技术在现代医学中的应用\"。她希望教授推荐一些最新的研究论文和书籍，她的可用时间段是下周三和周五下午2点至4点。",
+      "personalized_query": "你好，我需要撰写一封电子邮件给我的生物学教授。\n\n邮件主要内容是讨论一个关于基因编辑技术在现代医学中的应用的课题，同时希望教授推荐一些最新的研究论文和书籍。另外，我还想安排一个面谈时间，我的可用时间段是下周三和周五下午2点至4点。\n\n可以帮我构思一下邮件的开头部分和结构吗？",
+      "neutralized_query": "<neutralized_query>\n我需要撰写一封电子邮件给教授，内容包括讨论基因编辑技术在现代医学中的应用，推荐一些最新的研究论文和书籍，并安排面谈时间。可用时间段是下周三和周五下午2点至4点。可以帮我构思一下邮件的开头部分和结构吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "音乐发现：_刘强欣赏音乐，尤其是小提琴演奏，可能希望发现不同风格的小提琴曲目或新兴的小提琴演奏家。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "_刘强刚完成了一天的学习，回到宿舍后，她希望通过欣赏一些小提琴演奏来放松自己。她特别喜欢探索不同风格的小提琴曲目和新兴的小提琴演奏家，因此，她打开AI助手，寻求推荐。",
+      "expected_response": "\nAI应该首先识别到刘强对小提琴音乐的强烈兴趣，并且了解她喜欢通过音乐来舒缓心情。AI应当问刘强是否有特定的风格偏好或是否想探索新的风格，然后通过联网搜索推荐一些不同风格的小提琴曲目或最新的演奏家。由于刘强倾向于沉浸在自己的世界中并享受安静的环境，AI还可以推荐一些舒缓、优美的小提琴独奏曲目。接着，AI应该提供关于这些推荐曲目的详细信息，例如作曲家背景和演奏者简介，以激发她的好奇心和进一步的探索兴趣。如果可能，AI还应提供一些试听链接或资源下载链接，以便她可以立刻听到这些推荐的音乐。",
+      "scene_context": "刘强特别喜欢以下几种风格的小提琴音乐：巴洛克风格、浪漫主义风格和现代实验风格。她最近听过并喜欢的演奏家包括：希拉里·哈恩（Hilary Hahn）、布莱恩·克莱因（Brian Crane）和琳恩·哈雷尔（Lynn Harrell）。她希望能发现一些与这些风格和演奏家相关的新曲目或新兴的小提琴演奏家。",
+      "personalized_query": "今天学习了一天，有点累了。我想听些小提琴曲目放松一下。你能推荐一些新兴的小提琴演奏家或者有趣的曲目给我吗？",
+      "neutralized_query": "<neutralized_query>\n我想听些小提琴曲目放松一下。你能推荐一些新兴的小提琴演奏家或者有趣的曲目给我吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：在课余时间，_刘强可能希望放松一下，通过看电影或电视剧来减轻学习压力。",
+      "available_apis": {
+        "getMovieRecommendations": {
+          "arguments": [
+            "genre",
+            "max_results"
+          ],
+          "description": "Fetches a list of recommended movies based on the specified genre and maximum number of results to return."
+        },
+        "getTVShowRecommendations": {
+          "arguments": [
+            "genre",
+            "max_results"
+          ],
+          "description": "Fetches a list of recommended TV shows based on the specified genre and maximum number of results to return."
+        },
+        "getMovieDetails": {
+          "arguments": [
+            "movie_id"
+          ],
+          "description": "Fetches detailed information about a specific movie based on its ID."
+        },
+        "getTVShowDetails": {
+          "arguments": [
+            "tvshow_id"
+          ],
+          "description": "Fetches detailed information about a specific TV show based on its ID."
+        }
+      },
+      "scene_desc": "_刘强在经历了繁重的学业压力后，希望通过看电影或电视剧来放松心情。她依然希望这些影视作品能有一定的艺术价值或启发性，可能涉及到生物学或者能够激发她的创意。她打开终端上的AI助手，寻求一些适合她观看的电影或电视剧推荐。",
+      "expected_response": "\nAI应该首先询问_刘强是否有特定的类型或题材偏好，比如是否更喜欢剧情片、纪录片、还是带有艺术元素的电影。然后，AI可以根据她对生物学和艺术的兴趣，推荐一些相关的影视作品，并附上简短的介绍和评分。AI还可以进一步询问她的当下情绪，以便推荐一些能够舒缓压力或启发创意的作品。如果她不确定具体的偏好，AI可以提供一些热门的或高评分的选择，并且能够详细解释每个推荐的作品为什么可能适合她。最后，AI还可以提供一个选项，让她标记喜欢的作品，以便为未来的推荐提供依据。",
+      "scene_context": "_刘强希望AI推荐一些与生物学相关且具有艺术价值或能够激发创意的影视作品。她没有特定的类型或题材偏好，但希望能够减轻学习压力和启发创意。因此，她期待AI推荐的作品包括剧情片、纪录片，或带有艺术元素的电影。具体的影视作品可能包括：\n\n1. **《美丽心灵》（A Beautiful Mind）** - 一部关于诺贝尔经济学奖获得者约翰·纳什的传记电影，探讨了天才与精神疾病的关系。\n2. **《地球脉动》（Planet Earth）** - 一部由BBC制作的自然纪录片，展示了地球上各种生物的生存环境和行为。\n3. **《达尔文的黑匣子》（Darwin's Black Box）** - 一部关于生物学和进化论的纪录片，深入探讨了生物复杂性的起源。\n\n这些推荐能够满足_刘强的需求，让她在放松的同时，获得一定的艺术启发和学术收益。",
+      "personalized_query": "嗨，我最近学业压力有点大，想通过看电影或电视剧放松一下。你能推荐一些有艺术价值或者能激发创意的影视作品吗？如果能和生物学相关就更好了。",
+      "neutralized_query": "<neutralized_query>\n你能推荐一些有艺术价值或者能激发创意的影视作品吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：_刘强喜欢插画和小提琴演奏，因此可能需要根据她的听歌习惯和阅读偏好推荐新的插画技巧书籍或小提琴曲谱。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's preferences, including listening habits and reading interests."
+        },
+        "personalizedRecommendation": {
+          "arguments": [
+            "preferences"
+          ],
+          "description": "Generates personalized recommendations for books and music sheets based on the user's preferences."
+        }
+      },
+      "scene_desc": "刘强在忙碌的课程和实验之间，抽出了一些时间来放松，她打开了AI助手，希望能获得一些新的插画技巧书籍和小提琴曲谱的推荐。她曾经多次使用AI助手来查询有关插画和小提琴演奏的内容，因此她希望这次也能找到一些新的、有创意且能激发她灵感的资源。",
+      "expected_response": "\n根据刘强的persona，AI应该首先回顾她的阅读和听歌历史，了解她之前查询和使用的插画技巧书籍和小提琴曲谱。AI应该根据这些习惯和偏好，提供一些新的、与她兴趣相关的书籍和曲谱推荐。具体来说，AI应该询问她是否有特定的风格或技巧方面的偏好，例如她是否更喜欢简练的插画教程或更详细的小提琴演奏技巧。接着，AI应该能够通过网络搜索功能找到并推荐一些最新发布的、评价较高的插画技巧书籍和小提琴曲谱，并结合实际例子进行简要说明。如果AI发现刘强在最近的查询中表现出对某些具体技术或曲目的兴趣，还应特别标注这些内容。最后，AI可以建议她设置一个日程提醒，方便她在课余时间进行阅读和练习。",
+      "scene_context": "刘强最近阅读和查询的插画技巧书籍包括：《插画大师技巧：从入门到精通》、《现代插画艺术：基础与进阶》和《创意插画：构图与色彩》。她最近听的小提琴曲谱有：《贝多芬小提琴奏鸣曲》、《莫扎特小提琴协奏曲》和《维瓦尔第四季小提琴协奏曲》。刘强尤其喜欢现代插画和古典小提琴曲目。她希望能找到更多关于这些主题的高级教程和曲谱。",
+      "personalized_query": "今天的课程结束后，我想找一些新的插画技巧书籍和小提琴曲谱。可以推荐几本有创意的插画书和一些好听的小提琴曲谱吗？",
+      "neutralized_query": "<neutralized_query>\n我想找一些新的插画技巧书籍和小提琴曲谱。可以推荐几本有创意的插画书和一些好听的小提琴曲谱吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：作为大一学生，_刘强可能会参加校内外的面试或竞赛，需要帮助准备面试问题和进行模拟面试练习。",
+      "available_apis": {
+        "generateInterviewQuestions": {
+          "arguments": [
+            "background_info"
+          ],
+          "description": "Generates common interview questions based on the provided background information."
+        },
+        "conductMockInterview": {
+          "arguments": [
+            "questions",
+            "responses"
+          ],
+          "description": "Conducts a mock interview using the provided questions, records responses, and provides feedback."
+        }
+      },
+      "scene_desc": "刘强即将参加一场大学内外的面试或竞赛，但她对面试准备感到有些紧张和不确定，因此她寻求AI助手的帮助。她希望AI助手能够为她生成一些常见的面试问题，并提供模拟面试的机会，以便她能够进行充分的练习和准备。刘强希望通过这种方式提升自己的面试表现，增加自信心。",
+      "expected_response": "\n根据刘强的persona描述，她喜欢循序渐进的说明，特别是那些能够解释背后原理并激发她好奇心的内容。AI助手应该首先询问刘强的背景信息和即将面试的职位，来生成针对性的面试问题。AI助手还应解释每个问题背后的考察点和回答建议，以帮助刘强更好地理解如何回应这些问题。接着，AI助手可以提供模拟面试的功能，通过模拟面试记录刘强的回答，并提供详细的反馈和改进建议。整个过程中，AI助手应保持启发性和鼓励性，以帮助刘强增强信心，提升她的面试技巧。",
+      "scene_context": "刘强即将参加的面试是学校组织的科技创新竞赛的初选面试。她是计算机科学专业的大一学生，主要参与了一个关于人工智能应用的项目开发。她希望AI助手可以帮助她准备一些关于项目的常见面试问题，并提供一些关于她个人背景（如学习经历、技能和未来规划）的面试问题。此外，她希望AI助手能解释每个问题的考察点，并提供回答建议，以便她能够更好地准备和回应。",
+      "personalized_query": "嗨，我快要参加一个科技创新竞赛的初选面试了，有点紧张。不知道你能不能帮我准备一些常见的面试问题，特别是关于我项目的，还有一些个人背景的问题。我希望能进行模拟面试练习，这样我可以更自信地面对评委。你能帮忙吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我准备一些科技创新竞赛初选面试的常见问题，并进行模拟面试练习，以便更自信地面对评委。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "工地设备故障：陈思羽在工地上遇到一台挖掘机突然停止工作，需要快速诊断和修理。",
+      "available_apis": {
+        "collectExcavatorInfo": {
+          "arguments": [
+            "model",
+            "brand",
+            "fault_code_or_symptom"
+          ],
+          "description": "Collects the excavator's model, brand, and fault code or symptom."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for the given query and returns the most relevant response."
+        },
+        "contactRepairService": {
+          "arguments": [
+            "location",
+            "issue_description"
+          ],
+          "description": "Contacts a nearby professional repair service with the issue description."
+        }
+      },
+      "scene_desc": "陈思羽是一名在工地上工作的机械操作员，他今天遇到了一台挖掘机突然停止工作的情况，需要快速诊断和修理这台设备。由于陈思羽在这样情况下通常会选择联系专业的维修服务或查找相关资料来解决问题，因此他希望AI能帮助他快速找到有效的解决方案。",
+      "expected_response": "\n根据陈思羽的persona描述，他注重实用和快速解决问题的方式。AI应该首先询问挖掘机的型号、品牌以及出现的故障代码或症状，以便更精准地进行诊断。接着，AI可以使用webSearch功能去搜索相关的故障信息和修理方法。AI还可以进一步提供联系专业维修服务的选项，包括自动生成并发送详细的故障描述。最后，AI应当能够根据查找到的信息或联系到的维修服务，给出一个具体的操作步骤或建议，帮助陈思羽尽快恢复挖掘机的正常运行。",
+      "scene_context": "陈思羽需要提供的挖掘机信息为：型号 - CAT 320D，品牌 - 卡特彼勒，故障症状 - 挖掘机启动后发动机熄火并伴随液压系统报警。",
+      "personalized_query": "今天在工地上操作CAT 320D挖掘机，突然遇到发动机熄火的情况，而且还伴随着液压系统报警。帮我查查这个问题可能的原因和解决方案吧。",
+      "neutralized_query": "<neutralized_query>\n挖掘机突然遇到发动机熄火，并且伴有液压系统报警，请帮忙查找可能的原因和解决方案。\n"
+    },
+    {
+      "scene_type": "机械工具采购：陈思羽需要购买一套新的机械工具，挑选出高性价比且耐用的品牌和型号。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "compareProducts": {
+          "arguments": [
+            "product_list"
+          ],
+          "description": "Compare the given list of products based on specified criteria such as price, durability, and brand reputation, and return the best options."
+        }
+      },
+      "scene_desc": "陈思羽在工地上遇到了一些机械设备的问题，需要购买一套新的机械工具来更高效地完成工作。她想找到高性价比且耐用的品牌和型号，但由于对机械工具品牌和型号不熟悉，因此需要AI助手的帮助来做出决策。陈思羽希望能够快速找到可靠的信息，并做出一个明智的采购决定。",
+      "expected_response": "根据陈思羽的人设描述，AI应该首先询问她具体需要的机械工具类型，例如是螺丝刀、扳手还是电动工具。接着，AI应该利用联网搜索功能查询相关的高性价比和耐用品牌和型号，并且提供详细的比较结果，包括价格、耐用性和用户评价。AI在给出建议时，应该着重解释每个推荐背后的原理和优点，触发她的好奇心。在选择工具的过程中，AI可以为陈思羽提供参考链接，并询问她是否需要进一步的具体信息如使用指南或评价视频。最终，AI应该总结出几款最适合的工具，并询问陈思羽是否需要将信息记录下来或直接通过推荐的电商平台进行采购。如果陈思羽有任何疑问，AI应随时准备提供更详细的解答和建议。",
+      "scene_context": "陈思羽需要购买的机械工具包括：电动螺丝刀、可调扳手和冲击钻。",
+      "personalized_query": "今天在工地上遇到了一些机械设备的问题，我需要购买几款新的机械工具，比如电动螺丝刀、可调扳手和冲击钻，但我对这些品牌和型号不太熟悉。你能帮我找到高性价比且耐用的品牌和型号吗？",
+      "neutralized_query": "<neutralized_query>\n我需要购买几款新的机械工具，比如电动螺丝刀、可调扳手和冲击钻。你能推荐一些高性价比且耐用的品牌和型号吗？\n</neutralized_query>"
+    }
+  ]
+}

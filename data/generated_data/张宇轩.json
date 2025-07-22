@@ -1,0 +1,263 @@
+{
+  "Demographics": {
+    "Age": 45,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "高中语文教师",
+    "Name": "张宇轩"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "热心于社区服务",
+      "经常参与公益讲座",
+      "对本地历史和文化有浓厚兴趣",
+      "喜欢收集古董和老照片",
+      "喜欢户外活动，如远足和园艺"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于与AI助理分享和讨论个人兴趣和社会话题",
+    "Usage_Pattern": "经常查询与公益活动和社区服务相关的资料，习惯性地寻找最新的社区新闻和活动信息",
+    "Emotion_Pattern": "经常表现出积极和热情，对帮助他人充满热情",
+    "Purchase_Pattern": "偏好购买对社会有贡献的产品，如环保产品，公益商品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢温暖和充满人情味的回复，尊重他的兴趣和价值观",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢通过讨论和交流来解决问题，偏好一步步的指导和建议"
+  },
+  "scenes": [
+    {
+      "scene_type": "会议安排：张宇轩经常参与公益讲座和社区服务活动，需要帮助协调会议时间、发送邀请和生成会议纪要，以确保活动的顺利进行。",
+      "available_apis": null,
+      "scene_desc": "张宇轩正在计划一次公益讲座，并需要协调与讲座相关的会议时间、发送邀请以及生成会议纪要。他希望能够确保一切安排妥当，以便活动顺利进行。由于他是一名热心的社区服务志愿者，经常参与这类活动，因此他希望AI助理能够帮助他高效地安排这些事宜，并提供必要的支持。",
+      "expected_response": "根据张宇轩的persona描述，他是一位热心于社区服务和公益活动的高中语文教师，AI应该能够理解并响应他的需求。首先，AI应该询问具体的会议时间需求，包括参与者名单以及是否有特定的时间段偏好。接着，AI应该帮助他检查参与者的可用时间，并找出一个所有人都可以参与的时间点。随后，AI应该生成一份专业的会议邀请，并询问是否需要包含特定的议程或文件。AI还应该提示他是否需要设置会议提醒，以确保他不会错过重要的事项。最后，AI应当在会议结束后自动生成会议纪要，并提供给张宇轩确认和修改的选项，以便于记录和后续的跟进。",
+      "scene_context": "张宇轩需要组织的公益讲座会议参与者包括：李明、王芳、赵云和陈丽。会议时间段的偏好为工作日的下午2点到4点。会议的主要议题包括讲座内容安排、宣传策略和后勤支持。会议邀请需要包含一份初步的讲座大纲以及相关的宣传资料。会议提醒需要在会议开始前一天发送。会议纪要需要记录主要讨论点、决策和待办事项，并在会议结束后24小时内提供给张宇轩。",
+      "personalized_query": "你好，今天需要我帮忙什么呢？",
+      "neutralized_query": "<neutralized_query>\n今天需要我帮忙什么？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：作为一名高中语文教师，张宇轩需要撰写专业的电子邮件与学生家长、学校管理层和社区组织者沟通，处理工作通信。",
+      "available_apis": null,
+      "scene_desc": "张宇轩正准备给学生家长、学校管理层和社区组织者发送几封重要的电子邮件，以便沟通学生活动、学校事务和即将举行的社区公益讲座的相关事宜。他希望撰写专业且温暖的人情味十足的邮件，以确保信息传达清晰且礼貌周到。同时，他想通过讨论和交流来确保邮件内容的准确性和完整性。",
+      "expected_response": "\n根据张宇轩的persona，AI应该首先询问他具体的邮件内容和目标受众，例如是给学生家长、学校管理层还是社区组织者。接着，AI应询问是否有特定的要求或要点需要在邮件中提及，并提供一些模板或示例，让张宇轩选择和参考。AI还应确保邮件语气温暖且充满人情味，尊重他的兴趣和价值观。为了进一步完善邮件内容，AI可以逐步引导张宇轩进行内容的讨论和交流，确保每一封邮件都能准确传达他的意图，并最终生成专业的电子邮件草稿供他确认和发送。",
+      "scene_context": "张宇轩需要撰写的电子邮件内容如下：\n1. 给学生家长的邮件：\n   - 主题：关于即将举行的家长会的通知\n   - 内容要点：介绍家长会的时间、地点和议程，邀请家长参加并提供反馈。\n\n2. 给学校管理层的邮件：\n   - 主题：关于学校新课程计划的建议\n   - 内容要点：详细描述新课程计划的背景、目的和预期效果，提出具体建议和可行性分析，寻求管理层的意见和支持。\n\n3. 给社区组织者的邮件：\n   - 主题：邀请参加社区公益讲座\n   - 内容要点：介绍公益讲座的主题、时间和地点，说明讲座的意义和预期影响，邀请社区组织者参与并支持活动。\n\n张宇轩希望邮件能够传达出专业性和礼貌，同时保持温暖的人情味。",
+      "personalized_query": "你好，小助手。我需要撰写几封重要的电子邮件，分别给学生家长、学校管理层和社区组织者，关于一些即将举行的活动和建议。我希望邮件能够专业且充满温暖人情味，你能帮我一起整理一下内容吗？我们先从给学生家长的邮件开始吧。",
+      "neutralized_query": "<neutralized_query>\n我需要撰写几封专业且富有温情的电子邮件，分别给学生家长、学校管理层和社区组织者，关于一些即将举行的活动和建议。你能帮我一起整理一下内容吗？我们先从给学生家长的邮件开始吧。\n"
+    },
+    {
+      "scene_type": "行程规划：张宇轩需要规划远足、社区服务或公益讲座的行程，确保他能按时参与各种活动。",
+      "available_apis": null,
+      "scene_desc": "张宇轩计划在下个月组织一次远足活动，并同时安排几场社区服务和公益讲座。他需要确保行程合理，并能够按时参加每项活动。为了做到这一点，他会向AI助手寻求帮助来规划行程，包括查询天气、交通信息、推荐适合的远足路线和社区服务机会，以及生成具体的行程安排表。",
+      "expected_response": "\nAI应该首先询问具体的远足目的地和计划日期，以便获取相关天气预报和交通信息。接着，AI应该询问张宇轩是否有特定的社区服务活动或公益讲座需要安排在远足的前后。然后，AI会通过访问相关API来获取天气预报、交通情况以及推荐的远足路线和社区服务活动。AI还会生成一个详细的行程安排表，包括每项活动的时间、地点和注意事项。最后，AI会询问张宇轩是否需要设置提醒，以确保他不会错过任何一项活动。\n",
+      "scene_context": "张宇轩计划的远足目的地为：黄山，日期为：下个月的第二个周末。他还计划在远足前一天参加一次社区服务活动，地点为：社区养老院，活动时间为：上午9点到中午12点。远足结束后的第二天，他计划举办一场公益讲座，讲座主题为：环境保护，地点为：市图书馆，时间为：下午2点到4点。",
+      "personalized_query": "嗨，我计划下个月的第二个周末组织一次到黄山的远足活动。在远足前一天上午，我还打算参加社区养老院的服务活动，同时在远足结束后的第二天安排一场关于环境保护的公益讲座，地点在市图书馆。你能帮我规划一下这个行程吗？特别是确认一下天气和交通信息，还有推荐一些适合的远足路线和社区服务机会。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划下个月第二个周末的远足、前一天上午的社区服务活动，以及远足结束后的公益讲座的行程。请确认天气和交通信息，并推荐适合的远足路线和社区服务机会。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "疾病自查：张宇轩在户外活动或参与社区服务时可能遇到一些小的健康问题，他需要通过对话了解可能的疾病信息，并判断是否就医。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "symptomAnalyzer": {
+          "arguments": [
+            "symptoms"
+          ],
+          "description": "Analyze the given symptoms and suggest possible diseases or health conditions."
+        },
+        "medicalAdvice": {
+          "arguments": [
+            "symptoms",
+            "severity"
+          ],
+          "description": "Provide medical advice based on the severity of the symptoms, including whether to seek professional medical help."
+        }
+      },
+      "scene_desc": "张宇轩在一次远足活动中感觉到轻微的头痛和喉咙痛。这让他有点担心，不知道是否应该继续活动还是回家休息。他决定向AI助理求助，希望通过对话了解这些症状可能的原因，并判断是否需要就医。他首先告诉AI自己感到头痛和喉咙痛，同时描述了症状的严重程度和持续时间。",
+      "expected_response": "\n根据张宇轩的persona描述，他是一个积极参与社区服务并热心帮助他人的人，AI应该首先对他的健康表示关心，并询问更多的症状细节，例如是否有发烧、咳嗽等症状。接着，AI可以使用symptomAnalyzer API分析这些症状，给出可能的健康问题。AI然后应根据分析结果使用medicalAdvice API，提供进一步的建议，如是否需要立即就医或可以通过简单的家庭护理缓解。AI还应考虑到张宇轩喜欢户外活动，可能会建议他多喝水、适当休息，并避免过度劳累。最后，AI应该温暖而贴心地提醒他，如果症状加重或持续，请尽快联系医疗专业人士。",
+      "scene_context": "张宇轩告诉AI自己感到头痛和喉咙痛，并描述了症状的严重程度和持续时间：头痛程度为轻度，喉咙痛程度为中度，症状已持续约两天，没有其他明显症状，如发烧或咳嗽。之前没有类似的健康问题，最近户外活动频繁。",
+      "personalized_query": "今天早上远足之后感觉有些不对劲，我现在轻微头痛，喉咙也有点痛，这已经持续了两天了。不过没有发烧或咳嗽的症状。这种情况，我该继续活动还是回家休息比较好呢？",
+      "neutralized_query": "<neutralized_query>\n我最近有轻微头痛和喉咙痛，但没有发烧或咳嗽。这种情况下我该继续活动还是回家休息比较好呢？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：张宇轩需要安排日程，设定提醒，并管理待办事项，以便更好地平衡教学工作和社区服务活动。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "date_range"
+          ],
+          "description": "Checks the availability in the specified date range and returns available time slots."
+        },
+        "addEvent": {
+          "arguments": [
+            "event_details"
+          ],
+          "description": "Adds a new event to the calendar with given details."
+        },
+        "setReminder": {
+          "arguments": [
+            "event_id",
+            "reminder_time"
+          ],
+          "description": "Sets a reminder for a specific event at the given time."
+        },
+        "manageTasks": {
+          "arguments": [
+            "task_action",
+            "task_details"
+          ],
+          "description": "Manages tasks by creating, updating, or deleting based on the action specified."
+        }
+      },
+      "scene_desc": "张宇轩正忙于平衡他的教学工作和社区服务活动。他需要为接下来的一周安排多个日程，并设定提醒。这些活动包括学校的家长会、社区讲座、远足活动和一些个人的园艺时间。他希望能在确保所有重要活动不冲突的情况下，合理安排时间，并确保自己不会忘记任何重要事项。",
+      "expected_response": "\n根据张宇轩的persona，AI应该首先积极地询问具体的活动细节和优先级，例如各活动的具体时间、地点和重要性排序。接着，AI应该使用日历API检查特定日期范围内的空闲时间段，以便帮助张宇轩安排这些活动。然后，AI应该帮助添加这些活动到日历中，并设定合适的提醒时间，以确保张宇轩不会错过任何一个活动。AI还应该细致地询问是否有需要特别注意的事项，例如是否需要准备特定的材料或设备。最后，AI应该总结并确认张宇轩的日程安排，并提供选项让他可以随时查看和管理这些待办事项。\n",
+      "scene_context": "张宇轩需要安排的活动包括：\n1. 家长会：时间为周二下午3点，地点在学校会议室，重要性高。\n2. 社区讲座：时间为周三晚上7点，地点在社区中心，重要性中等。\n3. 远足活动：时间为周五上午9点到下午2点，地点在城市公园，重要性高。\n4. 个人园艺时间：时间为周日上午10点到中午12点，地点在自家后院，重要性低。\n\n他希望AI能够：\n- 检查特定日期范围内的空闲时间段，以便合理安排这些活动。\n- 添加这些活动到日历中，并设定相应的提醒（如家长会提前1小时提醒，社区讲座提前30分钟提醒，远足活动提前1天提醒，园艺时间提前15分钟提醒）。\n- 提供选项让他可以随时查看和管理这些待办事项。",
+      "personalized_query": "你好，我需要你的帮忙来安排接下来一周的日程。可以帮我查一下周二到周日的空闲时间段吗？我有几个重要活动需要合理安排，确保不冲突。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙安排接下来一周的日程，并查找周二到周日的空闲时间段，以便合理安排重要活动，确保不冲突。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：张宇轩在远足或参加公益讲座时，需要了解目的地的天气、交通和其他相关信息，以便做好准备。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "location",
+            "date"
+          ],
+          "description": "Checks the weather forecast for the specified location and date."
+        },
+        "trafficInfo": {
+          "arguments": [
+            "start_location",
+            "end_location",
+            "date",
+            "time"
+          ],
+          "description": "Provides traffic information and estimated travel time from the start location to the end location for the given date and time."
+        },
+        "locationInfo": {
+          "arguments": [
+            "location",
+            "info_type"
+          ],
+          "description": "Retrieves specific information about the location such as nearby amenities, safety guidelines, or any special instructions."
+        }
+      },
+      "scene_desc": "张宇轩准备参加一次远足活动，他希望提前了解目的地的天气、交通和相关信息，以便做好充分的准备。他打开AI助手，开始咨询相关事宜。",
+      "expected_response": "根据张宇轩的persona描述，AI应该会首先询问他计划前往的具体地点和日期，以便提供准确的信息。由于张宇轩热心于社区服务和户外活动，AI助手应该注意提供详细且实用的建议。接着，AI应该使用weatherCheck API查询该地的天气预报，并提示他是否需要带上雨具或防晒用品。然后，AI可以通过trafficInfo API提供从他的居住地到目的地的交通信息，包括最佳路线、预计行程时间和交通状况。最后，AI还可以使用locationInfo API提供该地点的其他相关信息，如附近的餐饮、住宿选项以及该地区的安全提示。整体回答应该温暖且充满人情味，体现对张宇轩兴趣和需求的尊重，并一步步指导他完成准备工作。",
+      "scene_context": "张宇轩计划前往的具体地点是黄山，具体日期是2023年10月15日。他希望了解当天的天气预报、从他居住地上海到黄山的交通信息，以及黄山附近的餐饮、住宿选项和安全提示。",
+      "personalized_query": "你好，我打算在10月15日去黄山远足。能帮我查询一下那天的天气预报吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我查询一下10月15日黄山的天气预报吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：为了保持健康，张宇轩喜欢户外活动和园艺，他需要帮助跟踪运动数据，如步数和跑步距离，并获取锻炼建议。",
+      "available_apis": {
+        "getFitnessData": {
+          "arguments": [
+            "user_id",
+            "data_type"
+          ],
+          "description": "Retrieves fitness data such as step count and running distance for the specified user."
+        },
+        "getWorkoutRecommendations": {
+          "arguments": [
+            "user_id",
+            "fitness_data"
+          ],
+          "description": "Provides personalized workout recommendations based on the user's fitness data."
+        }
+      },
+      "scene_desc": "张宇轩是一位热心于社区服务的45岁高中语文教师，他对本地历史和文化有浓厚的兴趣，喜欢收集古董和老照片，并且经常参与公益讲座和社区服务活动。他还喜欢户外活动和园艺。今天，张宇轩打算进行一次远足，并希望通过AI助手来跟踪他的运动数据，如步数和跑步距离，同时获取适当的锻炼建议，以保持健康。",
+      "expected_response": "\nAI应该首先询问张宇轩今天的具体运动计划，包括预期的远足路线和时长。接下来，AI应确认他的智能设备（如手机或手表）是否已连接并准备好记录运动数据。AI会持续跟踪他的步数和跑步距离，同时提供适时的鼓励和提醒，如保持适当的水分摄入。基于张宇轩的运动数据，AI会在远足结束后生成一份详细的运动报告，并为他提供个性化的锻炼建议，如提高某些活动的强度或增加休息时间。最后，AI可以询问他是否希望将这次远足的运动数据和总结分享到他的社区服务社交平台，以鼓励更多人参与户外活动。",
+      "scene_context": "张宇轩计划今天上午10点开始进行一次远足，预期路线是从城市的中心公园出发，沿着河边小径步行约12公里，预计时长约3小时。他的智能手机已经连接到AI助手，并且准备好记录步数和跑步距离。张宇轩希望在远足过程中获得适时的鼓励和提醒，比如每行走三公里提醒他喝水，并且在远足结束后生成一份详细的运动报告。他还希望在远足结束后能够将此次运动数据和总结分享到他的社区服务社交平台。",
+      "personalized_query": "早上好，今天我打算进行一次远足。我需要你帮助跟踪我的运动数据，比如步数和行走距离。同时，我希望能够得到一些适当的锻炼建议，以保持健康。你能帮我设置一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮助跟踪运动数据，比如步数和行走距离，并提供一些锻炼建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "自我反思：张宇轩通过自我反思来提升自我认知，尤其在教学和公益活动后，他希望通过对话进行总结和改进。",
+      "available_apis": {
+        "dialogue": {
+          "arguments": [
+            "user_input"
+          ],
+          "description": "Engages in a conversation with the user to gather specific details about their reflection experiences."
+        },
+        "textAnalysis": {
+          "arguments": [
+            "text"
+          ],
+          "description": "Analyzes the provided text to generate summaries and actionable improvement suggestions."
+        },
+        "saveRecord": {
+          "arguments": [
+            "content",
+            "location"
+          ],
+          "description": "Saves the reflection content to a specified document or database for future reference."
+        }
+      },
+      "scene_desc": "张宇轩刚刚完成了一场社区公益讲座，他希望通过和AI助理对话，进行自我反思，提升自我认知，总结此次活动中的得与失。他会谈及一些具体的细节，如讲座效果、观众反馈以及自己的表现，期望能够获得一些改进的建议和行动方案。",
+      "expected_response": "\nAI应该会热情地欢迎张宇轩，并鼓励他进行自我反思。AI可以使用对话功能与张宇轩探讨他对讲座的感受，询问具体的讲座细节、观众反馈以及他认为的成功之处和不足之处。接着，AI应利用文本分析功能对张宇轩的反思内容进行分析，生成总结和改进建议。最后，AI可以询问是否需要将这些反思保存在某个特定的文档或数据库中，以便未来参考和改进。考虑到张宇轩喜欢温暖和充满人情味的回复，AI应保持积极、支持性的语气，尊重他的兴趣和价值观。\n",
+      "scene_context": "张宇轩在社区公益讲座中主要讲解了环境保护的主题，具体包括垃圾分类、减少塑料使用和节能减排。他注意到观众对垃圾分类这一部分特别感兴趣，并提出了很多问题。此外，讲座结束后他收到了几条书面反馈，提出他在节能减排部分的内容稍显复杂，建议他下次使用更多的图示和具体案例来说明。",
+      "personalized_query": "刚刚完成了这次讲座，讲解了环境保护的相关内容，感觉整体效果还算不错，但也有些地方需要改进。大家对垃圾分类这个话题挺感兴趣的，提了不少问题。不过在节能减排那部分，似乎有些人觉得内容复杂了些，有几条书面反馈建议我多用图示和具体案例讲解。\n\nAI助手，我想请你帮忙分析一下这次讲座的得失，并给我一些改进建议。希望下次可以做得更好。",
+      "neutralized_query": "<neutralized_query>\n我刚刚完成了一次关于环境保护的讲座，请你帮忙分析这次讲座的得失，并提供一些改进建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：张宇轩是一个热心于社区服务的人，他需要推荐适合的社交活动或聚会场所，与志同道合的人交流和合作。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张宇轩刚刚结束了一次公益讲座，想要趁热打铁，参与更多的社区服务和社交活动。他打开AI助手，询问有哪些即将举行的社交活动或聚会场所，特别是那些适合志同道合的人交流和合作的活动。张宇轩希望能找到一些有意义的活动，他可以在其中发挥自己的特长，结识新朋友，并进一步融入社区。",
+      "expected_response": "\n根据张宇轩的persona描述，他是一位热心社区服务并对本地历史和文化有浓厚兴趣的人。AI应该首先询问他对活动的具体偏好，例如是否有特定的主题或类型（如历史文化讲座、园艺活动、古董交流会等）。接着，AI可以通过联网搜索功能，列出一些即将举行的相关活动，并提供详细信息如时间、地点、活动内容和参与方式。AI还应该确保这些活动符合张宇轩的时间安排，并可以建议他将感兴趣的活动添加到日程表中。最后，AI应该提供温暖和充满人情味的回复，尊重张宇轩的兴趣和价值观，并询问是否需要进一步的帮助或建议。",
+      "scene_context": "张宇轩对以下类型的活动特别感兴趣：历史文化讲座、园艺活动、古董交流会。他希望了解具体的活动时间、地点、活动内容和参与方式。",
+      "personalized_query": "嗨，我刚刚结束了一次公益讲座，感觉非常有成就感。现在想继续投入更多的社区服务和社交活动，你能帮我查查有哪些即将举行的活动吗？特别是那些适合志同道合的人交流和合作的活动，越有意义越好。谢谢！",
+      "neutralized_query": "<neutralized_query>\n请推荐一些即将举行的社区服务和社交活动，特别是适合志同道合的人交流和合作的活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "家具布置：张宇轩对本地历史和文化有浓厚兴趣，喜欢收集古董和老照片，他需要建议如何布置家中的家具来展示这些收藏品，同时优化空间利用。",
+      "available_apis": {
+        "getHouseLayout": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetch the layout or floor plan of the user's house to understand the spatial arrangement."
+        },
+        "getFurnitureAndCollectionDetails": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetch the details of the user's furniture and collection items, including dimensions and photos."
+        },
+        "provideFurnitureArrangementTips": {
+          "arguments": [
+            "house_layout",
+            "furniture_details",
+            "collection_details"
+          ],
+          "description": "Provide furniture arrangement tips based on the house layout, furniture details, and collection details to optimize space usage and showcase collections."
+        }
+      },
+      "scene_desc": "张宇轩刚刚从一个古董市场购入了一些新的老照片和古董，他希望重新布置家中的家具以更好地展示这些收藏品，同时优化空间的利用。他打开了AI助手，希望能得到专业的建议。他需要AI了解他的家居布局，现有的家具尺寸和摆放位置，以及新收集品的具体情况，然后给出合理的布置建议。",
+      "expected_response": "\n根据张宇轩的persona描述，他喜欢收集古董和老照片，对本地历史和文化有浓厚兴趣，因此AI应该首先友好地询问他是否需要上传家居布局和现有家具及收藏品的照片。然后，AI应该确认每个家具和收藏品的具体尺寸，了解他希望展示的位置和重点展示的物品。接着，AI可以提供一些基于这些信息的家具布置建议，包括如何优化空间利用，如何更好地展示他的收藏品等。AI还可以通过联网搜索为他提供一些关于最佳展示技巧的资料，确保他的收藏品得以最佳展示。最后，AI可以生成一个详细的布置方案，并询问张宇轩是否需要进一步修改或确认。",
+      "scene_context": "张宇轩需要重新布置家中的家具来展示他新购入的老照片和古董。以下是更详细的情境信息：\n\n1. 家居布局和现有家具信息：\n    - 客厅：3米 x 5米，有一个2米长的沙发、一个1.5米宽的电视柜、一个1米 x 1米的茶几和一个书架。\n    - 餐厅：2.5米 x 3米，有一个1.8米长的餐桌和6把椅子。\n    - 藏品展示柜：1.5米高 x 1米宽 x 0.5米深，现放置在客厅角落。\n\n2. 新购入的收藏品：\n    - 一幅尺寸为60厘米 x 80厘米的老照片（有相框）。\n    - 一对尺寸为30厘米高的青花瓷花瓶。\n    - 一个尺寸为50厘米 x 70厘米的古董地毯。\n\n张宇轩希望能够在不显得拥挤的情况下，突出展示这些新购入的收藏品，并且让家居看起来整洁有序。他特别重视的展示位置有客厅和餐厅的墙面，以及现有的藏品展示柜。\n\n希望AI助手能根据这些信息提供具体的家具布置建议，优化空间利用，并展示他的收藏品。",
+      "personalized_query": "你好，小助手！今天我在古董市场淘到了几件宝贝，想重新布置一下家里，尤其是客厅和餐厅，让这些收藏品能更好地展示。你能帮我出些主意吗？",
+      "neutralized_query": "<neutralized_query>\n你好，小助手！我想重新布置一下家里的客厅和餐厅，让收藏品能更好地展示。你能帮我出些主意吗？\n</neutralized_query>"
+    }
+  ]
+}

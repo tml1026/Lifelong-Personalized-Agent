@@ -1,0 +1,174 @@
+[
+  {
+    "Name": "James",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某互联网公司软件开发工程师，专业方向是计算机科学"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热衷于开源项目",
+        "喜欢黑客松活动",
+        "奉行自由主义",
+        "对新技术的接纳性高"
+      ]
+    }
+  },
+  {
+    "Name": "Emily",
+    "Demographics": {
+      "Age": 25,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "浙江某咖啡店店长"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "咖啡调制艺术",
+        "社区活动",
+        "阅读人文书籍",
+        "花艺"
+      ]
+    }
+  },
+  {
+    "Name": "Michael",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "渔民"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "坚毅",
+        "热爱海洋",
+        "追求技术进步"
+      ]
+    }
+  },
+  {
+    "Name": "Olivia",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "重庆某火锅店老板"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "喜欢与人交往",
+        "热爱重庆美食文化",
+        "支持本地特色发展",
+        "对新鲜事物保持好奇心"
+      ]
+    }
+  },
+  {
+    "Name": "David",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在某硬件制造公司担任工程师，专注于物联网设备研发"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "强烈的实用主义，认为理论只有在实际应用中才有价值",
+        "倾向于独立工作，不喜欢团队协作",
+        "对科技产品有极大的热情，喜欢拆解和分析其内部构造",
+        "认为所有问题都有技术解决方案，不相信灵活变通"
+      ]
+    }
+  },
+  {
+    "Name": "Sophia",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某制药公司研发员，专注于新药开发"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "高度同理心，主张通过科技改善人类生活",
+        "对生物科技具有极高热情，享受实验过程",
+        "偏好实证主义，所有结论必须有数据支持",
+        "喜欢长时间独自工作，认为独处是灵感的源泉"
+      ]
+    }
+  },
+  {
+    "Name": "Daniel",
+    "Demographics": {
+      "Age": 25,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "广州某音乐工作室录音师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "对传统和现代音乐都有浓厚兴趣，喜欢将不同风格混合在一起",
+        "认为音乐创作是一种情感表达的重要方式",
+        "偏好自然主义，喜欢在大自然中寻找创作灵感",
+        "不太在乎社会流行趋势，坚定地追随自我内心的声音"
+      ]
+    }
+  }
+]

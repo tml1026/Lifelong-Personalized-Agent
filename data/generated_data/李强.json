@@ -1,0 +1,236 @@
+{
+  "Demographics": {
+    "Age": 28,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "自由职业者，擅长绘画和设计",
+    "Name": "李强"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱艺术和创意表达",
+      "追求独特和新颖的方式",
+      "关注社会问题",
+      "喜欢冒险和新体验"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常探索新工具和功能，喜欢尝试不同的艺术形式",
+    "Usage_Pattern": "使用频繁；寻找灵感时会使用AI助手，使用AI进行图像生成和调整；偶尔用来写短篇故事或诗歌",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "对独特和高质量的产品有强烈兴趣，即使价格较高也愿意购买"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢AI助手提供创意性的解决方案和多样化的建议，偏爱视觉化的结果展示",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "倾向于非线性和发散式思维方式来解决问题，喜欢先获得大量灵感和建议再进行筛选和整合"
+  },
+  "scenes": [
+    {
+      "scene_type": "旅行须知：李强喜欢冒险和新体验，因此在规划旅行时需要获取目的地的天气、签证、货币兑换等相关信息。",
+      "available_apis": null,
+      "scene_desc": "李强正在计划一次冒险旅行，他希望获取目的地的相关信息，以确保旅行顺利。他需要知道目的地的天气情况，好提前准备合适的装备；签证要求，以便办理相应的手续；以及货币兑换的信息，确保旅行期间的支付顺畅。李强希望通过AI助手来快速获取这些信息，并进行合理的安排。",
+      "expected_response": "AI应该首先确认李强的目的地，并询问他计划的旅行日期，以便提供准确的天气预报。接着，AI应该查询并提供该目的地的签证要求和办理流程，确保他能顺利进入目的地国。之后，AI应该查找并提供货币兑换的相关信息，例如当前汇率和建议兑换的金额。此外，AI可以推荐一些相关的旅行提示，如当地的文化习俗、注意事项等，以帮助李强更好地准备他的冒险旅行。根据李强对创意和新颖方式的追求，AI可以提供一些独特的旅行建议或灵感，例如访问当地的艺术展览或参与特别活动等。",
+      "scene_context": "李强计划前往的目的地是冰岛，旅行日期是2024年6月15日至6月25日。",
+      "personalized_query": "好的，确定进入角色。让我想下怎么开始对话。\n\n---\n\n嘿，AI助手，我正计划着六月中旬去冰岛冒险旅行。能帮我查一下那时候冰岛的天气情况吗？我要确定带些什么装备。",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下六月中旬冰岛的天气情况吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：李强热爱艺术和创意表达，AI可以根据他的听歌习惯和阅读偏好推荐新歌、专辑或艺术家，以及新书来激发他的灵感。",
+      "available_apis": null,
+      "scene_desc": "李强正处于寻找新灵感的阶段，希望能发现一些新的音乐和书籍来激发他的创作思维。他打开了AI助手，准备根据自己的听歌习惯和阅读偏好，获得一些个性化的推荐。李强最近听了很多独立音乐和电子音乐，并且阅读了几本关于未来主义和社会问题的书籍。",
+      "expected_response": "AI应该会首先确认李强最近的听歌习惯和阅读偏好，可能会询问他是否有特定喜欢的音乐类型或作家。接着，AI应该能够根据李强的偏好，推荐一些新的独立音乐和电子音乐专辑，以及一些探讨未来主义和社会问题的新书。AI还可以提供一些音乐和书籍的简短介绍，帮助李强快速了解这些推荐内容。最后，AI可能会询问李强是否需要更多类似的推荐，或者是否希望探索其他相关的艺术形式和作品。",
+      "scene_context": "李强最近听了大量的独立音乐和电子音乐，例如Tame Impala、Bonobo和Caribou的专辑。他还阅读了几本关于未来主义和社会问题的书籍，包括《美丽新世界》 by 阿道司·赫胥黎 (Aldous Huxley)、《未来简史》 by 尤瓦尔·赫拉利 (Yuval Noah Harari) 和《超越人工智能：探索人类与机器的未来》 by 詹姆斯·洛夫洛克 (James Lovelock)。",
+      "personalized_query": "嘿，AI助手，我最近需要一些新的灵感，想听一些新的音乐和读一些书。最近我听了很多独立音乐和电子音乐，像Tame Impala、Bonobo和Caribou的专辑。另外，我还读了几本关于未来主义和社会问题的书，比如《美丽新世界》和《未来简史》。你能给我推荐一些相关的音乐和书籍吗？",
+      "neutralized_query": "<neutralized_query>\n我最近需要一些新的灵感，想听一些新的音乐和读一些书。你能给我推荐一些相关的音乐和书籍吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "音乐发现：李强喜欢尝试不同的艺术形式，AI可以帮他发现不同风格的音乐或新兴的艺术家，丰富他的创作素材。",
+      "available_apis": null,
+      "scene_desc": "李强刚刚完成了一幅水彩画作品，想要通过听新的音乐风格来激发更多的创作灵感。他打开AI助手，希望能推荐一些不同风格的音乐或新兴的艺术家。李强喜欢尝试不同的艺术形式，因此希望AI能推荐一些不太主流但富有创意的音乐类型。",
+      "expected_response": "\n根据李强的persona描述，AI首先应该了解到他对艺术和创意表达的热爱，以及他喜欢尝试新事物的性格特点。AI应该询问他是否对某些特定的音乐风格或类型感兴趣，比如电子音乐、世界音乐或实验音乐。AI可以利用联网搜索功能，查找最新和不太主流的音乐推荐。AI还应该能够提供一些背景信息，如艺术家的创作理念和音乐风格的介绍，以帮助李强更好地理解和感受这些音乐。此外，AI可以创建一个播放列表或直接播放推荐的音乐，进一步简化李强的操作流程，并询问他是否需要保存这些推荐，以便日后参考。总的来说，AI应当提供创意性和多样化的音乐推荐，帮助李强在艺术创作中获得新的灵感。",
+      "scene_context": "李强对以下几种音乐类型特别感兴趣：实验音乐、世界音乐和电子音乐。他希望AI助手能够推荐一些不太主流但富有创意的艺术家或乐队，例如：\n1. 实验音乐：推荐一些像Aphex Twin或Autechre这样具有前卫风格的艺术家。\n2. 世界音乐：推荐一些像Ali Farka Touré或Tinariwen这样融合传统和现代元素的音乐家。\n3. 电子音乐：推荐一些像Four Tet或Floating Points这样有独特创意的电子音乐制作人。",
+      "personalized_query": "嘿，AI，我刚完成了一幅水彩画，现在想找点新鲜的音乐风格来激发更多创作灵感。能给我推荐一些不太主流但富有创意的音乐吗？",
+      "neutralized_query": "<neutralized_query>\n能推荐一些不太主流但富有创意的音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：热爱艺术的李强可能会利用影视作品作为灵感来源，AI可以根据他的喜好推荐电影或电视剧，并提供详细的剧情介绍。",
+      "available_apis": {
+        "askPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Inquire about the user's specific preferences and interests in movies or TV series."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for movies or TV series that match the user's preferences and return the most relevant results."
+        },
+        "getMovieDetails": {
+          "arguments": [
+            "movie_id"
+          ],
+          "description": "Retrieve detailed information and plot summary for the given movie or TV series."
+        }
+      },
+      "scene_desc": "李强是一个28岁的中国自由职业者，擅长绘画和设计。他热衷于艺术和创意表达，喜欢探索新工具和功能，以及尝试不同的艺术形式。为了寻找创作灵感，他经常使用AI助手。李强会利用影视作品作为灵感来源，因此他希望AI助手能够根据他的喜好推荐一些电影或电视剧，并提供详细的剧情介绍。这天，李强想要找一些新的影视作品来激发他的创作灵感，于是他向AI助手提出了这个需求。",
+      "expected_response": "\n根据李强的人设，AI助手应该首先询问他对影视作品的具体偏好（例如，喜欢的类型、导演、演员等），以及他当前的情绪状态或创作方向，以便精准推荐。AI助手可以通过调用askPreferences API获取李强的具体喜好，然后进行网络搜索(webSearch)以找出符合这些偏好的影视作品，并使用getMovieDetails API为每个推荐的作品提供详细的剧情介绍。AI助手应该优先推荐那些具有鲜明艺术风格或社会议题的电影和电视剧，符合李强的兴趣和价值观。在推荐过程中，AI助手应展示视觉化的结果，同时确保推荐的多样性，以激发李强的创作灵感。最终，AI助手应询问李强是否需要更多的推荐或进一步的筛选，以便提供更个性化的服务。",
+      "scene_context": "李强的偏好包括：科幻类型、导演克里斯托弗·诺兰、演员莱昂纳多·迪卡普里奥。他目前的情绪状态是寻找新的创作灵感，想探索具有深刻社会议题的影视作品。",
+      "personalized_query": "嗨，我最近想找一些新的影视作品来激发我的创作灵感。你能帮我推荐一些特别的电影或电视剧吗？我比较喜欢科幻类型的，也想要那种有深刻社会议题的作品。另外，如果能有一些详细的剧情介绍就更好了。",
+      "neutralized_query": "<neutralized_query>\n我想找一些新的影视作品，特别是科幻类型和有深刻社会议题的电影或电视剧。你能推荐一些并提供详细的剧情介绍吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：李强作为自由职业者，可能需要使用一些编程工具来辅助他的设计工作，因此在遇到技术问题时，AI可以帮助他调试代码，定位错误并提出解决方案。",
+      "available_apis": {
+        "codeDebug": {
+          "arguments": [
+            "code_snippet",
+            "error_message"
+          ],
+          "description": "Analyzes the given code snippet and error message to identify potential issues and suggest solutions."
+        },
+        "searchDocumentation": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for relevant documentation related to the given query, such as library usage, API references, or programming tips."
+        }
+      },
+      "scene_desc": "李强在工作中遇到一个技术问题，他的代码无法正常运行。他尝试了几次调试但都没有成功，于是他决定求助于AI助手。李强将自己的问题描述给AI助手，并提供了相关的代码片段以及错误信息，希望AI助手能够帮助他找出问题的所在并提供解决方案。",
+      "expected_response": "\nAI助手应该首先询问李强提供具体的代码片段和遇到的错误信息。接着，AI助手会使用代码调试功能分析李强提供的代码和错误信息，并尝试定位问题。AI应该能够识别常见的编程错误或逻辑问题，并提出具体的修复建议。此外，AI助手还可以推荐相关的编程文档或资源帮助李强加深理解。如果问题较为复杂，AI助手还应提示李强进一步细化问题描述或提供更多的上下文信息，以便更精准地进行调试。最后，AI助手应该鼓励李强尝试修正后的代码，并询问是否需要进一步的帮助。\n",
+      "scene_context": "李强的代码片段如下：\n\n```python\ndef calculate_total(price, tax_rate):\n    total = price * tax_rate\n    return total\n\nitem_price = 100\ntax = 0.08\ntotal_price = calculate_total(item_price, tax)\nprint(\"Total price with tax:\", total_price)\n```\n\n李强遇到的错误信息是：\n\n```\nTotal price with tax: 8.0\n```\n\n李强期望的输出是100 + 100 * 0.08 = 108.0，而不是8.0。",
+      "personalized_query": "嘿，AI助手，我在工作中遇到了一点烦恼。我写了一段代码，期望输出是108.0，但实际上输出却是8.0，你能帮我找出问题所在吗？这是我的代码片段：\n\n```python\ndef calculate_total(price, tax_rate):\n    total = price * tax_rate\n    return total\n\nitem_price = 100\ntax = 0.08\ntotal_price = calculate_total(item_price, tax)\nprint(\"Total price with tax:\", total_price)\n```\n\n谢谢！",
+      "neutralized_query": "<neutralized_query>\n我写了一段代码，期望输出是108.0，但实际上输出却是8.0，你能帮我找出问题所在吗？这是代码片段：\n\n```python\ndef calculate_total(price, tax_rate):\n    total = price * tax_rate\n    return total\n\nitem_price = 100\ntax = 0.08\ntotal_price = calculate_total(item_price, tax)\nprint(\"Total price with tax:\", total_price)\n```\n```\n"
+    },
+    {
+      "scene_type": "代码优化：为了提升工作效率，李强可能需要优化一些辅助设计的代码，AI可以提供改进代码效率或结构的建议，并分享最佳实践。",
+      "available_apis": {
+        "codeReview": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Provides suggestions to improve the efficiency or structure of the given code snippet."
+        },
+        "bestPractices": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Shares best practices related to the given topic, such as code optimization or design patterns."
+        }
+      },
+      "scene_desc": "李强是一个28岁的自由职业者，擅长绘画和设计，热爱艺术和创意表达。他经常探索新工具和功能，喜欢尝试不同的艺术形式。在进行设计工作时，李强会使用一些编程工具来辅助他的设计。为了提升工作效率，他可能需要优化一些辅助设计的代码。此时，李强打开了AI助手，准备寻求关于代码优化的建议。\n\n李强递交了一段代码片段给AI助手，希望它能够帮助优化代码的效率或结构，并分享与此相关的最佳实践。",
+      "expected_response": "根据李强的persona描述，他喜欢创意性的解决方案和多样化的建议，并且倾向于非线性和发散式思维方式来解决问题。AI应该首先确认李强提供的代码片段，并询问他具体需要优化的方向，例如是希望提升运行效率还是改善代码结构。接着，AI可以通过代码分析和最佳实践的分享，提供多种优化建议供李强选择。AI还可以推荐一些与代码优化相关的资源或工具，帮助李强进一步提升代码质量。最后，AI可以给出一个经过优化的代码示例，并询问李强是否有其他的相关需求或问题需要解决。",
+      "scene_context": "李强提供的代码片段如下：\n\n```python\nimport random\n\ndef generate_art(width, height):\n    canvas = []\n    for _ in range(height):\n        row = []\n        for _ in range(width):\n            row.append(random.choice(['.', 'o', '*']))\n        canvas.append(row)\n    return canvas\n\ndef print_art(canvas):\n    for row in canvas:\n        print(' '.join(row))\n\nif __name__ == \"__main__\":\n    width = 50\n    height = 20\n    art = generate_art(width, height)\n    print_art(art)\n```\n\n李强希望优化代码的效率和结构，并希望了解一些代码优化的最佳实践。",
+      "personalized_query": "最近在尝试一个新的艺术生成项目，需要优化一下这段代码：\n\n```python\nimport random\n\ndef generate_art(width, height):\n    canvas = []\n    for _ in range(height):\n        row = []\n        for _ in range(width):\n            row.append(random.choice(['.', 'o', '*']))\n        canvas.append(row)\n    return canvas\n\ndef print_art(canvas):\n    for row in canvas:\n        print(' '.join(row))\n\nif __name__ == \"__main__\":\n    width = 50\n    height = 20\n    art = generate_art(width, height)\n    print_art(art)\n```\n\n先帮我看看，怎么能优化一下效率和结构？",
+      "neutralized_query": "<neutralized_query>\n请帮我优化一下这段艺术生成代码的效率和结构：\n\n```python\nimport random\n\ndef generate_art(width, height):\n    canvas = []\n    for _ in range(height):\n        row = []\n        for _ = range(width):\n            row.append(random.choice(['.', 'o', '*']))\n        canvas.append(row)\n    return canvas\n\ndef print_art(canvas):\n    for row in canvas:\n        print(' '.join(row))\n\nif __name__ == \"__main__\":\n    width = 50\n    height = 20\n    art = generate_art(width, height)\n    print_art(art)\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：李强关注社会问题，并且有着广泛的兴趣爱好。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李强在一次设计工作的间隙，突然对一个近期的社会问题产生了浓厚的兴趣。他决定利用空闲时间进行知识拓展，深入了解这一问题的背景、现状以及未来可能的发展方向。他希望AI助手能够帮助他进行相关的资料搜集工作，并提供一些有深度的分析和见解，便于他在未来的创作中融入这些元素。",
+      "expected_response": "\n根据李强的persona描述，他热爱艺术和创意表达，关注社会问题，并且拥有广泛的兴趣爱好，AI助手应该首先询问李强具体感兴趣的社会问题是什么，例如环境保护、贫富差距、科技伦理等。接着，AI助手应该进行联网搜索，提供相关的新闻报道、学术文章和专家评论等资料。AI还可以推荐一些有深度的专题讨论或纪录片，以供李强进一步了解。为了帮助李强更好地吸收信息，AI还可以利用视觉化的方式展示数据和趋势分析，例如图表或信息图。同时，AI可以建议一些相关的创意项目或者艺术作品，以激发李强的创作灵感。",
+      "scene_context": "李强感兴趣的社会问题是：科技伦理，尤其是人工智能在社会中的影响。他希望了解以下几方面的信息：\n1. 近期关于科技伦理和人工智能的新闻报道。\n2. 相关的学术文章和专家评论。\n3. 有深度的专题讨论或纪录片推荐。\n\n李强希望AI助手能够帮助他搜集这些资料，并以视觉化的方式展示相关数据和趋势分析，如图表或信息图。同时，AI可以建议一些关于科技伦理的创意项目或者艺术作品，以激发他的创作灵感。",
+      "personalized_query": "嘿，AI助手，我最近对科技伦理，尤其是人工智能在社会中的影响很感兴趣。你能帮我搜集一些最新的新闻报道吗？想了解最近有哪些讨论和动态。",
+      "neutralized_query": "<neutralized_query>\n我对科技伦理，特别是人工智能在社会中的影响感兴趣。你能帮我搜集一些最新的新闻报道吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：作为自由职业者，李强可能会参加各种项目或合作的面试，AI可以帮助他准备面试问题，进行模拟面试练习。",
+      "available_apis": {
+        "QA": {
+          "arguments": [
+            "interview_questions"
+          ],
+          "description": "Provides a set of common interview questions for practice based on the job role or project requirements."
+        },
+        "simulateInterview": {
+          "arguments": [
+            "questions",
+            "response_format"
+          ],
+          "description": "Conducts a simulated interview session with predefined questions and provides feedback on the responses."
+        }
+      },
+      "scene_desc": "李强即将参加一个自由职业者项目的面试，需要提前准备一些相关的问题和答案。为了确保在面试中表现出色，他决定使用AI助手进行面试准备。AI助手将帮助他生成常见的面试问题，并通过模拟面试来练习他的回答。对于李强来说，AI助手需要提供一些具有创意性和针对性的建议，以帮助他在面试中脱颖而出。此外，由于李强关注社会问题，AI助手还应在面试问题中添加一些与社会责任相关的内容，以体现他的个人价值观。",
+      "expected_response": "\n根据李强的人设，AI助手应该首先询问他需要准备的是哪种类型的面试（项目类型或合作方式）。接着，AI助手应该利用QA API生成一组常见的面试问题，特别是那些与艺术、设计和自由职业相关的问题。AI助手还应通过simulateInterview API进行模拟面试，并提供反馈，帮助李强提升回答的质量和流畅度。AI助手还可能提供一些创意性的回答建议，并结合社会责任相关的内容，以体现李强的个人价值观。最后，AI助手应总结面试练习中的重点和改进建议，帮助李强更好地准备面试。",
+      "scene_context": "李强即将面试的项目类型是艺术设计类的自由职业项目。他希望能准备一些关于创意设计流程、客户沟通和项目管理的常见问题。李强特别关注社会责任，因此希望在面试中能够回答一些关于如何在设计中体现社会责任的问题。",
+      "personalized_query": "嗨，我需要你的帮助来准备即将到来的面试。这次面试是一个艺术设计类的项目，我希望你能帮我生成一些常见的面试问题，并通过模拟面试来练习我的回答。特别地，我希望回答一些关于创意设计流程、客户沟通和项目管理的问题。另外，你知道我关注社会责任，所以希望能准备一些相关的内容。\n\n能帮我整理一下这些问题吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些常见的艺术设计类面试问题，并希望通过模拟面试练习回答，特别是关于创意设计流程、客户沟通和项目管理的问题。此外，还希望准备一些与社会责任相关的内容。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：李强需要不断向潜在客户展示自己的能力和作品，AI可以在对话中协助他优化简历内容，突出重要信息。",
+      "available_apis": {
+        "resumeExtract": {
+          "arguments": [
+            "resume_file"
+          ],
+          "description": "Extracts the relevant information (education, work experience, skills, etc.) from the provided resume file."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        },
+        "generateSuggestion": {
+          "arguments": [
+            "resume_data",
+            "search_results"
+          ],
+          "description": "Generates resume optimization suggestions based on the extracted resume data and web search results."
+        }
+      },
+      "scene_desc": "李强最近完成了几个高质量的设计项目，现在他希望通过优化简历来吸引更多潜在客户。他希望AI助手能帮助他突出重要的技能和经验，并使简历更加吸引人。他上传了现有的简历并提供了他最近的项目详情，希望AI能提供一些具体的建议和改进措施。",
+      "expected_response": "\n根据李强的人设和场景，AI应该首先确认他上传的简历文件，然后询问他是否有特定的重点领域或项目需要特别强调。接着，AI可以使用resumeExtract API提取简历中的关键信息，并进行分析。AI应该建议李强突出他在绘画和设计方面的专业技能，特别是最近完成的高质量项目。AI还可以通过webSearch API查找相关行业的最佳实践和示例简历，以提供更具竞争力的优化建议。最后，AI应该综合所有信息，生成一个优化建议，并提供一个可视化的简历样本供李强参考和修改。",
+      "scene_context": "李强上传的现有简历内容如下：\n```\n李强\n联系方式: 1234567890\n邮箱: liqiang@example.com\n\n教育背景:\n- 北京大学，设计学学士，2015-2019\n\n工作经验:\n- XYZ设计公司，平面设计师，2019-至今\n  - 设计并完成了多个大型项目，包括品牌设计、宣传册和网页设计\n  - 与客户沟通并理解他们的需求，提供专业的设计建议\n  - 使用Adobe Creative Suite进行设计和编辑工作\n\n技能:\n- Adobe Photoshop\n- Adobe Illustrator\n- Adobe InDesign\n- Sketch\n- HTML/CSS\n\n最近项目详情:\n1. 品牌重塑项目：为一家初创企业设计了新的品牌形象，包括logo设计、品牌色彩方案和相关宣传材料。\n2. 企业宣传册设计：为一家科技公司设计了一本详细的企业宣传册，展示了公司的产品和服务。\n3. 网站设计：为一家电商公司设计了一个用户友好的网站界面，包括首页、产品页和结账流程。\n\n李强特别希望能在简历中突出他的品牌重塑和网站设计项目，并希望AI能提供在这些领域内的最佳实践和示例简历。\n```",
+      "personalized_query": "嘿，AI助手，我最近完成了一些高质量的设计项目，现在想通过优化简历来吸引更多的潜在客户。你能帮助我突出一些重要的技能和经验吗？我希望特别能在简历中突出我的品牌重塑和网站设计项目。先给我一些改进简历的建议吧。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮助我优化简历，突出一些重要的技能和经验，特别是品牌重塑和网站设计项目方面的内容。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "客户沟通：王琳需要与一个潜在客户讨论定制水彩插画的细节，以确保作品符合客户的期望。",
+      "available_apis": {
+        "customerPreferences": {
+          "arguments": [
+            "customer_details"
+          ],
+          "description": "Gets the detailed preferences and requirements of the customer for the custom watercolor illustration."
+        },
+        "createIllustrationDraft": {
+          "arguments": [
+            "customer_preferences"
+          ],
+          "description": "Creates an initial draft of the watercolor illustration based on the customer's preferences and requirements."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipient_email",
+            "subject",
+            "body"
+          ],
+          "description": "Sends an email to the customer with the draft illustration and any questions or clarifications needed."
+        }
+      },
+      "scene_desc": "王琳是一位自由职业的水彩画家，她与一位潜在客户正在讨论定制水彩插画的细节。为了确保作品能够符合客户的期望，她需要通过AI助手来获取客户的详细偏好和需求，包括色调、主题、尺寸和用途等。王琳希望能够迅速了解客户的具体要求，并生成一份初步的草图以供客户确认。",
+      "expected_response": "\n根据李强的persona描述，他是一个热爱艺术和创意表达，并且追求独特和新颖方式的人。AI应该首先询问客户的详细偏好和需求，例如色调、主题、尺寸和用途等。接着，AI可以记录这些信息并生成一份初步的草图供客户确认。AI还可以通过邮件发送草图并附上任何需要客户确认或澄清的问题。最后，AI应确保客户对初步草图的反馈，并根据反馈进行调整。这种方式不仅能帮助王琳快速理解客户需求，还能展示她专业且注重细节的工作态度。",
+      "scene_context": "王琳正在与一位名叫李强的潜在客户讨论定制水彩插画。为了确保作品符合李强的期望，王琳需要AI助手帮助她获取以下详细信息：\n1. 色调：李强喜欢的颜色（例如，柔和的蓝色、鲜艳的橙色等）。\n2. 主题：李强希望插画的主题（例如，自然风景、城市景观、抽象图案等）。\n3. 尺寸：插画的具体尺寸（例如，A3、A4等）。\n4. 用途：插画的用途（例如，家庭装饰、商业展示、礼物等）。\n\n同时，王琳希望能够生成一份初步的草图，以便李强确认和提供反馈。\n\n具体信息：\n- 色调偏好：李强喜欢自然的绿色和蓝色。\n- 主题：李强希望插画描绘一片宁静的森林，带有小溪流过。\n- 尺寸：A3大小。\n- 用途：家庭装饰，用于挂在客厅。\n\nAI助手应该根据这些信息生成草图，并通过邮件发送给李强，附上需要客户确认或澄清的问题。",
+      "personalized_query": "嘿，AI助手，我现在正在和一个潜在客户讨论一个定制水彩插画的项目。我需要确保作品能够符合他的期望，所以需要你帮我获取一些详细的信息。我想先了解客户的色调偏好，你可以帮我问问他喜欢什么颜色吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙获取客户的色调偏好，问他喜欢什么颜色。\n</neutralized_query>"
+    }
+  ]
+}

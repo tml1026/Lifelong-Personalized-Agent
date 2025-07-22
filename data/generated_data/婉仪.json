@@ -1,0 +1,216 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "大学生，专业是广告设计",
+    "Name": "婉仪"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱旅游和探索新地方",
+      "对美食充满热情",
+      "喜欢社交，结识新朋友",
+      "支持环保和可持续发展"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常搜索旅游攻略和美食推荐，积极参与社交媒体互动",
+    "Usage_Pattern": "使用频繁；常用AI进行旅行规划和查找美食食谱；会用AI助手来记录旅行日志和写作灵感",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "愿意为独特的体验和高质量的服务付费"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢生动形象的描述，偏好使用具体例子和故事进行解释",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢用思维导图来组织思路，偏向于先了解整体然后深入细节"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：婉仪需要规划旅行路线，她热爱旅游和探索新地方，经常进行旅行并需要定制化的行程建议。",
+      "available_apis": null,
+      "scene_desc": "婉仪最近打算去日本旅游，她希望能够好好规划一次行程，既能覆盖主要的旅游景点，也能体验一些当地的独特文化和美食。她已经有了一些大概的旅行日期，但还没有具体的行程安排。婉仪通常喜欢先大致了解旅行目的地的整体情况，然后再深入了解具体细节。她希望AI能帮助她制定一个合理且有趣的旅游路线，包括一些独特的、可能不在主流旅行指南上的景点和餐馆推荐。",
+      "expected_response": "\n根据婉仪的人设，AI应该首先确认她的旅行日期和偏好的主要旅游活动类型（如文化体验、美食探索、自然景观等）。接着，AI可以利用联网搜索功能提供关于日本主要旅游景点的整体概述，并推荐一些独特的、鲜为人知的景点和餐馆。AI还应该能提供详细的交通、住宿和美食建议，并生成一份行程思维导图，帮助婉仪更好地组织她的旅行计划。最后，AI可以提供一些个性化的小贴士，比如当地的文化习俗或环保旅行建议，以增加婉仪的旅行体验。\n",
+      "scene_context": "婉仪的旅行日期是2023年5月1日至5月10日。她希望能够体验以下类型的活动：\n- 文化体验：参观寺庙、茶道体验、和服租赁和漫步。\n- 美食探索：寻找传统日式料理餐馆、街头小吃和咖啡馆。\n- 自然景观：游览富士山、樱花观赏和温泉体验。\n\n婉仪已经列出了几个她感兴趣的主要城市：\n- 东京：希望参观浅草寺、明治神宫和秋叶原。\n- 京都：希望参观金阁寺、清水寺和伏见稻荷大社。\n- 大阪：希望参观大阪城、道顿堀和环球影城。\n\n婉仪还希望AI推荐一些独特的、可能不在主流旅行指南上的景点和餐馆，例如：\n- 东京的隐藏居酒屋\n- 京都的茶道体验馆\n- 大阪的小众甜点店\n\n她还需要AI提供详细的交通、住宿和美食建议，并生成一份行程思维导图，帮助她更好地组织她的旅行计划。",
+      "personalized_query": "嘿，我最近打算去日本旅游，具体时间是5月1日至5月10日。我想请你帮我规划一下行程，主要希望能有文化体验、美食探索和自然景观的活动。你能帮我先大致了解一下这些地方的整体情况吗？特别是东京、京都和大阪。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划一趟5月1日至5月10日的日本旅游行程，包含文化体验、美食探索和自然景观的活动，并大致介绍一下东京、京都和大阪的整体情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "酒店和餐厅推荐：婉仪对美食充满热情，旅游时会寻找当地的特色餐厅和合适的住宿地点。",
+      "available_apis": null,
+      "scene_desc": "婉仪正在计划一次前往成都的旅行，她对美食充满热情，希望寻找一些当地的特色餐厅和合适的住宿地点。她希望能体验到成都的地道美食和文化，同时希望住宿地点方便且舒适。婉仪希望AI助手能够推荐一些高评分的餐馆和适合单人旅行的酒店，最好是能提供详细的餐馆菜单和酒店设施信息。",
+      "expected_response": "\n根据婉仪的persona描述，AI应该首先询问她对餐馆和酒店的具体要求，比如预算范围、偏好的美食类型和酒店的星级标准。接着，AI应该能够通过联网搜索提供一些符合她要求的高评分餐馆和酒店推荐，同时提供详细的信息如餐馆的菜单、顾客评价和酒店的设施及服务。AI还应考虑到她喜欢社交和结识新朋友的特点，可以推荐一些有良好社交氛围的餐馆和酒店。对于餐馆，AI可以提供每个推荐餐馆的招牌菜和特色美食的描述，帮助婉仪做出最合适的选择。对于酒店，AI可以给出关于地理位置、周边环境和用户评价的详细信息。另外，AI还可以帮助婉仪进行在线预订，确保她在旅行中能享受到最好的美食体验和舒适的住宿。",
+      "scene_context": "婉仪正在计划一次前往成都的旅行，她对美食充满热情，希望寻找一些当地的特色餐厅和合适的住宿地点。她更倾向于中等偏高价位的餐馆和四星级以上的酒店。婉仪喜欢尝试地道的川菜，尤其是麻辣火锅和成都小吃，如担担面和龙抄手。此外，她希望酒店的位置靠近市中心或景点，方便出行，同时也希望酒店提供免费Wi-Fi和早餐服务。\n\n她希望AI助手能够推荐以下信息：\n1. 三家评价高且地道的川菜餐馆，提供详细的菜单和招牌菜介绍。\n2. 三家四星级及以上的酒店，提供设施、服务和用户评价的详细信息。\n3. 每个餐馆的顾客评价和每个酒店的地理位置及周边环境的详细描述。",
+      "personalized_query": "嗨，我在计划一次去成都的旅行，想找一些当地很地道的餐馆和一个不错的住宿地方。能帮我推荐一下吗？",
+      "neutralized_query": "<neutralized_query>\n可以帮我推荐一些成都的地道餐馆和合适的住宿地方吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：婉仪在旅行前会查找目的地的天气、签证、货币兑换等相关信息，以确保旅行顺利进行。",
+      "available_apis": null,
+      "scene_desc": "婉仪准备前往一个新的旅游目的地，在出发前她需要查询一些关键信息以确保旅行顺利进行。她希望了解该目的地的天气情况、签证要求以及货币兑换信息。由于婉仪热爱旅游和探索新地方，且经常进行旅行，她希望AI助手能够提供详细且准确的旅行须知信息，并能够帮助她做好行前准备。",
+      "expected_response": "\nAI应该首先询问婉仪的旅行目的地和计划的旅行日期，以便提供最新的天气预报。接着，AI应确认婉仪的国籍和护照信息，以便查找相关的签证要求。如果签证信息较复杂，AI可以推荐一些详细的签证办理指南或相关服务。对于货币兑换，AI应该提供该目的地的汇率信息，并建议一些可靠的货币兑换地点或服务。考虑到婉仪喜欢具体的例子和故事，AI在提供信息时应尽可能生动形象，并可以提供一些实用的小贴士或旅行者的经验分享。最后，AI可以询问婉仪是否需要将这些信息记录在她的旅行日志中，方便她随时查阅。",
+      "scene_context": "婉仪的旅行目的地是日本东京，她计划于10月15日出发，回程日期为10月22日。她持有中国护照。",
+      "personalized_query": "嗨，AI助手，我准备去日本东京旅游。可以帮我查查那边的天气情况吗？我计划10月15日出发，10月22日回来。",
+      "neutralized_query": "<neutralized_query>\n我需要查询日本东京在10月15日到10月22日的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：婉仪喜欢听音乐和读书，需要根据她的偏好推荐新歌、专辑、艺术家或书籍。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the user's preferences such as music genres, favorite artists, and book genres."
+        },
+        "recommendContent": {
+          "arguments": [
+            "user_id",
+            "preferences"
+          ],
+          "description": "Recommend new songs, albums, artists, or books based on the user's preferences."
+        }
+      },
+      "scene_desc": "婉仪刚结束了一次短途旅行，正准备放松一下，于是她打开AI助手，希望推荐一些新的音乐、专辑、艺术家或者书籍。她希望这些推荐能够符合她的喜好，并能为她带来新的灵感和放松的时刻。婉仪喜欢探索新地方和美食，对环保和可持续发展充满热情，同时也非常享受社交和结识新朋友。她的偏好包括流行音乐和旅行相关的书籍。",
+      "expected_response": "\n根据婉仪的persona描述，AI应该首先确认她最近的旅行经历，以便提供相关的音乐或读物推荐。AI可以通过获取婉仪的喜好数据，推荐一些与她的旅行经历相匹配的流行音乐专辑或艺术家，以及一些旅行和环保主题的书籍。AI还应该考虑婉仪喜欢使用生动形象的描述，并偏好具体例子和故事进行解释，因此推荐时应附带详细的介绍和推荐理由。此外，AI应提供选择让婉仪选择具体的推荐类型（如音乐或书籍），并询问她是否有特定的情境需求（如放松、工作或社交场合下的音乐）。最后，AI可以使用推荐引擎根据她的喜好提供个性化的推荐列表。",
+      "scene_context": "婉仪最近去了日本京都旅行，对日本文化和美食产生了浓厚兴趣。她喜欢的流行歌手包括泰勒·斯威夫特（Taylor Swift）和阿黛尔（Adele），而她最近读过并非常喜欢的书籍是《小王子》和《在路上》。她对环保和可持续发展的兴趣使她关注的书籍主题包括环保旅行和素食主义。她希望AI助手能够推荐一些与日本文化、旅行以及环保相关的新音乐、艺术家或书籍。",
+      "personalized_query": "嘿，我最近刚从一次短途旅行回来，想放松一下。能帮我推荐一些新的音乐、专辑或艺术家吗？最好是和日本文化或者旅行相关的，也可以是环保主题的哦。",
+      "neutralized_query": "<neutralized_query>\n能帮我推荐一些新的音乐、专辑或艺术家吗？最好是和某个特定文化或者旅行相关的，也可以是环保主题的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：婉仪喜欢在不同场景下听音乐，如工作、放松时，需要推荐适合不同情景的音乐。",
+      "available_apis": {
+        "recommendMusic": {
+          "arguments": [
+            "scene"
+          ],
+          "description": "Recommends music based on the given scene, such as work, relaxation, etc."
+        }
+      },
+      "scene_desc": "婉仪正在她的大学宿舍内准备一篇广告设计的论文。她需要一个能帮助她集中注意力的音乐播放列表。婉仪喜欢在不同场景下听音乐，特别是在工作和放松时都有不同的音乐偏好。她希望AI能根据她当前的工作状态，推荐一些适合集中注意力的音乐。",
+      "expected_response": "\n根据婉仪的人设，AI应该首先询问婉仪当前是否正在工作，以确认她需要的是工作时的音乐建议。接着，AI可以通过调用recommendMusic API来推荐一些适合集中注意力的音乐。由于婉仪喜欢生动形象的描述，AI可以详细介绍推荐的音乐类型和一些具体的曲目，并解释这些音乐如何帮助集中注意力。同时，AI应该考虑到婉仪的音乐偏好，可能会推荐一些具有轻柔节奏和无歌词的背景音乐，以避免分散注意力。最后，AI还可以询问婉仪是否需要设置一个播放时长，以便更好地管理她的工作时间。\n\n",
+      "scene_context": "婉仪目前正在准备一篇关于广告设计的论文。她需要专注和集中注意力的音乐。婉仪喜欢的音乐类型包括轻柔节奏和无歌词的背景音乐，如古典音乐、环境音乐和一些轻音乐。她希望AI能够推荐具体的曲目，例如：\n1. Ludwig van Beethoven - \"Moonlight Sonata\"\n2. Erik Satie - \"Gymnopédie No.1\"\n3. Brian Eno - \"Music for Airports\"\n4. Max Richter - \"On the Nature of Daylight\"\n5. Yiruma - \"River Flows in You\"",
+      "personalized_query": "嘿，AI助手，我正在准备一篇广告设计的论文，需要一些能帮助我集中注意力的音乐。你可以给我推荐一些适合的播放列表吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些能帮助集中注意力的音乐推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：婉仪在休闲时间喜欢看电影或电视剧，需要根据她的喜好推荐新的影视作品。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the user's specific preferences and interests for movies and TV shows."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for movie or TV show recommendations based on the user's preferences."
+        }
+      },
+      "scene_desc": "婉仪在一个阳光明媚的周日下午，决定在家放松一下。她喜欢在闲暇时间看电影或电视剧，但这次她不知道该看什么好。她希望AI助手能够根据她的喜好，推荐一些新的影视作品。婉仪平时喜欢社交，也常常在社交媒体上分享她的观影感受，希望这次推荐的电影或电视剧能让她有新的内容可以与粉丝互动。",
+      "expected_response": "\n根据婉仪的persona，AI助手应该首先调用`getUserPreferences` API来获取她的影视偏好，包括她喜欢的电影类型、常看的导演和演员等信息。接着，AI助手可以通过`webSearch` API查找最新的、符合婉仪偏好的电影或电视剧，并提供一份详细的推荐列表。同时，AI应该注意推荐的影视作品是否有较高的评价和较大的讨论热度，以便婉仪能在社交媒体上分享并与粉丝互动。最后，AI可以询问婉仪是否需要直接在社交媒体上预先发布一条观影计划的动态，以吸引粉丝们的关注和讨论。",
+      "scene_context": "婉仪的影视偏好信息包括：她喜欢浪漫喜剧和剧情片，常看的导演是诺亚·鲍姆巴赫和格塔·葛韦格，喜欢的演员是安妮·海瑟薇和瑞恩·高斯林。",
+      "personalized_query": "嘿，下午好！我现在特别想在阳光房里放松一下，看一部好电影或电视剧。不过最近有点不知道看什么好，你能帮我推荐几部符合我口味的作品吗？最好是浪漫喜剧或剧情片的。",
+      "neutralized_query": "<neutralized_query>\n请推荐几部浪漫喜剧或剧情片的电影或电视剧。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：婉仪喜欢社交，结识新朋友，经常参与各种社交活动，需要推荐适合她的活动或聚会场所。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "locationSearch": {
+          "arguments": [
+            "location",
+            "interest"
+          ],
+          "description": "Search for events and venues in the given location based on specific interests."
+        }
+      },
+      "scene_desc": "婉仪刚刚结束了一天的课程，准备在周末参加一些社交活动，以结识新朋友并放松心情。她希望AI助手能够帮助她找到一些有趣且适合她兴趣的活动或聚会场所。婉仪喜欢尝试新鲜事物，特别是与美食、旅游相关的活动，同时她也关心环保和可持续发展，因此她希望找到的活动能够涵盖这些主题。婉仪希望能在城市中找到一些热闹且有意义的社交活动，最好能结识志同道合的新朋友。",
+      "expected_response": "\n根据婉仪的persona描述，AI应该首先确认她所在的城市和有空的时间段。接着，AI应该根据她的兴趣，推荐一些与美食、旅游相关的社交活动，如美食节、旅行分享会或环保相关的聚会。AI还可以利用locationSearch API搜索当地的活动场所，并通过webSearch API查找详细的活动信息。AI应该提供活动的具体描述、时间、地点以及如何报名参加，还可以提供一些用户评价和活动亮点。最后，AI应该询问婉仪是否需要将活动信息添加至她的日历中，并提供导航或交通信息来确保她顺利到达活动地点。\n",
+      "scene_context": "婉仪所在的城市为北京，她有空的时间段为本周六和周日的全天。她希望能够找到以下类型的活动：\n1. 美食节：例如北京的国际美食节。\n2. 旅行分享会：例如某旅行达人举办的旅行经验分享会。\n3. 环保相关聚会：例如北京的环保志愿者周末聚会。\n\n婉仪希望了解每个活动的具体描述、时间、地点、报名方式，以及用户评价和活动亮点。如果有特别吸引人的活动，她希望AI能够帮助她将活动信息添加至她的日历中，并提供详细的导航或交通信息。",
+      "personalized_query": "今天的课程结束了，感觉有点累，但也很期待周末的到来！我想这个周六和周日可以参加一些有趣的活动，放松一下并结识新朋友。能不能帮我找到北京这周末有趣的活动？最好是和美食、旅游或者环保相关的。",
+      "neutralized_query": "<neutralized_query>\n请推荐北京这周末有趣的社交活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "美食推荐：婉仪对美食充满热情，经常寻找新的美食食谱和餐馆推荐。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for new food recipes and restaurant recommendations and return the most relevant responses."
+        },
+        "recipeRecommendation": {
+          "arguments": [
+            "cuisine_type",
+            "dietary_preference"
+          ],
+          "description": "Provides personalized food recipe recommendations based on the specified cuisine type and dietary preferences."
+        }
+      },
+      "scene_desc": "婉仪正在计划一个周末的美食之旅，希望能找到一些有趣的餐馆和特色菜品。她想尝试一些新的食谱，并且希望AI能推荐一些与她环保理念相关的餐饮选择。她打开了AI助手，准备开始寻找这些信息。",
+      "expected_response": "\n根据婉仪的persona描述，她热爱美食和旅游，并且关注环保和可持续发展。AI应该迅速理解她的需求，首先询问她对餐馆和食谱的具体偏好，比如餐馆类型（如素食餐馆、当地特色餐馆）和具体食材或菜系的偏好。同时，AI应当通过webSearch和recipeRecommendation接口，提供相关餐馆和食谱的推荐。AI还应该考虑她的环保理念，推荐一些支持可持续发展的餐馆和食谱选项。最后，AI可以帮助她保存和整理这些信息，便于她在旅行中使用。",
+      "scene_context": "婉仪对餐馆的具体偏好为：素食餐馆、当地特色餐馆。她对食材的偏好包括：有机蔬菜、无抗生素肉类、无添加剂食品。婉仪希望AI助手推荐一些支持可持续发展的餐馆和食谱选项，如使用当地食材、减少碳足迹的餐馆或零废弃餐饮场所。此外，她对以下几种菜系感兴趣：意大利菜、泰国菜和地中海菜。",
+      "personalized_query": "嘿，AI助手，我在计划一个周末的美食之旅。能帮我推荐一些当地特色的餐馆和有趣的特色菜品吗？我是素食主义者，所以希望有素食选项。另外，如果有那些支持环保和可持续发展的餐馆会更棒！",
+      "neutralized_query": "<neutralized_query>\n我需要你推荐一些当地特色的餐馆和有趣的特色菜品，同时希望有素食选项和支持环保及可持续发展的餐馆。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程日志：婉仪喜欢记录旅行日志，需要帮助撰写和整理旅行中的见闻和灵感。",
+      "available_apis": {
+        "extractInfoFromNotes": {
+          "arguments": [
+            "notes"
+          ],
+          "description": "Extracts key information from provided travel notes and summaries."
+        },
+        "analyzePhotos": {
+          "arguments": [
+            "photos"
+          ],
+          "description": "Analyzes provided travel photos and extracts relevant geographic and visual information."
+        },
+        "organizeTimeline": {
+          "arguments": [
+            "travel_schedule"
+          ],
+          "description": "Organizes the travel logs into a coherent timeline based on the provided travel schedule."
+        }
+      },
+      "scene_desc": "婉仪刚刚结束了一次丰富多彩的旅行，她参观了几个景点，品尝了当地的特色美食，并结识了许多新朋友。她想要记录下这些美好的经历，但发现手写笔记和照片杂乱无章，难以整理。婉仪希望AI助手能够帮助她将这些笔记和照片整理成一篇有条理的旅行日志，并提取出一些亮点灵感用于她的广告设计课程。",
+      "expected_response": "\nAI应该首先询问婉仪是否可以将她的旅行笔记和照片上传到系统中。接着，AI会使用提取信息的API从笔记中提取关键事件、地点和感受，并使用分析照片的API确定照片中的地理位置和视觉亮点。然后，AI会将这些信息按照时间顺序整理成一篇连贯的旅行日志，提供具体的描述和生动的故事情节，符合婉仪喜欢生动形象描述的偏好。最后，AI应该询问婉仪是否需要进一步细化或修改日志内容，并将日志保存到指定的文件路径，方便她未来参考和分享。此外，AI可能会建议将一些特别的灵感片段提取出来，用于她的广告设计课程。",
+      "scene_context": "婉仪的旅行包括以下关键事件和地点：\n1. 探访京都的清水寺，感受古老的历史氛围。\n2. 在大阪品尝美味的章鱼烧，并与当地商贩交流。\n3. 结识了一位来自法国的旅行者，在奈良公园一起喂鹿，互相分享旅行经验。\n4. 参观东京塔，拍摄了东京全景的照片，记录了夜晚的城市灯光。\n\n她手写笔记中提到的灵感包括：\n1. 清水寺的古建筑设计和庭院布局，给予她古典风格广告设计的灵感。\n2. 章鱼烧的美味与大阪夜市的热闹场景，启发她设计一个以美食为主题的广告。\n3. 奈良公园中人与动物和谐相处的场景，给她带来环保和自然主题广告的创意。\n4. 东京塔夜景的灯光效果，让她想到一个以现代都市为背景的广告设计思路。\n\n这些信息可以帮助AI助手更好地整理和撰写婉仪的旅行日志，并提取出亮点灵感用于她的广告设计课程。",
+      "personalized_query": "嘿，AI助手！我刚结束了一次超棒的旅行，去了好多地方，体验了不一样的文化和美食。可是我的笔记和照片太乱了，根本不知道从哪儿开始整理。我需要你帮我把这些记录整理成一篇有条理的旅行日志，还需要一些亮点灵感用在我的广告设计作业上。你能帮我吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我把旅行中的笔记和照片整理成一篇有条理的旅行日志，并提供一些亮点灵感用于广告设计作业。\n"
+    },
+    {
+      "scene_type": "新闻和信息获取：婉仪支持环保和可持续发展，关注相关领域的新闻和信息，需要获取最新的环保资讯和活动信息。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google with the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "婉仪最近在大学里参与了一些环保活动，作为一名热爱旅游和探索新地方的广告设计专业学生，她特别关注环保和可持续发展的新闻和信息。她希望能随时获取最新的环保资讯和活动信息，以便更好地参与相关的讨论和行动。婉仪打开了她的AI助手，准备查询近期的环保新闻和活动。",
+      "expected_response": "\nAI应该会首先确认婉仪具体想了解的环保信息类型，例如是全球环保动态、本地环保活动，还是特定领域的环保创新。随后，AI会使用联网搜索功能查询最新的相关资讯，并根据婉仪的偏好和兴趣推送最相关的内容。AI还应该考虑婉仪对环保和可持续发展的支持，可能会特别关注一些有实际行动意义的活动，如公益活动、环保展览等。此外，AI助手应该以生动形象的描述和具体的例子来呈现这些资讯，以符合婉仪喜欢生动形象描述的偏好。如果有相关的新闻或活动信息，AI可以持续更新，并提供订阅功能，定期推送最新的环保资讯。\n\n",
+      "scene_context": "婉仪希望查询的信息类型包括：\n1. 全球环保动态\n2. 本地环保活动（假设婉仪位于上海）\n3. 特定领域的环保创新（如塑料污染治理、可再生能源、绿色建筑等）\n\n婉仪特别关注的近期环保活动包括：\n1. 2023年世界环境日活动计划\n2. 上海市近期的环保公益活动和展览\n3. 最新的塑料污染治理技术和项目",
+      "personalized_query": "嗨，AI助手！最近我在参与一些环保活动，想了解一些最新的环保资讯和活动信息。能帮我查一下近期的全球环保动态吗？",
+      "neutralized_query": "<neutralized_query>\n我想了解一些最新的环保资讯和活动信息。能帮我查一下近期的全球环保动态吗？\n</neutralized_query>"
+    }
+  ]
+}

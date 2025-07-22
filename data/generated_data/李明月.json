@@ -1,0 +1,223 @@
+{
+  "Demographics": {
+    "Age": 10,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "学生，梦想成为海洋生物学家",
+    "Name": "李明月"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢探索海洋生物",
+      "对新事物充满好奇",
+      "热爱航海",
+      "喜欢科幻小说"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常询问关于海洋生物的有趣事实和冷知识",
+    "Usage_Pattern": "使用频率适中；常询问科普问题和如何制作手工航海模型；喜欢互动式的学习活动",
+    "Emotion_Pattern": "有时会表达强烈的好奇心和兴奋",
+    "Purchase_Pattern": "喜欢有教育意义和互动性的玩具和书籍"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢生动有趣的说明，带有插图和图片",
+    "Preferred_Formats": "喜欢简化和易懂的解释，适合孩子的文字",
+    "Preferred_Workflows": "喜欢通过提问和解答的方式来学习新的知识"
+  },
+  "scenes": [
+    {
+      "scene_type": "知识拓展：李明月对海洋生物充满好奇，喜欢探索和学习新的知识，可以通过对话获取更多海洋生物学相关的信息和资料。",
+      "available_apis": null,
+      "scene_desc": "李明月正准备写一篇关于海洋生物的学校作业，他对各种海洋生物充满好奇，特别是那些少见和神秘的物种。他打开AI助手，想通过互动式的对话获取更多关于这些生物的信息和有趣的冷知识。李明月希望能用生动有趣的插图和简化易懂的语言来更好地理解和记住这些信息。",
+      "expected_response": "\nAI应该首先询问李明月具体想了解哪种海洋生物或某个特定的主题（如深海生物、珊瑚礁生态系统等）。接着，AI可以通过联网搜索提供关于这些生物的有趣事实和冷知识，并配上生动的插图和简化易懂的解释。AI还应结合李明月的学习模式，通过提问和解答的方式帮助他更好地掌握知识。AI应展现出对李明月强烈好奇心和兴奋的回应，保持互动的趣味性。此外，AI可以推荐一些与海洋生物相关的科普书籍或纪录片，以帮助他进一步拓展知识。",
+      "scene_context": "李明月最近在准备的学校作业主题是关于深海生物。他对以下生物特别感兴趣：大王乌贼、深海灯笼鱼和巨型管鱿。他希望AI助手能提供这些生物的有趣事实、图片和简化易懂的解释。此外，如果有任何相关的科普书籍或纪录片推荐，也希望AI能给出建议。",
+      "personalized_query": "嗨，我正在写一个关于海洋生物的学校作业，想了解一些有趣的深海生物。你能告诉我一些关于大王乌贼的有趣事实吗？最好有图片哦！",
+      "neutralized_query": "<neutralized_query>\n我想了解一些关于大王乌贼的有趣事实，可以提供一些信息和图片吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据李明月对科幻小说和海洋生物的兴趣，推荐适合他的书籍、动画或纪录片，帮助他拓展知识和兴趣。",
+      "available_apis": null,
+      "scene_desc": "李明月在周末的一个下午，完成了他的家庭作业后，决定寻找一些新的书籍、动画或纪录片来满足他对海洋生物和科幻小说的兴趣。他打开他的AI助手，想要获取一些推荐，同时他对新事物充满好奇，希望能够找到一些让他兴奋的新内容。",
+      "expected_response": "\n根据李明月的persona描述，AI应该首先确认他是否更偏好书籍、动画还是纪录片，或者是三者都感兴趣。接着，AI应该根据他对海洋生物和科幻小说的兴趣，推荐一些适合他年龄的、有教育意义且充满趣味的内容。AI还应该提供一些生动有趣的说明，带有插图或图片，来吸引他的注意力。最后，AI应该询问李明月是否需要进一步了解这些推荐内容的更多细节信息，或者是否希望根据这些推荐内容进行更多类似的搜索。\n",
+      "scene_context": "李明月对科幻小说和海洋生物的兴趣表现在他喜欢阅读有关外星文明和深海探险的小说。他最近读过并非常喜欢《沙丘》和《海底两万里》。他现在希望找到更多类似的书籍、动画和纪录片。具体来说，他希望找到：\n1. 科幻小说：有关外星文明、未来科技和太空探险的内容。\n2. 动画：与深海生物及海洋探险相关的内容。\n3. 纪录片：介绍海洋生物、深海生态系统和科学研究的内容。\n\n这些推荐需要适合青少年阅读和观看，并且希望能提供一些吸引人的插图或预告片。",
+      "personalized_query": "嗨，AI助手！我是李明月，我已经完成了作业，现在想找一些新的书籍、动画和纪录片来看看。你可以帮我推荐一些和海洋生物和科幻小说相关的内容吗？",
+      "neutralized_query": "<neutralized_query>\n我想找一些新的书籍、动画和纪录片，能推荐一些和海洋生物和科幻小说相关的内容吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：作为学生，李明月可以通过对话练习中文语法，提升语言表达能力，同时了解如何写作和表达他的兴趣和发现。",
+      "available_apis": null,
+      "scene_desc": "李明月在家里做完作业后，想要通过对话练习中文语法。他对海洋生物充满好奇，正在写一篇关于海洋生物的作文，但他对一些句子的结构和用词感到困惑。他打开终端上的AI助手，希望通过对话了解如何改进他的作文，并提升他的中文表达能力。",
+      "expected_response": "AI应该首先询问李明月目前遇到的具体语法问题或需要改进的部分。根据他对海洋生物的兴趣，AI可能会引导李明月提供他写的关于海洋生物的句子或段落。接着，AI应该提供简化和易懂的解释，帮助他理解正确的语法结构和用词，并用生动有趣的说明和插图来辅助解释。AI可以通过音频输出（textToSpeech）和语音识别（speechRecognition）的功能，帮助李明月练习口语表达，并提供实时反馈和建议。最后，AI可能会推荐一些适合李明月阅读的书籍或动画，以进一步提升他的语言能力和兴趣。",
+      "scene_context": "李明月当前作文的部分内容为：\n```\n\"大海里的生物种类繁多，包括鱼类、贝类和海洋哺乳动物。鱼类有不同的颜色和形状，它们可以快速游泳。贝类有硬壳，生活在海底。海洋哺乳动物如鲸鱼和海豚，它们聪明而友好。\"\n```\n他对以下句子结构和用词感到困惑：\n- \"大海里的生物种类繁多，包括鱼类、贝类和海洋哺乳动物。\"\n- \"鱼类有不同的颜色和形状，它们可以快速游泳。\"\n- \"贝类有硬壳，生活在海底。\"\n- \"海洋哺乳动物如鲸鱼和海豚，它们聪明而友好。\"\n他希望AI助手能够帮助他改进这些句子的语法和用词。",
+      "personalized_query": "嘿，AI助手！我在写一篇关于海洋生物的作文，但有些句子的结构和用词有点困惑。你能帮我改进一下吗？\n\n比如这句：“大海里的生物种类繁多，包括鱼类、贝类和海洋哺乳动物。”",
+      "neutralized_query": "<neutralized_query>\n我在写一篇关于海洋生物的作文，但有些句子的结构和用词有点困惑。你能帮我改进一下吗？\n\n比如这句：“大海里的生物种类繁多，包括鱼类、贝类和海洋哺乳动物。”\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：帮助李明月通过模拟对话练习口语，提高他的交流能力，特别是关于海洋生物和科幻小说的话题。",
+      "available_apis": {
+        "generateConversation": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Generates a simulated conversation based on the given topic, such as marine life or science fiction."
+        },
+        "textToSpeech": {
+          "arguments": [
+            "text"
+          ],
+          "description": "Converts text to speech to provide audio output for practice."
+        },
+        "speechRecognition": {
+          "arguments": [
+            "audio"
+          ],
+          "description": "Analyzes spoken audio to provide feedback and suggestions for improvement."
+        }
+      },
+      "scene_desc": "李明月是一个充满好奇心和热爱探索的小学生。他喜欢海洋生物和科幻小说，梦想成为一名海洋生物学家。在这次模拟对话中，李明月想通过AI助手来提升他的口语交流能力，特别是关于海洋生物和科幻小说的话题。AI助手将通过生成模拟对话并提供语音输出，帮助李明月提高他的口语能力。",
+      "expected_response": "根据李明月的persona描述，AI应该首先确认李明月想要练习的具体话题（海洋生物还是科幻小说）。然后，AI可以生成一个相关的对话场景，例如讨论某种海洋生物的习性或某部科幻小说的情节。AI应该用适合孩子的语言和生动的描述，引导李明月参与对话。AI还可以通过语音输出功能帮助李明月练习发音，并使用语音识别技术分析他的口语表达，提供反馈和改进建议。最后，AI可以询问李明月是否需要进一步的练习或切换到其他相关话题。",
+      "scene_context": "李明月想要练习的具体话题为：\n1. 海洋生物：讨论大白鲨的习性和生活环境。\n2. 科幻小说：讨论《银河系漫游指南》中最喜欢的情节和主要人物。",
+      "personalized_query": "嘿，AI助手，我最近在学校学到了一些关于海洋生物的知识，特别是大白鲨。你能帮我讲讲大白鲨的习性和它们生活的环境吗？我想多了解一些有趣的细节！",
+      "neutralized_query": "<neutralized_query>\n你能帮我讲讲大白鲨的习性和它们生活的环境吗？我想多了解一些有趣的细节！\n</neutralized_query>"
+    },
+    {
+      "scene_type": "手工制作指导：李明月喜欢制作手工航海模型，可以通过对话获取制作模型的步骤、材料选择和技巧指导。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李明月（10岁，男）是一个充满好奇心的学生，梦想成为海洋生物学家。他对手工制作特别是航海模型非常感兴趣。今天，他决定制作一个新的航海模型，并希望AI助手能为他提供制作模型的详细步骤、材料选择以及一些有效的技巧。李明月喜欢通过互动学习，所以他希望AI能通过对话形式，逐步指导他完成这个项目。\n\n在对话中，李明月会表现出强烈的好奇心和兴奋，特别是当涉及到与海洋相关的细节时。AI助手需要通过生动有趣的说明，并辅以插图和简化易懂的解释，来帮助李明月理解和完成他的手工制作项目。",
+      "expected_response": "根据李明月的persona描述，他是一个充满好奇心和兴奋感的小学生，AI应该以生动有趣的方式来回应他的需求。AI应该首先询问李明月他想要制作的具体航海模型类型（例如：帆船、潜水艇等），并提供一个简短的介绍和图片来让他选择。\n\n接着，AI应该列出所需的材料，并建议一些替代材料，以便李明月可以灵活选择。之后，AI应逐步指导李明月按照步骤进行制作，每一步都伴随插图和简化的文字说明，让他能够轻松理解和操作。\n\n同时，AI应该分享一些有效的小技巧，例如如何更好地固定零件、如何涂色等，使他的作品更加精致。如果李明月有任何问题或需要进一步的解释，AI应随时准备好以互动的方式进行回答。\n\n此外，AI还可以通过联网搜索功能，建议一些相关的手工制作视频或者教程，帮助李明月更好地完成他的项目。最后，AI应鼓励李明月在完成模型后，可以与家人或朋友分享他的作品，激发他的成就感和继续探索的兴趣。",
+      "scene_context": "李明月想要制作的具体航海模型类型是帆船、潜水艇和海盗船。他希望AI助手能够提供详细的制作步骤、所需材料列表及替代材料建议，并辅以插图和简化的文字说明。同时，他还希望能得到一些有效的制作技巧，如如何更好地固定零件和涂色。AI助手需要通过联网搜索功能，建议一些相关的手工制作视频或教程。",
+      "personalized_query": "嘿，小助手，我今天想做一个新的航海模型，你能帮我详细地指导一下吗？我需要知道具体的步骤和要用到的材料，还有一些制作的小技巧。你能帮我吗？",
+      "neutralized_query": "<neutralized_query>\n我需要详细的航海模型制作步骤、所需材料和一些制作技巧的指导。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：李明月可能需要整理和优化他在学校的作业或项目报告，特别是关于海洋生物的研究报告，可以通过对话获得帮助。",
+      "available_apis": {
+        "documentAnalysis": {
+          "arguments": [
+            "document"
+          ],
+          "description": "Analyze the given document for grammatical and spelling errors, and provide suggestions for structure and content improvement."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李明月在学校接到一项关于海洋生物的研究报告任务，他需要整理和优化这份报告，但遇到一些困难。李明月打开终端上的AI助手，希望通过对话获取帮助。他可能会需要优化报告的结构、检查语法错误、获取更多关于特定海洋生物的信息以及如何更好地表达他的发现。",
+      "expected_response": "根据李明月的persona描述，他是一个充满好奇心和对海洋生物有着浓厚兴趣的学生。AI助手应该首先了解李明月具体需要帮助的方面，例如是需要结构优化、语法检查还是补充信息。接着，AI可以使用documentAnalysis API对报告进行分析，找出语法和拼写错误，并提供结构和内容优化的建议。AI还可以使用webSearch API帮助李明月查找特定海洋生物的更多信息，提供生动有趣的描述和插图，进一步丰富报告的内容。AI在提供反馈时应该使用适合孩子的文字和简化易懂的解释，以便李明月能轻松理解和应用这些建议。最后，AI可以鼓励李明月，通过提问和解答的方式帮助他更深入地理解和改进他的报告。",
+      "scene_context": "李明月的研究报告中涉及的海洋生物包括：蓝鲸、海马和珊瑚。他希望AI助手能够帮助他优化报告的结构，检查语法错误，并提供更多关于这三种海洋生物的信息和插图。",
+      "personalized_query": "嗨，我需要一些帮助。我有一个关于海洋生物的研究报告，老师要求我们要整理和优化这份报告。我想要确保我的报告有一个好的结构和没有语法错误，还需要一些关于蓝鲸、海马和珊瑚的更多信息，最好有插图。可以帮忙吗？",
+      "neutralized_query": "<neutralized_query>\n我需要整理和优化一份关于海洋生物的研究报告，确保有好的结构、没有语法错误，并提供更多关于蓝鲸、海马和珊瑚的信息，最好有插图。可以帮忙吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "项目管理：帮助李明月跟踪学校的课题项目进度，分配任务，并设置截止日期，确保他的学习任务有条不紊地进行。",
+      "available_apis": {
+        "taskManagement": {
+          "arguments": [
+            "project_name",
+            "task_details",
+            "assignees",
+            "due_date"
+          ],
+          "description": "Creates and assigns tasks within a project, including setting the task details, assignees, and due dates."
+        },
+        "progressTracking": {
+          "arguments": [
+            "project_name"
+          ],
+          "description": "Tracks the progress of tasks within a given project, providing updates on task completion and deadlines."
+        }
+      },
+      "scene_desc": "李明月最近在学校接到一个关于海洋生物的课题项目，他对这个课题充满了热情并希望通过AI助手来跟踪项目进度，分配任务，并设置截止日期，确保他的学习任务有条不紊地进行。在项目初期，李明月和他的几个同学负责不同的海洋生物研究，李明月希望AI能帮助他分配具体的研究任务，并跟进每个同学的进度，同时提醒他即将到来的截止日期。",
+      "expected_response": "\n根据李明月的persona描述，他是一个充满好奇心和探索精神的年轻学生，AI应该能理解并响应他的项目管理需求。AI应该首先询问李明月当前项目的具体名称和主要研究内容。接着，AI应该询问项目团队成员的名字和他们各自的任务分配。AI应协助李明月为每个任务设置具体的截止日期，并在这些日期临近时发送提醒。同时，AI还应该定期检查每个任务的完成进度，并在有更新时通知李明月。为了帮助李明月更好地管理项目，AI还应提供建议，例如如何更有效地分配任务或如何找到相关的研究资料。最后，AI应该确保李明月的项目计划和进度跟踪信息以生动有趣的方式呈现，并带有插图和图片，以帮助他更好地理解和记忆。",
+      "scene_context": "李明月的海洋生物课题项目名称为“海洋生态系统中的关键物种研究”。目前，团队成员包括：王强（负责海豚的行为研究）、张丽（负责珊瑚礁的生态系统）、赵鹏（负责鲨鱼的习性分析）和李明月（负责整体项目协调和海洋微生物研究）。\n\n李明月需要为这些任务设置具体的截止日期：王强的任务截止日期为两周后，张丽的任务截止日期为三周后，赵鹏的任务截止日期为一个月后，李明月的任务截止日期为项目结束前一周。\n\nAI助手需要帮助李明月跟踪每个成员的任务进度，定期检查并提醒即将到来的截止日期。同时，AI还应提供有效的任务分配建议和研究资料。",
+      "personalized_query": "嘿，小助手，我有一个关于海洋生物的课题项目，需要你的帮助来分配任务并跟踪每个同学的进度。我们有四个人：我、王强、张丽和赵鹏，大家负责的任务不同。我负责整体项目协调和海洋微生物研究。你能帮我设置一些截止日期，提醒我及时跟进每个人的任务吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙分配任务、跟踪项目进度，并设置一些截止日期，确保项目顺利完成。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：帮助李明月跟踪他的日常运动数据，如步数或游泳距离，并提供健康反馈，保持他的身体健康。",
+      "available_apis": {
+        "fitnessTracker": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the daily fitness tracking data such as steps count, swimming distance, calories burned, etc., for the given user."
+        },
+        "healthFeedback": {
+          "arguments": [
+            "fitness_data"
+          ],
+          "description": "Analyzes the given fitness data and provides health and wellness feedback, including suggestions for improvement."
+        }
+      },
+      "scene_desc": "李明月今天刚从学校回到家，决定通过AI助手来追踪他一天的运动数据。他打开AI助手，想要了解他今天总共走了多少步，并想知道他最近一周的游泳距离。李明月希望通过这些数据和反馈来确保自己保持良好的健康状态，并寻找提高体能的方法。",
+      "expected_response": "\n根据李明月的persona描述，AI应该首先获取并显示李明月当天的步数数据，并在此基础上提供一周的游泳距离统计。鉴于李明月充满好奇心和对新事物的兴趣，AI还应该提供一些互动性强的健康建议，例如每天步数目标、游泳技巧的改进或者推荐一些和运动相关的教育性小知识。同时，AI应该用简单易懂的语言和生动有趣的插图来解释这些数据和建议，以充分吸引李明月的注意力。最后，AI可以询问李明月是否希望设置未来的运动目标，并提供实时的进度追踪服务。",
+      "scene_context": "李明月今天的步数为：6543步。最近一周的游泳距离分别为：周一500米，周二600米，周三0米，周四700米，周五800米，周六1000米，周日300米。",
+      "personalized_query": "嗨，助手！我刚从学校回来，今天我走了好多路呢。你能告诉我今天总共走了多少步吗？然后，也帮我看看最近一周我游了多少米，好吗？",
+      "neutralized_query": "<neutralized_query>\n你能告诉我今天总共走了多少步吗？然后，也帮我查看最近一周我游了多少米吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "饮食计划：根据李明月的健康目标和营养需求，推荐适合他的饮食计划和健康食谱，帮助他保持良好的生活习惯。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李明月是一个对海洋生物和科幻小说充满兴趣的小学生。他非常喜欢探索和学习新的知识，同时也对自己的健康和生活习惯非常在意。一个周末的早晨，李明月的妈妈提醒他注意饮食健康，建议他可以请AI助手帮忙推荐一些适合他的饮食计划和健康食谱。李明月决定利用AI助手来制定一个既健康又适合他的饮食计划。",
+      "expected_response": "\nAI应该首先询问李明月的健康目标和是否有特定的营养需求，例如是否需要更多的蛋白质来支持他的成长或是否有任何食物过敏需要避免。接着，AI应该使用联网搜索功能查找适合儿童的健康饮食计划，并根据李明月的具体需求进行推荐。AI可能还会推荐一些与海洋生物相关的健康食材，如含有丰富Omega-3的鱼类，既符合他的兴趣又有助于健康。最后，AI应该提供一个包含每日三餐和健康零食的详细饮食计划，并鼓励李明月和家人一起制作这些健康食谱，以增强互动和学习的乐趣。\n",
+      "scene_context": "李明月的健康目标是增加蛋白质摄入以支持成长，同时避免对花生的过敏反应。他对海洋生物感兴趣，希望饮食计划中能包含一些与海洋生物相关的食材。李明月希望AI助手能提供一个包含每日三餐和健康零食的详细饮食计划，包括：\n\n- 早餐：富含蛋白质的食物（鸡蛋、牛奶、全麦面包）\n- 午餐：富含Omega-3的鱼类（如三文鱼）和蔬菜\n- 晚餐：高蛋白质的肉类（如鸡胸肉）和谷物\n- 健康零食：水果、酸奶、坚果（除花生外）\n\nAI还应提供每餐的具体食谱，并建议一些制作步骤，以便李明月和家人一起准备这些健康餐点。",
+      "personalized_query": "早上好！今天我妈妈提醒我注意饮食健康，让我来问你一些关于健康饮食计划的建议。你可以帮我制定一个适合我的饮食计划吗？我平时喜欢吃一些与海洋生物相关的食材，也需要多补充蛋白质，但我对花生过敏哦。",
+      "neutralized_query": "<neutralized_query>\n请你帮忙制定一个健康饮食计划，并提供相关建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "宠物健康：如果李明月有养宠物，可以提供宠物常见健康问题的建议，并提醒定期检查，确保宠物的健康。",
+      "available_apis": {
+        "checkPetOwnership": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Checks if the user has a pet."
+        },
+        "providePetHealthAdvice": {
+          "arguments": [
+            "pet_type"
+          ],
+          "description": "Provides health advice for the given type of pet."
+        },
+        "setHealthCheckReminder": {
+          "arguments": [
+            "user_id",
+            "pet_type",
+            "reminder_frequency"
+          ],
+          "description": "Sets a regular health check reminder for the user's pet."
+        }
+      },
+      "scene_desc": "李明月在课后回到家，发现他的宠物小狗看起来有些不太舒服。他急忙打开终端上的AI助手，想要了解一些常见的宠物健康问题，并希望能得到定期检查和健康管理的建议，以确保小狗能够保持健康。",
+      "expected_response": "根据李明月的persona描述，他是一个对新事物充满好奇、喜欢探索和热爱学习的孩子。AI应该首先询问李明月的小狗的具体症状，以便提供更有针对性的建议。然后，AI可以通过checkPetOwnership API确认李明月确实有养宠物。接着，AI可以使用providePetHealthAdvice API提供一些常见的宠物健康问题的建议，并建议一些应对措施。AI还可以通过setHealthCheckReminder API为李明月设置一个定期检查的提醒，以确保小狗的健康状况得到持续关注。此外，AI应该以生动有趣、简化和易懂的方式解释这些建议，并确保李明月能够理解和跟随这些健康管理提示。",
+      "scene_context": "李明月的小狗最近出现了一些具体的症状，包括：食欲不振、呕吐和腹泻。他希望AI助手能够提供关于这些症状的建议，并提醒他定期带小狗进行健康检查。",
+      "personalized_query": "小狗看起来有些不舒服，我要赶紧问问AI助手。\n\n---\n\n嘿，AI助手，我的小狗看起来有些不太舒服。你能帮我查一下小狗常见的健康问题吗？它好像食欲不振，还呕吐和腹泻，我有点担心。",
+      "neutralized_query": "<neutralized_query>\n你能帮我查一下小狗常见的健康问题吗？小狗食欲不振，还呕吐和腹泻。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "广东某大学艺术系学生，擅长绘画和手工制作",
+    "Name": "张婷"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "创新精神",
+      "充满好奇",
+      "享受大自然"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "注重创意的分享和沟通",
+    "Usage_Pattern": "适度使用；喜欢寻求灵感和新技巧",
+    "Emotion_Pattern": "热情洋溢",
+    "Purchase_Pattern": "追求美学独特的物品，喜欢手工制品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢视觉化的、富有创意的输出风格",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢通过问题引导得到创意灵感"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：张婷作为艺术系学生，常常需要进行多个艺术项目（如绘画、手工制作等），需要通过项目管理来跟踪进度和分配任务。",
+      "available_apis": null,
+      "scene_desc": "张婷即将展开一个新的艺术项目，她需要通过AI助手来管理这个项目的进度和任务分配。她希望能够把每个阶段的工作安排得井井有条，确保每个细节都不会被遗漏。她需要对项目中的每个任务（如材料准备、绘画进度、作品展示等）进行详细的规划和跟踪。同时，她希望能够与团队成员（如同学、导师）有效沟通，共享任务进展和反馈。",
+      "expected_response": "\nAI助手首先应该询问张婷这个艺术项目的整体目标和主要阶段，以便建立一个框架。接着，AI需要详细了解每个阶段的具体任务，如材料准备、绘画进度、作品展示等。AI应该提示张婷输入每个任务的截止日期和优先级，然后帮助她将这些任务分配到项目的时间线上。\n\n由于张婷重视创意分享和沟通，AI应该建议她将项目进展分享给团队成员，并提供一个共享平台或工具，让所有人都能实时查看和更新项目进度。AI还可以设置定期提醒，通知张婷即将到来的任务截止日期，并在需要时发送提醒给相关团队成员。\n\n考虑到张婷喜欢寻求灵感和新技巧，AI可以在适当的时候向她推荐相关的艺术资源或创意技巧，帮助她在项目中保持灵感的源泉。最后，AI助手应该确保所有的任务和进度都能通过可视化的方式展示，如甘特图或进度条，以符合张婷对视觉化输出的偏好。",
+      "scene_context": "张婷的艺术项目名为“城市风景油画展”。项目的主要阶段包括：材料准备、绘画进度、作品展示和后续反馈。具体任务如下：\n\n1. 材料准备：\n   - 确定所需的油画材料清单（颜料、画布、画笔等）\n   - 采购和收集所有的材料\n   - 检查材料的质量和数量\n\n2. 绘画进度：\n   - 制定绘画时间表\n   - 每周更新绘画的进度\n   - 记录每幅作品的完成情况\n\n3. 作品展示：\n   - 确定展览日期和地点\n   - 安排展览场地的布置\n   - 邀请嘉宾和观众\n\n4. 后续反馈：\n   - 收集观众和导师的反馈\n   - 整理和分析反馈意见\n   - 根据反馈进行作品的调整和改进\n\n张婷希望项目管理工具能够提供甘特图或进度条来可视化每一阶段的任务进度，并且能够与团队成员（如同学、导师）共享项目进展。她需要AI助手定期提醒重要的任务截止日期，并推荐与城市风景油画相关的艺术资源和创意技巧。",
+      "personalized_query": "你好，帮我把“城市风景油画展”这个项目做个整体的计划安排吧。我们需要包括材料准备、绘画进度、作品展示和后续反馈这些阶段。你可以先帮我列一下材料准备阶段的任务吗？",
+      "neutralized_query": "<neutralized_query>\n帮我把一个艺术项目做个整体的计划安排，包括材料准备、进度管理、展示和后续反馈这些阶段。可以先列一下材料准备阶段的任务吗？\n"
+    },
+    {
+      "scene_type": "会议安排：张婷可能需要与同学或老师协调小组项目的会议时间，讨论艺术创作的进展和反馈。",
+      "available_apis": null,
+      "scene_desc": "张婷需要与她的同学和老师协调一个关于小组艺术项目的会议时间，以便讨论创作进展和获取反馈。由于她性格外向、热情洋溢，并且注重创意的分享和沟通，她希望能够在一个舒适、轻松的时间段进行这次会议，以充分激发大家的灵感交流。",
+      "expected_response": "\n根据张婷的persona描述，她注重创意交流与分享，AI应该首先询问张婷希望邀请哪些团队成员参加会议，并询问她是否有偏好的会议时间段（如早上或下午）。接着，AI应该能够通过访问学校的日程安排系统，查看所有参与者的可用时间，并找到一个大家都方便的时间段。由于张婷喜欢通过问题引导得到创意灵感，AI应该会建议安排在一个轻松愉快的时段，以便最大程度地激发大家的创意。AI还应询问张婷是否需要在会议邀请中包含特定的议程或材料，并提供选项让她确认和发送会议邀请。最后，AI应该设置一个自动提醒，提醒张婷和参与者会议的时间和具体内容。",
+      "scene_context": "张婷需要协调会议的团队成员包括：李雷、王芳、陈华和她的指导老师赵教授。张婷偏好的会议时间段是下午 2 点到 4 点。",
+      "personalized_query": "嘿，帮我确认一下李雷、王芳、陈华和赵教授在这周内，哪天的下午两点到四点有空，我们需要安排一个艺术项目的小组会议。",
+      "neutralized_query": "<neutralized_query>\n帮我确认一下参与者在这周内，哪天的下午两点到四点有空，我们需要安排一个艺术项目的小组会议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：张婷需要整理和优化艺术项目的文档内容，比如创作笔记、项目报告或艺术作品说明。",
+      "available_apis": null,
+      "scene_desc": "张婷正在整理和优化她的艺术项目文档内容，这包括创作笔记、项目报告和艺术作品说明。她需要确保这些文档不仅内容详实，而且风格美观，符合她的美学标准。张婷希望通过AI助手来帮助她高效地完成这些任务，同时保持文档的创意性和视觉吸引力。",
+      "expected_response": "\n根据张婷的persona描述，她是一位富有创意的艺术系学生，对美学和细节有较高要求。AI应该首先询问她需要编辑和优化的具体文档类型（如创作笔记、项目报告或艺术作品说明），并确认她对文档的具体要求和风格偏好。接着，AI应提供一些视觉化、创意性的模板或布局建议，帮助她提升文档的美观度。AI还可以推荐一些相关的工具或技巧，例如如何使用图表、插图等增强文档的视觉效果。此外，AI可以提供一些创作灵感或引用名言，以增强文档内容的深度和趣味性。最终，AI应该帮助张婷检查文档的完整性和一致性，确保文档既富有创意又专业严谨。",
+      "scene_context": "张婷需要整理和优化以下三个文档内容：\n1. 她最近完成的艺术作品《流动的光影》的创作笔记。\n2. 上学期艺术项目《城市的记忆》的项目报告。\n3. 一幅名为《梦境花园》的插画作品说明。\n\n她对这些文档有以下具体要求：\n1. 创作笔记需要详细记录创作过程、灵感来源以及使用的材料和技术，并且需要有一定的视觉美感，可以借助图表和插图。\n2. 项目报告需要条理清晰，包含项目的目标、实施过程、最终成果以及反思部分，并且整体风格要简洁而不失创意。\n3. 作品说明需要简洁明了地描述作品的意图和背后的故事，同时配上作品的高清图片，排版需美观大方，符合艺术类文档的高审美标准。",
+      "personalized_query": "嘿，小助手，我最近在整理《流动的光影》的创作笔记。想要它既详细又有视觉美感，特别是灵感来源、创作过程和使用的材料和技术部分。能帮我优化下吗？可以加一些图表和插图哦。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙整理和优化一个创作笔记，使其既详细又有视觉美感，特别是灵感来源、创作过程和使用的材料和技术部分。可以加一些图表和插图吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：张婷需要规划艺术相关的展览、工作坊或学习旅行，并访问不同的艺术场所以获取灵感。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for the given query and return the most relevant response."
+        },
+        "travelPlanner": {
+          "arguments": [
+            "destinations",
+            "dates"
+          ],
+          "description": "Plan the travel itinerary including transportation and accommodation for the given destinations and dates."
+        }
+      },
+      "scene_desc": "张婷是一名广东某大学艺术系的学生，擅长绘画和手工制作，喜欢探索新的体验并从中获取灵感。她热情洋溢，喜欢通过创意的分享和沟通来激发灵感。这次，她计划一次艺术相关的旅行，目标是参观一些展览、参加工作坊或者进行学习旅行，访问不同的艺术场所以获取创作灵感。\n\n张婷需要这次旅行的详细行程规划，包括展示的地点、日期以及相应的交通和住宿安排。她希望能够访问一些能激发她创作灵感的艺术场所，并参加一些艺术工作坊。",
+      "expected_response": "\n根据张婷的persona描述，AI应该首先询问她的具体目的地和旅行日期，并了解她希望参观哪些类型的艺术展览或工作坊。AI应该利用webSearch功能为她搜索这些艺术场所的具体信息，并使用travelPlanner API来规划具体的交通和住宿安排。\n\nAI还应推荐一些富有创意的展览和工作坊，结合张婷对创新和大自然的热爱，提供一些与这些主题相关的艺术活动。最后，AI可以生成一个详细的行程安排，并确认每一个细节是否符合张婷的期望。AI可能还会为她提供一些额外的旅行小建议，如当地的文化和艺术氛围、饮食推荐等，以确保她的旅行充满灵感和创意。\n",
+      "scene_context": "张婷计划去的是北京，她的旅行日期是2023年12月15日至2023年12月20日。她希望参观的艺术场所有：\n1. 798艺术区\n2. 中国美术馆\n3. 今日美术馆\n她希望参加的工作坊有：\n1. 798艺术区内的陶艺工作坊\n2. 今日美术馆的创意绘画工作坊\n\n张婷还希望AI能够帮她规划从学校到北京的交通安排，以及在北京期间的住宿安排。她对住宿的要求是靠近市中心，并且环境安静，有利于创作灵感的激发。",
+      "personalized_query": "你好，我最近在计划一次艺术之旅，目的是为了获取创作灵感。能帮我安排一下行程吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划一次艺术之旅的行程。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：张婷在计划艺术旅行时，需要了解目的地的天气、签证、货币兑换等相关信息。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Returns the current and upcoming weather forecast for the given destination."
+        },
+        "visaCheck": {
+          "arguments": [
+            "destination",
+            "nationality"
+          ],
+          "description": "Provides visa requirements and application procedures for the given destination based on the traveler's nationality."
+        },
+        "currencyExchangeRate": {
+          "arguments": [
+            "home_currency",
+            "destination_currency"
+          ],
+          "description": "Returns the current currency exchange rate between the traveler's home currency and the destination currency."
+        }
+      },
+      "scene_desc": "张婷正在计划一次艺术旅行，她希望获取目的地的天气、签证要求以及货币兑换的信息。她计划前往意大利，寻找灵感并参加一个当地的艺术展览。作为一个热情洋溢、充满好奇心的艺术系学生，张婷喜欢进行详细的旅行规划，以确保她能够最大限度地体验当地的艺术氛围和文化。同时，她希望AI助手能帮助她搜集到所有必要的信息，以便她可以专注于旅行的创意灵感。",
+      "expected_response": "\nAI应该首先确认张婷的目的地和旅行日期，以便提供更准确的天气预报。接着，AI应该通过weatherCheck API来获取意大利的天气情况，并提供几天内的天气预报。然后，AI应该使用visaCheck API，根据张婷的中国国籍提供意大利的签证要求和申请流程的详细信息。对于货币兑换，AI应该使用currencyExchangeRate API，提供人民币兑换成欧元的当前汇率信息。最后，AI应当综合这些信息，为张婷提供一个清晰、详细的旅行须知，并询问她是否需要进一步的帮助或其他信息。\n\n根据张婷的persona描述，她喜欢寻求灵感和新技巧，并注重创意的分享和沟通，因此AI可以在提供基本信息后，推荐一些意大利当地的艺术展览或景点，以供她参观和获取灵感。",
+      "scene_context": "张婷计划前往意大利的艺术旅行，旅行日期为下个月的1日至10日。她想了解罗马、佛罗伦萨和威尼斯三个城市的天气情况。她的中国国籍需要了解意大利签证的申请流程。她还想知道人民币兑换成欧元的当前汇率信息，并希望AI推荐一些当地的艺术展览和景点，以便她能最大限度地体验当地的艺术氛围和文化。",
+      "personalized_query": "好的，我明白了。现在开始扮演张婷来进行对话。\n\n---\n\nAI助手，我准备下个月要去意大利进行一次艺术旅行。能先帮我查一下罗马、佛罗伦萨和威尼斯三个城市的天气情况吗？我会在那边呆10天，从1号到10号。",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下意大利罗马、佛罗伦萨和威尼斯三个城市在下个月1号到10号的天气情况吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据张婷的艺术兴趣和偏好，推荐新的艺术作品、书籍或艺术家，帮助她获取创作灵感。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the user's interests and preferences based on their profile and previous interactions."
+        },
+        "recommendArtWorks": {
+          "arguments": [
+            "interests"
+          ],
+          "description": "Provides personalized art recommendations based on the user's interests and preferences."
+        },
+        "recommendBooks": {
+          "arguments": [
+            "interests"
+          ],
+          "description": "Suggests books that align with the user's artistic interests and preferences."
+        },
+        "recommendArtists": {
+          "arguments": [
+            "interests"
+          ],
+          "description": "Suggests new artists for the user to explore based on their artistic interests and preferences."
+        }
+      },
+      "scene_desc": "张婷在完成了几个重要的艺术项目后，感到灵感略显枯竭。她希望能够寻找新的艺术作品、书籍或艺术家，以帮助她重新激发创作灵感。于是，她打开了AI助手，希望AI能根据她的艺术兴趣和偏好，推荐一些新颖的艺术资源。",
+      "expected_response": "AI应该首先获取张婷的当前艺术兴趣和偏好，可能会通过调用getUserPreferences API来确认她最新的兴趣领域。接着，AI可以利用recommendArtWorks、recommendBooks和recommendArtists APIs，分别为她推荐符合她兴趣的艺术作品、书籍和艺术家。考虑到她注重创意和美学独特性的特点，AI应该选择那些风格独特、富有创意的资源进行推荐。同时，AI可以提供一些简短的推荐理由或描述，以便张婷更容易找到合适的灵感来源。最后，AI还可以询问张婷是否需要进一步的推荐或是否对某一特定领域有更多的兴趣，从而提供更精准的个性化服务。",
+      "scene_context": "张婷的艺术兴趣和偏好如下：\n- 喜欢抽象艺术和印象派作品\n- 偏好阅读关于现代艺术理论和艺术家传记的书籍\n- 对新兴的数字艺术和艺术科技融合的作品感兴趣\n\n张婷希望AI推荐以下类别的资源：\n1. 抽象艺术和印象派的最新作品\n2. 涉及现代艺术理论和著名艺术家传记的新书\n3. 数字艺术和艺术科技融合领域的新兴艺术家",
+      "personalized_query": "嘿，AI！最近感觉灵感有点枯竭了。你能帮我推荐一些艺术资源吗？我想找些新的作品和书籍来激发创意灵感。先给我推荐一些抽象艺术和印象派的最新作品吧。",
+      "neutralized_query": "<neutralized_query>\n你能推荐一些新的艺术资源（作品和书籍）来激发创意灵感吗？特别是抽象艺术和印象派的最新作品。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "自我反思：引导张婷通过对话进行自我反思，提升自我认知，促进艺术创作的灵感和成长。",
+      "available_apis": {
+        "generateOpenQuestions": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Generate open-ended questions based on the given topic to guide self-reflection."
+        },
+        "recordAndAnalyzeResponses": {
+          "arguments": [
+            "responses"
+          ],
+          "description": "Record the user's responses and analyze them to provide further reflection guidance."
+        },
+        "provideReflectionSuggestions": {
+          "arguments": [
+            "analysis"
+          ],
+          "description": "Provide specific reflection suggestions based on the analysis of the user's responses."
+        }
+      },
+      "scene_desc": "张婷在最近的艺术创作中遇到了瓶颈，感觉自己的灵感枯竭了。她决定通过与AI助手的对话进行自我反思，希望能提升自我认知，激发新的创作灵感。作为一名热情洋溢且充满好奇心的艺术系学生，她喜欢通过问题引导得到创意灵感，并希望AI能提供一些开放式的问题来引发她的思考。此外，张婷希望AI能够记录她的反思内容，并根据这些内容提供进一步的反思建议，以帮助她更好地完成艺术创作。",
+      "expected_response": "根据张婷的persona描述，AI应该首先询问她目前的创作瓶颈是什么，并根据她的回答生成一些开放式的问题，引导她进行深入的自我反思。AI应该关注她的情绪状态，并适时给予鼓励和支持。接着，AI应记录张婷的反思内容，分析这些内容后提供进一步的反思建议，帮助她从不同的角度思考问题。最后，AI可以推荐一些相关的艺术家、作品或书籍，帮助她获取更多的灵感和创作思路。",
+      "scene_context": "张婷目前的创作瓶颈是：她在创作一系列关于“人性与自然”的油画作品时，感觉缺乏灵感，尤其是在如何表达人与自然的复杂关系上遇到了困难。她的目标是通过反思找到新的灵感和创作思路，能够让她的作品更富有感染力和深度。",
+      "personalized_query": "最近感觉创作上的灵感枯竭了，尤其是在创作关于“人性与自然”关系的油画时遇到了瓶颈。能不能帮我记录一些自我反思的问题，看看能不能激发些新的灵感？\n\n我觉得如果能有一些开放式的问题让我自我反思，可能会对我创作有帮助。",
+      "neutralized_query": "<neutralized_query>\n我在创作中遇到了瓶颈，尤其是关于“人性与自然”关系的主题。能不能帮我记录一些自我反思的问题，以激发新的灵感？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：推荐适合张婷的社交活动或艺术聚会，帮助她结识更多志同道合的艺术爱好者。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "获取用户的兴趣和日程安排。"
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "搜索适合用户的社交活动或艺术聚会，并返回最相关的结果。"
+        }
+      },
+      "scene_desc": "张婷是一名广东某大学艺术系的学生，热爱创新和社交，喜欢通过与他人的交流和互动来激发自己的创作灵感。某个周末，她决定寻找一些社交活动或艺术聚会，借此机会认识更多志同道合的艺术爱好者，并分享彼此的艺术理念和创意。张婷打开她的AI助手，希望能够获得一些推荐，并且对于活动的具体细节有更多的了解，比如活动的主题、地点和时间等。",
+      "expected_response": "\nAI首先会根据张婷的使用习惯和偏好，询问她是否有特别感兴趣的活动类型或主题，比如绘画、手工制作、艺术展览等。接着，AI会通过\"getUserPreferences\" API获取张婷的兴趣和日程安排，确保推荐的活动与她的偏好和空闲时间相匹配。然后，AI会使用\"webSearch\" API搜索适合张婷的社交活动或艺术聚会，并返回最相关的结果。AI还会提供活动的具体细节，比如时间、地点、活动内容和参与方式。最后，AI会询问张婷是否需要进一步的帮助，比如报名参加活动或将活动添加到她的日历中。",
+      "scene_context": "张婷感兴趣的活动类型包括：绘画工作坊、手工制作课程和艺术展览。她的空闲时间主要集中在周六和周日的下午。她最近有兴趣探索更多的水彩画技巧和手工纸艺。这些信息可以帮助AI助手更好地推荐具体的活动和聚会。",
+      "personalized_query": "嗨，今天下午我有点空闲时间，想知道附近有没有有趣的社交活动或艺术聚会，能帮我查一下吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下附近有没有有趣的社交活动或艺术聚会吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "装修风格建议：根据张婷的喜好和艺术风格，推荐适合的装修风格和配色方案，以打造一个富有创意的生活和创作空间。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张婷最近搬进了一个新的公寓，她希望将自己的生活和创作空间装修得既充满创意又美观，符合她作为艺术系学生的审美和风格。她希望AI能提供一些符合她喜好和艺术风格的装修建议和配色方案，让她的家既舒适又富有创意。",
+      "expected_response": "根据张婷的persona描述，AI应该首先询问她的具体喜好和现有的艺术风格，例如她喜欢的颜色组合、具体的艺术风格（如波普艺术、抽象艺术等），以及她对不同房间的功能需求（如工作室、起居室等）。接着，AI应该利用webSearch API搜索相关的装修风格和配色方案，并根据张婷的描述提供一些视觉化的参考图片或设计方案。此外，AI还应该推荐一些与她的艺术风格相匹配的装饰品或家具，尤其是手工制品或具有独特美学的物品。最后，AI应确保所有建议都能激发张婷的创意，帮助她打造一个富有个人特色的生活和创作空间。",
+      "scene_context": "张婷的具体喜好和现有的艺术风格如下：\n- 喜欢的颜色组合：明亮的黄色、蓝色和绿色。\n- 具体的艺术风格：波普艺术和抽象艺术。\n- 房间的功能需求：\n  - 工作室：需要一个充满创意氛围的工作空间，要求采光好，色彩鲜艳。\n  - 起居室：希望有一个舒适的休息区，可以用来接待朋友，要求温馨且有趣。\n  - 卧室：需要一个放松的私人空间，要求色调柔和，具备艺术装饰品。",
+      "personalized_query": "嗨，我最近搬进了新的公寓，打算重新装修一下。你能帮我设计一下我的工作室吗？我需要一个充满创意氛围的空间，得采光好，色彩要鲜艳。",
+      "neutralized_query": "<neutralized_query>\n我需要一个充满创意氛围的工作室设计，要求采光好，色彩要鲜艳。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "创作灵感：张婷在大学的艺术课上需要完成一个绘画作品，为了寻找创作灵感，她决定去附近的美术馆参观。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张婷是一名广东某大学艺术系的学生，她正在艺术课上进行一个绘画项目。为了寻找创作灵感，她决定去附近的美术馆参观。张婷希望通过参观不同的艺术作品，以激发自己的创意思维，并将这些灵感融入到她的绘画作品中。她打开了终端上的AI助手，准备寻求帮助。",
+      "expected_response": "根据张婷的persona描述，她是一位热情洋溢、充满好奇心的艺术系学生，喜欢通过视觉化的、富有创意的方式获取灵感。她注重创意的分享和沟通，喜欢通过问题引导得到新的灵感。AI助手应该首先询问张婷具体想参观哪一类的美术馆（如现代艺术馆、传统艺术馆等），以及她的具体兴趣点（如特定的艺术家、艺术风格）。接着，AI助手可以利用网络搜索功能，快速找到附近的美术馆信息，包括开放时间、票价、当前展览内容等。为了帮助张婷更好地规划参观行程，AI助手还可以提供路线建议，并查看当天的天气情况。此外，AI助手可以推荐一些相关的艺术作品或艺术家，进一步帮助张婷激发灵感。最后，AI助手可以记录下张婷的创作灵感和参观心得，方便她后续整理和创作。",
+      "scene_context": "张婷需要查询的信息：\n1. 附近的美术馆类型及具体美术馆名称。\n2. 美术馆的开放时间和票价。\n3. 美术馆当前的展览内容。\n4. 特定的艺术风格或艺术家推荐。\n5. 参观路线建议和当天的天气情况。\n\n假设附近有以下美术馆：\n- 广东省博物馆（传统艺术馆）\n- 广州美术馆（现代艺术馆）\n- 广州红砖厂艺术中心（当代艺术馆）\n\n张婷对以下艺术风格和艺术家感兴趣：\n- 艺术风格：印象派、立体派、抽象艺术\n- 艺术家：莫奈、毕加索、康定斯基",
+      "personalized_query": "我正在准备一个艺术课的绘画项目，想去美术馆找找灵感。能帮我查一下附近有什么美术馆吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下附近有什么美术馆吗？\n</neutralized_query>"
+    }
+  ]
+}

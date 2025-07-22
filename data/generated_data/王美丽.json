@@ -1,0 +1,271 @@
+{
+  "Demographics": {
+    "Age": 39,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "湖南某医院内科医生",
+    "Name": "王美丽"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "注重慢性病管理和医学研究",
+      "热爱健康生活方式",
+      "喜欢挑战和学习新事物",
+      "在闲暇时喜欢瑜伽和烹饪"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于详细和深入的分析，喜欢从多个角度了解问题的解决方案",
+    "Usage_Pattern": "经常搜索最新的健康相关研究和个人爱好相关的信息",
+    "Emotion_Pattern": "在面对复杂问题时保持冷静和理性，偶尔在追求个人爱好时表现出热情",
+    "Purchase_Pattern": "偏好购买高质量和有长远价值的商品，关注品牌和口碑"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢收到详细而有逻辑的解释，尤其是带有科学依据和案例分析的内容",
+    "Preferred_Formats": "偏好文字和图表结合的汇报形式，偶尔也喜欢视频演示",
+    "Preferred_Workflows": "喜欢系统化和结构化的解决方案，倾向于掌握大局再进一步细化"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：_王美丽需要跟踪她在医院内的各种项目进度，如慢性病管理研究项目、医学论文撰写等。",
+      "available_apis": null,
+      "scene_desc": "王美丽是一名湖南某医院内科医生，年近四十，崇尚健康生活方式，特别热爱瑜伽和烹饪。同时她注重慢性病管理和医学研究，喜欢挑战和学习新事物。她性格内向且理性，面对复杂问题时保持冷静和理性。王美丽需要跟踪她在医院内的各种项目进度，包括慢性病管理研究项目和医学论文撰写等。她倾向于详细和深入的分析，喜欢从多个角度了解问题的解决方案。那么，她需要一个能够帮助她系统化和结构化地管理项目进度的AI助手。",
+      "expected_response": "根据王美丽的persona，AI应该提供一个系统化的解决方案来帮助她跟踪项目进度。首先，AI会询问具体哪个项目需要更新进度，例如慢性病管理研究项目还是医学论文撰写。接着，AI将详细记录每个项目的进展，并提供图表和文字结合的汇报形式。AI可能会定期提醒王美丽更新项目进展，并提供科学依据和案例分析，帮助她全面了解项目的当前状态和未来发展方向。此外，AI可能会建议一些相关的最新研究，帮助她保持项目的前沿性。最终，AI会生成一个详细而有逻辑的项目进度报告，并提供选项让她确认和进一步细化。",
+      "scene_context": "王美丽需要跟踪的具体项目包括：\n1. **慢性病管理研究项目**：\n   - 项目内容：研究不同干预策略对慢性病患者的长期影响。\n   - 当前进度：已经收集了初步数据，正在进行数据分析。\n   - 预期目标：完成第一阶段的数据分析，并撰写初步报告。\n   \n2. **医学论文撰写**：\n   - 项目内容：撰写关于高血压管理的新方法的论文。\n   - 当前进度：已完成文献综述和部分实验设计。\n   - 预期目标：完成实验部分并开始数据整理和结果分析。\n\n3. **医院内的其他项目**：\n   - 项目内容：管理多个小型项目，如患者满意度调查、科室内培训项目等。\n   - 当前进度：患者满意度调查正在进行数据收集，科室内培训项目已经完成第一期培训。\n   - 预期目标：完成所有数据收集，并将结果整合进年度报告。",
+      "personalized_query": "今天需要安排一下多个项目的进度，感觉有点复杂。首先，我们来看一下慢性病管理研究项目。我已经收集了初步数据，下一步是进行数据分析，然后撰写初步报告。\n\n帮我规划一下这个项目的下一步进度安排，包括需要的阶段和时间节点。",
+      "neutralized_query": "<neutralized_query>\n帮我规划一下一个项目的下一步进度安排，包括需要的阶段和时间节点。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：_王美丽经常需要安排或参加医院内部的会议、科室讨论会以及医学研讨会等。",
+      "available_apis": null,
+      "scene_desc": "王美丽在医院内经常需要安排或参加科室讨论会以及医学研讨会。今天，她需要安排一个内科讨论会，讨论近期遇到的一些复杂病例，并分享最新的医学研究进展。由于她的时间比较紧张，会议的时间安排必须尽量配合她的日程。同时，她希望所有相关的科室成员能够参与，并且需要提前准备一些病例分析和研究资料。因此，她求助AI助手来帮助她安排此次会议。",
+      "expected_response": "\n根据王美丽的persona描述，她是一个注重详细和深入分析的内科医生，AI应该首先询问会议的具体主题和目标，以及需要参与的科室成员名单。接着，AI应该通过访问医院内部系统检查所有相关成员的日程安排，找出一个所有人都可参与的时间，并尽量考虑王美丽的空闲时间。AI还应该询问王美丽是否需要在会议邀请中包含特定的议程或预先分发的资料，并提供一个方法让她上传相关文件。最后，AI应该生成一个详细而专业的会议邀请函，并在确认后自动发送给所有参与者。同时，AI还可以设置一个定时提醒，以确保王美丽和其他成员不会错过会议。\n",
+      "scene_context": "会议的具体主题为：近期复杂病例讨论与最新医学研究进展分享。\n参与的科室成员名单包括：李医生（内科主任）、张护士长、陈医生（住院医师）、刘医生（研究员）。\n王美丽的空闲时间为：周三下午3点至5点，周五上午10点至12点。\n需要准备的资料：近期复杂病例的详细分析报告、最新医学研究进展的相关文献。",
+      "personalized_query": "今天我们需要安排一个内科讨论会，讨论近期遇到的一些复杂病例，并分享最新的医学研究进展。会议的时间必须尽量配合我的日程。可以帮我先安排一下这次会议的时间吗？我的空闲时间是周三下午3点至5点，和周五上午10点至12点。",
+      "neutralized_query": "<neutralized_query>\n我们需要安排一个内科讨论会，讨论近期遇到的一些复杂病例，并分享最新的医学研究进展。会议的时间需要尽量配合主要参与者的日程。请帮忙安排一下这次会议的时间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：_王美丽需要整理和优化病历、医学报告以及研究论文等重要文档。",
+      "available_apis": null,
+      "scene_desc": "王美丽最近在撰写一篇关于慢性病管理的研究论文，并且需要优化一些病历和医学报告以便在接下来的学术研讨会上展示。她希望确保所有内容都准确无误，并且希望通过AI助手来协助整理和优化这些文档，提高工作效率，同时保证高质量和专业性。",
+      "expected_response": "根据王美丽的persona描述，她注重慢性病管理和医学研究，喜欢挑战和学习新事物。她倾向于详细和深入的分析，并且喜欢从多个角度了解问题的解决方案。因此，AI应该首先询问具体需要优化和整理的文档类型（如病历、医学报告或研究论文），并确保获取到最新版本的文档。\n\n接下来，AI应该通过在线搜索和医疗数据库查询相关的最新研究和案例分析，以便将最新的科学依据和数据整合到文档中。同时，AI应该提供详细的改进建议，并生成带有图表和数据的详细报告，以便王美丽可以进行进一步的审查和修改。\n\nAI还应该帮助王美丽检查文档中的语法和格式错误，并确保所有引用和参考文献都准确无误。最后，AI可以生成一个优化后的最终文档，并询问王美丽是否需要将其打印或发送给特定的同事或合作伙伴进行进一步的审阅。\n\n总的来说，AI应当通过系统化和结构化的方式协助王美丽完成文档的整理和优化工作，确保内容的专业性和准确性，同时提高她的工作效率。",
+      "scene_context": "王美丽需要优化和整理的文档包括：\n1. 一篇关于慢性病管理的研究论文，涉及最新的慢性病管理研究和数据分析。\n2. 两份具体病例的病历文档，分别涉及糖尿病和高血压的管理案例。\n3. 一份用于学术研讨会展示的医学报告，内容涵盖最近的临床试验结果和数据。\n\n她希望AI助手能够：\n1. 通过在线搜索和医疗数据库查询最新的相关研究和数据。\n2. 整理并整合这些最新的科学依据到她的文档中。\n3. 提供详细的改进建议，包括语法和格式检查。\n4. 确保所有引用和参考文献的准确性。",
+      "personalized_query": "你好，我最近在写一篇关于慢性病管理的研究论文，其中包括一些最新的研究和数据分析。另外，我还有两份病历文档需要优化，这两份病历分别涉及糖尿病和高血压的管理案例。最后，我还要整理一份用于学术研讨会展示的医学报告，内容涵盖最近的临床试验结果和数据。\n\n你能帮我通过在线搜索和医疗数据库查询最新的相关研究和数据，并整理整合到这些文档中吗？同时也请你提供详细的改进建议，包括语法和格式检查。谢谢。",
+      "neutralized_query": "<neutralized_query>\n我需要你通过在线搜索和医疗数据库查询最新的相关研究和数据，并整理整合到一篇关于慢性病管理的研究论文、两份病历文档和一份用于学术研讨会展示的医学报告中。同时也请你提供详细的改进建议，包括语法和格式检查。谢谢。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：_王美丽需要撰写专业的电子邮件，与同事、患者、以及医学研究合作伙伴进行沟通。",
+      "available_apis": {
+        "getRecipientInfo": {
+          "arguments": [
+            "type"
+          ],
+          "description": "获取收件人的信息，'type'可以是同事、患者、或医学研究合作伙伴。"
+        },
+        "getEmailSubject": {
+          "arguments": [
+            "recipient_type"
+          ],
+          "description": "根据收件人的类型获取邮件的主题。"
+        },
+        "generateEmailBody": {
+          "arguments": [
+            "recipient_info",
+            "subject"
+          ],
+          "description": "根据收件人的信息和邮件主题生成专业的邮件内容。"
+        }
+      },
+      "scene_desc": "王美丽需要撰写一封专业的电子邮件，内容涉及医院内某个慢性病管理研究项目的最新进展。她打算将这封邮件发送给与该项目相关的同事、患者以及医学研究合作伙伴，以便分享研究成果和下一步计划。由于她注重详细和有逻辑的解释，邮件需要包含科学依据和案例分析。",
+      "expected_response": "\n根据王美丽的persona描述，AI应该首先询问她这封邮件的具体收件人类型（如同事、患者或医学研究合作伙伴），并获取相关的收件人信息。接着，AI应该能根据收件人的类型建议一个合适的邮件主题。之后，AI应该生成一封内容详细且有逻辑的邮件主体，包含研究项目的进展、科学依据、具体数据和案例分析。此外，AI还应确保邮件语言专业且清晰，符合医学专业的标准。最后，AI应该提供选项让王美丽对邮件内容进行确认和修改，并在得到她的确认后发送邮件。",
+      "scene_context": "王美丽需要撰写的电子邮件包括以下收件人类型及其相关信息：\n1. 同事：\n   - 收件人：张博士\n   - 职位：医院慢性病管理项目负责人\n   - 电子邮件：zhangdoc@example.com\n\n2. 患者：\n   - 收件人：李先生\n   - 患者编号：P12345\n   - 电子邮件：li.patient@example.com\n\n3. 医学研究合作伙伴：\n   - 收件人：Smith教授\n   - 职位：医学研究所负责人\n   - 电子邮件：smithprof@example.com\n\n邮件主题建议：慢性病管理研究项目进展与下一步计划\n\n具体邮件内容需包含以下信息：\n- 研究项目的背景及目的\n- 最新进展与研究成果\n- 相关科学依据与文献支持\n- 具体数据和案例分析\n- 下一步的研究计划与目标",
+      "personalized_query": "你好，AI助手。我需要撰写一封专业的电子邮件，内容涉及我们医院的慢性病管理研究项目的最新进展。能帮我组织一下邮件的主要结构和内容吗？",
+      "neutralized_query": "<neutralized_query>\n我需要撰写一封专业的电子邮件，内容涉及某个研究项目的最新进展。能帮我组织一下邮件的主要结构和内容吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：_王美丽需要规划出差行程，如参加医学会议、研讨会或进行学术交流等。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "participant",
+            "date_range"
+          ],
+          "description": "Checks the availability of the participant (e.g., Wang Meili) for the preferred date range and suggests a suitable time for the trip."
+        },
+        "flightBooking": {
+          "arguments": [
+            "destination",
+            "date_range"
+          ],
+          "description": "Checks available flights for the given destination and date range, and allows booking a suitable flight."
+        },
+        "hotelBooking": {
+          "arguments": [
+            "location",
+            "date_range"
+          ],
+          "description": "Checks available hotels for the given location and date range, and allows booking a suitable accommodation."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends an email with the trip details, including itinerary and booking confirmations."
+        }
+      },
+      "scene_desc": "王美丽是一位内科医生，注重慢性病管理和医学研究。她即将参加一个关于慢性病管理的医学会议，并希望规划出差行程。她需要AI助手帮助她搜索会议日期和地点，查找合适的航班和酒店，并确保行程与她的日程安排不冲突。她还希望AI助手能够发送一封邮件给同事，通知他们她的行程安排以及期间的工作安排。",
+      "expected_response": "根据王美丽的persona描述，她是一位注重详细和科学依据的内向型医生。AI应该首先询问具体的会议日期和地点，然后利用联网搜索功能查找相关信息。接着，AI应使用航班预订和酒店预订API，找到合适的航班和酒店。为了确保行程与她的日程安排不冲突，AI应查阅她的日历安排，并推荐合适的出发和返回时间。最后，AI应生成一封专业的邮件，通知同事她的出差安排及期间的工作安排。邮件内容应该详细、逻辑清晰，符合医学专业的沟通标准。",
+      "scene_context": "王美丽需要参加的医学会议信息如下：\n- 会议名称：国际慢性病管理会议\n- 会议日期：2023年11月10日至11月12日\n- 会议地点：美国旧金山\n\n此外，王美丽的出差日程规划需求如下：\n- 出发时间：2023年11月9日\n- 返回时间：2023年11月13日\n- 目前的日程安排：11月13日有一个重要的病患随访\n\n预订信息需求：\n- 航班：从北京出发到旧金山的往返航班\n- 酒店：靠近会议地点的4星级及以上酒店\n\n邮件内容需求：\n- 通知同事她的出差安排\n- 安排期间的工作分配\n- 确保病患随访的衔接工作",
+      "personalized_query": "我需要查询一下即将参加的国际慢性病管理会议的具体日期和地点，并帮我规划出差行程。",
+      "neutralized_query": "<neutralized_query>\n我需要查询一下即将参加的国际慢性病管理会议的具体日期和地点，并帮我规划出差行程。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：_王美丽热爱瑜伽，追踪她的日常运动数据，以保持健康生活方式。",
+      "available_apis": {
+        "logWorkout": {
+          "arguments": [
+            "workout_type",
+            "duration",
+            "calories_burned",
+            "heart_rate"
+          ],
+          "description": "Logs the details of a workout session including the type of workout, duration, calories burned, and heart rate."
+        },
+        "getWorkoutHistory": {
+          "arguments": [
+            "user_id",
+            "time_frame"
+          ],
+          "description": "Retrieves the workout history of a user within a specified time frame."
+        },
+        "generateHealthReport": {
+          "arguments": [
+            "user_id",
+            "time_frame"
+          ],
+          "description": "Generates a health report based on the user's workout data within a specified time frame."
+        },
+        "setWorkoutReminder": {
+          "arguments": [
+            "user_id",
+            "reminder_time",
+            "frequency"
+          ],
+          "description": "Sets a reminder for the user to perform their workout at a specified time with a specified frequency."
+        }
+      },
+      "scene_desc": "王美丽刚刚完成了一节瑜伽课程，她希望通过AI助手来记录这次瑜伽练习的详细信息，包括练习的类型、持续时间、消耗的卡路里以及心率数据。她还想查看她过去一个月的瑜伽练习数据，以评估自己的进展情况。此外，由于她工作繁忙，她希望AI能够在她指定的时间内提醒她每天进行瑜伽练习。",
+      "expected_response": "\n根据王美丽的persona描述，她是一个内科医生，注重健康生活方式并喜欢瑜伽。AI应该首先确认此次瑜伽练习的类型（例如力量瑜伽、冥想等）、持续时间、消耗的卡路里以及心率数据。接着，AI应该生成一份详细的健康报告，展示她过去一个月的瑜伽练习数据，包括每次练习的类型、持续时间、消耗的卡路里以及任何心率的变化。AI还应该提供数据分析，评估她的进展情况。最后，AI应该询问她的可用时间段，并设置每日瑜伽练习的提醒，以帮助她保持规律的练习习惯。",
+      "scene_context": "王美丽的这次瑜伽练习的详细信息如下：\n- 练习类型：力量瑜伽\n- 持续时间：45分钟\n- 消耗的卡路里：200卡\n- 心率数据：平均心率为110次/分钟，最高心率为130次/分钟\n\n此外，她希望查看她过去一个月的瑜伽练习数据，包括以下信息：\n- 练习日期和类型：每次练习的具体日期和类型（例如力量瑜伽、冥想等）\n- 持续时间：每次练习的持续时间（例如30分钟、45分钟等）\n- 消耗的卡路里：每次练习消耗的卡路里总数\n- 心率数据：每次练习的心率数据（包括平均心率和最高心率）\n\n她还希望在以下时间段收到瑜伽练习的每日提醒：\n- 每天早上7:00",
+      "personalized_query": "刚刚完成了一节瑜伽课，感觉非常好。我需要记录这次瑜伽练习的详细信息，包括练习的类型、持续时间、消耗的卡路里和心率数据。你可以帮我记录一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要记录一次瑜伽练习的详细信息，包括练习的类型、持续时间、消耗的卡路里和心率数据。你可以帮我记录一下吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "饮食计划：_王美丽注重健康生活方式，需要推荐适合她的饮食计划和健康食谱。",
+      "available_apis": {
+        "getUserInfo": {
+          "arguments": [
+            "dietary_preferences",
+            "body_info",
+            "health_goals"
+          ],
+          "description": "Gathers information about the user's dietary preferences, body information (such as weight, height, allergies or dietary restrictions), and health goals."
+        },
+        "generateDietPlan": {
+          "arguments": [
+            "dietary_preferences",
+            "body_info",
+            "health_goals"
+          ],
+          "description": "Generates a personalized diet plan based on the user's dietary preferences, body information, and health goals."
+        },
+        "getRecipeRecommendations": {
+          "arguments": [
+            "diet_plan"
+          ],
+          "description": "Provides healthy recipe recommendations based on the generated diet plan."
+        }
+      },
+      "scene_desc": "王美丽作为一名内科医生，注重健康生活方式，非常关注自己的饮食习惯。她希望找到一个合适的饮食计划，以帮助她在繁忙的工作中保持良好的健康状态，并支持她的瑜伽爱好。她会利用自己空闲的时间来研究和实施一个全面而健康的饮食计划。由于她喜欢详细而有逻辑的解释，并且注重科学依据，她需要AI助手帮助她生成一个个性化的饮食计划，以及推荐一些健康食谱。",
+      "expected_response": "\n根据王美丽的persona，AI应该会首先询问她的详细饮食偏好、身体信息（如身高、体重、任何过敏或饮食限制）以及她的健康目标。AI会利用这些信息通过调用`getUserInfo` API来收集数据。接着，AI会生成一个个性化的饮食计划，通过调用`generateDietPlan` API，并且基于此计划推荐一些健康的食谱，调用`getRecipeRecommendations` API。AI应该提供详细而有逻辑的解释，包含科学依据和可能的健康效果。此外，AI可以建议她如何将这些饮食习惯与她的瑜伽练习结合，以达到最佳的健康效果。\n",
+      "scene_context": "王美丽的详细饮食偏好：喜欢清淡食物，主要以蔬菜和鱼类为主，不喜欢甜食和油腻食物。身体信息：身高165厘米，体重60公斤，无食物过敏，主要饮食限制是避免高糖和高脂肪食物。健康目标：保持体重，增加肌肉量，提高整体健康水平。她希望每天的饮食能够支持她的瑜伽练习，增加能量和灵活性。\n\n以下是她的预期饮食计划示例：\n- 早餐：燕麦粥配杏仁和蓝莓，绿茶\n- 午餐：烤三文鱼配蒸蔬菜，藜麦沙拉\n- 晚餐：鸡胸肉配菠菜沙拉，橄榄油和柠檬汁调味\n- 小吃：胡萝卜条和鹰嘴豆泥，坚果混合\n\n她非常喜欢详细的说明和科学依据，因此每个食谱应附有营养成分介绍和健康效果描述。AI还需要建议她如何将这些饮食习惯与她的瑜伽练习结合，比如在特定时间段进食以优化能量水平。",
+      "personalized_query": "我最近在忙于工作和瑜伽练习，希望能有一个合适的饮食计划来维持健康状态。你能帮我生成一个详细的饮食计划，并推荐一些健康食谱吗？我喜欢清淡食物，以蔬菜和鱼类为主，不喜欢甜食和油腻食物。最好能有营养成分和健康效果的详细说明。",
+      "neutralized_query": "<neutralized_query>\n我需要一个适合维持健康状态的饮食计划，并推荐一些健康食谱。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "疾病自查：_王美丽可能需要了解最新的疾病信息，以便在日常诊疗中为患者提供更好的服务。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王美丽是一名39岁的内科医生，在湖南某医院工作。她注重慢性病管理和医学研究，热爱健康的生活方式，并且经常在工作中需要详细分析和了解最新的医学信息。她在面对复杂问题时保持冷静和理性，并倾向于从多个角度了解问题的解决方案。在日常诊疗中，王美丽可能需要了解最新的疾病信息，以便为患者提供更好的服务。她可能会询问AI助手有关最新的疾病研究、治疗方法、以及相关病例的数据，以确保她的诊疗方案是基于最新的科学依据。",
+      "expected_response": "\n根据王美丽的persona描述，AI应该首先理解她需要的是详细、科学依据充分的最新疾病信息。AI应该能够通过联网搜索，迅速查找并汇总最新的疾病研究和治疗方法。AI可能会提出一些相关问题，以便更好地定制搜索结果，例如具体是哪种疾病、需要哪方面的信息（如病因、症状、治疗方法等）。接着，AI应该通过逻辑化和系统化的方式呈现搜索结果，包括相关的科学研究、案例分析，以及图表和文字结合的汇报形式。此外，AI应该能够根据王美丽的需求，推荐进一步的阅读材料或视频演示，以便她更深入地了解相关信息。最后，AI可能会询问王美丽是否需要将这些信息保存或分享给她的同事，以便在科室讨论会或医学研讨会中使用。",
+      "scene_context": "王美丽最近关注的疾病种类包括糖尿病、高血压和慢性阻塞性肺疾病（COPD）。她希望查询这些疾病的最新研究数据、治疗方法和相关的病例分析，以便在日常诊疗中为患者提供更加科学、有效的治疗方案。",
+      "personalized_query": "我最近在关注关于糖尿病的最新研究数据和治疗方法。我希望能获得一些最新的科学依据和案例分析，以便能在诊疗中为患者提供更好的方案。你能帮我查一下最近在糖尿病领域的最新研究成果和治疗进展吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下最近在糖尿病领域的最新研究成果和治疗进展吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "药物信息：_王美丽需要了解各种药物的使用说明、副作用以及禁忌症，以便在临床工作中做出准确的判断。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王美丽正在准备一份关于慢性病管理的医学报告，在此过程中，她需要了解几种相关药物的使用说明、副作用以及禁忌症。为了确保她在临床工作中能够做出准确的判断，她会向AI助手请求帮助，查找这些药物的详细信息。",
+      "expected_response": "\n根据王美丽的persona设定，AI助手应首先询问她具体需要了解哪些药物的详细信息。接着，AI助手应通过联网搜索功能迅速查找并汇总每种药物的使用说明、副作用和禁忌症，提供详细而准确的信息。由于王美丽注重科学依据和逻辑性，AI助手还应提供相关的医学研究和案例分析来支持这些信息。此外，AI助手可能会建议将这些信息整合进她的报告中，并询问是否需要进一步的资料或帮助，确保她能够系统化和结构化地完成报告。\n",
+      "scene_context": "王美丽需要查询的药物为：阿司匹林、二甲双胍和氯吡格雷",
+      "personalized_query": "我现在准备一份关于慢性病管理的医学报告，有些药物的信息需要查找。首先，请帮我查一下阿司匹林的使用说明、副作用以及禁忌症。",
+      "neutralized_query": "<neutralized_query>\n我需要查找阿司匹林的使用说明、副作用以及禁忌症。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：_王美丽可能会对未来的职业发展进行规划，如考虑晋升、进修或参与更多的学术研究项目。",
+      "available_apis": {
+        "getUserBackground": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's background information, including current position, field of study, and interests."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for career development advice and opportunities based on the given query."
+        },
+        "recommendResources": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Recommends relevant resources such as career planning articles, industry reports, or academic research links based on the given topic."
+        }
+      },
+      "scene_desc": "王美丽最近在考虑未来的职业发展，她可能会希望晋升、进修或者参与更多的学术研究项目。为了做出更好的决策，她希望能够了解当前有哪些适合她的职业发展机会、进修课程或学术研究项目，同时也希望了解这些选项的具体要求、期限和收益。她希望AI助手能够帮助她快速获取这些信息，并提供一些个性化的建议，以便她能做出最优选择。",
+      "expected_response": "\n根据王美丽的persona描述，她注重详细和逻辑的解释，尤其喜欢带有科学依据和案例分析的内容。AI应该首先询问她当前的职业目标和兴趣点，例如她是更倾向于晋升、进修还是参与学术研究项目。接着，AI可以通过获取她的背景信息，例如她的当前职位、研究领域和过往的成功项目，来定制化搜索适合她的职业发展机会。AI需要通过联网搜索功能，提供最新的晋升机会、进修课程以及学术研究项目的详细信息，包含具体要求、期限和潜在收益。此外，AI可以推荐一些相关的资源，如职业规划文章、行业报告或学术研究链接，并提供案例分析来帮助她做出决策。AI也可以生成一个系统化的职业发展计划，并建议下一步行动。最终，AI应该确保王美丽对提供的信息感到满意，并询问她是否需要进一步的帮助或安排后续的职业发展步骤。",
+      "scene_context": "王美丽当前的职业背景信息如下：\n- 目前职位：高级研究员\n- 研究领域：生物医学工程\n- 过往成功项目：基于AI的医疗图像分析、纳米技术在癌症治疗中的应用\n\n她希望了解以下信息：\n1. 晋升机会：包括内部晋升路径和其他企业的职位空缺。\n2. 进修课程：相关的生物医学工程高级培训项目、人工智能与医疗结合的课程。\n3. 学术研究项目：当前国际上热门的生物医学工程研究课题和合作项目。\n\n期望的信息应包含：\n1. 具体要求：如学历、经验、技能等。\n2. 期限：每个选项的时间安排。\n3. 收益：包括薪资提升、知识技能提升、行业影响力等。\n\n此外，她还希望获得一些资源，如职业规划文章、行业报告或学术研究链接，以及成功案例分析。",
+      "personalized_query": "最近在考虑职业发展计划，想了解一下有哪些适合我的职业机会和相关的进修课程。你能帮我查找一些信息吗？",
+      "neutralized_query": "<neutralized_query>\n最近在考虑职业发展计划，想了解一下有哪些适合的职业机会和相关的进修课程。你能帮我查找一些信息吗？\n</neutralized_query>"
+    }
+  ]
+}

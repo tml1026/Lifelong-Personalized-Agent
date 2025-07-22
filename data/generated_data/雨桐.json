@@ -1,0 +1,217 @@
+{
+  "Demographics": {
+    "Age": 67,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "退休医生",
+    "Name": "雨桐"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "园艺",
+      "古典音乐",
+      "探索新知识",
+      "保持心灵宁静"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢讨论关于个人爱好和兴趣的话题，例如园艺和音乐",
+    "Usage_Pattern": "使用频率较低，通常在寻求帮助或分享见解时使用",
+    "Emotion_Pattern": "偏向温和和平静，偶尔会表现出好奇和兴奋",
+    "Purchase_Pattern": "偏向购买实用且符合个人兴趣的产品，例如园艺工具和音乐专辑"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢温和且富有同情心的沟通方式",
+    "Preferred_Formats": "简洁明了，易于理解的文本",
+    "Preferred_Workflows": "喜欢顺畅自然的交流，善于透过闲聊和叙事形式了解信息"
+  },
+  "scenes": [
+    {
+      "scene_type": "个性化推荐：雨桐喜欢探索新知识和古典音乐，可以根据她的听歌习惯和阅读偏好推荐新歌、专辑或艺术家，以及相关书籍。",
+      "available_apis": null,
+      "scene_desc": "雨桐正在使用她的AI助手，想要寻找一些新的古典音乐和书籍推荐。她喜欢探索新知识并且对古典音乐有着浓厚的兴趣。她希望AI能够根据她的听歌习惯和阅读偏好，给她推荐一些新的古典音乐专辑、艺术家以及相关书籍，以便丰富她的音乐收藏和阅读清单。她通常喜欢在安静的下午时分聆听音乐，并在闲暇时间阅读探索新知识的书籍。",
+      "expected_response": "根据雨桐的persona描述，AI应该首先了解她当前的听歌习惯和阅读偏好，例如她最近在听的古典音乐专辑和阅读的书籍。AI可以通过询问她最近在听的几首古典音乐以及她感兴趣的书籍类型来收集这些信息。接着，AI应该推荐一些新的古典音乐专辑和艺术家，这些推荐应该符合她的音乐品味，同时也可以推荐一些她可能会喜欢的相关书籍。AI还应该提供一些简短的描述或者背景介绍，帮助她更好地了解推荐内容。最后，AI可以询问她是否希望将这些推荐的音乐和书籍添加到她的收藏列表中，或者安排一个时间提醒她进行聆听和阅读。",
+      "scene_context": "雨桐最近在听的古典音乐专辑有《贝多芬第九交响曲》、《莫扎特小夜曲》和《肖邦钢琴协奏曲》。她最近阅读的书籍包括《时间简史》、卡尔·萨根的《宇宙》和《人类简史》。她对天文学和历史尤其感兴趣。",
+      "personalized_query": "您好，AI助手，我想寻找一些新的古典音乐专辑和书籍推荐。最近听了很多贝多芬、莫扎特和肖邦的音乐，也读了一些关于宇宙和人类历史的书籍。你能帮我推荐一些新的音乐专辑和相关的书籍吗？",
+      "neutralized_query": "<neutralized_query>\n我想寻找一些新的古典音乐专辑和相关的书籍推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：雨桐喜欢古典音乐，可以根据她的情绪或场景（如放松、冥想）推荐合适的古典音乐曲目。",
+      "available_apis": null,
+      "scene_desc": "雨桐在一个宁静的下午，准备在自家的花园里进行冥想。她想通过AI助手来播放适合冥想的古典音乐曲目。她希望音乐能帮助她放松心情，保持内心的宁静。",
+      "expected_response": "\n根据雨桐的persona，AI应该会先询问她当前的心情和是否有特定的音乐偏好（例如：更喜欢钢琴曲还是弦乐曲）。确认这些细节后，AI应该根据她的偏好和当前情绪，推荐几首适合冥想的古典音乐曲目。接着，AI可以播放其中一首，并询问音量是否合适。AI还可以在播放音乐的同时，提供一些关于这首曲目或作曲家的背景信息，以增加她的冥想体验。如果雨桐有继续探索的兴趣，AI还可以推荐一些相关的书籍或文章，让她在冥想结束后继续深入了解。\n",
+      "scene_context": "雨桐希望推荐的冥想古典音乐包括以下曲目：\n1. 约翰·塞巴斯蒂安·巴赫的《哥德堡变奏曲》\n2. 卢德维希·范·贝多芬的《月光奏鸣曲》\n3. 克劳德·德彪西的《月光》\n\n雨桐更喜欢钢琴曲，并希望音乐能够帮助她放松心情，保持内心的宁静。",
+      "personalized_query": "下午好，今天打算在花园里冥想放松一下。能帮我播放些适合冥想的古典音乐吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我播放一些适合冥想的古典音乐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：雨桐有探索新知识的兴趣，可以在对话中提供扩展阅读材料或深度分析某个她感兴趣的话题。",
+      "available_apis": null,
+      "scene_desc": "雨桐今天在家里享受着宁静的下午，沉浸在她的园艺和古典音乐之中。她忽然对传统医学中的草药疗法产生了浓厚兴趣，想要了解更多相关的信息。于是，她打开了终端上的AI助手，准备探索这一新的知识领域。\n\n雨桐希望AI助手能够提供一些关于草药疗法的深入研究材料和相关文章，让她可以在这个主题上进行更广泛的学习。同时，她也期望能有一些推荐的书籍或资源，可以进一步延展她的知识面。",
+      "expected_response": "\nAI应该首先确认雨桐当下的兴趣点，并询问她具体希望了解哪些方面的草药疗法（例如历史背景、现代应用、特定草药的功效等）。接着，AI可以通过联网搜索提供一系列相关的学术文章、研究报告和可信的在线资源。\n\nAI还应根据雨桐的阅读偏好推荐几本关于草药疗法的经典书籍，并提供这些书籍的简要介绍。为了更好地满足她的探索需求，AI可以建议一些在线课程或讲座，并提供报名链接或相关信息。\n\n最终，AI可以通过顺畅自然的交流方式，简洁明了地呈现所有信息，并询问雨桐是否需要将这些内容保存到她的阅读列表或设置提醒，以便稍后再次查阅。",
+      "scene_context": "雨桐目前对传统医学中的草药疗法产生了浓厚兴趣。她特别希望了解以下几个方面的信息：草药疗法的历史背景、现代应用以及特定草药的详细功效（如人参、艾草、甘草）。她期望AI助手能够提供相关的学术文章、研究报告和可信的在线资源。此外，雨桐希望得到几本经典书籍的推荐，包括简要介绍。她还对在线课程或讲座感兴趣，并希望获得相关报名链接或信息。",
+      "personalized_query": "下午好，AI助手。我今天对传统医学中的草药疗法产生了浓厚的兴趣，特别是草药疗法的历史背景和现代应用。能帮我找到一些相关的资料和文章吗？",
+      "neutralized_query": "<neutralized_query>\n我对传统医学中的草药疗法感兴趣，尤其是它的历史背景和现代应用。能帮我找到相关的资料和文章吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：雨桐可能对提升自己的语言能力感兴趣，可以解释语法规则，并提供练习题进行巩固。",
+      "available_apis": {
+        "getGrammarExplanation": {
+          "arguments": [
+            "grammar_topic"
+          ],
+          "description": "Fetches a detailed explanation of the given grammar topic."
+        },
+        "generatePracticeExercises": {
+          "arguments": [
+            "grammar_topic"
+          ],
+          "description": "Generates or fetches practice exercises related to the given grammar topic."
+        }
+      },
+      "scene_desc": "雨桐是一位67岁的退休医生，她对探索新知识和提升语言能力感兴趣。今天，她希望通过AI助手来进行英语语法练习。她已经有一定的语言基础，但对一些复杂的语法结构还有疑问，比如虚拟语气。她希望AI能够解释虚拟语气的语法规则，并提供一些练习题来巩固她的学习。",
+      "expected_response": "根据雨桐的persona，AI应该首先通过温和且富有同情心的沟通方式与她交流，了解她具体想要学习的语法主题。AI在确认她需要学习虚拟语气后，应该使用简洁明了的文本，对虚拟语气的规则进行详细解释。接着，AI可以通过调用generatePracticeExercises API生成相关的练习题，并提供这些练习题供雨桐进行巩固。由于雨桐偏向温和和平静的情感模式，AI应该在对话中保持耐心和鼓励，让她感到放松和自信。此外，AI还可以在她完成练习题后提供即时反馈，分析她的答案并指出她的错误和改进建议，帮助她更好地掌握语法知识。",
+      "scene_context": "雨桐想要学习的具体语法主题是虚拟语气。她希望AI助手能够解释虚拟语气的语法规则，并提供一些相关的练习题进行巩固。以下是一些示例练习题：\n\n1. 将下面的句子改为虚拟语气：\n   - If I win the lottery, I will buy a car.\n   - If she calls me, I will go to the party.\n\n2. 根据给出的条件句，填入适当的虚拟语气形式：\n   - If he __________ (be) here, he __________ (help) us.\n   - If I __________ (know) her address, I __________ (visit) her.\n\n3. 选择正确的虚拟语气形式填空：\n   - If I __________ (be) you, I would take that job.\n   - She wishes she __________ (can) speak French fluently.\n\n雨桐希望通过这些练习题来巩固自己对虚拟语气的理解，并希望AI助手能为她的答案提供即时反馈和改进建议。",
+      "personalized_query": "今天我想学习一下英语的虚拟语气，能不能请你帮我解释一下虚拟语气的规则？另外，能不能提供一些相关的练习题给我练习？谢谢。",
+      "neutralized_query": "<neutralized_query>\n能不能帮我解释一下英语的虚拟语气规则，并提供一些相关的练习题？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：雨桐可能希望在闲暇时练习口语交流，可以通过多轮对话进行模拟口语练习，提升她的语言交流能力。",
+      "available_apis": {
+        "queryUserPreferences": {
+          "arguments": [
+            "prompt"
+          ],
+          "description": "Query the user for their preferences or goals for the language practice session."
+        },
+        "generateDialogue": {
+          "arguments": [
+            "context",
+            "preferences"
+          ],
+          "description": "Generate suitable dialogue content based on the given context and user preferences."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "user_response"
+          ],
+          "description": "Analyze the user's response and provide real-time feedback on language and grammar."
+        }
+      },
+      "scene_desc": "雨桐在她的花园里度过一个宁静的下午，决定利用这段时间练习英语口语交流。她打开终端上的AI助手，希望通过多轮对话提高她的口语能力。雨桐希望对话能围绕她感兴趣的主题展开，比如园艺、古典音乐或者健康知识。",
+      "expected_response": "\nAI应该先询问雨桐她希望练习的主题是什么，以确保对话内容符合她的兴趣。然后，AI可以通过访问相关API，生成适合的对话内容。AI在对话过程中，需要以温和且富有同情心的沟通方式进行互动，并提供实时反馈，帮助雨桐纠正语法和发音错误。同时，AI可以根据对话的进展，推荐一些相关的阅读材料或视频，进一步帮助她提高语言水平。在对话结束时，AI还可以询问雨桐是否需要设置下一次口语练习的提醒，以便她能持续进步。",
+      "scene_context": "雨桐希望练习的主题有以下几种：\n1. 园艺：比如如何种植和护理玫瑰、如何制作堆肥等。\n2. 古典音乐：比如了解贝多芬的生平、讨论莫扎特的作品等。\n3. 健康知识：比如健康饮食的建议、如何保持心理健康等。\n\n以下是一个可能的话题示例：\n主题：园艺\n雨桐输入了一段关于她目前在花园中种植的玫瑰的描述，并希望AI能与她讨论一些护理玫瑰的方法。",
+      "personalized_query": "今天的下午阳光明媚，雨桐站在她的花园里，轻轻拨弄着一株玫瑰的叶子。她打开了终端上的AI助手，准备通过对话练习英语口语。\n\n\"Hello, I'd like to talk about my roses. They are growing well, but I want to make sure I'm taking the best care of them. Can you give me some advice on how to properly care for roses, especially in terms of watering and fertilizing?\"",
+      "neutralized_query": "<neutralized_query>\nI'd like to talk about roses. They are growing well, but I want to make sure I'm taking the best care of them. Can you give me some advice on how to properly care for roses, especially in terms of watering and fertilizing?\n</neutralized_query>"
+    },
+    {
+      "scene_type": "饮食计划：雨桐可能关注自己的健康，可以根据她的健康目标，推荐适合的饮食计划和食谱。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "雨桐是一位67岁的退休医生，现居中国，喜欢探索新知识、古典音乐和园艺，并注重保持心灵宁静。她偶尔会使用AI助手寻求帮助或分享见解，通常是关于她的兴趣爱好或健康相关话题。在这个场景中，雨桐关注自己的健康，希望获得一个适合她健康目标的饮食计划和食谱。\n\n雨桐打开AI助手，表示她希望能根据她的健康目标推荐一个饮食计划。她可能提到她想要一个平衡的饮食，帮助她保持健康并管理体重。她还可能对食物的营养成分感兴趣，以确保她的饮食中包含必要的维生素和矿物质。",
+      "expected_response": "根据雨桐的描述，AI应该首先询问她的具体健康目标，例如是否有特定的健康问题需要关注（如血糖、血压或胆固醇），或是她希望通过饮食达到的具体目标（如减重、增加能量或改善消化）。随后，AI应该依据这些信息，利用联网搜索功能获取适合的饮食计划和具体食谱。\n\nAI还应该推荐一些与她兴趣相关的健康食谱，例如使用新鲜蔬菜和水果的菜肴，因为她喜欢园艺，这些食谱可能会激发她的兴趣。AI可以进一步提供营养信息查询的选项，帮助她了解所推荐食物的详细营养成分。\n\n最后，AI可以询问她是否需要设置定期提醒，以确保她能够遵循推荐的饮食计划，并可以在对话过程中提供鼓励和支持，帮助她保持健康目标的实现。",
+      "scene_context": "雨桐的健康目标包括：控制血压、维持健康的体重、增加能量。她提到希望饮食计划包含：\n1. 每天的卡路里摄入量建议\n2. 每餐所需的食物种类和份量\n3. 富含钾和镁的食物推荐（如香蕉、菠菜）\n4. 低钠食物的建议（如无盐坚果、低钠罐头食品）\n5. 高纤维食物的推荐（如全麦面包、糙米）\n6. 每周至少两个新鲜蔬菜和水果的食谱（她喜欢园艺，自己种植了一些蔬菜和水果）",
+      "personalized_query": "你好，AI助手。我最近有些关注自己的健康，希望能根据我的健康目标推荐一个饮食计划。我的目标是控制血压、维持健康的体重和增加能量。可以帮我制定一个平衡的饮食计划吗？",
+      "neutralized_query": "<neutralized_query>\n我希望你能根据我的健康目标推荐一个饮食计划。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "营养信息查询：雨桐可能对食物的营养成分信息感兴趣，并希望做出健康的饮食选择。",
+      "available_apis": {
+        "nutritionInfoQuery": {
+          "arguments": [
+            "food_name"
+          ],
+          "description": "Fetches detailed nutritional information for the specified food item."
+        }
+      },
+      "scene_desc": "雨桐是一位67岁的退休医生，她对健康饮食和营养成分信息非常关注。一天，她在准备晚餐时，想了解一些食材的营养成分，以确保饮食的健康均衡。她拿出手机，通过她的AI助手查询某些食物的营养信息，希望做出明智的选择。雨桐平时在饮食方面比较讲究，也希望能通过这次查询，获取更多关于健康饮食的建议。",
+      "expected_response": "\n根据雨桐的persona描述，她是一位温和且富有同情心的人，喜欢简洁明了的交流。AI应该能够理解雨桐的需求，并提供详细的营养成分信息。首先，AI应该询问她具体想要查询哪些食物的营养成分，确保了解她的需求。接着，AI可以通过nutritionInfoQuery API提供这些食物的详细营养信息，例如热量、蛋白质、脂肪、维生素等。AI还可以根据她的健康目标，提供一些健康饮食的建议，例如推荐一些低脂肪高蛋白的食材，或是适合她这种年龄段的饮食计划。最后，AI应该保持沟通的温和性，并提供进一步的帮助选项，例如是否需要保存这些信息或设置提醒以便下次查询。\n",
+      "scene_context": "雨桐需要查询的食物为：鸡胸肉、西兰花和藜麦",
+      "personalized_query": "你好，今天我准备做晚餐，需要查询一些食材的营养成分，想确保饮食的健康均衡。你能告诉我鸡胸肉的营养信息吗？",
+      "neutralized_query": "<neutralized_query>\n请告诉我鸡胸肉的营养信息。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "自我反思：雨桐喜欢保持心灵宁静，可以通过对话引导她进行自我反思，提升自我认知。",
+      "available_apis": {
+        "generateQuestions": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Generates a set of reflective questions based on the given topic."
+        },
+        "recommendResources": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Recommends resources such as articles, books, or websites related to the given topic."
+        },
+        "setReminder": {
+          "arguments": [
+            "time",
+            "message"
+          ],
+          "description": "Sets a reminder for the user to perform a certain action at a specified time."
+        }
+      },
+      "scene_desc": "雨桐在她的花园里进行每日的冥想，享受大自然的宁静。她希望通过与AI助手的对话，进行自我反思，提升自我认知。雨桐在开启冥想前，与AI助手沟通，希望能够获得一些引导和建议，帮助她更深入地了解自己，保持心灵的宁静与平衡。\n\nAI助手需要温和且富有同情心地引导雨桐进行自我反思，并根据她的需求推荐相关的资源或设置提醒。",
+      "expected_response": "\nAI助手应该首先以温和且富有同情心的方式问候雨桐，并询问她今天是否需要任何特别的引导主题。AI可以根据雨桐的兴趣和情绪，生成一组反思问题，例如“今天你在哪些方面感到特别满足？”或者“你觉得最近有什么事情让你感到挑战重重？”\n\n接下来，AI可以根据这些问题生成相应的深度分析和扩展阅读材料，推荐一些适合雨桐兴趣的文章或书籍，帮助她进一步探索自己感兴趣的领域，并提升自我认知。\n\n此外，AI还可以设置提醒，提醒雨桐在特定时间进行冥想或阅读推荐的资料，以确保她能够持之以恒地进行自我反思和心灵宁静的练习。",
+      "scene_context": "雨桐希望AI助手能够引导她进行自我反思，并提供一些具体的反思问题和资源推荐。她今天特别想要关注的主题包括：自我满足感的来源、近期的挑战、以及如何更好地接受和应对情绪波动。此外，她希望AI助手能够推荐一些关于冥想的文章或书籍，并设置每日提醒，帮助她保持心灵的宁静与平衡。",
+      "personalized_query": "今天的阳光透过树叶洒在我的花园里，风轻轻地吹，花儿们静静地绽放。我想在这样的美景中进行冥想，深入地自我反思，寻找心灵的宁静。\n\nAI助手，我今天特别想要关注一下自我满足感的来源，近期的挑战，以及如何更好地接受和应对情绪波动。能否给我一些引导和建议，帮助我开始今天的冥想？如果能推荐一些关于冥想的文章或书籍，那就更好了。",
+      "neutralized_query": "<neutralized_query>\n我想进行冥想，深入自我反思，寻找心灵的宁静。我特别想要关注自我满足感的来源、近期的挑战，以及如何更好地接受和应对情绪波动。能否给我一些引导和建议，帮助我开始冥想？如果能推荐一些关于冥想的文章或书籍，那就更好了。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "宠物健康：雨桐可能养有宠物，可以提供宠物常见健康问题的建议，并提醒定期检查。",
+      "available_apis": {
+        "getPetHealthTips": {
+          "arguments": [
+            "pet_type",
+            "health_issue"
+          ],
+          "description": "Provides advice on common health issues for the specified type of pet."
+        },
+        "setReminder": {
+          "arguments": [
+            "reminder_type",
+            "date",
+            "time"
+          ],
+          "description": "Sets a reminder for specified events, such as regular pet health check-ups."
+        }
+      },
+      "scene_desc": "雨桐是一名67岁的退休医生，她喜欢园艺、古典音乐并且对探索新知识感兴趣。她可能养有宠物，并且注重宠物的健康问题。今天，她想要了解如何处理宠物的某些健康问题，并且希望能够设置提醒，以便定期检查宠物的健康状态。基于她的个性和偏好，雨桐希望通过温和且富有同情心的对话方式获得帮助。\n\n在一个典型的场景中，雨桐可能会在一个安静的下午，坐在她的花园里，通过终端上的AI助手来咨询关于她宠物健康的问题。",
+      "expected_response": "根据雨桐的persona描述，她是一位温和且好奇心强的退休医生，AI应该首先温和地询问她具体关注的宠物健康问题和宠物的类型。AI可以提供相关的健康建议，并根据她的偏好推荐一些实用的内容，例如如何保持宠物健康的小贴士。\n\n接下来，AI应该询问她是否希望设置提醒，以便定期检查宠物的健康状态。通过这些步骤，AI能够顺畅自然地引导雨桐获得所需的信息，同时保持交流的简洁明了和温和同情的方式。\n\n另外，AI可以利用可用的API功能，如提供常见健康问题的建议，并设置定期检查提醒，以便帮助雨桐更好地管理宠物的健康。",
+      "scene_context": "雨桐的宠物是一只12岁的金毛犬，最近出现了一些健康问题。她想要了解如何处理以下几个问题：\n1. 宠物的皮肤瘙痒和脱毛。\n2. 宠物的食欲下降和体重减轻。\n3. 如何预防宠物的关节问题和保持健康的体重。\n\n雨桐希望AI助手帮助她制定一个定期检查宠物健康的提醒计划，例如每月一次的健康检查提醒。",
+      "personalized_query": "今天的下午，我坐在花园里，看着满是花朵的景色，闻着空气中淡淡的花香。我的金毛犬在一旁打盹，但我最近注意到它有些不适。我决定利用这安静的时间，通过终端上的AI助手，了解一下它的健康问题。\n\n\"你好，我的金毛犬最近经常皮肤瘙痒，还出现了一些脱毛的情况。你可以告诉我该如何解决这个问题吗？\"",
+      "neutralized_query": "<neutralized_query>\n我的宠物最近经常皮肤瘙痒，还出现了一些脱毛的情况。你可以告诉我该如何解决这个问题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社区诊所咨询：雨桐偶尔会在社区诊所为邻里提供健康咨询，保持自己作为医生的专业精神。",
+      "available_apis": {
+        "provideHealthInformation": {
+          "arguments": [
+            "question"
+          ],
+          "description": "Provides health information or advice based on the question asked by the user."
+        }
+      },
+      "scene_desc": "雨桐正在社区诊所为邻里提供健康咨询。今天，她面对的是一位年长的邻居，他最近感觉胸口有点不适，担心自己的心脏可能出了问题。雨桐希望利用她的AI助手来查询一些最新的医学信息，帮助她为这位邻居提供更准确的建议。",
+      "expected_response": "\n根据雨桐的persona，她是一位退休医生，时而会在社区诊所提供健康咨询。AI应该能够理解并支持她的专业需求。首先，AI应该询问具体的症状和时间线，以便提供更精准的医学信息。接着，AI可以通过联网搜索最新的相关医学资料，为她提供最新的研究和诊疗建议。AI还应该能够提供一些相关的医学文献汇总，帮助雨桐做出更有根据的建议。最后，AI可以生成一个简洁明了的报告，让她能够清晰地向邻居解释和建议下一步的行动，例如去医院做进一步检查或采取某些预防措施。整个过程中，AI应该用温和且富有同情心的方式沟通，以契合雨桐的偏好。",
+      "scene_context": "雨桐的邻居最近感觉胸口不适，担心可能是心脏问题。为了提供准确的建议，雨桐需要查询以下信息：\n1. 胸痛的常见原因及其症状差异，包括心绞痛、心肌梗死、胃食管反流病（GERD）、肋软骨炎等。\n2. 心脏疾病的最新诊疗指南和推荐的初步处理措施。\n3. 最新的医学研究和文献汇总，特别是关于老年人心脏健康的研究。\n\nAI助手需要通过联网搜索获取这些信息，并以简洁、结构化的方式呈现，例如使用Markdown或JSON格式，以便雨桐能够快速理解和应用这些信息来提供咨询。",
+      "personalized_query": "我的邻居最近总感觉胸口不适，很担心是心脏问题。能帮我查询一下胸痛的常见原因及其症状差异吗？比如心绞痛、心肌梗死、胃食管反流病（GERD）和肋软骨炎。不用太复杂，简洁明了就好。谢谢。",
+      "neutralized_query": "<neutralized_query>\n能帮我查询一下胸痛的常见原因及其症状差异吗？比如心绞痛、心肌梗死、胃食管反流病（GERD）和肋软骨炎。简洁明了即可。\n</neutralized_query>"
+    }
+  ]
+}

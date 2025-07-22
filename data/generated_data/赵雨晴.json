@@ -1,0 +1,248 @@
+{
+  "Demographics": {
+    "Age": 28,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "在某国际公益组织担任项目经理",
+    "Name": "赵雨晴"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "热衷协会运作和社会正义",
+      "喜欢旅行探索不同文化",
+      "对摄影有浓厚兴趣，尤其是风景摄影",
+      "善于与人沟通，喜欢结交新朋友",
+      "非常重视家庭和朋友"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常用于寻找不同地方的旅游景点信息和摄影技巧",
+    "Usage_Pattern": "通常会向AI询问关于新摄影技巧的建议或最新的旅游景点推荐",
+    "Emotion_Pattern": "偶尔会表达对生活忙碌的压力和寻求AI的建议来减压",
+    "Purchase_Pattern": "偏好购买高质量摄影设备和旅行配件，但对价格较为敏感"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢明确且详细的回答，特别是关于旅行和摄影方面的建议",
+    "Preferred_Formats": "简洁的列表格式会很受欢迎",
+    "Preferred_Workflows": "喜欢一步一步指导，尤其是在尝试新技能或计划旅行时，如果需要更多的信息会主动提问"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：作为某国际公益组织的项目经理，赵雨晴需要跟踪任务进度、分配任务、设置截止日期，以确保项目顺利进行。",
+      "available_apis": null,
+      "scene_desc": "赵雨晴正在管理一个国际公益项目，项目涉及多个团队成员和合作伙伴。她需要跟踪任务进度，分配任务和设置截止日期，以确保项目顺利进行。由于项目涉及多个团队成员和合作伙伴，她希望AI助手能够帮助她有效地管理项目中的各项任务。她希望AI能够提供一个系统化的任务管理方法，包括跟踪任务进度、分配任务和设置截止日期，以确保项目在规定时间内完成。她还需要AI帮助她生成并跟踪项目的关键里程碑，并在必要时提醒她和团队成员。",
+      "expected_response": "\n根据赵雨晴的persona描述，她是一个善于沟通且注重细节的项目经理，AI应该首先询问具体的项目目标和关键里程碑。AI应该能创建一个任务列表并询问每个任务的负责人和截止日期。AI应该提供一个项目管理工具，通过此工具，赵雨晴可以轻松查看任务进度并进行更新。AI还应该设置定期提醒，以确保团队成员按时完成任务。考虑到赵雨晴重视明确且详细的回答，AI应确保所有任务和截止日期的通知都清晰明确。此外，AI应询问赵雨晴是否需要生成定期的项目进度报告，并自动安排与团队成员的定期会议以讨论项目进展和解决问题。AI还可以帮助她分配新的任务并调整已有任务的优先级，以确保项目顺利进行。",
+      "scene_context": "赵雨晴正在管理的项目是“全球植树计划”，目标是在一年内植树100万棵。项目的关键里程碑包括：\n1. 第一个季度结束前找到并联系到合作伙伴。\n2. 第二个季度结束前完成植树地点的勘察和规划。\n3. 第三个季度结束前开始大规模的植树活动。\n4. 项目结束前，完成所有植树活动并确保树木的成活率达到90%。\n\n当前的任务列表包括：\n1. 联系并确认合作伙伴（负责人：李华，截止日期：1月31日）。\n2. 规划并勘察植树地点（负责人：王敏，截止日期：4月30日）。\n3. 招募并培训志愿者（负责人：陈刚，截止日期：5月31日）。\n4. 采购植树所需的物资（负责人：赵磊，截止日期：6月30日）。\n5. 开展植树活动（负责人：张丽，截止日期：9月30日）。\n6. 跟踪并确保树木的成活率（负责人：孙梅，截止日期：12月31日）。\n\n赵雨晴希望AI助手能够：\n1. 创建和跟踪任务列表。\n2. 提醒任务负责人即将到来的截止日期。\n3. 自动生成每月的项目进度报告。\n4. 安排每周一次的团队会议，讨论项目进展和解决问题。",
+      "personalized_query": "嗨，我需要你帮我管理一下我们“全球植树计划”的任务。首先，我需要一个系统化的任务管理方法，能够跟踪任务进度、分配任务和设置截止日期。可以帮我整理一下当前的任务列表吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一个系统化的任务管理方法，能够跟踪任务进度、分配任务和设置截止日期。可以帮我整理一下当前的任务列表吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：赵雨晴经常需要协调会议时间、发送邀请、生成会议纪要，确保团队成员和合作伙伴能够顺利参加会议。",
+      "available_apis": null,
+      "scene_desc": "赵雨晴作为某国际公益组织的项目经理，需要协调安排一次涉及多个团队成员和合作伙伴的在线会议，以讨论即将开展的一个新项目。她希望确保所有相关人员能够顺利参加会议，并且会议的时间能够尽量方便所有人。会议结束后，她还需要生成并分发会议纪要，以确保每个参与者都清楚讨论的内容和后续的行动计划。\n\n在一个忙碌的工作日上午，赵雨晴打开了AI助手，准备开始这项任务。她需要AI帮助她选择合适的会议时间，发送邀请邮件，并在会议结束后生成会议纪要。",
+      "expected_response": "根据赵雨晴的persona描述，她是一个善于沟通且喜欢明确细节的人，AI应该能够迅速理解并响应她的需求。AI应该首先询问需要邀请哪些团队成员和合作伙伴，并获取他们的邮箱地址。接着，AI应该询问是否有特定的时间段（如上午或下午）或日期范围需要考虑，以便找到一个适合所有人的会议时间。\n\nAI还应该通过访问企业办公软件或日历系统，检查各个团队成员和合作伙伴的可用时间，建议几个可选的会议时间段，并让赵雨晴确认。确认后，AI应该自动设置会议时间，并生成邀请邮件，内容包括会议时间、地点（如在线会议链接）和预定的议程。\n\n在会议结束后，AI应该迅速生成会议纪要，包含会议中讨论的主要内容、决议和后续的行动计划。AI还应该询问赵雨晴是否需要对会议纪要进行任何修改或添加，然后将最终版本分发给所有与会者。\n\n总体来说，AI需要提供详细且明确的指导，每一步操作都能够帮助赵雨晴有效地安排和管理会议，确保信息的准确传达和后续工作的顺利进行。",
+      "scene_context": "赵雨晴需要邀请的团队成员和合作伙伴如下：\n1. 李华（lihua@example.com）\n2. 王丽（wangli@example.com）\n3. 张伟（zhangwei@example.com）\n4. 陈芳（chenfang@example.com）\n5. 合作伙伴A：David Johnson（david.johnson@example.com）\n6. 合作伙伴B：Emily Clark（emily.clark@example.com）\n\n会议时间的可选范围：\n- 日期范围：下周一至周五\n- 时间段：上午9点至12点，下午1点至4点\n\n会议预定议程：\n1. 项目简介\n2. 团队介绍\n3. 项目时间表和任务分配\n4. 问答环节\n\n赵雨晴希望确保所有人的可用时间，并在会议结束后生成包含以下内容的会议纪要：\n- 会议中讨论的主要内容\n- 做出的主要决议\n- 后续行动计划和负责人",
+      "personalized_query": "嗨，小助手，我需要组织一次在线会议。参与者包括我们团队的李华、王丽、张伟、陈芳，还有合作伙伴David Johnson和Emily Clark。会议的日期范围是在下周一到周五，时间是上午9点到12点，或下午1点到4点。\n\n你能帮我确认大家的可用时间，并按照确定的时间发送会议邀请吗？",
+      "neutralized_query": "<neutralized_query>\n我需要组织一次在线会议，参与者包括团队成员和合作伙伴。会议的日期范围是在下周一到周五，时间是上午9点到12点，或下午1点到4点。你能帮我确认所有参与者的可用时间，并按照确定的时间发送会议邀请吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：赵雨晴经常旅行探索不同文化，需要规划出差行程、旅行路线和景点推荐，以便合理安排时间和行程。",
+      "available_apis": null,
+      "scene_desc": "赵雨晴准备进行一次出差，以探索新的摄影地点和不同的文化。她需要规划出差行程，包括交通方式、住宿安排、旅行路线以及景点推荐。她希望这次出差能够高效且充实地进行，既能完成工作任务，又能探索到适合拍摄的美丽景点。",
+      "expected_response": "\nAI应该首先询问赵雨晴是否有具体的出差日期和目的地。接着，AI可以通过联网搜索获取目的地的最佳旅行路线和交通方式，推荐合适的航班或火车班次，并提供相应的预订链接。AI还应该根据赵雨晴的偏好，推荐适合的酒店和餐厅，并提供详细的评价和价格信息。在规划旅行路线时，AI应该推荐一些适合风景摄影的景点，并为她生成一个详细的行程表，包括每天的活动安排和拍摄机会。最后，AI应该询问赵雨晴是否需要更多的信息或有其他特殊需求，以确保她的出差计划能够顺利进行。",
+      "scene_context": "赵雨晴准备出差的具体目的地为日本东京，出差日期为2023年11月15日至11月20日。她希望从上海出发，乘坐飞机前往东京。她对风景摄影特别感兴趣，希望能够拍摄到富士山、浅草寺和新宿御苑的美景。赵雨晴还需要安排住宿，首选靠近市中心的酒店，并希望能够有推荐的当地餐厅。",
+      "personalized_query": "你好，我要准备一趟出差去日本东京，从11月15日到11月20日。需要帮我规划一下行程，包括交通方式、住宿安排和旅行路线，同时，帮我推荐一些适合拍风景的景点可以吗？",
+      "neutralized_query": "<neutralized_query>\n需要帮我规划一趟从11月15日到11月20日的东京出差行程，包括交通方式、住宿安排和旅行路线，并推荐一些适合拍风景的景点。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "酒店和餐厅推荐：在旅行或出差期间，赵雨晴需要找到适合的酒店和餐厅以满足住宿和饮食需求。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "getLocationDetails": {
+          "arguments": [
+            "location_id"
+          ],
+          "description": "Get detailed information about a specific location (e.g., hotel or restaurant) such as address, rating, and reviews."
+        }
+      },
+      "scene_desc": "赵雨晴正在计划一次出差，需要找到一家既舒适又价格合理的酒店，同时也希望能够找到一些当地有特色的餐馆，以便在闲暇时间品尝当地美食。由于她对价格较为敏感，因此希望AI能够推荐一些性价比高的选择。在寻找酒店时，她希望能够获取关于酒店的详细信息，如地址、评分和用户评价。在选择餐馆时，她希望AI能够根据她的饮食偏好推荐一些适合的餐馆，并提供相关评价和菜单信息。",
+      "expected_response": "\nAI应该首先询问赵雨晴的具体目的地和预定的出行日期，以便更精确地推荐酒店和餐馆。接着，AI应该利用联网搜索功能来查找目的地附近的高性价比酒店，并提供每家酒店的详细信息，包括地址、评分和用户评价。同时，AI应该根据赵雨晴的饮食偏好推荐一些特色餐馆，并提供这些餐馆的评价和推荐菜品信息。如果赵雨晴对某些推荐的酒店或餐馆感兴趣，AI还应该能够获取更详细的信息，如具体位置、联系方式等。最后，AI应该确认赵雨晴是否需要进一步的帮助，例如预订酒店或餐馆，或者查找更多的选择。",
+      "scene_context": "赵雨晴计划出差的具体目的地是上海，出行日期为下周一至周五。她希望找到离上海浦东国际机场较近的酒店，并且预算在每晚500元以内。对于餐馆，她喜欢中餐和日本料理，希望能够品尝到当地有特色的菜肴，并对价格合理（每餐预算在100元左右）的餐馆感兴趣。",
+      "personalized_query": "嘿，AI助手，我下周一到周五要出差去上海，计划找一个离浦东机场近一点的酒店，预算每晚500元以内。能帮我找一些性价比高的推荐吗？另外，我也想尝试一些当地有特色的中餐或日本料理的餐馆，每餐预算在100元左右，你有推荐吗？",
+      "neutralized_query": "<neutralized_query>\n需要推荐上海浦东机场附近性价比高的酒店，预算每晚500元以内。此外，想找一些当地有特色的中餐或日本料理餐馆，每餐预算在100元左右。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：在工作中，赵雨晴需要修改、整理或优化项目相关的文档内容，以确保信息准确和清晰。",
+      "available_apis": {
+        "checkGrammarAndSpelling": {
+          "arguments": [
+            "document"
+          ],
+          "description": "Checks the document for grammar and spelling errors and suggests corrections."
+        },
+        "optimizeStructure": {
+          "arguments": [
+            "document_type",
+            "document_content"
+          ],
+          "description": "Reorganizes and optimizes the structure of the document based on its type and target audience."
+        },
+        "updateContent": {
+          "arguments": [
+            "document",
+            "new_content"
+          ],
+          "description": "Updates the document with the new content provided."
+        },
+        "manageContent": {
+          "arguments": [
+            "document",
+            "add_or_remove",
+            "content"
+          ],
+          "description": "Adds or removes content from the document based on the project requirements."
+        },
+        "ensureConsistency": {
+          "arguments": [
+            "document"
+          ],
+          "description": "Ensures that the document's terminology, format, and style are consistent throughout."
+        }
+      },
+      "scene_desc": "赵雨晴正在整理一个她负责的公益项目的文档。这个文档涉及多个部分，包括项目目标、进展报告、预算明细和合作伙伴信息。她希望通过AI助手来检查文档中的语法和拼写错误，确保内容的一致性，并优化文档的结构，使其更清晰易读。",
+      "expected_response": "\n根据赵雨晴的persona描述，她喜欢明确且详细的回答，并且在尝试新技能或计划旅行时，喜欢一步一步的指导。因此，AI应该首先确认赵雨晴是否希望对整个文档进行检查还是具体部分。接着，AI应该使用语法和拼写检查功能扫描文档，突出并建议修改错误。接下来，AI应确保文档的术语、格式和风格的一致性。之后，AI应优化文档的结构，可能需要赵雨晴选择文档类型和目标受众。最后，AI应该逐步指导赵雨晴完成每一步，并在必要时提供详细的优化建议，以确保文档的准确和清晰。",
+      "scene_context": "赵雨晴正在整理的公益项目文档包含以下几个部分：\n1. 项目目标：描述项目的背景、目的和预期成果。\n2. 进展报告：总结项目的当前进展情况，列出已完成的任务和下一步计划。\n3. 预算明细：详细列出项目的各项开支，包括预算分配和实际支出情况。\n4. 合作伙伴信息：列出所有参与项目的合作伙伴及其角色和贡献。\n\n赵雨晴希望AI助手帮助她：\n1. 对整个文档进行语法和拼写错误检查。\n2. 确保文档在术语、格式和风格上的一致性。\n3. 优化文档的结构，使其更清晰易读。\n4. 提供详细的优化建议，特别是针对不同部分的特定需求。\n\n文档片段示例（进展报告部分）：\n```\n### 项目进展报告\n\n#### 已完成任务\n- 完成了项目的初步调研和需求分析。\n- 确定了合作伙伴并签署了合作协议。\n- 制定了详细的项目计划。\n\n#### 下一步计划\n- 开展社区问卷调查，收集居民反馈。\n- 制定详细的实施方案和时间表。\n- 启动项目的第一阶段实施。\n```",
+      "personalized_query": "嗨，AI助手，我现在正在整理一个公益项目的文档，有些地方需要你的帮助。\n\n首先，我希望你能帮我对整个文档进行语法和拼写错误的检查。你能帮忙吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮助我检查整个文档中的语法和拼写错误。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：赵雨晴需要获取目的地的天气、签证、货币兑换等相关信息，以便做好旅行前的准备工作。",
+      "available_apis": {
+        "weatherInfo": {
+          "arguments": [
+            "destination",
+            "travel_dates"
+          ],
+          "description": "Gets the weather forecast for the destination during the travel dates."
+        },
+        "visaInfo": {
+          "arguments": [
+            "nationality",
+            "destination"
+          ],
+          "description": "Provides visa requirements and application information for the specified nationality traveling to the destination."
+        },
+        "currencyExchange": {
+          "arguments": [
+            "home_currency",
+            "destination_currency"
+          ],
+          "description": "Gets the current exchange rate between the home currency and the destination currency."
+        }
+      },
+      "scene_desc": "赵雨晴正在计划一次前往日本的旅行。作为一个热衷于旅行探索不同文化和风景摄影的人，她需要提前做好充分的准备，包括了解当地的天气情况、签证要求和货币兑换信息。她希望通过AI助手获取这些信息，以确保旅行顺利并能尽情享受拍摄和文化体验的乐趣。她的旅行日期已经确定为下个月的中旬，因此她需要具体的天气预报和签证办理时间。同时，她对高质量的摄影设备和旅行配件非常重视，希望能获取一些关于在日本购买这些物品的信息。",
+      "expected_response": "AI应该首先询问赵雨晴的旅行目的地和具体日期，以便获取准确的天气预报。然后，AI应根据她的中国国籍提供详细的签证要求和办理步骤，包括需要准备的文件和办理时间。此外，AI应查询当前的人民币对日元的汇率，并提供一些兑换货币的建议，如推荐可信的兑换地点或使用信用卡的优势。\n\n考虑到赵雨晴对高质量摄影设备和旅行配件的偏好，AI还应主动推荐一些在日本购买摄影设备的好去处，包括知名的相机店和电子产品商店。为了让赵雨晴的准备工作更加高效，AI可以将所有获取的信息整理成一个简洁的列表格式，并询问她是否需要进一步的帮助，例如获取详细的购买链接或更多的旅行建议。最后，AI可以询问赵雨晴是否需要设置一个提醒，以确保她在旅行前能够按时完成所有准备工作。",
+      "scene_context": "赵雨晴的旅行日期为下个月的中旬，目的地是日本。她需要获取以下信息：\n1. 日本在她旅行期间的具体天气预报\n2. 中国国籍的日本签证要求和办理步骤，包括所需文件和办理时间\n3. 当前人民币对日元的汇率以及兑换货币的建议\n4. 在日本购买高质量摄影设备和旅行配件的推荐地点，包括知名的相机店和电子产品商店",
+      "personalized_query": "嗨，今天我有点忙，还得安排下个月去日本的旅行，有点小紧张。你能帮我查一下下个月中旬，日本的天气预报吗？我想知道大概是什么样的天气，好提前准备衣物。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n你能帮我查一下下个月中旬，日本的天气预报吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据赵雨晴的摄影兴趣，AI可以推荐新摄影技巧、设备或特定主题的摄影活动，以满足她的爱好。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "赵雨晴刚刚完成了一段繁忙的工作，现在她想放松一下，学习一些新的摄影技巧，同时也想看看有没有什么新的摄影设备可以提升她的拍摄效果。她打开了AI助手，寻求一些个性化的摄影技巧和设备推荐。",
+      "expected_response": "\nAI应该首先识别赵雨晴的摄影兴趣，了解她对风景摄影的浓厚兴趣。然后，AI应该根据她的需求，提供一些最新的风景摄影技巧，例如如何利用光线、角度选择和构图技巧等。接着，AI应该推荐一些高质量的摄影设备，如最新的单反相机、镜头和三脚架，确保这些设备在价格上具有较高性价比。此外，AI还可以提供一些即将举行的摄影活动或展览的信息，以便她参与。最后，AI应该以简洁的列表格式汇总所有推荐内容，并询问她是否需要更多详细信息或进一步的指导。",
+      "scene_context": "赵雨晴对风景摄影特别感兴趣，她希望能够提高自己在光线运用、角度选择和构图方面的技巧。此外，她最近听说有一些新的相机和镜头发布，希望能了解这些设备的详细信息。她还对摄影展览和活动有兴趣，希望能通过AI助手了解近期举行的相关活动。\n\n具体需求如下：\n1. 提供最新的风景摄影技巧。\n2. 推荐高性价比的摄影设备（相机、镜头、三脚架）。\n3. 提供即将举行的摄影展览或活动信息。",
+      "personalized_query": "嗨，刚刚结束了繁忙的一周，终于有时间可以放松一下了。我最近对风景摄影特别感兴趣，想提高一些光线运用、角度选择和构图方面的技巧。你有什么新的摄影技巧建议吗？",
+      "neutralized_query": "<neutralized_query>\n我最近对风景摄影特别感兴趣，想提高一些光线运用、角度选择和构图方面的技巧。你有什么新的摄影技巧建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：在忙碌的工作之余，赵雨晴可能会寻求放松，AI可以根据她的喜好推荐电影或电视剧，帮助她减压。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's preferences and interests based on their past interactions or provided information."
+        },
+        "recommendMoviesOrTVShows": {
+          "arguments": [
+            "preferences"
+          ],
+          "description": "Recommends a list of movies or TV shows based on the given preferences."
+        }
+      },
+      "scene_desc": "在一个忙碌的工作日结束后，赵雨晴觉得有些疲惫，她希望通过观看一部电影或电视剧来放松一下自己。她打开了她的AI助手，开始询问关于影视作品推荐的建议，以帮助她快速找到合适的影片放松身心。",
+      "expected_response": "根据赵雨晴的人设，AI应该能够识别她的偏好，首先询问她是否有特定的电影或电视剧类型偏好（如喜剧、剧情片或纪录片等）。接着，AI应该利用已知的用户偏好数据（如她之前表达过的兴趣和喜欢观看的类型）进行推荐。AI还应该能够通过联网搜索获取最新和最受欢迎的影视作品列表，提供详细的推荐理由（比如为什么这部电影适合她的现状）。最后，AI应该提供多个选择并附上播放链接，确保赵雨晴能够方便地立即观看，同时也可以询问她是否需要进一步的筛选（如片长、语种等）。在整个过程中，AI应保持简洁明了的沟通，避免让赵雨晴感到更多的复杂和压力。",
+      "scene_context": "赵雨晴喜欢的影视类型：喜剧、剧情片和科幻片。她最近看过并喜欢的电影包括《疯狂动物城》和《星际穿越》。她希望AI能够推荐一些最新的、评分较高的影视作品，并提供播放链接。",
+      "personalized_query": "嘿，今天工作有点累，想放松一下，看部电影或者电视剧。能帮我推荐几部不错的片子吗？最近有什么评分高的新片吗？喜剧、剧情片或者科幻片都可以。",
+      "neutralized_query": "<neutralized_query>\n能帮我推荐几部评分高的电影或电视剧吗？喜剧、剧情片或者科幻片都可以。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：赵雨晴可能需要面试新成员或合作伙伴，AI可以帮助她准备面试问题，进行模拟面试练习。",
+      "available_apis": {
+        "generateInterviewQuestions": {
+          "arguments": [
+            "position",
+            "skills"
+          ],
+          "description": "Generates a list of interview questions for a given position and required skills."
+        },
+        "conductMockInterview": {
+          "arguments": [
+            "questions",
+            "candidate_name"
+          ],
+          "description": "Conducts a mock interview session with the given candidate using the provided questions."
+        }
+      },
+      "scene_desc": "赵雨晴即将面试新成员或合作伙伴，身为国际公益组织的项目经理，她希望AI能够帮助她准备面试问题，并进行模拟面试练习。赵雨晴希望面试过程全面且高效，因此她需要一系列针对不同职位和技能的面试问题，以及一个详细且结构化的模拟面试流程。",
+      "expected_response": "根据赵雨晴的persona描述，她是一个外向且注重社会正义的人，喜欢明确且详细的回答，特别是在尝试新技能或需要做出重要决策时。AI应该首先询问赵雨晴面试的具体职位和所需的技能，以生成相关的面试问题列表。接着，AI应通过查询数据库或使用生成面试问题的API，快速准备一系列有针对性的问题。\n\n然后，AI应提供一个详细的模拟面试流程，逐步引导赵雨晴进行问答练习，包括模拟候选人的回答，以便她能更好地评估候选人。AI还应记录赵雨晴的反馈和调整，以便优化后续的面试流程。同时，AI应该询问赵雨晴是否需要附带任何辅助材料，如候选人的简历或项目背景信息。最后，AI应确保记录面试的关键点，并在面试结束后提供总结和建议，帮助赵雨晴做出更好的决策。",
+      "scene_context": "赵雨晴需要面试的具体职位为：项目协调员、市场营销专员和技术支持工程师。她希望AI能够为每个职位准备一系列有针对性的面试问题，并进行模拟面试练习。以下是每个职位的描述和所需技能：\n\n1. 项目协调员：需要具有项目管理经验、良好的沟通能力和团队协作能力。\n2. 市场营销专员：需要擅长市场分析、营销策略制定和社交媒体管理。\n3. 技术支持工程师：需要具备技术问题解决能力、客户服务经验以及相关技术知识。\n\n赵雨晴希望AI能够为每个职位生成10个面试问题，并模拟候选人的回答，以帮助她进行问答练习。同时，她希望AI能够提供候选人的简历和项目背景信息。",
+      "personalized_query": "今天又有些忙碌，但为了面试新成员，我需要做好充分的准备。先从项目协调员开始吧，我需要一些有针对性的面试问题。你可以给我10个适用于项目协调员职位的面试问题吗？",
+      "neutralized_query": "<neutralized_query>\n我需要10个适用于项目协调员职位的面试问题。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：赵雨晴偏好购买高质量摄影设备和旅行配件，AI可以根据她的需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "productRecommendation": {
+          "arguments": [
+            "userPreferences",
+            "category"
+          ],
+          "description": "Recommends products based on user preferences and category, providing purchase links for each recommended item."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response, which may include product reviews or comparisons."
+        }
+      },
+      "scene_desc": "赵雨晴正在寻找高质量的摄影设备和旅行配件。她希望AI能够根据她的需求推荐合适的商品，并提供购买链接。由于她对价格较为敏感，因此希望能够获得一些高性价比的选择。她最近参加了一些摄影课程，特别关注最新的单反相机以及适合长途旅行的摄影设备和配件，比如三脚架、镜头和高质量的旅行背包。",
+      "expected_response": "\n根据赵雨晴的persona描述，她对摄影有浓厚兴趣，并且在购买摄影设备和旅行配件时对价格较为敏感。AI应该首先询问她具体需要哪些类型的摄影设备和配件，例如单反相机、镜头、三脚架或旅行背包。接着，AI可以利用webSearch功能找到一些高性价比的推荐，并提供详细的产品信息，包括价格、用户评价和购买链接。考虑到她喜欢明确且详细的回答，AI应该将这些信息整理成简洁的列表格式，并提供比较不同产品的优缺点的详细说明。此外，AI还应询问她是否有特定的品牌或型号偏好，以便提供更符合她期望的推荐。最后，AI可以提供几个在线课程或摄影论坛的链接，帮助她进一步了解这些设备的使用技巧和用户体验。",
+      "scene_context": "赵雨晴最近参加了一些摄影课程，特别关注最新的单反相机以及适合长途旅行的摄影设备和配件。她需要查询的设备包括：\n1. 单反相机 - 预算在5000元以内，关注佳能和尼康品牌。\n2. 镜头 - 希望能拍摄风景和人像，预算在3000元以内。\n3. 三脚架 - 要求轻便、稳定，预算在1000元以内。\n4. 高质量的旅行背包 - 需要能放下相机及配件，预算在800元以内。\n\n她希望AI能推荐一些高性价比的商品，并提供购买链接。",
+      "personalized_query": "嗨，最近我在找一些高质量的摄影设备和旅行配件。你能推荐一些高性价比的单反相机、镜头、三脚架和旅行背包给我吗？最好能提供购买链接。感谢！",
+      "neutralized_query": "<neutralized_query>\n我在找一些高质量的摄影设备和旅行配件。你能推荐一些高性价比的单反相机、镜头、三脚架和旅行背包吗？最好能提供购买链接。\n</neutralized_query>"
+    }
+  ]
+}

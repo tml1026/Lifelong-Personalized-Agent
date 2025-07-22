@@ -1,0 +1,232 @@
+{
+  "Demographics": {
+    "Age": 50,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "湖南某城市的农民工，擅长修理机械",
+    "Name": "陈思羽"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢独处和安静的环境",
+      "享受解谜和探索性的活动",
+      "对机械和工具等硬件有浓厚的兴趣",
+      "欣赏简单、直接和实用的东西"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢简洁明了的信息，特别是能够快速应用到实际中的内容",
+    "Usage_Pattern": "经常查询与机械修理相关的资料和新工具的使用说明，有时会查找与钓鱼有关的技巧和地点",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "偏好购买高性价比且耐用的工具和设备，购物时会注重实用性和长久性"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢具体且简明的指导，特别是有清晰步骤和实例的说明",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "倾向于从简单到复杂的解决方案，喜欢明确每一步的操作方法，避免繁琐和模糊的描述"
+  },
+  "scenes": [
+    {
+      "scene_type": "代码调试：陈思羽在修理机械时，可能需要调试机械设备的控制代码，以确保其正常运行。",
+      "available_apis": null,
+      "scene_desc": "陈思羽正在修理一台农业机械，但机械设备的控制代码出现了问题，设备未能按预期运行。他需要对控制代码进行调试，以确保机械设备能够正常工作。在调试过程中，他使用终端上的AI助手来帮助解决代码问题。",
+      "expected_response": "\n根据陈思羽的persona描述，AI应该表现得非常实用和直接。AI应该首先询问陈思羽具体的代码问题或错误信息，以便快速定位问题。接着，AI应该提供详细而具体的调试步骤，包括可能的代码修改和测试方法。由于陈思羽喜欢简单明了的信息，AI应避免繁琐的解释，直接提供可操作性的指导。AI还可能会推荐相关的在线资源或文档，帮助陈思羽更好地理解和解决问题。最后，AI应确保陈思羽在完成调试后，机械设备能够正常运行，并询问是否还需要进一步的帮助或优化建议。",
+      "scene_context": "陈思羽正在处理的机械控制代码如下：\n\n```cpp\n#include <Wire.h>\n#include <LiquidCrystal_I2C.h>\n\nLiquidCrystal_I2C lcd(0x27, 16, 2);\nconst int motorPin = 9;\nconst int sensorPin = A0;\nint sensorValue = 0;\n\nvoid setup() {\n  lcd.begin();\n  lcd.backlight();\n  pinMode(motorPin, OUTPUT);\n  pinMode(sensorPin, INPUT);\n}\n\nvoid loop() {\n  sensorValue = analogRead(sensorPin);\n  lcd.setCursor(0, 0);\n  lcd.print(\"Sensor: \");\n  lcd.print(sensorValue);\n  if (sensorValue < 500) {\n    digitalWrite(motorPin, HIGH);\n  } else {\n    digitalWrite(motorPin, LOW);\n  }\n  delay(1000);\n}\n\n```\n\n他遇到的具体问题是：即使传感器值大于500，电机仍然未能停止。",
+      "personalized_query": "我正在修理一台农业机械，机器的控制代码有点问题。即使传感器值大于500，电机仍然不停。先简单描述一下代码：\n\n```cpp\n#include <Wire.h>\n#include <LiquidCrystal_I2C.h>\n\nLiquidCrystal_I2C lcd(0x27, 16, 2);\nconst int motorPin = 9;\nconst int sensorPin = A0;\nint sensorValue = 0;\n\nvoid setup() {\n  lcd.begin();\n  lcd.backlight();\n  pinMode(motorPin, OUTPUT);\n  pinMode(sensorPin, INPUT);\n}\n\nvoid loop() {\n  sensorValue = analogRead(sensorPin);\n  lcd.setCursor(0, 0);\n  lcd.print(\"Sensor: \");\n  lcd.print(sensorValue);\n  if (sensorValue < 500) {\n    digitalWrite(motorPin, HIGH);\n  } else {\n    digitalWrite(motorPin, LOW);\n  }\n  delay(1000);\n}\n```\n\n麻烦帮我看一下，为什么传感器值大于500时，电机还是不停？",
+      "neutralized_query": "<neutralized_query>\n请帮我看一下下面这段代码，为什么传感器值大于500时，电机还是不停？\n\n```cpp\n#include <Wire.h>\n#include <LiquidCrystal_I2C.h>\n\nLiquidCrystal_I2C lcd(0x27, 16, 2);\nconst int motorPin = 9;\nconst int sensorPin = A0;\nint sensorValue = 0;\n\nvoid setup() {\n  lcd.begin();\n  lcd.backlight();\n  pinMode(motorPin, OUTPUT);\n  pinMode(sensorPin, INPUT);\n}\n\nvoid loop() {\n  sensorValue = analogRead(sensorPin);\n  lcd.setCursor(0, 0);\n  lcd.print(\"Sensor: \");\n  lcd.print(sensorValue);\n  if (sensorValue < 500) {\n    digitalWrite(motorPin, HIGH);\n  } else {\n    digitalWrite(motorPin, LOW);\n  }\n  delay(1000);\n}\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码优化：在修理和维护机械设备时，陈思羽可能需要优化设备控制代码，提高机械的运行效率和稳定性。",
+      "available_apis": null,
+      "scene_desc": "陈思羽正在修理一台机械设备，但发现设备的控制代码有些地方需要优化，以提高设备的运行效率和稳定性。他决定寻求AI助手来帮助他进行代码优化工作。陈思羽打开AI助手，准备输入自己的需求。\n\n具体场景：陈思羽在一台机械设备前，他怀疑控制代码中的某些部分可能导致了设备的低效运行。他打开终端上的AI助手，希望获得一些具体的代码优化建议。他描述了当前代码的运行情况，并将代码片段输入到AI助手中，让它分析并提出优化建议。",
+      "expected_response": "\n根据陈思羽的persona，AI应该能够提供具体且简明的指导，特别是有清晰步骤和实例的说明。AI首先应该确认用户输入的代码片段，并询问具体需要优化的部分或存在的问题。接着，AI可以利用网络搜索功能查询相关的代码优化技巧，并结合陈思羽提供的代码片段，给出几种可能的优化方案。AI应该避免繁琐和模糊的描述，尽量提供明确的每一步操作方法和实际示例。最后，AI可以建议陈思羽将优化后的代码进行测试，并询问是否需要进一步的帮助或提供更多的优化技术资料。如果有必要，AI还可以推荐一些高性价比的工具或设备以支持代码优化工作。\n",
+      "scene_context": "陈思羽需要优化的机械设备控制代码片段如下：\n\n```python\n# Original control code for the mechanical device\ndef control_device(speed, load):\n    if speed > 100:\n        speed = 100\n    if load > 50:\n        load = 50\n    motor_power = speed * 0.5 + load * 0.3\n    if motor_power > 80:\n        motor_power = 80\n    # Control motor\n    motor.set_power(motor_power)\n    return motor_power\n\n# Main function\ndef main():\n    current_speed = get_current_speed()\n    current_load = get_current_load()\n    control_device(current_speed, current_load)\n\nif __name__ == \"__main__\":\n    main()\n```\n\n陈思羽怀疑代码中的速度和负载限制逻辑以及电机功率计算可能导致设备的低效运行，希望AI助手能够提供优化建议以提高运行效率和稳定性。",
+      "personalized_query": "AI助手，我怀疑设备的控制代码有些地方可以优化一下，提高运行效率和稳定性。我粘了一段代码，你帮我看看哪里可以改进吗？\n\n```python\n# Original control code for the mechanical device\ndef control_device(speed, load):\n    if speed > 100:\n        speed = 100\n    if load > 50:\n        load = 50\n    motor_power = speed * 0.5 + load * 0.3\n    if motor_power > 80:\n        motor_power = 80\n    # Control motor\n    motor.set_power(motor_power)\n    return motor_power\n\n# Main function\ndef main():\n    current_speed = get_current_speed()\n    current_load = get_current_load()\n    control_device(current_speed, current_load)\n\nif __name__ == \"__main__\":\n    main()\n```",
+      "neutralized_query": "<neutralized_query>\n我怀疑设备的控制代码有些地方可以优化一下，提高运行效率和稳定性。你帮我看看哪里可以改进吗？\n\n```python\n# Original control code for the mechanical device\ndef control_device(speed, load):\n    if speed > 100:\n        speed = 100\n    if load > 50:\n        load = 50\n    motor_power = speed * 0.5 + load * 0.3\n    if motor_power > 80:\n        motor_power = 80\n    # Control motor\n    motor.set_power(motor_power)\n    return motor_power\n\n# Main function\ndef main():\n    current_speed = get_current_speed()\n    current_load = get_current_load()\n    control_device(current_speed, current_load)\n\nif __name__ == \"__main__\":\n    main()\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：陈思羽需要记录机械设备的维护日志和操作手册，整理和优化这些文档内容以供日后参考。",
+      "available_apis": null,
+      "scene_desc": "陈思羽在修理机械时，需要记录维修日志和编写操作手册，以便日后能够快速查阅和参考。他希望文档内容简洁明了，并能够按步骤清晰展示维修和操作流程，同时避免使用过于复杂的术语或模糊的描述。",
+      "expected_response": "根据陈思羽的persona描述，AI应该首先询问具体需要记录的维修日志内容和操作手册的结构。AI应该提供一个模板或框架，帮助他按步骤列出重要的维修步骤和注意事项。AI还应该建议简明的描述方式，确保每一步都能清晰、直接地表达。为确保文件的易读性和实用性，AI可能会建议添加图示或图片来辅助说明。最后，AI应该提示陈思羽保存文档，并为将来查阅提供文件分类和命名的建议。",
+      "scene_context": "陈思羽最近修理的机械设备包括：\n1. 型号：XYZ123 - 液压泵\n2. 型号：ABC789 - 电动机\n3. 型号：LMN456 - 传送带系统\n\n他需要记录的维修日志包括以下内容：\n- 维修日期\n- 设备型号\n- 具体问题描述\n- 维修步骤和使用的工具\n- 更换的零件或耗材\n- 维修结果和测试情况\n\n操作手册需要包含以下结构和内容：\n1. 设备简介\n2. 操作前准备\n3. 操作步骤（按步骤详细描述，注意事项和警告）\n4. 维护保养（定期检查和润滑，常见问题处理）\n5. 常用工具和零部件清单\n6. 联系方式及售后服务信息",
+      "personalized_query": "今天需要整理修理日志和编写操作手册。先记录一下最近修理液压泵的情况，再编写操作手册。\n\nAI助手，帮我先记录一份液压泵的维修日志，设备型号是XYZ123。这次维修的具体问题是液压泵不输出压力。 维修步骤和使用的工具我等会儿告诉你。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我记录一份液压泵设备型号为XYZ123的维修日志，问题是液压泵不输出压力。维修步骤和使用的工具我等会儿告诉你。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：陈思羽可能需要与设备供应商或客户沟通，撰写专业的电子邮件来询问设备问题或进行技术交流。",
+      "available_apis": {
+        "gatherEmailContent": {
+          "arguments": [
+            "topic",
+            "details"
+          ],
+          "description": "Gathers the necessary details for the email subject and content from Chen Siyu, including the specific issue or technical details to be communicated."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional email to the specified recipients, including the provided subject and body content."
+        }
+      },
+      "scene_desc": "陈思羽在维修一台复杂的机械设备时发现一个零部件有问题，需要立即联系设备供应商进行技术咨询和询问替换零件的可用性。他希望能够通过电子邮件详细描述问题，并附上一些设备的操作数据和照片，以便供应商能够迅速理解问题并提供解决方案。由于陈思羽喜欢独处并且注重实际效果，他希望邮件简洁明了，直接切入主题，并能附带具体的操作步骤和实例说明。",
+      "expected_response": "\nAI会首先询问陈思羽需要沟通的具体设备问题和相关的技术细节，包括设备的型号、问题描述和相关数据。接着，AI会提示陈思羽提供一些设备的照片或操作数据以便更详细地描述问题。然后，AI会根据提供的信息生成一封专业的邮件草稿，内容简洁明了，直接切入主题，且包含具体的操作步骤和实例说明。AI会再询问陈思羽是否需要添加任何其他信息或附件，确认无误后，向指定的设备供应商发送邮件。最后，AI会记录此次邮件的内容和发送情况，以供日后参考。",
+      "scene_context": "陈思羽需要与设备供应商沟通的设备问题具体如下：\n- 设备型号：XYZ-1234\n- 问题描述：设备在运行过程中出现间歇性停机，且伴随异常声响。\n- 相关数据：运行日志显示在特定操作阶段出现电压波动，具体数据见附件。\n- 附件：设备运行日志（PDF格式）和异常声响的录音文件（MP3格式）以及设备照片（JPEG格式）\n\n邮件内容大致如下：\n```\n尊敬的[设备供应商名称]技术支持团队，\n\n您好！\n\n我们正在使用贵公司生产的设备型号XYZ-1234，在近期的运行过程中遇到一个问题。设备在运行过程中出现间歇性停机，并伴随异常声响。为便于您了解详细情况，我们提供了以下信息：\n\n1. 问题描述：\n   - 间歇性停机\n   - 异常声响\n\n2. 相关数据：\n   - 运行日志显示在特定操作阶段出现电压波动，具体数据请参见附件。\n\n3. 附件：\n   - 设备运行日志（PDF格式）\n   - 异常声响的录音文件（MP3格式）\n   - 设备照片（JPEG格式）\n\n请您尽快协助我们分析问题原因，并告知是否需要替换任何零部件。如需更多信息，请随时与我们联系。\n\n感谢您的支持！\n\n此致，  \n敬礼！\n\n陈思羽\n[公司名称]技术部\n[联系方式]\n```",
+      "personalized_query": "我在维修设备遇到问题，需要联系设备供应商。能帮我写一个邮件吗？",
+      "neutralized_query": "<neutralized_query>\n我在维修设备遇到问题，需要联系设备供应商。能帮我写一个邮件吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：陈思羽需要规划出差行程，旅行、访问客户或参加展会等。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for the best travel options, customer visit schedules, and exhibition details based on the given query."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Check the availability of the participants (e.g., Chen Siyu and the clients or exhibitors) for the preferred time slot and suggest a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Send a professional itinerary or meeting invitation email to the selected recipients, including the proposed meeting time and agenda."
+        }
+      },
+      "scene_desc": "陈思羽是一位湖南某城市的农民工，他需要规划一趟出差行程，这次出差的目的是访问客户。由于他擅长修理机械，出差可能涉及到对客户机械设备的检修或技术支持。因此，他需要一个详细的行程计划，包括出行时间、交通方式、住宿安排、客户的具体地址及联系方式等。此外，陈思羽习惯于简洁明了的信息和操作步骤，倾向于使用高性价比且实用的工具和服务。他可能还会希望在出差期间有机会了解当地的钓鱼地点作为休闲活动。",
+      "expected_response": "\n根据陈思羽的persona描述，AI应该会先询问具体的出差需求，例如出行时间、客户地址和联系方式等。AI还应根据他的偏好提供简明的行程安排，包括推荐高性价比且耐用的交通和住宿选项。AI可以利用webSearch功能来查找最合适的出行和住宿方案，并使用calendarCheck功能确认与客户的预约时间。AI还应考虑到陈思羽对钓鱼的兴趣，提供一些当地的钓鱼地点作为出差期间的休闲活动建议。最后，AI应生成一个详细的行程计划，包括所有的出行和预约信息，并询问陈思羽是否需要将行程计划发送到他的电子邮件中以供参考。",
+      "scene_context": "陈思羽需要规划的出差行程信息如下：\n- 出行时间：2023年10月15日到2023年10月20日\n- 出发地点：湖南长沙\n- 目的地：广东深圳\n- 客户地址：深圳市南山区科技园南区**号\n- 客户联系方式：李先生，电话：13800000000\n- 交通方式：高铁\n- 住宿安排：需要经济实惠的酒店，靠近客户公司\n- 休闲活动：希望了解深圳附近的钓鱼地点",
+      "personalized_query": "我要规划一趟出差行程，出行时间是10月15日到10月20日，从湖南长沙到广东深圳，目的是访问客户，需要你帮我详细安排一下，包括高铁票、住宿、以及客户的具体地址和联系方式。",
+      "neutralized_query": "<neutralized_query>\n我要规划一趟出差行程，出行时间是10月15日到10月20日，从湖南到广东，目的是访问客户，需要你帮我详细安排一下，包括交通票、住宿、以及客户的具体地址和联系方式。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：陈思羽在工作之余可能会关注自己的健康，通过跟踪步数和跑步距离来保持身体健康。",
+      "available_apis": {
+        "trackActivity": {
+          "arguments": [
+            "user_id",
+            "date",
+            "activity_type",
+            "steps",
+            "distance"
+          ],
+          "description": "Tracks the user's activity by recording steps and distance for a given date."
+        },
+        "provideHealthAdvice": {
+          "arguments": [
+            "user_id",
+            "activity_data"
+          ],
+          "description": "Analyzes the user's activity data and provides health advice and exercise plans."
+        }
+      },
+      "scene_desc": "陈思羽在工作之余，尤其是在长时间进行机械修理工作后，意识到保持身体健康的重要性。他决定通过跟踪每日步数和跑步距离来监测自己的健康状况，并希望AI助手能帮助他记录和分析这些数据，以便更好地管理自己的健康。此外，他对简单、直接的指导和反馈感兴趣，因此希望操作过程简明易懂，不需要复杂的设置。",
+      "expected_response": "\n根据陈思羽的persona描述，他喜欢简洁明了的信息，并重视实用性，因此AI应该首先询问他当天的步数和跑步距离，并确认日期。接着，AI应记录这些数据，并能分析其健康状况，提供一些健康建议或简单的健身计划。由于陈思羽对复杂和模糊的描述不感兴趣，AI在提供建议时应该直接了当，避免过多的专业术语。此外，AI可以定期提醒他记录步数和跑步距离，帮助他保持良好的健康习惯。\n",
+      "scene_context": "陈思羽今天的步数为：7500步，跑步距离为：3公里。他希望AI助手能帮助记录这些数据，并分析他的健康状况，给予适当的健康建议。此外，他希望每天在晚上8点能收到记录步数和跑步距离的提醒。",
+      "personalized_query": "今天步数是7500步，跑了3公里。帮我记录一下。",
+      "neutralized_query": "<neutralized_query>\n请帮我记录今天的步数和跑步距离。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：陈思羽需要购买修理设备和工具，制定预算并控制支出，确保经济上可行。",
+      "available_apis": {
+        "createBudgetPlan": {
+          "arguments": [
+            "items_to_purchase",
+            "estimated_costs",
+            "total_budget"
+          ],
+          "description": "Creates a budget plan by listing the items to be purchased, their estimated costs, and compares it with the total available budget."
+        },
+        "trackExpenses": {
+          "arguments": [
+            "expense_items",
+            "amounts_spent"
+          ],
+          "description": "Tracks the expenses for each item purchased and compares it to the budget plan to ensure spending is within the allocated budget."
+        }
+      },
+      "scene_desc": "陈思羽最近需要购买一些修理机械设备和工具。他习惯于购买高性价比且耐用的工具，并且对于预算管理非常注重实用性和长久性。为了确保经济上可行，他希望制定一个详细的预算，列出需要购买的项目、它们的预估成本，并与总预算进行对比，以确保支出在可控范围内。陈思羽会使用AI助手来帮助他制定这个预算计划，并跟踪实际支出情况，以便在购买过程中保持对预算的控制。",
+      "expected_response": "根据陈思羽的persona描述，AI应该首先询问他具体需要购买哪些工具和设备，并获取每个项目的预估成本。接着，AI会询问他的总体预算是多少。然后，AI助手应该能够创建一个详细的预算计划，列出所有需要购买的项目及其预估成本，并与总预算进行比较以确保支出在可控范围内。AI还应该提供功能来跟踪实际的支出情况，并及时提醒陈思羽当前的支出情况是否超出预算计划。此外，AI还应提供购买高性价比和耐用工具的建议，帮助陈思羽在达成预算目标的同时，购买到最符合他需求的工具和设备。",
+      "scene_context": "陈思羽需要购买的修理机械设备和工具包括：电钻、扳手套装、焊接机、测量工具（如游标卡尺和水平仪）、螺丝刀套装。每个项目的预估成本分别为：电钻 - 150元, 扳手套装 - 200元, 焊接机 - 500元, 测量工具 - 100元, 螺丝刀套装 - 80元。陈思羽的总体预算为1000元。",
+      "personalized_query": "你好，我需要制定一个修理机械设备和工具的预算计划。你能帮我列出需要购买的项目和它们的预估成本吗？总预算是1000元。谢谢。",
+      "neutralized_query": "<neutralized_query>\n我需要制定一个修理机械设备和工具的预算计划。你能帮我列出需要购买的项目和它们的预估成本吗？总预算是1000元。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：根据陈思羽的需求，推荐高性价比且耐用的机械工具和设备，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈思羽正在准备购买一些机械工具和设备，以便在日常工作中使用。他希望能找到高性价比且耐用的工具，以确保能够长时间使用而不过快损坏。陈思羽对品牌和具体型号没有特别偏好，但他重视实用性，因此他需要一个简明清晰的推荐列表，包含具体的工具和设备名称、价格、耐用性评价以及购买链接。",
+      "expected_response": "\n根据陈思羽的persona描述，AI应该首先询问具体需要购买的机械工具和设备的类型和用途，以便提供更精准的推荐。接着，AI应该进行网络搜索，找到性价比高且耐用的工具和设备，并提供详细的产品信息，包括品牌、型号、价格、用户评价和耐用性评价。AI还应该提供购买链接，并确保推荐的信息简洁明了，方便陈思羽快速做出购买决策。最后，AI可以询问陈思羽是否需要对这些工具和设备进行进一步的比较或查询其他相关信息。",
+      "scene_context": "陈思羽需要购买的机械工具和设备包括：电钻、扳手套装和激光测距仪",
+      "personalized_query": "我需要买一些工具用于日常工作，想找几个高性价比的，比如电钻、扳手套装和激光测距仪。请帮我推荐几个耐用的型号，并附上购买链接和价格。",
+      "neutralized_query": "<neutralized_query>\n我需要买一些高性价比且耐用的工具，比如电钻、扳手套装和激光测距仪。请帮我推荐几个具体的型号，并附上购买链接和价格。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "疾病自查：陈思羽在工作中可能会遇到一些身体不适的情况，通过对话询问症状，提供可能的疾病信息，并建议是否就医。",
+      "available_apis": {
+        "getUserSymptoms": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Prompts the user to describe their symptoms in detail."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for information related to the provided symptoms and returns the most relevant response."
+        },
+        "provideMedicalAdvice": {
+          "arguments": [
+            "disease_info"
+          ],
+          "description": "Provides medical advice based on the retrieved disease information, including whether the user should seek professional medical help."
+        }
+      },
+      "scene_desc": "陈思羽在工作中修理机械时，突然感到腹部不适，并且出现了持续的酸痛。他觉得有必要通过AI助手来检查一下症状，看看是否需要去看医生。由于他的工作环境比较嘈杂且他喜欢简明直接的交流，他希望AI助手能快速、准确地给出建议。\n\nAI助手在接到请求后，首先会让陈思羽描述具体的症状，包括不适的部位、持续时间、疼痛的性质（如刺痛、钝痛）、是否有其他伴随症状（如发热、恶心等）。然后，AI会根据陈思羽提供的信息，使用网络搜索功能查找相关的医学资料，并推测可能的疾病。最后，AI会建议他是否需要立即就医或采取其他措施，并提供一些初步的缓解方法。\n\n场景中，陈思羽会在午休时间或工作空闲时段与AI交流，他会希望得到直接且有实用性的建议，以便及时处理健康问题，不影响工作效率。",
+      "expected_response": "根据陈思羽的persona描述，他是一个喜欢简洁实用信息的人，对机械和工具有浓厚的兴趣，同时喜欢独处和安静的环境。AI助手应该会首先询问他具体的症状和不适的详细情况，以便准确判断。接着，通过联网搜索相关的医学信息，AI助手会提供几种可能的疾病解释，并建议是否需要立即就医。如果症状不是很严重，AI可能会给出一些初步的缓解方法，如休息、饮水、注意饮食等。最后，AI助手会确保交流过程简明扼要，避免复杂和冗长的解释，以满足陈思羽偏好简洁直接信息的需求。",
+      "scene_context": "陈思羽描述的具体症状包括：腹部不适、持续的酸痛，疼痛的性质为钝痛，并且没有其他伴随症状如发热、恶心等。",
+      "personalized_query": "最近肚子不太舒服，有点酸痛，从早上开始一直没缓解。你帮我查一下，看看这是啥情况。",
+      "neutralized_query": "<neutralized_query>\n最近肚子有点酸痛，一直没缓解。你能帮我查一下可能的原因吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "钓鱼技巧：陈思羽喜欢钓鱼，需要查询相关技巧和地点，提升钓鱼体验。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈思羽在一次休息日决定去钓鱼，但他对当前的钓点和技巧并不熟悉，希望能够提升自己的钓鱼体验。他拿出手机，准备通过AI助手查询相关的信息。他希望找到一个适合钓鱼的好地点，并学习一些实用的钓鱼技巧，尤其是如何在不同环境下选择合适的钓饵和钓具。",
+      "expected_response": "\n根据陈思羽的persona描述，他偏好具体且简明的指导，特别是有清晰步骤和实例的说明。AI首先应该询问他是否有特定的钓鱼地点或类型的鱼类偏好，以便提供更精准的信息。接着，AI应该使用联网搜索功能，查找本地或附近的推荐钓点，并提供这些钓点的详细信息，如交通方式、最佳钓鱼时间和鱼类种类。AI还应该提供一些具体的钓鱼技巧，比如如何选择和使用不同的钓饵、钓具的调整和使用方法。最后，AI可以建议他加入本地的钓鱼爱好者社区或论坛，以便获得更多实用的建议和经验分享。",
+      "scene_context": "陈思羽希望前往的钓鱼地点在北京市周边，主要目标鱼类为鲤鱼和鲫鱼。他需要了解的具体钓鱼技巧包括：如何选择合适的钓饵、如何在不同天气条件下调整钓具、以及如何提高上钩率。另外，他对交通方式和最佳钓鱼时间也有特别关注。",
+      "personalized_query": "今天打算去钓鱼，不太熟悉好的钓点。能帮我查一下北京市周边有哪些适合钓鲤鱼和鲫鱼的地方吗？",
+      "neutralized_query": "<neutralized_query>\n我想查询北京市周边适合钓鲤鱼和鲫鱼的地方。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "Demographics": {
+    "Age": 65,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "四川方言"
+    ],
+    "Career_Information": "退休工人，擅长手工木艺",
+    "Name": "丽娜"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "务实",
+      "喜欢田园生活",
+      "对环境保护感兴趣",
+      "喜欢研究传统木艺和古建筑",
+      "喜欢钓鱼和园艺"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "定期查询手工木艺的新技巧和传统工艺",
+    "Usage_Pattern": "倾向于通过AI获取实用的木工工具和技巧信息",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "喜欢性价比高的工具和材料，对品牌忠诚度不高"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简单明了的方案和建议",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "给予明确的问题或任务，让AI提供具体的步骤或方案"
+  },
+  "scenes": [
+    {
+      "scene_type": "知识拓展：丽娜对传统木艺和古建筑感兴趣，因此经常会获取相关的新技巧和工艺信息。",
+      "available_apis": null,
+      "scene_desc": "丽娜正在研究一项新的传统木艺技术，她希望能够学习更多关于古建筑中的木质结构技巧。由于她对环境保护也很感兴趣，她特别希望能够找到一些使用环保材料和方法的相关信息。丽娜通过她的AI助手来查询并获取这些信息，以便能更好地进行她的木艺创作。",
+      "expected_response": "\n根据丽娜的persona描述，她是一个务实、喜爱田园生活且对传统木艺和古建筑充满兴趣的人。AI应该首先询问丽娜具体希望学习哪种木艺技巧或古建筑相关的知识。接着，AI应该通过联网搜索，提供关于这些技巧的详细教程、视频资源和文章，特别是那些使用环保材料和方法的资源。AI还应该考虑到丽娜喜欢简洁明了的方案和建议，因此应提供一个组织良好的信息列表。此外，AI还可以推荐一些与她的兴趣相关的书籍或在线课程，以帮助她进一步深入学习。最后，AI可以建议丽娜将有用的信息保存到她的收藏夹或笔记应用中，方便日后查阅。",
+      "scene_context": "丽娜希望AI助手帮助她查询以下信息：\n1. 古建筑中常见的木质结构技巧，例如斗拱结构和榫卯结构。\n2. 使用环保材料和方法的传统木艺技术，例如竹子和再生木材的使用。\n3. 推荐一些详细讲解这些技巧的教程、视频资源，以及相关的文章。\n4. 一些与传统木艺和环保技术相关的书籍或在线课程。",
+      "personalized_query": "你好，今天我想研究一些关于古建筑中的木质结构技巧。能帮我查找一下有关斗拱结构和榫卯结构的资料吗？特别是一些详细的教程和视频资源。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我想研究一些关于古建筑中的木质结构技巧。能帮我查找一下有关斗拱结构和榫卯结构的资料吗？特别是一些详细的教程和视频资源？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "材料选择：丽娜在进行手工木艺时，需要帮助选择适合的木材或其他材料，以获得性价比高的工具和材料。",
+      "available_apis": null,
+      "scene_desc": "丽娜正在进行一项新的手工木艺项目，她发现自己需要选择适合的木材或其他材料。为了获得性价比高的工具和材料，她决定向AI助手寻求帮助。丽娜希望AI能够推荐一些高性价比的木材，并提供这些材料的来源信息。",
+      "expected_response": "\nAI应该首先询问丽娜具体需要的木材类型和项目细节，以便提供更有针对性的建议。接着，AI应该通过联网搜索，查找相关木材的性价比信息，并提供推荐的购买渠道。AI还应该考虑丽娜对品牌忠诚度不高这一点，提供多个不同品牌的选择，并对比它们的价格和质量。最后，AI应该列出一个简单明了的清单，包含推荐的木材、购买链接和相关信息，确保丽娜能够方便地进行购买。",
+      "scene_context": "丽娜正在制作的手工木艺项目是一个小型书架，她需要选择适合制作书架的木材。她比较倾向于使用松木、橡木或桦木，但对其他性价比高的木材也持开放态度。丽娜希望AI能够提供这些木材的来源信息以及价格和质量对比，以便她能够选择最合适的材料。",
+      "personalized_query": "我最近在搞一个小型书架的手工木艺项目，想选几种性价比高的木材。你能不能帮我推荐几种适合的木材，并告诉我它们的来源信息和价格？最重要的是质量和性价比要高。",
+      "neutralized_query": "<neutralized_query>\n我需要你推荐几种适合做小型书架的性价比高的木材，并提供它们的来源信息和价格。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：丽娜可能会旅游或者参观古建筑，需要了解目的地的天气、交通和注意事项。",
+      "available_apis": null,
+      "scene_desc": "丽娜计划一次旅游，她希望参观某个古建筑，并想要了解目的地的天气、交通状况以及一些旅游注意事项。考虑到丽娜是个务实且喜欢田园生活的人，她倾向于选择那些不太拥挤的景点，并且对环保有较大关注。同时，由于她对古建筑和传统木艺有浓厚的兴趣，丽娜希望了解一些该建筑的历史背景和木艺方面的特色。",
+      "expected_response": "\n根据丽娜的persona，AI应该首先询问具体的旅游目的地以及计划的出发日期和返回日期。AI可以通过联网搜索来获取该目的地的天气预报，并提供每日的天气状况。接着，AI应该提供详细的交通信息，包括最佳出行方式和路线推荐。AI还需要根据丽娜的兴趣，提供该古建筑的历史背景和木艺特色的介绍，并建议一些环保的旅游注意事项。AI可以推荐一些不太拥挤、适合安静参观的时间段。最后，AI可以生成一份详细的旅游指南和日程安排，包括景点的开放时间和注意事项，并询问丽娜是否需要进一步的帮助或修改建议。",
+      "scene_context": "丽娜计划旅游的目的地是日本京都的清水寺。她计划的出发日期是2023年11月15日，返回日期是2023年11月20日。希望了解这期间的天气预报、最佳交通方式和路线推荐、清水寺的历史背景和木艺特色。同时，她希望得到一些环保旅游的注意事项和建议一些不太拥挤的参观时间段。",
+      "personalized_query": "你好，我最近打算去京都的清水寺参观一下，你能帮我查查那边的天气情况、交通方式以及一些旅游注意事项吗？我对古建筑和木艺也很感兴趣，能不能顺便给我介绍一下清水寺的历史背景和木艺特色？",
+      "neutralized_query": "<neutralized_query>\n我需要了解京都清水寺的天气情况、交通方式以及旅游注意事项，并希望了解清水寺的历史背景和木艺特色。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：丽娜可能会联系木艺同好、工艺展览主办方或者购买材料的供应商，需要撰写和发送专业的电子邮件。",
+      "available_apis": {
+        "composeEmail": {
+          "arguments": [
+            "recipient",
+            "subject",
+            "body"
+          ],
+          "description": "Composes a professional email with the provided recipient, subject, and body."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipient",
+            "subject",
+            "body"
+          ],
+          "description": "Sends the composed email to the specified recipient."
+        }
+      },
+      "scene_desc": "丽娜正在准备联系一个木艺展览的主办方，询问有关参展的细节和报名流程。她希望AI助手能够帮助她撰写一封专业的电子邮件，以便清晰表达她的意图和需求，并确保邮件格式和措辞得当。丽娜需要在邮件中包含她的木艺作品简介、参展意向以及对展览详细信息的请求。",
+      "expected_response": "\n根据丽娜的persona描述，她是一个务实且喜欢简洁明了方案的人。AI应该首先询问丽娜的具体需求，例如：主办方的联系方式、邮件的主要内容和她想要传达的关键信息。接着，AI应该通过composeEmail API生成一份内容全面且格式规范的邮件草稿，包含丽娜的木艺作品简介、参展意向和对展览详情的请求。AI还需要确认邮件的措辞是否符合丽娜的风格，并在最后一步通过sendEmail API发送邮件。在整个过程中，AI还可以通过预填一些模板式的内容来加速邮件的撰写，并在必要时提供建议，以确保邮件的专业性和完整性。",
+      "scene_context": "丽娜的木艺作品包括：精致的木雕鸟类、手工制作的木质首饰盒和独特设计的木质壁挂艺术品。她希望在邮件中表达她对参展的强烈兴趣，询问展览的详细信息，如日期、地点、参展费用和报名截止日期等。她还希望了解有关展览的观众人群、展览规模以及是否有其他参展要求。",
+      "personalized_query": "你好，AI助手，我需要写一封邮件给木艺展览的主办方，想请你帮忙撰写一下。邮件内容要包括我的木艺作品简介、参展意向以及对展览详细信息的请求。你可以帮我吗？",
+      "neutralized_query": "<neutralized_query>\n我需要写一封邮件给展览主办方，包括作品简介、参展意向以及详细信息的请求。你可以帮忙撰写吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：丽娜喜欢性价比高的工具和材料，可能需要推荐合适的木工工具或园艺设备。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "丽娜在进行手工木艺时，发现手头的一些工具已经陈旧，需要购置新的木工工具。她希望AI能够推荐一些性价比高的工具，并提供一些新的园艺设备，以优化她的日常工作和兴趣爱好。丽娜通常会在AI的帮助下，找到实惠且质量可靠的工具和材料，她不太在意品牌，但非常注重性价比。",
+      "expected_response": "\n根据丽娜的persona描述，她是一个注重务实和性价比的人，对品牌忠诚度不高。AI应该首先询问丽娜具体需要哪些木工工具或园艺设备，并了解她的预算范围。接着，AI可以通过联网搜索功能，找到一些评价较高且价格合理的工具和设备，并提供详细的价格比较和用户评价。AI应该确保推荐的工具和设备是性价比高的，并且提供购买链接或者实体店的购买信息。最后，AI可以询问丽娜是否需要进一步的建议或帮助，以确保她对推荐的产品满意。",
+      "scene_context": "丽娜需要购置的木工工具包括：电动手钻、锯子、砂纸。\n她还对以下园艺设备感兴趣：电动修枝剪、园艺手套、浇水壶。",
+      "personalized_query": "手头的电动手钻、锯子和砂纸都用了很久了，得换新的了。现在网购方便，麻烦你帮我找找性价比高的推荐。另外，我还想看看电动修枝剪、园艺手套和浇水壶有啥好推荐的。先谢谢啦。",
+      "neutralized_query": "<neutralized_query>\n请帮我推荐一些性价比高的电动手钻、锯子、砂纸、电动修枝剪、园艺手套和浇水壶。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：丽娜可能想要在退休后做一些兼职或者参加讲座分享自己的手工木艺经验，因此需要优化简历，突出自己的技能和经验。",
+      "available_apis": {
+        "querySkills": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's skills and experiences from their profile or previous records."
+        },
+        "generateResume": {
+          "arguments": [
+            "skills",
+            "experiences"
+          ],
+          "description": "Generates an optimized resume content based on the provided skills and experiences."
+        },
+        "formatResume": {
+          "arguments": [
+            "resume_content",
+            "format_type"
+          ],
+          "description": "Formats the resume content into a professional layout, suitable for job applications or lecture proposals."
+        }
+      },
+      "scene_desc": "丽娜是一位65岁的退休工人，擅长手工木艺。她对传统木艺和古建筑有深入的研究，并且喜欢分享自己的经验。丽娜决定在退休后做一些兼职工作或参加讲座分享她的手工木艺经验。为了达到这个目标，她需要优化自己的简历，突出她的技能和丰富的经验。她希望AI助手能够帮助她收集和整理简历信息，并生成一个专业且全面的简历。",
+      "expected_response": "AI应该首先询问丽娜的技能和经验，收集她在手工木艺和古建筑方面的详细信息。接着，AI可以使用querySkills API从丽娜的档案或之前的记录中获取她的技能和经验。然后，AI应该使用generateResume API生成一个优化的简历内容，突出丽娜在手工木艺方面的成就和经验。接下来，AI可以提供几个简历格式选项供丽娜选择，并使用formatResume API将简历内容格式化成专业的布局。最后，AI应该确认丽娜是否有任何具体的要求或修改，并在所有内容确认无误后，将最终的简历文件生成并保存好。",
+      "scene_context": "丽娜的技能和经验包括：\n1. 40年手工木艺经验，精通传统木艺技巧。\n2. 多次参与古建筑修复项目，积累了丰富的古建筑研究经验。\n3. 曾在社区大学教授木艺课程，培养了众多学员。\n4. 在多次手工艺展览中展示作品，获得了多项奖项。\n5. 擅长使用各种木工工具和设备，熟悉木材特性和处理方法。\n\n为了优化简历，AI助手需要整理以下信息：\n- 个人信息：姓名、联系方式、地址。\n- 工作经验：详细描述每个工作经历和职责。\n- 技能：列出所有相关技能，特别是手工木艺和古建筑方面的专长。\n- 教育背景：包括社区大学教授经历和任何相关培训。\n- 项目成就：列出参与的古建筑修复项目和获得的奖项。\n- 其他：任何其他能提高简历质量的相关信息，如推荐信或评价。",
+      "personalized_query": "你好，最近我想优化一下我的简历，准备在退休后做些兼职或者参加讲座分享我的手工木艺经验。你能帮我整理和生成一个专业的简历吗？",
+      "neutralized_query": "<neutralized_query>\n你好，我想优化一下我的简历，准备在退休后做些兼职或参加讲座。你能帮我整理和生成一个专业的简历吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：丽娜可能需要记录自己的木艺作品、制作过程或写一些手工木艺的教程和心得，整理或优化文档。",
+      "available_apis": {
+        "createDocument": {
+          "arguments": [
+            "title"
+          ],
+          "description": "创建一个新的文档，标题为指定的title。"
+        },
+        "editDocument": {
+          "arguments": [
+            "document_id",
+            "content"
+          ],
+          "description": "编辑指定文档的内容。"
+        },
+        "insertImage": {
+          "arguments": [
+            "document_id",
+            "image_url",
+            "position"
+          ],
+          "description": "在指定文档的指定位置插入一张图片。"
+        },
+        "formatText": {
+          "arguments": [
+            "document_id",
+            "text",
+            "format"
+          ],
+          "description": "对指定文档的文本进行格式化，例如加粗、标题、列表等。"
+        },
+        "saveDocument": {
+          "arguments": [
+            "document_id"
+          ],
+          "description": "保存指定的文档。"
+        }
+      },
+      "scene_desc": "丽娜正在整理她最近完成的一个传统木艺作品的记录。她希望将制作过程详细地记录下来，并写成一篇教程，分享给木艺同好。丽娜需要AI助手帮助她创建一个新的文档，编辑内容，并插入一些制作过程中的照片。她还希望对文档进行格式化，使其看起来更为专业和易读。",
+      "expected_response": "\n根据丽娜的persona描述，她是一个务实且喜欢研究传统木艺和古建筑的退休工人，AI应该能够快速理解并响应她的需求。AI应该首先询问丽娜是否需要创建一个新的文档，并询问文档的标题。接着，AI应该帮助丽娜插入她指定的内容和图片，并按照她的要求对文档内容进行格式化，例如加粗标题、创建项目列表等。最后，AI应该保存文档，并提供一个分享链接或保存路径，以便丽娜可以轻松地与她的木艺同好分享教程。",
+      "scene_context": "丽娜希望记录的木艺作品制作过程如下：\n1. 作品名称：传统木质鸟笼\n2. 制作步骤：\n    - 准备材料：竹条、细木棍、胶水、细铁丝\n    - 制作框架：用细木棍制作鸟笼的框架，用铁丝固定\n    - 编织笼身：用竹条编织鸟笼的笼身，确保结构稳固\n    - 安装门和底座：用胶水固定门和底座\n3. 照片插入位置：\n    - 框架制作完成后的照片\n    - 笼身编织过程中的照片\n    - 完成后的鸟笼照片\n4. 格式化要求：\n    - 标题：加粗，字体大小设置为14\n    - 制作步骤：使用项目列表\n    - 照片位置：居中显示\n    - 整体文档：段落行间距设置为1.5",
+      "personalized_query": "嗨，AI助手，我刚刚完成了一个传统木质鸟笼的制作，现在想把整个制作过程记录下来，写成一篇教程。你能帮我创建一个文档，然后逐步编辑内容吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我创建一个文档，并逐步编辑内容，用于记录一个制作过程和写成一篇教程。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据丽娜的阅读和学习习惯，推荐相关的木艺书籍、杂志或视频教程。",
+      "available_apis": {
+        "contentRecommendation": {
+          "arguments": [
+            "user_history",
+            "preferences"
+          ],
+          "description": "Analyzes the user's reading and learning history along with their preferences to recommend personalized content such as books, magazines, or video tutorials related to woodworking."
+        }
+      },
+      "scene_desc": "丽娜退休后仍然积极参与木艺相关的活动，她经常查阅各种木艺书籍、杂志和视频教程来提升自己的木艺技能。今天，她希望AI能够根据她的阅读和学习习惯，推荐一些相关的木艺书籍、杂志或视频教程，以帮助她在木艺方面更进一步。丽娜通常喜欢务实、直接的建议，因此希望推荐的内容能够具体并且实用。",
+      "expected_response": "\nAI应该首先分析丽娜的阅读和学习历史，包括她之前搜索和阅读的内容类型、收藏的书籍和视频等。接着，AI应该基于这些数据提供一系列个性化的推荐，包括木艺书籍、杂志和视频教程。AI应确保这些推荐的内容与丽娜的兴趣相符，并且显示出高性价比和实际操作性强的特点。为了确保推荐内容的实际价值，AI还可以附上其他用户的评价和评分。此外，AI可能会询问丽娜是否有特定的木艺主题或技巧感兴趣，以便进一步精确推荐。总的来说，AI的应答应该是简明直接且务实的，符合丽娜偏好的风格。",
+      "scene_context": "丽娜以前阅读和学习过的木艺内容包括：《木工基础》、《传统木艺技法》和《DIY木艺项目》。她收藏的视频教程有：木雕入门、木工工具使用指南和DIY小家具制作。丽娜对木雕和DIY家具制作特别感兴趣，并且希望能够提升自己的技能。",
+      "personalized_query": "我最近想提升一下木艺技能，特别是木雕和DIY家具制作。你能推荐一些实用的书籍、杂志或者视频教程吗？之前看过《木工基础》和《传统木艺技法》，还有一些木雕入门的视频。",
+      "neutralized_query": "<neutralized_query>\n能推荐一些实用的木艺书籍、杂志或者视频教程吗？特别是关于木雕和DIY家具制作的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "宠物健康：丽娜可能有养宠物的习惯，需要关注宠物的健康问题，并提供相应的建议和护理方案。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "搜索关于宠物健康问题的解决方案和护理建议的相关信息，并返回最相关的响应。"
+        }
+      },
+      "scene_desc": "丽娜最近发现她的宠物——一只小猫——经常打喷嚏，并且有些精神萎靡。由于担心宠物的健康，她想要获取一些关于猫呼吸道健康的建议和护理方案。丽娜希望能够通过AI助手查询相关的健康信息，以及是否需要带宠物去看兽医。",
+      "expected_response": "\n根据丽娜的persona描述，她是一个务实且注重性价比的人，对于宠物的健康问题会倾向于先获取一些实用的建议和护理技巧。AI应该首先询问丽娜小猫的具体症状、持续时间和任何特殊表现。接着，AI应该通过联网搜索，提供一些关于猫呼吸道健康的基础知识和可能的家居护理方案，例如保持环境清洁、确保宠物饮食营养均衡等。AI还应该建议丽娜观察一段时间，如果症状加重或持续时间较长，建议带宠物去看兽医。最后，AI可以推荐附近口碑较好的兽医诊所，并提供预约的相关信息。",
+      "scene_context": "丽娜的小猫症状：打喷嚏，精神萎靡。\n症状持续时间：大约一周。\n是否有其他特殊表现：没有明显的特殊表现。\n丽娜希望了解：\n1. 猫呼吸道健康的基础知识。\n2. 可能的家居护理方案。\n3. 是否需要带宠物去看兽医。\n4. 附近口碑较好的兽医诊所及预约信息。",
+      "personalized_query": "你好，我的小猫最近经常打喷嚏，而且看上去有点精神萎靡。你能帮我查一下猫呼吸道健康相关的信息吗？",
+      "neutralized_query": "<neutralized_query>\n我需要查一下猫呼吸道健康相关的信息。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "木工工作坊：丽娜在家里开设了一个小型木工工作坊，为社区居民制作和维修家具。",
+      "available_apis": {
+        "getCustomerRequest": {
+          "arguments": [
+            "customer_details",
+            "furniture_details",
+            "service_type"
+          ],
+          "description": "Collects specific requirements and details from the customer regarding furniture making or repair services."
+        },
+        "generateQuoteAndTimeline": {
+          "arguments": [
+            "furniture_details",
+            "service_type"
+          ],
+          "description": "Generates a quote and estimated completion time based on the provided furniture details and service type."
+        },
+        "scheduleWork": {
+          "arguments": [
+            "customer_details",
+            "quote",
+            "timeline"
+          ],
+          "description": "Schedules the work in the workbench's calendar based on the provided quote and timeline."
+        },
+        "updateOrderStatus": {
+          "arguments": [
+            "order_id",
+            "status"
+          ],
+          "description": "Updates the status of the order to keep the customer informed about the progress."
+        },
+        "sendCustomerNotification": {
+          "arguments": [
+            "customer_details",
+            "message"
+          ],
+          "description": "Sends notifications to the customer regarding updates on their order or for any required communications."
+        }
+      },
+      "scene_desc": "丽娜在家里开设了一个小型木工工作坊，专门为社区居民制作和维修家具。她经常会接收到邻居们的各种请求，比如修理旧家具或者定制新家具。今天，她接到了一个邻居的请求，想要修理一张老式的木椅子，但她需要先了解具体的修理需求、预估报价和完成时间，然后安排工作时间。",
+      "expected_response": "\n根据丽娜的persona描述，她是一个务实且对木艺非常热衷的人，AI应该首先询问具体的修理需求，包括椅子的详细情况、损坏部位和修理要求。接着，AI应该使用内部API生成一个预估的报价和完成时间，并与丽娜确认。如果丽娜确认后，AI应该安排工作时间并记录在日程表中。AI还需要发送通知给邻居，告知修理的报价和预计完成时间，并确认修理细节。如果有任何变化，AI需要及时更新订单状态并通知邻居。\n\nAI的一系列应答应该是非常明确且步骤清晰的，符合丽娜喜欢简单明了方案的偏好。同时，AI应该确保提供的工具和材料性价比高，符合丽娜在选择工具和材料时的价值取向。",
+      "scene_context": "邻居需要修理的木椅子具体情况如下：椅子的腿部松动，座椅有一个裂缝，椅背的一个支撑杆断了。丽娜需要了解这些具体损坏部位的详细信息，以便准确预估修理报价和完成时间。",
+      "personalized_query": "今天邻居送来了一张老式木椅子，需要修理。椅子腿部松动，座椅有一个裂缝，椅背的一个支撑杆断了。帮我看看这些具体问题怎么修理，预估一下报价和所需时间。",
+      "neutralized_query": "<neutralized_query>\n如何修理一张老式木椅子的腿部松动、座椅裂缝和椅背支撑杆断裂的问题，并预估报价和所需时间？\n</neutralized_query>"
+    }
+  ]
+}

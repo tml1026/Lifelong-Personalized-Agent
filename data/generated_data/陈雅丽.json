@@ -1,0 +1,227 @@
+{
+  "Demographics": {
+    "Age": 13,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "普通话",
+      "上海话"
+    ],
+    "Career_Information": "上海某初中学生，沉迷科学实验，梦想成为天文学家。",
+    "Name": "陈雅丽"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢星空和天文知识，经常熬夜看星星",
+      "对科幻电影和小说有浓厚兴趣",
+      "喜欢DIY科学实验套装，家里有一整套化学实验器材",
+      "虽然年纪小，但对未来有清晰的规划"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常询问科学实验的技巧和天文知识，喜欢探讨星空和宇宙的奥秘。",
+    "Usage_Pattern": "使用频率较高，主要用于学习和获取科学方面的信息；偶尔会询问科幻电影和小说推荐。",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "倾向于购买科学实验套装和天文观测器材，有时候会买一些科幻小说和电影DVD。"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢深入浅出的讲解方式，讨厌繁琐无聊的背景介绍。",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢详细步骤的指导和具体的实例分析。"
+  },
+  "scenes": [
+    {
+      "scene_type": "知识拓展：陈雅丽对天文知识和科学实验有浓厚兴趣，经常会通过对话获取更多相关信息，进行深入学习和探讨。",
+      "available_apis": null,
+      "scene_desc": "陈雅丽正在家中进行她的天文学知识拓展。她最近对黑洞和中子星的研究产生了浓厚的兴趣，并希望通过AI助手获取更多相关的信息。她开始向AI询问有关这些天体的详细说明，以及它们在宇宙中的作用和观测方法。",
+      "expected_response": "\n根据陈雅丽的persona描述，AI应该会识别出她对天文学有深厚的兴趣，并且喜欢深入浅出的讲解方式。AI应该首先提供关于黑洞和中子星的简介，包括它们的形成过程和物理特性。在陈雅丽表示进一步兴趣时，AI可以继续解释这些天体在宇宙中的作用，例如它们对星系演化的影响。接着，AI应该推荐一些适合初学者的观测方法，并提供相关设备的信息，比如使用某种类型的望远镜或者软件辅助观测。AI还可以推荐一些优质的科普书籍或纪录片，帮助陈雅丽更深入地学习相关知识。由于她的年龄和学习习惯，AI应避免过于复杂和专业的术语，确保讲解清晰易懂，同时提供一些有趣的实例或实验，增加学习的趣味性。",
+      "scene_context": "陈雅丽希望了解的具体内容包括：黑洞的形成过程、物理特性以及在宇宙中的作用；中子星的形成过程、物理特性以及在宇宙中的作用；黑洞和中子星的观测方法及相关设备推荐。此外，她还希望了解到一些适合初学者的科普书籍和纪录片，以便更好地学习这些天文学知识。",
+      "personalized_query": "你好，我最近对黑洞和中子星特别感兴趣。能不能给我讲一下黑洞的形成过程和物理特性？",
+      "neutralized_query": "<neutralized_query>\n能不能讲一下黑洞的形成过程和物理特性？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电影和小说推荐：陈雅丽喜欢科幻电影和小说，经常会询问相关的推荐，以满足自己的兴趣爱好。",
+      "available_apis": null,
+      "scene_desc": "陈雅丽放学后打开AI助手，准备寻找一些新的科幻电影和小说观看或阅读。由于她特别喜欢关于未来太空探索和外星文明的题材，她希望能找到一些能够启发她想象力的作品。她会向AI询问最新的科幻电影以及一些经典的科幻小说，并希望能得到一些详细的推荐理由，以便选择是否观看或阅读。此外，她希望了解这些推荐的作品是否有符合她年龄的内容，避免不适宜的题材。陈雅丽还可能会要求AI提供一些关于这些作品的评论和评分，以便更好地做出选择。",
+      "expected_response": "\n根据陈雅丽的persona描述，AI应该能够理解她对未来太空探索和外星文明的特别兴趣。首先，AI应询问她是否有任何具体的电影或小说导演、作者或类型的偏好，以便提供更精准的推荐。接着，AI应该列出一些近期上映的科幻电影以及一些经典的科幻小说，并简要介绍每部作品的内容和主题，特别是那些与太空探索和外星文明相关的。AI还可以提供这些作品的观众评论和评分，帮助她做出决定。此外，AI应确保推荐的作品适合她的年龄，并在必要时提醒她部分内容可能不适合。最后，AI可以提供观看电影的流媒体平台信息或购买小说的链接，方便她获取这些作品。",
+      "scene_context": "陈雅丽希望推荐的具体内容包括：\n\n1. 最新的科幻电影推荐：\n   - 《沙丘》（Dune） (2021) - 由丹尼斯·维伦纽瓦执导，改编自弗兰克·赫伯特的经典小说，讲述了未来宇宙中的权力斗争和生存之战。\n   - 《失控玩家》（Free Guy） (2021) - 由肖恩·利维执导，讲述了一名电子游戏中的NPC发现自己生活在虚拟世界中，并决定成为英雄。\n\n2. 经典的科幻小说推荐：\n   - 《三体》 - 刘慈欣的经典作品，探讨了人类与外星文明接触的可能性和随之而来的挑战。\n   - 《基地》系列 - 艾萨克·阿西莫夫的宏大叙事，描绘了银河帝国的兴衰和人类历史的未来演变。\n\n她希望这些推荐能够详细介绍每部作品的内容和主题，特别是与太空探索和外星文明相关的部分。另外，她希望了解这些作品的年龄适宜性、观众评论和评分，并获取观看电影的流媒体平台信息或购买小说的链接。",
+      "personalized_query": "嗨，AI助手，我最近想找一些新的科幻电影和小说来打发时间，特别是关于未来太空探索和外星文明的题材。你能帮我推荐几部最新的科幻电影和一些经典的科幻小说吗？最好能介绍一下每部作品的内容和主题，特别是和太空探索、外星文明相关的部分。另外，我需要知道这些作品是否适合我这个年龄段，以及一些观众评论和评分。",
+      "neutralized_query": "<neutralized_query>\n我需要一些关于未来太空探索和外星文明题材的最新科幻电影和经典科幻小说的推荐，最好能介绍一下每部作品的内容和主题，以及这些作品是否适合不同年龄段的一些观众评论和评分。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：作为一名初中学生，陈雅丽需要提升语文水平，经常需要练习语法以提高写作能力。",
+      "available_apis": null,
+      "scene_desc": "陈雅丽正在准备一次语文考试，她意识到自己在语法方面还有许多需要提高的地方，特别是标点符号的使用和复句的结构。为了提升写作能力，她决定通过与AI助手对话来进行语法练习。她希望能够获得一系列专项练习题，并在完成后由AI进行批改和详细解释。",
+      "expected_response": "\nAI应该首先询问陈雅丽具体希望练习哪方面的语法，例如标点符号、复句结构等。接着，AI应该根据她的需求提供一系列相关的练习题，并在她完成题目后进行批改。AI应详细解释每道题的正确答案和出错的原因，帮助陈雅丽理解语法规则。考虑到她的学习兴趣和偏好，AI还应推荐一些带有语法练习的科幻短篇小说或相关的阅读材料，以便她在兴趣驱动下提高语文水平。最后，AI可以为她设置一个复习计划，定期提醒她进行语法练习，以巩固所学知识。",
+      "scene_context": "陈雅丽希望练习的语法包括：标点符号的使用和复句的结构。具体需求如下：\n1. 标点符号的使用：\n   - 提供一系列句子，让她选择正确的标点符号。\n   - 解释不同标点符号的用法和错误原因。\n2. 复句的结构：\n   - 给出一些简单句，她需要将其组合成复句。\n   - 解释复句的类型（如并列复句、因果复句等）和正确组合方法。\n\n另外，她对带有语法练习的科幻短篇小说感兴趣，AI可以推荐一些相关的阅读材料。",
+      "personalized_query": "今天我要准备语文考试，尤其是标点符号的使用和复句的结构。先来一些标点符号的练习题吧，我需要选择正确的标点符号。准备好了就开始吧。",
+      "neutralized_query": "<neutralized_query>\n我需要一些标点符号的练习题来准备语文考试。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：陈雅丽需要为学校的科学考试进行复习，生成复习计划和提供练习题，从而更好地准备考试。",
+      "available_apis": {
+        "GenerateStudyPlan": {
+          "arguments": [
+            "subject",
+            "exam_date"
+          ],
+          "description": "Generates a detailed study plan for the given subject and exam date."
+        },
+        "FetchPracticeQuestions": {
+          "arguments": [
+            "subject",
+            "topic"
+          ],
+          "description": "Fetches practice questions for the given subject and specified topic."
+        }
+      },
+      "scene_desc": "陈雅丽正准备为学校的科学考试进行复习。她需要一个详细的复习计划，以及一些练习题来巩固她的知识。由于她对科学实验和天文学特别感兴趣，且对未来有清晰的规划，她希望能有一个高效的复习策略，确保能覆盖所有考试内容，同时也希望练习题能针对她薄弱的环节进行强化训练。",
+      "expected_response": "\nAI应该会首先询问陈雅丽的考试日期和科目，以生成一个合适的复习计划。接着，根据她对详细步骤的指导和具体实例分析的偏好，AI应提供一个分步骤的复习计划，清晰地安排每天的复习任务。之后，AI应该询问她在科学考试中有哪些特别关注或薄弱的知识点，以便从数据库中提取相关的练习题目。此外，AI可能会提供一些额外的资源，如科普视频或有趣的科学现象解析，以增加复习的趣味性和效率。最后，AI应设定每日提醒，以确保陈雅丽按照计划进行复习，并在考试前及时提醒她进行总复习和放松准备。",
+      "scene_context": "陈雅丽的科学考试日期是两周后，考试科目包括生物学、化学、物理和天文学。她特别关注的知识点包括：细胞结构与功能、化学反应、力与运动、以及行星和恒星的形成与演化。复习计划需要覆盖这些知识点，并分配每天的复习任务。她希望每天复习2小时，并在复习结束后做针对性的练习题。她还希望AI能提供一些科普视频和有趣的科学现象解析以增强复习的趣味性和效率。",
+      "personalized_query": "我有一场科学考试在两周后，你能帮我设计一个详细的复习计划吗？科目包括生物学、化学、物理和天文学。每天我大概能复习2小时。",
+      "neutralized_query": "<neutralized_query>\n你能帮我设计一个详细的科学考试复习计划吗？科目包括生物学、化学、物理和天文学，每天大概能复习2小时。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "项目管理：陈雅丽可能会进行一些科学实验项目，通过多轮对话来跟踪任务进度、分配实验任务和设置截止日期。",
+      "available_apis": {
+        "assignTask": {
+          "arguments": [
+            "task_name",
+            "assigned_to",
+            "deadline"
+          ],
+          "description": "Assigns a specific experimental task to a team member and sets a deadline for completion."
+        },
+        "checkProgress": {
+          "arguments": [
+            "task_name"
+          ],
+          "description": "Checks the progress status of a specific experimental task."
+        },
+        "setDeadline": {
+          "arguments": [
+            "task_name",
+            "new_deadline"
+          ],
+          "description": "Adjusts the deadline for a specific experimental task."
+        }
+      },
+      "scene_desc": "陈雅丽正在进行一个关于化学反应速率的科学实验项目。她需要确保每个实验步骤都按时完成，并且项目成员能够及时更新实验进展。她也需要在实验过程中调整任务的截止日期，以适应实验的实际进展情况。为了确保项目顺利进行，陈雅丽决定使用AI助手来管理这个实验项目，包括分配任务、设置截止日期、跟踪任务进度并调整计划。\n\n在实验开始之前，陈雅丽通过AI助手分配了任务给她的小组成员，设定了初步的截止日期，并给每个任务指定了负责人。实验进行到一半时，她希望检查各个任务的进展情况，并根据需要调整某些任务的截止日期。",
+      "expected_response": "\n根据陈雅丽的人设，她是个有规划且注重科学实验的初中学生，AI应该能够迅速理解并回应她的需求。AI应该首先确认她希望检查哪些任务的进展情况，并询问是否有具体的任务名称或负责人。接着，AI可以通过访问项目管理数据库，快速获取每个任务的当前进度并反馈给她。\n\nAI还应该询问是否需要调整任何任务的截止日期，并提供当前的截止日期和新的建议日期供她选择。为了确保实验顺利进行，AI应该能够详细记录并保存每次调整后的任务信息，并在即将到达截止日期时提醒陈雅丽和相关负责人。最后，AI应该提供一个选项，让她可以随时查看任务的整体进度和调整历史，以便更好地管理和完成实验项目。",
+      "scene_context": "陈雅丽的实验项目包括以下任务：\n1. 任务名称：准备化学试剂\n   负责人：小王\n   初步截止日期：2023-10-10\n\n2. 任务名称：搭建实验装置\n   负责人：小李\n   初步截止日期：2023-10-12\n\n3. 任务名称：进行实验测量\n   负责人：小张\n   初步截止日期：2023-10-15\n\n4. 任务名称：数据分析和报告撰写\n   负责人：陈雅丽\n   初步截止日期：2023-10-20\n\n她现在希望检查以上任务的进展情况，并根据实际进展情况调整某些任务的截止日期。",
+      "personalized_query": "AI助手，你好！我现在需要检查我们化学实验项目的进展，并可能调整一些任务的截止日期。请你先帮我查看一下各个负责人的任务完成情况。",
+      "neutralized_query": "<neutralized_query>\n请帮我查看化学实验项目的各个任务负责人的完成情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：如果陈雅丽学习编程（例如Python），她可能会需要帮助调试代码，解决编程中的问题。",
+      "available_apis": {
+        "codeDebugging": {
+          "arguments": [
+            "code_snippet",
+            "error_message"
+          ],
+          "description": "Analyzes the provided code snippet and error message to identify and suggest solutions for the coding issue."
+        },
+        "codeExplain": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Provides an explanation of the given code snippet, describing what it does and how it works."
+        }
+      },
+      "scene_desc": "陈雅丽在家里尝试编写一个Python程序，但她的代码出现了错误。她需要AI的帮助来调试代码并解决编程中的问题。她在编写程序时遇到的错误信息和代码片段如下：\"SyntaxError: invalid syntax\"。陈雅丽希望能够迅速找到问题的根源，并希望AI能提供详细的解释和解决方案，以便她能理解并避免类似的问题。",
+      "expected_response": "\n根据陈雅丽的persona描述，她是一个喜欢科学实验和天文知识的初中学生，逻辑思维较强，对学术和技术问题有浓厚兴趣。AI应该首先询问她具体遇到的错误信息和代码片段，以便进行精准的调试。接着，AI应该使用codeDebugging API分析代码片段和错误信息，找出问题所在，并提供详细的解释和解决方案。AI还应该解释代码中每个部分的功能和工作原理，帮助陈雅丽理解并避免未来出现类似的问题。最后，AI可以询问陈雅丽是否需要进一步的帮助，例如代码优化建议或其他编程相关的问题解答。",
+      "scene_context": "陈雅丽编写的Python代码如下：\n```python\ndef calculate_area(radius):\n    pi = 3.14\n    area = pi * radius^2\n    return area\n\nprint(\"The area is:\", calculate_area(5))\n```\n她收到的错误信息是：\"SyntaxError: invalid syntax\"。",
+      "personalized_query": "嗨，我在写一个Python程序时遇到了一些问题。代码总是报错，说\"SyntaxError: invalid syntax\"。能帮我看看哪里出错了吗？\n\n这是我的代码：\n```python\ndef calculate_area(radius):\n    pi = 3.14\n    area = pi * radius^2\n    return area\n\nprint(\"The area is:\", calculate_area(5))\n```\n等你回复。",
+      "neutralized_query": "<neutralized_query>\n我在写一个Python程序时遇到了一些问题。代码总是报错，说\"SyntaxError: invalid syntax\"。能帮我看看哪里出错了吗？\n\n这是我的代码：\n```python\ndef calculate_area(radius):\n    pi = 3.14\n    area = pi * radius^2\n    return area\n\nprint(\"The area is:\", calculate_area(5))\n```\n等你回复。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：陈雅丽如果有机会参加科学营或天文观测活动，需要获取目的地的天气、旅行须知等信息，以便做好准备。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Checks the weather forecast for the given destination to help in planning the trip."
+        },
+        "travelGuidelines": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Provides important travel guidelines and tips for the given destination."
+        }
+      },
+      "scene_desc": "陈雅丽在得知有机会参加一个科学营或天文观测活动后，想要获取目的地的天气预报和旅行须知，以便做好充分的准备。她需要了解当地的天气情况、适合穿什么样的衣物、需要携带哪些科学仪器和观测设备，以及是否有任何特殊的旅行注意事项。",
+      "expected_response": "\n根据陈雅丽的persona描述，AI应该首先询问具体的目的地和旅行的日期，以便获取精确的天气预报。接着，AI应该详细提供当地的天气情况，包括温度、降水概率、风速等信息，以帮助陈雅丽选择合适的穿着。同时，AI应该推荐需要携带的科学仪器和观测设备，并提供相关的旅行注意事项，比如是否需要准备防晒霜、防蚊喷雾、避雷措施等。考虑到陈雅丽对科学的热爱和对细节的关注，AI应该用深入浅出的方式进行解释，让她可以轻松理解并做好充分的准备。",
+      "scene_context": "陈雅丽的目的地是：夏威夷的茂宜岛，旅行日期是：2023年12月10日至12月20日。她计划参加的活动包括日间的科学营和夜间的天文观测活动。",
+      "personalized_query": "嗨，我需要了解茂宜岛在12月10日至12月20日的天气情况。能帮我查一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要了解茂宜岛在12月10日至12月20日的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：陈雅丽需要安排日常学习、科学实验和天文观察的时间，通过设定提醒和管理待办事项来提高效率。",
+      "available_apis": {
+        "checkCalendar": {
+          "arguments": [
+            "dateRange"
+          ],
+          "description": "Fetches the user's calendar events for the specified date range to identify available time slots."
+        },
+        "createTodo": {
+          "arguments": [
+            "task",
+            "dueDate"
+          ],
+          "description": "Creates a to-do item for the specified task with a due date."
+        },
+        "setReminder": {
+          "arguments": [
+            "task",
+            "reminderTime"
+          ],
+          "description": "Sets a reminder for the specified task at the given time."
+        }
+      },
+      "scene_desc": "陈雅丽最近在为她的日常学习、科学实验和天文观察排定时间，但发现自己有时会忘记一些重要的任务或安排。她希望使用AI助手帮助她更好地管理这些事务。一天早上，她打开AI助手，打算制定今天和未来几天的学习计划、科学实验安排和天文观察时间，希望能设置一些提醒，以便更好地掌握时间，提高效率。",
+      "expected_response": "\n根据陈雅丽的persona描述，她是一个非常有规划的初中学生，对科学实验和天文知识有浓厚兴趣。AI应该首先询问陈雅丽今天或未来几天有哪些具体的学习任务、实验项目和天文观察计划。然后，AI需要通过检查陈雅丽的日程安排（checkCalendar API），找出她的可用时间段。接着，AI应该帮助她创建待办事项列表（createTodo API），并为每个任务设置合理的截止日期和提醒时间（setReminder API）。AI还应确保任务描述详细且清晰，以便陈雅丽能有条不紊地完成这些任务。最后，AI可以询问她是否希望为某些特定任务添加额外的笔记或详细步骤，以便在执行任务时有更明确的指导。",
+      "scene_context": "陈雅丽今天要完成的学习任务包括：数学作业、英语阅读和物理练习。科学实验项目有：化学实验「酸碱中和反应」和生物实验「显微镜下观察细胞结构」。天文观察计划则是：晚上8点到10点观察月相变化。\n\n她希望AI助手帮助她安排这些任务，并设置以下提醒：\n1. 数学作业：开始时间为上午9点，提醒时间为10分钟前。\n2. 英语阅读：开始时间为上午11点，提醒时间为10分钟前。\n3. 物理练习：开始时间为下午2点，提醒时间为10分钟前。\n4. 化学实验「酸碱中和反应」：开始时间为下午4点，提醒时间为30分钟前。\n5. 生物实验「显微镜下观察细胞结构」：开始时间为下午5点，提醒时间为30分钟前。\n6. 天文观察月相变化：开始时间为晚上8点，提醒时间为1小时前。\n\n她还希望AI助手帮助她生成一个详细的待办事项列表，并在执行实验和观察任务时添加详细的步骤说明。",
+      "personalized_query": "今天早上好啊。我今天要安排一下学习和实验的时间，有点复杂，你帮我一下吧。\n\n首先，上午9点我要做数学作业，可以提前10分钟提醒我吗？",
+      "neutralized_query": "<neutralized_query>\n我需要安排一下学习和实验的时间，能帮我设定一个上午9点的提醒用于做作业吗？可以提前10分钟提醒我吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：陈雅丽经常购买科学实验套装和天文观测器材，需要根据自己的需求获取推荐的商品和购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈雅丽正在寻找新的科学实验套装和天文观测器材。她想购买一些适合初中生使用的化学实验套装和一款质量较好的天文望远镜，以便继续她的科学实验和天文观测。她希望AI能帮助她找到合适的商品并提供购买链接。\n\n她打开AI助手，询问有关最新的科学实验套装和天文观测器材的信息。由于她对科学实验和天文观测有很高的要求，她希望获得详细的商品信息和购买建议。她还希望能够根据用户评论和评分来选择最好的商品。",
+      "expected_response": "根据陈雅丽的persona描述，AI应该首先确认她具体需要什么类型的科学实验套装和天文观测器材，并了解她的预算和其他偏好。接着，AI应该使用联网搜索功能查找适合初中生的化学实验套装和高品质的天文望远镜，并提供详细的商品信息，包括用户评论和评分。\n\nAI还应该考虑到她对科学实验和天文观测的高标准，推荐一些专业且易于使用的套装和器材。最后，AI应该生成购买链接，并询问陈雅丽是否需要进一步的信息或其他建议。 AI可能还会提到一些当前的促销活动或折扣，以帮助她做出最经济实惠的选择。",
+      "scene_context": "陈雅丽需要查询的商品为：适合初中生使用的化学实验套装和一款质量较好的天文望远镜。她的预算为化学实验套装不超过100美元，天文望远镜不超过300美元。她希望获得以下信息：\n1. 商品名称和品牌\n2. 商品描述和功能\n3. 用户评论和评分\n4. 购买链接\n5. 当前的促销活动或折扣（如果有）\n\n例如：\n- 化学实验套装：Thames & Kosmos Chem C1000, National Geographic Chemistry Set\n- 天文望远镜：Celestron AstroMaster 130EQ, Orion SkyQuest XT6",
+      "personalized_query": "嘿，AI助手，我最近在找一些新的科学实验套装和天文观测器材。你能帮我推荐几款适合初中生使用的化学实验套装和一款质量较好的天文望远镜吗？谢谢！",
+      "neutralized_query": "<neutralized_query>\n你能推荐几款适合初中生使用的化学实验套装和一款质量较好的天文望远镜吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "科学竞赛准备：陈雅丽要参加一个全国性的科学竞赛，需要设计一个独特的天文实验方案。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈雅丽最近得知自己将参加一个全国性的科学竞赛，她非常兴奋并决定设计一个独特的天文实验方案。她希望这个方案不仅能够展示自己的天文知识，还能够体现她对天文观测和实验的深入理解。为了准备这个方案，她需要获取一些前沿的天文研究资料，找到合适的实验设计灵感，并确保实验步骤详尽、数据准确。她打算利用AI助手来帮助她收集信息、整理思路，并提供一些专业的建议。\n\n在竞赛准备过程中，她可能会多次与AI助手互动，询问不同方面的问题，比如天文现象的最新研究、合适的实验材料及其使用方法、以及如何记录和分析实验数据。此外，她还可能需要AI助手帮忙进行一些细节处理，比如生成实验计划、推荐相关书籍或论文、查找适合的观测地点等。",
+      "expected_response": "\n根据陈雅丽的persona，AI应该首先察觉到她对天文和科学实验有浓厚的兴趣，并且具有一定的科学基础和动手能力。AI应该会询问她对天文实验的具体设想和目标，了解她希望通过实验得到什么样的结果。接下来，AI会使用其联网搜索功能，帮助她查找最新的天文研究资料和相关的实验设计灵感，并按照她的需求整理成参考资料。AI还会根据她的实验步骤需求，生成一个详细的实验计划，包含所需的实验材料、实验步骤以及数据记录方法，确保每一步都详尽清晰。最后，AI应该能根据她的反馈，及时调整实验方案，并推荐一些相关的学术论文或书籍供她参考，帮助她完善实验设计和报告撰写。",
+      "scene_context": "陈雅丽考虑的天文实验方案包括以下几个方面：\n1. 观测某特定星系的恒星形成区域，分析其光谱数据。\n2. 研究太阳活动周期对地球气候的影响。\n3. 利用多波段摄影技术记录月球表面的变化。\n\n她需要获取的前沿天文研究资料包括：\n1. 关于恒星形成区域的最新观测报告和光谱分析方法的论文。\n2. 太阳活动周期对地球气候的影响的研究报告。\n3. 多波段摄影技术在天文观测中的应用案例。\n\n实验材料和工具可能包括：\n1. 适用于光谱分析的天文望远镜和光谱仪。\n2. 记录太阳活动的数据采集设备。\n3. 多波段摄影设备及相关软件。\n\n实验步骤需求：\n1. 如何设定观测时间和地点。\n2. 数据记录和分析的方法。\n3. 实验结果的展示格式。\n\n她还希望AI助手能推荐一些相关的学术论文和书籍，特别是关于天文观测和实验设计的经典著作。",
+      "personalized_query": "嘿，AI助手，我最近得知要参加一个全国性的科学竞赛，我打算设计一个独特的天文实验方案。你能帮我找到一些关于恒星形成区域的最新观测报告和光谱分析方法的论文吗？我想要一些前沿的资料来帮助我设计实验。",
+      "neutralized_query": "<neutralized_query>\n你能帮我找到一些关于恒星形成区域的最新观测报告和光谱分析方法的论文吗？\n"
+    }
+  ]
+}

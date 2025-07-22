@@ -1,0 +1,287 @@
+{
+  "Demographics": {
+    "Age": 29,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "创业公司联合创始人",
+    "Name": "奕辰"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "对新科技充满激情和好奇心",
+      "喜欢探索未知领域，接受挑战",
+      "享受自由和灵活的工作环境",
+      "热衷于户外活动，如登山和滑雪"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "通常喜欢通过讨论和辩论来获取信息，对发散性思维的解答颇感兴趣",
+    "Usage_Pattern": "经常询问关于新科技趋势、创新思维和商业模式的相关问题，偏好互动交流和头脑风暴",
+    "Emotion_Pattern": "在获取到有趣信息或解决方案时表现出高兴和兴奋，在面对平淡或无趣的回答时可能会表现出不耐烦",
+    "Purchase_Pattern": "偏好购买最新、最具创新性的产品，不介意高价，只要觉得物有所值"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢充满创意和新意的回答，尤其是能启发思维的内容",
+    "Preferred_Formats": "喜欢图文并茂的解释，尤其是带有示意图或视频的说明",
+    "Preferred_Workflows": "喜欢从广泛的视角讨论问题，然后聚焦到具体的解决方案，通过多种途径寻找解决办法"
+  },
+  "scenes": [
+    {
+      "scene_type": "代码调试：作为创业公司联合创始人，奕辰可能需要在开发过程中解决技术问题，调试代码，确保产品的正常运行。",
+      "available_apis": null,
+      "scene_desc": "奕辰正在创业公司中处理一个紧急的技术问题，需要调试代码以确保产品的正常运行。由于时间紧迫，他希望AI助手能够快速协助其定位并解决问题。奕辰本人对新科技充满激情，对探索未知领域充满好奇心，并且喜欢通过讨论和辩论来获取信息，因此他可能希望AI助手不仅能提供技术支持，还能就问题的根本原因进行深入探讨。",
+      "expected_response": "\n根据奕辰的人设描述，AI应该首先询问具体遇到的问题和相关代码片段，以便进行初步分析。接着，AI可能会通过联网搜索提供相关的技术文档或解决方案，并建议奕辰尝试某些调试步骤。鉴于奕辰喜欢发散性思维的解答，AI还可以提出多个可能的解决方案供其选择，并解释每种方案的优缺点及适用场景。此外，AI应鼓励奕辰就问题的根本原因进行讨论，并提供相关的参考资料和示意图，以便奕辰能全面理解问题并找到最优解决方案。在调试过程中，AI应保持互动，不断询问奕辰的反馈，并根据实际情况调整建议，确保最终问题得到解决。",
+      "scene_context": "奕辰目前遇到的问题是一个Python Web应用程序在处理用户登录时出现了间歇性的500内部服务器错误。他提供的相关代码片段如下：\n\n```python\nfrom flask import Flask, request, jsonify\nimport logging\n\napp = Flask(__name__)\n\n# Setting up basic logging\nlogging.basicConfig(level=logging.DEBUG)\n\n@app.route('/login', methods=['POST'])\ndef login():\n    try:\n        username = request.json['username']\n        password = request.json['password']\n        \n        # Simulated database check\n        if username == \"admin\" and password == \"secret\":\n            return jsonify({\"message\": \"Login successful!\"}), 200\n        else:\n            return jsonify({\"message\": \"Invalid credentials\"}), 401\n    except Exception as e:\n        logging.error(f\"Error occurred: {e}\")\n        return jsonify({\"message\": \"Internal server error\"}), 500\n\nif __name__ == '__main__':\n    app.run(debug=True)\n```\n\n奕辰希望AI助手能够帮助他定位问题的根本原因，并提供修复建议。他还希望讨论可能导致此问题的其他因素及其解决方案。",
+      "personalized_query": "我们公司目前的Python Web应用程序在处理用户登录时出现了一些间歇性的500内部服务器错误。以下是相关的代码片段：\n\n```python\nfrom flask import Flask, request, jsonify\nimport logging\n\napp = Flask(__name__)\n\n# Setting up basic logging\nlogging.basicConfig(level=logging.DEBUG)\n\n@app.route('/login', methods=['POST'])\ndef login():\n    try:\n        username = request.json['username']\n        password = request.json['password']\n        \n        # Simulated database check\n        if username == \"admin\" and password == \"secret\":\n            return jsonify({\"message\": \"Login successful!\"}), 200\n        else:\n            return jsonify({\"message\": \"Invalid credentials\"}), 401\n    except Exception as e:\n        logging.error(f\"Error occurred: {e}\")\n        return jsonify({\"message\": \"Internal server error\"}), 500\n\nif __name__ == '__main__':\n    app.run(debug=True)\n```\n\n我需要你帮我找出间歇性500错误的根本原因，并提供一些修复建议。我们可以一起讨论一下可能的原因和解决方案。先从哪里入手比较好？",
+      "neutralized_query": "<neutralized_query>\n我们的Python Web应用程序在处理用户登录时出现了一些间歇性的500内部服务器错误。以下是相关的代码片段：\n\n```python\nfrom flask import Flask, request, jsonify\nimport logging\n\napp = Flask(__name__)\n\n# Setting up basic logging\nlogging.basicConfig(level=logging.DEBUG)\n\n@app.route('/login', methods=['POST'])\ndef login():\n    try:\n        username = request.json['username']\n        password = request.json['password']\n        \n        # Simulated database check\n        if username == \"admin\" and password == \"secret\":\n            return jsonify({\"message\": \"Login successful!\"}), 200\n        else:\n            return jsonify({\"message\": \"Invalid credentials\"}), 401\n    except Exception as e:\n        logging.error(f\"Error occurred: {e}\")\n        return jsonify({\"message\": \"Internal server error\"}), 500\n\nif __name__ == '__main__':\n    app.run(debug=True)\n```\n\n我需要帮忙找出间歇性500错误的根本原因，并提供一些修复建议。先从哪里入手比较好？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "项目管理：奕辰需要协助团队跟踪任务进度、分配任务、设置截止日期，以确保项目按时完成，保持创业公司的高效运营。",
+      "available_apis": null,
+      "scene_desc": "奕辰正在创业公司中协助团队管理一个重要项目。他需要确保任务进度按计划推进，合理分配团队成员的任务，并设置具体的截止日期，以保证项目按时完成。他需要一个高效的工具来实时跟踪每个任务的进展，便于在项目过程中做出及时的调整和决策。",
+      "expected_response": "\n根据奕辰的persona描述，他对新科技充满激情和好奇心，喜欢通过互动交流和头脑风暴来解决问题。AI应该首先询问具体的项目名称和目标，以便精准管理。接着，AI应该询问需要分配任务的团队成员和各自的工作内容，并设置相应的截止日期。AI还应提议使用项目管理工具来实时跟踪任务进度，并提供图文并茂的进度报告。最后，AI应该能够定期生成项目进展报告，并通过邮件或内部沟通工具将其发送给奕辰和相关团队成员，以确保所有人都能及时了解项目的最新动态。\n",
+      "scene_context": "奕辰正在管理的项目名称为：AI驱动的电商平台开发\n项目目标：在6个月内开发并上线一个基于AI技术的电商平台，提升用户购物体验\n团队成员及工作内容：\n1. 李华 - 前端开发，负责平台的用户界面和用户体验设计\n2. 王伟 - 后端开发，负责服务器端逻辑和数据库管理\n3. 陈欣 - 数据科学家，负责AI模型的开发与优化\n4. 张敏 - 产品经理，负责需求分析和项目整体协调\n5. 赵云 - 测试工程师，负责功能测试和性能测试\n\n具体截止日期：\n1. 用户界面设计初稿：1个月内\n2. 服务器端逻辑初步实现：2个月内\n3. AI模型初步开发：3个月内\n4. 功能测试与性能测试：4个月内\n5. 平台上线及最终优化：6个月内\n\n奕辰希望使用项目管理工具如Trello或Jira来实时跟踪任务进度，并希望每周生成一次项目进展报告，通过邮件发送给所有团队成员。",
+      "personalized_query": "嗨，帮我看看有什么高效的项目管理工具可以用来跟踪AI驱动电商平台开发的项目进度。我需要这个工具可以实时跟踪每个任务的进展，同时每周生成一次项目进展报告，通过邮件发送给所有团队成员。",
+      "neutralized_query": "<neutralized_query>\n请推荐一些高效的项目管理工具，用来跟踪项目进度、生成每周项目进展报告，并通过邮件发送给团队成员。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：奕辰需要协调团队会议时间、发送邀请、生成会议纪要，确保公司内部沟通顺畅，决策高效。",
+      "available_apis": null,
+      "scene_desc": "奕辰需要协调一次重要的团队会议，目的是为了讨论新科技产品的发布策略，确保项目按时完成。由于团队成员的日程比较紧张，他希望找到一个大家都方便的时间段，同时需要生成详细的会议纪要，以便后续跟进。AI助手将协助他完成这些任务。",
+      "expected_response": "\n根据奕辰的persona描述，AI应当展示出对奕辰高效、互动以及创意需求的理解。首先，AI会询问具体需要邀请哪些团队成员，并确认是否有优先考虑的时间段。接着，AI会通过企业办公软件中的calendarCheck API，检查团队成员的日程安排，找出一个大家都方便的时间段。如果有多种选择，AI会提供几个时间段供奕辰决定。\n\nAI还会询问是否需要在会议邀请中包含特定的议程或文件，并建议创建一个详细的会议议程。为了保持奕辰对新科技的兴趣和高效决策，AI会以图文并茂的方式展示议程内容，并询问是否有需要重点讨论的技术创新点。\n\n在确认会议时间和议程后，AI会通过sendEmail API生成并发送会议邀请邮件，并提醒奕辰是否需要设置定时自动提醒。最后，AI会生成一个会议纪要模板，并在会议结束后，帮助奕辰整理和发送详细的会议纪要，以确保决策和任务的有效跟进。\n\n预计的应答应包括检查日程、生成和发送会议邀请、协助制定和发送会议议程及纪要。\n",
+      "scene_context": "奕辰需要协调的会议成员包括: 张伟 (产品经理), 李娜 (市场总监), 王强 (研发主管), 陈丽 (销售经理)，并且优先考虑的时间段为下周三至下周五的上午10点到下午3点。\n\n奕辰希望在会议邀请中包含以下议程:\n1. 产品发布时间确认\n2. 市场推广策略讨论\n3. 研发进度汇报\n4. 销售渠道规划\n\n在会议纪要中重点记录各部门的任务分配和时间节点。\n\nAI助手需要：\n1. 确认并检查团队成员的日程安排。\n2. 提出几个合适的会议时间供奕辰选择。\n3. 生成并发送包含详细议程的会议邀请。\n4. 生成会议纪要模板，并在会后整理会议记录。\n5. 提供定时自动提醒功能。",
+      "personalized_query": "大家好，我需要协调一次团队会议，讨论新科技产品的发布策略，确保项目按时完成。会议成员包括张伟（产品经理）、李娜（市场总监）、王强（研发主管）和陈丽（销售经理）。请帮我确认一下他们的日程安排，并提供几个合适的会议时间。优先考虑下周三至下周五的上午10点到下午3点的时间段。",
+      "neutralized_query": "<neutralized_query>\n请帮我协调一次团队会议，讨论新产品的发布策略，并确认相关成员的日程安排。提供几个合适的会议时间，优先考虑下周三至下周五的上午10点到下午3点的时间段。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：奕辰需要规划出差行程，旅行、访问客户或参加展会，以拓展公司的业务和市场。",
+      "available_apis": {
+        "flightSearch": {
+          "arguments": [
+            "origin",
+            "destination",
+            "departure_date",
+            "return_date"
+          ],
+          "description": "Searches and returns available flights between the origin and destination for the given dates."
+        },
+        "hotelSearch": {
+          "arguments": [
+            "location",
+            "check_in_date",
+            "check_out_date"
+          ],
+          "description": "Searches and returns available hotels in the given location for the specified check-in and check-out dates."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., YiChen, clients, or event organizers) for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting or travel plan email to the selected recipients, including the proposed meeting time, travel itinerary, and agenda."
+        }
+      },
+      "scene_desc": "奕辰需要规划一次出差行程，以访问客户并参加一个重要的行业展会。作为创业公司的联合创始人，他希望这次出差能够最大化地扩展公司的业务和市场。奕辰习惯在自由和灵活的工作环境下工作，并且喜欢充满挑战和探索的经历。因此，他可能会希望在出差过程中安排一些与当地新兴科技公司的会面或者参观一些创新实验室。此外，他还希望行程中有时间进行一些户外活动，比如在目的地附近进行登山或者滑雪，以平衡工作和生活。\n\n奕辰计划在下周出发，为期三天。他需要AI帮助他搜索合适的航班和酒店，检查他和团队成员的日程安排，确保他们在这段时间内没有其他重要的会议或任务。AI还需要帮他发送出差计划的邮件给相关的客户和同事，并提供关于目的地天气、最近的科技活动以及户外活动的建议。",
+      "expected_response": "\n根据奕辰的persona描述，AI应该首先询问他出发地和目的地的具体信息，出发和返回的日期，以及是否有偏好的航班时间。AI同时需要确认是否有其他团队成员一同前往，并处理他们的日程安排。\n\n接着，AI应该通过flightSearch API搜索符合条件的航班，并通过hotelSearch API查找目的地的酒店。AI需要确保所选酒店靠近展会地点或者客户公司，以方便奕辰的行程安排。\n\nAI应使用calendarCheck API检查奕辰和其他团队成员的日程安排，避免冲突，并通过sendEmail API发送出差计划邮件，详细列出航班信息、酒店预订、会面安排以及展会的相关信息。\n\n同时，AI应该主动提供目的地的天气预报，利用webSearch API查找当地的科技活动和展会信息，并根据奕辰的兴趣推荐一些户外活动，比如登山或滑雪地点。AI还应询问奕辰是否需要特别安排这些活动的详细计划和预订。\n\n最后，AI应询问奕辰是否需要设置提醒，以确保行程的每一步都顺利进行，并且在出差期间随时提供必要的帮助。",
+      "scene_context": "出发地：北京\n目的地：旧金山\n出发日期：下周一\n返回日期：下周三\n团队成员：张伟、李华\n\n奕辰希望的航班时间：上午出发，下午返回\n偏好的航班公司：无\n参加的展会：2023年硅谷科技展\n客户公司：Tech Innovators, Inc.\n\n需要安排的会面：与Tech Innovators, Inc.的CEO会面\n希望参观的创新实验室：Silicon Valley Robotics Lab\n\n计划的户外活动：滑雪（地点：Tahoe Ski Resort）\n喜欢的酒店类型：靠近展会地点的四星级酒店\n\n需要发送出差计划邮件的对象：客户公司CEO、团队成员张伟和李华\n\n需要提供的天气预报：旧金山下周一至周三的天气\n需要查找的科技活动：旧金山近期的科技活动和会议\n需要设置的提醒：航班起飞前2小时提醒、与客户公司会面前1小时提醒、参加展会前1小时提醒",
+      "personalized_query": "AI助手，我准备下周一去旧金山出差，访问客户并参加2023年硅谷科技展。我需要你帮我规划行程，包括搜索合适的航班和酒店。我们团队有我、张伟和李华。航班时间最好是上午出发，下午返回。此外，我希望能安排一些与当地新兴科技公司的会面或者参观一些创新实验室。你能帮我先查找一下合适的航班吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划去旧金山出差的行程，包括搜索合适的航班和酒店，以及安排一些与当地新兴科技公司的会面或参观创新实验室。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：奕辰可能需要在多轮对话中帮助修改、整理或优化公司内部报告、计划书或商业提案等文档内容。",
+      "available_apis": {
+        "readDocument": {
+          "arguments": [
+            "document_path"
+          ],
+          "description": "Reads and parses the content of the specified document."
+        },
+        "modifyContent": {
+          "arguments": [
+            "content",
+            "instructions"
+          ],
+          "description": "Modifies the given content based on the provided instructions or guidelines."
+        },
+        "generateContent": {
+          "arguments": [
+            "context",
+            "requirements"
+          ],
+          "description": "Generates new content or suggestions based on the given context and requirements."
+        },
+        "saveDocument": {
+          "arguments": [
+            "document_path",
+            "content"
+          ],
+          "description": "Saves the modified or generated content to the specified document path."
+        }
+      },
+      "scene_desc": "奕辰正在准备一份重要的商业提案，他需要AI助手帮助他修改和优化这份提案文档。奕辰希望这份提案能够在内容上更加有说服力，同时在格式和排版上更加专业。他希望AI助手能够提供一些创意性的建议，并在必要时添加图表和示意图来增强提案的视觉效果。奕辰还希望AI能够帮助他确保文档语言的准确性和专业性。",
+      "expected_response": "\n根据奕辰的人设，AI应该首先询问这份提案的具体内容和目标受众，以便提供有针对性的建议。接着，AI会阅读并解析当前提案文档内容，识别出需要改进的部分。例如，AI可能会建议在某些段落中增加数据支持或案例分析，或者在关键部分添加图表和示意图来提高说服力。AI还会根据奕辰对创意和新意的偏好，提出一些独特的表达方式或创新点。同时，AI会对文档的语言和格式进行检查，确保其专业性和一致性。最终，AI会保存修改后的文档，并确认是否需要发送给其他团队成员或合作伙伴进行进一步审阅和反馈。",
+      "scene_context": "奕辰正在准备的商业提案中包括以下内容：\n1. **项目背景**：介绍项目的基本情况和背景，突出项目的重要性和潜在市场机会。\n2. **目标**：明确项目的具体目标和预期成果，如市场占有率、销售额增长、客户满意度等。\n3. **市场分析**：提供详细的市场调查数据和竞争分析，展示市场需求和竞争态势。\n4. **策略和计划**：详细描述项目的实施策略和步骤，包括时间表、资源分配、关键里程碑等。\n5. **财务预测**：提供项目的财务预估，包括收入、成本、利润分析等。\n6. **团队介绍**：介绍项目团队成员及其背景、经验和分工情况。\n7. **风险管理**：分析项目可能面临的风险，并提出相应的应对措施。\n\n奕辰希望通过AI助手优化以下具体方面：\n- **语言和专业性**：确保文档语言简洁、准确、专业，避免歧义和错误。\n- **创意性建议**：在项目背景部分增加一个成功案例，或者在市场分析部分添加一个数据图表。\n- **视觉效果**：在策略和计划部分添加一个甘特图，展示项目时间表和关键里程碑。\n- **格式和排版**：统一文档的字体、段落间距、标题样式等，确保整体美观和专业。\n\n奕辰当前提供的文档片段如下：\n```\n### 项目背景\n随着市场需求的不断增长，我们的项目旨在填补市场空白，提供高质量的产品和服务...\n\n### 目标\n我们的主要目标是通过创新的解决方案在未来两年内占据市场的20%份额...\n\n### 市场分析\n根据最新的市场调查数据，我们的目标市场预计在未来五年内将以年均10%的速度增长...\n```",
+      "personalized_query": "AI助手，我需要你的帮助来优化我的商业提案，让它在内容上更有说服力，在格式和排版上更专业。首先，我们可以从“项目背景”部分开始。我想增加一个成功案例来增强说服力，你有建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你的帮助来优化我的商业提案，在内容上更有说服力，在格式和排版上更专业。我们可以从“项目背景”部分开始，我想增加一个成功案例来增强说服力，你有建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：奕辰需要撰写专业的电子邮件，处理与客户、投资者或合作伙伴的通信，以推进公司的业务发展。",
+      "available_apis": {
+        "languageCheck": {
+          "arguments": [
+            "email_body"
+          ],
+          "description": "Checks the email body for language and style issues to ensure professionalism."
+        },
+        "templateGenerate": {
+          "arguments": [
+            "recipient_type"
+          ],
+          "description": "Generates a professional email template based on the recipient type (e.g., customer, investor, partner)."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for relevant information (e.g., company info, market data) to include in the email."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends the composed email to the selected recipients."
+        }
+      },
+      "scene_desc": "奕辰需要撰写一封专业的电子邮件，向潜在投资者介绍他的创业公司，并邀请他们参加即将举行的公司产品发布会。奕辰希望这封邮件能够充分展示公司的创新技术和独特商业模式，以吸引投资者的兴趣，并且包含详细的发布会时间和地点信息，以确保投资者能够顺利参加。",
+      "expected_response": "\n根据奕辰的persona描述，AI应该首先确认邮件的具体受众群体（投资者）和邮件的主要目的（邀请参加产品发布会）。接着，AI应该生成一个专业的电子邮件模板，并询问是否需要包含特定的公司介绍、产品亮点、以及发布会详细信息（如时间、地点）。AI还应该使用联网搜索功能，获取最新的行业趋势或相关数据，以支持邮件内容的说服力。AI可以通过语言检查API，确保邮件的语言和风格保持专业，并最终生成完整的邮件内容供奕辰确认和发送。",
+      "scene_context": "奕辰需要撰写的电子邮件内容包括以下信息：\n1. 公司名称：XYZ科技创新公司\n2. 公司简介：XYZ科技创新公司专注于人工智能与物联网技术的研发与应用，致力于为企业提供智能化解决方案。\n3. 产品亮点：最新发布的XYZ智能家居系统，该系统能够通过AI技术实现家庭设备的智能控制与自动化管理，有效提升用户的生活质量与便利性。\n4. 发布会时间：2023年11月15日，上午10:00\n5. 发布会地点：北京市朝阳区建国门外大街1号，北京国际会议中心\n6. 联系方式：奕辰的电子邮件（yichen@xyztech.com）和联系电话（+86 10 1234 5678）\n7. 发布会注册链接：<发布会注册链接>\n\n奕辰希望AI能够帮助他撰写一封专业的电子邮件，向潜在投资者介绍公司和产品，并邀请他们参加即将举行的发布会。",
+      "personalized_query": "Hey AI，帮我撰写一封专业的邮件，向潜在投资者介绍我们的公司和产品，并邀请他们参加即将举行的发布会。主要目的是吸引他们的兴趣。你理解吗？",
+      "neutralized_query": "<neutralized_query>\n帮我撰写一封专业的邮件，向潜在投资者介绍公司和产品，并邀请他们参加即将举行的发布会。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：奕辰可能会为团队成员提供职业发展建议，帮助他们提升技能，保持团队的高效和创新。",
+      "available_apis": {
+        "careerAdvice": {
+          "arguments": [
+            "team_member",
+            "current_role",
+            "career_goals",
+            "skills"
+          ],
+          "description": "Provides tailored career advice and development suggestions based on the team member's current role, career goals, and skills."
+        },
+        "skillEnhancementResources": {
+          "arguments": [
+            "skill_area"
+          ],
+          "description": "Provides resources and recommendations for improving specific skills."
+        },
+        "performanceReview": {
+          "arguments": [
+            "team_member"
+          ],
+          "description": "Generates a performance review report for the team member, highlighting strengths and areas for improvement."
+        }
+      },
+      "scene_desc": "奕辰作为创业公司的联合创始人，他需要帮助团队成员提供职业发展建议。一天，奕辰的团队成员小李感到在当前的角色中遇到了瓶颈，并希望得到一些关于职业发展的指导。小李希望了解如何提升自己的技能，并探讨未来的职业发展路径。奕辰决定利用AI助手来提供详细的职业发展建议，以帮助小李找到合适的培训资源和发展机会，同时确保团队的高效和创新。",
+      "expected_response": "\n根据奕辰的persona描述，他对新科技充满激情和好奇心，乐于接受挑战，享受自由和灵活的工作环境，同时重视团队的高效和创新。AI助手应该首先询问小李的当前角色、具体的职业目标和已具备的技能。接着，AI应该提供一些定制化的职业发展建议，建议小李参与哪些具体的培训课程或获取哪些技能证书，并推荐相关的资源和学习平台。AI还应该生成一份详细的职业发展计划书，帮助小李明确短期和长期的职业目标，并提出一些创新性的建议，鼓励小李在工作中进行创新和探索。此外，AI可以访问公司的内部资源，为小李寻找导师或指导伙伴以进行进一步的指导和支持。最后，AI可以帮助奕辰安排一次后续的跟进会议，确保小李的职业发展规划能够顺利进行，并提供必要的反馈和支持。\n",
+      "scene_context": "小李当前的角色是软件工程师，具体的职业目标是提升为团队技术负责人，已具备的技能包括Java、Python编程和基础的项目管理。",
+      "personalized_query": "小李最近遇到职业瓶颈，想要提升自己的技能并探讨职业发展路径。考虑到他已经具备了Java、Python编程和基础的项目管理技能，目标是提升为团队技术负责人，我决定利用AI助手来提供详细的职业发展建议。\n\n---\n\n嗯，今天需要你帮忙为小李提供一些职业发展建议。他目前是软件工程师，想要提升为团队技术负责人，能否帮我找一些适合他的技能培训资源和发展路径建议？",
+      "neutralized_query": "<neutralized_query>\n需要你提供一些职业发展建议和技能培训资源，帮助一名当前的软件工程师提升为团队技术负责人。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：奕辰可能会帮助自己或团队成员准备面试问题，进行模拟面试，以确保招聘到优秀的新成员。",
+      "available_apis": {
+        "generateInterviewQuestions": {
+          "arguments": [
+            "job_position",
+            "required_skills"
+          ],
+          "description": "Generates a list of interview questions based on the job position and required skills."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., Yichen and team members) for the preferred time slot and suggests a suitable meeting time for the mock interview."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional mock interview invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "interview_notes"
+          ],
+          "description": "Provides feedback and improvement suggestions based on the interview notes."
+        }
+      },
+      "scene_desc": "奕辰正在为公司招聘一名新的技术团队成员，他希望为自己准备一场模拟面试，以确保能够吸引到优秀的应聘者。为了达成这一目标，他需要生成一套针对特定职位的面试问题，并安排一个模拟面试环节，邀请团队成员参与，以便进行全面的评估和反馈。",
+      "expected_response": "根据奕辰的persona描述，AI应首先询问该职位的具体工作职责和所需技能，以便生成相关的面试问题。接着，AI应确认奕辰希望哪些团队成员参与模拟面试，并检查他们的时间安排，找到一个适合所有人的时间段。AI还应提供一个详细的模拟面试议程，包括每个环节的时间安排和目标，并生成一份专业的模拟面试邀请邮件供奕辰确认后发送。最后，AI应提示奕辰在模拟面试后记录面试笔记，并提供针对面试表现的反馈和改进建议。",
+      "scene_context": "奕辰正在招聘的职位是\"高级后端开发工程师\"，该职位的具体工作职责包括：设计和开发高性能、高可用性的后端服务，优化数据库查询，参与系统架构设计，以及解决技术难题。所需技能包括：精通Java或Python编程语言，熟悉Spring Boot框架，具有MySQL或PostgreSQL的实际使用经验，熟悉Redis或其他缓存技术，以及具备良好的问题解决能力和团队合作精神。奕辰希望团队中的工程经理Linda和资深后端开发工程师Alex参与模拟面试。奕辰的可用时间段为下周一至周三上午9点到12点之间，Linda和Alex的时间安排如下：Linda周一和周二上午都有空，Alex周二和周三上午都有空。\n\n示例代码段：\n```python\ndef find_common_time(slots1, slots2, slots3):\n    common_slots = set(slots1) & set(slots2) & set(slots3)\n    return list(common_slots)\n\n# 可用时间段\nyichen_slots = [\"Monday 9-12\", \"Tuesday 9-12\", \"Wednesday 9-12\"]\nlinda_slots = [\"Monday 9-12\", \"Tuesday 9-12\"]\nalex_slots = [\"Tuesday 9-12\", \"Wednesday 9-12\"]\n\n# 找到共同可用时间段\ncommon_slots = find_common_time(yichen_slots, linda_slots, alex_slots)\nprint(f\"Common available time slots for the mock interview: {common_slots}\")\n```",
+      "personalized_query": "嗨，早上好！我正在准备一场模拟面试，招聘一个高级后端开发工程师。我需要你帮助生成一些针对这个职位的面试问题，并且安排一个模拟面试环节。\n\n首先，能不能帮我整理一些高质量的面试问题？职位要求是设计和开发高性能、高可用性的后端服务，包括数据库优化和系统架构设计。主要技能包括：精通Java或Python，熟悉Spring Boot，实际使用过MySQL或PostgreSQL，熟悉Redis或其他缓存技术，还需要有良好的问题解决能力和团队合作精神。你明白我的意思吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮助生成一些针对高级后端开发工程师职位的面试问题，并安排一个模拟面试环节。职位要求是设计和开发高性能、高可用性的后端服务，包括数据库优化和系统架构设计。主要技能包括：精通Java或Python，熟悉Spring Boot，实际使用过MySQL或PostgreSQL，熟悉Redis或其他缓存技术，还需要有良好的问题解决能力和团队合作精神。"
+    },
+    {
+      "scene_type": "投资建议：奕辰需要初步的投资建议来进行理财规划，确保公司的财务健康和可持续发展。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "奕辰作为一个创业公司联合创始人，正在考虑新的投资机会，以确保公司的财务健康和可持续发展。他对新科技充满激情和好奇心，因此他想要了解新兴技术和创新企业的投资机会。他打开终端上的AI助手，寻求初步的投资建议和信息。",
+      "expected_response": "AI应该首先询问奕辰具体的投资目标和领域偏好，例如是否关注某些特定的行业（如人工智能、区块链、清洁能源等），以及他希望的投资时间跨度和风险承受能力。接着，AI应该通过联网搜索获取最新的市场趋势和潜在的投资机会，并提供相关的分析报告和推荐。AI还应该根据奕辰的反馈进一步细化推荐列表，确保提供的信息具有高创新性和潜在的高回报。最后，AI可以询问是否需要订阅相关的行业新闻更新，以便奕辰持续跟踪市场动态和新科技发展。",
+      "scene_context": "奕辰的投资目标是寻找创新技术和新兴企业。他对以下几个领域特别感兴趣：人工智能、区块链和清洁能源。奕辰希望的投资时间跨度是中长期（3-5年），并且他有中等的风险承受能力，希望能够在风险与回报之间找到一个平衡点。",
+      "personalized_query": "嗨，AI助手，我需要你帮我针对新科技和创新企业的投资机会做一些初步的调研。特别是人工智能、区块链和清洁能源这几个领域。你能先给我一些最近这些领域内有潜力的初创企业或技术趋势的信息吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你针对新科技和创新企业的投资机会做一些初步的调研，并提供最近有潜力的初创企业或技术趋势的信息。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行业趋势分析：奕辰对新科技充满激情和好奇心，需要时刻关注行业趋势和新兴技术，以便及时调整公司的战略和产品方向。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "subscribeToUpdates": {
+          "arguments": [
+            "source"
+          ],
+          "description": "Subscribe to updates from a given source (e.g., industry news, tech blogs) to stay informed about the latest trends and technologies."
+        }
+      },
+      "scene_desc": "奕辰正准备召开公司战略会议，以便调整公司的战略和产品方向。为了确保会议的有效性，他需要获取最新的行业趋势和新兴技术信息，以便在会议中提供有价值的洞见和指导。奕辰希望AI助手能够提供相关的行业报告、技术分析和趋势预测，并帮助他订阅一些权威科技博客的更新，以便随时掌握最新的行业动态。",
+      "expected_response": "\n根据奕辰的persona描述，他对新科技充满激情和好奇心，并且喜欢探索未知领域，接受挑战。AI助手应该首先询问奕辰是否有特定的行业或技术领域需要关注，以确保提供的信息是相关且有价值的。接着，AI助手应通过联网搜索提供最新的行业报告和技术分析，包含图文并茂的详细说明，以满足奕辰喜欢图文并茂解释的偏好。同时，AI助手应该推荐一些权威科技博客，并提供选项让奕辰订阅这些博客的更新，确保他能够随时获取最新的信息。此外，AI助手还应总结提供的信息中的关键点和趋势，以便奕辰在会议中能快速抓住重点进行讨论。最后，AI助手应询问奕辰是否需要将这些信息整理成报告或幻灯片，以便在会议中展示和分享。",
+      "scene_context": "奕辰需要关注的几个具体领域包括：人工智能、区块链技术和5G通信。AI助手需要提供以下信息：\n1. 最新的人工智能行业报告，包括技术发展、市场趋势和主要应用领域。\n2. 区块链技术的最新动态和应用案例分析，特别是一些最近的突破和潜在的商业机会。\n3. 5G通信技术的进展情况，包括全球部署情况、技术标准更新和主要运营商的推广策略。\n\n此外，以下是推荐的几家权威科技博客，奕辰可以选择订阅：\n1. TechCrunch\n2. Wired\n3. MIT Technology Review\n\nAI助手还需将这些信息整理成一个简洁的报告或幻灯片，以便奕辰在战略会议中展示和分享。",
+      "personalized_query": "Hey，AI助手，我准备召开公司战略会议，需要你帮我收集一些最新的行业趋势和新兴技术信息。先帮我获取最新的人工智能行业报告，主要包括技术发展、市场趋势和主要应用领域。能做到吗？\n\n等你给我这些信息后，我们再继续讨论其他内容。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我收集一些最新的行业趋势和新兴技术信息，特别是关于人工智能的技术发展、市场趋势和主要应用领域的报告。\n</neutralized_query>"
+    }
+  ]
+}

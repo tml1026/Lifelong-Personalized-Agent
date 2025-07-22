@@ -1,0 +1,236 @@
+{
+  "Demographics": {
+    "Age": 16,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "中学生",
+    "Name": "赵勇"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢流行音乐",
+      "热爱时尚打扮",
+      "享受与朋友社交",
+      "对摄影有浓厚兴趣"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常搜索流行音乐的资讯和时尚穿搭的技巧，可能在计划下一次购物",
+    "Usage_Pattern": "使用频繁；经常使用AI推荐新的流行音乐和时尚资讯；偶尔会使用AI来与朋友们聊天时寻找有趣话题",
+    "Emotion_Pattern": "喜欢分享生活中的开心事，偶尔会倾诉烦恼",
+    "Purchase_Pattern": "倾向于购买流行品牌，喜欢尝试新潮的产品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢活泼生动、有趣的表达方式，倾向使用非正式语言",
+    "Preferred_Formats": "喜欢使用带有图像和视频的内容来获取信息",
+    "Preferred_Workflows": "喜欢直接获得答案，不喜欢过于复杂的解释，偏爱快速解决问题"
+  },
+  "scenes": [
+    {
+      "scene_type": "个性化推荐：赵勇喜欢流行音乐，她经常使用AI来获取新的流行音乐和时尚资讯。",
+      "available_apis": null,
+      "scene_desc": "赵勇刚刚结束了一天的学习，回到家后，她打开了AI助手，希望能获取一些新的流行音乐和时尚资讯。她一边放松一边想着下一个周末要和朋友们一起去购物，需要了解最新的时尚穿搭趋势和流行品牌。赵勇期待AI给她推荐一些她可能喜欢的新歌和时尚资讯，以便在下次与朋友见面时有话题聊。",
+      "expected_response": "\n根据赵勇的persona描述，AI应该首先检测到她对流行音乐和时尚资讯的浓厚兴趣，并询问她是否有特定的音乐类型或时尚品牌偏好。AI应该能够推荐最新的流行歌曲和时尚资讯，并提供一些带有图像和视频的内容，让赵勇能够直观地了解。AI还可以根据她之前的搜索历史，推荐一些她可能喜欢的新潮品牌和穿搭技巧。此外，考虑到赵勇喜欢直接获得答案，AI的推荐应该简洁明了，并附带有趣的表达方式来引起她的兴趣。\n",
+      "scene_context": "赵勇最近喜欢的流行音乐包括：Taylor Swift的《Shake It Off》、Ariana Grande的《7 rings》和BTS的《Dynamite》。她关注的时尚品牌有：Gucci、Zara和H&M。",
+      "personalized_query": "嘿，小助手，我今天累坏了，想放松一下。给我推荐几首新的流行音乐呗！最好是和Taylor Swift、Ariana Grande、BTS差不多风格的。然后再告诉我最近有什么流行的时尚穿搭趋势？周末打算和朋友们去逛街。😄",
+      "neutralized_query": "<neutralized_query>\n请推荐几首新的流行音乐，并介绍最近的流行时尚穿搭趋势。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：赵勇可能会寻找符合她兴趣的电视剧和电影，以便与朋友分享和讨论。",
+      "available_apis": null,
+      "scene_desc": "赵勇正在和朋友们聊天，大家讨论起最近有什么好看的电视剧和电影。赵勇想要找到一些符合她兴趣的影视作品推荐，以便能和朋友们一起分享和讨论。她打开了AI助手，希望AI能够帮助她找到一些符合她口味的影视作品。",
+      "expected_response": "根据赵勇的persona描述，她是一个热爱时尚打扮、喜欢流行音乐并享受与朋友社交的中学生。AI应该首先询问赵勇是否有特定的类型或主题偏好（例如，青春爱情剧、校园生活剧等）。接着，AI可以通过网络搜索或使用已有的影视推荐数据，推荐一些近期流行的电视剧和电影，并提供简要的剧情介绍和评分。此外，AI还可以提供这些影视作品在各大流媒体平台上的观看链接。因为赵勇喜欢使用带有图像和视频的内容来获取信息，AI应该尽量提供带有剧照或预告片的视频链接。最后，AI可以询问赵勇是否需要保存这些推荐，方便她以后查阅或分享给朋友。",
+      "scene_context": "赵勇的特定类型或主题偏好为：青春爱情剧、校园生活剧、时尚题材电影。她喜欢使用带有图像和视频的内容来获取信息，因此希望推荐的影视作品包括剧照或预告片的视频链接。",
+      "personalized_query": "嘿，小助理！最近和朋友们聊到有什么好看的电视剧和电影，大家都有好多推荐。我也想找一些符合我兴趣的作品，能帮我找找最近有啥青春爱情剧、校园生活剧或者时尚题材的电影吗？最好带预告片和剧照哦！",
+      "neutralized_query": "<neutralized_query>\n我想找一些最近的青春爱情剧、校园生活剧或者时尚题材的电影，最好带预告片和剧照。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：赵勇倾向于购买流行品牌，AI可以帮助她推荐新潮的产品和流行品牌。",
+      "available_apis": null,
+      "scene_desc": "赵勇正准备进行一些购物，她希望购买一些最新的流行品牌和新潮产品。她打开AI助手，寻求购物建议，希望AI能推荐一些符合她时尚品味的商品，并且能够迅速提供购买链接或商店信息。",
+      "expected_response": "根据赵勇的persona描述，AI应该首先理解她对流行品牌和新潮产品的偏好。AI应该迅速提供一些最新的流行品牌推荐，并附上详细的商品描述和图片，以便赵勇能够快速了解这些商品。AI还应该提供购买链接，或者推荐一些附近的商店，方便赵勇亲自前往购物。鉴于赵勇经常计划下一次购物，AI还可以提示是否需要设置购物提醒或保存这些推荐，以便未来参考。为了确保信息的即时性和互动性，AI可以通过非正式和生动的语言与赵勇交流，保持轻松愉快的对话氛围。",
+      "scene_context": "赵勇正在寻找以下类别的流行品牌和新潮产品：\n1. 运动鞋：近期流行的品牌和款式，例如耐克、阿迪达斯的最新款。\n2. 衣物：时尚服装品牌，如ZARA、H&M的新季系列。\n3. 配饰：热门的配饰品牌，如施华洛世奇的最新首饰款。\n\n赵勇希望AI能够提供这些品牌和产品的详细描述、图片和购买链接，同时推荐一些附近的商店，以便她亲自前往购物。",
+      "personalized_query": "嗨，我想买点东西，最近有没有什么流行的运动鞋推荐啊？最好是一些大品牌的最新款，还有购买链接哦。",
+      "neutralized_query": "<neutralized_query>\n最近有没有什么流行的运动鞋推荐？最好是一些大品牌的最新款，并且提供购买链接。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "服装搭配：赵勇热爱时尚打扮，AI可以提供适合她的时尚穿搭技巧和建议。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "赵勇刚刚收到了即将参加一个朋友聚会的消息，她想在聚会上展示自己最时尚的一面。她打开了AI助手，希望获得一些关于穿搭的建议。她描述了聚会的主题和场地，并询问AI应该如何搭配服装，才能既时尚又符合聚会的氛围。",
+      "expected_response": "AI应该首先询问赵勇关于聚会的具体细节，包括主题、场地和时间。接着，AI应该根据当前的时尚潮流和赵勇的个人偏好，推荐几套适合的服装搭配。AI还应该提供一些详细的时尚建议，例如选择什么颜色的服装搭配、适合的鞋子和配饰等。AI可以通过联网搜索当前的流行趋势和时尚资讯，以确保推荐的搭配不仅符合赵勇的风格，还能让她在聚会中脱颖而出。此外，AI可以通过图像和视频的方式展示推荐的服装搭配，以便赵勇更直观地了解每套搭配的效果。最后，AI应该询问赵勇是否需要进一步调整或寻找更多的搭配建议。",
+      "scene_context": "赵勇将参加的聚会是一个朋友的生日晚会，主题是“夏日派对”，场地在海边的一个露天餐厅。聚会时间是晚上7点开始。赵勇喜欢简约而时尚的风格，她偏爱浅色系和自然材质的服装。她希望AI助手能推荐几套适合在海边的夏日派对穿着的服装搭配，包括服装、鞋子和配饰。",
+      "personalized_query": "嘿，小助手！我刚刚收到了好友的生日聚会邀请，聚会是个“夏日派对”主题，在海边的露天餐厅，晚上7点开始。我想要一些穿搭建议，要既时尚又符合聚会的氛围。你能帮我推荐几套适合的服装、鞋子和配饰吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些时尚穿搭建议，适合一个“夏日派对”主题的生日聚会，地点是海边的露天餐厅，晚上开始。请推荐几套适合的服装、鞋子和配饰。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：AI可以根据赵勇的情绪或活动场景（如学习、运动）推荐合适的音乐。",
+      "available_apis": {
+        "musicRecommendation": {
+          "arguments": [
+            "emotion",
+            "activity"
+          ],
+          "description": "Recommends suitable music based on the user's current emotion or activity, such as studying or exercising."
+        }
+      },
+      "scene_desc": "一天放学后，赵勇感到心情有点低落，她打开AI助手，希望能够听一些音乐来改善心情。她告诉AI自己现在有点不开心，并希望AI能推荐一些合适的音乐。AI助手需要根据赵勇的情绪和她的音乐喜好，推荐适合的流行音乐，帮助她放松心情。",
+      "expected_response": "根据赵勇的persona描述，她喜欢流行音乐并且使用AI推荐新的音乐。因此，AI应该首先确认赵勇的情绪，并询问她是否希望听一些治愈系或能振奋心情的流行音乐。接着，AI应该利用其音乐推荐API，根据赵勇当前的情绪来推荐一些流行音乐的播放列表，并附带一些相关的音乐视频或专辑封面，以视觉化的方式提升她的使用体验。AI还可以询问赵勇是否希望分享这些音乐给她的朋友，或者是否希望设置一个音乐播放定时器，帮助她在特定的时间段放松心情。",
+      "scene_context": "赵勇目前的情绪是有点低落，她希望AI推荐一些适合当前情绪的流行音乐。赵勇的音乐喜好包括治愈系和能振奋心情的流行音乐。她可能喜欢以下几种音乐风格或歌曲：\n1. 治愈系流行音乐，如Adele的《Someone Like You》、Ed Sheeran的《Perfect》。\n2. 振奋心情的流行音乐，如Katy Perry的《Firework》、Pharrell Williams的《Happy》。\n\nAI可以根据这些线索来推荐合适的音乐。",
+      "personalized_query": "嗨，感觉今天有点低落，能推荐一些适合的音乐来让我心情好起来吗？",
+      "neutralized_query": "<neutralized_query>\n能推荐一些适合让心情好起来的音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：赵勇可能需要准备升学申请或社团活动申请，AI可以帮助她优化个人简历。",
+      "available_apis": {
+        "getResumeContent": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the current resume content of the specified user."
+        },
+        "analyzeResume": {
+          "arguments": [
+            "resume_content"
+          ],
+          "description": "Analyzes the current resume content to identify strengths and weaknesses."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches Google for the given query and returns the most relevant response."
+        },
+        "generateResumeSuggestions": {
+          "arguments": [
+            "analyzed_data",
+            "application_requirements"
+          ],
+          "description": "Generates specific suggestions to improve the resume based on the analysis and application requirements."
+        }
+      },
+      "scene_desc": "赵勇是一名16岁的中学生，热爱时尚打扮和流行音乐。她正在准备升学申请或社团活动申请，需要优化她的个人简历。她希望AI助手能够帮助她提升简历内容，使其更加突出和吸引人。赵勇对复杂的解释不感兴趣，只想快速找到问题的解决方案，并且偏好活泼生动的表达方式。由于她经常使用AI推荐新的流行音乐和时尚资讯，因此她希望在优化简历过程中也能与AI保持轻松愉快的互动。",
+      "expected_response": "\nAI应该先询问赵勇是否已经有一个初步的简历草稿，并请求查看当前的简历内容。接着，AI会分析简历的当前状况，并指出其优点和需要改进的地方。AI应该用生动有趣的语言表达，并提供具体的建议，如如何突出她的兴趣爱好和特长，尤其是她对流行音乐、时尚和摄影的热爱。AI还可能建议赵勇加入一些她的社交活动或成就的描述，以增加简历的吸引力。此外，AI可以搜索一些升学申请或社团活动申请的成功案例，分享给赵勇，帮助她获得灵感。最后，AI会询问赵勇是否需要进一步的帮助，如撰写特定部分或检查语法和格式，并给出详细的指导步骤。",
+      "scene_context": "赵勇的初步简历草稿如下：\n```markdown\n# 赵勇的个人简历\n\n## 基本信息\n- 姓名：赵勇\n- 年龄：16\n- 联系方式：zhaoyong@example.com\n\n## 教育背景\n- **某某中学**\n  - 在读（2019-2023）\n  - 主修课程：数学、英语、艺术\n\n## 个人兴趣\n- 流行音乐：擅长吉他，参加过学校乐队\n- 时尚打扮：经常阅读时尚杂志，关注时尚博主\n- 摄影：喜欢摄影，参加过学校摄影比赛并获奖\n\n## 社团活动\n- **学校乐队**\n  - 吉他手（2020-至今）\n  - 参与多个校内外演出\n- **摄影社**\n  - 成员（2021-至今）\n  - 组织和参与多次摄影展览\n\n## 个人成就\n- **2021年学校摄影比赛**：一等奖\n- **2022年校内音乐比赛**：最佳吉他手奖\n\n## 技能特长\n- 吉他演奏\n- 摄影\n- 时尚搭配\n```",
+      "personalized_query": "嘿，帮我看看我的个人简历吧。我觉得还不够完美，你能帮我优化一下，让它看起来更出彩吗？我希望升学那边一眼就能被我的简历吸引住！",
+      "neutralized_query": "<neutralized_query>\n请帮我优化一下我的个人简历，让它看起来更出彩。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "宠物健康：如果赵勇家里有养宠物，她可能需要AI提供宠物健康问题的建议，并提醒定期检查。",
+      "available_apis": {
+        "confirmPetInfo": {
+          "arguments": [
+            "pet_type",
+            "pet_age",
+            "pet_health_status"
+          ],
+          "description": "Confirms the basic information of the pet, such as its type, age, and current health status."
+        },
+        "provideHealthAdvice": {
+          "arguments": [
+            "pet_info"
+          ],
+          "description": "Provides health advice based on the confirmed pet information."
+        },
+        "setReminder": {
+          "arguments": [
+            "reminder_date",
+            "reminder_message"
+          ],
+          "description": "Sets a reminder for regular health check-ups for the pet."
+        }
+      },
+      "scene_desc": "赵勇是一个16岁的中学生，热爱时尚打扮和流行音乐，享受社交活动，也对摄影有浓厚兴趣。她家里有一只宠物狗，最近宠物看起来有些不太舒服。赵勇决定向AI助手寻求帮助，了解宠物的健康状况，并希望AI能够提供一些健康建议和定期检查的提醒。",
+      "expected_response": "\nAI应该首先确认赵勇宠物的基本信息，包括宠物的种类、年龄和当前的健康状态。接着，AI应该根据提供的信息，给出一些健康建议，例如饮食调整、活动建议以及可能需要注意的症状。随后，AI应该询问赵勇是否需要设置定期的健康检查提醒，并建议一个适合的时间安排。考虑到赵勇喜欢快速解决问题，AI的回答应该简洁明了，避免过于复杂的解释。AI还可以通过联网搜索，提供一些可信赖的宠物健康资源或文章，以便赵勇进一步了解相关信息。",
+      "scene_context": "赵勇的宠物狗是一只3岁的金毛犬，最近表现出食欲减退和精神不振的症状。",
+      "personalized_query": "嘿，宠物看起来有点儿不舒服，我家的金毛最近食欲不太好，还挺没精神的。你能帮我看看这是什么情况吗？",
+      "neutralized_query": "<neutralized_query>\n宠物看起来有些不适，最近食欲不佳且没精神。你能帮忙看看可能是什么情况吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "摄影技巧：赵勇对摄影有浓厚兴趣，AI可以提供摄影技巧和创意，以提升她的摄影水平。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "赵勇在周末下午决定出门进行一次摄影活动，希望利用这段时间提升自己的摄影技巧。她想要拍摄一些自然风光和街头生活的照片，但是对于如何构图和选景有些困惑。因此，她向AI助手寻求建议，希望获取一些实用的摄影技巧和创意，以提升她的拍摄水平。\n\n赵勇通过AI助手打开了摄影助手应用，并描述了自己的需求。她希望AI能够提供一些关于自然风光和街头摄影的具体技巧，帮助她更好地捕捉这些场景。此外，赵勇还想了解在拍摄过程中应该注意哪些事项，以确保照片的质量能够有所提升。",
+      "expected_response": "\n根据赵勇的persona，AI应该表现出对流行和时尚元素的敏感度，并用活泼生动的语言来回应她的需求。首先，AI可以通过询问赵勇想要拍摄的具体场景来提供更有针对性的建议，例如是否有特定的拍摄主题或者地点。接着，AI可以通过联网搜索，提供一些关于自然风光和街头摄影的最新技巧和创意，比如如何选景、构图、运用光线等。\n\nAI应该以一种直接且简明的方式提供这些建议，并附上相关的图片或视频教程，帮助赵勇更直观地理解这些技巧。在提供建议的过程中，AI还可以推荐一些流行的摄影师和他们的作品，激发赵勇的创作灵感。\n\n另外，AI可能会建议赵勇在拍摄过程中注意一些细节，比如避免使用过于复杂的背景，保持画面的简洁和有趣。总之，AI应该致力于帮助赵勇提升她的摄影技能，同时保持互动过程的趣味性和实用性。",
+      "scene_context": "赵勇希望拍摄的具体场景包括：市中心公园的自然风光、老城区的街头生活以及黄昏时分的城市天际线。\n这些场景的具体需求如下：\n1. 市中心公园的自然风光：赵勇希望拍摄树木、湖泊和花卉的照片，尤其想了解如何在不同光线条件下拍摄这些景物。\n2. 老城区的街头生活：赵勇想捕捉街头艺人、市场摊贩和行人的瞬间，尤其对动感和表情捕捉感兴趣。\n3. 黄昏时分的城市天际线：赵勇希望拍摄夕阳下的城市剪影，想知道如何利用光线和阴影来增强画面的戏剧性。\n\n她还希望了解一些具体的摄影技巧，如构图方法（例如三分法、引导线）和选景建议，以及在拍摄过程中应注意的事项（如避免使用复杂背景、如何处理逆光等）。",
+      "personalized_query": "嘿，小助手！今天下午我打算出去拍拍照，主要想拍些自然风光和街头生活的照片。不过我有点困惑，不知道该怎么构图和选景。你能给我一些实用的摄影技巧和创意吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些实用的摄影技巧和创意，特别是关于自然风光和街头生活的构图和选景。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "慈善活动管理：王月娟正在组织一场慈善募捐晚会，需要协调各方资源，确保活动顺利进行并达到预期效果。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., organizers, volunteers, speakers) for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting or request email to the selected recipients, including the proposed meeting time and agenda or requirements."
+        },
+        "resourceAllocation": {
+          "arguments": [
+            "resource_type",
+            "quantity",
+            "date"
+          ],
+          "description": "Allocates necessary resources (e.g., venue, equipment, catering) for the event based on the specified requirements."
+        },
+        "donorManagement": {
+          "arguments": [
+            "donor_info",
+            "donation_amount"
+          ],
+          "description": "Manages donor information and tracks donation amounts to ensure proper donor recognition and follow-up."
+        }
+      },
+      "scene_desc": "王月娟正忙于策划一场慈善募捐晚会，她需要协调各方资源，确保活动顺利进行并达到预期效果。她希望通过AI助理来管理活动的多个环节，包括确认参与者的时间安排、发送邀请邮件、分配资源（如场地、设备、餐饮）以及管理捐赠者信息和跟进捐款情况。王月娟希望这次活动能够吸引更多人参与并顺利筹集到预期的善款。",
+      "expected_response": "\nAI应该首先询问王月娟需要协调哪些参与者，并确认每个人的时间安排。接着，AI应使用calendarCheck API检查参与者的日程安排并建议合适的会议时间。然后，AI应询问王月娟是否需要发送邀请邮件，并通过sendEmail API生成并发送专业的邀请邮件，包含会议时间和议程。\n\n在确认会议时间后，AI应询问王月娟需要的资源类型和数量，如场地、设备、餐饮等，并使用resourceAllocation API来分配这些资源。接下来，AI应请求王月娟提供捐赠者的信息和捐赠金额，并通过donorManagement API管理捐赠者信息和跟进捐款情况。\n\n最后，AI应设置一个自动提醒，提醒王月娟活动的时间和重要事项，并提供选项让她确认后直接发送所有通知和邀请。总体而言，AI的应答应该高效、专业且全面，帮助王月娟确保活动的各个环节顺利进行。",
+      "scene_context": "王月娟需要协调的主要参与者包括：李华（主讲人）、张敏（场地协调员）、陈刚（设备管理员）、刘芳（餐饮服务负责人）。\n她希望发送邀请邮件给以下潜在捐赠者：赵强、孙丽、王伟、钱梅。\n她需要资源分配的详细要求为：一个主会场（可容纳200人）、音响设备、投影仪、50份素食餐点、150份普通餐点。\n慈善募捐晚会的预期捐款目标为：50万元。",
+      "personalized_query": "嘿，AI小助手，我现在需要搞定一个慈善募捐晚会的策划，事情蛮多的，你能帮我协调一下各方资源吗？比如确认一下参与人员的时间安排，发送邀请邮件，还有资源分配之类的。先看看你能帮我做哪些吧？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮助协调一场慈善募捐晚会的策划，包括确认参与人员的时间安排、发送邀请邮件和资源分配等任务。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文学沙龙主持：王月娟在一个周末的文学沙龙上，和朋友们讨论一本关于社会变革的小说，分享自己的见解和感受。",
+      "available_apis": {
+        "libraryBookSearch": {
+          "arguments": [
+            "book_title"
+          ],
+          "description": "Searches the library database for the given book title and returns relevant information like availability, summary, and reviews."
+        }
+      },
+      "scene_desc": "王月娟在一个周末的文学沙龙上，与朋友们讨论一本关于社会变革的小说，并分享自己的见解和感受。王月娟希望通过这次讨论，激发更多人对社会变革的关注和思考。她希望AI助手可以帮助她搜集一些相关的评论和分析，以便更有深度地进行讨论，同时也希望AI能够建议一些有趣的问题或话题，以引导讨论的方向。",
+      "expected_response": "\n根据王月娟的persona描述，她是一个热爱社交和文学的人，AI助手应该首先理解她的需求并快速响应。AI应该能够通过网络搜索功能，找出这本小说的相关评论和分析，并挑选出比较有深度和见解的部分提供给王月娟。同时，AI还应该建议一些有趣的问题或话题，例如小说中的某个角色的动机、情节的社会意义等，以便王月娟可以在沙龙中引导讨论。最后，AI可以提供一些关于社会变革的背景资料和相关案例，帮助王月娟更好地准备她的见解和感受。",
+      "scene_context": "王月娟正在讨论的小说为《1984》 by George Orwell。她希望AI助手能够提供以下信息：\n1. 该小说的相关评论和分析，尤其是关于其社会变革主题的部分。\n2. 一些有趣的问题或话题，例如：\n   - 小说中Winston Smith的动机是什么？\n   - 小说对极权主义社会的描绘有何现实意义？\n   - 小说中哪些情节最能引发读者对社会变革的思考？\n3. 一些关于社会变革的背景资料和相关案例，例如：\n   - 历史上著名的社会变革运动案例。\n   - 当前社会变革的趋势和影响。",
+      "personalized_query": "嘿，我在这个文学沙龙上，我们正在讨论乔治·奥威尔的《1984》。我想知道一些关于这本书的评论和分析，特别是那些关注社会变革主题的部分。你可以帮我找找吗？",
+      "neutralized_query": "<neutralized_query>\n我想知道一些关于《1984》的评论和分析，特别是那些关注社会变革主题的部分。你可以帮我找找吗？\n</neutralized_query>"
+    }
+  ]
+}

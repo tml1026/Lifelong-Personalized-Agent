@@ -1,0 +1,243 @@
+{
+  "Demographics": {
+    "Age": 60,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "退休工人",
+    "Name": "陈俊杰"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "喜欢社区活动",
+      "热衷园艺",
+      "关心环保"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢讨论社会话题和环保问题",
+    "Usage_Pattern": "以中等频率使用；主要用于获取社区活动信息和园艺技巧",
+    "Emotion_Pattern": "容易受到社区反馈影响，情绪波动较为明显",
+    "Purchase_Pattern": "倾向于购买环保友好产品，注重性价比"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细而实用的解释和指导",
+    "Preferred_Formats": "偏好图文并茂的内容，有实用例子的步骤指南",
+    "Preferred_Workflows": "喜欢按部就班，计划好每一步的行动"
+  },
+  "scenes": [
+    {
+      "scene_type": "社交活动建议：陈俊杰喜欢社区活动，因此需要推荐适合的社交活动或聚会场所，帮助他更好地融入社区。",
+      "available_apis": null,
+      "scene_desc": "在一个阳光明媚的上午，陈俊杰打开了他的AI助手，准备查询一些社区活动信息。由于他是一个热爱社区活动的退休工人，经常参与各种社区活动，并且喜欢与人交流。因此，他希望AI能够推荐一些近期在他所在社区举办的活动或聚会场所，帮助他更好地融入社区并结交新朋友。",
+      "expected_response": "\n根据陈俊杰的persona，AI应首先询问他是否有特定的兴趣方向（例如园艺、环保讲座、健身活动等），以便提供更符合他兴趣的活动推荐。接着，AI应该利用联网搜索功能，找到他所在社区近期的活动列表，并根据活动的详细信息（时间、地点、活动内容）进行推荐。AI还可以提供每个活动的具体参加方法和联系人信息，并建议他将感兴趣的活动添加到日程表中，设定提醒以防错过。\n",
+      "scene_context": "陈俊杰所在的社区是海滨社区。他最近特别关注的兴趣方向有：园艺、环保讲座和健身活动。",
+      "personalized_query": "早上好，今天阳光真好！我想看看最近社区有什么活动，特别是关于园艺、环保讲座或者健身方面的活动。你能帮我查一下吗？",
+      "neutralized_query": "<neutralized_query>\n你能告诉我最近社区有哪些活动吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "环保购物：陈俊杰关心环保，希望购买环保友好产品，因此需要推荐环保品牌或产品，帮助他做出更可持续的购物选择。",
+      "available_apis": null,
+      "scene_desc": "陈俊杰正在浏览购物网站，希望能购买一些环保友好的产品，以支持可持续发展和环保事业。他对环保产品的材料、生产过程以及使用后的回收处理都非常注重，因此希望能获得有关这些方面的详细信息。同时，他希望推荐的产品能够满足他的日常需求，并且具有较高的性价比。陈俊杰打开他的AI助手，请求推荐一些环保友好的产品和品牌。",
+      "expected_response": "\n根据陈俊杰的persona描述，AI应该会首先了解他具体需要购买的产品类别（如日常用品、家居用品等），并询问他对产品的具体需求（如材料、用途等）。接着，AI会通过访问环保购物数据库或进行联网搜索，推荐一些符合环保标准的品牌或产品，并提供详细的产品信息，包括材料来源、生产过程、环保认证以及回收处理方式。此外，AI应该会考虑到陈俊杰对性价比的看重，推荐一些价格合理且质量较高的环保产品，并提供购买链接。最后，AI可以提供一些实用的购物指南和注意事项，帮助陈俊杰做出更加明智的购物决策。",
+      "scene_context": "陈俊杰主要需要购买以下几类环保友好产品：\n1. 日常用品：如牙刷、洗碗液、洗衣液等。\n2. 家居用品：如竹制家具、可再生材料的床上用品等。\n3. 个人护理产品：如有机护肤品、可降解卫生用品等。\n\n他希望这些产品符合以下标准：\n1. 材料环保：使用可再生资源或可降解材料。\n2. 生产过程：低碳排放、无污染、符合环保认证。\n3. 回收处理：有清晰的回收方案或支持循环利用。\n\n此外，他希望这些产品具有较高的性价比，即价格合理且质量可靠。",
+      "personalized_query": "你好，我刚刚在浏览购物网站，想购买一些环保友好的产品。能帮我推荐一些日常用品吗？比如牙刷、洗碗液和洗衣液这些。最好能告诉我这些产品的材料、生产过程以及回收处理情况。谢谢。",
+      "neutralized_query": "<neutralized_query>\n我需要推荐一些环保友好的日常用品以及这些产品的材料、生产过程和回收处理情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "园艺技巧：陈俊杰热衷园艺，需要获取园艺技巧、种植方法和园艺产品推荐，以丰富他的园艺爱好。",
+      "available_apis": null,
+      "scene_desc": "陈俊杰在退休后热衷于园艺，常在社区中分享他的园艺经验，并积极参与环保活动。他最近想尝试种植一些新的植物，并希望改进自己的园艺技巧。他对园艺的每一个步骤都非常讲究，喜欢按照详细的指南来操作。他希望能通过AI助手获取一些关于种植新植物的技巧、方法，并推荐合适的园艺产品，如肥料、工具等，以提升他的园艺体验。",
+      "expected_response": "\nAI应该首先询问陈俊杰具体想种植哪种植物，以及他的花园或阳台的具体条件（如阳光、土壤类型等）。接着，AI可以通过联网搜索提供详细的种植方法和步骤指南，并附有图文并茂的内容。AI应该推荐一些符合环保标准的园艺产品，并提供购买链接。为了确保陈俊杰不遗漏任何步骤，AI还可以建议设定种植和养护的提醒，帮助他按部就班地进行操作。最后，AI可以根据他的反馈持续优化建议和推荐，确保陈俊杰获取最佳的园艺体验。",
+      "scene_context": "陈俊杰想要种植的植物包括：多肉植物、薰衣草和番茄。他的花园位于阳光充足的地方，土壤类型为沙质土壤。他希望能够获得详细的种植技巧和方法，并且希望推荐一些符合环保标准的肥料和园艺工具。",
+      "personalized_query": "最近我打算在花园里种些新的植物，尤其是多肉植物、薰衣草和番茄。虽然我有一些经验，但是想了解更详细的种植技巧，尤其是针对沙质土壤的建议。同时，我想找一些符合环保标准的肥料和园艺工具，你有什么推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我打算在花园里种些新的植物，想了解详细的种植技巧，尤其是针对沙质土壤的建议。同时，我需要一些符合环保标准的肥料和园艺工具推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：陈俊杰倾向于购买性价比高的产品，因此需要根据他的需求推荐合适的商品，并提供购买链接，帮助他做出明智的购物决策。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "productRecommendation": {
+          "arguments": [
+            "userPreferences"
+          ],
+          "description": "Recommend products based on the user's preferences and provide purchase links."
+        }
+      },
+      "scene_desc": "陈俊杰最近发现他的旧手机越来越卡顿，电池也不耐用了。他决定购买一款性价比高的智能手机。他打开终端上的AI助手，希望能够推荐几款适合的手机，并提供购买链接。他特别提到希望手机具备较长的电池寿命和较大的存储空间，同时价格不超过3000元。此外，他希望在购买前能看到详细的产品评测和用户反馈。",
+      "expected_response": "\n根据陈俊杰的persona描述，AI首先会确认他具体的需求，确保了解他对手机电池寿命、存储空间以及价格范围的具体要求。接着，AI会利用productRecommendation API来根据他的偏好推荐几款性价比高的智能手机，并提供详细的产品评测和用户反馈链接。AI还会提供这些手机的购买链接，并询问陈俊杰是否需要进一步筛选或比较其他型号。考虑到陈俊杰注重性价比和环保，AI可能还会推荐一些在生产中注重环保的品牌或型号。最后，AI会提醒陈俊杰注意购物时的保修政策和售后服务。",
+      "scene_context": "陈俊杰的具体需求和偏好如下：\n1. 手机具备较长的电池寿命（至少4000mAh）。\n2. 手机具备较大的存储空间（至少128GB）。\n3. 价格不超过3000元。\n4. 希望购买前能看到详细的产品评测和用户反馈。\n\n推荐智能手机品牌和型号需要考虑的选项：\n1. 小米 Redmi Note 10 Pro\n2. Realme 8 Pro\n3. POCO X3 Pro\n\n每款手机的购买链接、产品评测和用户反馈如下：\n1. 小米 Redmi Note 10 Pro\n   - 购买链接: [京东](https://www.jd.com)\n   - 产品评测: [评测链接](https://www.techradar.com)\n   - 用户反馈: [用户反馈链接](https://www.amazon.com)\n\n2. Realme 8 Pro\n   - 购买链接: [京东](https://www.jd.com)\n   - 产品评测: [评测链接](https://www.techradar.com)\n   - 用户反馈: [用户反馈链接](https://www.amazon.com)\n\n3. POCO X3 Pro\n   - 购买链接: [京东](https://www.jd.com)\n   - 产品评测: [评测链接](https://www.techradar.com)\n   - 用户反馈: [用户反馈链接](https://www.amazon.com)",
+      "personalized_query": "嗨，助手，我的手机最近越来越卡了，电池也撑不住，我打算买一款新手机。你能给我推荐几款性价比高一点的智能手机吗？我希望电池寿命长一点，存储空间大一点，价格不超过3000元。",
+      "neutralized_query": "<neutralized_query>\n请你推荐几款性价比高的智能手机，要求电池寿命长，存储空间大，价格不超过3000元。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "健康管理：作为60岁的退休工人，陈俊杰需要关注健康管理，获取健康饮食建议、运动方案以及疾病预防知识。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈俊杰早上起来后感到身体不太舒服，想要了解一些健康管理的建议。他担心自己可能因为年龄增长而在健康方面出现问题，因此希望AI助手能给他提供一些健康饮食建议、适合他的运动方案以及常见疾病的预防知识。他还希望这些建议能够适合他热爱园艺和参与社区活动的生活方式。",
+      "expected_response": "\n根据陈俊杰的persona描述，AI应该首先询问他具体的健康问题或症状，以便提供更有针对性的建议。接着，AI应该建议他进行一些适合他年龄和身体状况的轻度运动，例如慢跑或园艺活动，确保这些运动方式既能锻炼身体又能与他的兴趣爱好结合。AI还应该提供一些详细的健康饮食建议和食谱，重点推荐一些环保且健康的食品。同时，AI可以通过联网搜索来提供有关常见老年疾病的预防知识，并建议他定期体检。最后，AI可以提示他保持积极的心态，参与社区活动有助于心理健康，并根据他的日程安排设置提醒，让他能够按计划进行健康管理活动。\n",
+      "scene_context": "陈俊杰最近感觉腰部有些酸痛，早上起床时尤其明显。他担心这可能是由于年龄导致的健康问题，想要了解如何缓解和预防这种情况。此外，他希望AI提供一些适合老年人的健康饮食建议，特别是有助于减轻腰酸痛的食物。同时，他希望了解一些轻松的运动方案，比如园艺活动和社区散步，以及老年人常见疾病的预防知识。",
+      "personalized_query": "早上好，最近感觉身体不太舒服，特别是腰部有酸痛的情况。你能不能给我一些健康管理的建议，包括饮食、运动和常见疾病的预防措施呢？主要是适合我这个年纪的。谢谢。",
+      "neutralized_query": "<neutralized_query>\n你能不能给我一些健康管理的建议，包括饮食、运动和常见疾病的预防措施呢？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：陈俊杰喜欢按部就班地处理事情，需要帮助他安排日程，设定提醒，并管理待办事项，以合理规划日常生活。",
+      "available_apis": {
+        "scheduleEvent": {
+          "arguments": [
+            "title",
+            "time",
+            "participants",
+            "description"
+          ],
+          "description": "Schedules an event in the calendar with the given title, time, participants, and description."
+        },
+        "setReminder": {
+          "arguments": [
+            "event_id",
+            "reminder_time"
+          ],
+          "description": "Sets a reminder for a specific event at the specified reminder time."
+        },
+        "manageTodos": {
+          "arguments": [
+            "action",
+            "todo_item"
+          ],
+          "description": "Manages the to-do list by adding, updating, or removing a to-do item."
+        }
+      },
+      "scene_desc": "陈俊杰是一名60岁的退休工人，他平时喜欢通过参与社区活动和从事园艺来丰富自己的生活。由于他喜欢按部就班地处理事情，因此需要一位能够帮助他安排日程、设定提醒并管理待办事项的AI助手。某天早上，他决定利用AI助手来帮助他规划当天的日程并设置一些重要的提醒。",
+      "expected_response": "AI应该会以友好的态度问候陈俊杰，并询问他今天有哪些具体的计划和需要安排的事情。接着，AI应该引导陈俊杰详细描述每个任务的时间、地点和参与人员（如果有），并询问是否需要为每个任务设置提醒。AI应兼顾陈俊杰的习惯，提供详细而实用的建议和指导，如“您希望我为您安排一次社区活动的提醒吗？”或者“请问您需要几点开始园艺活动？”。AI还应该确保所有任务按优先级合理安排，并建议合理的时间间隔以避免任务冲突，最后确认所有安排，并在安排完毕后简要概述一天的计划。如果有任何新的待办事项需要添加，AI应该让他轻松地更新待办列表。",
+      "scene_context": "陈俊杰今天的具体计划包括：\n1. 上午9点到10点在社区活动中心参加老年人健身操。\n2. 上午10点半到12点在家中进行园艺活动，修剪花园。\n3. 下午2点到3点在社区图书馆借阅新书。\n4. 下午4点到5点在家里与孙子视频通话。\n\n他希望AI助手能够帮助他设置以上活动的提醒，并在活动之间安排合理的休息时间。他还需要AI助手添加一个待办事项：购买园艺工具，并且在下午3点半时提醒他这件事。",
+      "personalized_query": "早上好！今天有些任务需要你帮我安排一下。\n\n先帮我设置上午9点的社区健身操提醒，时间是9点到10点。",
+      "neutralized_query": "<neutralized_query>\n早上好！请帮我设置上午9点到10点的提醒。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "自我反思：陈俊杰容易受到社区反馈影响，情绪波动较为明显，因此需要引导他通过对话进行自我反思，提升自我认知和情绪管理能力。",
+      "available_apis": {
+        "startConversation": {
+          "arguments": [
+            "user_id",
+            "message"
+          ],
+          "description": "Starts a conversation with the user to facilitate self-reflection and emotional management."
+        },
+        "analyzeSentiment": {
+          "arguments": [
+            "text"
+          ],
+          "description": "Analyzes the sentiment of the given text to understand the user's emotional state."
+        }
+      },
+      "scene_desc": "陈俊杰刚刚参加了一次社区活动，他从其他社区成员那里听到了一些关于环保话题的不同意见。这些意见使他感到有些困惑和情绪低落。他打开了AI助手，希望能够通过对话进行自我反思，帮助他理清思路，并提升情绪管理能力。",
+      "expected_response": "\n根据陈俊杰的persona，AI应该首先检测到他的情绪波动，并通过友好的语气表达关心，询问他是否愿意分享最近的经历和感受。AI应当引导他详细描述这些反馈意见的内容以及带给他的具体感受。通过分析陈俊杰的描述，AI应当提供一些正面的观点和建议，帮助他看到问题的不同角度，并缓解他的情绪。此外，AI可以引用一些关于社区活动和环保的相关资料，帮助他更好地理解和应对不同的意见。AI还可以建议一些情绪管理的技巧，如深呼吸、冥想等，并提醒他可以通过园艺等爱好来放松心情。如果陈俊杰愿意，AI还可以安排定期的情绪反思对话，帮助他持续提升自我认知和情绪管理能力。",
+      "scene_context": "陈俊杰从社区成员那里听到了一些关于环保话题的不同意见，包括有人认为当前的环保措施影响了经济发展，另一些人则认为环保行动还不够力度，需要更严格的政策。这些意见让陈俊杰感到困惑和情绪低落。",
+      "personalized_query": "今天的社区活动让我感到有点困惑，大家对环保的看法差异很大。有人说当前措施影响经济发展，有人却觉得力度还不够。我现在心情有些低落，想理清思路，调整一下情绪。你能帮我吗？",
+      "neutralized_query": "<neutralized_query>\n我对于环保措施的不同看法感到困惑，心情有些低落，想理清思路并调整情绪。你能帮我吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "宠物健康：如果陈俊杰养宠物，他需要获得宠物常见健康问题的建议，并提醒定期检查，保持宠物的健康。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for common pet health issues and provide relevant advice and tips for maintaining pet health."
+        },
+        "scheduleReminder": {
+          "arguments": [
+            "reminder_details"
+          ],
+          "description": "Sets a reminder for regular pet health check-ups and vaccinations."
+        }
+      },
+      "scene_desc": "陈俊杰是一位热爱园艺和社区活动的60岁退休工人，居住在一个热心的环保社区中。他非常注重环保，并积极参与社区活动。假设他养了一只宠物，可能是一只小狗或猫咪，他希望能够获得一些关于宠物常见健康问题的建议，并设置定期检查提醒，以确保宠物的健康。他通常习惯按照计划进行日常活动，因此他会希望有一个详细的健康检查计划和提醒系统。",
+      "expected_response": "\n根据陈俊杰的persona描述，AI应该首先询问具体是哪种宠物以及宠物的基本情况（如年龄、体重、是否有已知的健康问题等）。接着，AI应该通过联网搜索为陈俊杰提供一些关于他的宠物常见健康问题的详细信息，并提供预防和护理建议。理解到陈俊杰喜欢按照步骤进行计划，AI应该生成一个包含具体步骤的健康检查计划。最后，AI应该帮助陈俊杰设置定期健康检查的提醒，包括每次检查的具体时间和内容。AI还可以推荐一些环保友好的宠物用品或服务，以符合陈俊杰的环保购买倾向。",
+      "scene_context": "陈俊杰养了一只5岁的猫咪，体重4.5公斤，最近没有已知的健康问题。他希望了解以下常见健康问题的预防和护理建议：牙齿健康、肥胖和常见寄生虫。同时，他希望能够设置每季度一次的健康检查提醒，包括每次检查的具体时间和内容，例如牙齿检查、体重测量和寄生虫预防措施。",
+      "personalized_query": "嗨，小艾！最近家里的猫咪好像有点问题，我有些担心它的健康。你能给我一些预防和护理建议吗？特别是关于牙齿健康、肥胖和常见寄生虫的问题。",
+      "neutralized_query": "<neutralized_query>\n我需要获得一些关于宠物预防和护理的建议，特别是牙齿健康、肥胖和常见寄生虫的问题。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：陈俊杰作为社区活动的积极参与者，有时需要协调会议时间、发送邀请和生成会议纪要，以更好地组织和参与社区活动。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        },
+        "generateMeetingMinutes": {
+          "arguments": [
+            "meeting_details"
+          ],
+          "description": "Generates the meeting minutes based on the provided meeting details and sends it to the participants."
+        }
+      },
+      "scene_desc": "陈俊杰需要组织一次社区环保活动的筹备会议。他需要协调参与者的时间安排，发送会议邀请邮件，并在会议结束后生成会议纪要，以确保所有人都能了解活动的内容和安排。作为一个热衷于社区活动和环保问题的人，陈俊杰希望这次会议能够顺利进行，并且每个参与者都能清晰地了解各自的任务。",
+      "expected_response": "根据陈俊杰的persona描述，AI应该首先询问需要邀请哪些社区成员参加会议，并获取这些成员的联系信息。接着，AI需要询问陈俊杰是否有具体的会议时间偏好（例如某一天的上午或下午）。然后，AI应该通过检查每个参与者的日程安排，找到一个所有人都方便的时间。AI还应该设置提醒，以确保陈俊杰和其他参与者不会错过会议时间。会议邀请中应该包含详细的议程和所需讨论的环保主题。最后，AI应该生成一封专业的会议邀请邮件，供陈俊杰确认后发送，并在会议结束后帮助生成会议纪要，发送给所有与会者以确保信息的传达和任务的落实。",
+      "scene_context": "陈俊杰需要邀请的社区成员有：李华、王美丽、赵强和孙敏。他们的联系信息如下：\n- 李华：lihua@example.com\n- 王美丽：meili.wang@example.com\n- 赵强：qiang.zhao@example.com\n- 孙敏：min.sun@example.com\n\n陈俊杰希望安排会议时间偏好为：下周三下午2点到4点。\n\n会议议程如下：\n1. 欢迎词及开场介绍（5分钟）\n2. 讨论环保活动的主要目标和任务分配（30分钟）\n3. 商议活动所需的物资和预算（20分钟）\n4. 确认活动日期和参与者（15分钟）\n5. Q&A和自由讨论（20分钟）\n6. 总结和下次会议时间安排（10分钟）\n\n需要讨论的环保主题包括：\n- 社区清洁活动\n- 植树造林\n- 垃圾分类宣传\n\n请AI助手帮助生成一封专业的会议邀请邮件，并在会议结束后生成会议纪要。",
+      "personalized_query": "你好，我需要组织一次社区环保活动的筹备会议，想请你帮个忙。首先，我需要发送会议邀请邮件给李华、王美丽、赵强和孙敏，会议时间是下周三下午2点到4点。你能帮我起草一封专业的邀请邮件吗？",
+      "neutralized_query": "<neutralized_query>\n我需要组织一次会议并发送会议邀请邮件。会议时间是下周三下午2点到4点。你能帮我起草一封专业的邀请邮件吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资策略讨论：王萍在和同事讨论一项新的投资策略时，利用数据分析找到最佳的投资组合。",
+      "available_apis": {
+        "dataFetch": {
+          "arguments": [
+            "data_sources",
+            "data_types",
+            "time_range"
+          ],
+          "description": "Fetches historical and real-time financial data from specified sources, including stock prices, interest rates, and economic indicators."
+        },
+        "portfolioOptimization": {
+          "arguments": [
+            "data",
+            "constraints",
+            "objectives"
+          ],
+          "description": "Optimizes the investment portfolio based on the provided data, constraints (e.g., risk tolerance), and objectives (e.g., maximize returns)."
+        },
+        "generateReport": {
+          "arguments": [
+            "analysis_results",
+            "report_type"
+          ],
+          "description": "Generates a comprehensive report with visualizations (charts, graphs) and key insights from the portfolio optimization analysis."
+        }
+      },
+      "scene_desc": "王萍是一位注重效率的职业女性，当前正和同事讨论一项新的投资策略。她希望利用数据分析找到最佳的投资组合，以优化他们的投资回报。在讨论过程中，王萍需要快速获取实时和历史的金融数据，并希望AI能够建议最优的投资组合，还能生成详细的分析报告供团队成员参考。",
+      "expected_response": "\n根据王萍的persona描述，她是一个注重数据和分析的职业女性，AI应该能迅速理解并响应她的需求。AI应该首先询问需要获取哪些具体的金融数据（如股价、利率、经济指标）和时间范围，以便进行实时和历史数据的查询。接着，AI应利用这些数据进行投资组合优化，考虑王萍团队的风险容忍度和收益目标。最后，AI应生成一份详细的分析报告，包括可视化图表和关键洞察，并提供选项让王萍确认后发送给她的团队成员。AI还可以询问是否需要保存分析结果供日后参考。",
+      "scene_context": "王萍和同事讨论的具体投资策略包括：科技股（如苹果、谷歌、微软）、新能源板块（如特斯拉、比亚迪、宁德时代）、以及传统蓝筹股（如可口可乐、强生、宝洁）。他们关注的金融数据包括：最近5年的股价数据、公司季度财报、行业平均增长率和市场利率。希望AI能够提供这些数据，并生成优化后的投资组合和详细的分析报告。",
+      "personalized_query": "你好，我需要你帮我获取一些金融数据。我们目前在讨论一项新的投资策略，涉及科技股、新能源板块和传统蓝筹股。先帮我找找最近5年的股价数据，还有公司季度财报。 \n\n谢谢。",
+      "neutralized_query": "<neutralized_query>\n请帮我获取最近5年的股价数据和公司季度财报。\n</neutralized_query>"
+    }
+  ]
+}

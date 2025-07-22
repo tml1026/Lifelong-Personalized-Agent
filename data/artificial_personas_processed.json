@@ -1,0 +1,1775 @@
+[
+  {
+    "Name": "James",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某互联网公司软件开发工程师，专业方向是计算机科学"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热衷于开源项目",
+        "喜欢黑客松活动",
+        "奉行自由主义",
+        "对新技术的接纳性高"
+      ]
+    }
+  },
+  {
+    "Name": "Emily",
+    "Demographics": {
+      "Age": 25,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "浙江某咖啡店店长"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "咖啡调制艺术",
+        "社区活动",
+        "阅读人文书籍",
+        "花艺"
+      ]
+    }
+  },
+  {
+    "Name": "Michael",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "渔民"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "坚毅",
+        "热爱海洋",
+        "追求技术进步"
+      ]
+    }
+  },
+  {
+    "Name": "Olivia",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "重庆某火锅店老板"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "喜欢与人交往",
+        "热爱重庆美食文化",
+        "支持本地特色发展",
+        "对新鲜事物保持好奇心"
+      ]
+    }
+  },
+  {
+    "Name": "David",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在某硬件制造公司担任工程师，专注于物联网设备研发"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "强烈的实用主义，认为理论只有在实际应用中才有价值",
+        "倾向于独立工作，不喜欢团队协作",
+        "对科技产品有极大的热情，喜欢拆解和分析其内部构造",
+        "认为所有问题都有技术解决方案，不相信灵活变通"
+      ]
+    }
+  },
+  {
+    "Name": "Sophia",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某制药公司研发员，专注于新药开发"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "高度同理心，主张通过科技改善人类生活",
+        "对生物科技具有极高热情，享受实验过程",
+        "偏好实证主义，所有结论必须有数据支持",
+        "喜欢长时间独自工作，认为独处是灵感的源泉"
+      ]
+    }
+  },
+  {
+    "Name": "Daniel",
+    "Demographics": {
+      "Age": 25,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "广州某音乐工作室录音师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "对传统和现代音乐都有浓厚兴趣，喜欢将不同风格混合在一起",
+        "认为音乐创作是一种情感表达的重要方式",
+        "偏好自然主义，喜欢在大自然中寻找创作灵感",
+        "不太在乎社会流行趋势，坚定地追随自我内心的声音"
+      ]
+    }
+  },
+  {
+    "Name": "Isabella",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "普通话"
+      ],
+      "Career_Information": "河南某农村小学教师，热衷于教育改革，常利用网络学习最新教育方法。"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "相信教育可以改变命运，喜欢探索新颖的教学方法",
+        "对教育技术和工具有浓厚兴趣，积极参与线上教育研讨会",
+        "喜欢手工艺，常在课外时间和学生一起做手工",
+        "认为家庭教育和学校教育同等重要，常鼓励家长参与孩子的学习过程"
+      ]
+    }
+  },
+  {
+    "Name": "Ava",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "藏语",
+        "英文"
+      ],
+      "Career_Information": "青海某藏文化研究院研究员，致力于藏族传统文化的传承和保护"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "深信文化传承的重要性，认为现代化不应该牺牲传统文化",
+        "极力维护语言多样性，特别是藏语的教育",
+        "对唐卡艺术和藏医藏药有深入研究",
+        "不喜欢过度依赖现代科技，认为很多问题可以通过传统智慧解决"
+      ]
+    }
+  },
+  {
+    "Name": "Jacob",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "古玩店老板，对文物鉴定有深入研究"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "对历史文化感兴趣",
+        "重视传统价值观",
+        "喜欢收藏古董",
+        "热爱阅读和研究古籍"
+      ]
+    }
+  },
+  {
+    "Name": "Mia",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在某家纺公司做销售经理，擅长客户关系管理"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "重视人际关系，认为良好的社会关系是成功的基石",
+        "偏好和谐的工作环境，常常组织团队活动",
+        "非常注重家庭价值，喜欢花时间做家务和装饰家居",
+        "热衷时尚和美容，认为外表是自信的体现"
+      ]
+    }
+  },
+  {
+    "Name": "Ethan",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在某高新技术企业担任研发员，负责创新发明"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "喜欢挑战传统思维，认为突破常规才能带来真正的创新",
+        "极度好奇，经常在业余时间钻研各种新技术和未解之谜",
+        "对科幻小说和未来科技有着浓厚的兴趣，梦想是成为像特斯拉那样的发明家",
+        "不相信大部分流行的生活方式，倾向于独立思考和实践自己的理念"
+      ]
+    }
+  },
+  {
+    "Name": "Ryan",
+    "Demographics": {
+      "Age": 28,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某健身房教练"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "重视健康和体能",
+        "喜欢社交活动",
+        "阳光开朗",
+        "享受与朋友和会员互动"
+      ]
+    }
+  },
+  {
+    "Name": "Emma",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "福建某花卉市场店主"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热爱大自然，欣赏花卉的美和多样性",
+        "重视社区建设，希望通过花卉提高社区居民的生活质量",
+        "喜欢园艺，特别是种花和布置花坛",
+        "喜欢与人交流，乐于分享养花经验",
+        "支持环保和可持续发展"
+      ]
+    }
+  },
+  {
+    "Name": "Alexander",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "黑龙江某森林公园导游"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热爱自然，认为人类应该与自然共生",
+        "擅长野外生存技能，享受探索未知的感觉",
+        "怀疑现代科技对人类的价值，偏好简朴生活",
+        "喜欢孤独的时光，认为安静有助于思考"
+      ]
+    }
+  },
+  {
+    "Name": "Charlotte",
+    "Demographics": {
+      "Age": 25,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某互联网公司UI设计师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "支持女性权益和性别平等",
+        "喜欢绘画和摄影",
+        "喜欢探索不同文化的饮食",
+        "对环保问题非常关注",
+        "享受独立旅行和自我探索"
+      ]
+    }
+  },
+  {
+    "Name": "Matthew",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "一家重工企业的车间主任"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "重视家庭，希望家人幸福安康",
+        "追求工作中严格的工艺标准和高效的管理",
+        "喜欢研究机械原理和新型技术",
+        "热爱中国传统文化，喜欢书法和太极拳"
+      ]
+    }
+  },
+  {
+    "Name": "Amelia",
+    "Demographics": {
+      "Age": 28,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "自由职业，旅行博主"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "独立自主",
+        "冒险精神",
+        "自然和文化的探索"
+      ]
+    }
+  },
+  {
+    "Name": "Christopher",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在北京某互联网公司担任软件开发工程师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "开源社区",
+        "黑客松活动",
+        "技术博客"
+      ]
+    }
+  },
+  {
+    "Name": "Abigail",
+    "Demographics": {
+      "Age": 42,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "福建某高校心理学教授，研究方向为青少年心理健康"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "心理健康",
+        "写作",
+        "冥想",
+        "个人发展"
+      ]
+    }
+  },
+  {
+    "Name": "Benjamin",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "西安市某古玩店老板，对文物鉴定有深入研究"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "历史文物保护",
+        "喜欢古琴音乐",
+        "有时会研究风水",
+        "对中国传统文化有深厚兴趣"
+      ]
+    }
+  },
+  {
+    "Name": "Madison",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "藏语",
+        "英文"
+      ],
+      "Career_Information": "青海某藏文化研究院研究员，致力于藏族传统文化的传承和保护"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "深信藏族文化的独特性和重要性，认为现代化进程中应注重保护与传承",
+        "重视人际关系，常主动参与文化交流活动",
+        "对藏族传统手工艺品、音乐和舞蹈有浓厚兴趣",
+        "对科技持怀疑态度，尤其对过度依赖科技表示担忧"
+      ]
+    }
+  },
+  {
+    "Name": "Noah",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "广州某音乐工作室录音师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "音乐创作",
+        "喜欢尝试不同风格的音乐",
+        "关注音频技术的最新进展",
+        "支持独立音乐人"
+      ]
+    }
+  },
+  {
+    "Name": "Lily",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "普通话"
+      ],
+      "Career_Information": "河南某农村小学教师，致力于基础教育，热衷于教育改革，常利用网络学习最新教育方法。"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热衷于教育创新，喜欢探索新的教学工具和方法",
+        "强烈关注农村孩子的教育公平问题，积极参与相关活动",
+        "相信通过教育能改变孩子们的命运，充满使命感",
+        "在空闲时间喜欢阅读教育学相关书籍，也会与其他教师交流经验"
+      ]
+    }
+  },
+  {
+    "Name": "Jack",
+    "Demographics": {
+      "Age": 26,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在一家互联网公司担任培训专员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "喜欢搜索心智和领导力相关知识",
+        "对SQL存在一定好奇"
+      ]
+    }
+  },
+  {
+    "Name": "Ella",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "宁夏某慈善组织负责人"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热心公益活动",
+        "提倡性别平等",
+        "重视家庭和社区建设",
+        "喜爱阅读心灵鸡汤类书籍"
+      ]
+    }
+  },
+  {
+    "Name": "Andrew",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在江苏某工业设计公司担任设计师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "喜欢在生活中寻找设计灵感",
+        "工作细致严谨",
+        "热爱绘画和摄影",
+        "迷恋复古风格"
+      ]
+    }
+  },
+  {
+    "Name": "Grace",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "天津某医院儿科医生"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "耐心和温柔地对待每一个患者",
+        "热爱瑜伽和现代舞",
+        "对儿童心理学有浓厚兴趣"
+      ]
+    }
+  },
+  {
+    "Name": "John",
+    "Demographics": {
+      "Age": 21,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "浙江某高校计算机科学专业学生，擅长编程竞赛，热衷于研究算法"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "对算法设计和优化感兴趣",
+        "崇尚效率和理性",
+        "支持技术开源",
+        "喜欢参加编程竞赛和挑战自我"
+      ]
+    }
+  },
+  {
+    "Name": "Victoria",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "山东某制药公司研发员，专注于新药开发"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "对生物科技有浓厚兴趣",
+        "支持环境保护",
+        "喜欢阅读科普书籍",
+        "热爱户外运动"
+      ]
+    }
+  },
+  {
+    "Name": "Luke",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "湖南某乡村的扶贫干部"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "务实，注重实际效果",
+        "认为政府应在扶贫过程中起更大的作用",
+        "对现代农业科技和可持续发展极为关注"
+      ]
+    }
+  },
+  {
+    "Name": "Harper",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "少量的英文"
+      ],
+      "Career_Information": "贵州某茶园主"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热爱大自然，崇尚自然和谐",
+        "偏好实用主义，相信真实体验胜过理论学习",
+        "讨厌过度商业化，认为茶叶应该保持其纯粹性"
+      ]
+    }
+  },
+  {
+    "Name": "William",
+    "Demographics": {
+      "Age": 34,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在黑龙江某森林公园担任导游，擅长野外生存技能"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "相信人与自然应和谐共处",
+        "喜欢徒步旅行和露营",
+        "热衷于分享野外生存技能",
+        "对城市生活持保留态度，偏爱简朴的田园生活"
+      ]
+    }
+  },
+  {
+    "Name": "Evelyn",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在辽宁某家纺公司担任销售经理"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "重视家庭和朋友的关系",
+        "注重职业发展，喜欢面对挑战",
+        "喜欢旅行和摄影",
+        "热衷于烹饪并尝试新食谱",
+        "关注时尚和美容"
+      ]
+    }
+  },
+  {
+    "Name": "Anthony",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "在山西某煤矿工作，负责机械维护和故障排除"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "家庭至上，认为家庭幸福是最重要的",
+        "工作辛苦但有成就感，认为努力工作能改变生活",
+        "喜欢户外活动，特别是爬山和钓鱼",
+        "对技术有一定的兴趣，但更看重实际应用"
+      ]
+    }
+  },
+  {
+    "Name": "Chloe",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "日语",
+        "英文"
+      ],
+      "Career_Information": "在吉林某动画公司担任编剧"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热爱艺术，特别是动画与漫画",
+        "欣赏复杂的故事结构和深刻的人物描写",
+        "支持女性平权，认为女性在艺术创作中应有更多表达自由",
+        "喜欢熬夜修改剧本，认为夜晚的宁静有助于思考",
+        "爱好阅读推理小说和心理学书籍",
+        "对日本文化尤其感兴趣，时常关注日本动画和漫画的最新动态"
+      ]
+    }
+  },
+  {
+    "Name": "Joshua",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "少量蒙古语"
+      ],
+      "Career_Information": "牧民"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "重视自由",
+        "热爱自然",
+        "骄傲于传统文化"
+      ]
+    }
+  },
+  {
+    "Name": "Lucy",
+    "Demographics": {
+      "Age": 24,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "壮语",
+        "英文"
+      ],
+      "Career_Information": "在广西某民族歌舞团担任演员，擅长传统舞蹈，热爱民族文化"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "支持文化多样性，希望推广和保护少数民族文化",
+        "热爱旅行和户外活动，喜欢探索不同文化",
+        "喜欢烹饪，尤其是学习和尝试各地的传统菜肴",
+        "喜欢研究传统音乐和舞蹈，并尝试创新融合",
+        "关注环保和可持续发展的问题"
+      ]
+    }
+  },
+  {
+    "Name": "Joseph",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国（香港）",
+      "Language": [
+        "粤语",
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在香港某金融公司担任分析师，擅长数据分析"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "逻辑推理",
+        "国际象棋",
+        "财经新闻",
+        "登山"
+      ]
+    }
+  },
+  {
+    "Name": "Zoe",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "粤语",
+        "英文"
+      ],
+      "Career_Information": "澳门某赌场荷官"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "重视直觉和情商",
+        "喜欢社交活动",
+        "对心理学和人际关系感兴趣",
+        "有时会进行一些风险投资"
+      ]
+    }
+  },
+  {
+    "Name": "Kevin",
+    "Demographics": {
+      "Age": 22,
+      "Gender": "男",
+      "Nationality": "中国（台湾）",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "台湾某电竞战队选手，主玩角色为狙击手"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "追求极致的游戏操作和团队配合",
+        "梦想成为世界冠军，带领战队走向巅峰",
+        "喜欢动漫和轻小说，喜欢带有科幻或奇幻元素的作品",
+        "热爱猫咪，是一名资深吸猫达人",
+        "对现存的教育体制有一些质疑，认为应当增加创意和实践的比重"
+      ]
+    }
+  },
+  {
+    "Name": "Natalie",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在北京某出版社编辑"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热衷于文学，尤其是古典文学和现代诗歌",
+        "相信书籍是心灵的避风港，反对电子书的普及",
+        "喜欢在咖啡馆和图书馆写作和编辑书稿",
+        "对流行文化不感兴趣，认为其缺乏深度"
+      ]
+    }
+  },
+  {
+    "Name": "Tyler",
+    "Demographics": {
+      "Age": 34,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "上海某投资公司风控经理"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "注重细节和数据分析，认为数据不会撒谎",
+        "极限运动爱好者，喜欢挑战自我",
+        "对投资有保守倾向，但在生活中追求刺激",
+        "认为社交是职业发展的关键，重视人脉关系"
+      ]
+    }
+  },
+  {
+    "Name": "Sophie",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "广东一名珠宝设计师，擅长手工制作，喜欢旅行寻找灵感"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热衷于自然与文化的探索",
+        "喜欢手工艺和传统工艺技法",
+        "对流行趋势保持一定距离",
+        "珊瑚礁保育"
+      ]
+    }
+  },
+  {
+    "Name": "Aaron",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "四川话"
+      ],
+      "Career_Information": "四川某火锅底料厂技术员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "务实，喜欢一步一个脚印地工作",
+        "对传统工艺和手工艺品有浓厚的兴趣",
+        "有些保守，认为传统一定有其道理",
+        "重视家庭，周末喜欢和家人一起做饭"
+      ]
+    }
+  },
+  {
+    "Name": "Lillian",
+    "Demographics": {
+      "Age": 24,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "全职旅行博主，专注于拍摄和分享独自旅行的纪录片"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "支持环保和可持续旅游",
+        "强调女性独立和自我实现",
+        "喜欢自然风光和当地文化的纪录片拍摄",
+        "喜欢尝试各地的美食和传统手工艺",
+        "对数字化工具和编辑软件有一定了解"
+      ]
+    }
+  },
+  {
+    "Name": "Nathan",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "陕西某历史博物馆讲解员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "对古代历史有浓厚兴趣，尤其是秦朝和汉朝",
+        "热衷于考古学，喜欢亲自参与考古挖掘",
+        "相信学习历史可以帮助现代人理解当下，避免重复过去的错误",
+        "讨厌现代化的娱乐方式，认为传统文化才值得传承"
+      ]
+    }
+  },
+  {
+    "Name": "Isla",
+    "Demographics": {
+      "Age": 34,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "普通话"
+      ],
+      "Career_Information": "甘肃某医院中医师，专注于传统中医治疗，以针灸和草药为主。"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "崇尚传统文化，相信中医能够治愈很多现代医学无法解决的病症",
+        "爱好太极拳和书法，认为这些传统艺术可以调和身心",
+        "比较保守，偏向于遵循传统的生活和工作方式"
+      ]
+    }
+  },
+  {
+    "Name": "Samuel",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "江西某食品加工厂工人"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "家庭第一，重视家人和亲情",
+        "喜欢传统中国小吃，有开一家小吃店的梦想",
+        "热心助人，认为互助是生活中不可或缺的一部分",
+        "喜欢钓鱼和户外活动，也喜欢看足球比赛",
+        "对技术不太感兴趣，更喜欢实实在在的手艺活"
+      ]
+    }
+  },
+  {
+    "Name": "Hannah",
+    "Demographics": {
+      "Age": 34,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "安徽某花卉市场老板"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热爱自然和植物，认为与植物相处能治愈人心",
+        "喜欢与顾客分享养花经验，帮助他们解决养花中的问题",
+        "认同生活需要美学，并觉得花艺是美学的重要组成部分"
+      ]
+    }
+  },
+  {
+    "Name": "Adam",
+    "Demographics": {
+      "Age": 45,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "河北某重工企业车间主任"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "喜欢钻研机械原理",
+        "工作认真",
+        "注重工艺流程优化",
+        "偶尔喜欢打牌休闲",
+        "不太关心时尚潮流"
+      ]
+    }
+  },
+  {
+    "Name": "Elizabeth",
+    "Demographics": {
+      "Age": 25,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在湖南某互联网公司担任UI设计师，擅长平面设计"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热爱手绘插画",
+        "摄影爱好者",
+        "喜欢时尚潮流",
+        "关注女性主义话题"
+      ]
+    }
+  },
+  {
+    "Name": "Logan",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "山东某港口的货运司机"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "坚韧不拔，认为努力是成功的唯一途径",
+        "喜欢独立工作，认为团队合作效率不高",
+        "对经典文学和历史有浓厚兴趣，但不喜欢科幻和现代小说",
+        "偏爱传统的生活方式，认为现代科技让人变得懒惰"
+      ]
+    }
+  },
+  {
+    "Name": "Scarlett",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "新疆某手工艺品店主"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "擅长刺绣和编织",
+        "喜欢与游客交流文化",
+        "热爱手工艺品",
+        "尊重传统文化"
+      ]
+    }
+  },
+  {
+    "Name": "Justin",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在天津某健身房担任健身教练"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热衷于帮助会员达到健身目标",
+        "喜欢挑战极限",
+        "热爱户外活动",
+        "注重健康饮食"
+      ]
+    }
+  },
+  {
+    "Name": "Audrey",
+    "Demographics": {
+      "Age": 29,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "浙江某咖啡店的店长，擅长咖啡调制"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热爱咖啡文化",
+        "崇尚细节和品质",
+        "关注环保",
+        "支持本地小农创业",
+        "对艺术和设计有浓厚兴趣"
+      ]
+    }
+  },
+  {
+    "Name": "George",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "闽南话"
+      ],
+      "Career_Information": "福建某物流公司调度员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "喜欢户外活动",
+        "梦想是去西藏自驾游",
+        "重视家庭",
+        "对现代科技持怀疑态度"
+      ]
+    }
+  },
+  {
+    "Name": "Aria",
+    "Demographics": {
+      "Age": 27,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "普通话",
+        "广西壮话",
+        "英语"
+      ],
+      "Career_Information": "广西某幼儿园教师，负责大班的教学和管理工作。"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "热爱小朋友，喜欢与孩子们一起玩耍和互动",
+        "相信教育对孩子一生的重要性",
+        "对新教育方法和心理学有着浓厚兴趣",
+        "喜欢户外活动和旅行，常在假期安排短途旅行"
+      ]
+    }
+  },
+  {
+    "Name": "Dylan",
+    "Demographics": {
+      "Age": 28,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "海南话"
+      ],
+      "Career_Information": "海南某渔民"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "热爱海洋和大自然，认为海洋是生命之源",
+        "坚信传统渔业技能的重要性，认为现代科技不能完全取代经验",
+        "追求自由和独立，梦想是拥有一艘自己的渔船"
+      ]
+    }
+  },
+  {
+    "Name": "Savannah",
+    "Demographics": {
+      "Age": 32,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在重庆某影视公司担任制片人，擅长项目管理"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "渴望工作中的及时反馈",
+        "崇尚高效率",
+        "反感冗长的会议",
+        "热爱电影和旅行"
+      ]
+    }
+  },
+  {
+    "Name": "Liam",
+    "Demographics": {
+      "Age": 30,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在安徽某高新技术企业担任研发员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "擅长创新发明",
+        "热爱科技前沿资讯",
+        "对文化历史有浓厚兴趣"
+      ]
+    }
+  },
+  {
+    "Name": "Penelope",
+    "Demographics": {
+      "Age": 26,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在辽宁某旅游公司担任导游"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "喜欢与游客分享本地文化",
+        "热爱户外活动",
+        "对历史和地理有浓厚兴趣",
+        "热衷于传播正能量"
+      ]
+    }
+  },
+  {
+    "Name": "Gabriel",
+    "Demographics": {
+      "Age": 35,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "少量方言"
+      ],
+      "Career_Information": "湖北某建筑工地工人，团队中担任经验丰富的木工"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "家庭至上",
+        "实用主义",
+        "传统习俗",
+        "热衷建筑与家装",
+        "偶尔喝点小酒"
+      ]
+    }
+  },
+  {
+    "Name": "Sarah",
+    "Demographics": {
+      "Age": 34,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文"
+      ],
+      "Career_Information": "江西某家政服务公司清洁员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "重视家庭和孩子的教育",
+        "相信努力就会有回报",
+        "喜欢在业余时间学习和提升自己的技能",
+        "对新技术有一定的好奇心，但觉得掌握起来很难"
+      ]
+    }
+  },
+  {
+    "Name": "Jason",
+    "Demographics": {
+      "Age": 28,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在一家专注于人工智能的科技初创公司担任软件开发人员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "非常热衷于读arxiv daily",
+        "有效加速主义",
+        "热衷开源项目",
+        "嘻哈音乐"
+      ]
+    }
+  },
+  {
+    "Name": "Kyle",
+    "Demographics": {
+      "Age": 22,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "粤语",
+        "普通话",
+        "英文"
+      ],
+      "Career_Information": "广东某专科学校商务英语专业学生，目前在一家小型跨境电商公司实习，负责客户邮件沟通与翻译。"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "E",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "喜欢流行音乐，尤其是周杰伦的歌曲",
+        "对网络热梗很感兴趣，经常在社交媒体上分享段子",
+        "对未来有点迷茫，但觉得自己可以靠电商或直播赚大钱",
+        "相信人际关系很重要，习惯于花时间维护朋友和家人间的关系"
+      ]
+    }
+  },
+  {
+    "Name": "Oliver",
+    "Demographics": {
+      "Age": 26,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "在一家FinTech公司担任软件开发人员"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "F",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "喜爱聆听",
+        "有效加速主义",
+        "热衷开源项目"
+      ]
+    }
+  },
+  {
+    "Name": "Oscar",
+    "Demographics": {
+      "Age": 22,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "某知名工科大学的自动化专业大四本科生"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "S",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "对人文社会科学兴趣不大，觉得这些学科的内容不够实用",
+        "偏爱极简主义和效率至上的生活方式",
+        "认为严格的时间管理是成功的关键"
+      ]
+    }
+  },
+  {
+    "Name": "Brandon",
+    "Demographics": {
+      "Age": 26,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文"
+      ],
+      "Career_Information": "顶级大学研究生，专业是计算机视觉"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "对机器学习感兴趣",
+        "奉行自由主义",
+        "支持开源行为",
+        "热爱游戏和电子竞技"
+      ]
+    }
+  },
+  {
+    "Name": "Ian",
+    "Demographics": {
+      "Age": 27,
+      "Gender": "男",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文",
+        "法文"
+      ],
+      "Career_Information": "在一家专注于人工智能的科技初创公司担任CTO"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "P",
+      "Values_and_Interests": [
+        "支持共产主义，希望建设人人平等的社会",
+        "希望实现AGI",
+        "喜欢足球、赛车、自行车、游泳等各个体育项目",
+        "喜欢读书，各类小说，尤其是英国和法国文学",
+        "喜欢各类电子产品，是果粉"
+      ]
+    }
+  },
+  {
+    "Name": "Alice",
+    "Demographics": {
+      "Age": 27,
+      "Gender": "女",
+      "Nationality": "中国",
+      "Language": [
+        "中文",
+        "英文",
+        "日语"
+      ],
+      "Career_Information": "在字节跳动做多模态视频生成的算法工程师"
+    },
+    "Personality": {
+      "Extraversion_or_Introversion": "I",
+      "Sensing_or_Intuition": "N",
+      "Thinking_or_Feeling": "T",
+      "Judging_or_Perceiving": "J",
+      "Values_and_Interests": [
+        "极端理性主义，认为感情是一种无用的负担",
+        "重度工作狂，常常因为追求完美而加班",
+        "对科幻小说和电影有浓厚兴趣",
+        "不相信大多数流行的健康理论，认为自律才是唯一的健康秘诀"
+      ]
+    }
+  }
+]

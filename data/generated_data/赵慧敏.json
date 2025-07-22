@@ -1,0 +1,248 @@
+{
+  "Demographics": {
+    "Age": 16,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "中学生",
+    "Name": "赵慧敏"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱篮球",
+      "喜欢电子游戏",
+      "性格开朗",
+      "喜欢结交朋友",
+      "对科技产品有兴趣"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常使用AI助手来查询篮球训练技巧和最新的电子游戏资讯",
+    "Usage_Pattern": "频繁使用；常用来查找篮球比赛资讯、游戏攻略和与朋友的聊天话题",
+    "Emotion_Pattern": "对新的资讯和技能充满好奇和热情",
+    "Purchase_Pattern": "喜欢性价比高的科技产品和游戏配件"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢直截了当和详细的回答，喜欢图文并茂的解释",
+    "Preferred_Formats": "喜欢使用图表和图片来辅助理解",
+    "Preferred_Workflows": "喜欢通过分步教程和详细指南来学习新技能"
+  },
+  "scenes": [
+    {
+      "scene_type": "运动追踪：赵慧敏喜欢篮球，经常使用AI助手来查询篮球训练技巧，帮助记录和分析他的运动数据，如投篮命中率、跑动距离等。",
+      "available_apis": null,
+      "scene_desc": "赵慧敏下午放学后决定去篮球场进行投篮训练。他带上了自己的篮球和手机，准备利用AI助手来记录和分析自己的投篮命中率和跑动距离。他打开AI助手，准备开始今天的训练。",
+      "expected_response": "\n根据赵慧敏的描述，他是一个热爱篮球并且对科技产品感兴趣的中学生，AI应该能迅速理解并响应他的需求。AI首先应该询问赵慧敏是否需要记录今天的训练数据，并确认他具体的训练项目（如投篮命中率和跑动距离）。接着，AI可能会询问赵慧敏是否需要任何篮球训练技巧的建议，或者提供一些关于如何提高投篮准确率的分步教程。AI还应该能够实时记录他的投篮命中率和跑动情况，利用图表和图片来展示这些数据，以帮助他更好地理解和分析自己的表现。最后，AI应该询问赵慧敏是否需要保存这些数据，以便日后查看和比较进步情况。AI还可以推荐一些与篮球相关的最新资讯或视频教程，进一步提升赵慧敏的训练体验。",
+      "scene_context": "赵慧敏具体的训练项目为：投篮命中率（目标为100次投篮）、跑动距离（目标为5公里）。",
+      "personalized_query": "嘿，AI，我现在在篮球场，准备训练投篮命中率和跑动距离。你能帮我记录和分析一下我的投篮命中率和跑动距离吗？我今天的目标是投100次篮，跑5公里。",
+      "neutralized_query": "<neutralized_query>\n你能帮我记录和分析一下我的投篮命中率和跑动距离吗？今天的目标是投100次篮，跑5公里。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：赵慧敏对科技产品和电子游戏有兴趣，AI助手可以根据他的偏好推荐最新的游戏、科技产品或相关资讯。",
+      "available_apis": null,
+      "scene_desc": "赵慧敏在放学回家后，打开了AI助手，希望能找到一些新的科技产品和电子游戏的资讯。他最近对一款新的游戏耳机有所耳闻，想了解更多细节，并且希望AI能推荐一些最新发布的游戏资讯和高性价比的科技产品。赵慧敏希望这些推荐能够满足他对游戏体验和科技产品性价比的双重需求。",
+      "expected_response": "\n根据赵慧敏的persona描述，AI助手应该首先确认他具体对哪种类型的科技产品或游戏感兴趣，例如明确是否是要了解新游戏耳机的详细信息或其他科技产品。AI助手应该随后通过联网搜索功能获取相关的产品信息及最新发布的游戏资讯，并结合赵慧敏的偏好筛选出高性价比的推荐。AI可以提供详细的产品描述、价格比较、用户评价等信息，确保赵慧敏能够清楚地了解每个推荐的优缺点。此外，AI可以根据赵慧敏的兴趣，推送一些游戏社区的讨论和最新的游戏攻略、技巧等资讯，以提升他的游戏体验。最后，AI助手还应提供购买链接或相关资讯的访问途径，让赵慧敏能够方便地获取更多信息或进行购买决策。",
+      "scene_context": "赵慧敏最近对一款名为HyperX Cloud II的游戏耳机感兴趣，同时他希望了解最新发布的游戏资讯，例如即将推出的《赛博朋克2077》更新和《塞尔达传说：旷野之息2》的最新消息。此外，他还希望AI能够推荐一些高性价比的科技产品，如智能手表和机械键盘。",
+      "personalized_query": "嘿，AI助手，我今天放学在路上听到同学在聊一款叫HyperX Cloud II的游戏耳机，感觉挺有意思的。你能帮我查一下这款耳机的详细信息和一些评测吗？另外，顺便看看最近有没有什么新出的高性价比的科技产品推荐？谢谢啦。",
+      "neutralized_query": "<neutralized_query>\n帮我查一下HyperX Cloud II游戏耳机的详细信息和一些评测。另外，看看最近有没有什么新出的高性价比科技产品推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：赵慧敏在打篮球或玩游戏时，AI助手可以根据这些场景推荐适合的音乐，提升他的体验。",
+      "available_apis": null,
+      "scene_desc": "赵慧敏正准备开始一场篮球训练，他想让AI助手推荐一些音乐来提升他的训练体验。他平时喜欢听动感的音乐来激励自己，也喜欢尝试新鲜的音乐风格。",
+      "expected_response": "\n根据赵慧敏的persona描述，AI助手应该首先询问赵慧敏是希望播放哪种类型的音乐（如嘻哈、电子、摇滚等）。由于赵慧敏性格开朗，喜欢热闹和动感的氛围，AI可以推荐一些节奏感强的音乐，比如流行嘻哈或者电子音乐。AI还应该询问赵慧敏是否有特定的音乐偏好或需要调整音量，以确保不会打扰到其他人。最后，AI可以根据赵慧敏平时的音乐喜好和播放历史，推荐一份个性化的音乐播放列表，并在每首歌结束后自动播放下一首，以保持训练的连续性和动感氛围。\n",
+      "scene_context": "赵慧敏提供了以下几种他喜欢的音乐类型：嘻哈、电子、摇滚。他特别喜欢以下几位歌手的作品：Eminem、Daft Punk、Linkin Park。赵慧敏希望AI助手推荐一份动感的播放列表，包含这些类型和歌手的音乐，以提升他的篮球训练体验。",
+      "personalized_query": "嘿，AI助手，我准备开始篮球训练了，能推荐几首动感的音乐来提升训练体验吗？我喜欢嘻哈、电子和摇滚风格的音乐，特别是Eminem、Daft Punk和Linkin Park的作品。",
+      "neutralized_query": "<neutralized_query>\n请推荐几首适合篮球训练时听的动感音乐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：赵慧敏喜欢结交朋友，和朋友一起看电影或电视剧是常见的社交活动，AI助手可以根据他的喜好推荐合适的影视作品。",
+      "available_apis": {
+        "fetchUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's preferences for movies and TV shows based on their past viewing history and explicit preferences."
+        },
+        "recommendMoviesOrTVShows": {
+          "arguments": [
+            "preferences"
+          ],
+          "description": "Recommends movies or TV shows based on the given preferences, such as genre, director, actors, etc."
+        }
+      },
+      "scene_desc": "赵慧敏最近和几个好朋友计划周末一起看电影，但他们不知道该看什么好。赵慧敏决定求助AI助手，希望能根据他平时的观影喜好和朋友们的兴趣推荐几部合适的电影。同时，他也想知道这些电影是否在他们常去的电影院上映。",
+      "expected_response": "\n根据赵慧敏的persona描述，他是一名热爱结交朋友的中学生，喜欢在社交活动中看电影。AI助手应该首先询问赵慧敏的观影喜好以及他朋友们的兴趣，可能会通过调用fetchUserPreferences API来获取他的历史观影记录和偏好。接着，AI应该利用这些信息调用recommendMoviesOrTVShows API推荐几部符合这些偏好的电影。此外，AI还应检查这些电影是否在赵慧敏常去的电影院上映，确保推荐的影片在实际观看时无障碍。最后，AI可以提供详细的电影介绍、上映时间和购票链接，以确保赵慧敏和他的朋友们能轻松安排他们的周末活动。",
+      "scene_context": "赵慧敏的观影喜好包括：科幻片、悬疑片和喜剧片。他的朋友们喜欢动作片和浪漫爱情片。他们常去的电影院有：华星影城、万达影院和大地影院。",
+      "personalized_query": "嘿，AI助手，我和朋友们计划这周末一起去看电影。你能帮忙推荐几部合适的电影吗？我们有些不同的喜好，我喜欢科幻片、悬疑片和喜剧片，而他们喜欢动作片和浪漫爱情片。我们常去华星影城、万达影院和大地影院。看看这些影院最近上映的电影，帮我们挑几部吧。",
+      "neutralized_query": "<neutralized_query>\n请你推荐几部合适的电影，我们计划这周末一起去看电影。我们喜欢科幻片、悬疑片、喜剧片、动作片和浪漫爱情片。看看华星影城、万达影院和大地影院最近上映的电影，帮我们挑几部吧。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "游戏攻略：赵慧敏喜欢电子游戏，AI助手可以提供最新的游戏攻略、技巧和资讯，帮助他提升游戏水平。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "gameUpdate": {
+          "arguments": [
+            "game_name"
+          ],
+          "description": "Fetch the latest updates and patch notes for the specified game."
+        },
+        "gameCommunity": {
+          "arguments": [
+            "game_name"
+          ],
+          "description": "Retrieve tips, tricks, and discussions from game communities related to the specified game."
+        }
+      },
+      "scene_desc": "赵慧敏正在玩一款最新发布的热门游戏《虚拟勇士》，但遇到了一个难度较大的关卡，无法顺利通关。他希望通过AI助手获取一些攻略和技巧来提升游戏水平，并了解最新的游戏更新和社区讨论情况。他打开了AI助手，准备询问相关信息。",
+      "expected_response": "\n根据赵慧敏的persona描述，他是一名热爱电子游戏的中学生，且性格开朗，喜欢结交朋友。AI助手应该能够迅速理解并响应他的需求。AI应该首先询问具体是哪款游戏（如《虚拟勇士》），以及他目前遇到的具体问题（如某个关卡或任务）。接着，AI可以通过联网搜索，访问游戏社区和攻略网站，提供最新的攻略和技巧。此外，AI也可以通过访问相关API（如gameUpdate和gameCommunity），获取该游戏的最新更新和社区讨论情况，并将这些信息反馈给赵慧敏。最后，AI应该以图文并茂的形式呈现攻略和技巧，并提供详细的分步教程，帮助赵慧敏顺利通关。AI还可以询问赵慧敏是否希望将这些信息分享给朋友，或是否需要订阅类似的游戏资讯和攻略。",
+      "scene_context": "赵慧敏目前正在玩《虚拟勇士》，并且在第三章的“龙之巢穴”关卡遇到了困难，无法击败最终的boss。他需要AI助手提供该关卡的详细攻略和技巧。此外，他还希望了解《虚拟勇士》的最新更新内容和社区讨论情况，以便获取更多的游戏信息和玩家心得。",
+      "personalized_query": "嘿，AI助手，我现在在玩《虚拟勇士》，卡在了第三章的“龙之巢穴”关卡，打不过最后的boss。你能帮我找找这个关卡的攻略和一些通关技巧吗？",
+      "neutralized_query": "<neutralized_query>\n请提供《虚拟勇士》第三章“龙之巢穴”关卡的攻略和通关技巧。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：作为一名中学生，赵慧敏需要准备考试，AI助手可以生成复习计划，提供考点总结和练习题。",
+      "available_apis": {
+        "getExamSchedule": {
+          "arguments": [
+            "student_id"
+          ],
+          "description": "Fetches the exam schedule and subjects for the student."
+        },
+        "getKeyPoints": {
+          "arguments": [
+            "subject"
+          ],
+          "description": "Fetches the key points and summaries for the given subject."
+        },
+        "getPracticeQuestions": {
+          "arguments": [
+            "subject"
+          ],
+          "description": "Fetches practice questions for the given subject."
+        }
+      },
+      "scene_desc": "赵慧敏发现自己即将参加的考试日期临近，而他还没有开始系统复习。他希望通过AI助手来帮助他生成一个详细的复习计划，获取各科目的考点总结以及练习题。他打开AI助手，准备开始复习他的数学和英语考试。",
+      "expected_response": "根据赵慧敏的persona描述，他是一个性格开朗、好奇心强、对新技能充满热情的16岁中学生。AI助手应该首先询问他具体需要复习的科目和考试时间。然后，AI可以访问学生的考试时间表，确认考试日期。接着，AI应该提供一个详细的复习计划，包括每日的学习时间安排和每个科目需要复习的具体内容。此外，AI助手应该提供考点总结和相关练习题，并按时提醒他复习进度。为了提高效率和理解，AI助手还可以使用图表和图片来辅助解释难点。同时，AI助手应该根据赵慧敏的需求，提供分步教程和详细指南，帮助他更好地掌握知识点。在整个过程中，AI助手还应该保持互动，询问赵慧敏的反馈和复习情况，确保他能够跟上复习计划。",
+      "scene_context": "赵慧敏需要准备的考试科目为数学和英语。考试日期为两周后。赵慧敏希望AI助手能够生成一个详细的复习计划，包括每日的学习时间安排和每个科目需要复习的具体内容。他特别希望获得以下内容：\n1. 数学科目中的重点考点总结和典型题型练习，例如函数、几何、代数等部分。\n2. 英语科目中的考点总结，包括语法、词汇、阅读理解和写作部分，及相应的练习题。\n\n为了帮助他更好地理解，赵慧敏希望AI助手能够使用图表和图片辅助解释数学难点，并提供详细的英语语法和写作指南。",
+      "personalized_query": "嘿，考试快到了，我有点紧张。我还没怎么复习呢。帮我做一个详细的复习计划吧，数学和英语都要复习。每天要有明确的学习安排，特别是数学的函数、几何、代数部分，和英语的语法、词汇、阅读理解、写作这些。\n\n我希望能有重点考点总结和练习题，最好有图表和图片辅助解释，特别是数学难题。先从数学开始吧，能帮我整理一下重点考点和一些典型题型的练习吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一个详细的复习计划，包括数学和英语的复习安排。请提供重点考点总结和练习题，特别是数学的函数、几何、代数部分，以及英语的语法、词汇、阅读理解和写作。最好有图表和图片辅助解释。能先从数学开始整理重点考点和典型题型的练习吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：赵慧敏性格开朗，喜欢结交朋友，AI助手可以推荐适合的社交活动或聚会场所，帮助他扩大社交圈。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the preferences and current location of the user."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "赵慧敏放学后来到一家咖啡店，准备和几个朋友讨论他们最近玩的一个新游戏。他使用AI助手来寻找一些附近适合年轻人聚会的地点，并希望这些地点能提供Wi-Fi，以便他们可以同时讨论游戏心得和查找攻略。此外，他还希望找到一些有打折活动的餐厅或咖啡店，以节省费用。",
+      "expected_response": "\nAI助手应该首先了解赵慧敏当前所在的地理位置和朋友们的喜好，询问他们是否有特定的要求（如Wi-Fi、游戏讨论环境等）。接着，AI助手应该利用webSearch API查找附近适合青少年聚会的地点，包括咖啡店、餐厅等，并筛选出提供Wi-Fi且有打折活动的选项。AI助手还可以提供这些地点的详细信息和用户评分，以帮助赵慧敏做出决定。最后，AI助手应该推荐一个或多个地点，并询问是否需要进一步预订或获取前往这些地点的路线指引。",
+      "scene_context": "赵慧敏当前所在的地理位置为：北京市朝阳区三里屯。朋友们的主要喜好包括：提供Wi-Fi的场所、适合进行游戏讨论的环境。希望找到一些有打折活动的餐厅或咖啡店。",
+      "personalized_query": "嘿，帮我找一下在三里屯附近适合我们几个讨论游戏的地方，要有Wi-Fi的，最好还有优惠活动的。",
+      "neutralized_query": "<neutralized_query>\n请推荐在三里屯附近适合讨论游戏的并且有Wi-Fi的地方，最好还有优惠活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：赵慧敏喜欢性价比高的科技产品和游戏配件，AI助手可以根据他的需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "generateRecommendations": {
+          "arguments": [
+            "search_results",
+            "user_preferences"
+          ],
+          "description": "Generate a list of recommended products based on search results and user preferences."
+        },
+        "providePurchaseLinks": {
+          "arguments": [
+            "product_recommendations"
+          ],
+          "description": "Provide purchase links for the recommended products."
+        }
+      },
+      "scene_desc": "赵慧敏刚刚打完一场篮球比赛，感觉到他的耳机有些老旧，想要换一副新的。他希望AI助手能够推荐一些性价比高的科技产品和游戏配件，特别是适合运动时使用的耳机。赵慧敏还提到他最近在玩一款新的电子游戏，希望能推荐一些相关的游戏配件，比如耳机、键盘或鼠标。他希望这些推荐能够根据他的预算和需求来进行，并且附带购买链接，以便他可以直接下单。",
+      "expected_response": "\n根据赵慧敏的persona描述，他是一名热爱篮球和电子游戏的中学生，对科技产品有兴趣且追求性价比高的商品。AI助手应该首先询问赵慧敏的具体预算和他对耳机的具体需求，如是否需要防水功能、无线连接等。接着，AI助手可以基于这些需求和赵慧敏的偏好，使用webSearch API来搜索符合条件的科技产品和游戏配件。AI助手应生成一份推荐列表，列举出几款符合条件的耳机和其他游戏配件，并附上详细的产品说明和购买链接。最后，AI助手还应提供一些额外的选项，比如是否希望查看用户评价或是否需要推荐其他类型的科技产品。通过这些步骤，确保推荐的产品既符合赵慧敏的需求，又具备较高的性价比。",
+      "scene_context": "赵慧敏的预算为200-300元。他需要一副适合运动时使用的耳机，必须具备防水功能和无线连接。他最近在玩《英雄联盟》，希望推荐相关的游戏配件，如游戏耳机、机械键盘和高精度鼠标。",
+      "personalized_query": "刚打完一场篮球比赛，发现耳机有些老旧了，我需要换一副新的适合运动时使用的耳机。最好是防水的、无线的，预算在200-300元左右。你能帮我推荐几款吗？",
+      "neutralized_query": "<neutralized_query>\n请推荐几款适合运动时使用的防水无线耳机，预算在200-300元左右。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：赵慧敏会使用中文和英文，AI助手可以帮助他进行语法练习，提升他的语言能力。",
+      "available_apis": {
+        "translateText": {
+          "arguments": [
+            "text",
+            "target_language"
+          ],
+          "description": "Translates the given text to the target language (either Chinese or English) for Zhao Huimin's practice."
+        },
+        "checkGrammar": {
+          "arguments": [
+            "text",
+            "language"
+          ],
+          "description": "Checks and provides corrections for the grammar of the given text in the specified language (either Chinese or English)."
+        }
+      },
+      "scene_desc": "赵慧敏是一名性格开朗的中学生，他会使用中文和英文，常使用AI助手来帮助他进行语法练习，以提升他的语言能力。赵慧敏对科技产品和新技能充满好奇和热情，他喜欢通过详细的教程和图文并茂的解释来学习新知识。一天，他决定利用AI助手来加强他的英语语法能力，尤其是为了他的英语考试做准备。他希望AI助手能够提供一些练习题，检查他的作业，并解释他不理解的语法点。",
+      "expected_response": "\nAI助手应该首先询问赵慧敏具体需要练习的语法点或者他当前的需求（如完成的作业检查或新的练习题）。接着，AI助手会提供详细的图文解释，并根据赵慧敏的要求生成相关的练习题或者检查他提交的作业。AI助手在检查作业时会指出错误的地方，并给出详细的解释和正确答案。为了提升赵慧敏的理解，AI助手还可能会提供一些示例句子和使用情境，帮助赵慧敏更好地掌握语法知识。如果赵慧敏有特别的疑问，AI助手也会针对这些疑问进行详细解答。\n",
+      "scene_context": "赵慧敏目前正在准备英语考试，特别希望加强以下几个语法点：时态（例如：过去式和现在完成时）、冠词的使用（例如：a, an, the的区别）、从句（例如：定语从句和状语从句的区别）。他有一篇最近的英语作文，希望AI助手帮助检查并指出其中的语法错误。",
+      "personalized_query": "嘿，AI助手，我有个英语考试要准备。最近我想加强几个语法点：时态（特别是过去式和现在完成时），冠词的使用，还有从句。不知道你能不能帮我准备一些练习题？还有，我有篇作文需要你检查一下语法错误。你可以先帮我准备时态的练习题吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些关于时态（特别是过去式和现在完成时）、冠词使用和从句的英语语法练习题。另外，还需要检查一篇作文的语法错误。你可以先帮我准备时态的练习题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资决策：_李伟需要在有限时间内做出关于一家新兴科技公司的投资决策，要求对公司的财务数据和市场前景进行详细分析。",
+      "available_apis": {
+        "fetchFinancialReports": {
+          "arguments": [
+            "company_name"
+          ],
+          "description": "Fetch the latest financial reports (balance sheet, income statement, cash flow statement) for the specified company."
+        },
+        "fetchMarketReports": {
+          "arguments": [
+            "industry_name"
+          ],
+          "description": "Fetch market reports and future market forecasts for the specified industry."
+        },
+        "analyzeData": {
+          "arguments": [
+            "financial_data",
+            "market_data"
+          ],
+          "description": "Analyze financial data and market data, providing visualizations and insights for decision making."
+        }
+      },
+      "scene_desc": "李伟是一位经验丰富的投资人，目前他需要在有限时间内做出关于一家新兴科技公司的投资决策。为了做出明智的决定，李伟希望AI助手能够帮助他详细分析这家公司的财务数据和市场前景，包括获取最新的财务报告、行业市场报告，并将这些信息进行综合分析，提供数据可视化和洞察。李伟希望AI助手能快速、高效地完成这些任务。",
+      "expected_response": "\n根据李伟的persona描述，他是一个注重数据分析和市场前景的投资人，AI助手首先应该询问该新兴科技公司的名称以开始搜索相关资料。接着，AI助手将通过调用相关API获取该公司的最新财务报告，包括资产负债表、利润表和现金流量表。同时，AI助手还会自动获取相关行业的市场报告和未来市场预测。\n\n在收集到所有必要数据后，AI助手应该进行数据分析，生成图表和可视化报告，以便李伟能够直观地查看公司的财务状况和市场前景。AI助手还应该提供关键洞察和分析结果，以帮助李伟做出投资决策。\n\n最后，AI助手应该询问李伟是否需要进一步的详细报告或额外的数据支持，并提供选项将分析结果导出为PDF或其他文档格式，以便李伟可以在投资决策会议上使用这些信息。",
+      "scene_context": "李伟需要分析的新兴科技公司名称为：SkyTech Innovations。李伟需要AI助手获取并分析以下内容：\n1. SkyTech Innovations的最新财务报告，包括资产负债表、利润表和现金流量表。\n2. 相关行业的市场报告和未来市场预测，例如2023年的科技行业发展趋势。\n3. 数据可视化图表，如收入增长、利润率、现金流动等。\n4. 综合分析及关键洞察，帮助李伟评估投资的风险和潜在回报。\n\n李伟希望AI助手能够将这些信息结构化地整理并生成一个简洁明了的报告，最好能导出为PDF格式以便在投资决策会议上使用。",
+      "personalized_query": "嗨，AI助手，我现在需要做一个关于SkyTech Innovations的投资决策。首先，我需要你帮我获取这家公司的最新财务报告，包括资产负债表、利润表和现金流量表。能帮我弄到这些数据吗？",
+      "neutralized_query": "<neutralized_query>\n我需要获取SkyTech Innovations公司的最新财务报告，包括资产负债表、利润表和现金流量表。能帮我弄到这些数据吗？\n"
+    }
+  ]
+}

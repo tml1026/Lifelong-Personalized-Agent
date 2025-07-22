@@ -1,0 +1,236 @@
+{
+  "Demographics": {
+    "Age": 32,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "在一家生物科技公司担任研究员，专业领域为基因编辑技术",
+    "Name": "子涵"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "喜欢户外探险和摄影",
+      "热爱自然和野外生存技能",
+      "对古典音乐和哲学有浓厚的兴趣"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常查询关于不同野外探险地点的信息和最佳摄影时间",
+    "Usage_Pattern": "使用频繁；询问如何规划探险行程和摄影技巧；常需要整理旅行日志和照片管理建议",
+    "Emotion_Pattern": "通常情绪稳定，但在探讨哲学问题时可能表现出深刻的情感",
+    "Purchase_Pattern": "偏向购买高质量的户外装备和摄影器材，不太在意价格"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢结构化且详细的回复，特别注重逻辑性",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢从整体规划入手，逐步细化到具体步骤"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：子涵需要规划户外探险旅行的行程，包括最佳摄影时间、路线安排和野外生存技能的应用。",
+      "available_apis": null,
+      "scene_desc": "子涵计划进行一次为期两周的户外探险旅行，目标地点是云南的梅里雪山。他希望这次旅行能包含几个主要的活动：徒步穿越山脉、在特定的时间点拍摄日出和日落、以及学习和应用一些野外生存技能。他希望AI能帮助他规划整个行程，包括最佳摄影时间、合理的路线安排和需要携带的装备。此外，他还希望能了解该地区的天气预报，以确保安全。",
+      "expected_response": "\nAI应该首先询问子涵的具体行程日期和时间范围，以便于提供准确的天气预报和最佳摄影时间。接着，AI应该根据查询结果，提供梅里雪山的最佳摄影时间，特别是日出和日落的时间点，并推荐适合拍摄的位置。然后，AI应询问子涵的具体徒步和探险偏好，例如每天的徒步距离和难度级别，以便规划合理的路线。AI还应提供相关的野外生存技能课程或指南，帮助子涵在探险过程中更好地应对各种情况。最后，AI应推荐适合梅里雪山探险的高质量户外装备，并建议子涵在旅行前进行必要的准备工作，如签证办理和了解当地的健康和安全注意事项。AI还应生成一个详细的行程计划，确保子涵的探险旅行安全且高效。",
+      "scene_context": "子涵计划的行程日期为：2023年5月1日至2023年5月14日。他每天希望徒步的距离在10-15公里之间，难度适中，不涉及专业的攀登活动。他还希望在旅途中学习一些基本的野外生存技能，如搭建营地、野外取火和寻水方法。此外，他对摄影非常感兴趣，希望能拍摄到梅里雪山的日出和日落。子涵还希望了解当地的天气预报，以确保旅行的安全。他希望AI能帮他列出需要携带的装备清单，包括露营装备、摄影设备和生存工具。",
+      "personalized_query": "我计划在5月初去云南的梅里雪山进行一次为期两周的户外探险旅行。我有几个主要的目标：徒步穿越山脉、拍摄日出和日落、学习和应用一些野外生存技能。你能帮我规划一下整个行程吗？包括最佳的摄影时间、合理的徒步路线安排和需要携带的装备。\n\n另外，我还需要了解当地的天气预报，以确保旅行的安全。",
+      "neutralized_query": "<neutralized_query>\n请帮我规划一次为期两周的户外探险旅行。这次旅行的目标是徒步穿越山脉、拍摄日出和日落、学习和应用一些野外生存技能。需要包括最佳的摄影时间、合理的徒步路线安排和需要携带的装备。此外，还需要了解当地的天气预报以确保安全。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "摄影技巧：子涵喜欢摄影，经常询问如何拍摄高质量的野外照片，并需要建议如何优化摄影设备。",
+      "available_apis": null,
+      "scene_desc": "子涵正在计划下一次野外探险，希望改善自己拍摄野外照片的技巧。他打开了AI助手，想获取一些关于拍摄高质量照片的建议，比如最佳的拍摄时间、角度、设备设置等。此外，他也希望得到一些关于优化他现有摄影设备的建议，如调整相机设置或购买新的镜头等。",
+      "expected_response": "\n根据子涵的persona描述，AI应该首先询问他具体的拍摄地点和时间，以便提供最佳拍摄时间的建议。接着，AI应该根据这些信息提供一些专业的摄影技巧，比如如何利用自然光、选择合适的拍摄角度以及构图方法等。同时，AI还应询问子涵使用的具体摄影设备类型，以便提供优化设置的具体建议，比如调整光圈、快门速度和ISO等。最后，AI应该根据子涵的设备和需求，推荐一些高质量的摄影器材或镜头，帮助他进一步提升拍摄效果。对于子涵这样的结构化思考者，AI应确保回复逻辑清晰、条理分明，并包含详细的步骤和说明。",
+      "scene_context": "子涵的具体拍摄地点是黄山，拍摄时间计划在清晨和黄昏。他目前使用的摄影设备是一台佳能EOS R相机和一支24-105mm的镜头。他希望了解如何在这种环境下拍摄高质量的照片，以及是否需要购买其他设备来提升拍摄效果。",
+      "personalized_query": "我现在正在计划下一次黄山的野外探险，主要是想提升我的摄影技巧。你好，我希望你能给我一些关于拍摄高质量照片的建议，包括最佳的拍摄时间、角度和设备设置等。此外，如果有优化我现有摄影设备的建议，比如调整相机设置或者购买新的镜头，也请一并告诉我。",
+      "neutralized_query": "<neutralized_query>\n我需要一些关于拍摄高质量野外照片的建议，包括最佳的拍摄时间、角度和设备设置等。此外，如果有优化摄影设备的建议，比如调整相机设置或者购买新的镜头，也请一并告诉我。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "户外装备推荐：子涵偏向购买高质量的户外装备，需要推荐适合探险和摄影的装备和器材。",
+      "available_apis": null,
+      "scene_desc": "子涵计划进行一次长时间的户外探险，同时他非常重视摄影，希望能带回高质量的野外照片。他希望购买一些新的高质量户外装备和摄影器材，以确保探险过程中的安全和摄影效果。他对价格不敏感，更注重质量和实用性。因此，他寻求AI助手给出适合探险和摄影的装备推荐。",
+      "expected_response": "\n根据子涵的persona描述，他的需求非常明确且注重细节。AI应该首先询问具体的探险地点、计划的活动类型（如徒步、攀岩等）和预计的天气情况，以便推荐最合适的装备。接着，AI应该基于这些信息推荐一些高质量的户外装备，如防水登山鞋、高性能登山背包、保暖衣物和多功能工具等。还应该推荐一些专业摄影器材，如适用于恶劣天气的相机、耐用的三脚架、防水相机包和备用电池。AI的回复应该结构化且详细，逻辑清晰，并包括每件装备的特点和优点。AI还可以提供购买链接或参考评测，帮助子涵做出最终决定。\n",
+      "scene_context": "子涵计划前往喜马拉雅山进行为期两周的长时间户外探险，活动包括徒步、攀岩和露营，预计天气将非常寒冷且可能有暴风雪。他希望购买以下类型的装备和器材：\n1. 登山装备：防水登山鞋、高性能登山背包、保暖衣物、多功能工具。\n2. 摄影器材：适用于恶劣天气的相机（如全画幅相机）、耐用的三脚架、防水相机包、备用电池和存储卡。\n\n子涵希望AI助手提供详细的装备推荐，包括每件装备的特点、优点和购买链接或参考评测。",
+      "personalized_query": "我计划进行一次为期两周的喜马拉雅山户外探险，主要包含徒步、攀岩和露营，预计天气会非常寒冷，甚至有暴风雪。我需要购买一些高质量的登山装备和摄影器材。你能帮我推荐一下吗？",
+      "neutralized_query": "<neutralized_query>\n我计划进行一次为期两周的寒冷天气户外探险，主要包含徒步、攀岩和露营。我需要购买一些高质量的登山装备和摄影器材。你能帮我推荐一下吗？\n"
+    },
+    {
+      "scene_type": "天气查询：为了确保探险的安全和摄影效果，子涵会经常查询探险地点的实时天气情况。",
+      "available_apis": {
+        "getWeather": {
+          "arguments": [
+            "location"
+          ],
+          "description": "Fetches the current weather for the specified location."
+        }
+      },
+      "scene_desc": "子涵正在计划一次户外探险旅行，选择了一个他之前没去过的地点。他决定在出发前查询该地点的实时天气情况，以便确保自己的探险安全和摄影效果。他打开AI助手，准备询问目的地的当前天气以及未来几天的天气预报。他还希望AI能提供一些关于天气的具体信息，比如温度、降水概率和风速，这样能帮助他更好地准备探险装备和摄影器材。",
+      "expected_response": "AI助手应该首先确认子涵的探险目的地和具体的查询时间范围。因为子涵喜欢结构化且详细的回复，AI需要提供包括当前天气、未来几天的天气预报、温度、降水概率和风速等详细信息。由于子涵偏向购买高质量的户外装备，AI还可以根据天气情况建议他需要准备哪些装备，比如防水设备或保暖衣物。此外，AI可以为子涵提供一个链接，方便他随时查看实时更新的天气信息，以便在探险过程中做出相应调整。最后，AI应该询问子涵是否需要将天气信息记录到他的探险计划文档中。",
+      "scene_context": "子涵计划探险的具体地点是黄山，探险日期定在下周三至周五（即几天后的那个星期三至星期五）。他希望AI助手查询黄山的实时天气情况以及未来几天（包括周二、周三、周四和周五）的天气预报，特别关注温度、降水概率和风速的信息。",
+      "personalized_query": "你好，我要去黄山进行一次探险。你能帮我查一下那里目前的天气情况吗？还有未来几天的天气预报，尤其是温度、降水概率和风速这些信息。谢谢。",
+      "neutralized_query": "<neutralized_query>\n你能帮我查一下黄山目前的天气情况和未来几天的天气预报吗？尤其是温度、降水概率和风速这些信息。谢谢。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：子涵需要整理野外探险的旅行日志和照片管理，可能需要帮助优化和整理文档内容。",
+      "available_apis": {
+        "getPhotos": {
+          "arguments": [
+            "source"
+          ],
+          "description": "Fetches photos from the specified source (e.g., local storage, cloud service)."
+        },
+        "organizePhotos": {
+          "arguments": [
+            "photos",
+            "criteria"
+          ],
+          "description": "Organizes the provided photos based on the specified criteria (e.g., date, location)."
+        },
+        "grammarCheckAndOptimize": {
+          "arguments": [
+            "document"
+          ],
+          "description": "Performs grammar check and optimization on the provided document."
+        },
+        "insertPhotosToDocument": {
+          "arguments": [
+            "document",
+            "photos",
+            "positions"
+          ],
+          "description": "Inserts specified photos into the document at the specified positions."
+        }
+      },
+      "scene_desc": "子涵刚刚完成了一次为期两周的野外探险，收集了大量的照片和记录了详细的探险日志。他计划将这些内容整理成一篇精美的旅行日志，发布到他的个人博客上与朋友们分享。为了使日志更加生动，他希望在其中插入一些精选的照片，并对文字内容进行语法检查和优化。同时，他还希望能够按照拍摄日期和地点对照片进行分类，以便更好地管理和展示这些记忆。",
+      "expected_response": "\nAI应该首先询问子涵是否已经将所有的照片和旅行日志上传到本地存储或云服务中。接着，AI应要求获取这些文件，并进行初步整理。AI应该提供分类选项，让子涵选择按日期、地点或其他标准对照片进行分类。AI还应提供文字优化和语法检查的功能，询问子涵是否需要对整个日志内容进行检查和优化。根据子涵的偏好，AI可能会建议将精选的照片插入到具体的日志段落中，并提供适当的格式选项。最终，AI应生成一个整理好的文档，并询问子涵是否需要进一步的修改或直接发布到他的博客上。通过这种详细而结构化的应答方式，AI能够满足子涵对逻辑性和细节的高要求。\n",
+      "scene_context": "子涵需要整理和优化的内容如下：\n1. 旅行日志文件：`Wild_Adventure_Log.txt`\n2. 照片文件夹：`Photos/`\n   - 包含多个子文件夹，按照日期命名，如`2023-09-01/`，`2023-09-02/`，等等。\n3. 需要分类和精选的照片示例：`Photos/2023-09-01/pic1.jpg`, `Photos/2023-09-02/pic2.jpg`, 等等。\n4. 最终输出希望以Markdown格式生成的文档，并以日期和地点分类插入精选照片。\n5. 旅行日志内容示例：\n   ```\n   Day 1: September 1, 2023\n   Location: Yellowstone National Park\n   Today we started our journey from the north entrance of Yellowstone. The weather was perfect, and we saw a herd of bison grazing near the river...\n\n   Day 2: September 2, 2023\n   Location: Grand Teton National Park\n   We woke up early and drove to Grand Teton. The mountain views were breathtaking, and we hiked up to Hidden Falls...\n\n   ...\n   ```",
+      "personalized_query": "你好，我刚刚结束了一次为期两周的野外探险，收集了不少照片和探险日志。我准备把这些整理成一篇精美的旅行日志，发布到我的个人博客上。\n\n首先，我想请你帮我检查和优化一下我记录的探险日志的语法和表达。日志文件名是`Wild_Adventure_Log.txt`。\n\n等你检查完日志后，我还有一些照片分类和精选的任务需要你帮忙。现在我们先处理日志，可以吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我检查和优化一份探险日志的语法和表达，日志文件名是`Wild_Adventure_Log.txt`。"
+    },
+    {
+      "scene_type": "旅行须知：子涵需要了解探险地点的特殊注意事项，比如签证、货币兑换和当地的野外生存环境。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "子涵正在计划一次前往某个遥远且人迹罕至的探险地点的旅行。他需要了解该地点的特殊注意事项，包括签证要求、货币兑换以及当地的野外生存环境。由于探险地可能较为偏远，信息获取可能会比较困难。子涵希望AI助手能够提供结构化且详细的信息，以便他做好充分的准备。",
+      "expected_response": "\n根据子涵的persona描述，AI应该首先确认具体的探险地点以及子涵预计的出行时间。随后，AI助手应利用联网搜索功能，通过查询相关的旅游和探险信息网站，获取该地点的签证要求、货币兑换建议以及当地的野外生存环境信息。AI需要确保回复内容结构化且逻辑清晰，便于子涵逐步细化探险计划。此外，AI还应考虑到子涵对高质量户外装备和摄影器材的偏好，提供相关的装备建议以确保探险的安全性和摄影效果。\n",
+      "scene_context": "子涵计划的探险地点为：巴塔哥尼亚地区。预计出行时间为：2023年12月。",
+      "personalized_query": "我计划在2023年12月前往巴塔哥尼亚地区进行一次探险，想了解一些具体的事项。首先，能帮我查一下前往巴塔哥尼亚需要办理哪些签证吗？具体流程是怎样的？",
+      "neutralized_query": "<neutralized_query>\n我需要了解前往巴塔哥尼亚进行探险时需要办理哪些签证以及具体的办理流程。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：子涵在探险过程中可能需要跟踪运动数据，如步数、徒步距离等，并希望获得反馈和建议。",
+      "available_apis": {
+        "getCurrentActivityData": {
+          "arguments": [],
+          "description": "Gets the current activity data such as step count and walking distance."
+        },
+        "storeActivityData": {
+          "arguments": [
+            "activity_data"
+          ],
+          "description": "Stores the activity data for future reference and analysis."
+        },
+        "generateActivityFeedback": {
+          "arguments": [
+            "activity_data"
+          ],
+          "description": "Generates feedback and suggestions based on the provided activity data."
+        }
+      },
+      "scene_desc": "子涵正在进行一次户外探险，徒步穿越一个风景优美的山区。他希望能跟踪每天的运动数据，包括步数和徒步距离，以确保自己能够安全并高效地完成整个探险行程。同时，他希望在每天结束时能够获得基于这些数据的反馈和建议，以优化接下来的活动安排，并提高探险过程中的安全性和舒适度。",
+      "expected_response": "\nAI应该首先获取子涵当前的运动数据，包括步数和徒步距离。接着，AI应当存储这些数据以便进行历史记录和后续分析。然后，基于当天的运动数据，AI应生成具体的反馈和建议，比如调整接下来的徒步计划、注意的安全事项和可能的体能恢复方法等。AI还应注意到子涵喜欢结构化且详细的回复，因此反馈和建议应当逻辑清晰，并分步骤详细说明。由于子涵对户外探险和摄影有浓厚的兴趣，AI也可以建议一些适合拍摄的地点和时机。同时，考虑到子涵在探讨哲学问题时会表现出深刻的情感，AI可以在反馈中加入一些哲学性的思考或名言，以激发他的兴趣和共鸣。",
+      "scene_context": "子涵目前已经徒步了三天，每天的运动数据如下：\n- 第一天：步数 15,000 步，徒步距离 12 公里。\n- 第二天：步数 18,000 步，徒步距离 14 公里。\n- 第三天：步数 16,000 步，徒步距离 13 公里。\n\n子涵希望AI能够基于这些数据提供以下信息：\n1. 每天的运动数据汇总和趋势分析。\n2. 针对第四天徒步计划的具体建议，包括步数目标、徒步距离建议，以及需要注意的安全事项。\n3. 推荐一些适合拍摄的地点和时间。\n4. 提供一些哲学性的思考或名言，以激发他的兴趣。\n\n（注：假设子涵使用的是某种运动追踪设备或手机上的应用程序可以提供这些数据。）",
+      "personalized_query": "我现在已经成功扮演子涵。这是我和AI助手的对话：\n\n---\n\nAI助手，今天是我徒步探险的第四天。我想你帮我总结一下前三天的运动数据，并且提供一些趋势分析。",
+      "neutralized_query": "<neutralized_query>\n请帮我总结前三天的运动数据，并提供一些趋势分析。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：子涵可能需要在工作中用到英文，可能需要进行英文写作或口语的语法练习。",
+      "available_apis": {
+        "grammarCheck": {
+          "arguments": [
+            "text"
+          ],
+          "description": "Checks the grammar of the given text and provides suggestions for corrections."
+        },
+        "provideGrammarExercise": {
+          "arguments": [
+            "difficulty_level"
+          ],
+          "description": "Provides grammar exercises based on the specified difficulty level."
+        },
+        "provideGrammarResource": {
+          "arguments": [
+            "grammar_topic"
+          ],
+          "description": "Provides detailed explanations and resources for the specified grammar topic."
+        }
+      },
+      "scene_desc": "子涵最近在工作中需要用到英文写作和口语，以便更好地与国际同行交流。他意识到自己的英文语法需要强化，尤其是在专业领域的学术论文和演讲中。他希望通过AI助手来进行语法练习，以提高自己的英文写作和口语表达能力。子涵希望AI能提供结构化且详细的语法练习，并能根据他的需求进行个性化调整。",
+      "expected_response": "\nAI应该首先询问子涵希望进行哪种类型的语法练习——写作或口语。接着，AI应进一步了解子涵目前的英文水平和他具体需要改进的语法点。根据子涵的需求，AI可以提供相应的语法练习，包含详细的解释和例句，并能实时纠正练习中出现的错误。对于写作练习，AI可以使用grammarCheck API对子涵的文本进行语法检查并提供修改建议；对于口语练习，AI可以提供例句和口语练习材料，并在子涵练习后给予反馈。AI还可以为子涵推荐相关的语法资源和练习材料，帮助他系统地提高语法水平。\n",
+      "scene_context": "子涵最近在工作中需要用到英文写作和口语，主要涉及的领域有学术论文和演讲。他希望特别强化以下几个语法点：\n\n1. 冠词的使用（如 \"a\", \"an\" 和 \"the\" 的区别）。\n2. 动词时态的正确应用（如现在时、过去时和将来时）。\n3. 复杂句结构（如定语从句和状语从句）。\n\n子涵希望AI助手能够提供针对这些语法点的写作和口语练习，并能根据他的练习情况提供实时纠正和反馈。此外，他还希望能获取一些相关的语法资源和练习材料，以便系统地提高自己的英文语法水平。",
+      "personalized_query": "最近在工作中，我发现自己的英语语法需要加强，尤其在写学术论文和准备演讲时，常常对冠词的使用、动词时态和复杂句结构感到困惑。你能帮我制定一个系统的练习计划吗？先从冠词的使用开始吧。",
+      "neutralized_query": "<neutralized_query>\n我需要一个系统的英语语法练习计划，尤其关注冠词的使用、动词时态和复杂句结构。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "基因编辑研讨会：子涵需要准备下一次的基因编辑技术国际研讨会的演讲材料和实验数据。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for the given query and return the most relevant response. This can be used to find the latest research papers, articles and news in the field of gene editing."
+        },
+        "dataRetrieval": {
+          "arguments": [
+            "experiment_id"
+          ],
+          "description": "Retrieve the experimental data for the given experiment ID from the database or data repository."
+        }
+      },
+      "scene_desc": "子涵是一名在生物科技公司担任研究员的基因编辑技术专家。由于他即将参加一个国际性的基因编辑技术研讨会，需要准备演讲材料和实验数据。为了确保他的演讲内容详实且具有前沿性，他需要从最新的研究中获取数据和信息，同时还要整理他最近的实验数据并将其整合到演讲材料中。子涵习惯于先从全局入手，逐步细化到具体的步骤，并且他喜欢结构化和详细的回复。\n\n在准备资料的过程中，子涵会使用他的AI助手来帮助他快速查找相关的研究文章和最新的技术动态，同时也需要AI助手从公司的数据库中提取他所需的实验数据，并进行整理和优化，以便他能够专注于演讲内容的编写。",
+      "expected_response": "考虑到子涵的研究员身份和对逻辑性和详细回复的偏好，AI助手应当首先确认子涵具体需要的研究主题和关键内容。接着，AI助手可以通过联网搜索功能来查找最新的基因编辑技术研究文章和新闻，根据关键词过滤并推荐最相关的资料。\n\n在获取实验数据方面，AI助手需要从公司的数据库中提取指定实验的详细数据。AI助手应该询问子涵具体需要的实验数据ID，并说明数据的提取和整理可能需要的时间。提取到数据后，AI助手可以优化和整理这些数据，使之易于阅读和理解，并且符合演讲所需的逻辑结构。\n\n为了确保演讲材料准确无误，AI助手可以提供语法检查和优化功能，帮助子涵检查并提升文本质量。此外，AI助手还应询问子涵是否需要将优化后的实验数据嵌入到演讲材料的特定位置，并自动完成这一任务。\n\n最终，AI助手应当生成一个结构清晰、数据详实的演讲材料，并提醒子涵是否需要进一步修改或确认。如果需要，AI助手可提供进一步的建议或编辑选项，以确保材料的完备性和专业性。",
+      "scene_context": "子涵需要准备的基因编辑技术演讲主题为CRISPR-Cas9系统的最新应用。他需要:\n1. 查找并引用最近一年内发表的关于CRISPR-Cas9技术在癌症基因突变修复中的应用研究文章。\n2. 提取他最近在公司完成的实验数据，这些实验数据涉及CRISPR-Cas9在小鼠模型中的基因编辑效果。实验数据ID为CRISPR_EXP_202309。\n3. 整合这些实验数据到他的演讲材料中，确保数据表格和图表清晰且易于理解。\n4. 使用AI助手帮助进行演讲材料的语法检查和优化。\n\nAI需要完成的主要任务包括：\n1. 根据CRISPR-Cas9和癌症基因突变修复的关键词，搜索最新的研究文章，并推荐最相关的几篇。\n2. 从公司的数据库中提取实验数据ID为CRISPR_EXP_202309的详细数据，并进行整理和优化。\n3. 将优化后的实验数据嵌入到子涵的演讲材料的指定位置。\n4. 提供语法检查和优化功能，提升演讲材料的文本质量。\n5. 生成结构清晰、数据详实的演讲材料，并提示子涵是否需要进一步修改或确认。",
+      "personalized_query": "我需要你帮我查找最近一年内发表的关于CRISPR-Cas9技术在癌症基因突变修复中的应用研究文章。请推荐几篇最相关的。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我查找最近一年内发表的关于CRISPR-Cas9技术在癌症基因突变修复中的应用研究文章，并推荐几篇最相关的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "实验室设备维护：子涵在实验室进行定期设备维护，确保所有基因编辑仪器都处于最佳工作状态。",
+      "available_apis": {
+        "getEquipmentList": {
+          "arguments": [],
+          "description": "获取实验室中所有基因编辑仪器的列表及其当前状态。"
+        },
+        "getMaintenanceRecords": {
+          "arguments": [
+            "equipment_id"
+          ],
+          "description": "获取指定设备的维护记录和状态报告。"
+        },
+        "createMaintenanceTask": {
+          "arguments": [
+            "equipment_id",
+            "issue_description"
+          ],
+          "description": "为需要维护或修理的设备生成维护任务并通知相关技术人员。"
+        }
+      },
+      "scene_desc": "子涵正在实验室进行基因编辑仪器的定期维护。他需要确保所有设备都处于最佳工作状态，为此，他需要查看实验室中所有基因编辑仪器的列表及其当前状态，获取指定设备的维护记录和状态报告，并为需要维护或修理的设备生成维护任务。子涵希望这次维护工作能够高效、准确，并确保不漏掉任何设备的问题。",
+      "expected_response": "\nAI应该首先展示实验室中所有基因编辑仪器的列表及其当前状态，使子涵能够全面了解每台设备的工作情况。然后，AI应该提供获取每台设备的详细维护记录和状态报告的选项，以便子涵能够深入了解设备的历史和当前状况。若发现任何设备需要维护或有问题，AI应该询问子涵是否需要为这些设备生成维护任务，并通知相关技术人员。最后，AI应该提示子涵是否需要保存或导出这些维护记录和报告，以便未来参考。因为子涵注重逻辑和结构化的回复，AI在每一步操作中都应确保信息清晰、具体，并提供详细的操作步骤和选项。\n",
+      "scene_context": "子涵需要检查的设备包括：Thermo Fisher Scientific GeneArt CRISPR Nuclease、Bio-Rad C1000 Touch Thermal Cycler和Eppendorf Mastercycler Nexus X2。\n\nAI助手应提供以下信息：\n1. 实验室中基因编辑仪器的列表：\n   - Thermo Fisher Scientific GeneArt CRISPR Nuclease\n   - Bio-Rad C1000 Touch Thermal Cycler\n   - Eppendorf Mastercycler Nexus X2\n\n2. 每台设备的当前状态：\n   - Thermo Fisher Scientific GeneArt CRISPR Nuclease: 正常运行\n   - Bio-Rad C1000 Touch Thermal Cycler: 需要校准\n   - Eppendorf Mastercycler Nexus X2: 正常运行\n\n3. 获取详细维护记录和状态报告的选项。示例：\n   - Thermo Fisher Scientific GeneArt CRISPR Nuclease: 维护记录显示上次维护为2023年7月，未发现异常。\n   - Bio-Rad C1000 Touch Thermal Cycler: 维护记录显示上次校准为2022年12月，校准过期。\n   - Eppendorf Mastercycler Nexus X2: 维护记录显示上次维护为2023年6月，未发现异常。\n\n4. 对需要维护或修理的设备生成维护任务，并通知相关技术人员。示例：\n   - 生成维护任务：Bio-Rad C1000 Touch Thermal Cycler需要校准，并通知技术人员张伟。\n\n5. 提示是否需要保存或导出这些维护记录和报告，以便未来参考。",
+      "personalized_query": "我现在正在实验室，对基因编辑仪器进行定期维护。请先帮我查看实验室中所有基因编辑仪器的列表及其当前状态。",
+      "neutralized_query": "<neutralized_query>\n请先帮我查看实验室中所有基因编辑仪器的列表及其当前状态。\n</neutralized_query>"
+    }
+  ]
+}

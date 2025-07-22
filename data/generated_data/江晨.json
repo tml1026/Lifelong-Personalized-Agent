@@ -1,0 +1,259 @@
+{
+  "Demographics": {
+    "Age": 42,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "青岛某物流公司运营经理",
+    "Name": "江晨"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "重视生活的艺术感",
+      "喜欢安静有序的环境",
+      "对新事物持开放态度",
+      "在细节上追求完美",
+      "享受独立思考和解决问题的过程"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于深度理解信息，喜欢探索新的概念和思想",
+    "Usage_Pattern": "经常查询艺术技巧和创作灵感，有时会研究心理学和哲学的相关内容",
+    "Emotion_Pattern": "在情感上保持理智，但对艺术表达有强烈共鸣",
+    "Purchase_Pattern": "偏好购买高质量的艺术用品和书籍，注重品牌和材料"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细且富有逻辑的指导，尤其是带有理论背景的说明",
+    "Preferred_Formats": "图文结合的格式，包含案例分析和实战示范",
+    "Preferred_Workflows": "喜欢从整体概念出发，逐步细化到具体细节，注重理论与实践的结合"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：江晨作为物流公司运营经理，需要跟踪任务进度、分配任务、设置截止日期，以确保物流运营的高效性。",
+      "available_apis": null,
+      "scene_desc": "江晨作为青岛某物流公司的运营经理，他的日常工作之一是管理多个项目，以确保物流运营的高效性。这包括跟踪任务进度、分配任务、设置截止日期以及确保团队成员的工作进展顺利。江晨喜欢在工作中保持理智和有序，并且在细节上追求完美。他倾向于用详细且富有逻辑的方式来进行任务管理，同时也会在项目中应用新的管理工具或方法。他通常会深入理解每个项目的需求和挑战，并在此基础上制定详细的计划。",
+      "expected_response": "根据江晨的persona描述，AI应该首先了解当前的项目详情，包括项目名称、任务列表及任务状态。AI需要询问江晨是否有任何新的任务或截止日期需要添加，并确认这些任务的优先级和负责人。接着，AI应该帮助江晨分配具体任务给团队成员，并设置相应的截止日期。AI还应该提醒江晨任何临近的截止日期或需要特别关注的任务进展。此外，AI应提供项目进度的总体概览，并建议任何可能的优化措施，以确保项目顺利进行。整个过程中，AI应该以详细且富有逻辑的指导方式和江晨互动，提供必要的图表和数据支持，以帮助他更好地理解和管理项目进度。",
+      "scene_context": "江晨目前正在管理的项目包括以下几个：\n1. **项目名称**: 新仓库建设\n   - **任务列表及状态**:\n     - 任务1: 地基工程（进行中）\n     - 任务2: 材料采购（未开始）\n     - 任务3: 安装监控系统（未开始）\n   - **截止日期**: \n     - 地基工程: 2023-11-01\n     - 材料采购: 2023-11-15\n     - 安装监控系统: 2023-12-01\n\n2. **项目名称**: 物流系统升级\n   - **任务列表及状态**:\n     - 任务1: 需求分析（完成）\n     - 任务2: 供应商洽谈（进行中）\n     - 任务3: 系统测试（未开始）\n   - **截止日期**:\n     - 供应商洽谈: 2023-11-10\n     - 系统测试: 2023-11-30\n\n3. **项目名称**: 客户服务培训\n   - **任务列表及状态**:\n     - 任务1: 培训材料准备（进行中）\n     - 任务2: 培训日程安排（未开始）\n     - 任务3: 培训实施（未开始）\n   - **截止日期**:\n     - 培训材料准备: 2023-11-05\n     - 培训日程安排: 2023-11-10\n     - 培训实施: 2023-11-20\n\n江晨希望AI助手能够帮助他跟踪这些项目的任务进度、分配新的任务、设置截止日期并提醒他任何临近的截止日期。",
+      "personalized_query": "您好，AI助手，我需要一些帮助来跟踪目前我管理的几个项目的任务进度，并设置和提醒相关的截止日期。\n\n首先，请帮我确认一下“新仓库建设”项目中各项任务的最新进度和截止日期。具体包括地基工程、材料采购和安装监控系统三项任务。谢谢。",
+      "neutralized_query": "<neutralized_query>\n我需要一些帮助来跟踪项目的任务进度，并设置和提醒相关的截止日期。请确认“新仓库建设”项目中地基工程、材料采购和安装监控系统三项任务的最新进度和截止日期。\n"
+    },
+    {
+      "scene_type": "会议安排：江晨常常需要协调与团队或客户的会议时间，发送邀请并生成会议纪要，以确保沟通无误。",
+      "available_apis": null,
+      "scene_desc": "江晨作为青岛某物流公司的运营经理，每天都需要与团队和客户保持紧密的沟通。今天，他需要安排一次和供应商的电话会议，以讨论新项目的合作细节。他打开终端上的AI助手，希望它能帮助他快速协调会议时间，发送邀请，并做好记录。",
+      "expected_response": "\n根据江晨的persona描述，他偏爱安静有序的环境，喜欢详细且富有逻辑的指导。AI应该能迅速理解并响应他的需求。首先，AI应该询问具体需要邀请的团队成员和供应商的联系人，并确认是否有优选的时间段（例如上午或下午）。接着，AI应该通过访问企业办公软件中所有相关人员的日程安排，快速找出一个所有人都可参与的时间。AI还应该设置一个定时自动提醒江晨会议的时间和内容，并询问是否需要在会议邀请中包含特定的议程或文件。最后，AI应该生成一个详细的会议邀请，并提供选项让江晨确认后直接发送。同时，AI还应准备好在会议结束后生成会议纪要，确保沟通无误。",
+      "scene_context": "江晨需要邀请的团队成员包括市场部经理李明、技术部负责人王强，以及财务部主管张红。供应商的联系人是张伟，优先安排在下午2点到4点之间的时间段。会议议程包括以下几点：\n1. 项目合作背景介绍\n2. 供应商的合作条件和条款讨论\n3. 物流方案的可行性分析\n4. 后续合作计划和时间安排\n江晨希望在会议前一天和会议当天分别收到自动提醒，并希望会议纪要能够覆盖每个议题的讨论要点和决策。",
+      "personalized_query": "打开AI助手，输入指令：\n \n安排一次与供应商的电话会议，讨论新项目合作细节。会议时间优先安排在下午2点到4点之间。",
+      "neutralized_query": "<neutralized_query>\n安排一次与供应商的电话会议，讨论新项目合作细节，优先安排在下午2点到4点之间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：江晨在工作中需要修改、整理或优化文档内容，如操作手册、报告等，以确保信息准确和清晰。",
+      "available_apis": null,
+      "scene_desc": "江晨正忙于公司运营工作，他需要修改和优化一份关键的操作手册，以确保信息的准确性和清晰度。这是一份非常重要的文档，涉及到多个部门的流程和标准操作程序。他希望AI助手能够帮助他快速、准确地完成这一任务。",
+      "expected_response": "\n江晨是一个注重生活艺术感、喜欢安静有序环境的运营经理，AI应该首先询问江晨具体需要修改哪些部分或者哪一章，并且是否有具体的修改方向或者参考资料。接着，AI应该能够根据江晨的指导提供逻辑性强且详细的修改建议，尤其是能结合最新的操作标准和理论背景。AI还应该检查文档中的格式和语法错误，确保文档的专业性和易读性。由于江晨注重细节和完美，AI应该特别注意每一处细节的准确性，并在修改后提供一个修改后的版本供江晨审阅，询问是否需要进一步的调整或优化。最后，AI可以生成一份变更记录，帮助江晨跟踪和记录所有的修改内容。\n",
+      "scene_context": "江晨需要修改和优化的操作手册为《公司IT系统维护手册》。具体需要修改的章节为“系统备份与恢复”这一章。江晨希望AI能提供最新的操作标准和理论背景的修改建议，并检查格式和语法错误。同时，他提供了一个参考资料链接：https://example.com/latest-backup-recovery-standards，供AI使用。\n手册中部分需要修改的段落示例如下：\n```markdown\n## 系统备份与恢复\n\n### 备份策略\n目前公司实行的备份策略如下：\n1. 每日备份：每日凌晨1点进行全系统备份。\n2. 每周备份：每周日凌晨2点进行数据差异备份。\n3. 每月备份：每月1号凌晨3点进行完整系统备份。\n\n### 备份恢复过程\n1. 确认备份文件存储在备份服务器上。\n2. 使用恢复工具将备份文件还原到目标服务器。\n3. 验证数据完整性和一致性。\n\n```",
+      "personalized_query": "我需要修改和优化公司的《公司IT系统维护手册》中“系统备份与恢复”这一章。现在需要你帮忙提供最新的操作标准和理论背景的修改建议，并检查格式和语法错误。这是参考资料链接：https://example.com/latest-backup-recovery-standards。我们先从“备份策略”部分开始。",
+      "neutralized_query": "<neutralized_query>\n我需要修改和优化文档中“系统备份与恢复”这一章。请提供最新的操作标准和理论背景的修改建议，并检查格式和语法错误。参考资料：https://example.com/latest-backup-recovery-standards。我们先从“备份策略”部分开始。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：江晨需要撰写专业的电子邮件，与团队沟通或与客户洽谈业务，并处理常见的工作通信。",
+      "available_apis": {
+        "generateEmailContent": {
+          "arguments": [
+            "purpose",
+            "details"
+          ],
+          "description": "Generates the content of a professional email based on the specified purpose and details provided by Jiang Chen."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends the generated email to the specified recipients with the given subject and body."
+        }
+      },
+      "scene_desc": "江晨需要撰写一封专业的电子邮件，通知团队成员关于即将到来的项目进展会议。他希望邮件内容简洁明了，包含会议的主要议题、时间和地点，并附上相关的会议材料链接。",
+      "expected_response": "\n根据江晨的persona描述，AI应该首先确认邮件的目的和细节，例如会议的主要议题和时间。接着，AI应该询问江晨是否有特定的格式偏好或模板，以确保邮件内容符合他的需求。根据江晨对高质量和逻辑性的偏好，AI应该生成一封结构清晰、内容详尽的邮件草稿，确保每个细节都准确无误。随后，AI还能提供预览选项，让江晨先检查一遍，再确认是否需要编辑或直接发送。AI还可以提醒江晨，如果需要修改或添加附件，应在发送前完成。最后，AI将邮件发送至指定的团队成员，并生成一个发送确认通知给江晨。",
+      "scene_context": "江晨需要撰写的电子邮件具体内容如下：\n1. 会议主要议题：项目进展讨论、任务分配、风险评估。\n2. 会议时间：2023年11月15日下午3点。\n3. 会议地点：公司会议室A。\n4. 附件：项目计划书链接、风险评估报告链接。\n\n目标收件人：团队成员（具体名单如下：张伟、李娜、王强、赵丽）\n江晨希望邮件格式清晰，段落分明，确保所有重要信息一目了然。",
+      "personalized_query": "嗨，帮我写一封邮件，通知团队成员关于即将到来的项目进展会议。邮件内容要简洁明了，包含会议主要议题、时间和地点。先给我一个大致的邮件结构吧。",
+      "neutralized_query": "<neutralized_query>\n帮忙写一封通知团队成员关于即将到来的项目进展会议的邮件。邮件内容要简洁明了，包含会议主要议题、时间和地点，并提供一个大致的邮件结构。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：江晨需要规划出差行程，旅行、访问客户或参加展会等，以确保工作顺利进行。",
+      "available_apis": {
+        "checkTransportationOptions": {
+          "arguments": [
+            "origin",
+            "destination",
+            "departure_time",
+            "return_time"
+          ],
+          "description": "Checks the best transportation options (e.g., flights, trains) between the origin and destination for the given departure and return times."
+        },
+        "hotelSearch": {
+          "arguments": [
+            "location",
+            "check_in_date",
+            "check_out_date"
+          ],
+          "description": "Searches for available hotels in the given location for the specified check-in and check-out dates."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "dates",
+            "locations"
+          ],
+          "description": "Checks the availability of meetings, events, or visits in the specified dates and locations."
+        }
+      },
+      "scene_desc": "江晨需要规划一次去上海的出差行程，包括访问客户和参加一个物流展会。由于行程紧凑，他需要在较短时间内完成这些任务，并且希望行程尽可能简明扼要。江晨对细节有较高要求，喜欢提前规划好所有事项，包括交通工具、酒店预订、会议安排等。他希望能够获得详细的行程建议，并确保所有安排都合理且高效。",
+      "expected_response": "\nAI应该首先询问江晨出发和返回的具体时间，以便规划最适合的交通工具（如航班或高铁）。接着，AI根据江晨的偏好和行程需求，搜索合适的交通选项，并提供一份详细的列表，包括出发时间、到达时间、价格和舒适度等信息。\n\n随后，AI应该询问江晨希望入住的酒店标准，并根据江晨的喜好（如安静有序的环境、高质量服务）推荐几家适合的酒店，并提供预订选项。AI还应检查江晨的日程安排，确保不会与其他重要任务冲突。\n\n在行程规划中，AI应特别关注江晨的客户访问和展会参加安排，确保时间上不会有重叠，并提供详细的日程表，包含所有必要的信息。AI还应提醒江晨带上必要的文件和资料，并确保他能够顺利完成所有计划中的任务。\n\n最后，AI应该提供一份总结行程的电子文档，包含所有安排的详细信息，并询问是否需要任何进一步的调整或帮助。",
+      "scene_context": "江晨的出发时间为：2023年10月15日早晨，返回时间为：2023年10月17日下午。他需要在10月15日下午到达上海后，先访问客户A公司（地点：上海市浦东新区某写字楼），并在10月16日上午参加一个名为\"2023国际物流展\"的展会（地点：上海新国际博览中心）。江晨希望入住一家安静且服务质量高的四星级酒店，最好靠近展会举办地。江晨还需要确保他带上所有的项目资料和展会入场券。",
+      "personalized_query": "我需要规划一次去上海的出差行程。出发时间是10月15日早晨，返回时间是10月17日下午。具体任务包括访问客户和参加一个物流展会。请帮我制定详细的行程安排。",
+      "neutralized_query": "<neutralized_query>\n我需要规划一次去上海的出差行程，包括出发和返回时间，以及访问客户和参加展会的详细行程安排。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：江晨需要帮助制定预算，跟踪支出，并提供节省建议，以确保公司运营预算的有效管理。",
+      "available_apis": {
+        "getBudgetData": {
+          "arguments": [
+            "budgetId"
+          ],
+          "description": "Fetches the current budget and expense data for the given budget ID."
+        },
+        "updateExpense": {
+          "arguments": [
+            "budgetId",
+            "expenseCategory",
+            "amount",
+            "date"
+          ],
+          "description": "Updates the expense data for the given budget ID, specifying the expense category, amount, and date."
+        },
+        "analyzeExpenses": {
+          "arguments": [
+            "budgetId"
+          ],
+          "description": "Analyzes expense data for the given budget ID and provides saving suggestions."
+        }
+      },
+      "scene_desc": "江晨正在为公司的新项目制定运营预算，他需要确保所有支出和收入项目被准确记录，并希望能够从预算中找到一些潜在的节省机会。江晨打开AI助手，准备向AI寻求帮助，因为他相信AI能够提供精准的数据分析和节省建议，进而提高预算管理的效率。",
+      "expected_response": "\n根据江晨的persona描述，他是一个注重细节且理智思考的人，AI应该能够为他提供详尽且逻辑清晰的指导。首先，AI应该询问江晨提供当前预算的详细信息或预算ID，以便获取相关数据。接着，AI应该根据获取到的预算数据，进行详细的支出分析，并提供分类支出的具体数据。\n\nAI还应该能够识别出支出中的关键项目，并针对每个项目提供具体的节省建议，例如优化供应商选择、减少不必要的开支等。AI应该以图文结合的方式展示这些分析结果和建议，确保江晨能够直观地理解信息。此外，AI应该能够生成一个包含所有详细信息和建议的报告，供江晨参考和归档。\n\n最后，AI应该询问江晨是否需要更新预算数据，并提供相应的接口来允许他直接添加、修改或删除预算项目，确保预算管理的实时性和准确性。AI还可以提供相关的案例分析，帮助江晨更好地理解如何在实践中应用这些节省建议。\n",
+      "scene_context": "江晨需要制定并管理的预算涉及以下项目：\n1. 项目A：市场推广\n   - 预算金额：¥150,000\n   - 主要支出项：广告费、市场调研费、活动费用\n2. 项目B：研发投入\n   - 预算金额：¥300,000\n   - 主要支出项：研发设备采购、研发人员工资、研发材料费用\n3. 项目C：运营费用\n   - 预算金额：¥200,000\n   - 主要支出项：办公租金、水电费、员工福利\n\n江晨希望AI助手能够分析这些项目中各自的支出结构，识别出潜在的节省机会，并提供优化建议。",
+      "personalized_query": "嗨，助手，我正在为公司的新项目制定运营预算。现在我有几个项目的预算需要分析，希望你能帮我找到一些潜在的节省机会。\n\n首先，我们来看市场推广项目，预算是¥150,000。这个项目的主要支出项包括广告费、市场调研费和活动费用。你能帮我分析一下这部分的支出结构，并看看有没有什么优化空间吗？",
+      "neutralized_query": "<neutralized_query>\n我正在为公司的新项目制定运营预算，希望你能帮我找到一些潜在的节省机会。请帮我分析市场推广项目的预算支出结构（包括广告费、市场调研费和活动费用），并看看有没有优化空间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：江晨可能会关心职业发展，寻求职业建议和机会，以提升自己的职业生涯。",
+      "available_apis": {
+        "getUserProfile": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetch the user's background, interests, and career goals."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "江晨最近对职业发展有了一些新的思考，想要寻求一些职业建议和机会，以提升自己的职业生涯。他打开了终端上的AI助手，希望能获取一些定制化的职业建议。江晨希望了解自己在当前行业中的发展潜力，以及可能适合转型的相关领域。他还希望得到一些实际的职业建议，例如哪些技能需要提升、是否有合适的培训资源或者新职位的机会。",
+      "expected_response": "根据江晨的人设，AI应该首先询问一些背景信息，如江晨的具体职业目标和兴趣领域，以便提供更有针对性的建议。接着，AI可以通过调用getUserProfile API获取江晨的职业背景、兴趣和职业目标，然后利用webSearch API搜索相关的职业建议。由于江晨倾向于深入理解信息并探索新概念，AI应该提供详细且富有逻辑的指导，尤其是带有理论背景的说明。\n\nAI可以进一步建议江晨一些提升现有技能的培训资源，并提供一些案例分析和实战示范。对于可能的职业转型，AI应该介绍相关领域的最新发展趋势和机会，以帮助江晨做出更明智的决策。最终，AI可以推荐一些高质量的书籍或课程来帮助江晨进一步提升自己的职业技能，并提示是否需要进一步的个性化咨询服务来提供更详细的职业规划。",
+      "scene_context": "江晨当前的职业是软件工程师，主要从事后端开发。他感兴趣的转型领域包括人工智能和数据科学。他目前正在考虑是继续深耕软件开发，还是转向人工智能领域。他在后端开发方面已有5年的工作经验，熟悉Java和Python。他希望了解哪些技能对转型到人工智能或数据科学领域最有帮助，以及是否有推荐的培训资源和课程。他还想知道在这些新领域中，当前有哪些热门的发展趋势和职业机会。",
+      "personalized_query": "最近有些职业上的困惑，我考虑要不要在现有的物流行业继续深入，或者转向其他领域。AI助手，能帮我分析一下当前物流行业的发展潜力吗？此外，如果我决定转型，有没有哪些领域适合我这样的背景和兴趣？",
+      "neutralized_query": "<neutralized_query>\n我对职业发展的选择有些困惑，能帮我分析一下当前物流行业的发展潜力吗？此外，如果我决定转型，有没有哪些领域可能是合适的选择？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：江晨可能会参与招聘面试，帮助准备面试问题，进行模拟面试练习，以确保招聘工作顺利。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "generateInterviewQuestions": {
+          "arguments": [
+            "job_description",
+            "requirements"
+          ],
+          "description": "Generate interview questions based on the job description and specific requirements."
+        },
+        "conductMockInterview": {
+          "arguments": [
+            "questions",
+            "answers"
+          ],
+          "description": "Conduct a mock interview session, record the given answers, and provide feedback."
+        }
+      },
+      "scene_desc": "江晨，需要为即将到来的招聘面试准备一些面试问题，并进行模拟面试练习。江晨作为运营经理，希望确保招聘过程的顺利进行，他需要一个能够生成合适面试问题的AI助手，并希望能够进行模拟面试练习以评估候选人的反应和能力。",
+      "expected_response": "AI应该首先询问江晨所招聘职位的具体描述和要求。这是因为江晨倾向于深度理解信息，并且注重细节的完美，因此需要充分的信息来生成高质量的面试问题。接着，AI会使用生成面试问题的API，基于职位描述和要求生成一系列详细且富有逻辑的面试问题。生成的问题应该涵盖理论和实践两方面，以满足江晨对理论与实践相结合的偏好。\n\n在生成面试问题后，AI应该提供一个选项，让江晨可以选择进行模拟面试练习。AI将使用候选人的假设回答进行模拟面试，并记录这些回答。随后，AI会对这些回答进行分析，并提供反馈，以帮助江晨评估候选人的能力和反应。\n\n最后，AI还应该提供一个选项，允许江晨保存这些生成的问题和模拟面试的记录，以供未来参考。这一部分可以通过文档编辑API来实现，以确保信息准确和清晰，符合江晨在文档管理方面的需求。",
+      "scene_context": "江晨即将面试的职位是“数据分析师”。职位具体要求包括：\n1. 精通数据分析工具如Excel、SQL、Python等。\n2. 熟悉数据可视化工具如Tableau或Power BI。\n3. 具有良好的统计分析和数据建模能力。\n4. 对市场趋势和商业洞察有深刻理解。\n5. 具备良好的沟通能力，能够将复杂的数据分析结果转化为易于理解的报告和建议。\n\n江晨希望生成的问题涵盖以下几个方面：\n1. 数据处理和清洗的技术问题。\n2. 数据分析与建模的具体方法和案例。\n3. 数据可视化工具的使用经验。\n4. 市场趋势分析和商业洞察的实际应用。\n5. 团队协作和沟通能力。\n\n此外，江晨希望模拟面试练习包含以下几个步骤：\n1. 候选人自我介绍。\n2. 针对每个问题，候选人的假设回答。\n3. 分析和反馈候选人回答的优缺点。\n4. 总结并建议改进的地方。",
+      "personalized_query": "好的，我现在需要为即将到来的数据分析师面试准备一些面试问题，并进行模拟面试练习。请先帮我生成一些涵盖以下几个方面的问题：\n\n1. 数据处理和清洗的技术问题\n2. 数据分析与建模的具体方法和案例\n3. 数据可视化工具的使用经验\n4. 市场趋势分析和商业洞察的实际应用\n5. 团队协作和沟通能力\n\n你可以先生成每个方面各一到两个问题？",
+      "neutralized_query": "<neutralized_query>\n请帮我生成一些数据分析师面试问题，涵盖数据处理和清洗、数据分析与建模、数据可视化工具、市场趋势分析及商业洞察、团队协作和沟通能力等方面。每个方面各一到两个问题。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：江晨可能会在职场中需要优化简历内容，以便申请更高职位或不同公司的工作机会。",
+      "available_apis": {
+        "extractResumeContent": {
+          "arguments": [
+            "resume_document"
+          ],
+          "description": "Extracts key information from Jiang Chen's current resume document including his skills, experiences, and educational background."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "generateResumeSuggestions": {
+          "arguments": [
+            "resume_content",
+            "target_skills",
+            "target_experience"
+          ],
+          "description": "Generates specific suggestions for improving the resume based on extracted resume content and target job requirements."
+        },
+        "provideResourceLinks": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Provides useful resources such as resume templates, optimization articles, and industry standards."
+        }
+      },
+      "scene_desc": "江晨正在考虑申请一个更高职位或不同公司的工作机会，因此他希望优化自己的简历，使其更有竞争力。他对新事物持开放态度，喜欢安静有序的环境，并且在细节上追求完美。因此，他希望通过使用AI助手来获取具体且有逻辑性的优化建议，从而提升简历的质量。",
+      "expected_response": "根据江晨的persona描述，AI应该首先询问他是否已经有一份现成的简历文件可以上传，以便提取现有的简历内容。接着，AI应该分析简历的现有内容，提取他的技能、经验和教育背景。AI还应该基于江晨的目标职位或公司要求，生成具体的优化建议，包括增加哪些细节、如何突出他的管理经验以及哪些部分可以改进。为了满足江晨对高质量和品牌的偏好，AI可以推荐一些优质的简历模板，并提供下载链接。AI还可以提供一些有价值的资源链接，例如关于简历优化的文章或行业标准，帮助江晨更好地理解简历优化的理论背景和实际应用。最后，AI应该询问江晨是否需要将修改后的简历发送到特定的邮箱或保存到他的设备中。",
+      "scene_context": "江晨目前有一份简历文件内容如下：\n```plaintext\n江晨\nEmail: jiangchen@example.com | Phone: 123-456-7890\nLinkedIn: linkedin.com/in/jiangchen | GitHub: github.com/jiangchen\n\n职业目标\n寻求在软件工程领域的高级职位，专注于开发高性能应用和系统架构设计。\n\n技能\n- 编程语言: Python, Java, C++\n- 框架和库: Django, Spring, React\n- 数据库: MySQL, PostgreSQL\n- 工具: Git, Docker, Jenkins\n\n工作经历\n软件工程师 | ABC科技公司 | 2018 - 现在\n- 负责设计和实现公司核心系统模块，提升系统性能30%\n- 领导5人团队完成多个项目，按时交付高质量软件\n- 提供系统维护和技术支持，解决客户反馈问题\n\n初级软件工程师 | XYZ公司 | 2015 - 2018\n- 参与多个软件开发项目，积累了丰富的开发经验\n- 维护和优化现有代码库，提升代码可读性和性能\n- 协助高级工程师完成系统设计和架构工作\n\n教育背景\n计算机科学学士 | 清华大学 | 2011 - 2015\n\n证书\n- AWS认证解决方案架构师\n- PMP项目管理认证\n```\n江晨目标申请公司为：腾讯，目标职位为高级软件工程师。",
+      "personalized_query": "我现在需要优化我的简历，目标是申请腾讯的高级软件工程师职位。你能帮我看看有哪些地方可以改进吗？",
+      "neutralized_query": "<neutralized_query>\n我需要优化我的简历，目标是申请高级软件工程师职位。你能帮我看看有哪些地方可以改进吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：江晨偏好高质量的艺术用品和书籍，所以需要根据用户需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for high-quality art supplies and books based on user preferences and return purchase links."
+        }
+      },
+      "scene_desc": "江晨最近在一个艺术展览上看到了许多精彩的作品，深受启发，决定提升自己的艺术创作能力。他希望购买一些高质量的艺术用品和几本艺术相关的书籍，以便更好地实现自己的创作想法。江晨平时喜欢在工作之余安静地进行艺术创作，并对使用高质量的材料有着较高的要求。他希望AI助手能帮助他找到适合的艺术用品和书籍，并提供购买链接。",
+      "expected_response": "\n根据江晨的persona描述，他是一个对艺术有极大兴趣且追求完美的人。AI助手应该首先询问江晨具体需要哪些类型的艺术用品（如画笔、画纸、颜料等）和书籍（如绘画技巧指南、艺术史书籍等）。接着，AI应该利用网络搜索功能，通过查询高质量的品牌和材料，找到符合江晨要求的产品。AI助手应该优先推荐那些具有良好口碑和高品质的艺术用品和书籍，并提供详细的产品描述和购买链接。最后，AI助手还可以根据江晨的使用偏好和购买习惯，建议一些与他兴趣相关的热门商品或书籍，确保推荐的商品能够满足他的需求和期望。",
+      "scene_context": "江晨需要查询的艺术用品包括：高质量的画笔（如Winsor & Newton系列），专业级画纸（如Arches水彩纸），以及优质的颜料（如Holbein水彩颜料）。他还希望找到一些艺术相关的书籍，如《艺术的故事》作者：E. H. Gombrich、《艺术的语言》作者：Nelson Goodman以及《绘画技巧指南》作者：Betty Edwards。",
+      "personalized_query": "最近在艺术展上看到许多精彩的作品，想提升一下自己的艺术创作能力。请帮我找一些高质量的艺术用品和几本艺术相关的书籍。",
+      "neutralized_query": "<neutralized_query>\n请帮我找一些高质量的艺术用品和几本艺术相关的书籍。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "Demographics": {
+    "Age": 17,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "湖北某高中生",
+    "Name": "刘娜"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热衷于篮球和计算机编程",
+      "梦想成为游戏开发者",
+      "喜欢挑战自我",
+      "对新技术和趋势保持敏感",
+      "重视朋友和团队合作"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢通过交互式和趣味性的方式获取信息，并且喜欢即时应用新学到的内容",
+    "Usage_Pattern": "经常搜索最新的编程技术和游戏开发教程，同时也关注篮球比赛和技术分析",
+    "Emotion_Pattern": "对新技术和编程挑战感到兴奋，对复杂的编程问题感到挫折但不会轻易放弃",
+    "Purchase_Pattern": "喜欢购买高性能的计算机和编程相关书籍，也喜欢购买篮球相关的设备和服饰"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢视觉化、富有创意和互动性的内容，尤其是带有具体操作步骤的视频教程",
+    "Preferred_Formats": "偏好图文结合的视频和在线课程，喜欢有实际操作环节的学习材料",
+    "Preferred_Workflows": "喜欢从具象的例子入手，再逐渐深入理解复杂的概念，喜欢独立完成任务但不介意团队合作"
+  },
+  "scenes": [
+    {
+      "scene_type": "代码调试：_刘娜在学习和实践编程时，可能会遇到代码错误或问题，需要通过多轮对话来调试代码，定位错误并找到解决方案。",
+      "available_apis": null,
+      "scene_desc": "刘娜正在学习编程，遇到了一个代码错误无法解决。她决定向AI助手寻求帮助来调试代码。她希望AI助手能通过多轮对话分析代码问题，并提供有效的解决方案。",
+      "expected_response": "\n根据刘娜的persona描述，AI应该能够理解她对编程的热情以及她面对技术挑战时的心理状态。AI应该首先询问具体的代码片段以及错误信息，以便进行初步分析。接着，AI可以通过询问刘娜的代码环境和使用的库，进一步缩小问题的范围。AI应该提供一些调试建议，如检查变量值、打印日志等，并询问刘娜是否能执行这些操作并反馈结果。AI还应该能够检索相关的编程文档或社区讨论，提供可能的解决方案链接。如果问题复杂，AI可以建议刘娜尝试一些替代方案或提供额外的资源帮助她更好地理解问题。为了保持互动性，AI应在每一步都确认刘娜的理解和进展，确保她在解决问题的过程中不感到孤立和沮丧。",
+      "scene_context": "刘娜正在学习Python编程语言，具体代码问题如下：\n\n```python\ndef divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        print(\"Error: Division by zero is not allowed.\")\n    except TypeError:\n        print(\"Error: Invalid input type. Both arguments must be numbers.\")\n\nresult = divide(10, 0)\nprint(result)\n```\n\n错误信息：\n```\nError: Division by zero is not allowed.\nNone\n```\n\n刘娜不明白为什么`print(result)`输出的是`None`，并希望AI助手帮她解决这个问题。",
+      "personalized_query": "嘿，AI助理，我在写一个Python程序时遇到了问题。问题代码如下：\n\n```python\ndef divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        print(\"Error: Division by zero is not allowed.\")\n    except TypeError:\n        print(\"Error: Invalid input type. Both arguments must be numbers.\")\n\nresult = divide(10, 0)\nprint(result)\n```\n\n运行后出现了这个输出：\n\n```\nError: Division by zero is not allowed.\nNone\n```\n\n我不明白为什么`print(result)`输出的是`None`，帮我看看这个问题吧。",
+      "neutralized_query": "<neutralized_query>\n我在写一个Python程序时遇到了问题。问题代码如下：\n\n```python\ndef divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        print(\"Error: Division by zero is not allowed.\")\n    except TypeError:\n        print(\"Error: Invalid input type. Both arguments must be numbers.\")\n\nresult = divide(10, 0)\nprint(result)\n```\n\n运行后出现了这个输出：\n\n```\nError: Division by zero is not allowed.\nNone\n```\n\n我不明白为什么`print(result)`输出的是`None`，能帮我看看这个问题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：_刘娜作为高中生，需要进行考试复习，生成复习计划，提供考点总结和练习题，以便更好地准备各类考试。",
+      "available_apis": null,
+      "scene_desc": "刘娜正在为即将到来的高中考试做准备。考虑到她对挑战自我和即时应用新知识的热衷，她希望通过AI生成一个高效的复习计划，包括考点总结和练习题，以便更好地巩固知识。她希望复习计划能包含针对性的学习材料和具体操作步骤的视频教程，以提高复习的效果。",
+      "expected_response": "\n根据刘娜的persona，AI应该首先询问考试的具体科目和时间，以确保复习计划的针对性和时间安排的合理性。接着，AI应该根据她的学习偏好，推荐一些图文结合的视频教程和在线课程，并按照具体操作步骤来编排复习内容。此外，AI还应为每个科目生成详细的考点总结，并提供一些具有操作环节的练习题，确保她能即时应用新学到的内容。最后，AI应该设置定时提醒，帮助刘娜按计划进行复习，并提供一些互动性强的复习工具以保持她的学习兴趣。",
+      "scene_context": "刘娜正在准备以下三门考试：数学、英语和物理。她的考试时间分别是：数学考试在下周一，英语考试在下周三，物理考试在下周五。她希望复习计划能够按天安排复习内容，包含以下具体内容：\n1. 数学：复习主要考点，包括函数、概率与统计、几何。生成一些典型的高考真题和模拟题。\n2. 英语：重点复习语法、作文和阅读理解。提供一些经典的阅读材料和作文题目，并附上范文。\n3. 物理：复习力学、电学和热学的核心概念。生成一些实验视频教程和常见的实验题目。\n此外，她希望每门科目都能包含一些互动练习和即时反馈的测试题，以检验她的复习效果。",
+      "personalized_query": "嗨，接下来几天我的考试安排挺紧凑的，想要制定一个高效的复习计划，能帮个忙吗？",
+      "neutralized_query": "<neutralized_query>\n我需要制定一个高效的复习计划来准备即将到来的考试，能帮个忙吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：_刘娜对新技术和趋势保持敏感，喜欢通过对话获取扩展阅读材料或深度分析某个话题，进一步拓展自己的知识。",
+      "available_apis": null,
+      "scene_desc": "刘娜在一次编程课后听说了一项新兴的编程技术Kotlin Multiplatform。她对这项技术产生了浓厚的兴趣并希望深入了解其在实际编程中的应用以及未来的趋势。因此，她打开AI助手，想要获取更多关于Kotlin Multiplatform的资料和深度分析，以便更好地学习和应用这项新技术。",
+      "expected_response": "\n根据刘娜的persona描述，她对新技术和趋势非常敏感，并且喜欢通过对话获取扩展阅读材料或深度分析。AI应该首先确认她具体希望了解的内容，例如基础知识、实际应用案例、未来发展趋势等。接着，AI可以通过联网搜索功能提供一些权威的技术文章、视频教程或在线课程链接。这些资源应富有创意和互动性，并包含具体的操作步骤和实际案例分析，以帮助刘娜更好地理解和应用这项新技术。AI还可以根据刘娜的学习偏好，推荐一些图文结合的视频课程或有实际操作环节的学习材料。最后，AI应该询问刘娜是否需要进一步的帮助，比如定期获取这项技术的最新动态或参与相关的社区讨论。",
+      "scene_context": "刘娜希望了解的具体内容包括：\n1. Kotlin Multiplatform的基础知识\n2. Kotlin Multiplatform在实际编程中的应用案例\n3. Kotlin Multiplatform的未来发展趋势\n\n她希望AI助手能够提供以下类型的资源：\n- 权威的技术文章\n- 视频教程\n- 在线课程链接\n- 实际操作步骤和案例分析\n\n此外，她对图文结合的视频课程和有实际操作环节的学习材料有偏好。",
+      "personalized_query": "嘿，AI助手，我刚听说了一个叫Kotlin Multiplatform的新兴编程技术，对这个挺感兴趣的。你能帮我找点关于它的基础知识和应用案例的资料吗？最好有视频教程和在线课程的链接。",
+      "neutralized_query": "<neutralized_query>\n你能帮我找点关于Kotlin Multiplatform的基础知识和应用案例的资料吗？最好有视频教程和在线课程的链接。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：_刘娜经常关注最新的编程技术和游戏开发教程，需要根据他的偏好推荐新的编程课程、教程或书籍。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "刘娜刚刚完成了一次篮球训练，心情愉快。她决定花一些时间学习最新的编程技术和游戏开发教程。她打开了AI助理，想要个性化推荐一些新的编程课程、教程或书籍，以便提升自己的技能，特别是关于游戏开发方面的。她希望这些推荐能符合她的兴趣和学习风格，最好是图文结合的视频和在线课程，并且有实际操作环节。",
+      "expected_response": "\nAI应该首先确认刘娜的具体需求，如她目前对哪些编程技术或游戏开发方面的内容最感兴趣。接着，AI应该根据刘娜的人设，包括她喜欢视觉化、富有创意和互动性的内容，以及图文结合的视频和在线课程，推荐相应的资源。AI还应该检查这些资源是否包含实际操作环节。此外，AI可以利用联网搜索的功能查找最新的、高评价的编程和游戏开发教程，并确保这些推荐符合刘娜热衷于挑战自我和即时应用新学到内容的特点。如果刘娜对推荐的资源有任何疑问或需要进一步的解释，AI应该能够提供即时的帮助和详细的说明。",
+      "scene_context": "刘娜目前对以下编程技术和游戏开发内容最感兴趣：\n1. **Unity 3D** - 她已经掌握了基础知识，想要深入学习高级游戏开发技巧。\n2. **Python编程** - 特别是人工智能和机器学习在游戏中的应用。\n3. **Unreal Engine** - 她希望了解这款引擎的使用和相关的优化技巧。\n\n她希望获得以下类型的资源：\n1. **视频课程** - 包含实际操作环节，并且有图文结合的辅导材料。\n2. **在线教程** - 互动性强，能够即时应用新学到的内容。\n3. **书籍** - 详细讲解编程技术和游戏开发案例，附带练习和项目。\n\n她也特别喜欢挑战自我，希望推荐的资源能够提供难度适中的项目和实践机会。",
+      "personalized_query": "今天训练结束后，我觉得特别有精力去搞点编程的东西。最近对游戏开发的兴趣越来越浓，特别是使用Unity 3D和Unreal Engine。还想了解一下Python在人工智能和机器学习方面的应用。想找一些图文结合的教程，最好是视频课程，有实际操作环节那种。你能推荐一些符合我这个需求的资源吗？",
+      "neutralized_query": "<neutralized_query>\n能推荐一些关于游戏开发（特别是Unity 3D和Unreal Engine）和Python在人工智能与机器学习方面的图文结合的教程或视频课程吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：_刘娜热衷于篮球，可能需要在对话中跟踪自己的运动数据，如比赛成绩、锻炼时间等，并获得相关的反馈。",
+      "available_apis": {
+        "logExerciseData": {
+          "arguments": [
+            "exercise_type",
+            "duration",
+            "calories_burned",
+            "performance_metrics"
+          ],
+          "description": "Logs the exercise data for the user, including the type of exercise, duration, calories burned, and performance metrics."
+        },
+        "getExerciseFeedback": {
+          "arguments": [
+            "exercise_data"
+          ],
+          "description": "Provides feedback based on the logged exercise data, suggesting improvements or highlighting achievements."
+        }
+      },
+      "scene_desc": "刘娜刚刚结束了一场激烈的篮球比赛，现在她想记录和分析自己的比赛数据，包括比赛时间、得分、助攻、篮板等。她希望AI助手能够帮助她跟踪这些数据，并给出一些改进建议以便在未来的比赛中表现得更好。",
+      "expected_response": "\nAI应该首先询问具体的比赛数据，包括比赛时间、得分、助攻、篮板等详细信息。接着，AI应该使用logExerciseData API记录这些数据。随后，AI应该使用getExerciseFeedback API来分析刘娜的比赛数据，并根据数据给出相应的反馈和改进建议，帮助她提升篮球技能。例如，AI可能会指出她在助攻方面做得很好，但可以在篮板上做更多努力。AI还应该鼓励刘娜继续保持她的积极态度，并在日后的训练和比赛中继续挑战自我。\n",
+      "scene_context": "刘娜刚刚结束的篮球比赛数据如下：\n- 比赛时间：40分钟\n- 得分：15分\n- 助攻：7次\n- 篮板：10个\n\n她希望AI助手能够记录这些数据，并帮助她分析比赛表现，为她提供改进建议。",
+      "personalized_query": "刚刚打了一场很激烈的篮球比赛，我想记录一下比赛数据，也希望你能帮我分析一下表现。这里是我的一些数据：\n\n比赛时间：40分钟  \n得分：15分  \n助攻：7次  \n篮板：10个\n\n能帮我记录下来并给些改进建议吗？谢谢。",
+      "neutralized_query": "<neutralized_query>\n我刚刚打了一场篮球比赛，想记录一下比赛数据并得到一些表现分析和改进建议。\n\n比赛时间：40分钟  \n得分：15分  \n助攻：7次  \n篮板：10个\n\n能帮我记录下来并给些改进建议吗？谢谢。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：_刘娜梦想成为游戏开发者，需要根据他的职业兴趣和技能，提供职业发展建议和机会，例如推荐合适的大学课程或实习机会。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "recommendResources": {
+          "arguments": [
+            "interest",
+            "skills"
+          ],
+          "description": "Recommend career development resources such as articles, industry reports, and job opportunities based on the individual's interests and skills."
+        }
+      },
+      "scene_desc": "刘娜梦想成为游戏开发者。在某天的晚自习时间，她决定向AI助手寻求职业发展方面的建议。刘娜希望了解哪些大学课程和实习机会适合她当前的兴趣和技能。她热衷于编程，特别是游戏开发，并且对新技术和趋势保持着高度的敏感。同时，她也希望能够找到一些能够实际操作并提升自己技能的资源。\n\nAI需要综合刘娜的职业兴趣和技能，提供个性化的职业发展建议，推荐合适的大学课程和实习机会，甚至包括一些提升技能的在线课程或项目。",
+      "expected_response": "AI首先应该询问刘娜目前的技能水平和具体的职业目标，例如她对哪种编程语言和游戏开发平台更感兴趣。接着，AI可以使用联网搜索功能（webSearch）查找最符合她兴趣和技能的大学课程和实习机会。AI还可以推荐一些适合刘娜的在线课程和项目，帮助她提升技能。\n\n根据刘娜的偏好，AI应该提供一些视觉化和互动性的学习材料，特别是带有实际操作环节的视频教程。AI还应考虑到刘娜重视团队合作的特性，推荐一些团队项目或合作开发的机会。\n\n最后，AI可以整理这些建议并生成一个职业发展计划，包括推荐的课程、实习和项目，确保所有信息都具体且有条理。AI还可以提供一些职业发展的资源链接，进一步支持刘娜的学习和成长。",
+      "scene_context": "刘娜目前掌握的技能包括：Python、C++、Unity游戏引擎基础。她对游戏开发非常感兴趣，特别是独立游戏的开发。她希望在未来能成为一名游戏开发者，特别是游戏编程和设计方面。她正在寻找适合她的大学课程和实习机会，希望这些课程和机会能够帮助她提升现有技能并学习新的技术，特别是在游戏开发方面。同时，她也希望找到一些在线课程和项目来进一步提升她的技能。",
+      "personalized_query": "嗨，AI助手，我最近在思考未来的职业发展方向。我对游戏开发特别感兴趣，尤其是独立游戏开发。而且，我已经掌握了一些编程技能，比如Python、C++和Unity游戏引擎的基础。我想了解一下有哪些大学课程和实习机会适合我目前的技能和兴趣，能不能给我一些建议？",
+      "neutralized_query": "<neutralized_query>\n我需要你在游戏开发方向的职业规划上给我一些建议，特别是关于适合的大学课程和实习机会。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：_刘娜可能需要准备大学或实习的面试，通过对话进行模拟面试练习，提升面试技巧和自信心。",
+      "available_apis": {
+        "interviewQuestions": {
+          "arguments": [
+            "position",
+            "company"
+          ],
+          "description": "Fetch common interview questions for the specified position and company."
+        },
+        "analyzeAnswer": {
+          "arguments": [
+            "answer"
+          ],
+          "description": "Analyze the given answer and provide feedback including strengths and areas for improvement."
+        },
+        "resourceLinks": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Provide useful resources and articles related to the specified topic, such as interview techniques and confidence building."
+        }
+      },
+      "scene_desc": "刘娜即将参加大学或实习的面试，她希望通过与AI助理进行模拟面试练习，以提升自己的面试技巧和自信心。她可能会针对某些特定的职位和公司进行准备，期望AI提供相关的面试问题，并在回答后获得反馈，帮助她发现并改进自己的不足之处。此外，刘娜对新技术和编程充满热情，可能会寻求AI提供一些与面试相关的资源，如面试技巧、如何展示项目作品等。",
+      "expected_response": "\n根据刘娜的persona描述，AI应该首先询问她准备的职位和公司，以便提供相关的面试问题。AI还应该针对她的回答进行详细分析，指出优点和需要改进的地方，并给出具体的改进建议。考虑到刘娜喜欢通过交互式和趣味性的方式获取信息，AI可以推荐一些富有创意和互动性的面试技巧视频或在线课程。AI还应该关注她的情绪状态，提供一些缓解压力的建议，帮助她在面试过程中保持自信。最后，AI应该能够记录她的进步，并在后续的对话中继续提供个性化的建议和支持。",
+      "scene_context": "刘娜正在准备面试的职位是“软件开发实习生”，公司是“字节跳动”。她需要的主要面试问题包括：\n1. 自我介绍\n2. 谈谈你最成功的一个项目\n3. 你如何解决工作中的困难？\n4. 为什么选择字节跳动？\n5. 你对新技术的看法？\n\n此外，刘娜希望AI提供以下帮助：\n1. 有效的自我介绍技巧\n2. 如何展示项目作品\n3. 缓解面试压力的方法\n4. 面试常见问题的解答和反馈\n5. 推荐一些面试技巧视频和在线课程\n\n刘娜还希望AI能够在模拟面试过程中记录她的回答，并在后续的对话中继续提供个性化的建议和支持，帮助她提升面试技巧和自信心。",
+      "personalized_query": "嗨，小智！我最近正在准备字节跳动的软件开发实习生面试，想要通过和你模拟面试来提升我的面试技巧和自信心。你能帮我准备一些常见的面试问题，并在我回答之后给点反馈吗？\n\n首先，我们从自我介绍开始吧。我会说说我的背景和兴趣爱好，然后你给我一些建议，好吗？",
+      "neutralized_query": "<neutralized_query>\n我正在准备软件开发实习生面试，想要通过模拟面试来提升面试技巧和自信心。你能帮我准备一些常见的面试问题，并在我回答之后给点反馈吗？\n\n首先，我们从自我介绍开始吧。我会说说我的背景和兴趣爱好，然后你给我一些建议，好吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：_刘娜需要在对话中优化自己的简历内容，突出重要信息，以便申请大学或实习更具竞争力。",
+      "available_apis": {
+        "resumeAnalyzer": {
+          "arguments": [
+            "resume_text"
+          ],
+          "description": "Analyzes the provided resume text and identifies key areas for improvement, such as highlighting important information and optimizing content for university or internship applications."
+        },
+        "highlightKeyAchievements": {
+          "arguments": [
+            "resume_text"
+          ],
+          "description": "Extracts and emphasizes key achievements, skills, and experiences from the resume to make it more compelling for university or internship applications."
+        },
+        "suggestImprovements": {
+          "arguments": [
+            "resume_text"
+          ],
+          "description": "Provides specific suggestions and improvements to enhance the resume's content, structure, and overall impact."
+        }
+      },
+      "scene_desc": "刘娜是湖北某高中的一名17岁男生，热衷于篮球和计算机编程，梦想成为游戏开发者。现在他需要优化自己的简历，以便申请大学或实习时更具竞争力。刘娜希望简历能够突出他的编程技能、项目经验和团队合作能力，但他不确定如何更好地编排和表达这些内容。他正在与AI助理互动，希望AI能帮助他分析简历并提供改进建议。\n\n在这个场景中，刘娜会提供当前的简历内容，AI需要分析简历并识别出可以改进的地方，包括突出的技能、项目经验、个人成就和团队合作经历。AI还需要为刘娜提供具体的改进建议，以优化简历的整体结构和内容，使其在申请大学或实习时更具吸引力。",
+      "expected_response": "根据刘娜的persona描述，他是一个外向且热衷于计算机编程和团队合作的高中生。AI应该首先询问他是否已经有一个具体的简历文本，并要求上传该简历。接着，AI助理会通过分析简历内容，识别出关键领域，如编程技能、项目经验和团队合作经历，提供具体的改进建议。AI应该能够通过highlightKeyAchievements API突出他的主要成就和技能，通过suggestImprovements API提供具体的改进建议，包括如何更好地编写和排列简历内容。AI还可以通过resumeAnalyzer API来确保简历内容的整体优化。最后，AI应该能够生成一个优化后的简历草案，供刘娜审阅和修改。",
+      "scene_context": "刘娜目前的简历内容如下：\n\n```\n姓名：刘娜\n年龄：17岁\n性别：男\n所在地：湖北\n兴趣爱好：篮球、计算机编程\n梦想：成为游戏开发者\n\n编程技能：\n- 掌握C++、Python和JavaScript\n- 熟悉Unity和Unreal Engine\n\n项目经验：\n- 开发了一款休闲小游戏，使用Unity引擎，下载量达到500次\n- 与同学合作开发了一款教育类应用，使用Python，获得校级科技竞赛二等奖\n\n团队合作经历：\n- 担任校篮球队队长，带领球队获得市级比赛亚军\n- 在编程社团中担任项目经理，协调团队成员完成多个编程项目\n```\n\n刘娜希望AI助理帮助她优化以上简历内容，使其在申请大学或实习时更具竞争力。",
+      "personalized_query": "嘿，AI助手，我需要优化一下我的简历，你能帮我看看目前的内容然后给点改进建议吗？我主要想突出我的编程技能、项目经验和团队合作能力。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我优化一下我的简历，并给出改进建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：_刘娜喜欢挑战自我和即时应用新学到的内容，在编程或篮球训练时，可以根据情绪或场景推荐适合的音乐，帮助集中注意力或放松。",
+      "available_apis": {
+        "detectEmotionOrScene": {
+          "arguments": [
+            "input_data"
+          ],
+          "description": "Detects the user's current emotion or the scene (e.g., through text input, voice input, or sensor data) and returns the identified emotion or scene."
+        },
+        "recommendMusic": {
+          "arguments": [
+            "emotion_or_scene"
+          ],
+          "description": "Recommends music based on the identified emotion or scene. Returns a list of suggested music tracks."
+        }
+      },
+      "scene_desc": "刘娜正在编程，她正尝试解决一个棘手的代码问题，逐渐感到有些疲惫和焦虑。此时，她希望能有一些音乐来帮助她集中注意力，提高编程效率。她向AI助手询问推荐适合在这种情境下播放的音乐，以便更好地继续编写代码。",
+      "expected_response": "\nAI应该首先通过语音或文字检测到刘娜当前的情绪状态（如疲惫和焦虑），然后基于检测结果推荐一些能够帮助集中注意力和放松心情的音乐。考虑到刘娜喜欢通过即时应用新学到的内容来挑战自我，AI可能会推荐一些节奏感强、但不会过于分散注意力的背景音乐，如电子音乐或lo-fi hip hop。同时，AI可以询问刘娜是否有具体的音乐偏好或是否需要调整音量。由于刘娜喜欢互动性和富有创意的内容，AI还可以提供一个动态播放列表，并让她可以随时调整或更换音乐曲目。",
+      "scene_context": "刘娜当前正在编写一段涉及多线程处理的Python代码。她的代码如下：\n\n```python\nimport threading\n\ndef print_numbers():\n    for i in range(1, 6):\n        print(i)\n\ndef print_letters():\n    for letter in ['A', 'B', 'C', 'D', 'E']:\n        print(letter)\n\n# Creating threads\nthread1 = threading.Thread(target=print_numbers)\nthread2 = threading.Thread(target=print_letters)\n\n# Starting threads\nthread1.start()\nthread2.start()\n\n# Waiting for both threads to complete\nthread1.join()\nthread2.join()\n\nprint(\"Done!\")\n```\n\n她正经历的主要问题是，两个线程的输出会交错在一起，这让她很困惑。她希望AI助手能够推荐一些适合当前情境的音乐，帮助她集中注意力并放松心情，以便更专注地解决这个多线程编程问题。",
+      "personalized_query": "嘿，AI，我现在写Python多线程的代码有点头疼，整个人也有点疲了。我想听点音乐帮我集中注意力，你能推荐几首适合编程时听的BGM吗？",
+      "neutralized_query": "<neutralized_query>\n可以推荐几首适合编程时听的BGM吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：_刘娜喜欢购买高性能的计算机、编程相关书籍和篮球设备，需要根据他的需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "刘娜刚刚完成了一场激烈的篮球训练，正准备购买一些新的篮球装备和高性能计算机来提升她的训练和编程体验。她打开AI助手，希望能够得到一些关于最新篮球设备和高性能计算机的推荐。她还希望AI能提供相关产品的购买链接，方便她直接进行购买。",
+      "expected_response": "\n根据刘娜的persona描述，AI应该会首先确认并询问她具体需要的篮球设备类型（如球鞋、篮球、护具等）和计算机配置（如处理器、内存、显卡等）。AI会通过联网搜索找到最新的高性能篮球设备和计算机产品，并优先推荐那些在性能和用户评价上都表现优异的商品。接着，AI会提供这些产品的详细信息和购买链接，方便刘娜直接进行比较和购买。考虑到刘娜对编程和游戏开发的热情，AI还可能推荐一些适合编程的高性能计算机书籍或课程作为补充建议。最后，AI会询问刘娜是否需要进一步的产品信息或其他建议，以确保她的购物体验尽可能顺利和高效。",
+      "scene_context": "刘娜需要购买的具体篮球设备包括：一双适合室内篮球场使用的篮球鞋、一只官方规格的篮球和一副护膝。她对计算机的需求包括：一台配备Intel i7或更高型号处理器、至少16GB内存和NVIDIA GTX 1660或更高型号显卡的高性能计算机。此外，她还对编程相关的书籍感兴趣，尤其是关于Python编程和机器学习的。",
+      "personalized_query": "刚刚打完篮球，浑身是汗，今天训练真是不轻松啊。话说回来，我现在需要买些新的篮球装备，另外也需要一台高性能的计算机。我先说说篮球装备吧。\n\n嘿，助手，我需要你帮我推荐一下适合室内篮球场使用的篮球鞋、一只官方规格的篮球和一副护膝。最好能附带购买链接，这样我可以直接下单。能帮我找找吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我推荐一些适合室内篮球场使用的篮球鞋、一只官方规格的篮球和一副护膝，并附带购买链接。\n</neutralized_query>"
+    }
+  ]
+}

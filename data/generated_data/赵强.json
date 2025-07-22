@@ -1,0 +1,221 @@
+{
+  "Demographics": {
+    "Age": 17,
+    "Gender": "男",
+    "Nationality": "中国 (辽宁)",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "高中生",
+    "Name": "赵强"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢挑战新事物和冒险",
+      "擅长篮球和电竞",
+      "享受与朋友一起活动",
+      "喜欢户外运动如滑雪和登山"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常询问关于新的游戏信息和篮球技巧的建议，经常有各种游戏和运动相关的记录",
+    "Usage_Pattern": "喜欢频繁使用AI助手，通常用于查询比赛数据、游戏策略和最新的科技产品",
+    "Emotion_Pattern": "在与他人竞争或挑战时表现出激动和热情，有时也会对失败感到沮丧但迅速恢复",
+    "Purchase_Pattern": "倾向购买与兴趣爱好相关的设备和配件，偏爱质量好且具有实用性的产品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢直接、简洁的回答和明确的建议",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "倾向于快速获取信息，喜欢通过简明的步骤和提示来解决问题"
+  },
+  "scenes": [
+    {
+      "scene_type": "运动追踪：赵强热爱篮球和户外运动，如滑雪和登山，使用AI助手跟踪他的运动数据，如步数、跑步距离和运动时间，并提供反馈。",
+      "available_apis": null,
+      "scene_desc": "赵强在完成了一次篮球训练后，想要使用AI助手来追踪他的运动数据。他希望AI能够记录他的步数、跑步距离和运动时间，并且在训练结束后，提供一些关于他表现的反馈和改进建议。由于赵强还喜欢挑战新事物和冒险，他也想知道是否有任何能够提升他运动表现的新技巧或训练方法。",
+      "expected_response": "\nAI应该首先确认赵强所进行的运动类型（篮球训练），然后记录并显示他的步数、跑步距离和运动时间。接着，AI应该根据这些数据提供一些初步的反馈，比如今天的训练强度、与之前的训练对比以及他在某些方面的进步和退步。考虑到赵强喜欢挑战和冒险，AI还可以推荐一些新的训练方法或技巧来帮助他提升篮球技巧或增强体能。例如，AI可以建议一些高强度的训练计划或新的篮球技巧视频。最后，AI应该提醒赵强保持均衡的训练和休息，以避免运动损伤。",
+      "scene_context": "赵强的篮球训练数据如下：\n- 步数：12000步\n- 跑步距离：5公里\n- 运动时间：1.5小时\n\n赵强希望AI助手能够：\n1. 记录并显示上述数据。\n2. 提供反馈，包括今天的训练强度、与之前训练的对比、进步和退步的领域。\n3. 推荐新的训练方法或技巧，例如高强度的训练计划或篮球技巧视频。\n4. 提醒他保持均衡的训练和休息，以避免运动损伤。",
+      "personalized_query": "刚训练完篮球，今天步数是12000步，跑步距离5公里，时间1.5小时。帮我记录一下这些数据，并给个反馈，看看今天的训练强度怎么样，还有哪些进步或退步的地方。",
+      "neutralized_query": "<neutralized_query>\n帮我记录一下今天的步数、跑步距离和运动时间，并提供反馈，看看训练强度如何，还有哪些进步或退步的地方。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：赵强擅长篮球和电竞，AI助手可以根据他的兴趣推荐新的游戏、电竞设备、篮球技巧视频和相关的科技产品。",
+      "available_apis": null,
+      "scene_desc": "赵强在放学后回到家，准备放松一下。他打开了AI助手，想要看看最近有什么新的游戏或者电竞设备可以尝试。他对篮球也很感兴趣，想看看有没有新的篮球技巧视频可以学习和相关的科技产品可以购买，同时希望这些推荐是基于他的个人兴趣和过往的互动记录。",
+      "expected_response": "\n根据赵强的人设描述，AI应该首先识别出他对游戏和电竞设备的兴趣，并提供最新的热门游戏推荐和高质量的电竞设备。接着，AI应该根据赵强的篮球爱好，推荐一些优秀的篮球技巧视频以及相关的科技产品，如智能篮球、运动手环等。AI还可以根据赵强的过往使用记录和购买习惯，推荐一些他可能喜欢的新款设备和配件。此外，AI应该提供简洁、直接的回答和明确的建议，以满足赵强快速获取信息的需求。总体来说，AI助手的回应应该展示出对于赵强个人兴趣和习惯的深刻理解，确保推荐内容与他的偏好高度相关。",
+      "scene_context": "赵强最近玩过的游戏包括《英雄联盟》、《守望先锋》和《绝地求生》。他最近关注的电竞设备有：Razer DeathAdder 鼠标、HyperX Cloud II 耳机和 Corsair K95 键盘。此外，赵强最近在学习的一些篮球技巧包括：如何提高投篮命中率、快速变向突破和防守技巧。他对智能篮球和运动手环也特别感兴趣。",
+      "personalized_query": "嘿，今天放学后有点累，想放松一下。能推荐一些最近比较火的游戏或者电竞设备吗？最近在考虑换个鼠标和耳机的。",
+      "neutralized_query": "<neutralized_query>\n能推荐一些最近比较火的游戏或者电竞设备吗？最近在考虑换个鼠标和耳机的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：赵强喜欢户外运动如滑雪和登山，AI助手可以为他提供目标地点的天气、装备建议和相关的旅行信息。",
+      "available_apis": null,
+      "scene_desc": "赵强计划去滑雪并询问AI助手关于目的地的旅行须知。他希望AI助手能提供目标滑雪地点的实时天气预报、适合的滑雪装备建议以及相关的旅行信息，例如滑雪场的开放时间、附近的住宿推荐等。",
+      "expected_response": "\n根据赵强的persona描述，他是一个喜欢户外运动如滑雪和登山的高中生，且偏爱直接、简洁的回答和明确的建议。AI助手应该首先提供目标滑雪地点的实时天气预报，帮助他了解当天和接下来几天的天气情况。接着，AI助手应给出具体的滑雪装备建议，包括滑雪服、滑雪板、护具等，并建议一些质量好且实用的品牌或商店。随后，AI助手应提供滑雪场的开放时间、票价信息和附近的住宿推荐，确保赵强能快速获取所有必要的信息。最后，AI助手可以询问赵强是否需要进一步的帮助，比如预订酒店或获取更多的娱乐活动建议，以确保他的旅行计划顺利进行。",
+      "scene_context": "赵强计划去的滑雪地点是北海道二世谷。具体信息需求包括：\n1. 北海道二世谷的实时天气预报及未来几天的天气情况。\n2. 适合滑雪的装备建议，包括滑雪服、滑雪板、护具等，并推荐一些质量好且实用的品牌或商店。\n3. 二世谷滑雪场的开放时间、票价信息。\n4. 附近的住宿推荐，包括具体的酒店名称和预订链接。",
+      "personalized_query": "嘿，准备去滑雪，有事儿请教你！我打算去北海道二世谷，能帮我查一下那边的实时天气预报吗？特别是未来几天的天气情况，我好做好准备。",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下北海道二世谷的实时天气预报吗？特别是未来几天的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "体育活动建议：赵强热爱篮球和其他运动，AI助手可以推荐本地的篮球场馆、运动赛事，或者组织与朋友一起活动的建议。",
+      "available_apis": {
+        "localSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for local basketball courts or sports events given a specific query and return the most relevant response."
+        },
+        "sendInvitation": {
+          "arguments": [
+            "recipients",
+            "event_details"
+          ],
+          "description": "Sends an invitation to the selected recipients to join a sports activity."
+        }
+      },
+      "scene_desc": "赵强今天下午没有特别的活动安排，准备和几个朋友一起打篮球。他向AI助手询问本地有哪些合适的篮球场馆，并希望能够组织朋友们一起参加。赵强希望AI助手能推荐附近的篮球场馆，并帮助他发出活动邀请。",
+      "expected_response": "\n根据赵强的人设和场景，AI助手首先应该迅速向他推荐几处本地的篮球场馆，并列出每个场馆的具体信息，如开放时间、设施情况和距离等。接着，AI助手应提问是否需要发送活动邀请给他的朋友，并询问具体的邀请对象和活动时间。如果赵强确认了这些信息，AI助手应通过访问通讯录或社交媒体发送邀请，并自动设定活动提醒。最后，AI助手可以提示赵强检查天气情况，确保活动顺利进行，同时推荐一些运动相关的建议或装备，以增强他的运动体验。",
+      "scene_context": "赵强需要查询的本地篮球场馆包括：1. 城东体育中心篮球场馆，2. 西湖公园篮球场，3. 南山体育馆篮球场。\n\n赵强的朋友包括：李华、王伟、陈明。活动时间是今天下午3点至5点。",
+      "personalized_query": "嗨，我今天下午想和朋友一起打篮球，能帮我查一下附近有哪些合适的篮球场馆吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我查一下附近有哪些合适的篮球场馆。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：赵强倾向于购买与兴趣爱好相关的设备和配件，AI助手可以推荐高品质且实用的篮球装备和电竞设备。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "productInfo": {
+          "arguments": [
+            "product_id"
+          ],
+          "description": "Gets detailed information and user reviews for the specified product."
+        }
+      },
+      "scene_desc": "赵强刚刚在学校完成了一场激烈的篮球比赛，他决定奖励自己购买一些新的篮球装备。他打开AI助手，询问关于最近的高品质篮球鞋及其他篮球装备的建议。考虑到赵强平时也喜欢打电竞游戏，他也顺便想了解一下近期有没有什么新的电竞设备值得购买。",
+      "expected_response": "\n根据赵强的persona描述，他喜欢直接、简洁的回答和明确的建议，AI助手应该能够迅速响应他的需求。AI首先会确认具体的需求，是关于篮球装备还是电竞设备，或者两者都需要推荐。之后，AI助手会使用webSearch来搜索最新的、评价较高的篮球装备，包括篮球鞋、护膝等，并提供详细的产品信息、用户评价和价格比较。同时，AI助手会推荐一些高质量的电竞设备，如耳机、键盘和鼠标，并给出设备的详细信息和购买链接。AI还可能询问赵强的预算范围，以便提供更精准的建议。最终，AI助手会简明扼要地总结推荐的产品清单，并提供直接购买的链接，帮助赵强快速决策。",
+      "scene_context": "赵强需要推荐的篮球装备包括：篮球鞋、护膝、篮球服。赵强需要推荐的电竞设备包括：电竞耳机、机械键盘、游戏鼠标。",
+      "personalized_query": "刚完成今天的篮球比赛，感到有些疲惫但还是很兴奋。突然想到该奖励自己一下，打算买点新的篮球装备和电竞设备。我打开了AI助手：\n\n“嘿，今天刚打完一场激烈的篮球赛，觉得自己表现不错，想奖励一下自己。你能帮我推荐几款高品质的篮球鞋和护膝吗？最好是今年的新款，还有哪些值得买的电竞设备也可以推荐一下。”",
+      "neutralized_query": "<neutralized_query>\n请推荐几款高品质的篮球鞋和护膝，以及一些值得购买的电竞设备。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：作为一名高中生，赵强需要为考试复习，AI助手可以帮助他制定复习计划，提供考点总结和练习题。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "subjects",
+            "exam_date"
+          ],
+          "description": "Generates a study plan based on the subjects and the exam date to help the student manage their study time effectively."
+        },
+        "provideStudyMaterials": {
+          "arguments": [
+            "subject",
+            "topics"
+          ],
+          "description": "Provides summaries of key points and practice questions for specified topics within a subject to aid in exam preparation."
+        }
+      },
+      "scene_desc": "赵强最近需要为即将到来的期中考试做准备，感到有些压力。他决定使用AI助手来制定一个高效的复习计划，并寻找一些相关的考点总结和练习题。他希望能够在短时间内高效地复习各科内容，并且特别需要一些重要考点的总结和针对性的练习题，以提高自己的考试成绩。赵强的考试日期已确定，他需要AI助手帮助规划他的学习时间，并提供相应的复习资源。",
+      "expected_response": "\nAI助手应该首先询问赵强即将参加的考试日期和具体的科目，以便制定一个合理的复习计划。接着，AI助手需要根据赵强的学习时间和考试日期，生成一个详细的复习计划，明确每天需要复习的内容和时间分配。AI助手还应该根据赵强的各科成绩和学习情况，推荐一些高效的复习方法，提供各科重要考点的总结和针对性的练习题。同时，AI助手应考虑到赵强喜欢直接、简洁的回答和明确的建议，因此应该提供简明清晰的复习计划和资源链接，让赵强能够快速获取所需信息。最后，AI助手可以设置每日提醒，帮助赵强保持复习进度，并在复习过程中提供实时的反馈和调整建议。",
+      "scene_context": "赵强即将参加的考试日期是2023年12月1日。需要复习的科目包括：数学、语文、英语和物理。",
+      "personalized_query": "我最近需要准备即将到来的期中考试，感觉有些压力。能帮我制定一个高效的复习计划吗？我需要复习的科目包括数学、语文、英语和物理。",
+      "neutralized_query": "<neutralized_query>\n我需要准备期中考试，能帮我制定一个高效的复习计划吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：赵强喜欢挑战新事物和冒险，AI助手可以提供与他兴趣相关的扩展阅读材料或深度分析某个话题。",
+      "available_apis": {
+        "getUserInterests": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the user's specific interests related to challenges and adventures."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for articles, books, and reports related to the user's interests in challenges and adventures."
+        }
+      },
+      "scene_desc": "赵强在AI助手面前打算进一步探索一些关于滑雪和登山的知识。他感兴趣的是如何在这些户外运动中提高自己的技巧，并且希望获得一些挑战性的冒险活动的相关信息。赵强打开AI助手，准备开始他的知识拓展之旅。",
+      "expected_response": "\n根据赵强的persona描述，他是一个喜欢挑战新事物和冒险的高中生，AI助手应该首先询问他具体感兴趣的领域，例如滑雪技巧、登山装备或冒险活动。接下来，AI助手通过检索相关的扩展阅读材料和深度分析，提供给他详细的文章、视频和报告。同时，AI应该简明扼要地总结这些信息，以便赵强能快速获取所需内容。为了进一步激励他，AI助手可能会推荐一些适合他水平的滑雪或登山活动，甚至是一些有挑战性的冒险目的地。此外，AI助手可以提供一些最新的科技产品或设备，以帮助赵强在这些活动中表现得更好。最终，AI助手应该确认赵强是否需要更多相关资料，并询问是否需要保存这些信息以备后续查阅。",
+      "scene_context": "赵强希望进一步探索以下具体内容：\n1. 滑雪技巧提高：高级滑雪技巧和训练方法，以及如何调整姿势以提升速度和控制。\n2. 登山装备：最新的登山装备推荐，以及如何选择适合不同天气和地形的装备。\n3. 冒险活动：全球范围内一些具有挑战性的滑雪和登山目的地，适合高中生的冒险活动推荐。\n\n他希望获得这些内容的详细文章、视频和报告，并对以下内容感兴趣：\n- 高级滑雪技巧的训练视频\n- 不同类型的滑雪板和登山靴的比较报告\n- 全球知名滑雪胜地和登山路线的介绍文章\n- 最新的滑雪和登山技术设备的评测和推荐",
+      "personalized_query": "嘿，先帮我查一下最新版的高级滑雪技巧训练视频吧，我想提高我的滑雪水平。具体点的，比如如何调整姿势和增加速度。",
+      "neutralized_query": "<neutralized_query>\n帮我查一下最新版的高级滑雪技巧训练视频，特别是关于如何调整姿势和增加速度的部分。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：赵强可能需要提高英语口语能力，AI助手可以通过多轮对话进行模拟口语练习，提升他的交流能力。",
+      "available_apis": {
+        "generateConversation": {
+          "arguments": [
+            "context"
+          ],
+          "description": "Generates a natural conversation based on the given context for the user to practice."
+        },
+        "speechToText": {
+          "arguments": [
+            "audio"
+          ],
+          "description": "Converts the user's spoken input into text for further processing."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "user_input"
+          ],
+          "description": "Analyzes the user's input and provides feedback on pronunciation, grammar, and fluency."
+        }
+      },
+      "scene_desc": "赵强是一名17岁的中国高中生，性格外向，喜欢挑战新事物和冒险。他擅长篮球和电竞，享受与朋友一起活动，也喜欢户外运动如滑雪和登山。赵强需要提高他的英语口语能力，并打算通过与AI助手进行模拟口语练习来提升他的交流能力。赵强喜欢直接、简洁的回答和明确的建议，倾向于快速获取信息，希望通过简明的步骤和提示来解决问题。在进行口语练习时，他希望能够迅速进入练习，并希望练习内容能与他的兴趣和爱好相结合，使得练习过程更有趣和相关性。",
+      "expected_response": "\nAI应该首先询问赵强希望练习的具体情境或主题，例如是否希望模拟与朋友讨论篮球比赛或户外运动计划的场景。AI可以利用\"generateConversation\" API生成相关的对话场景，并使用\"speechToText\" API转换赵强的语音输入。AI应该在对话过程中提供及时的反馈，例如使用\"provideFeedback\" API分析赵强的输入并提供关于发音、语法和流利度的反馈。此外，AI还应根据赵强的兴趣和爱好，提出一些与篮球、电竞或户外运动相关的对话话题，保持赵强的兴趣和参与度。最后，AI应该鼓励赵强继续练习，并在每次练习结束时提供总结和建议，帮助他逐步提高英语口语能力。",
+      "scene_context": "赵强希望练习的具体情境为：\n1. 与朋友讨论最近的一场篮球比赛。\n2. 计划一次周末的户外登山活动。\n3. 讨论最新的电竞赛事和策略。\n\n他希望AI助手能通过以上情境进行模拟对话，并在练习过程中提供关于发音、语法和流利度的反馈。",
+      "personalized_query": "嗨，我想练习一下我的英语口语。最近有篇关于篮球比赛的内容挺有意思的，我们可以用这个来练习聊一聊吗？",
+      "neutralized_query": "<neutralized_query>\n我想练习一下我的英语口语。我们可以用最近关于篮球比赛的内容来进行对话练习吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：虽然赵强是高中生，但他可能需要撰写一些正式的电子邮件，如申请比赛、参加活动等，AI助手可以协助他撰写专业的电子邮件。",
+      "available_apis": {
+        "getEmailDetails": {
+          "arguments": [
+            "userInput"
+          ],
+          "description": "Prompts the user (赵强) to provide details about the email, such as the purpose, recipient, and any specific points to include."
+        },
+        "generateEmailContent": {
+          "arguments": [
+            "emailDetails"
+          ],
+          "description": "Generates a professional email content based on the provided details."
+        }
+      },
+      "scene_desc": "赵强是一名17岁的高中生，活泼外向，喜欢挑战新事物和冒险，擅长篮球和电竞。他经常使用AI助手来获取信息和建议。这次，赵强需要撰写一封正式的电子邮件，申请参加一个即将举行的篮球比赛。他希望邮件内容专业，逻辑清晰，并包含相关的个人信息和比赛经验，以提高申请成功的几率。",
+      "expected_response": "\n根据赵强的persona描述，AI应该首先询问具体的邮件目的和收件人信息，以确保邮件的目标明确。接着，AI应询问赵强是否有特定的内容或信息需要包含在邮件中，例如他的篮球经验、最近的比赛成绩和联系方式。AI还应提供一些专业的邮件模板供赵强参考，并可以根据赵强提供的信息自动生成一个初稿。最后，AI应该允许赵强对初稿进行修改并确认，确保最终的邮件内容符合他的期望，并准备好发送。\n",
+      "scene_context": "赵强需要撰写的正式电子邮件申请内容如下：\n- 电子邮件主题：申请参加即将举行的青年篮球比赛\n- 收件人：篮球比赛组织委员会（email@example.com）\n- 赵强的个人信息：\n    - 姓名：赵强\n    - 年龄：17岁\n    - 学校：北京某高中\n    - 联系方式：电话：123-456-7890，邮箱：zhaoqiang@example.com\n- 篮球经验：\n    - 主力前锋，曾带领校队获得市级青少年篮球联赛冠军\n    - 个人篮球技术过硬，擅长三分球和突破上篮\n    - 曾参加多个地区性篮球比赛并取得优异成绩",
+      "personalized_query": "嘿，帮我写一封申请参加即将举行的青年篮球比赛的邮件。我想让它看起来专业一点，内容清晰。发给篮球比赛组织委员会。\n\n你需要啥信息告诉我。",
+      "neutralized_query": "<neutralized_query>\n帮我写一封申请参加即将举行的活动的正式电子邮件，内容清晰，发给组织委员会。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "菜品创新：林芳在餐厅推出新的川菜组合，为吸引更多顾客，需寻找独特的创新菜品灵感。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "林芳是一位热衷于创新川菜料理的餐厅主厨，她希望通过推出新颖的菜品组合来吸引更多的顾客。在这个场景中，林芳会使用AI助手来寻找独特的创新菜品灵感。她希望AI能提供一些新颖的川菜组合方案或者能结合现代烹饪技巧的创意菜式，以便她能在餐厅中推出这些新菜品。林芳可能会提供一些她已有的菜品及其特色，寻求AI的建议和灵感。",
+      "expected_response": "\n根据林芳的persona描述，她是一位热衷于川菜创新和注重菜品质量的餐厅主厨。AI应该首先询问林芳是否有任何特定的菜品或食材偏好，并确定她是否有任何特定的创新方向或目标顾客群体。接着，AI应该利用联网搜索功能，查找当前流行的川菜创新趋势、新的烹饪技术以及可能的菜品组合，并提供多样化的建议。AI还可以结合林芳已经擅长的菜式，推荐一些可以改良或创新的方案，确保这些建议既符合传统川菜的味道，又能引入新颖的元素。最后，AI应该提供一些具体的步骤或食谱链接，帮助林芳迅速实施这些创新菜品方案。",
+      "scene_context": "林芳已有的菜品和特色包括：麻婆豆腐（以其浓郁的麻辣味和滑嫩的豆腐闻名）、鱼香肉丝（以其酸甜辣的鱼香味调料著称）和宫保鸡丁（以其花生和辣椒的酥脆口感和鸡肉的鲜嫩结合出名）。她希望能创新出一些既保留川菜传统风味又结合现代烹饪技巧的新菜品，并且特别关注如何利用分子料理方法和国际食材进行创新。",
+      "personalized_query": "您好，我想寻求一些创新的川菜料理灵感。我的餐厅现在主推麻婆豆腐、鱼香肉丝和宫保鸡丁，想在保持川菜传统风味的同时，结合一些现代烹饪技巧来创新新菜品。能不能给我一些建议？",
+      "neutralized_query": "<neutralized_query>\n我想寻求一些创新的川菜料理灵感，同时结合现代烹饪技巧来创新新菜品。请提供一些建议。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "Demographics": {
+    "Age": 23,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "刚毕业的大学生",
+    "Name": "陈丽娜"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "活力四射",
+      "享受社交活动",
+      "热爱音乐节",
+      "喜欢即兴旅行",
+      "对新技术感兴趣"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢热烈讨论各类话题，特别是音乐和社交活动",
+    "Usage_Pattern": "频繁使用，喜欢分享社交活动的经验，寻求新的活动灵感",
+    "Emotion_Pattern": "经常表现出兴奋和热情",
+    "Purchase_Pattern": "喜欢购买与音乐和社交活动相关的产品，例如音乐节门票和独特小玩意"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢生动、有趣、充满活力的反馈",
+    "Preferred_Formats": "偏好图文并茂的格式，喜欢看到图片和GIF",
+    "Preferred_Workflows": "喜欢即兴和快速的交流方式，随时切换话题"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：陈丽娜喜欢即兴旅行和参加音乐节，因此她需要规划旅行路线和时间安排。",
+      "available_apis": null,
+      "scene_desc": "陈丽娜刚刚决定要来一场即兴旅行，目标是去参加一个即将举行的音乐节。她需要规划旅行的路线和时间安排，包括如何到达音乐节的地点、住宿安排和活动日程。她希望找到最快速、最便捷的方式，同时希望在旅途中能够体验一些有趣的景点。",
+      "expected_response": "\n根据陈丽娜的persona描述，她是一位充满活力和热情的年轻人，喜欢即兴旅行和音乐节。AI应该首先询问她具体的旅行时间段和音乐节的地点，然后提供几种可行的交通方式（如火车、飞机、自驾等），并列出每种方式的优缺点和时间安排。接着，AI应该推荐几家距离音乐节地点较近的酒店或民宿，并帮助她进行预订。此外，AI还应该根据她的兴趣推荐沿途或目的地周边的景点和活动，让她的旅行更加丰富多彩。最后，AI可以生成一份详细的旅行计划，包括各项安排的时间表和相关链接，方便陈丽娜随时查看和调整。",
+      "scene_context": "陈丽娜的旅行安排如下：\n- 音乐节名称：草莓音乐节。\n- 音乐节地点：上海市宝山区顾村公园。\n- 旅行时间段：下周五至周日，即 10 月 13 日至 10 月 15 日。\n- 出发地点：南京市。\n\n她需要考虑以下事项：\n1. 前往上海的交通方式：\n   - 火车：南京南站到上海虹桥站，预计2小时。\n   - 自驾：南京到上海，预计3小时。\n   - 飞机：南京禄口国际机场到上海虹桥国际机场，预计1小时飞行时间。\n\n2. 住宿选择：\n   - 酒店：推荐几家靠近顾村公园的酒店。\n   - 民宿：推荐几家评分较高且靠近顾村公园的民宿。\n\n3. 活动日程：\n   - 周五晚上：抵达上海，入住酒店。\n   - 周六全天：参加草莓音乐节。\n   - 周日：可选择在上海市区游玩，推荐参观外滩、豫园、南京路等景点，下午返回南京。",
+      "personalized_query": "嘿，我刚决定要来一场即兴旅行，准备下周五到周日去上海参加草莓音乐节！你能帮我规划一下整个行程吗？首先我需要确定前往上海的交通方式，有什么推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划一下从下周五到周日去上海参加音乐节的行程，并推荐前往上海的交通方式。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "酒店和餐厅推荐：陈丽娜在参加音乐节或者旅行时，可能需要推荐附近的酒店和餐厅，并进行预订。",
+      "available_apis": null,
+      "scene_desc": "陈丽娜即将参加一个为期三天的音乐节，这次音乐节在她从未去过的城市举行。她希望能够找到离音乐节场地较近的酒店，以便于参加活动。此外，她还想知道当地有哪些值得一试的餐厅，可以在音乐节期间放松休息。由于她是一个活力四射、喜欢社交的年轻人，她希望能找到一些既有趣又有当地特色的用餐地点，并希望尽可能快速地完成预订。",
+      "expected_response": "AI应该先询问音乐节的具体地点和日期，以便提供最相关的酒店和餐厅推荐。接着，AI可以利用位置服务推荐一些离音乐节场地较近的酒店，并根据陈丽娜的偏好（如经济实惠或豪华舒适）进行筛选。对于餐厅推荐，AI应该寻找一些有当地特色且适合社交的餐厅，并附上相关的评价和图片。最后，AI应该提供便捷的预订选项，询问是否需要帮助她进行酒店和餐厅的预订。鉴于陈丽娜喜欢图文并茂的内容和快速交流，AI可以使用图片和简洁的描述来呈现推荐结果，并确保交互过程快速且富有活力。",
+      "scene_context": "陈丽娜要参加的音乐节是“阳光音乐节”，音乐节将在6月15日至6月17日期间在杭州西湖区举行。她需要推荐离西湖区音乐节场地较近的酒店，并且希望推荐一些有当地特色且适合社交的餐厅。",
+      "personalized_query": "嘿，AI小助手，我要去参加阳光音乐节，它会在杭州西湖区举行，我需要找几家离音乐节场地比较近的酒店。你能帮我查查吗？",
+      "neutralized_query": "<neutralized_query>\n我需要找几家离阳光音乐节场地比较近的酒店，你能帮我查查吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：陈丽娜享受社交活动，喜欢寻找新的活动灵感，因此需要推荐适合的社交活动或聚会场所。",
+      "available_apis": null,
+      "scene_desc": "陈丽娜刚从大学毕业，热爱社交活动，喜欢参加各种音乐节和聚会。某天，她想在即将到来的周末找到一些新的社交活动来丰富自己的日程。她打开终端上的AI助手，寻求推荐适合她的社交活动或聚会场所。",
+      "expected_response": "\n根据陈丽娜的persona描述，AI应该会先询问她对于活动的具体需求，例如是否想参加某种类型的活动（如音乐节、派对、展览等），以及她的当前地理位置。考虑到陈丽娜喜欢即兴和快速的交流，AI应该迅速给出几种不同类型的活动选项，并为每个活动提供详细的信息，包括时间、地点、活动亮点和相关的图片或视频。AI还可以基于她的过往活动参与记录和兴趣标签，推荐一些她可能会喜欢的活动。最后，AI应该提供快速注册或购票的链接，并询问她是否希望将这些活动分享至她的社交平台或与朋友一起参加。\n",
+      "scene_context": "陈丽娜当前位于上海，最近她参加了一个电子音乐节和一个艺术展，她对这些活动很感兴趣。她希望在即将到来的周末找到一些新的社交活动，例如户外音乐节、艺术展览或市集等。她也乐于尝试一些新的活动形式，比如沉浸式戏剧或者互动体验展。她希望活动能够在上海市内进行，并且最好能够提供购票和活动详情的链接。",
+      "personalized_query": "嘿AI，下周末有什么好玩的社交活动推荐吗？最好是户外音乐节、艺术展览或者市集一类的，最好能帮我找找购票和活动详情的链接。",
+      "neutralized_query": "<neutralized_query>\n下周末有什么好玩的社交活动推荐吗？最好能提供购票和活动详情的链接。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：陈丽娜热爱音乐节，经常寻找新的音乐和艺术家，因此需要根据她的听歌习惯推荐新歌、专辑或艺术家。",
+      "available_apis": {
+        "getListeningHistory": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the listening history of the user to understand their music preferences."
+        },
+        "recommendMusic": {
+          "arguments": [
+            "user_id",
+            "listening_history"
+          ],
+          "description": "Generates personalized music, album, or artist recommendations based on the user's listening history."
+        }
+      },
+      "scene_desc": "陈丽娜刚刚结束了一天的工作，正在放松时打开了音乐应用。她对现有歌单有些厌倦，想寻找一些新的音乐来提升自己的心情。她向AI助手表达了自己对新歌、专辑或艺术家的兴趣，希望AI能根据她的听歌习惯推荐一些新鲜的音乐内容。",
+      "expected_response": "\nAI应该首先通过调用getListeningHistory接口了解陈丽娜的听歌历史，分析她常听的音乐风格和喜欢的艺术家。接着，AI可以使用recommendMusic接口，根据她的听歌历史生成一些个性化的音乐推荐。这些推荐应包括她可能会喜欢的新歌、专辑或艺术家。同时，AI应该以生动、有趣和充满活力的方式呈现推荐结果，或许还可以附带一些相关的图片和GIF，以提高陈丽娜的体验。在推荐音乐的同时，AI也可以建议她参加即将到来的音乐节或社交活动，并分享相关的购买链接或者票务信息。最后，AI应该保持互动性，询问陈丽娜是否对这些推荐满意，是否需要进一步的推荐或调整推荐内容。",
+      "scene_context": "陈丽娜最近常听的音乐风格包括：独立摇滚、电子舞曲和爵士。她特别喜欢的艺术家有：Radiohead、Daft Punk和Nina Simone。",
+      "personalized_query": "嘿，AI助手，我有点厌倦了现有的歌单，最近一直在听独立摇滚、电子舞曲和爵士，但好像有些听腻了。你能帮我推荐一些新歌、专辑或艺术家吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些新歌、专辑或艺术家的推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "音乐发现：陈丽娜对新技术和新音乐感兴趣，希望通过平台发现不同风格的音乐或新兴的艺术家。",
+      "available_apis": {
+        "getUserMusicPreferences": {
+          "arguments": [],
+          "description": "Retrieve the user's music preferences, including favorite genres and any specific artists or music types of interest."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for music recommendations based on the user's preferences and return the most relevant results."
+        }
+      },
+      "scene_desc": "陈丽娜刚刚发现了一款新上线的音乐发现平台，她对新技术和新音乐非常感兴趣，希望通过这个平台来找到不同风格的音乐或新兴的艺术家。她迫不及待地想要探索这个平台，看看能找到哪些有趣的音乐作品和艺术家。她打开了AI助手，想要寻求帮助来最大限度地利用这个平台的功能，找到她可能喜欢的音乐。",
+      "expected_response": "\n根据陈丽娜的persona描述，她是一个活力四射、享受社交活动并热爱音乐节的年轻女性，AI应该能迅速响应她的好奇心和热情。首先，AI应该询问她具体的音乐偏好、喜欢的音乐风格或艺术家，并确认是否有特定的音乐发现平台或功能想要探索。接着，AI可以调用getUserMusicPreferences API来获取陈丽娜的音乐偏好，并进行webSearch来寻找符合这些偏好的新兴艺术家和不同风格的音乐。AI应该以图文并茂、生动有趣的方式展示搜索结果，并提供试听链接或相关的音乐节信息。最后，AI可以建议她将喜欢的音乐分享至社交媒体，或者询问她是否需要推荐相关的音乐节门票和独特小玩意，以便她能更好地享受音乐和社交活动。",
+      "scene_context": "陈丽娜对以下音乐风格和艺术家感兴趣：电子音乐、爵士乐、流行音乐。她喜欢的艺术家包括：Daft Punk、Norah Jones和Ariana Grande。她现在正在探索的新音乐发现平台是Spotify。",
+      "personalized_query": "嘿，我发现了一个超酷的新音乐平台叫Spotify，我想通过它找到一些新音乐。你能帮我找到一些我可能喜欢的音乐和艺术家吗？我喜欢电子音乐、爵士乐和流行音乐。",
+      "neutralized_query": "<neutralized_query>\n你能帮我找到一些可能喜欢的音乐和艺术家吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：陈丽娜喜欢购买与音乐和社交活动相关的产品，因此需要推荐适合她需求的商品，例如音乐节门票或独特小玩意，并提供购买链接。",
+      "available_apis": {
+        "ecommerceSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for products related to the given query and returns relevant product recommendations including purchase links."
+        }
+      },
+      "scene_desc": "陈丽娜今天心情特别好，她刚刚在社交媒体上看到了一则即将到来的音乐节广告，心里激动不已。她希望能够尽快购买音乐节门票，并且为了让整个活动更加难忘，她还打算购买一些有趣的小玩意，比如荧光棒、LED手环等。她打开AI助手，准备寻求购物建议和购买链接。",
+      "expected_response": "\nAI应该会首先根据陈丽娜的音乐和社交活动喜好，推荐几个即将举行的音乐节，并提供详细的信息和购票链接。接着，AI可以通过搜索电子商务平台，推荐适合音乐节使用的独特小玩意，如荧光棒、LED手环等，并提供购买链接。为了增加互动性，AI可以附上相关产品的图片或GIF，满足陈丽娜喜欢图文并茂的偏好。最后，AI可以询问她是否需要将这些物品加入购物车或直接购买，并提供快捷的支付链接。\n",
+      "scene_context": "陈丽娜正在寻找以下物品：\n1. 即将举行的音乐节门票。她特别感兴趣的是本地的音乐节活动，最好包括流行音乐和电子音乐的演出。\n2. 音乐节相关的小玩意。她希望购买荧光棒、LED手环和带有音乐节主题的T恤。\n\n她希望AI助手提供这些物品的详细信息和购买链接。此外，陈丽娜喜欢图文并茂的购物体验，所以希望能看到相关产品的图片或GIF。",
+      "personalized_query": "嘿，我刚在社交媒体上看到一个即将到来的音乐节广告，超兴奋！能帮我找下这个音乐节的门票信息吗？我特别想去本地的音乐节，最好是有流行音乐和电子音乐的那种。另外，还有一些音乐节的小玩意，比如荧光棒、LED手环之类的，能推荐一些酷炫的给我吗？能有图片和购买链接就更好了！谢谢～",
+      "neutralized_query": "<neutralized_query>\n请帮我找一下本地的音乐节门票信息，最好是有流行音乐和电子音乐的那种。还需要一些音乐节的用品，比如荧光棒和LED手环，提供一些酷炫的推荐、图片和购买链接。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "服装搭配：陈丽娜可能需要根据不同的社交活动或音乐节，获得适合的服装搭配建议。",
+      "available_apis": {
+        "getActivityType": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Confirms the type of social event or music festival the user (in this case, Chen Lina) is planning to attend."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈丽娜即将参加一场周末在郊外举行的音乐节，她希望能获得一些关于服装搭配的建议，以便在音乐节上看起来既时尚又舒适。她希望根据天气预报和音乐节的主题，找到一些适合的服饰搭配。同时，她还希望获得一些图片和购衣链接，以便能快速购买到需要的服装。",
+      "expected_response": "\n根据陈丽娜的persona描述，她是一个外向、活力四射的年轻女性，热爱社交活动和音乐节，同时她喜欢生动、有趣、充满活力的反馈。AI应该会首先询问她具体的音乐节主题和预期的天气情况，以便更好地推荐合适的服装。接着，AI会通过访问网络搜索功能，获取一些适合此次音乐节的时尚搭配图片，并提供详细的服饰购买链接。AI还会注意使用图文并茂的格式，尽量选择生动、有趣的图片和GIF，以增加互动的趣味性。最后，AI可能会根据她的偏好，推荐一些小装饰品或独特的小玩意，进一步提升她的整体造型效果。",
+      "scene_context": "陈丽娜即将参加的音乐节主题是“复古与未来”，音乐节将在周末的两天举行，预计天气晴朗，日间温度在25°C左右，夜间温度在15°C左右。她希望获得的服装建议包括：适合白天和夜晚的不同服装搭配、便于活动的鞋子、适合拍照的配饰，以及考虑到日晒的防护用品。她还希望得到购买这些服饰的链接。",
+      "personalized_query": "嘿，我准备这个周末去参加一个“复古与未来”主题的音乐节，天气预报说白天25度，晚上15度。能帮我推荐一些既时尚又舒适的服装搭配吗？最好是适合白天和夜晚的不同穿搭哦，还想要一些便于活动的鞋子和适合拍照的配饰。能再给我一些购买链接就完美了！谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n能否推荐一些适合白天25度和晚上15度的“复古与未来”主题的音乐节的时尚且舒适的服装搭配，并提供便于活动的鞋子和适合拍照的配饰？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "发型建议：陈丽娜可能希望为不同的社交活动或音乐节改变发型，因此需要推荐适合她脸型和风格的发型。",
+      "available_apis": {
+        "getUserProfile": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the user's profile information including face shape and personal style."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for the most suitable hairstyles based on the given query and returns the most relevant results."
+        }
+      },
+      "scene_desc": "陈丽娜即将参加一个热闹的音乐节，她希望为这个活动改变一下自己的发型，以更好地融入音乐节的气氛。她打开了AI助手，想要寻求一些适合她脸型和个人风格的发型建议，来搭配她的音乐节服装。",
+      "expected_response": "\n根据陈丽娜的persona描述，她是一个活力四射、喜欢社交活动和音乐节的年轻女性。AI应该首先获取她的基本资料，包括脸型和个人风格。接着，AI可以通过联网搜索，查找当前流行的适合音乐节的发型，并提供带有图片和详细描述的推荐选项。考虑到陈丽娜喜欢生动、有趣、充满活力的反馈，AI应确保推荐的发型不仅符合她的脸型和风格，还能与她即将参加的音乐节主题相吻合。AI还可以询问她是否有特定的颜色或发型类型偏好，例如是否喜欢编发、卷发或染发等。最后，AI可以提供一些适合音乐节的发型护理和造型技巧，以确保她在活动中保持最佳状态。\n",
+      "scene_context": "陈丽娜的脸型是椭圆形，个人风格偏向波西米亚风格。她即将参加的音乐节是一个以电子音乐为主题的户外活动，她的服装是一套轻便的波西米亚风连衣裙，主色调为蓝色和白色。",
+      "personalized_query": "嘿，AI助手！我即将参加一个超级嗨的电子音乐节，想要换个发型来更好地融入气氛。你能给我一些适合椭圆脸型的发型建议吗？我会穿一套蓝白色的波西米亚风连衣裙，想找个能搭配这套服装的造型！",
+      "neutralized_query": "<neutralized_query>\n我需要一些适合椭圆脸型的发型建议，能够搭配波西米亚风连衣裙，适合参加音乐节的造型。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：陈丽娜在不同情境下（如旅行、社交聚会、放松）需要推荐合适的音乐来提升体验。",
+      "available_apis": {
+        "musicRecommendation": {
+          "arguments": [
+            "context",
+            "user_preferences"
+          ],
+          "description": "Recommends suitable music for the given context (e.g., travel, social gatherings, relaxation) based on user preferences."
+        }
+      },
+      "scene_desc": "陈丽娜刚刚结束了一天忙碌的工作，准备在家中放松一下。她坐在客厅的沙发上，拿起手机，语音唤醒了AI助手，想要找些合适的音乐来提升她的放松体验。由于陈丽娜喜欢即兴和快速的交流方式，以及她对音乐的热爱，她希望AI助手能够迅速推荐一些适合的放松音乐，并根据她的听歌习惯和当前情境做出个性化的推荐。",
+      "expected_response": "\nAI助手应该首先确认陈丽娜当前的情境（是否在家中放松）。接着，AI应该访问她的音乐偏好信息，了解她喜欢的音乐风格和近期的听歌记录。然后，AI可以调用”musicRecommendation” API，结合她的个人喜好和放松情境，推荐一些适合的放松音乐。AI还可以提供播放列表链接，并询问是否需要进一步调整，例如根据特定的艺术家或音乐类型。考虑到陈丽娜偏好生动、有趣、充满活力的反馈，AI可以在推荐中使用图文并茂的方式，包括音乐专辑封面图片和GIF。最后，AI应该确保整个过程快速、流畅，符合陈丽娜喜欢即兴和快速交流的偏好。",
+      "scene_context": "陈丽娜的音乐偏好特点包括：喜欢爵士、轻音乐和古典音乐。最近她常听的艺术家有诺拉·琼斯（Norah Jones）、路德维希·范·贝多芬（Ludwig van Beethoven）和布莱恩·伊诺（Brian Eno）。目前她正在家中放松，希望听一些舒缓的音乐来帮助她放松身心。",
+      "personalized_query": "嘿，AI助手！刚结束了一天忙碌的工作，现在想在家放松一下。能给我推荐一些舒缓的音乐吗？我最近挺喜欢诺拉·琼斯（Norah Jones）的歌，还有些轻音乐和古典音乐也不错。",
+      "neutralized_query": "<neutralized_query>\n能给我推荐一些适合放松的舒缓音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "项目筹款：王雪需要策划一场环保公益活动，寻找合适的筹款平台和策略。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "fetchFundraisingPlatformDetails": {
+          "arguments": [
+            "platform_name"
+          ],
+          "description": "Fetches detailed information about a specific fundraising platform, including fees, success stories, and user reviews."
+        }
+      },
+      "scene_desc": "王雪是一位热衷于环保事业的年轻人，她正在策划一场环保公益活动，并需要找到一个合适的筹款平台来支持她的活动。她希望AI助手能够帮助她搜索和筛选出最适合的筹款平台，并提供一些成功筹款策略的建议。她对平台的透明度、费用结构、用户评价等特别关注。此外，她希望能够查阅一些成功筹款案例来获得灵感，以便更好地规划她的筹款活动。",
+      "expected_response": "\n根据陈丽娜的persona描述，AI应该首先询问她的具体需求，例如对筹款平台的偏好（如透明度、费用结构、用户评价等）。接着，AI应该能够通过“webSearch”和“fetchFundraisingPlatformDetails”这两个API，快速检索并提供几家最适合的筹款平台的详细信息。AI还应该提供一些成功的筹款案例，以帮助她获得更多的灵感。考虑到她喜欢生动、有趣、充满活力的反馈，AI应该用图文并茂的方式展示这些信息，并提供直接的链接和购买选项。最后，AI应该询问她是否需要进一步的帮助，如直接预订或安排相关的会议和讨论。",
+      "scene_context": "王雪正在策划的环保公益活动的主题是\"减少一次性塑料的使用\"，她希望活动能够吸引至少200人参与，目标筹款金额为5万元。她关注以下几个筹款平台：Kickstarter、GoFundMe和腾讯公益，并希望能详细了解这些平台的透明度、费用结构和用户评价。此外，她还希望AI能提供以下几个成功的筹款案例：一个关于海洋清理项目的成功案例，一个关于城市绿化的成功案例，以及一个关于环保教育的成功案例。她还希望有一些筹款策略的建议，例如如何撰写动人心肠的筹款故事、如何利用社交媒体进行宣传以及如何与潜在捐助者建立联系。",
+      "personalized_query": "嗨，AI助手，我最近在策划一个环保公益活动，主题是“减少一次性塑料的使用”。我需要找到一个合适的筹款平台帮我筹集5万元。你能帮我搜索几个比较好的平台，并提供一些基本情况吗？比如透明度、费用结构和用户评价？",
+      "neutralized_query": "<neutralized_query>\n我需要找到一个合适的筹款平台来筹集资金用于环保公益活动。请帮我搜索几个比较好的平台，并提供一些关于透明度、费用结构和用户评价的基本信息。\n</neutralized_query>"
+    }
+  ]
+}

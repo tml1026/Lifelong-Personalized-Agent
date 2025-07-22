@@ -1,0 +1,257 @@
+{
+  "Demographics": {
+    "Age": 34,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "在某外企担任项目经理",
+    "Name": "王俊凯"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "策略游戏",
+      "历史书籍",
+      "深度思考",
+      "批判性分析"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "喜欢讨论复杂问题和策略",
+    "Usage_Pattern": "每天都会使用，寻求详细的分析和建议",
+    "Emotion_Pattern": "理性而冷静，情感表达不多",
+    "Purchase_Pattern": "偏重于购买高质量、耐用的产品"
+  },
+  "Preference": {
+    "Preferred_Styles": "偏好简洁明了、有条理的回复",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "倾向于结构化、系统化的工作流程"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：王俊凯在外企担任项目经理，需要通过多轮对话协助跟踪任务进度、分配任务、设置截止日期，以确保项目按时完成。",
+      "available_apis": null,
+      "scene_desc": "王俊凯正在处理一个重要的项目，他需要确保项目按时完成，这要求他紧密跟踪任务进度、分配任务并设置截止日期。为了保持项目的高效运行，王俊凯需要与团队成员多轮对话，确认每个人的任务进展和可能遇到的问题。他还需要动态调整任务分配和截止日期，以适应项目的实际进度和团队成员的反馈。\n\n在本次场景中，王俊凯需要检查团队成员的任务进度，重新分配任务并设置新的截止日期。",
+      "expected_response": "\n根据王俊凯的persona描述，他是一个内向但理性而冷静的人，喜欢讨论复杂问题和策略，偏好简洁明了、有条理的回复。AI应该首先询问具体需要跟踪哪些任务的进度，并确认每个任务的当前状态。接着，AI可以建议合理的任务重新分配方案和新的截止日期，并提供详细的分析和建议，确保每个决策都有充分的依据。AI还应该能自动记录下调整后的任务分配和新的截止日期，并定期提醒王俊凯检查任务的进展。此外，AI需要简洁明了地总结每次对话的关键点，以便王俊凯快速了解和决策。",
+      "scene_context": "王俊凯需要检查的任务包括：设计文档的编写、代码开发、测试用例的准备和用户手册的撰写。\n\n初始任务分配情况如下：\n1. 设计文档的编写 - 李明负责，截止日期为10月10日。\n2. 代码开发 - 张伟负责，截止日期为10月15日。\n3. 测试用例的准备 - 陈丽负责，截止日期为10月12日。\n4. 用户手册的撰写 - 王芳负责，截止日期为10月18日。\n\n王俊凯需要了解每位成员的任务进展，并根据实际情况重新分配任务和设置新的截止日期。",
+      "personalized_query": "我需要跟进一下团队成员的任务进展。请帮我记录一下以下任务的最新进度：\n\n1. 李明负责的设计文档，他的截止日期是10月10日。\n2. 张伟负责的代码开发，截止日期是10月15日。\n3. 陈丽负责的测试用例准备，截止日期是10月12日。\n4. 王芳负责的用户手册撰写，截止日期是10月18日。\n\n请确认他们的任务目前进展如何，并让我知道是否需要调整任务分配或截止日期。",
+      "neutralized_query": "<neutralized_query>\n我需要跟进一下团队成员的任务进展。请帮我记录一下以下任务的最新进度：\n\n1. 负责设计文档的任务，截止日期是10月10日。\n2. 负责代码开发的任务，截止日期是10月15日。\n3. 负责测试用例准备的任务，截止日期是10月12日。\n4. 负责用户手册撰写的任务，截止日期是10月18日。\n\n请确认这些任务目前进展如何，并让我知道是否需要调整任务分配或截止日期。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：王俊凯需要协调团队会议时间、发送邀请、生成会议纪要，提高会议效率。",
+      "available_apis": null,
+      "scene_desc": "王俊凯作为外企项目经理，需要协调一次项目团队的会议，以确保项目进展顺利并解决关键问题。他希望能迅速找到一个所有相关人员都方便参加的时间段，并且要通过邮件或企业内部通讯工具发送会议邀请。此外，他需要在会议结束后生成会议纪要，以便记录讨论内容和后续行动项。",
+      "expected_response": "\n根据王俊凯的persona描述，他是一个理性而冷静的项目经理，注重结构化和系统化的工作流程。AI应该首先询问王俊凯需要邀请哪些团队成员，并了解是否有特定的时间段或日期偏好。AI接着应该访问企业办公软件中的团队成员日程表，推荐一个所有相关人员都可参与的时间。\n\nAI会生成一个会议邀请，确保邀请中包含详细的议程和需要讨论的关键问题，并提供一个预先编辑好的模板供王俊凯确认和修改。AI还应该设置自动提醒功能，提醒他会议的时间和内容。\n\n最后，AI会在会议结束后生成会议纪要，确保包含讨论的主要内容、决定和行动项，并询问是否需要进一步修改或直接发送给所有参会人员。",
+      "scene_context": "王俊凯需要邀请的团队成员包括：李华（开发负责人）、张伟（测试工程师）、刘洋（设计师）、陈静（产品经理）。他希望会议能够安排在下周二至周四之间的任意一天，时间段最好是上午10点到12点。会议讨论的关键问题包括：项目进度报告、关键问题的解决方案、下一阶段的计划。\n\n具体的会议议程如下：\n1. 项目进度报告 - 李华（10分钟）\n2. 关键问题讨论 - 全体（30分钟）\n3. 解决方案提案 - 张伟（15分钟）\n4. 下一阶段计划 - 陈静（20分钟）\n5. 自由讨论和Q&A - 全体（15分钟）\n\n此外，王俊凯希望AI能够在会议结束后生成包含以下内容的会议纪要：\n- 会议时间和地点\n- 参与人员名单\n- 主要讨论内容\n- 关键决定\n- 后续行动项和负责人员",
+      "personalized_query": "你好，我需要安排一次项目团队的会议。希望能帮我找到一个合适的时间段，方便所有相关人员参加，并且通过邮件或企业内部通讯工具发送会议邀请。会议时间最好安排在下周二至周四的上午10点到12点之间。等确认了时间后，我会再告诉你具体议程和参与人员名单。先帮我看下他们的时间吧。",
+      "neutralized_query": "<neutralized_query>\n我需要安排一次项目团队会议，请帮我找到一个合适的时间段，方便所有相关人员参加，并通过邮件或内部通讯工具发送会议邀请。会议时间最好安排在下周二至周四的上午10点到12点之间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：王俊凯需要帮助修改、整理或优化项目相关的文档内容，确保信息准确和表述清晰。",
+      "available_apis": null,
+      "scene_desc": "王俊凯正在整理一个重要的项目文档，他需要确保文档内容准确无误，表达清晰。他希望AI助手能够帮助他优化文档的结构和语言表述，同时检查文件中的数据和引用是否正确。他可能会向AI助手提供当前的文档版本，并请求详细的修改建议，以及最终的优化版本。",
+      "expected_response": "\n根据王俊凯的persona描述，他是一个理性而冷静的项目经理，偏好简洁明了、有条理的回复。AI助手应该首先询问是否需要对文档进行整体分析，识别出可能需要优化的部分。接着，AI助手应该提供具体的修改建议，包括语言优化、结构调整和数据验证等方面。AI还应检查文档引用的准确性，并提供详细的错误报告和修改建议。最后，AI助手应该生成一个优化后的文档版本，并询问王俊凯是否还有其他需要调整的部分，以确保文档的最终版本符合他的高标准和需求。",
+      "scene_context": "王俊凯目前正在整理的项目文档为《项目管理手册》。文档包含以下内容：\n\n1. 项目背景\n2. 项目目标\n3. 项目实施计划\n   - 任务分配\n   - 时间表\n   - 资源分配\n4. 风险管理\n   - 风险识别\n   - 风险评估\n   - 风险应对策略\n5. 项目评估\n   - 关键绩效指标 (KPI)\n   - 成果评估\n6. 参考文献\n\n王俊凯希望AI助手能够对整个文档进行分析，特别是：\n- 优化语言表述，使其更加简洁明了。\n- 检查所有数据和引用的准确性。\n- 提供文档结构的调整建议，以使其更具逻辑性和可读性。\n- 生成一个优化后的版本，确保内容准确且表述清晰。",
+      "personalized_query": "你好，我正在整理我们的《项目管理手册》，希望你能帮忙优化以下几点：\n\n1. 优化语言表述，使其更加简洁明了。\n2. 检查所有数据和引用的准确性。\n3. 提供文档结构的调整建议，以使其更具逻辑性和可读性。\n\n我会先把初稿发给你。你可以从哪里开始入手？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙优化《项目管理手册》中的以下几点：\n\n1. 优化语言表述，使其更加简洁明了。\n2. 检查所有数据和引用的准确性。\n3. 提供文档结构的调整建议，以使其更具逻辑性和可读性。\n\n你可以从哪里开始入手？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：作为项目经理，王俊凯可能需要帮助团队成员调试代码，定位错误并提出解决方案，提升项目质量。",
+      "available_apis": {
+        "getCodeSnippet": {
+          "arguments": [
+            "code_id"
+          ],
+          "description": "Retrieves the code snippet with the given identifier."
+        },
+        "analyzeCode": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Analyzes the given code snippet to identify any errors or warnings."
+        },
+        "suggestFixes": {
+          "arguments": [
+            "error_report"
+          ],
+          "description": "Provides suggested fixes for the identified errors in the given code snippet."
+        },
+        "runCode": {
+          "arguments": [
+            "fixed_code_snippet"
+          ],
+          "description": "Executes the given fixed code snippet to verify if the errors have been resolved."
+        }
+      },
+      "scene_desc": "王俊凯作为项目经理，在公司遇到团队成员向他反映代码运行报错的问题。团队成员提交了一段代码，希望王俊凯能帮助他们找到错误的根源并提供解决方案。王俊凯需要终端上的AI助手进行代码调试，定位错误并提供修复建议，以确保项目的顺利进行。",
+      "expected_response": "\nAI应该会首先请求代码片段的具体标识符或内容，以便能够使用`getCodeSnippet`或直接分析代码。接着，AI会使用`analyzeCode`对代码进行分析，识别潜在的错误或警告。基于分析结果，AI会提供详细的错误报告，并使用`suggestFixes`提供修复建议。AI接下来可能会询问王俊凯是否需要尝试修复代码，并在得到确认后使用`runCode`执行修复后的代码，以确保问题已经解决。整个过程中，AI应该保持简洁明了、有条理的沟通方式，并提供详细的分析和建议以供参考。",
+      "scene_context": "王俊凯需要调试的代码片段如下：\n\n```python\ndef calculate_average(numbers):\n    total = sum(numbers)\n    count = len(numbers)\n    average = total / count\n    return average\n\nnumbers = [1, 2, 3, 4, 5]\nprint(\"The average is:\", calculate_average(numbers))\n```\n\n团队成员报告的问题是运行代码时遇到`ZeroDivisionError`。",
+      "personalized_query": "代码运行时遇到了`ZeroDivisionError`的问题。帮我找出原因，并给出解决方案。\n\n```python\ndef calculate_average(numbers):\n    total = sum(numbers)\n    count = len(numbers)\n    average = total / count\n    return average\n\nnumbers = [1, 2, 3, 4, 5]\nprint(\"The average is:\", calculate_average(numbers))\n```",
+      "neutralized_query": "<neutralized_query>\n代码运行时遇到了`ZeroDivisionError`的问题。帮我找出原因，并给出解决方案。\n\n```python\ndef calculate_average(numbers):\n    total = sum(numbers)\n    count = len(numbers)\n    average = total / count\n    return average\n\nnumbers = [1, 2, 3, 4, 5]\nprint(\"The average is:\", calculate_average(numbers))\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：王俊凯可能在工作之余进行自我提升，需要生成复习计划、提供考点总结和练习题。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "subject",
+            "exam_date"
+          ],
+          "description": "Generates a comprehensive study plan for the given subject and exam date."
+        },
+        "provideSummary": {
+          "arguments": [
+            "subject"
+          ],
+          "description": "Provides a summary of key concepts and important points for the given subject."
+        },
+        "generatePracticeQuestions": {
+          "arguments": [
+            "subject",
+            "difficulty_level"
+          ],
+          "description": "Generates practice questions for the given subject and difficulty level."
+        }
+      },
+      "scene_desc": "王俊凯是一位34岁的项目经理，他在工作之余希望进行自我提升并准备即将到来的考试。由于他对策略游戏和历史书籍有浓厚兴趣，同时擅长深度思考和批判性分析，因此他更倾向于结构化、系统化的学习方式。他需要生成一个复习计划，涵盖主要考点并提供相关练习题，以确保高效学习和全面复习。",
+      "expected_response": "\n根据王俊凯的persona描述，AI应该首先询问他的考试日期和科目，以便生成一个详细的复习计划。AI接着应根据他的个人学习偏好，提供一个结构化的学习计划，明确每天的学习内容和时间安排。AI还应该提供考点总结，涵盖关键概念和重要知识点，并生成适应不同难度的练习题，以帮助他巩固所学内容。由于王俊凯性格理性冷静，AI的应答应简洁明了、有条理，并提供高质量、耐用的学习资料。最后，AI应询问他是否需要定期提醒和进度追踪，以确保他按计划进行复习。",
+      "scene_context": "王俊凯正在准备PMP（项目管理专业人士）考试，考试日期为两个月后。复习的主要科目包括：项目启动、项目规划、项目执行、项目监控和项目收尾。希望生成一个详细的复习计划，并提供涉及这些科目的考点总结和适应不同难度的练习题。",
+      "personalized_query": "我需要一个详细的复习计划，准备PMP考试。考试时间在两个月后。复习的主要科目是项目启动、项目规划、项目执行、项目监控和项目收尾。帮我生成一个结构化、系统化的学习计划，并提供相关的练习题。",
+      "neutralized_query": "<neutralized_query>\n我需要一个详细的复习计划，准备PMP考试。考试时间在两个月后。复习的主要科目是项目启动、项目规划、项目执行、项目监控和项目收尾。请生成一个结构化、系统化的学习计划，并提供相关的练习题。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资建议：王俊凯可能会寻求初步的投资建议，帮助进行个人理财规划，实现财务目标。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "financialPlanningTool": {
+          "arguments": [
+            "current_financial_status",
+            "financial_goals"
+          ],
+          "description": "Provides detailed financial planning based on the user's current financial status and future financial goals."
+        }
+      },
+      "scene_desc": "王俊凯刚刚获得了一笔额外的收入，并希望将这笔钱进行理财投资。他对市场有一定的了解，但希望能够得到更专业的建议，以便更好地制定个人财务规划和实现财务目标。王俊凯偏好结构化和详细的分析，因此他希望AI能够提供具体的投资建议，并能解释选择这些投资方向的原因。他也希望能够了解不同投资选项的风险和预期回报，以便做出明智的决策。",
+      "expected_response": "\n根据王俊凯的人设描述，AI应该首先询问他的当前财务状况和具体的财务目标，例如希望在多长时间内实现怎样的收益。AI还应了解王俊凯的风险承受能力，以便推荐适当的投资组合。接着，AI可以访问financialPlanningTool API，根据王俊凯的财务状况和目标生成详细的投资建议。AI应该提供不同投资选项的详细分析，包括预期回报、风险评估和投资期限等信息，并说明推荐这些选项的原因。最后，AI应总结出一个结构化的投资计划，并询问王俊凯是否有任何疑问或需要进一步的详细分析。",
+      "scene_context": "王俊凯当前的财务状况如下：\n- 年收入：人民币20万元\n- 额外收入：人民币10万元\n- 现有储蓄：人民币50万元\n- 无负债\n\n王俊凯的具体财务目标：\n- 在5年内积累人民币30万元的投资收益\n- 风险承受能力：中等偏低\n\n请AI生成一套基于上述财务状况和目标的投资建议，包括以下几个部分：\n1. 投资组合建议（如股票、债券、基金、房地产等），并提供每个投资选项的比例分配。\n2. 每个投资选项的详细分析，包括预期回报、风险评估和投资期限。\n3. 选择这些投资选项的原因说明。\n4. 总结一个结构化的投资计划，并提供进一步的帮助选项。",
+      "personalized_query": "我刚刚获得了一笔额外收入，打算进行一些理财投资。希望你能帮我制定一套详细的投资计划。我的风险承受能力中等偏低，目标是在5年内积累30万元的投资收益。请你先给我一些关于投资组合的建议和每个投资选项的比例分配。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我制定一套详细的投资计划，风险承受能力中等偏低，目标是在5年内积累30万元的投资收益。请先给我一些关于投资组合的建议和每个投资选项的比例分配。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：王俊凯可能会帮助团队成员准备面试问题，或为自己准备内部晋升的模拟面试练习。",
+      "available_apis": {
+        "fetchInterviewQuestions": {
+          "arguments": [
+            "position",
+            "level"
+          ],
+          "description": "Fetches a list of common interview questions for the specified position and level."
+        },
+        "scheduleMockInterview": {
+          "arguments": [
+            "interviewee",
+            "interviewer",
+            "preferred_time_slot"
+          ],
+          "description": "Schedules a mock interview session for the interviewee with a selected interviewer at a preferred time slot."
+        }
+      },
+      "scene_desc": "王俊凯作为项目经理，需要帮助团队成员准备面试问题，或为自己进行内部晋升的模拟面试练习。为了确保面试准备的充分性和针对性，他希望能够获取一些常见的面试问题，并安排一次模拟面试，以便更好地评估和提升面试技巧。",
+      "expected_response": "\n根据王俊凯的人设，他重视结构化和系统化的工作流程，理性冷静的性格使他倾向于详细和条理清晰的准备。因此，AI应该首先询问他具体的需求——是准备团队成员的面试问题，还是为自己准备内部晋升的模拟面试。然后，AI应根据需求具体化操作，比如：\n\n1. 如果是为团队成员准备面试问题，AI应该询问具体的职位和级别，并从数据库中提取相关的常见面试问题。AI应该确保这些问题涵盖面试的各个关键方面，并且具有一定的深度和批判性，符合王俊凯的需求。\n\n2. 如果是为自己准备模拟面试，AI应询问他希望的面试官（可以是AI生成的模拟面试官或实际同事）、面试的时间和具体内容。AI应该能够根据王俊凯的职业背景和目标职位，生成专业且具有挑战性的模拟面试问题，并安排模拟面试的时间。\n\n3. 在整个过程中，AI应该提供简洁明了、有条理的回复，以确保信息传递的清晰和有效。AI还应询问是否需要记录面试过程或生成面试纪要，以便王俊凯进行后续复盘和改进。\n\n4. AI可以在面试结束后提供反馈和建议，帮助王俊凯或其团队成员提升面试表现，确保最终能够达到预期效果。",
+      "scene_context": "王俊凯需要为一个软件工程师职位的团队成员准备面试问题，并为自己进行项目经理职位的内部晋升模拟面试准备。以下是一些可能的具体需求：\n\n1. 团队成员的面试问题需求：\n   - 职位名称：软件工程师\n   - 职位级别：中级\n   - 需要涵盖的方面：算法和数据结构、系统设计、编程语言（如Python或Java）、问题解决能力和团队合作能力\n\n2. 自己的模拟面试需求：\n   - 目标职位：项目经理\n   - 希望的面试官：实际同事（如技术主管或HR经理）\n   - 面试时间：下周三下午2点\n   - 具体内容：项目管理方法论、团队领导力、冲突解决、项目规划和执行、与客户沟通的案例",
+      "personalized_query": "我需要为一个软件工程师职位准备一些面试问题，涵盖算法和数据结构、系统设计、编程语言以及问题解决能力和团队合作能力。你能帮我整理一下常见的面试问题吗？",
+      "neutralized_query": "<neutralized_query>\n我需要准备一些面试问题，涵盖算法和数据结构、系统设计、编程语言以及问题解决能力和团队合作能力。你能帮我整理一下常见的面试问题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：王俊凯可能会协助团队成员或自己优化简历内容，突出重要信息，提升求职竞争力。",
+      "available_apis": {
+        "resumeAnalysis": {
+          "arguments": [
+            "resume_content"
+          ],
+          "description": "Analyze the given resume content and provide specific optimization suggestions."
+        },
+        "jobRequirementsMatch": {
+          "arguments": [
+            "resume_content",
+            "job_description"
+          ],
+          "description": "Match the resume content with the job description and suggest adjustments."
+        },
+        "provideTemplates": {
+          "arguments": [],
+          "description": "Provide resume templates and reference materials for different industries."
+        },
+        "languagePolish": {
+          "arguments": [
+            "resume_content"
+          ],
+          "description": "Polish the language and format of the resume content for better readability and professionalism."
+        }
+      },
+      "scene_desc": "王俊凯正在帮助一位团队成员优化简历，以便让对方在申请一个重要职位时更具竞争力。他需要确保简历内容突出重要信息，语言和格式专业且易读。王俊凯希望利用AI助手的功能来分析现有简历内容，提供具体的优化建议，并匹配目标职位的要求进行调整。",
+      "expected_response": "\n根据王俊凯的persona描述，他对信息的分析和系统化处理有较高的要求。AI应该首先询问王俊凯是否有现有简历内容的电子版本，并获取该简历内容。接着，AI应使用resumeAnalysis API对简历进行详细分析，并提供具体的优化建议，包括如何突出重要信息、提高语言的专业性和可读性。\n\nAI还应询问王俊凯是否有目标职位的职位描述，以便使用jobRequirementsMatch API将简历内容与职位描述进行匹配，并提出调整建议。AI可以进一步使用languagePolish API来润色简历语言和格式，确保其达到专业水平。\n\n最后，AI应该生成一个优化后的简历版本，并询问王俊凯是否需要进一步的修改或添加信息。AI应确保整个流程简洁明了，同时提供清晰的指引和结构化的建议，符合王俊凯对系统化工作流程的偏好。",
+      "scene_context": "王俊凯正在帮助团队成员优化的简历内容包括以下信息：\n- 姓名：李华\n- 联系方式：lihua@example.com\n- 教育背景：计算机科学学士，ABC大学，2016年毕业\n- 工作经验：\n  - 软件工程师，XYZ公司，2016年7月 - 至今\n    - 负责开发和维护公司的核心产品，使用Java和Python\n    - 领导一个5人团队，完成多个项目，项目包括在线支付系统和客户管理系统\n    - 优化现有系统，提高性能和可扩展性，使用微服务架构\n  - 实习生，DEF公司，2015年6月 - 2015年8月\n    - 协助开发web应用，使用JavaScript和HTML/CSS\n    - 参与数据库设计和维护，使用MySQL\n- 技能：\n  - 编程语言：Java, Python, JavaScript\n  - 框架和工具：Spring, Django, React\n  - 数据库：MySQL, PostgreSQL\n- 项目经历：\n  - 在线支付系统：\n    - 设计和实现一个安全可靠的在线支付系统，处理每天超过10万次交易\n    - 使用Spring框架，确保系统的高可用性和安全性\n  - 客户管理系统：\n    - 领导开发一个高效的客户管理系统，提升客户满意度和管理效率\n    - 采用微服务架构，提高系统的可扩展性\n- 证书和荣誉：\n  - Oracle认证Java程序员\n  - 公司年度优秀员工\n\n目标职位的职位描述：\n- 职位：高级软件工程师\n- 公司：Tech Innovators\n- 职责：\n  - 负责设计和开发高性能、高可扩展性的系统\n  - 领导和指导开发团队，确保项目按时交付\n  - 与跨部门团队合作，解决技术难题\n- 要求：\n  - 计算机科学或相关领域的学士或硕士学位\n  - 至少5年软件开发经验，熟悉Java和Python\n  - 有微服务架构经验\n  - 有领导团队的经验\n  - 良好的沟通和协作能力\n\n王俊凯希望AI助手能够根据上述信息提供针对性的简历优化建议。",
+      "personalized_query": "你好，我正在帮团队成员李华优化简历，以便他能更有竞争力地申请高级软件工程师的职位。你能帮我分析一下他的现有简历，找出需要改进的地方吗？目标是确保简历内容突出重要信息，语言和格式专业且易读。我们可以先从他的工作经验部分开始。",
+      "neutralized_query": "<neutralized_query>\n你能帮我分析一下现有简历，找出需要改进的地方吗？目标是确保简历内容突出重要信息，语言和格式专业且易读。我们可以先从工作经验部分开始。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：王俊凯可能会根据自己的职业兴趣和技能，寻求职业发展建议和机会，制定长期职业规划。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王俊凯最近在工作中感到有些瓶颈，希望能制定一个长期的职业规划，以便在未来几年内不断提升自己的职业技能和职业地位。他打算和AI助手讨论如何根据自己的兴趣和技能，寻求职业发展建议和机会，制定一个切实可行的职业规划。",
+      "expected_response": "\n根据王俊凯的persona描述，AI助手首先应该明确他目前的职业兴趣和长期职业目标。AI可能会询问他是否有具体的职业路径或职位目标，例如是否想晋升为更高级别的项目经理或转向其他领域。接下来，AI应该通过网络搜索或访问相关职业规划工具，提供一些关于该职业路径的详细信息和趋势分析。AI还应该考虑王俊凯的个人兴趣和技能，例如策略游戏和历史书籍，可能会推荐一些相关的职业发展途径，比如管理咨询或研究分析等。最后，AI应该帮助王俊凯制定一个系统化的职业规划，包含具体的步骤和时间表，以便他可以逐步实现自己的职业目标。根据王俊凯的偏好，AI的建议应该简洁明了，有条理，并且基于数据和事实的分析。",
+      "scene_context": "王俊凯目前的职业是项目经理，他对策略游戏和历史书籍非常感兴趣。他有意向在未来的职业生涯中晋升为更高级别的项目经理或转向管理咨询领域。他也擅长数据分析和团队领导，希望能够利用这些技能进一步提升职业地位。",
+      "personalized_query": "最近在工作中遇到了一些瓶颈，我想制定一个长期的职业规划，以便在未来几年内不断提升职业技能和职业地位。可以帮我分析一下我目前的情况，并提供一些建议吗？",
+      "neutralized_query": "<neutralized_query>\n我想制定一个长期的职业规划，可以帮我分析一下目前的情况，并提供一些建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "演出排练：陈晨曦需要为即将到来的校内音乐表演进行紧张的排练，并寻找合适的曲目和乐队成员。",
+      "available_apis": {
+        "musicSearch": {
+          "arguments": [
+            "genre",
+            "difficulty_level"
+          ],
+          "description": "Search for suitable music pieces based on the specified genre and difficulty level."
+        },
+        "findBandMembers": {
+          "arguments": [
+            "instrument",
+            "availability"
+          ],
+          "description": "Finds available band members who can play the specified instruments and are available for rehearsals."
+        },
+        "scheduleRehearsal": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Schedules rehearsal times for the band members based on their availability."
+        }
+      },
+      "scene_desc": "陈晨曦是一位热爱音乐和表演的年轻人，她即将参加校内音乐表演，因此需要紧张地为演出排练。她正在寻找合适的曲目，并希望能够找到合适的乐队成员来一起进行排练。同时，她需要安排好排练的时间，以确保所有成员都能参与，并确保排练的高效性。",
+      "expected_response": "\n根据陈晨曦的persona描述，她喜欢音乐和表演，并且在排练时会关注细节和成员的协调。AI应该首先询问陈晨曦对曲目的具体要求，如音乐风格和难度级别，以便通过musicSearch API找到合适的音乐曲目。接着，AI应该询问她需要哪些乐器的乐队成员，并通过findBandMembers API找到合适的乐队成员。然后，AI应该根据成员的可用时间，通过scheduleRehearsal API安排排练时间，并优化排练的日程。最后，AI可以提供一个排练计划，并询问陈晨曦是否需要进一步调整或确认。",
+      "scene_context": "陈晨曦对曲目的具体要求是：流行音乐风格，中等难度级别。她需要的乐器的乐队成员包括：吉他手、贝斯手、鼓手和键盘手。此外，她希望排练时间安排在每周三和周五的下午4点到6点。",
+      "personalized_query": "我需要帮陈晨曦做好排练的安排。我们需要找一个适合的流行音乐曲目，并且确定吉他手、贝斯手、鼓手和键盘手的乐队成员。然后还需要安排好排练的时间。每周三和周五的下午4点到6点。\n\n首先，我希望找到一些符合中等难度的流行音乐曲目。你能推荐几首吗？",
+      "neutralized_query": "<neutralized_query>\n我需要帮忙做好排练的安排。我们需要找一个适合的流行音乐曲目，并且确定吉他手、贝斯手、鼓手和键盘手的乐队成员。然后还需要安排好排练的时间。每周三和周五的下午4点到6点。\n\n首先，希望找到一些符合中等难度的流行音乐曲目。你能推荐几首吗？\n</neutralized_query>"
+    }
+  ]
+}

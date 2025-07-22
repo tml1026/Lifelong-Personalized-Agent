@@ -1,0 +1,233 @@
+{
+  "Demographics": {
+    "Age": 60,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "辽宁大连退休教师",
+    "Name": "飞飞"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "重视社区和邻里关系",
+      "喜欢园艺和自然",
+      "热衷于帮助他人",
+      "对新事物有开放的态度",
+      "喜欢动手和解决实际问题"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于通过与他人交流获取信息，喜欢探讨问题和分享经验。",
+    "Usage_Pattern": "经常咨询园艺技巧和社区活动的组织方式，有时会询问关于如何改进志愿服务的建议。",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "偏好购买园艺工具和植物，对高科技产品有一定兴趣，但需要具体的实际应用实例才能决定购买。"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详尽的说明和互动式的指导，尤其是带有实例和实际应用的内容。",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢灵活的解决方案，能够根据实际情况调整步骤，重视实践和效果。"
+  },
+  "scenes": [
+    {
+      "scene_type": "社交活动建议：退休后的他重视社区和邻里关系，可能会参与各种社区活动，需要建议适合的社交活动或聚会场所。",
+      "available_apis": null,
+      "scene_desc": "飞飞最近退休后，越来越重视社区和邻里关系。他喜欢参与和组织社区活动，希望能够推荐一些适合的社交活动或聚会场所。他希望这些活动不仅可以让他与邻居们更好地互动，还可以促进社区的和谐与团结。飞飞还希望这些活动能够包含一些有趣的互动和讨论，适合不同年龄段的社区成员参与。\n\n一天，飞飞决定向他的AI助手咨询一些有关社区活动和聚会场所的建议。他希望AI助手能够根据他的兴趣和社区特点，提供适合的活动建议，并给出一些实际地点的推荐。",
+      "expected_response": "\n根据飞飞的persona描述，AI应该会首先询问飞飞他具体的兴趣点和活动类型，例如是否喜欢户外活动、文化活动或是讲座类活动。AI会通过与飞飞的互动，进一步了解他对活动细节的偏好，比如活动时间、参与人数、是否需要特别的互动环节等。\n\n接着，AI可能会利用网络搜索功能，查找当地社区内即将举办的活动，并提供一个详细的活动列表。AI还可能会推荐一些社区中心或公园等适合作为聚会场所的地点，并提供这些地点的详细信息和联系方式。\n\n为了确保活动的成功，AI可能会建议一些组织活动的小技巧，例如如何邀请邻居参加、如何准备活动所需的物资等。最后，AI可能会询问飞飞是否需要进一步的帮助，比如发送活动邀请或设置提醒。\n\n通过这些详细的互动和指导，AI不仅能够帮助飞飞找到适合的社区活动，还能让他更好地融入和组织社区生活。",
+      "scene_context": "飞飞的社区位于某个城市的一个安静街区，他喜欢的活动包括：每周一次的户外徒步、每月一次的文化讲座以及不定期的社区聚餐。飞飞希望这些活动能够在社区公园、社区中心或邻里花园等地点举行。他特别喜欢活动中能有互动环节，比如讨论、游戏和分享会。飞飞希望AI助手能够推荐一些具体的活动和场所，并提供组织活动的具体建议。",
+      "personalized_query": "AI助手，我最近想组织一些社区活动，主要是为了促进邻里之间的互动和团结。你有什么好的建议吗？比如适合什么样的活动，以及在什么地方举行比较合适？",
+      "neutralized_query": "<neutralized_query>\n请提供一些可以促进邻里互动和团结的社区活动建议，以及适合举行这些活动的地点建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "园艺指导：他喜欢园艺和自然，经常咨询园艺技巧，需要在对话中获得植物种植、花园设计等方面的指导和建议。",
+      "available_apis": null,
+      "scene_desc": "飞飞正在他的花园里忙碌，考虑种一些新的植物。他需要一些关于如何搭配植物和花园设计的建议。他想知道哪些植物适合在他的气候条件下种植，并且希望得到详细的种植指导和实例说明。此外，他还对如何优化花园布局，增加美观性和功能性有兴趣，他希望这些建议能帮助他更好地享受园艺的乐趣。",
+      "expected_response": "\n根据飞飞的人设，AI应该首先询问飞飞所在的具体气候条件和土壤类型，以便提供更准确的植物种植建议。接着，AI应该提供一些适合该气候条件和土壤类型的植物列表，并附上详细的种植步骤和注意事项。AI还应该推荐一些花园设计的实例，解释如何搭配不同种类的植物以增加花园的美观性和功能性。最后，AI可以提供一些互动式的指导，可能包括视频教程或在线课程链接，帮助飞飞更好地实现他的园艺计划。",
+      "scene_context": "飞飞的花园位于温带气候区，土壤类型为壤土。飞飞特别喜欢多彩花卉和芳香草本植物。目前他考虑种植的植物包括：薰衣草（Lavandula）、矮牵牛（Petunia）和迷迭香（Rosmarinus officinalis）。",
+      "personalized_query": "飞飞：今天考虑在花园里种一些新的植物，不过有些拿不准的地方。你能帮我看看哪些植物适合我这里的气候条件，还有一些搭配和布局的建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些适合当地气候条件的植物种植建议，以及一些花园搭配和布局的建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社区活动组织：热衷于帮助他人，可能会在社区内组织各种志愿服务活动，需要建议和指导如何更好地组织这些活动。",
+      "available_apis": null,
+      "scene_desc": "飞飞是一位退休教师，目前住在辽宁大连，热心参与社区活动并且特别热衷于帮助他人。他决定在社区内组织一个志愿服务活动，旨在帮助社区内的老年人进行家庭维修和园艺指导。飞飞需要策划这个活动，包括确定志愿者名单、分配任务、安排时间和地点、以及确保活动顺利进行。\n\n在这个场景中，飞飞想要利用AI助手来帮助他更好地组织这次志愿服务活动。他希望AI能够提供一些建议和指导，让活动更加高效和有条不紊。",
+      "expected_response": "根据飞飞的persona描述，AI应该首先了解活动的具体需求，比如需要多少志愿者、每个志愿者的具体技能和任务分配等。接着，AI应该询问活动的日期和时间安排，并通过访问社区成员的日程安排确保活动时间合适。然后，AI可以提供一些建议，比如如何更好地分配任务、如何宣传活动，以及在活动中可能需要的物资和设备。此外，AI应该能够帮助飞飞收集志愿者的反馈，分析活动效果，并提出改进建议。最后，AI应确保发送相关的通知和提醒给参与的志愿者，保证他们及时了解活动的各项细节和安排。\n\n总结来说，AI应该提供全面的活动组织指导，从初步计划到活动执行以及后续反馈，确保飞飞能顺利组织并成功举办这次社区志愿服务活动。",
+      "scene_context": "飞飞需要组织的志愿服务活动包括：\n\n1. 活动类型：帮助社区内的老年人进行家庭维修和园艺指导\n2. 志愿者人数：大约10-15人\n3. 志愿者技能：家庭维修技能（如电工、水管工等）、园艺知识\n4. 活动日期：下个月的第三个周六\n5. 活动时间：上午9点到下午3点\n6. 活动地点：社区中心及周边老年人家庭\n7. 物资和设备：工具箱、园艺工具、修剪设备等\n\n飞飞希望AI助手能够提供以下帮助：\n1. 确定志愿者名单，并根据技能进行任务分配\n2. 安排活动的具体时间和地点\n3. 提供活动宣传的建议，如如何设计宣传海报和在社区内进行推广\n4. 确保活动顺利进行的策略，如如何安排志愿者的休息时间和餐饮\n5. 在活动结束后收集志愿者的反馈，并提供改进建议\n6. 发送通知和提醒给参与的志愿者以确保他们及时了解活动细节和安排",
+      "personalized_query": "我需要你帮忙组织一次社区志愿服务活动，目的是帮助社区内的老年人进行家庭维修和园艺指导。我们得把志愿者名单确定下来，并根据他们的技能合理分配任务。你能帮我安排一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙组织一次社区志愿服务活动，确定志愿者名单，并根据他们的技能合理分配任务。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：他偏好购买园艺工具和植物，需要根据具体需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "productRecommendation": {
+          "arguments": [
+            "user_preferences",
+            "product_category"
+          ],
+          "description": "Recommends products based on the user's preferences and specific category."
+        },
+        "providePurchaseLink": {
+          "arguments": [
+            "product_id"
+          ],
+          "description": "Provides a purchase link for the given product ID."
+        }
+      },
+      "scene_desc": "飞飞是一名60岁的退休教师，退休后他非常热衷于园艺和自然，并且经常购买各种园艺工具和植物。最近，他打算改造一下自家的花园，并希望购买一款新的智能灌溉系统来提高园艺效率。由于他对高科技产品有一定兴趣，但需要具体的实际应用实例才能决定购买，他希望AI助手能提供一些推荐，并附上购买链接。",
+      "expected_response": "\n根据飞飞的persona，AI应该首先确认他具体需要购买的园艺工具类型，比如智能灌溉系统。AI应该通过询问来了解更多细节，如飞飞的花园大小、常见的植物类型以及灌溉需求等。接着，基于飞飞的需求和偏好，AI可以提供几款高评价的智能灌溉系统，并附上详细的产品信息和使用实例。AI应该能够使用产品推荐API根据飞飞的偏好推荐适合的产品，并利用提供购买链接API提供直接的购买链接。最后，AI或许还会提供一些关于如何使用智能灌溉系统的提示或指南，以确保飞飞能够顺利上手。\n",
+      "scene_context": "飞飞需要购买的园艺工具为：智能灌溉系统。飞飞的花园大小为300平方米，常见的植物类型包括玫瑰、薰衣草和西红柿。飞飞希望智能灌溉系统能够自动调节浇水量，并且能够通过手机进行远程控制。",
+      "personalized_query": "嗨，最近我打算改造一下我的花园，想买一款新的智能灌溉系统。你能帮我推荐几款吗？如果能附上具体的应用实例和购买链接就更好了。",
+      "neutralized_query": "<neutralized_query>\n我需要推荐几款智能灌溉系统，并附上具体的应用实例和购买链接。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：对新事物有开放的态度，喜欢探讨问题和分享经验，可能会在对话中获取新知识或扩展阅读材料。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "飞飞在一次社区聚会上听说了一种新的有机种植技术，他对这项技术产生了浓厚的兴趣。于是，他决定向他的AI助手寻求更多的信息和相关的扩展阅读材料。他希望AI能帮助他了解这种有机种植技术的原理、实践方法以及在家庭园艺中的应用。同时，他还希望了解一些成功案例和专家的建议，以便更好地在自己的花园中实施这项新技术。",
+      "expected_response": "\n根据飞飞的persona描述，他对新事物有开放的态度，喜欢探讨问题和分享经验。因此，AI应该首先表示对飞飞对新技术感兴趣的赞赏，并询问具体的有机种植技术名称或相关关键词。接着，AI应该通过联网搜索功能找到相关的详细信息，包括技术原理、实施方法和适用于家庭园艺的具体步骤。AI还应该提供一些扩展阅读材料，如相关的书籍、专业文章或成功案例的链接。此外，AI可以推荐一些专家的在线讲座或视频教程，以便飞飞更好地理解和应用这项新技术。最后，AI可以建议飞飞将相关信息分享给社区内其他对园艺感兴趣的成员，以促进知识传播和经验交流。",
+      "scene_context": "飞飞听说的新有机种植技术是“生物活性堆肥技术”。他希望了解这种技术的原理、具体的实践方法，以及如何在家庭园艺中应用。此外，飞飞还希望获取一些成功案例和专家建议，以便更好地在自己的花园中实施这项新技术。",
+      "personalized_query": "飞飞：你好，我听说了一种新的有机种植技术，好像叫“生物活性堆肥技术”。你能帮我找一些相关的信息吗？比如它的原理、具体的实践方法，还有怎么样在家庭园艺中应用。",
+      "neutralized_query": "<neutralized_query>\n你好，我需要关于“生物活性堆肥技术”的信息，包括它的原理、具体的实践方法以及怎样在家庭园艺中应用。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "装修风格建议：喜欢动手和解决实际问题，可能会涉及到家庭装修和改造，需要推荐装修风格和配色方案。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "getColorSuggestion": {
+          "arguments": [
+            "preferred_colors",
+            "room_type"
+          ],
+          "description": "Get color suggestion based on the preferred colors and type of the room."
+        }
+      },
+      "scene_desc": "飞飞退休后非常喜欢动手进行家庭装修和改造，他希望能通过AI助手获得一些关于家庭装修风格和配色方案的建议。他计划重新设计他的客厅，希望能找到一种既实用又美观的风格，同时注重颜色搭配，使整个空间更加舒适和温馨。",
+      "expected_response": "\n根据飞飞的persona描述，他喜欢动手和解决实际问题，并且重视实践和效果。AI应该首先询问飞飞对客厅的具体需求和偏好，如是否有特定的颜色、风格（如现代、田园）、功能性需求（如需要更多储物空间）等。接着，AI可以利用webSearch功能查找当前流行的装修风格和配色方案，并提供一些实际案例和图片供飞飞参考。AI还可以使用getColorSuggestion功能根据飞飞的颜色偏好和房间类型，推荐具体的配色方案。最后，AI应该确保提供的建议具备实际操作性，能够帮助飞飞实现他的装修计划。",
+      "scene_context": "飞飞希望重新设计他的客厅，并提出了以下具体需求和偏好：\n1. 颜色偏好：飞飞喜欢温暖的颜色，如米色、浅黄色和橙色。\n2. 风格偏好：飞飞对现代和田园风格有兴趣，希望结合两者的元素。\n3. 功能性需求：飞飞希望增加客厅的储物空间，同时保持空间的开阔感。\n4. 特定需求：飞飞有几件心爱的古董家具，希望能融入新的设计中。\n\n这些信息将帮助AI助手提供更个性化和实用的装修风格和配色方案建议。",
+      "personalized_query": "你好，我想重新设计一下我的客厅，想听听你的建议。主要是想要一种既现代又有点田园风格的感觉，还希望颜色能温暖一点，比如米色、浅黄色和橙色。你能帮我出出主意吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些关于客厅设计的建议，希望结合现代和田园风格，同时颜色能温暖一些。\n"
+    },
+    {
+      "scene_type": "材料选择：在进行园艺或家庭装修时，需要选择合适的材料，如地板、墙纸、园艺工具等。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for detailed information about specific materials such as types of flooring, wallpapers, and gardening tools."
+        },
+        "priceComparison": {
+          "arguments": [
+            "material_type"
+          ],
+          "description": "Compare prices of different materials of the same type from various sources."
+        },
+        "userReviews": {
+          "arguments": [
+            "material_type"
+          ],
+          "description": "Fetch user reviews and quality feedback for the selected materials."
+        }
+      },
+      "scene_desc": "飞飞最近在家里进行家庭装修，并准备增加一些新的园艺设备。他希望选择合适的材料，包括地板、墙纸和园艺工具，以确保装修和园艺项目的顺利进行。由于他对新事物有开放的态度，并且喜欢探讨问题和分享经验，飞飞决定咨询AI助手，希望获得详细的信息和建议，包括材料的类型、价格比较以及用户评价。\n\n飞飞向AI助手提出了以下问题：“我正在进行家庭装修和园艺项目，需要选择一些合适的材料和工具。你能帮我推荐一些地板、墙纸和园艺工具，并提供相关的价格和用户评价吗？”",
+      "expected_response": "根据飞飞的人设，AI应该首先通过询问飞飞的具体需求来明确任务，例如了解他喜欢的装修风格、偏好的材料类型以及预算范围。接着，AI可以利用webSearch功能搜索详细的材料信息，包括地板类型、墙纸设计和园艺工具，并提供相关的价格比较和用户评价。AI还可以通过priceComparison功能对不同来源的材料价格进行比较，并通过userReviews功能获取用户的质量反馈。\n\nAI应该向飞飞提供详细的说明和互动式的指导，例如给出如何选择适合的材料和工具的示例，以及实际应用的案例。最后，AI可以根据飞飞的需求和预算提供灵活的解决方案，并重视实践效果，确保飞飞能够顺利完成他的家庭装修和园艺项目。",
+      "scene_context": "飞飞打算装修客厅和卧室，其中客厅地板需要耐磨且易于清洁，卧室地板需要舒适且环保。飞飞喜欢简约现代的装修风格，预算在每平方米200元以内。墙纸方面，他偏好浅色和防水材质。园艺工具方面，飞飞需要一套用于种植花卉的工具，并希望这些工具耐用且易于使用。\n\n具体需求如下：\n1. 客厅地板材料需要耐磨且易清洁。\n2. 卧室地板材料需要舒适且环保。\n3. 墙纸需要浅色和防水材质。\n4. 预算：每平方米200元以内。\n5. 园艺工具：用于种植花卉，需要耐用且易于使用。",
+      "personalized_query": "我最近在家里装修，想选些合适的材料和园艺工具，你能帮我推荐一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你推荐一些合适的材料和园艺工具。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：在购买园艺工具、高科技产品或组织社区活动时，需要帮助制定预算，跟踪支出，并提供节省建议。",
+      "available_apis": {
+        "budgetManagement": {
+          "arguments": [
+            "categories",
+            "amounts",
+            "time_period"
+          ],
+          "description": "Create and manage a budget for specified categories, track expenses, and provide saving suggestions based on spending patterns."
+        },
+        "expenseTracking": {
+          "arguments": [
+            "transaction_details"
+          ],
+          "description": "Track and log individual expenses as transactions occur, including details such as amount, date, and category."
+        },
+        "savingSuggestions": {
+          "arguments": [
+            "spending_data"
+          ],
+          "description": "Analyze spending data and provide suggestions for potential savings."
+        }
+      },
+      "scene_desc": "飞飞最近在计划购买一些新的园艺工具和高科技产品，并且他还准备组织一次社区活动。他希望能够有一个详细的预算，以便更好地管理他的开支。飞飞需要AI帮他制定预算，跟踪支出，并提供一些节省建议，以确保他的花费在控制范围内。",
+      "expected_response": "根据飞飞的人设描述，AI应该会首先询问他具体的预算金额以及各个项目的预期花费范围。接着，AI应该会使用预算管理的API来帮助飞飞制定一个详细的预算表，并将其分成不同的类别（例如园艺工具、高科技产品和社区活动）。AI还应该提供一个支出跟踪系统，让飞飞可以实时记录和查看他的花费情况。为了帮助飞飞节省开支，AI会分析他的支出数据，提供一些节省建议（例如购买便宜但高质量的替代品）。此外，AI还会设置提醒功能，提醒飞飞定期检查和调整他的预算。最终，AI会生成一个详细的预算报告，让飞飞可以清晰地了解他的财务状况。",
+      "scene_context": "飞飞计划的具体预算金额如下：\n1. 园艺工具：300美元（包括割草机、园艺剪刀、浇水系统等）\n2. 高科技产品：1500美元（例如智能家居设备、平板电脑和蓝牙耳机）\n3. 社区活动：500美元（包括场地租借、食品和饮料、活动材料等）\n\n飞飞希望AI助手能帮他制定详细的预算表，跟踪每一项支出，并提供节省建议，例如推荐便宜但高质量的替代品，并设置定期检查和调整预算的提醒。",
+      "personalized_query": "你好，我最近打算购买一些新的园艺工具和高科技产品，同时还准备组织一次社区活动。我需要你帮我制定一个详细的预算表，并跟踪每一项支出。另外，你有什么节省的建议也请分享给我。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我制定一个详细的预算表并跟踪每一项支出，同时提供一些节省的建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：他可能会有短途旅行或参加园艺展览等活动，需要帮助规划行程，提供景点推荐和交通安排。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "transportOptions": {
+          "arguments": [
+            "origin",
+            "destination",
+            "date"
+          ],
+          "description": "Get available transport options and schedules for the given origin, destination, and date."
+        }
+      },
+      "scene_desc": "飞飞是一位60岁的辽宁大连退休教师，非常重视社区和邻里关系，喜欢园艺和自然，并对新事物保持开放的态度。最近，他计划进行一次短途旅行，以参加一个他感兴趣的园艺展览。飞飞希望AI助手能够帮助他规划整个行程，包括推荐景点、安排交通工具以及提供住宿建议。他对详细的说明和互动式的指导特别感兴趣，希望能够在每一步都得到清晰的指引和选择。",
+      "expected_response": "\nAI应该首先询问飞飞具体的出发地点和目的地，并确认行程的时间范围。接着，AI应通过联网搜索功能找到园艺展览的详细信息，包括展览地点、时间和票价等。随后，AI应提供从飞飞所在位置到展览地点的交通选项，并根据飞飞的喜好（如费用、时间）推荐最合适的交通方式。AI还应该提供建议的景点和住宿选择，并能根据飞飞的反馈进行调整。如果飞飞希望了解更多信息或有任何疑虑，AI应提供进一步的详细说明和互动式的指导，确保行程的每一个环节都符合他的需求和期望。最后，AI可以帮助飞飞生成一个完整的行程计划，并询问是否需要发送提醒或通知，以确保他不会错过任何重要的安排。",
+      "scene_context": "飞飞的出发地点是辽宁大连，目的地是沈阳。行程时间为3天，计划在未来的一个周末进行。飞飞需要了解以下具体信息：\n1. 沈阳园艺展览的详细信息，包括展览地点、时间和票价。\n2. 从辽宁大连到沈阳的交通选项，包括火车、长途汽车和可能的自驾路线。\n3. 沈阳的住宿选择，要求干净、安全、靠近展览地点。\n4. 沈阳的其他推荐景点，如沈阳故宫、北陵公园等。\n5. 行程中餐饮选择，包括几家推荐的餐馆。\n\n飞飞希望AI助手提供一个详细的3天行程计划，包括以上所有信息，并提供互动式的指导和选择。",
+      "personalized_query": "嗨，帮我规划一下从大连到沈阳去参加园艺展览的行程吧。我需要知道展览的具体信息、交通方式、住宿推荐，还有沈阳有哪些景点可以顺便去看看。",
+      "neutralized_query": "<neutralized_query>\n帮助规划从大连到沈阳参加展览的行程，包括展览信息、交通方式、住宿推荐和景点推荐。\n<neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：为了保持健康，可能会进行日常运动如步行、晨跑等，需要在对话中跟踪运动数据，并提供反馈和建议。",
+      "available_apis": {
+        "trackActivity": {
+          "arguments": [
+            "activity_type",
+            "duration",
+            "distance"
+          ],
+          "description": "Tracks the user's exercise activity, including the type of activity (e.g., walking, running), duration, and distance covered."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "activity_data"
+          ],
+          "description": "Provides feedback and suggestions based on the tracked activity data to help the user improve their performance and maintain their health."
+        }
+      },
+      "scene_desc": "飞飞决定为了保持健康，每天进行步行和晨跑。他希望AI能帮助他跟踪这些运动数据，并根据他的情况提供反馈和建议。飞飞喜欢与人交流和分享经验，因此他也希望能在社交平台上分享他的运动成果。同时，他对新科技产品有一定兴趣，可能会用一些智能手环或运动追踪设备来记录他的运动数据。",
+      "expected_response": "\nAI应该会询问飞飞进行的运动类型（如步行或晨跑）、运动的时间和距离，并记录这些数据。接着，AI会根据飞飞的运动数据提供反馈和建议，比如建议他如何提高运动效果或者保持健康的注意事项。由于飞飞喜欢与人交流和分享经验，AI可以建议他将运动成果分享到社交平台上，并指导他如何使用智能手环或运动追踪设备来更加准确地记录数据。飞飞对新科技有开放态度，AI还可以推荐一些适合他的运动追踪设备，并提供购买链接或者使用指南。",
+      "scene_context": "飞飞使用的运动追踪设备包括：小米手环 5、Fitbit Charge 4 和 Apple Watch Series 6。\n\n飞飞每天的运动计划：\n- 步行：早上7点到7点30，目标步数5000步\n- 晨跑：晚上6点到6点30，目标距离3公里\n\n他希望AI能够帮他记录这些数据，并在达到目标后提醒他分享运动成果至微信或微博。同时，他对购买新的运动追踪设备有兴趣，希望AI能够提供最新设备的推荐和购买链接。",
+      "personalized_query": "早上好！我决定要开始每天步行和晨跑。能帮我记录这些数据吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙记录步行和晨跑的数据。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "Demographics": {
+    "Age": 19,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "普通话",
+      "川渝话",
+      "英文"
+    ],
+    "Career_Information": "四川某大学大一学生，擅长篮球，热爱团队合作，经常组织学校的文体活动。",
+    "Name": "张静怡"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢运动和户外活动，尤其是篮球",
+      "热衷于团队合作和集体活动",
+      "喜欢尝试新鲜事物和挑战自我",
+      "经常参与和组织学校的文体活动",
+      "对音乐有一定兴趣，尤其喜欢听摇滚和嘻哈"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常询问关于运动技巧和策略的问题。",
+    "Usage_Pattern": "使用较为频繁，主要用于学习新技能和了解团队合作技巧，偶尔会询问活动组织的建议。",
+    "Emotion_Pattern": "喜欢通过与AI交流来获取新想法和灵感。",
+    "Purchase_Pattern": "倾向于购买运动装备和电子产品，注重功能性和实用性。"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简洁明了的表达方式，讨厌冗长的解释。",
+    "Preferred_Formats": "图文结合，视频教程也很受欢迎。",
+    "Preferred_Workflows": "喜欢快速直接的答案以及清晰的步骤说明。"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：张静怡经常组织学校的文体活动，需要跟踪任务进度、分配任务、设置截止日期，确保活动顺利进行。",
+      "available_apis": null,
+      "scene_desc": "张静怡正在组织一场校内篮球赛，为确保活动顺利进行，她需要及时跟踪任务的进度、分配任务并设置截止日期。张静怡喜欢团队合作和集体活动，因此她倾向于高效、简洁地安排活动事项，并确保所有团队成员都能清楚了解各自的职责和任务进展。此外，她希望通过AI助手来提高活动组织的效率和质量。",
+      "expected_response": "\n根据张静怡的persona描述，她是一个喜欢团队合作、注重效率的活跃学生。AI应该能够迅速理解并响应她的需求。首先，AI应该询问具体需要分配哪些任务，并收集团队成员的名单。接着，AI可以帮助她设置每个任务的截止日期，并定期提醒张静怡和其他团队成员任务进度。AI应能通过简单明了的图文结合形式展示任务进度，确保信息传递的清晰性。最后，AI可以提供简洁的步骤说明来帮助张静怡高效地分配任务和设置截止日期，并定期生成进度报告供她参考。\n",
+      "scene_context": "张静怡正在组织的校内篮球赛的任务包括：\n1. 确定比赛场地和时间：需要联系校方确认场地使用时间，截止日期为本周五。\n2. 招募和分配裁判、教练：需要联系体育老师和学生志愿者，截止日期为下周一。\n3. 宣传和报名：需要制作宣传海报并在校内张贴，同时开放线上报名，截止日期为下周三。\n4. 设备和物资准备：需要准备篮球、急救箱、饮用水等物资，截止日期为比赛前一天。\n5. 场地布置和清理：比赛当天需要安排人手进行场地布置和赛后清理，截止日期为比赛当天。\n\n团队成员包括：\n- 刘伟（负责场地和时间确认）\n- 王丽（负责裁判和教练的招募与分配）\n- 陈浩（负责宣传和报名）\n- 李娜（负责设备和物资准备）\n- 孙敏（负责场地布置和清理）",
+      "personalized_query": "好的，先来理清楚目前需要处理的事情。我需要确保这次校内篮球赛的组织工作有条不紊地进行。那么，接下来我们从联系校方确认场地开始：\n\n“帮我查一下联系校方确认场地的具体步骤和注意事项，截止日期是本周五。”",
+      "neutralized_query": "<neutralized_query>\n帮我查一下联系校方确认场地的具体步骤和注意事项，截止日期是本周五。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：张静怡需要协调团队会议时间，发送邀请，并生成会议纪要，以便更好地组织文体活动。",
+      "available_apis": null,
+      "scene_desc": "张静怡正在组织一场重要的文体活动，需要协调团队成员的会议时间。她希望AI能够帮助安排一个所有人都能参加的时间段，并生成会议邀请。同时，张静怡还希望AI能协助记录会议纪要，以便更好地组织和协调后续工作。",
+      "expected_response": "\n根据张静怡的persona描述，她是一个注重团队合作和活动组织的外向型大学生，AI应该迅速理解并响应她的需求。AI首先应该询问具体需要邀请哪些团队成员，并是否有优先考虑的时间段（如工作日的下午或周末）。接着，AI应该通过访问团队成员的日程安排，快速找出一个所有人都可参与的时间。AI还应该询问是否需要设置定时提醒以确保会议顺利进行，并在会议邀请中包含会议议程或需要讨论的文件。最后，AI应该生成一个简洁明了、专业的会议邀请，待张静怡确认后直接发送。此外，AI会在会议期间协助记录要点，生成详细的会议纪要并在会后分享给所有参会人员，以确保无遗漏并促进后续的工作安排。",
+      "scene_context": "张静怡需要邀请的团队成员包括：李雷、韩梅梅、王强和赵敏。她希望会议能安排在工作日的下午，最好是周三或者周四。会议议程包括以下几点：1. 文体活动的总体安排；2. 活动所需物资的准备情况；3. 各小组的任务分配；4. 活动宣传策略。张静怡还希望AI能在会议开始前15分钟发送提醒，并在会议结束后生成详细的会议纪要，包含讨论要点、决定事项和后续行动计划。",
+      "personalized_query": "嘿，AI，我需要帮忙安排一个团队会议。我们要讨论一些关于文体活动的事宜。你能帮我找个合适的时间并发送会议邀请吗？最好是在工作日的下午，周三或周四。",
+      "neutralized_query": "<neutralized_query>\n我需要帮忙安排一个团队会议，讨论文体活动的事宜。你能找个合适的时间并发送会议邀请吗？最好是在工作日的下午，周三或周四。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：张静怡擅长篮球，热爱运动，使用运动追踪功能来记录运动数据，如步数、跑步距离等，并获取反馈来改善自己的运动表现。",
+      "available_apis": null,
+      "scene_desc": "张静怡刚刚完成了一次篮球训练，想要使用他的AI助手来记录这次训练的数据。张静怡希望能够追踪他在训练中的步数、跑步距离、消耗的卡路里等数据，并从AI助手那里获取反馈，以便改进自己的运动表现。他希望AI能够根据这些数据提供一些改善训练效果的建议，并推荐一些相关的训练视频和资源。",
+      "expected_response": "\nAI助手应首先询问张静怡是否需要记录当前的训练数据，如步数、跑步距离和消耗的卡路里。当获取到这些数据后，AI助手应进行分析并提供反馈，包括张静怡的表现如何，与以往的训练数据相比是否有进步。接着，AI助手应根据分析结果提供一些具体的建议，例如如何改进跑步姿势、增加训练强度或调整训练计划。最后，AI助手可以推荐一些相关的训练视频和资源，帮助张静怡在篮球技能和运动表现上取得进一步的提升。由于张静怡偏好简洁明了的表达方式，AI的反馈和建议应简明扼要，并结合图文或视频教程，以便他能够快速理解和应用。",
+      "scene_context": "张静怡在这次篮球训练中记录的数据包括：步数为8500步，跑步距离为5公里，消耗的卡路里为450大卡。",
+      "personalized_query": "今天训练结束了，想记录下数据。我的步数是8500步，跑步距离5公里，消耗了450大卡。你可以帮我记录一下这些数据吗？另外，还想从你这获得一些建议，看看怎么改进训练效果。",
+      "neutralized_query": "<neutralized_query>\n我想记录一下今天的运动数据，步数是8500步，跑步距离5公里，消耗了450大卡。你可以帮我记录这些数据吗？另外，还想获得一些改进训练效果的建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：作为大学生，张静怡可能会在课程中需要编程帮助，通过多轮对话调试代码，定位错误并提出解决方案。",
+      "available_apis": {
+        "codeAnalysis": {
+          "arguments": [
+            "code"
+          ],
+          "description": "Analyzes the provided code and identifies potential errors or issues."
+        },
+        "explainError": {
+          "arguments": [
+            "error"
+          ],
+          "description": "Provides a detailed explanation of the identified error and suggests possible solutions."
+        },
+        "codeOptimizationSuggestions": {
+          "arguments": [
+            "code"
+          ],
+          "description": "Offers suggestions on how to optimize the provided code for better performance or readability."
+        }
+      },
+      "scene_desc": "张静怡正在准备她的编程课程作业，但遇到了一些代码错误，无法找到解决方案。她决定求助于AI助手，希望能通过多轮对话来调试代码，定位错误并提出解决方案。张静怡希望AI助手能帮助她快速找到代码中的问题，并提供易于理解的解释和优化建议。",
+      "expected_response": "\n根据张静怡的persona描述，她是一个喜欢简洁明了的表达方式，讨厌冗长解释的人。因此，AI应该首先询问她提供具体的代码片段，以便分析错误。AI接着使用codeAnalysis功能识别潜在问题，并概要性地解释错误的原因。然后，AI可以使用explainError功能进一步提供详细的错误解释和可能的解决方案。同时，AI可以利用codeOptimizationSuggestions功能，提出一些代码优化建议，以提高代码的性能或可读性。整个过程中，AI应保持交流简洁明了，并明确列出各步骤和解决方案，符合张静怡的偏好。\n",
+      "scene_context": "张静怡最近在编写一个简单的Python程序，但她遇到了一个错误。她的代码如下：\n\n```python\ndef calculate_average(numbers):\n    total = sum(numbers)\n    count = len(numbers)\n    average = total / count\n    return average\n\nnumbers = [1, 2, 3, 4, 5]\nprint(\"The average is:\", calculate_average(numbers))\n```\n\n她使用Python 3.8来运行这段代码，结果却发现运行时抛出了一个错误提示。她不知道错误的原因和如何解决，所以她决定求助AI助手来帮助调试这段代码。",
+      "personalized_query": "AI助手，我正在写一个Python程序来计算平均值，但运行的时候却遇到了一个错误。我不太清楚具体问题出在哪里，能帮我看看吗？这是我的代码：\n\n```python\ndef calculate_average(numbers):\n    total = sum(numbers)\n    count = len(numbers)\n    average = total / count\n    return average\n\nnumbers = [1, 2, 3, 4, 5]\nprint(\"The average is:\", calculate_average(numbers))\n```\n\n能帮我找找问题吗？谢谢！",
+      "neutralized_query": "<neutralized_query>\n我正在写一个Python程序来计算平均值，但运行的时候却遇到了一个错误。能帮我看看哪里出问题了吗？这是我的代码：\n\n```python\ndef calculate_average(numbers):\n    total = sum(numbers)\n    count = len(numbers)\n    average = total / count\n    return average\n\nnumbers = [1, 2, 3, 4, 5]\nprint(\"The average is:\", calculate_average(numbers))\n```\n\n能帮我找找问题吗？谢谢！\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：张静怡在大学学习期间需要生成复习计划，提供考点总结和练习题，以便更好地准备考试。",
+      "available_apis": {
+        "getCourseInfo": {
+          "arguments": [
+            "student_id"
+          ],
+          "description": "Retrieve the list of courses and their respective exam dates for a given student."
+        },
+        "generateStudyPlan": {
+          "arguments": [
+            "course_list",
+            "exam_dates"
+          ],
+          "description": "Generate a study plan that includes a summary of key points and practice questions for each course."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for relevant study materials and practice questions."
+        }
+      },
+      "scene_desc": "张静怡正准备期末考试，她需要一个详细的复习计划，包括考点总结和练习题。作为一名大一学生，她的课程较多，时间安排紧凑，因此她希望通过AI助手快速生成一个高效的复习计划。张静怡希望这个计划能帮助她更好地抓住重点，提高复习效率。",
+      "expected_response": "根据张静怡的persona描述，她是一名热爱团队合作、喜欢挑战自我的学生，AI首先应该询问她的考试科目和考试日期。接着，AI应该通过获取她的课程信息来了解具体的考点分布，并生成一个合理的复习计划。这个计划应当包括每天的复习内容安排、重要考点总结以及练习题。AI还应该提供图文结合的学习资料，因为张静怡喜欢这种形式。为了提高她的复习效率，AI还可以推荐一些视频教程。同时，AI应该快速、直接地给出答案和清晰的步骤说明，以适应张静怡喜欢简洁明了的表达方式。最后，AI可以设置复习提醒，确保张静怡能够按时完成计划。",
+      "scene_context": "张静怡需要复习的考试科目包括：高等数学、大学英语、计算机基础。\n各科的考试日期分别为：\n- 高等数学：6月15日\n- 大学英语：6月18日\n- 计算机基础：6月20日\n\n张静怡希望获得的复习计划应包括以下内容：\n1. 每天的复习内容安排，例如：每天复习哪科的哪些章节。\n2. 重要考点总结，例如：各科的核心概念和公式。\n3. 练习题，例如：各科的典型例题和习题。\n4. 图文结合的学习资料，例如：包含图片、图表和简明扼要的文字描述的资料。\n5. 视频教程推荐，例如：与各科相关的优质教学视频。\n\n此外，AI需要设置复习提醒，以确保张静怡能够按时完成复习计划。",
+      "personalized_query": "我明白了。我们现在开始吧。\n\n```\n张静怡：嘿AI，我期末考试快到了，需要一个高效的复习计划，能帮我制定一下吗？\n```",
+      "neutralized_query": "<neutralized_query>\n我期末考试快到了，需要一个高效的复习计划，能帮我制定一下吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：作为学生，张静怡需要制定预算，跟踪生活支出，并获取节省建议，以便合理管理财务。",
+      "available_apis": {
+        "getUserInput": {
+          "arguments": [
+            "income",
+            "expense_categories"
+          ],
+          "description": "获取用户的月收入和主要支出类别。"
+        },
+        "recordExpense": {
+          "arguments": [
+            "date",
+            "amount",
+            "category"
+          ],
+          "description": "记录日常支出，按日期、金额和类别分类。"
+        },
+        "analyzeExpenses": {
+          "arguments": [
+            "expense_data"
+          ],
+          "description": "分析支出数据，找出可以节省的地方。"
+        },
+        "provideSavingsTips": {
+          "arguments": [],
+          "description": "提供一些节省小贴士和资源链接。"
+        }
+      },
+      "scene_desc": "张静怡作为一名大一学生，她需要制定一个合理的预算来跟踪和管理自己的生活支出，并获取节省建议。她想要一个简洁明了的方式来记录和分析支出，并希望能得到一些实用的省钱小贴士。由于她经常购买运动装备和电子产品，所以她特别关注这些方面的支出管理。\n\n她可能会在一个月的开始或特定时期（例如新学期开始时）启动这个任务，方便她规划整个学期的财务状况。她会希望快速获取有关不同支出类别（如饮食、交通、娱乐、运动装备等）的管理方式，并获取一些有针对性的省钱建议。\n\n她的预算管理需求包括：\n1. 获取和输入她的月收入和主要支出类别。\n2. 记录日常支出并分类。\n3. 分析支出数据，找出可以节省的地方。\n4. 提供省钱小贴士和资源链接。\n\n基于张静怡的偏好，她会希望这个过程快速直接，且结果有清晰的步骤说明和图文结合的展示方式。",
+      "expected_response": "AI首先应该询问张静怡的月收入和主要支出类别，例如饮食、交通、娱乐、运动装备等。接着，AI应该引导她记录每一笔日常支出，按日期、金额和类别分类，并提供一个简洁明了的界面供她查看和管理这些数据。\n\n接下来，AI会分析这些支出数据，找出可以节省的地方，并提供一些实用的省钱小贴士和资源链接，尤其是她关注的运动装备和电子产品的优惠信息。\n\nAI应该确保整个过程快速直接，避免冗长的解释，而且在提供省钱建议时，尽可能使用图文结合的方式，让张静怡可以直观地理解和应用这些建议。最终，AI可能会设置一些提醒功能，帮助张静怡定期检查和更新她的预算和支出情况。",
+      "scene_context": "张静怡的月收入为3000元，主要支出类别包括：\n1. 饮食：每月预算800元\n2. 交通：每月预算300元\n3. 娱乐：每月预算400元\n4. 运动装备：每月预算500元\n5. 电子产品：每月预算700元\n6. 其他杂费：每月预算300元\n\n她希望在新学期开始时启动这个预算管理任务，并希望AI能够在每个月的开始提醒她检查和更新预算。同时，她非常关注运动装备和电子产品的优惠信息，希望能够获取这些方面的节省建议和资源链接。",
+      "personalized_query": "嘿，我需要制定一个预算来管理我的生活支出。可以帮我弄一个简洁的记录和分析方法吗？希望能有一些实用的省钱小贴士，尤其是关于运动装备和电子产品的。",
+      "neutralized_query": "<neutralized_query>\n我需要制定一个预算来管理生活支出。可以帮我弄一个简洁的记录和分析方法吗？希望能有一些实用的省钱小贴士。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：张静怡在大学期间可能会关注自己未来的职业发展，通过职业建议功能获取更好的职业规划和机会。",
+      "available_apis": {
+        "getUserBackground": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the user's background information, including education, interests, and previous work experience."
+        },
+        "getCareerRecommendations": {
+          "arguments": [
+            "user_background"
+          ],
+          "description": "Provides career development suggestions and potential job opportunities based on the user's background and interests."
+        }
+      },
+      "scene_desc": "张静怡是四川某大学的一名大一学生，热爱运动和户外活动，尤其擅长篮球。她热衷团队合作，经常组织和参与学校的文体活动。张静怡目前开始关注她的职业发展，希望通过AI助手获取职业建议，帮助她制定未来的职业规划和发现潜在的工作机会。她希望AI能够提供详细的职业路径建议，并能根据她的教育背景、兴趣爱好和已有经验进行个性化推荐。",
+      "expected_response": "AI应该首先询问张静怡的背景信息，包括她的教育经历、兴趣爱好和之前的工作或志愿服务经历。接着，AI应该结合这些信息，并考虑到她热爱团队合作和文体活动的特点，提供一些适合的职业路径建议。例如，可以推荐一些与体育管理、活动策划、团队培训相关的工作机会。AI还应该给出具体的步骤和资源，帮助她了解这些职业路径所需的技能和经验。进一步，AI可以建议她参加一些相关的实习或志愿者活动，并提供这些机会的具体信息和申请流程。最后，AI应该生成一个详细的职业规划文档，并为她提供定期更新和调整的选项。",
+      "scene_context": "张静怡的背景信息如下：\n- 教育背景：四川某大学大一学生\n- 兴趣爱好：运动、户外活动、篮球\n- 组织和参与的活动：学校文体活动\n- 之前的经历：组织策划学校篮球比赛和文体活动\n\n张静怡希望获取职业建议的目标：\n1. 制定未来的职业规划\n2. 发现潜在的工作机会\n\n她希望AI能够提供的具体信息：\n1. 适合她的职业路径建议，如体育管理、活动策划、团队培训等\n2. 这些职业路径所需的技能和经验\n3. 相关的实习或志愿者活动机会及申请流程\n4. 生成详细的职业规划文档，并提供定期更新和调整的选项",
+      "personalized_query": "嘿，今天我有点事情想请教你。\n\n最近我开始关注自己的职业发展方向了，特别是考虑未来能做什么。你能帮我列举一些适合我的职业路径吗？比如体育管理、活动策划、团队培训之类的。还有，这些职业需要什么样的技能和经验？",
+      "neutralized_query": "<neutralized_query>\n我需要一些适合的职业路径推荐，并且这些职业需要什么样的技能和经验。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：张静怡可能需要在大学期间准备实习或兼职面试，通过模拟面试练习来提升面试技巧。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张静怡需要准备一次实习或兼职面试，以获得更多实践经验和提升自己的专业能力。她希望通过AI助手进行模拟面试练习，以提高她在实际面试中的表现。张静怡希望能够针对特定的职位或行业类型进行模拟，并获取有针对性的反馈和建议。她还希望能够通过AI助手找到一些相关的面试问题和回答技巧，以便更好地准备面试。",
+      "expected_response": "根据张静怡的persona描述，她是一个热爱团队合作和集体活动的外向型性格，同时又注重实际操作和简洁明了的指导。AI应该首先询问张静怡具体面试的职位或行业类型，以及需要模拟的面试问题类型。AI应提供相关的面试问题和回答技巧，并模拟面试过程，给予即时反馈和改进建议。AI还应根据张静怡的表现提供详细的分析报告，指出她的优势和需要改进的地方。最后，AI应该询问她是否需要进一步的帮助，如查找面试相关的资料或练习更多的面试问题。",
+      "scene_context": "张静怡正在准备一场针对软件开发实习岗位的面试。她希望模拟面试的内容能够包括以下几个方面：\n1. 技术问题：例如数据结构与算法、编程语言相关问题（如Python或Java）。\n2. 行为问题：如团队合作经历、项目管理经验、解决问题的能力等。\n3. 公司相关问题：如对公司背景的了解、对该岗位的理解和职业规划等。\n\n她希望AI助手能够提供模拟面试问题，并在回答之后给予即时的反馈和改进建议。此外，她还希望AI助手能够在面试结束后生成一份详细的分析报告，指出她的优势和需要改进的地方。",
+      "personalized_query": "嘿，AI助手，我马上有个软件开发实习的面试，想做个模拟面试练习。可以帮我准备几个技术问题和行为问题吗？先来几个技术问题吧，包括数据结构和算法，还有Python或Java相关的。",
+      "neutralized_query": "<neutralized_query>\n我马上有个软件开发实习的面试，想做个模拟面试练习。可以帮我准备几个技术问题和行为问题吗？先来几个技术问题吧，包括数据结构和算法，还有Python或Java相关的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：张静怡需要安排课程、运动、社交活动等，通过日程管理功能设定提醒并管理待办事项，提高时间管理效率。",
+      "available_apis": {
+        "addOrUpdateEvent": {
+          "arguments": [
+            "eventDetails"
+          ],
+          "description": "Adds a new event or updates an existing event in the schedule. Event details include title, date, time, location, and description."
+        },
+        "setReminder": {
+          "arguments": [
+            "eventID",
+            "reminderTime"
+          ],
+          "description": "Sets a reminder for a specific event. Requires the event ID and the reminder time."
+        },
+        "manageToDos": {
+          "arguments": [
+            "toDoAction",
+            "toDoDetails"
+          ],
+          "description": "Manages to-do items. Can add, update, or delete to-dos. Requires the action type (add, update, delete) and the to-do details."
+        }
+      },
+      "scene_desc": "张静怡是一名四川某大学的大一学生，热爱篮球和团队合作，经常组织学校的文体活动。她需要安排她的日程，包括课程、运动和社交活动。她希望通过AI助手设定提醒并管理待办事项，以提高她的时间管理效率。",
+      "expected_response": "根据张静怡的persona描述，她是一个外向且热衷于团队合作和集体活动的人。AI应该首先询问她需要安排的具体活动类型，如课程、篮球训练或社交活动。接着，AI应该询问每个活动的详细信息，包括时间、地点和优先级。AI应该提供一个简洁明了的界面，让张静怡能够快速输入这些信息。此后，AI可以设置相应的提醒，确保她不会错过任何重要的活动。最后，AI还应该提供日程的整体视图，并在需要时为她提供优化的时间安排建议，以便她能够更有效率地管理自己的时间。",
+      "scene_context": "张静怡需要安排的具体活动包括：\n1. 课程安排：\n   - 大学数学，每周一、三、五 10:00-11:30，教室：A101\n   - 大学英语，每周二、四 14:00-15:30，教室：B202\n   - 计算机基础，每周三、五 16:00-17:30，教室：C303\n\n2. 运动安排：\n   - 篮球训练，每周二、四 18:00-20:00，学校体育馆\n\n3. 社交活动：\n   - 文艺晚会筹备会议，每周一 19:00-21:00，学生会办公室\n   - 周末聚餐，本周六 18:00-20:00，学校附近餐厅\n\n张静怡希望AI助手能够帮助她设定这些活动的提醒，并管理待办事项。",
+      "personalized_query": "嗨，帮我安排一下这周的日程吧。我有些固定的课程和活动需要提醒。能帮我设定这些提醒吗？",
+      "neutralized_query": "<neutralized_query>\n帮我安排一下这周的日程，设定提醒并管理待办事项。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "组建篮球队：张静怡计划组建一支校内篮球队，需要制定训练计划和比赛策略。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the internet for the given query and return the most relevant response."
+        },
+        "recommendTrainingSchedule": {
+          "arguments": [
+            "team_level",
+            "available_time"
+          ],
+          "description": "Recommend a detailed basketball training schedule based on the team's level and available training time."
+        }
+      },
+      "scene_desc": "张静怡正在积极筹备组建一支校内篮球队。作为一个热衷于团队合作和篮球运动的大一学生，她希望制定一个详细的训练计划和比赛策略，以提高队伍的整体水平，并为即将到来的校际比赛做好准备。她需要确定训练的频率、内容和时间，以及制定有效的比赛策略来提升团队的协作和战术水平。张静怡会利用AI助手来帮助完成这些任务。",
+      "expected_response": "\nAI应该首先询问张静怡关于篮球队的具体信息，例如队伍的水平（初学者、中级还是高级）和可用于训练的时间段。接着，AI应该根据这些信息通过推荐详细的篮球训练计划，包括体能训练、战术演练和技能提升等内容。AI还应该帮助制定出一系列比赛策略，考虑到张静怡对团队合作的重视，突出协作和战术执行。AI可以通过联网搜索和智能推荐，为张静怡提供相关的视频教程和训练资源。最后，AI应提供一个完整的训练时间表，并询问是否需要设置自动提醒，以确保每次训练都能按时进行。",
+      "scene_context": "张静怡的篮球队由大一新生组成，队伍的水平为初学者。她计划每周进行三次训练，每次训练为两小时。训练时间安排在周一、周三和周五的下午4点到6点。张静怡希望训练内容能够包括以下几个方面：\n1. 基础体能训练：跑步、跳绳、核心训练等\n2. 基本篮球技能训练：运球、传球、投篮等\n3. 战术演练：进攻战术、防守战术、小组配合等\n4. 比赛模拟：分组对抗赛、实际比赛场景演练等\n\n此外，张静怡希望AI助手能够帮助她设计一个初步的比赛策略，重点是团队合作和战术执行。",
+      "personalized_query": "嗨，我正在组建一支校内篮球队，想请你帮忙制定一个详细的训练计划。我们队水平整体比较初级，计划每周训练三次，每次两小时。能帮我设计一下训练内容吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一个详细的篮球队训练计划，假设队伍水平较初级，每周训练三次，每次两小时。\n</neutralized_query>"
+    }
+  ]
+}

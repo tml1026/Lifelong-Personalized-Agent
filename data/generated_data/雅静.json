@@ -1,0 +1,254 @@
+{
+  "Demographics": {
+    "Age": 55,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "粤语"
+    ],
+    "Career_Information": "在一家建筑公司担任项目经理",
+    "Name": "雅静"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "热爱运动",
+      "喜欢户外活动",
+      "注重效率和秩序",
+      "喜欢古代历史"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "专注于解决实际问题",
+    "Usage_Pattern": "频繁使用；寻求快速、明确的答案",
+    "Emotion_Pattern": "高效且冷静",
+    "Purchase_Pattern": "实用性强，注重品质和耐用性"
+  },
+  "Preference": {
+    "Preferred_Styles": "简明扼要，结构清晰",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢分步骤的详细指导，优先处理紧急和重要的任务"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：雅静在建筑公司担任项目经理，需要通过多轮对话协助跟踪任务进度、分配任务、设置截止日期，以确保项目按时完成。",
+      "available_apis": null,
+      "scene_desc": "雅静正在协调一个大型建筑项目的管理工作。项目涉及多个团队和多个任务，每个任务都有严格的截止日期。为了确保项目按时完成，雅静需要使用AI助手来帮助他跟踪任务进度、分配任务、设置截止日期，并处理相关的突发状况。在这个场景中，雅静可能会与AI进行多轮对话，以确保所有任务都在轨道上，并且团队成员了解他们的职责和时间表。",
+      "expected_response": "\nAI应该首先询问雅静当前项目的总体进度和具体需要跟踪的任务。接着，AI应该帮助雅静分配任务给适当的团队成员，并设置相应的截止日期。AI还应该能够提供实时的任务进度更新，并在有任何任务出现延误或问题时立即通知雅静。考虑到雅静注重效率和秩序，AI应该提供简明扼要且结构清晰的信息，并优先处理紧急和重要的任务。AI还可以建议最佳的任务分配策略，以确保所有任务能够按时完成。最后，AI应记录所有的任务和相应的分配情况，并生成每日或每周的进度报告供雅静参考。",
+      "scene_context": "雅静需要管理的具体任务包括：完成地基施工、安装电力系统和进行外墙装饰。她需要将这些任务分配给不同的团队成员，并设置具体的截止日期。地基施工需要在两周内完成，安装电力系统需要在一个月内完成，而外墙装饰需要在六周内完成。此外，雅静需要实时跟踪这些任务的进度，并立即得到任何延误或问题的通知。她还希望AI助手生成每日的进度报告，以确保所有任务都按计划进行。",
+      "personalized_query": "我需要你帮我跟踪一下几个建筑任务的进度情况。我先告诉你地基施工方面的任务，这个任务需要在两周内完成。请盯紧这个任务的进展，并给我生成每日的进度报告。另外，如果有任何延误或问题，立刻通知我。谢谢。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我跟踪一个任务的进度情况。任务需要在两周内完成，请生成每日的进度报告，并在有任何延误或问题时立刻通知我。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：雅静需要协调项目相关的多方会议时间、发送邀请、生成会议纪要，以便保持团队沟通高效。",
+      "available_apis": null,
+      "scene_desc": "雅静正在计划一个与项目相关的多方会议，以确保项目的顺利推进。作为一名建筑公司的项目经理，他需要协调多个部门的参与，并确保会议的高效进行。雅静希望通过AI助手来安排会议时间、发送邀请，并生成会议纪要，以便保持团队的沟通高效。雅静要求会议邀请应包括具体的议程和相关文件，以便与会人员能够提前准备，并且希望在会议结束后能迅速收到会议纪要。",
+      "expected_response": "根据雅静的persona描述，他是一个注重效率和秩序的外向型项目经理，AI应该能够迅速理解并响应他的需求。AI应该首先询问具体需要邀请哪些团队成员，并询问是否需要考虑特定的时间段（如上午或下午）。接着，AI应该通过访问企业办公软件中团队成员的schedule，快速找出一个所有人都可以参与的时间。AI还应该设置一个定时自动提醒雅静会议的时间和内容，并询问要在会议邀请中包含哪些议程或文件。最后，AI应该生成一个专业的会议邀请，并提供选项让他确认后直接发送。会议结束后，AI应该能够迅速生成会议纪要，并发送给所有与会人员。",
+      "scene_context": "雅静需要协调的项目会议涉及以下部门和人员：\n- 工程部：李伟、张霞\n- 设计部：王琳、陈凯\n- 采购部：赵强\n\n雅静希望会议安排在下周，并且时间最好在上午。会议议程包括以下内容：\n1. 项目进度汇报\n2. 设计方案讨论\n3. 采购进度更新\n4. 风险评估与解决方案\n\n雅静希望在会议邀请中包含以下文件：\n- 最新的项目进度报告\n- 设计方案初稿\n- 采购清单\n\n会议纪要应包括每个议题的讨论结果、决策和后续行动项，并在会议结束后迅速发送给所有与会人员。",
+      "personalized_query": "好的，我正在规划下周的项目会议。请帮我安排会议时间在上午，并且确认以下人员的时间安排：\n\n- 工程部：李伟、张霞\n- 设计部：王琳、陈凯\n- 采购部：赵强\n\n安排好时间后，请发送会议邀请。会议议程包括以下内容：\n1. 项目进度汇报\n2. 设计方案讨论\n3. 采购进度更新\n4. 风险评估与解决方案\n\n邀请中需要包含以下文件：\n- 最新的项目进度报告\n- 设计方案初稿\n- 采购清单\n\n安排好后，请尽快通知我。",
+      "neutralized_query": "<neutralized_query>\n请帮我安排下周项目会议的时间在上午，并确认工程部、设计部和采购部的相关人员时间安排。安排好时间后，请发送会议邀请。会议议程包括以下内容：\n1. 项目进度汇报\n2. 设计方案讨论\n3. 采购进度更新\n4. 风险评估与解决方案\n\n邀请中需要包含以下文件：\n- 最新的项目进度报告\n- 设计方案初稿\n- 采购清单\n\n安排好后，请尽快通知我。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：雅静需要规划出差行程，去不同工地视察、与客户洽谈项目细节或参加行业展会。",
+      "available_apis": null,
+      "scene_desc": "雅静需要规划一次出差行程，目标是去不同的工地视察，并与客户洽谈项目细节，或者参加即将到来的行业展会。他的出差计划需要涵盖多个地点，因此需要一个详细的路线安排，同时确保时间安排高效，便于他在有限的时间内完成所有任务。由于雅静注重效率和秩序，他希望能够快速获得一个简明扼要且结构清晰的行程安排。",
+      "expected_response": "\n根据雅静的persona描述，AI首先应该询问本次出差的具体日期和预计的出差时间长度。接着，AI会询问雅静需要访问的具体工地地址、客户的会见时间和地点、以及行业展会的日期和地点。AI会根据这些信息生成一个初步的路线规划，并确保这些地点之间的交通时间和方式最为高效。考虑到雅静喜欢分步骤的详细指导，AI应该会提供一个分阶段的行程安排，并在每个阶段设定明确的任务和目标。最后，AI会为雅静生成一个详细的行程表，包括交通方式、预计时间、任务列表和联系人信息，并询问雅静是否需要进一步调整或添加其他安排。",
+      "scene_context": "雅静需要访问的具体地点和时间安排如下：\n1. 工地视察：\n   - 工地A：地址为北京市海淀区xxx路xxx号，视察时间为2023年10月10日上午9点至11点。\n   - 工地B：地址为上海市浦东新区xxx街xxx号，视察时间为2023年10月11日上午10点至12点。\n   \n2. 客户会见：\n   - 客户X：会见地点为南京市玄武区xxx路xxx号，时间为2023年10月12日下午2点至4点。\n   - 客户Y：会见地点为广州市天河区xxx街xxx号，时间为2023年10月14日下午3点至5点。\n\n3. 行业展会：\n   - 展会地点：深圳市福田区xxx展览中心，展会日期为2023年10月15日，全天参加。\n\n雅静预计从2023年10月10日到2023年10月15日出差。希望AI助手能够根据以上信息生成一个详细的行程表，并提供最优的交通安排。",
+      "personalized_query": "我需要你帮我规划一次出差行程。我要去几个不同的工地视察，还需要会见客户和参加一个行业展会。你能不能先帮我把整个行程大致安排一下？时间上要尽量高效。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划一次出差行程，包括多个工地视察、会见客户和参加一个行业展会。你能不能先帮我把整个行程大致安排一下？时间上要尽量高效。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "病毒自查：雅静经常进行户外活动，可能会接触到各种环境，需要通过对话询问症状，提供可能的疾病信息，并建议是否就医。",
+      "available_apis": {
+        "askSymptoms": {
+          "arguments": [
+            "user_name"
+          ],
+          "description": "Prompt the user to describe their current symptoms."
+        },
+        "analyzeSymptoms": {
+          "arguments": [
+            "symptoms"
+          ],
+          "description": "Analyze the provided symptoms and return possible conditions."
+        },
+        "provideMedicalAdvice": {
+          "arguments": [
+            "conditions"
+          ],
+          "description": "Based on the analyzed conditions, provide medical advice including whether to see a doctor."
+        }
+      },
+      "scene_desc": "雅静最近参加了一次公司组织的户外登山活动，回到家后感到有些身体不适，担心自己可能染上了某种疾病。他打算使用AI助手来检查自己的症状，以了解自己是否需要去看医生。雅静希望能够快速、准确地得到建议，以便采取有效措施。",
+      "expected_response": "\n根据雅静的persona描述，AI应该首先通过\"askSymptoms\" API询问他的具体症状，包括症状的类型、持续时间以及严重程度。然后使用\"analyzeSymptoms\" API对这些症状进行分析，确定可能的疾病。接着，AI应该根据分析结果，使用\"provideMedicalAdvice\" API提供建议，包括是否需要就医、可能的疾病信息以及初步的护理方法。由于雅静注重效率和秩序，AI的应答应该简明扼要且结构清晰，以便他能迅速理解并采取必要措施。AI还可以为雅静提供一些预防措施，帮助他在未来的户外活动中更好地保护自己。",
+      "scene_context": "雅静的具体症状如下：\n1. 头痛，持续时间：2天，严重程度：中等\n2. 发烧，持续时间：1天，严重程度：高\n3. 喉咙痛，持续时间：1天，严重程度：轻微\n4. 身体乏力，持续时间：2天，严重程度：中等\n\n她希望AI能够帮助分析这些症状，提供可能的疾病信息和是否需要就医的建议。",
+      "personalized_query": "我最近参加了一次公司举办的户外登山活动，现在回到家后感到有些不适。我需要你帮我检查一下我的症状，看看是不是需要去看医生。\n\n我主要的症状有头痛、发烧、喉咙痛和身体乏力。你能给我一些建议吗？",
+      "neutralized_query": "<neutralized_query>\n我感到不适，症状有头痛、发烧、喉咙痛和身体乏力。请帮我检查一下这些症状，并建议是否需要去看医生。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：雅静需要为家庭和工作项目制定预算，跟踪支出，并获得节省建议，以便更好地管理财务。",
+      "available_apis": {
+        "createBudget": {
+          "arguments": [
+            "project_name",
+            "budget_amount",
+            "time_period"
+          ],
+          "description": "Creates and manages a budget for a specified project, including the total budget amount and time period."
+        },
+        "trackExpenses": {
+          "arguments": [
+            "project_name",
+            "expense_amount",
+            "expense_category",
+            "date"
+          ],
+          "description": "Tracks and records expenses for the specified project, categorized by expense type and date."
+        },
+        "analyzeExpensesAndSuggestSavings": {
+          "arguments": [
+            "project_name"
+          ],
+          "description": "Analyzes recorded expenses for the specified project and provides suggestions for potential savings based on spending patterns."
+        }
+      },
+      "scene_desc": "雅静是一位55岁的建筑公司项目经理，他热爱运动、喜欢户外活动、注重效率和秩序，同时对古代历史有着浓厚的兴趣。作为一个重视实际问题解决的外向型思考者，他频繁使用AI助手，并且需要快速、明确的答案。他注重实用性强且品质和耐用性高的产品，并且喜欢简明扼要、结构清晰的交流方式。在今天的工作中，雅静需要为家庭和工作项目制定预算，跟踪支出，并获得节省建议，以便更好地管理财务。",
+      "expected_response": "\n根据雅静的设定，AI助手会首先询问雅静需要为哪些具体的工作项目和家庭项目制定预算，并询问预算的总体金额和时间周期。接着，AI会指导雅静分步输入各项开支的详细信息，包括金额、类别和日期。AI会利用这些信息跟踪每项支出，并进行分类记录。在此基础上，AI应当能分析记录的支出数据，识别出支出模式，并提供具体的节省建议。最后，AI应该为雅静生成一个财务报告，详细列出预算、实际支出和节省建议，并询问是否需要将报告发送到雅静的邮箱或者公司内部的财务管理系统中。",
+      "scene_context": "雅静今天需要制定预算并跟踪支出的具体项目包括：\n1. 家庭项目：家庭装修（预算金额：5万元，时间周期：3个月）\n2. 工作项目：新办公楼建设（预算金额：200万元，时间周期：6个月）\n3. 家庭项目：子女教育费用（预算金额：10万元，时间周期：1年）\n\n雅静希望AI助手帮助他：\n1. 输入各项开支的详细信息，包括金额、类别和日期。\n2. 跟踪每项支出，并进行分类记录。\n3. 分析记录的支出数据，识别出支出模式。\n4. 提供具体的节省建议。\n5. 生成一个财务报告，详细列出预算、实际支出和节省建议。\n6. 询问是否需要将报告发送到雅静的邮箱或者公司内部的财务管理系统中。",
+      "personalized_query": "我今天得制定一些预算和跟踪支出。首先，帮我录入以下几项家庭和工作项目的详细信息：\n\n1. 家庭装修\n   - 预算金额：5万元\n   - 时间周期：3个月\n\n2. 新办公楼建设\n   - 预算金额：200万元\n   - 时间周期：6个月\n\n3. 子女教育费用\n   - 预算金额：10万元\n   - 时间周期：1年\n\n帮我分类记录这些开支，然后我们再来分析数据和讨论节省建议。",
+      "neutralized_query": "<neutralized_query>\n我需要制定一些预算和跟踪支出，请帮我录入以下几项项目的详细信息：\n\n1. 项目A\n   - 预算金额：5万元\n   - 时间周期：3个月\n\n2. 项目B\n   - 预算金额：200万元\n   - 时间周期：6个月\n\n3. 项目C\n   - 预算金额：10万元\n   - 时间周期：1年\n\n帮助我分类记录这些开支，然后我们再来分析数据和讨论节省建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资建议：雅静注重效率和秩序，需要初步的投资建议，帮助进行理财规划，以确保财务稳定。",
+      "available_apis": {
+        "askFinancialInfo": {
+          "arguments": [
+            "income",
+            "expenses",
+            "savings",
+            "investment_goals",
+            "risk_tolerance"
+          ],
+          "description": "Collects financial information from the user including income, expenses, savings, investment goals, and risk tolerance."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the latest investment information and return the most relevant response."
+        },
+        "recommendTools": {
+          "arguments": [
+            "financial_info"
+          ],
+          "description": "Recommends financial planning tools and resources based on the user's financial information."
+        }
+      },
+      "scene_desc": "雅静是一名55岁的中国男性，担任一家建筑公司的项目经理。他性格外向，注重效率和秩序，喜欢解决实际问题，平时热爱运动和户外活动，并对古代历史有浓厚兴趣。现在，雅静需要获得初步的投资建议，以帮助进行理财规划，确保财务稳定。作为一个高效且冷静的人，他希望能迅速得到明确和实用的答案。\n\n雅静可能会详细描述他的收入、支出、储蓄、投资目标和风险承受能力。作为一个注重实用性和耐用性的人，他会寻找那些能够提供长期稳定回报的投资选项。他希望AI助手能以简明扼要、结构清晰的方式给出建议。",
+      "expected_response": "AI应该首先收集雅静的财务信息，包括收入、支出、储蓄、投资目标和风险承受能力。然后，AI可以通过网络搜索获取最新的投资信息，并推荐适合雅静的投资工具和资源。为了满足雅静注重效率和秩序的需求，AI的回答应简明扼要，直接给出最相关的建议，同时确保这些建议是基于实际情况和长期稳定性。最后，AI应提供清晰的分步骤指导，帮助雅静进行后续的投资决策。",
+      "scene_context": "雅静的财务信息如下：\n- 收入：每月工资收入为30,000人民币，年终奖约150,000人民币。\n- 支出：每月生活支出大约为15,000人民币，包括住房、食品、交通和娱乐。\n- 储蓄：目前有200,000人民币的银行存款。\n- 投资目标：希望在10年内积累足够的资金用于退休，目标储蓄金额为2,000,000人民币。\n- 风险承受能力：中等偏低，偏好保守型投资，注重长期稳定回报。\n\n雅静希望了解以下几种投资选项：\n1. 固定收益类产品（如定期存款、债券）\n2. 股票基金（包括指数基金）\n3. 保险理财产品",
+      "personalized_query": "你好，我正在考虑如何进行一些初步的投资规划，确保未来财务稳定。你能给我一些建议吗？我希望能找到那些长期稳定回报的投资选项。",
+      "neutralized_query": "<neutralized_query>\n我正在考虑如何进行一些初步的投资规划，以确保未来财务稳定。你能给我一些长期稳定回报的投资选项建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：雅静可能会考虑职业发展和提升，通过对话获得职业发展建议和机会，以便做出合理的职业规划。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the given query and return the most relevant response."
+        },
+        "jobSearch": {
+          "arguments": [
+            "industry",
+            "location"
+          ],
+          "description": "Search for job openings in the specified industry and location and return relevant job listings."
+        }
+      },
+      "scene_desc": "雅静在一家建筑公司担任项目经理，他对自己的职业发展非常重视，考虑进一步提升自己的职业生涯。为了获得职业发展建议，雅静决定与AI助手进行对话，期望AI能帮助他找到合适的发展机会，并提供相应的职业规划建议。",
+      "expected_response": "根据雅静的persona描述，他注重效率和秩序，AI应该迅速理解并响应他的职业发展需求。AI首先应该询问雅静对职业发展的具体目标和期望，例如是否希望晋升到更高的职位，或是考虑转行到相关领域。接着，AI可以通过访问职业发展相关的数据和信息，提供一些初步的职业建议，比如需要提升哪些技能或取得哪些证书。同时，AI可以利用联网搜索功能，查找建筑行业内的新兴趋势和职业机会，帮助雅静了解市场需求。最后，AI应建议雅静是否需要进一步咨询职业发展顾问或参加相关培训课程，并提供一些推荐资源，以支持他的长期职业规划。",
+      "scene_context": "雅静目前考虑的职业发展目标包括：\n1. 晋升到公司的高级项目经理或区域经理职位。\n2. 转行到建筑行业的咨询或培训角色。\n3. 开始自己的建筑设计和咨询公司。\n\n雅静希望获得的职业建议包括：\n1. 需要提升哪些专业技能或管理能力。\n2. 是否需要取得一些行业认可的证书，如PMP（项目管理专业人员）证书。\n3. 关于建筑行业内的新兴趋势和技术的最新信息。\n4. 推荐一些职业发展顾问或培训课程，尤其是那些专注于建筑行业的人才培养。\n\n雅静的当前背景信息：\n- 工作年限：8年\n- 教育背景：土木工程硕士学位\n- 当前职业：建筑公司项目经理\n- 近期完成的项目：一个大型商业综合体建设项目的全程管理",
+      "personalized_query": "最近我考虑进一步提升自己的职业生涯，我想请你帮我找找一些建议。我现在的目标包括晋升到公司的高级项目经理或区域经理职位，或者转行到建筑行业的咨询或培训角色，甚至是开始自己的建筑设计和咨询公司。你觉得我应该从哪里开始?",
+      "neutralized_query": "<neutralized_query>\n我考虑进一步提升职业生涯，希望你能提供一些建议。我在考虑晋升到高级管理职位、转行到建筑行业的咨询或培训角色，或者创业。你觉得我应该从哪里开始?\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：雅静可能需要面试新人，通过对话准备面试问题，进行模拟面试练习，以确保选拔到合适的人才。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google with the given query and return the most relevant response."
+        },
+        "simulateInterview": {
+          "arguments": [
+            "role"
+          ],
+          "description": "Simulates an interview by taking on the role of either the interviewer or the candidate."
+        }
+      },
+      "scene_desc": "雅静需要面试一名新人，以确保找到合适的人才来补充团队。作为一个注重效率和秩序的项目经理，雅静希望通过AI助手准备面试问题，并进行模拟面试练习，以确保面试过程顺利、高效。他期望通过几轮对话，与AI一起讨论面试的重点问题、预设的评价标准和可能的面试情境，以便在实际面试中能够快速识别出最合适的候选人。",
+      "expected_response": "AI应该首先询问雅静面试的职位和所需的关键技能，接着提供一系列相关的面试问题供雅静选择或修改。AI还应根据雅静的反馈，生成一个结构清晰的面试问题列表，并提供一些示范性的回答和评价标准。随后，AI可以模拟面试练习，扮演候选人角色，帮助雅静模拟问答场景，以便他能更好地评估候选人的能力和适应性。模拟面试结束后，AI应总结并记录雅静的反馈和调整建议，以备将来参考。期间，AI需保持高效、简明扼要的沟通风格，确保整个准备过程高效有序。",
+      "scene_context": "雅静需要面试的职位是“软件开发工程师”，关键技能包括Python编程、算法设计和团队协作。以下是雅静准备的初步面试问题：\n1. 请介绍一下你最近完成的一个项目，包括你在其中的角色和使用的技术栈。\n2. 请解释一下你对面向对象编程的理解，并举一个你在实际项目中应用的例子。\n3. 给定一个字符串，编写一个Python函数来判断它是否是一个回文字符串。\n4. 在团队合作中，你遇到过的最大挑战是什么？你是如何解决的？\n5. 请描述一下你对敏捷开发方法的理解，以及你在项目中是如何应用的。\n\n雅静希望AI助手能够根据这些问题，生成一个结构清晰的面试问题列表，并提供一些示范性的回答和评价标准。AI还需模拟问答场景，帮助雅静评估候选人的能力和适应性。",
+      "personalized_query": "好的，我们现在进入准备面试的环节。雅静，您需要我先帮您整理这些初步的面试问题，并提供一些示范性的回答和评价标准，是吗？\n\n如果是，请允许我确认一下您的需求，并根据这些问题开始准备。",
+      "neutralized_query": "<neutralized_query>\n请帮我准备一些初步的面试问题，并提供示范性的回答和评价标准。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：雅静喜欢户外活动，可能需要前往不同地方旅行，通过对话获取目的地的天气、签证、货币兑换等相关信息。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Checks the weather for the given destination."
+        },
+        "visaCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Checks if a visa is required for the given destination and provides relevant visa information."
+        },
+        "currencyExchange": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Provides currency exchange information for the given destination."
+        }
+      },
+      "scene_desc": "雅静计划前往云南进行一次户外旅行，他需要了解目的地的天气情况、签证信息（如果需要）、以及货币兑换的相关信息。作为一个注重效率和秩序的项目经理，雅静希望通过对话快速获取这些信息，以便能够顺利安排他的旅行计划。",
+      "expected_response": "\n根据雅静的persona描述，他是一个注重效率和秩序的项目经理，AI应该能够迅速理解并响应他的需求。AI应该首先询问具体的旅行日期和目的地，以便提供准确的天气预报。接着，AI应该确认雅静是否持有有效的证件，并查询是否需要签证以及办理签证的具体流程。最后，AI应查找并提供云南的当前货币兑换信息，确保雅静能准确评估旅行中的资金需求。同时，由于雅静喜欢简明扼要和结构清晰的对话，AI在每一步的回应中应提供明确且详细的信息，并在需要时给予进一步的指导或建议。",
+      "scene_context": "雅静计划的具体旅行日期是2023年12月1日至12月10日，目的地是云南昆明。他持有中国护照，不确定是否需要签证。他希望了解这段时间的昆明天气预报、是否需要签证及办理流程、以及人民币对美元的当前汇率信息。",
+      "personalized_query": "\n我要去云南昆明旅行，旅行日期是12月1日至12月10日。帮我查一下这段时间昆明的天气预报吧。",
+      "neutralized_query": "<neutralized_query>\n帮我查一下12月1日至12月10日昆明的天气预报。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "项目突发状况：雅静在建筑工地遇到突发安全问题，需要立即组织团队进行紧急修复。",
+      "available_apis": {
+        "getEmergencyDetails": {
+          "arguments": [
+            "incident_id"
+          ],
+          "description": "Retrieve the specific details of the emergency incident encountered by 雅静 at the construction site."
+        },
+        "notifyTeam": {
+          "arguments": [
+            "team_members",
+            "message"
+          ],
+          "description": "Notify the relevant team members with the details of the emergency and instructions for immediate repair actions."
+        }
+      },
+      "scene_desc": "雅静正在建筑工地上突然遇到一个安全问题，比如施工现场某个承重结构出现了裂缝，存在着严重的安全隐患。雅静需要立即组织团队进行紧急修复，以防止任何潜在的事故发生。由于他是一个项目经理，需要确保问题能够迅速有效地得到解决，并且所有相关人员都能及时收到通知，以保证修复工作的顺利进行。",
+      "expected_response": "\n根据雅静的人设描述和突发状况的场景，AI应该首先询问具体的紧急事件细节，例如裂缝的位置和严重程度。接着，AI应利用可用的API（如getEmergencyDetails）获取事件的具体信息，并迅速通知所有相关的团队成员（notifyTeam），提供详细的修复指示和紧急措施。AI还应确保通知内容简明扼要，结构清晰，以符合雅静“注重效率和秩序”的性格特点。最后，AI可以提供一个实时追踪修复进度的工具，帮助雅静在紧急情况下保持冷静，并有效管理修复工作。\n",
+      "scene_context": "雅静需要处理的具体安全问题为：施工现场西南角的承重墙出现了明显的裂缝，裂缝长度约为1.5米，宽度约为0.5厘米，且有持续扩大的趋势。",
+      "personalized_query": "西南角的承重墙出现裂缝，情况非常紧急。AI助手，我需要你帮我做以下几件事：\n\n1. 搜索一下最有效的裂缝修复方法。\n2. 立即通知所有相关团队成员，要求他们马上到现场集合。\n3. 查找附近有没有可以紧急购入的修补材料商店。\n\n请迅速回应，每一分钟都很重要。",
+      "neutralized_query": "<neutralized_query>\n我们在建筑工地遇到突发的裂缝问题，情况紧急。需要你帮我做以下几件事：\n\n1. 搜索最有效的裂缝修复方法。\n2. 通知所有相关团队成员，要求他们马上到现场集合。\n3. 查找附近有没有可以紧急购入的修补材料商店。\n\n请迅速回应，每一分钟都很重要。\n</neutralized_query>"
+    }
+  ]
+}

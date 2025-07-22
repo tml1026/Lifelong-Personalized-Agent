@@ -1,0 +1,225 @@
+{
+  "Demographics": {
+    "Age": 8,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "学生",
+    "Name": "陈涛"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "对宇宙和天文学有极大兴趣",
+      "喜欢探索未知和冒险",
+      "热爱科学和科幻小说",
+      "梦想成为宇航员"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "常常对AI助理提问与宇宙相关的问题，以及如何成为宇航员",
+    "Usage_Pattern": "喜欢听AI讲述有关天文学和科幻的故事，讨厌长时间等待答案",
+    "Emotion_Pattern": "容易因得到新知识而兴奋，也会因不理解而挫败",
+    "Purchase_Pattern": "喜欢购买宇宙主题的书籍和玩具"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢轻松有趣的讲解风格，要有生动的描述和有趣的例子",
+    "Preferred_Formats": "偏好图文并茂的形式，喜欢视频和动画",
+    "Preferred_Workflows": "喜欢从故事开始，将复杂的科学知识融入其中"
+  },
+  "scenes": [
+    {
+      "scene_type": "知识拓展：陈涛对宇宙和天文学有极大兴趣，喜欢探索未知和冒险，能够通过AI助理获取更多关于宇宙和天文学的知识。",
+      "available_apis": null,
+      "scene_desc": "陈涛放学回到家后，满怀兴奋地拿出他最新购买的一本宇宙主题的书籍。他迫不及待地想要了解更多关于宇宙的知识，但因为书中的一些内容较为复杂，他决定向AI助理求助。他对AI助理说：“我刚买了一本关于宇宙的书，但有些部分我看不太懂。你能给我讲讲黑洞是怎么回事吗？” 陈涛期待AI助理能用他能理解的方式讲解这些复杂的天文学概念，最好有生动的描述和有趣的例子。",
+      "expected_response": "根据陈涛的persona描述，AI助理应该能够迅速响应他的请求，并提供一个轻松有趣的解释。AI应该使用生动的比喻和图文并茂的形式来解释黑洞的概念，可能会参考一些科幻故事或动画片中的场景来帮助陈涛更好地理解。同时，AI助理应该注意陈涛的情绪反应，避免使用过于复杂的术语，并在陈涛表现出任何不理解或挫败时，提供进一步的解释或简化说明。如果AI检测到陈涛对某个特定方面特别感兴趣，它还可以推荐一些相关的视频或动画来进一步激发他的兴趣。",
+      "scene_context": "陈涛刚刚购买的宇宙主题书籍名为《神秘的宇宙》，其中有一章专门讲解黑洞的形成和性质。他具体不理解的部分包括：\n1. 黑洞的形成过程。\n2. 事件视界的概念。\n3. 黑洞如何影响周围的空间和时间。\n\n他请求AI助理能够用简单易懂的语言，并配合有趣的比喻来解释这些复杂的概念。",
+      "personalized_query": "嘿，AI！我刚买了一本关于宇宙的书，叫《神秘的宇宙》，书里有一章讲黑洞，但有些部分我看不太懂。你能用简单有趣的方式给我讲讲黑洞是怎么回事吗？比如，黑洞是怎么形成的？",
+      "neutralized_query": "<neutralized_query>\n你能用简单有趣的方式讲讲黑洞是怎么回事吗？比如，黑洞是怎么形成的？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据陈涛的兴趣，推荐相关的科幻小说、天文学书籍和科学探索类书籍，满足他的学习和娱乐需求。",
+      "available_apis": null,
+      "scene_desc": "陈涛刚刚看完一部科幻动画片，感到非常兴奋，并且对宇宙探险和天文学的相关知识产生了强烈的兴趣。他决定向AI助理询问有没有推荐的书籍可以满足他的兴趣和学习需求。陈涛希望这些书籍既能讲述有趣的科幻故事，也能科普一些天文学知识，并且适合他这个年龄段的孩子阅读。",
+      "expected_response": "AI应该会首先表达陈涛的兴趣非常棒，并表示很高兴能够帮助他找到合适的书籍。然后，AI会展示一些与宇宙和天文学相关的科幻小说和科普书籍推荐，比如故事内容生动有趣、适合8岁儿童阅读的书籍。AI还会结合陈涛对图文并茂、视频和动画的偏好，推荐一些带有丰富插图或附带动画视频的书籍。为了提高陈涛的兴趣，AI还可能描述一些这些书籍中的有趣情节或科学知识点。最后，AI会提供购买链接，方便陈涛的家长购买这些书籍。",
+      "scene_context": "陈涛感兴趣的科幻小说、天文学书籍和科学探索类书籍包括：\n1. 科幻小说：《银河帝国：基地》、《三体》、《牧星人》。\n2. 天文学书籍：《简明天文学：宇宙冒险》、《星空探秘：少儿天文学入门》、《探索太阳系》。\n3. 科学探索类书籍：《神奇的科学探索》、《小小科学家》、《儿童科学大百科：让你大开眼界的奇妙知识》。\n\n陈涛的年龄段是8岁，因此这些书籍适合儿童阅读，内容生动有趣，且图文并茂，有些还附带动画视频。",
+      "personalized_query": "哇！我刚刚看完了一个超级棒的科幻动画片，感觉里面的宇宙探险太酷了！我现在特别想看一些既有趣的科幻故事，又能学到天文学知识的书。你能推荐几本适合我这个年龄段的书吗？",
+      "neutralized_query": "<neutralized_query>\n你能推荐几本既有趣的科幻故事，又能学到天文学知识的书吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：推荐科幻电影或电视剧，帮助陈涛进一步了解和体验科幻世界和宇宙探险的乐趣。",
+      "available_apis": null,
+      "scene_desc": "陈涛放学后回到家，兴奋地打开AI助理，想找一部新的科幻电影来看。他对宇宙和天文学充满了好奇，希望通过观看科幻电影进一步了解宇宙的奥秘和未来可能的探索。他告诉AI助理他已经看过《星际穿越》、《火星救援》和《2001太空漫游》，想要一些新的推荐。",
+      "expected_response": "\n根据陈涛的人设，AI助理应该首先表现出对他的兴趣的支持和兴奋，并很快响应他的请求，避免让他等待过久。AI助理会询问他是否有特定的电影类型偏好，如喜欢更科学严谨的还是更冒险刺激的科幻电影。接着，AI助理会根据陈涛的兴趣和已观看的电影，推荐一些新的电影或电视剧，如《星际迷航》系列、《银翼杀手2049》或《黑镜》等，解释每部作品的独特之处和与宇宙探险相关的内容。同时，AI助理会尝试以生动有趣的方式描述这些推荐，以保持陈涛的兴趣。如果陈涛对此有兴趣，AI助理还可以播放相关的预告片或提供电影评分和评论，帮助他做出选择。",
+      "scene_context": "陈涛已经看过的电影有：《星际穿越》、《火星救援》和《2001太空漫游》。他希望获得一些新的科幻电影推荐。陈涛对宇宙探险和天文学充满了好奇，想通过观看科幻电影进一步了解这些领域。他的电影类型偏好包括科学严谨的和冒险刺激的科幻电影。",
+      "personalized_query": "嘿，AI助理！我今天放学回来，想找一部新的科幻电影来看。我已经看过《星际穿越》、《火星救援》和《2001太空漫游》了。你能帮我推荐一些新的科幻电影吗？",
+      "neutralized_query": "<neutralized_query>\n你能帮我推荐一些新的科幻电影吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：根据陈涛的情绪或学习场景，推荐适合集中注意力或放松的背景音乐，帮助他更好地进行学习和探索。",
+      "available_apis": {
+        "musicRecommendation": {
+          "arguments": [
+            "mood",
+            "study_context"
+          ],
+          "description": "Recommend background music suitable for Chen Tao's mood or study context to help him focus or relax."
+        }
+      },
+      "scene_desc": "陈涛刚刚完成了一天的学校课程，回到家后准备开始他最喜欢的天文学学习。他感到有点疲倦，但对即将探索宇宙的兴奋让他决定通过AI助理选择一些背景音乐来集中注意力。他向AI助理请求推荐适合学习天文学的背景音乐。",
+      "expected_response": "\n根据陈涛的persona描述，他是一个对宇宙和天文学有极大兴趣、喜欢探索未知和冒险的8岁男孩，AI应该能够理解他的需求，并迅速做出回应。AI应该首先询问陈涛当前的情绪或学习场景，以便推荐适合的背景音乐。例如，AI可以询问陈涛是希望放松还是希望集中注意力。然后，AI可以结合音乐推荐API，根据陈涛的情绪提供合适的音乐选择。考虑到陈涛是一个喜欢生动和有趣讲解风格的孩子，AI推荐的音乐应包含一些与宇宙主题相关的舒缓或激励音乐，以帮助他更好地集中注意力或放松。在推荐过程中，AI还可以通过生动的描述（例如“这首音乐像是星际旅行的背景乐”）来吸引陈涛的兴趣，并确保音乐能够帮助他在学习天文学时保持兴奋和专注。",
+      "scene_context": "陈涛希望AI助理推荐适合集中注意力的背景音乐。他目前情绪比较疲倦，但对天文学学习很兴奋。他喜欢生动和有趣的音乐风格，特别是与宇宙和星际旅行相关的音乐。",
+      "personalized_query": "嘿，AI助手，今天学校太累了，但我还是想学点天文学的东西。不过我有点分心，你能推荐一些适合学习天文学的背景音乐吗？最好是那种很有宇宙和星际旅行感觉的，能让我集中注意力的音乐。",
+      "neutralized_query": "<neutralized_query>\n我需要一些适合学习天文学的背景音乐，最好是有宇宙和星际旅行感觉，能帮助集中注意力的音乐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：陈涛作为学生，需要练习语法和语言表达，AI助理可以提供语法规则解释和练习题，帮助他提高语文水平。",
+      "available_apis": {
+        "provideGrammarRules": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Provides detailed explanations of the grammar rules related to the given topic."
+        },
+        "generatePracticeQuestions": {
+          "arguments": [
+            "topic",
+            "difficulty_level"
+          ],
+          "description": "Generates practice questions based on the given topic and difficulty level to help the student practice and improve."
+        }
+      },
+      "scene_desc": "陈涛刚刚在学校学习了新的语法规则，但在课后作业中遇到了一些困惑。他回到家后使用AI助理，希望能够帮助他理解这些语法规则，并提供一些练习题来巩固他的学习。AI助理需要提供详细的语法规则解释，并生成适合他的年龄和年级水平的练习题，以帮助他提高语文水平。",
+      "expected_response": "\nAI助理应该首先询问陈涛具体遇到了哪些语法问题或规则，并确认他目前的理解程度。接着，AI助理应提供详细且生动的语法规则解释，使用简明的语言和实际例子，确保陈涛能够轻松理解。此外，AI助理应该生成适合8岁学生的练习题，逐步增加难度以挑战陈涛的理解能力。为了使学习过程更有趣，AI助理可以通过图文并茂的方式展示语法规则，并提供一些互动性的练习和小游戏。最后，AI助理应鼓励陈涛，并在他完成练习题后，提供即时的反馈和解释，帮助他纠正错误并进一步巩固所学知识。",
+      "scene_context": "陈涛目前在学习以下语法规则：1. 主谓宾结构的基本用法；2. 句子成分的划分与识别；3. 常见的修饰词和修饰关系。陈涛希望AI助理能够提供这些语法规则的详细解释，并生成一些适合8岁学生的练习题，例如填空题、选择题和简单的句子改错题。",
+      "personalized_query": "嘿，我刚刚学了一些新的语法规则，但作业里遇到了一些问题。你能帮我解释一下主谓宾结构和句子成分的划分吗？还有，我需要一些练习题来练习这些规则。谢谢你!",
+      "neutralized_query": "<neutralized_query>\n你能解释一下主谓宾结构和句子成分的划分吗？另外，我需要一些练习题来练习这些规则。谢谢！\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：通过多轮对话进行模拟口语练习，帮助陈涛提升语言交流能力，为未来的学习和生活打下基础。",
+      "available_apis": {
+        "generateConversationTopics": {
+          "arguments": [
+            "level",
+            "interests"
+          ],
+          "description": "Generates conversation topics and questions based on the user's language proficiency level and interests."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "spoken_sentence"
+          ],
+          "description": "Analyzes the spoken sentence and provides feedback on grammar, pronunciation, and vocabulary usage."
+        },
+        "recommendResources": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Recommends additional resources for practice based on the current conversation topic."
+        }
+      },
+      "scene_desc": "陈涛是一个对宇宙和天文学有极大兴趣的8岁学生，热爱科学和科幻小说，并且梦想成为宇航员。今天，陈涛决定通过与AI助手进行模拟口语练习来提高他的语言交流能力，特别是关于与宇航员梦相关的对话。他希望这次练习能够帮助他更好地表达自己对宇宙的兴趣以及他对未来的设想。",
+      "expected_response": "AI应该首先以轻松有趣的方式引导陈涛进入对话，可能从一个简单的问题开始，如“你今天想聊聊什么？”然后，AI可以生成与宇宙和天文学相关的话题，如“你最想去哪个星球探险？”或“你知道宇航员每天都做些什么吗？”\n\nAI应理解陈涛的兴趣和梦想，因此可以提供与宇航员和太空探索相关的信息，在对话中融入生动的描述和有趣的例子。为了让陈涛保持兴趣和积极性，AI还可以使用图文并茂的形式，推荐相关的视频或动画，增加对话的趣味性。\n\n在对话过程中，AI应该时刻注意徐徐渐进，帮助陈涛纠正语法或发音错误，并提供即时反馈。同时，AI还可以根据陈涛的话题兴趣，推荐额外的资源，如科幻小说或天文学书籍，以延续他的学习和探索热情。\n\n总之，AI应以鼓励和支持的方式引导陈涛进行多轮对话练习，通过富有趣味的内容和及时的反馈，帮助他提高语言交流能力，为他的宇航员梦打下基础。",
+      "scene_context": "陈涛想要通过这次口语练习来更好地表达以下几个主题：\n1. 他最喜欢的星球及原因，例如火星或木星。\n2. 他对国际空间站（ISS）的了解，包括宇航员的一天是怎样的。\n3. 他读过的最喜欢的一本科幻小说或看过的最喜欢的科幻电影，例如《星际穿越》或《海伯利安》。\n4. 他如果成为宇航员最想执行的任务，例如去探测某个未知的星球或修复空间站。",
+      "personalized_query": "你好，AI助手！我最近在看一些关于宇宙和天文学的书，我对国际空间站很感兴趣。你能和我聊聊国际空间站上的宇航员一天是怎么过的吗？",
+      "neutralized_query": "<neutralized_query>\n你能和我聊聊国际空间站上的宇航员一天是怎么过的吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "宠物健康：如果陈涛有宠物，AI助理可以提供宠物常见健康问题的建议，并提醒定期检查，帮助他更好地照顾宠物。",
+      "available_apis": {
+        "checkPetOwnership": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Checks if the user (e.g., 陈涛) has any registered pets."
+        },
+        "getPetHealthTips": {
+          "arguments": [
+            "pet_type",
+            "pet_age"
+          ],
+          "description": "Provides health tips based on the type and age of the pet."
+        },
+        "sendNotification": {
+          "arguments": [
+            "user_id",
+            "message"
+          ],
+          "description": "Sends a notification to the user reminding them of regular pet health check-ups."
+        }
+      },
+      "scene_desc": "陈涛放学回到家，发现他的宠物狗小白有些不太活泼，似乎有些不舒服。他担心小白的健康状况，于是打开AI助理，想要了解一下小白可能有哪些健康问题，并希望得到一些建议和提醒，以便更好地照顾小白。",
+      "expected_response": "\n根据陈涛的persona描述，他是一个8岁的学生，对未知和探险有极大兴趣。AI助理应该能够迅速理解陈涛的担忧，并以轻松有趣的方式与他交流。首先，AI应该询问陈涛小白的具体症状以及宠物的年龄和种类。接着，AI可以提供一些常见的宠物健康问题和简单的应对建议，例如饮食调整或休息等。此外，AI应该建议陈涛在必要时带小白去看兽医，以确保其健康。为了帮助陈涛更好地照顾小白，AI还可以设置一个定期提醒，提醒陈涛定期给小白做健康检查。最后，AI可以推荐一些有趣的宠物护理视频或动画，让陈涛在照顾小白的过程中也能学习新的知识。\n",
+      "scene_context": "陈涛的小白是一只3岁的比熊犬。他发现小白今天有些不活泼，还时不时抓耳朵，并且食欲不振。陈涛想知道这些症状可能意味着什么健康问题，以及他可以怎么帮助小白缓解不适。",
+      "personalized_query": "小白今天好像不太舒服，一直抓耳朵，还不怎么吃东西。你能帮我看看这可能是什么问题吗？",
+      "neutralized_query": "<neutralized_query>\n宠物抓耳朵且食欲不振可能是什么问题？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：根据陈涛的需求推荐合适的宇宙主题书籍、玩具或学习用品，并提供购买链接，方便他购买到喜欢的物品。",
+      "available_apis": {
+        "productSearch": {
+          "arguments": [
+            "category",
+            "theme",
+            "age_group"
+          ],
+          "description": "Search for products based on category (e.g., books, toys, study supplies), theme (e.g., space, universe), and age group to find suitable recommendations."
+        },
+        "generatePurchaseLink": {
+          "arguments": [
+            "product_id"
+          ],
+          "description": "Generate a purchase link for the given product ID to facilitate easy buying."
+        }
+      },
+      "scene_desc": "陈涛刚刚在天文学课上学到了新的知识，并且对宇宙和天文学的兴趣越发浓厚。现在，他希望可以找到一些与宇宙相关的书籍、玩具或其他学习用品来进一步探索这方面的知识。陈涛打开了AI助手，寻求推荐适合他的宇宙主题产品，并希望能够直接获得购买链接，以便他让父母购买这些产品。陈涛特别喜欢图文并茂的书籍和带有科幻元素的玩具。",
+      "expected_response": "\n根据陈涛的persona描述，AI应该会首先询问他当前最感兴趣的宇宙主题（例如行星、恒星、黑洞或宇宙探险），以便更精准地推荐相关的书籍和玩具。然后，AI会根据陈涛的年龄和兴趣，推荐一些适合8岁孩子阅读的宇宙主题书籍，尤其是那些图文并茂且故事性强的儿童读物。同时，AI也会推荐一些与宇宙探险和科幻相关的玩具，满足陈涛探索未知和冒险的兴趣。接下来，AI应该提供这些推荐产品的购买链接，并向陈涛确认是否需要进一步的帮助，比如查看产品的详细信息或添加到购物车。最后，AI可能会询问陈涛是否喜欢这些推荐，并获取反馈以优化未来的推荐。",
+      "scene_context": "陈涛目前对以下几个宇宙主题特别感兴趣：行星、黑洞和宇宙探险。他希望可以推荐一些适合8岁儿童的图文并茂的书籍，例如《星际探险队》、关于太阳系的科普书籍《我们的太阳系》和《黑洞的奥秘》。同时，他希望能找到一些带有科幻元素的玩具，比如宇宙飞船模型和太空探险角色扮演套装。",
+      "personalized_query": "嘿，AI助手！我刚在天文学课上学到了好多新知识，真是越来越有意思了。我想找些关于宇宙的书籍和玩具，你能帮我推荐一下吗？最好是适合我这个年龄的，图文并茂的书和带科幻元素的玩具哦。",
+      "neutralized_query": "<neutralized_query>\n请推荐一些关于宇宙的书籍和玩具，最好是适合一定年龄段的图文并茂的书籍和带科幻元素的玩具。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "数据可视化工具选择：_王婷需要选择一个新的数据可视化工具，以提高工作效率和分析结果的清晰度。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈涛在学校的科学课上学习到了数据的基本概念，并且对如何用图表展示数据产生了兴趣。他希望能找到一个适合学生使用的数据可视化工具，以便更加直观地理解科学数据和天文数据。他决定咨询他的AI助手，了解有哪些适合他的工具，并希望AI能够推荐一些简单易用且有趣的选项。",
+      "expected_response": "\nAI应该首先理解陈涛的年纪和学习背景，确认他是一个八岁的学生。然后，AI应该询问陈涛具体需要展示什么类型的数据（例如，天文观测数据、实验数据等）。接着，AI应该通过网络搜索，找到一些适合孩子使用的数据可视化工具，重点推荐那些以图文并茂和动画为特色的工具，确保工具操作简单且具趣味性。AI还应该提供这些工具的基本介绍和使用教程，并推荐一些与天文学相关的示例数据集供陈涛使用。最后，AI应确保推荐的工具支持中文界面，以便陈涛更好地理解和使用这些工具。\n",
+      "scene_context": "陈涛需要展示的数据类型主要是天文观测数据和简单的实验数据。他对行星、恒星和简单化学实验的数据特别感兴趣。期待AI推荐一些适合八岁孩子使用的、支持中文界面的、操作简单且有趣的数据可视化工具。",
+      "personalized_query": "嗨，AI助手！我今天在科学课上学到了数据的基本概念，特别是用图表展示数据的部分，感觉很有趣。我想找一些适合学生使用的数据可视化工具，可以帮我推荐一些简单易用且有趣的工具吗？最好是支持中文界面的哦！",
+      "neutralized_query": "<neutralized_query>\n请推荐一些简单易用且支持中文界面的数据可视化工具。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "编程错误调试：_王婷在进行python编程时遇到复杂的错误，急需找到快速有效的解决方法。",
+      "available_apis": {
+        "codeAnalysis": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Analyzes the given code snippet for potential errors and suggests possible fixes."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王婷是一名数据分析师，在工作中经常使用Python进行编程。今天，她在编写一个数据处理脚本时遇到了一个复杂的错误，导致无法运行程序。由于她需要尽快解决这个问题，以便按时交付工作成果，她决定求助于AI助理。她打开AI助手，描述了遇到的编程问题，并请求帮助调试。\n\nAI助理需要快速而准确地理解她的需求，分析她提供的代码片段，找到错误的原因，并给出解决方案。",
+      "expected_response": "AI助理首先应当确认王婷所遇到的问题的具体情况，例如请求她提供有问题的代码片段。接着，AI助理应使用内置的代码分析功能来检查代码，找出可能的错误点，并提供详细的错误原因和修正建议。如果错误复杂，AI助理还可以进行联网搜索以获得更多信息。AI助理还应在解释过程中注意使用简明易懂的语言，避免使用过于专业的术语，以便王婷能够快速理解并解决问题。最后，AI助理可以提供进一步的资源，例如相关教程或文档链接，帮助王婷深入学习和防止类似问题再次发生。",
+      "scene_context": "王婷在编写的Python数据处理脚本中遇到了以下错误：\n\n```python\nimport pandas as pd\n\ndef process_data(file_path):\n    df = pd.read_csv(file_path)\n    df['new_column'] = df['existing_column'] / df['another_column']\n    df['date'] = pd.to_datetime(df['date_column'], format='%Y-%m-%d')\n    df = df[df['filter_column'] > 10]\n    return df\n\nfile_path = 'data/sample_data.csv'\nprocessed_data = process_data(file_path)\nprint(processed_data.head())\n```\n\n错误信息：\n```\nKeyError: 'existing_column'\n```\n\n她无法理解为什么会出现这个错误，因为她确信数据文件中包含这个列。她希望AI助理能够帮助她找出问题的根源并提供解决方案。",
+      "personalized_query": "嘿，AI助手，我在编写一个Python数据处理脚本时遇到了一个错误。运行时显示`KeyError: 'existing_column'`，可是我确信我的数据文件里包含这个列。需要你帮我找出问题的原因并给出解决方案。下面是我的代码：\n\n```python\nimport pandas as pd\n\ndef process_data(file_path):\n    df = pd.read_csv(file_path)\n    df['new_column'] = df['existing_column'] / df['another_column']\n    df['date'] = pd.to_datetime(df['date_column'], format='%Y-%m-%d')\n    df = df[df['filter_column'] > 10]\n    return df\n\nfile_path = 'data/sample_data.csv'\nprocessed_data = process_data(file_path)\nprint(processed_data.head())\n```\n\n你能帮忙看看是什么问题吗？",
+      "neutralized_query": "<neutralized_query>\n嘿，AI助手，我在编写一个Python数据处理脚本时遇到了一个`KeyError: 'existing_column'`。我确信我的数据文件里包含这个列。需要你帮我找出问题的原因并给出解决方案。下面是我的代码：\n\n```python\nimport pandas as pd\n\ndef process_data(file_path):\n    df = pd.read_csv(file_path)\n    df['new_column'] = df['existing_column'] / df['another_column']\n    df['date'] = pd.to_datetime(df['date_column'], format='%Y-%m-%d')\n    df = df[df['filter_column'] > 10]\n    return df\n\nfile_path = 'data/sample_data.csv'\nprocessed_data = process_data(file_path)\nprint(processed_data.head())\n```\n\n你能帮忙看看是什么问题吗？\n</neutralized_query>"
+    }
+  ]
+}

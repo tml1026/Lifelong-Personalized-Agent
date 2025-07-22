@@ -1,0 +1,240 @@
+{
+  "Demographics": {
+    "Age": 18,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "某音乐学院声乐系学生，喜爱摇滚乐和创作，梦想成为职业歌手",
+    "Name": "李小龙"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "自由表达",
+      "追求个性",
+      "音乐创作",
+      "摇滚乐",
+      "热爱舞台表演",
+      "喜欢户外活动和探险"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常寻找音乐创作灵感，关注最新的音乐技术和软件。",
+    "Usage_Pattern": "常用AI助手来生成歌词和曲谱，或寻找音乐创作的灵感。",
+    "Emotion_Pattern": "在使用过程中会表达丰富的情感，特别是当找到满意的创作灵感时表现得非常兴奋。",
+    "Purchase_Pattern": "倾向于购买与音乐相关的设备和软件，对价格敏感，但愿意为高质量的产品付出更多。"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细且有创意的输出，但在需要精简时会要求简洁明了。",
+    "Preferred_Formats": "偏好分段式输出，方便逐层推敲和修改。",
+    "Preferred_Workflows": "喜欢给AI一个大致方向，并期待AI能提供多种创意选项，当不满意时会具体说明需要改进的地方。"
+  },
+  "scenes": [
+    {
+      "scene_type": "音乐发现：李小龙热爱摇滚乐并追求个性，经常寻找新的音乐创作灵感，所以AI助手可以帮助他发现不同风格的音乐或新兴的艺术家。",
+      "available_apis": null,
+      "scene_desc": "李小龙刚刚听了一些经典摇滚乐，感受到了强烈的情绪波动，希望能够发现新的音乐风格或者新兴的艺术家，以寻找音乐创作的灵感。他打开AI助手，准备探索一些不一样的声音和创意。他可能会描述他当前的情绪和希望寻找的音乐风格，期望AI助手能够提供一些新鲜和有创意的推荐。",
+      "expected_response": "\n根据李小龙的persona描述，他是一名热爱摇滚乐并追求个性的音乐学院学生，常常寻找新的音乐创作灵感。AI助手应该首先了解李小龙当前的情绪和对音乐风格的具体需求，例如更倾向于经典摇滚还是实验性的摇滚。AI助手可以通过李小龙的描述，推荐一些可能符合他当前心情和创作需求的新兴艺术家或不同风格的音乐作品。AI可以提供一些详细且有创意的选项，并在推荐的过程中分段式输出，以便李小龙逐层推敲和修改。最后，AI可能会询问他对推荐的满意程度，并提供更多类似的推荐或者相关的扩展阅读材料，帮助他保持创作灵感的持续。",
+      "scene_context": "李小龙当前的情绪是激动且充满灵感，他刚刚听了经典摇滚乐，例如Led Zeppelin、Pink Floyd和The Rolling Stones，现在他希望探索更具实验性和创新性的音乐风格。具体来说，他希望找到一些融合电子元素或具有独特编曲的现代摇滚乐队或艺术家，以寻找新的创作灵感。",
+      "personalized_query": "嗨，最近听了些经典摇滚乐，感觉很有灵感！我现在特别想探索一些更具实验性和创新性的音乐风格，最好是能融合电子元素的现代摇滚乐队或艺术家。你能帮我推荐一些吗？",
+      "neutralized_query": "<neutralized_query>\n我想探索一些更具实验性和创新性的音乐风格，最好是能融合电子元素的现代摇滚乐队或艺术家。你能推荐一些吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据李小龙的听歌习惯和阅读偏好，推荐新歌、专辑或艺术家，这将有助于他在音乐创作和学习中吸取新鲜灵感。",
+      "available_apis": null,
+      "scene_desc": "李小龙是一名音乐学院声乐系的学生，热爱摇滚乐和创作，梦想成为职业歌手。他经常通过AI助手寻找音乐创作灵感和新兴的艺术家。某天，李小龙决定尝试一些新的音乐风格，以便在创作中融入更多的元素，并丰富他的作品。他打开AI助手，希望能根据他的听歌习惯和阅读偏好，推荐一些新的歌曲、专辑或艺术家，帮助他在音乐创作和学习中吸取新鲜灵感。",
+      "expected_response": "AI助手首先会查看李小龙的听歌历史和阅读记录，以了解他的偏好和习惯。根据这些数据，AI应该推荐一些他可能会感兴趣的新歌、专辑或艺术家，特别是那些在摇滚乐和创作风格上有所突破的作品。AI还可能会推荐一些融合不同音乐元素的曲目，以激发李小龙的创作灵感。此外，AI还会提供一些相关的音乐评论和分析，让李小龙更深入地了解这些推荐的音乐作品。AI助手可能会询问李小龙是否希望根据某些特定的主题或情感来进行推荐，以更好地满足他的创作需求。最后，AI会给出推荐列表，并提供试听和收藏的选项，方便李小龙直接进行听歌和记录灵感。",
+      "scene_context": "李小龙最近听过的一些音乐和阅读的书籍/文章包括：\n1. 最近听过的专辑：\n   - Nirvana的《Nevermind》\n   - Linkin Park的《Hybrid Theory》\n   - The Beatles的《Abbey Road》\n\n2. 最近阅读的书籍和文章：\n   - 《摇滚乐简史》\n   - 《音乐创作的艺术》\n   - 一些关于摇滚乐队采访的文章\n\n3. 喜欢的音乐风格：\n   - 摇滚乐\n   - 另类摇滚\n   - 流行摇滚\n\n李小龙希望AI能推荐一些具有创作灵感的新歌、专辑或艺术家，特别是在摇滚乐和创作风格上有所突破的作品。",
+      "personalized_query": "嘿，帮我推荐一些新歌、新专辑或者艺术家吧。我最近想尝试一些新的音乐风格，特别是在摇滚乐和创作风格上有所突破的作品。",
+      "neutralized_query": "<neutralized_query>\n帮我推荐一些新歌、新专辑或者艺术家吧。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：李小龙在联系音乐制作人、出版社或其他音乐从业者时，可能需要撰写专业的电子邮件，以提升沟通效率和专业形象。",
+      "available_apis": null,
+      "scene_desc": "李小龙正在准备一封电子邮件，希望联系一位著名的音乐制作人，以寻求合作机会或获得专业指导。作为一名音乐学院的学生，他希望这封邮件能展现他的专业形象和对音乐的热情。他希望AI助手能帮助他撰写一封条理清晰、语言得体的电子邮件，以提升沟通效率和专业形象。",
+      "expected_response": "\n根据李小龙的persona描述，他是一位热爱自由表达和音乐创作的声乐系学生，AI应该先询问向哪位音乐制作人发送邮件，并了解他的合作或指导需求。AI还应询问李小龙是否有特定的合作项目或创作作品想要展示。接着，AI应生成一封专业且热情洋溢的电子邮件，展现李小龙的个人风采和专业素养。邮件内容应包含以下要点：\n\n1. 简要介绍李小龙的背景和音乐学院的学习情况。\n2. 阐述他对音乐制作人的敬仰和对合作的期望。\n3. 详细说明希望获得的合作类型或指导内容。\n4. 提供一个简洁有力的结尾，并感谢对方的时间和考虑。\n\n邮件生成后，AI应该提供选项让李小龙确认或进一步修改，然后再发送邮件。通过这种方式，AI能够帮助李小龙提升沟通效率和专业形象，同时符合他追求个性和自由表达的特质。",
+      "scene_context": "李小龙希望联系的音乐制作人是David Foster，并且他有一个创作的音乐项目《Echoes of Harmony》，希望能得到David Foster的专业指导。同时，李小龙已经在音乐学院的演出中获得了一些小奖项，希望在邮件中提及以展示自己的能力和潜力。",
+      "personalized_query": "嘿，AI助手，我得准备一封邮件给音乐制作人David Foster，想向他寻求合作和指导。我有个新项目《Echoes of Harmony》，想得到他的专业意见。你能帮我草拟一下邮件的内容吗？要条理清晰，语言得体，还要突出我的音乐热情和专业形象。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我草拟一封邮件，向一位音乐制作人寻求合作和指导。邮件内容要条理清晰，语言得体，并突出我的音乐热情和专业形象。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：在李小龙编写歌词、曲谱或音乐创作方案时，AI助手可以帮助他修改、整理或优化文档内容。",
+      "available_apis": {
+        "textEditor": {
+          "arguments": [
+            "document",
+            "task"
+          ],
+          "description": "Modify, organize, or optimize the provided document content based on the given task (e.g., editing lyrics, organizing music creation plans)."
+        },
+        "grammarCheck": {
+          "arguments": [
+            "text"
+          ],
+          "description": "Check and correct the grammar in the provided text to enhance its quality and readability."
+        },
+        "styleSuggestions": {
+          "arguments": [
+            "text",
+            "type"
+          ],
+          "description": "Provide style and tone suggestions for the document based on the specified type (e.g., lyrical, formal report)."
+        }
+      },
+      "scene_desc": "李小龙正在为即将到来的音乐大赛创作歌曲，他在文档中写了一部分歌词和曲谱，但他希望AI助手能够帮助他修改、整理和优化这些内容。李小龙尤其关注歌词的情感表达和曲谱的创意性，希望通过AI助手的帮助提升作品的质量。",
+      "expected_response": "\nAI助手应该首先询问李小龙是否有具体的修改方向或要求，例如希望增强某部分歌词的情感表达，或者需要调整某段曲谱的结构。接着，AI助手可以利用textEditor API来修改和优化文档内容，并使用grammarCheck API来确保文本的语法正确。此外，AI助手还可以通过styleSuggestions API提供风格和语气的建议，以确保歌词的表达与李小龙的创作风格一致。在整个过程中，AI助手应提供分段式输出，以便李小龙逐层推敲和修改。当李小龙对某些部分不满意时，AI助手应进一步询问具体的改进意见，并提供相应的创意选项。最终，AI助手应帮助李小龙生成一个详细且富有创意的歌词和曲谱文档，满足他的创作需求和标准。",
+      "scene_context": "李小龙正在创作的歌词和曲谱内容如下：\n\n**歌词：**\n```\n在那遥远的星空\n我看见你的笑容\n如同流星划过夜空\n点亮了我的梦\n```\n\n**曲谱：**\n```\nC       G        Am \n在那遥远的星空\nF       C        G\n我看见你的笑容\nAm      Em       F\n如同流星划过夜空\nC       G        C\n点亮了我的梦\n```\n李小龙希望增强歌词的情感表达，并希望曲谱的和声结构更具创意。",
+      "personalized_query": "嘿，AI，我正在为即将到来的音乐大赛创作一首新歌，但感觉歌词和曲谱还可以改进。现在我有一部分已经写好了，想让你帮忙优化一下。\n\n**歌词：**\n```\n在那遥远的星空\n我看见你的笑容\n如同流星划过夜空\n点亮了我的梦\n```\n\n**曲谱：**\n```\nC       G        Am \n在那遥远的星空\nF       C        G\n我看见你的笑容\nAm      Em       F\n如同流星划过夜空\nC       G        C\n点亮了我的梦\n```\n\n我希望歌词能更有情感，曲谱的和声结构可以更有创意一些。你能帮我看看吗？",
+      "neutralized_query": "<neutralized_query>\n我正在创作一首新歌，希望你能帮忙优化一下歌词和曲谱，使歌词更有情感，曲谱的和声结构更有创意。\n\n**歌词：**\n```\n在那遥远的星空\n我看见你的笑容\n如同流星划过夜空\n点亮了我的梦\n```\n\n**曲谱：**\n```\nC       G        Am \n在那遥远的星空\nF       C        G\n我看见你的笑容\nAm      Em       F\n如同流星划过夜空\nC       G        C\n点亮了我的梦\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个人预算管理：作为一名学生，李小龙需要合理管理自己的预算，特别是他倾向于购买与音乐相关的设备和软件，AI助手可以帮助他制定预算，跟踪支出，并提供节省建议。",
+      "available_apis": {
+        "getFinancialStatus": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "获取用户的当前财务状况，包括收入、支出和预算目标。"
+        },
+        "trackExpense": {
+          "arguments": [
+            "user_id",
+            "amount",
+            "category"
+          ],
+          "description": "记录用户的一笔支出，指定支出金额和类别。"
+        },
+        "getSavingSuggestions": {
+          "arguments": [
+            "category"
+          ],
+          "description": "根据指定类别（如音乐设备和软件）提供节省建议。"
+        }
+      },
+      "scene_desc": "李小龙最近发现了一款新的音乐制作软件，他非常想购买这款软件以提升自己的创作质量。然而，作为一名学生，他需要合理管理自己的预算，特别是在购买音乐相关设备和软件方面。于是，他决定求助于AI助手，帮助他制定一个可行的预算计划，跟踪支出，并提供一些节省建议，以便他能够在不影响日常开销的情况下购买这款软件。",
+      "expected_response": "根据李小龙的persona描述，他是一名音乐学院声乐系的学生，热爱音乐创作并对价格敏感。AI应首先询问李小龙当前的财务状况，包括他的月收入、现有的存款和每月固定支出。接着，AI应根据这些信息，帮助他设定一个具体的目标金额和时间框架。AI可以建议他在日常开销中如何节省，例如减少不必要的支出或寻找打折商品。同时，AI可以帮助他跟踪每一笔与音乐相关的支出，确保他能够在规定时间内存够购买软件所需的金额。最后，AI应该定期向李小龙提供财务状况报告，提醒他当前存款距离目标金额还有多远，并为他提供进一步的节省建议。",
+      "scene_context": "李小龙考虑购买的音乐制作软件为：Ableton Live，价格为$749。他目前的月收入为$500，现有存款为$200，月固定支出为$300。他希望在三个月内存够购买这款软件所需的金额。",
+      "personalized_query": "嘿，最近我发现了一款新的音乐制作软件叫Ableton Live，我非常想买它来提升我的创作质量。不过，作为学生嘛，预算还是得合理安排一下。你能帮我制定一个预算计划吗？我希望在三个月内存够买这款软件的钱。",
+      "neutralized_query": "<neutralized_query>\n我需要制定一个预算计划，希望在三个月内存够钱购买一款新的软件。你能帮我规划一下吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：李小龙可能会参加音乐学院的面试或音乐比赛，AI助手可以帮助他准备面试问题，进行模拟面试练习，从而提高他的表现。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "generateInterviewQuestions": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Generates a list of interview questions based on the given topic."
+        },
+        "simulateInterview": {
+          "arguments": [
+            "questions",
+            "responses"
+          ],
+          "description": "Simulates an interview by asking the generated questions and recording the user's responses."
+        }
+      },
+      "scene_desc": "李小龙即将参加音乐学院的面试，面试内容包括他的音乐创作和表演技巧。为了提升自己的表现，李小龙决定使用AI助手来准备面试问题并进行模拟面试练习。他希望通过此过程获取针对性的反馈和建议，以便更好地展示自己的才华和个性。\n\n在这个场景中，AI助手需要为李小龙提供关于音乐创作和表演技巧方面的面试问题，并根据他的回答进行模拟面试练习，帮助他完善自己的回答，提高面试表现。",
+      "expected_response": "根据李小龙的人设，AI应该首先询问李小龙是否专注于面试的哪一部分（如音乐创作、表演技巧或个人背景）。接着，AI可以生成一系列与音乐创作和表演技巧相关的面试问题。例如，AI可能会问到他创作的灵感来源、他最喜欢的表演经历、如何面对舞台上的挑战等。\n\n在进行模拟面试时，AI需要实时记录并分析李小龙的回答，提出具体的反馈和改进建议。例如，AI可能会指出他回答中哪些部分需要更多的具体细节，或如何更好地展现他的个性和创意。\n\n此外，AI助手还应该鼓励李小龙加入一些他自己创作的独特元素，以便在面试中给考官留下深刻印象。AI还可以建议他在回答问题时保持自信和热情，同时注意面试礼仪。\n\nAI最终会为李小龙总结模拟面试过程中的优点和需要改进的地方，并提供一些额外的资源或练习建议，帮助他进一步完善面试准备。",
+      "scene_context": "李小龙需要准备的具体领域包括：音乐创作和表演技巧。他专注于钢琴演奏和原创音乐创作，最近的一首原创作品是《晨曦》。他在之前的表演经历中，最喜欢的是在校内音乐节上的钢琴独奏。同时，他面临的一个挑战是如何在舞台上克服紧张情绪并保持最佳状态。",
+      "personalized_query": "嘿，AI助手，最近我得准备音乐学院的面试，主要内容是音乐创作和表演技巧方面的。这次面试对我很重要，所以我想请你帮忙模拟一下面试问题，给点反馈什么的。先来几个关于我的音乐创作的问题，然后再来点关于表演技巧方面的。我们一步一步来，好不好？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙准备音乐学院面试，模拟一些音乐创作和表演技巧方面的问题并提供反馈。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "服装搭配：作为热爱舞台表演的学生，李小龙可能需要在不同场合选择合适的服装，AI助手可以根据场合或季节为他提供服装搭配建议。",
+      "available_apis": {
+        "getCurrentSeason": {
+          "arguments": [],
+          "description": "Retrieve the current season information."
+        },
+        "getOccasionDetails": {
+          "arguments": [
+            "occasion"
+          ],
+          "description": "Retrieve the details of the given occasion."
+        },
+        "recommendOutfit": {
+          "arguments": [
+            "season",
+            "occasion"
+          ],
+          "description": "Recommend an outfit based on the given season and occasion."
+        }
+      },
+      "scene_desc": "李小龙有一场即将到来的音乐学院年度演出，他希望在这场演出中选择合适的服装来给观众留下深刻印象。由于他对舞台表演十分热爱，并且追求个性化和自由表达，因此想要通过AI助手来获取服装搭配建议。李小龙提供了演出的主题和日期，并希望AI助手能够根据当前的季节和演出主题，推荐一些既符合主题又能突出他个性的服装搭配。",
+      "expected_response": "根据李小龙的persona，他是一个热爱舞台表演和追求个性化表达的人，AI助手应该首先询问演出的具体主题和日期。接着，AI助手需要获取当前的季节信息，并基于这些信息来推荐适合李小龙个性和演出主题的服装搭配。AI应该提供多种创意选项，并根据李小龙的反馈进一步调整建议。最后，AI还可以给出一些时尚建议，确保推荐的服装不仅个性鲜明，还能在舞台上脱颖而出。",
+      "scene_context": "李小龙提供的演出主题为：复古摇滚风。演出日期为：5月20日。",
+      "personalized_query": "嘿，小助手！我5月20号有场音乐学院的年度演出，主题是复古摇滚风。我想要在演出时穿得特别有个性，让观众一眼就记住我。你能给我些服装搭配的建议吗？考虑一下现在是五月的天气。",
+      "neutralized_query": "<neutralized_query>\n我有一场音乐学院的年度演出，主题是复古摇滚风。你能给我些适合这个主题的服装搭配建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：李小龙经常关注最新的音乐技术和软件，AI助手可以在对话中提供扩展阅读材料或深度分析某个话题，帮助他保持知识更新。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "搜索最新的音乐技术和软件，返回最相关的结果。"
+        }
+      },
+      "scene_desc": "李小龙刚刚在网上看到了一款新的音乐制作软件，他对这款软件的功能和最新的音乐制作技术非常感兴趣。他打开AI助手，希望获得更多关于这款软件的详细信息，以及其在实际创作中的应用和最新的音乐技术趋势。他希望AI助手能提供扩展阅读材料或深度分析，以帮助他保持知识更新，同时为他的音乐创作提供更多灵感。",
+      "expected_response": "\n根据李小龙的persona描述，他是一个热爱摇滚乐和创作的年轻音乐学院学生，AI助手应该首先询问他具体感兴趣的音乐制作软件或技术名称，以确保信息的准确性。接着，AI助手应通过联网搜索功能，为他提供相关的扩展阅读材料，涵盖软件的功能介绍、用户评价、实际应用案例和最新的音乐技术趋势。AI还应注意提供详细且有创意的输出，并建议李小龙如何将这些新技术应用到他的音乐创作中，以满足他的创作需求和个性表达。同时，AI助手可以推荐一些相关的在线课程或研讨会，以进一步提升李小龙的技能和知识储备。",
+      "scene_context": "李小龙感兴趣的音乐制作软件为：Ableton Live 11、FL Studio 20和Logic Pro X",
+      "personalized_query": "嘿，AI助手，我刚在网上看到了一款新的音乐制作软件，特别是Ableton Live 11，我对这款软件的功能和最新的音乐制作技术很感兴趣。能不能帮我找找这款软件的详细信息和它在实际创作中的应用？我还希望了解一些最新的音乐技术趋势，帮助我保持知识更新和寻找创作灵感。",
+      "neutralized_query": "<neutralized_query>\n我需要了解Ableton Live 11的详细信息和它在实际创作中的应用，并希望获取一些最新的音乐技术趋势。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：李小龙需要规划出差行程，如参加音乐比赛、演出或访问音乐制作人等，AI助手可以提供定制化的旅行路线和景点推荐。",
+      "available_apis": {
+        "getTravelDetails": {
+          "arguments": [
+            "origin",
+            "destination",
+            "travel_dates",
+            "activities"
+          ],
+          "description": "Fetches the travel details including transportation options, accommodation, and recommended activities based on the given origin, destination, travel dates, and activities."
+        },
+        "suggestItinerary": {
+          "arguments": [
+            "travel_details"
+          ],
+          "description": "Generates a detailed itinerary including transportation, accommodation, daily schedules, and recommended activities based on the travel details."
+        }
+      },
+      "scene_desc": "李小龙即将参加一个重要的音乐比赛，他需要规划从北京到上海的出差行程。由于他对音乐创作和表演有较高的热情，并且希望在出差期间也能找到灵感和创意，他希望AI助手不仅能提供交通和住宿的建议，还能推荐一些有趣的音乐相关活动或景点。此外，作为一个预算敏感的学生，李小龙希望能控制出行费用，选择性价比高的选项。",
+      "expected_response": "\n根据李小龙的persona描述，AI应该首先确认他的出发地、目的地和行程日期。接着，AI可以提供从北京到上海的多种交通方式（如高铁、飞机），并根据李小龙的预算推荐最合适的选项。AI还应该推荐一些性价比高的住宿选择，考虑到李小龙的预算限制。由于李小龙热爱音乐创作和表演，AI应该进一步推荐上海的一些音乐相关活动或景点，如音乐节、现场演出或音乐工作室参观。这些推荐应该能激发他的创作灵感。此外，AI可以提供一个详细的出行计划，包括每日行程安排和交通信息，并提醒李小龙注意时间管理，以确保他能顺利参赛和充分利用时间探索音乐灵感。最后，AI还应该能跟踪他的支出情况，并提供实时的预算管理建议，帮助他在出差期间控制费用。",
+      "scene_context": "李小龙计划的行程如下：\n- 出发地：北京\n- 目的地：上海\n- 行程日期：出发日期为2023年10月20日，返回日期为2023年10月25日\n- 预算：总预算为3000元\n\n他需要AI助手帮助规划的内容包括：\n1. **交通方式**：\n   - 提供从北京到上海的多种交通方式（如高铁、飞机），并根据预算推荐性价比高的选项。\n2. **住宿选择**：\n   - 推荐一些性价比高的住宿选择，考虑到李小龙的学生预算。\n3. **音乐相关活动或景点**：\n   - 推荐上海的一些音乐相关活动或景点，如：\n     - 上海交响乐团的演出\n     - 上海音乐学院参观\n     - 当地的音乐节或现场演出\n     - 上海的一些著名音乐制作人的工作室参观\n4. **详细的出行计划**：\n   - 包括每日行程安排和交通信息\n   - 提醒李小龙注意时间管理，确保他能顺利参赛和充分利用时间探索音乐灵感。\n5. **预算管理**：\n   - 跟踪他的支出情况，并提供实时的预算管理建议，帮助他在出差期间控制费用。",
+      "personalized_query": "Hey，AI助手，我需要规划一下从北京到上海的出差行程，10月20号出发，10月25号回来。主要是为了参加一个音乐比赛，还希望能在出差期间找到一些音乐灵感。可以帮我安排下交通和住宿吗？预算大概3000元，性价比高一点的选择最好。",
+      "neutralized_query": "<neutralized_query>\n我需要规划从北京到上海的出差行程，10月20号出发，10月25号回来。请帮我安排交通和住宿，预算大概3000元，性价比高一点的选择最好。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "创作灵感：李小龙正在为即将到来的音乐大赛创作歌曲，需要寻找灵感和创意。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李小龙在一个阳光明媚的周末上午，坐在他最喜欢的咖啡馆角落里，手边放着一杯热气腾腾的拿铁。他正为即将到来的音乐大赛创作歌曲，脑海中灵感涌动，但还没有具体的方向。他决定使用AI助手来寻找新的创作灵感，希望能赋予他的作品独特的元素和新鲜的创意。他打开手机上的AI助手，准备开始一场灵感探索之旅。",
+      "expected_response": "\n根据李小龙的persona描述，AI助手应该会首先询问他是否有特定的主题或风格方向，以便更好地提供相关灵感。因为李小龙热爱摇滚乐和追求个性化表达，AI助手可以推荐一些新兴的摇滚乐队或独特风格的歌曲，甚至是一些著名摇滚音乐人的创作技巧和舞台表现视频。此外，AI助手还可以提供一些网络上的创作资源，如歌曲库、歌词生成器、音乐制作教程等。当李小龙找到满意的灵感时，AI助手会表达对他的兴奋感，并可能推荐一些与之相关的高质量音乐制作软件或设备，帮助他进一步提升创作质量。总之，AI助手的目标是通过多种创意选项和资源，激发李小龙的创作潜能，并提供详细且有创意的输出，帮助他创作出一首独具特色的比赛歌曲。",
+      "scene_context": "李小龙感兴趣的主题方向包括：现代摇滚、个性化表达、社会议题。他希望AI提供一些新兴的摇滚乐队推荐，如Greta Van Fleet、Royal Blood和The Struts。同时，他对一些著名摇滚音乐人的创作技巧和舞台表现感兴趣，可以提到Jim Morrison、Kurt Cobain和David Bowie。此外，李小龙希望获取一些网络上的创作资源，如Ultimate Guitar、Soundation和Splice。",
+      "personalized_query": "Hey小助手，我现在正坐在咖啡馆里，准备为即将到来的音乐大赛创作一首新歌。脑袋里有很多灵感，但还是没有个具体的方向。能帮我找找一些关于现代摇滚和个性化表达的创作灵感吗？先从推荐几个新兴摇滚乐队开始吧，我希望找到一些如Greta Van Fleet、Royal Blood和The Struts这样的乐队。",
+      "neutralized_query": "<neutralized_query>\n我需要关于现代摇滚和个性化表达的创作灵感，以及推荐几个新兴摇滚乐队。\n</neutralized_query>"
+    }
+  ]
+}

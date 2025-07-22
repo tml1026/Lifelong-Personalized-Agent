@@ -1,0 +1,241 @@
+{
+  "Demographics": {
+    "Age": 32,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "湖南某医院的儿科护士",
+    "Name": "晨曦"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热心帮助病患家庭",
+      "奉行共情和理解",
+      "喜欢烹饪和园艺",
+      "对手工艺和DIY有兴趣"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "最近经常查询烹饪和园艺相关的信息，可能在计划新的菜谱或园艺项目",
+    "Usage_Pattern": "使用频繁；经常使用搜索食谱和园艺技巧功能；偶尔会用来查找手工艺和DIY项目",
+    "Emotion_Pattern": "经常表现出感激和愉快的情绪",
+    "Purchase_Pattern": "倾向于选择高品质的工具和食材，但也有性价比考虑"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细和实用的步骤指南，喜欢用类比和实例解释复杂的概念",
+    "Preferred_Formats": "喜欢图文并茂和视频教程",
+    "Preferred_Workflows": "喜欢计划好每一步，然后逐步实现，注重每一个细节的准确性和质量"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：晨曦需要安排休假或短途旅行，为自己减压和放松，可能会寻找有特色的景点和美食。",
+      "available_apis": null,
+      "scene_desc": "晨曦是一名热心帮助病患家庭并注重共情和理解的儿科护士，她需要安排一次休假或短途旅行，以减压和放松。她对烹饪和园艺非常感兴趣，且在选择工具和食材时注重性价比。晨曦希望找到一些有特色的景点和美食，特别是能够体验当地文化和特色的地方。她最近频繁查询与烹饪和园艺相关的信息，可能也希望在旅行中探索一些相关的活动或参观当地的相关景点。",
+      "expected_response": "\n根据晨曦的persona，AI应该会首先询问她的旅行时间和目的地偏好，以便推荐合适的旅行计划。AI可能会根据晨曦的兴趣，推荐一些有丰富美食和园艺活动的地方。例如，可以提供一些具有特色餐厅的推荐，以及能够参观当地花园或农场的行程。此外，AI还会提供详细的旅行指南，包括交通方式、住宿建议及当地活动安排。由于晨曦喜欢详细和实用的步骤指南，AI应该确保提供的信息详尽且易于实施。最后，AI可能会建议一些高性价比的旅行工具和装备，并提醒晨曦检查预算，以确保旅行计划在她的预算范围内。",
+      "scene_context": "晨曦计划在下个月休假期间进行短途旅行，时间为3天。她对以下几个目的地有兴趣：云南丽江、浙江乌镇、四川成都。她希望在这些地方能够体验当地的特色美食，并参观一些花园或农场。她喜欢尝试新鲜的食材和了解当地的烹饪方法。此外，她希望住宿选择舒适且经济实惠。她也在寻找一些性价比高的旅行工具和装备，如便携的炊具和种植工具。",
+      "personalized_query": "我最近正计划在下个月休假期间进行一次短途旅行，时间是3天。我想探索云南丽江、浙江乌镇和四川成都这几个地方，但还没有最终决定。你能帮我推荐一下这些地方的特色景点和美食吗？特别是那些能体验当地文化和特色的地方。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我计划在下个月进行一次3天的短途旅行，可以帮我推荐云南丽江、浙江乌镇和四川成都的特色景点和美食吗？特别是那些能体验当地文化和特色的地方。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：作为儿科护士，她需要协调与医生、家长和其他护士的会议，并管理自己的工作时间表。",
+      "available_apis": null,
+      "scene_desc": "晨曦是一名湖南某医院的儿科护士，她需要协调与医生、家长和其他护士的会议，并管理自己的工作时间表。最近她负责的一名小患者需要安排一个治疗方案的讨论会议，她需要和负责的医生、患者家长、其他相关护士进行协调并确定一个合适的会议时间。由于工作繁忙，她希望AI助手能够帮忙处理这一任务，确保会议安排得井井有条。",
+      "expected_response": "\n根据晨曦的persona描述，AI应该首先询问具体需要邀请的医生、家长和护士的姓名，以及他们的联系方式。接着，AI可以通过医院内部系统访问这些人员的日程安排，并找出一个所有人都可参与的时间。在找到合适的时间段后，AI应该向晨曦确认这个时间是否合适，并询问是否需要在会议邀请中包含特定的议程或文件。此外，AI应该设置一个定时自动提醒晨曦会议的时间和内容，并在会议开始前发送通知给所有参会人员。最后，AI应该生成一个详细的会议邀请，包含会议目的、时间、地点和议程，并提供选项让晨曦确认后直接发送。\n",
+      "scene_context": "晨曦需要协调的会议参会人员包括：\n1. 负责的医生：王医生，联系方式：wang.doctor@example.com\n2. 患者家长：李先生，联系方式：li.parent@example.com\n3. 相关护士：张护士，联系方式：zhang.nurse@example.com\n会议目的：讨论小患者的治疗方案\n会议地点：医院会议室3号\n会议议程：\n1. 病例回顾\n2. 治疗方案讨论\n3. 其他相关问题",
+      "personalized_query": "早上好！我今天需要安排一个涉及到小患者治疗方案的讨论会议。能帮我协调一下医生、家长和其他护士的时间吗？会议地点和议程我会之后告诉你。",
+      "neutralized_query": "<neutralized_query>\n我需要安排一个涉及到治疗方案讨论的会议。能帮我协调一下医生、家长和其他护士的时间吗？会议地点和议程我会之后告诉你。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：晨曦可能需要帮助撰写和整理病历或护理记录，确保信息的准确和完整。",
+      "available_apis": null,
+      "scene_desc": "晨曦正在她的工作中，需要帮助撰写和整理病历或护理记录。她希望能够确保这些文档的准确性和完整性，以便更好地服务于病患家庭。由于她最近频繁使用AI助手来查询烹饪和园艺相关的信息，所以她对AI助手的使用已经非常熟悉，并信任其能力。她打开了AI助手，准备开始文档编辑工作。",
+      "expected_response": "\nAI助手首先会询问晨曦具体需要编辑和整理的病历或护理记录的类型和详细要求。由于晨曦喜欢详细和实用的步骤指南，AI会提供一个分步指南，帮助她一步一步进行编辑和整理工作。接着，AI会根据晨曦的需求，建议使用一些特定的格式和模板来确保文档的准确性和完整性。考虑到晨曦注重每一个细节的准确性和质量，AI会特别提醒她检查一些重要的数据和信息。最终，AI会自动保存并备份这些文档，以防数据丢失，并询问晨曦是否需要进一步的帮助或额外的功能支持。",
+      "scene_context": "晨曦需要编辑和整理的病历和护理记录包括：\n1. 病患A的住院记录：入院原因、诊断、治疗方案、病程记录、出院情况。\n2. 病患B的护理记录：每日生命体征、药物使用记录、护理措施、病患反馈。\n3. 病患C的手术记录：手术时间、手术方式、术中情况、术后恢复情况。\n\n请将以上内容按照规范的医疗文档格式编辑整理，确保信息的准确性和完整性。",
+      "personalized_query": "早上好，AI助手，我今天需要整理几份病历和护理记录，想请你帮忙编辑和整理一下。我们先从病患A的住院记录开始吧。我需要包括以下信息：\n\n1. 入院原因\n2. 诊断\n3. 治疗方案\n4. 病程记录\n5. 出院情况\n\n请帮我整理成规范的医疗文档格式。",
+      "neutralized_query": "<neutralized_query>\n我今天需要整理几份病历和护理记录，请帮忙编辑和整理一下，包括以下信息：\n\n1. 入院原因\n2. 诊断\n3. 治疗方案\n4. 病程记录\n5. 出院情况\n\n请帮我整理成规范的医疗文档格式。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：协助晨曦撰写专业的工作邮件，与同事、家属和医生沟通。",
+      "available_apis": {
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional email to the selected recipients, including the content and any necessary attachments."
+        }
+      },
+      "scene_desc": "晨曦需要撰写一封专业的工作邮件，内容是与同事、家属和医生沟通有关某个病患的护理计划和进展。她希望邮件能够准确完整地传达信息，包括治疗过程、当前状况以及接下来的护理安排。她可能还需要附上相关的护理记录或病历文件。由于晨曦注重共情和理解，她希望邮件能够既专业又温暖，以便让收件人感受到她的关心和支持。",
+      "expected_response": "\n根据晨曦的persona描述，AI应该首先询问邮件收件人（同事、家属和医生）的具体信息，以确保能够准确发送。接着，AI应该询问邮件的主题和主要内容，包括治疗过程、当前状况以及接下来的护理安排，确保信息的完整性。AI还应提示晨曦检查是否需要附加相关文件如护理记录或病历，并提供上传附件的选项。考虑到晨曦注重共情和理解，AI应该建议在邮件中加入关怀和支持的措辞，确保邮件既专业又温暖。最后，AI应生成一封草稿邮件供晨曦预览和确认，并在确认后直接发送邮件。",
+      "scene_context": "晨曦需要撰写的邮件收件人为：同事王强、病患的家属李女士和主治医生陈医生。邮件主题为“关于病患张伟的护理计划和进展”。邮件主要内容包括：\n1. 治疗过程：张伟在过去两周内的治疗概况及所采取的具体疗法。\n2. 当前状况：目前张伟的身体状况和康复进展。\n3. 护理安排：未来一周的护理计划以及需要注意的事项。\n\n晨曦希望附加的文件包括：\n1. 最近的护理记录（文件名：护理记录_张伟_2023-10-05.pdf）\n2. 最新的病历文件（文件名：病历_张伟_2023-10-05.pdf）\n\n晨曦希望邮件语气专业且温暖，表达对家属的关心和对同事、医生的感谢。",
+      "personalized_query": "你好，我需要撰写一封专业的工作邮件，内容是与同事、家属和医生沟通有关某个病患的护理计划和进展。你能帮我起草一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要撰写一封专业的工作邮件，内容是与同事、家属和医生沟通有关某个病患的护理计划和进展。你能帮我起草一下吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "饮食计划：根据晨曦的健康目标和烹饪兴趣，推荐适合的饮食计划和食谱。",
+      "available_apis": {
+        "retrieveUserHealthData": {
+          "arguments": [
+            "userID"
+          ],
+          "description": "Retrieves the user's health data including health goals, dietary restrictions, and other relevant health information."
+        },
+        "retrieveUserCookingPreferences": {
+          "arguments": [
+            "userID"
+          ],
+          "description": "Retrieves the user's cooking preferences, including their favorite types of cuisines, cooking skills, and any specific dietary preferences."
+        },
+        "generateMealPlan": {
+          "arguments": [
+            "healthData",
+            "cookingPreferences"
+          ],
+          "description": "Generates a customized meal plan based on the user's health data and cooking preferences."
+        },
+        "searchRecipes": {
+          "arguments": [
+            "mealPlan"
+          ],
+          "description": "Searches for recipes that fit within the recommended meal plan, taking into account dietary restrictions and culinary preferences."
+        }
+      },
+      "scene_desc": "晨曦是一名湖南某医院的儿科护士，最近她积极参与烹饪和园艺活动，并且非常关注健康饮食。她希望通过AI助手来制定一个适合自己的饮食计划，以满足她的健康目标和烹饪兴趣。晨曦希望这个饮食计划不仅能帮助她保持健康，还能给她提供一些新的菜谱灵感。\n\n她打开AI助手，表达了她想要制订一个饮食计划的需求，并希望AI能够根据她的健康数据和烹饪偏好推荐合适的食谱。",
+      "expected_response": "AI应该首先检索晨曦的健康数据，包括她的健康目标和任何饮食限制。接着，AI会获取她的烹饪偏好，了解她喜欢的菜系和烹饪技巧。根据晨曦的健康数据和烹饪偏好，AI将生成一个定制化的饮食计划。然后，AI会从网上搜索符合这个饮食计划的食谱，并确保这些食谱图文并茂，步骤详细，最好还有视频教程，以符合晨曦的偏好。最后，AI会询问晨曦是否需要进一步的帮助，例如购物清单或每日提醒。",
+      "scene_context": "晨曦的健康目标是减脂和增加肌肉，同时她对辛辣食物和中餐菜系有浓厚的兴趣。她没有特定的饮食限制，但希望减少糖分和脂肪的摄入。她喜欢尝试新菜式，尤其是湘菜和川菜，并且对烤箱和空气炸锅的使用非常感兴趣。",
+      "personalized_query": "嗨，我最近想制定一个饮食计划，能帮我推荐一些适合我的健康目标和烹饪偏好的食谱吗？",
+      "neutralized_query": "<neutralized_query>\n嗨，我最近想制定一个饮食计划，能帮我推荐一些适合的健康目标和食谱吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：晨曦需要管理自己的家庭预算，控制花费在高品质工具和食材上的支出。",
+      "available_apis": {
+        "recordExpense": {
+          "arguments": [
+            "category",
+            "amount",
+            "date"
+          ],
+          "description": "记录一笔支出，包括类别（如工具、食材）、金额和日期。"
+        },
+        "analyzeExpenses": {
+          "arguments": [
+            "startDate",
+            "endDate"
+          ],
+          "description": "分析给定时间范围内的支出，找出主要的开支类别和节省空间。"
+        },
+        "suggestSavings": {
+          "arguments": [
+            "category"
+          ],
+          "description": "根据支出类别提供节省开销的建议或替代方案。"
+        }
+      },
+      "scene_desc": "晨曦在最近购买了不少高品质的厨具和园艺工具，发现家庭预算有些吃紧。她希望能通过AI助手管理和分析自己的家庭支出，从而找到节省开销的方式。为了更好地控制花费，她需要记录近期的开销，包括购买的工具和食材的费用，并分析这些支出是否合理。同时，希望AI能给出一些节省开销的建议，帮助她在保证质量的前提下选择更具性价比的商品。",
+      "expected_response": "\n根据晨曦的persona描述，AI应该首先询问具体需要记录哪几笔支出，包括类别（如工具、食材）、金额和日期。接着，AI应该能够分析给定时间范围内的支出数据，找出主要的开支类别和节省空间。AI还应该提供一些节省开销的建议，例如推荐性价比更高的工具和食材购买渠道。考虑到晨曦注重高品质和性价比，并且喜欢详细和实用的指导，AI可以提供图文并茂的节省方案，并询问晨曦是否需要进一步的帮助，譬如推荐具体的购物网站或产品评测。最后，AI应该确保所有信息的准确性和完整性，并保持与晨曦的沟通，确保她的满意和感激情绪。",
+      "scene_context": "晨曦需要记录的近期开销包括：\n1. 工具类：\n   - 高品质厨刀：金额 800 元，日期 2023-09-15\n   - 园艺剪刀：金额 300 元，日期 2023-09-18\n   - 厨房搅拌机：金额 1200 元，日期 2023-09-20\n2. 食材类：\n   - 有机蔬菜：金额 150 元，日期 2023-09-16\n   - 高品质牛肉：金额 400 元，日期 2023-09-17\n   - 特级橄榄油：金额 200 元，日期 2023-09-19\n\n她希望AI助手能分析这些支出是否合理，并给出节省开销的建议。",
+      "personalized_query": "早上好！最近我买了些新的厨具和园艺工具，发现开销有点大。你能帮我记录一下这些花费吗？然后分析一下这些支出是否合理，并帮我找找节省开销的建议？",
+      "neutralized_query": "<neutralized_query>\n你能帮我记录最近的工具和食材的花费，然后分析这些支出是否合理，并提供一些节省开销的建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：晨曦需要推荐合适的园艺和烹饪工具，帮助她选择性价比高的商品。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "晨曦最近在计划新的菜谱和园艺项目，她需要购买一些高品质且性价比高的园艺和烹饪工具。她希望AI能够帮助她找到合适的产品，并提供详细的购买建议。晨曦对工具的质量和实用性非常看重，同时也希望能够在预算范围内选择最佳的商品。她平时喜欢详细和实用的步骤指南，也喜欢图文并茂和视频教程。",
+      "expected_response": "AI应该首先询问具体需要购买的园艺和烹饪工具的种类，并了解她的预算范围。接着，AI应该通过联网搜索，找到一些符合她需求的高品质且性价比高的商品，并提供详细的产品说明，包括用户评价和使用体验。因为晨曦喜欢详细和实用的步骤指南，AI还应该推荐一些相关的工具使用方法和维护指南的视频或图文教程。最后，AI可以提供一些购买链接或者折扣信息，帮助她做出最佳选择。",
+      "scene_context": "晨曦需要购买的园艺工具包括：电动修枝剪、园艺手套和浇水壶。她需要的烹饪工具包括：不锈钢炒锅、厨房用数字温度计和多功能食品处理器。她的预算范围为：每种工具不超过100美元。",
+      "personalized_query": "你好！最近我在计划一些新的菜谱和园艺项目，需要购买一些高品质且性价比高的工具。你能帮我找到合适的园艺和烹饪工具吗？",
+      "neutralized_query": "<neutralized_query>\n我需要推荐一些高品质且性价比高的园艺和烹饪工具。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "美容护理：推荐适合晨曦的美容护肤产品和护理步骤，保持她的皮肤健康。",
+      "available_apis": {
+        "getUserSkinInfo": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the user's skin type and current skin conditions."
+        },
+        "recommendProducts": {
+          "arguments": [
+            "skin_type",
+            "skin_conditions"
+          ],
+          "description": "Recommend suitable beauty and skincare products based on the user's skin type and conditions."
+        },
+        "provideCareSteps": {
+          "arguments": [
+            "skin_type",
+            "skin_conditions"
+          ],
+          "description": "Provide a set of skincare routines and steps suitable for the user's skin type and conditions."
+        }
+      },
+      "scene_desc": "晨曦刚完成了一天忙碌的工作，她感到皮肤有些干燥和疲惫。为了保持皮肤的健康，她决定向她的AI助手寻求适合的美容护肤产品和护理步骤。晨曦希望能够获得针对她皮肤类型和当前皮肤状况的个性化建议，以确保她的护肤品和护理步骤能够有效地改善她的皮肤状态。",
+      "expected_response": "\n根据晨曦的人设，AI应该首先询问她的皮肤类型（如干性、油性、混合性）以及当前皮肤状况（如敏感、痘痘、暗沉）。确认这些基本信息后，AI可以使用getUserSkinInfo API来检索晨曦的皮肤信息。接着，AI应该通过recommendProducts API推荐适合晨曦皮肤类型和状况的护肤产品，包括清洁、保湿、防晒等步骤需要用到的具体产品。最后，AI应该提供一个详细的护理步骤指南，利用provideCareSteps API为晨曦创建一个适合她日常生活的护肤流程，并附上图文并茂的说明，确保每一个步骤的准确性和可操作性。",
+      "scene_context": "晨曦的皮肤类型是混合性皮肤，目前她的皮肤状况是有些干燥和疲惫，她希望在清洁、保湿和防晒方面获得具体的产品推荐和详细的护理步骤，包括产品的使用顺序和方法。",
+      "personalized_query": "今天工作挺累的，感觉皮肤有些干燥和疲惫。你能不能帮我推荐一些适合我这种混合性皮肤的护肤产品和护理步骤？特别是清洁、保湿和防晒方面的，最好详细一点，谢谢！",
+      "neutralized_query": "<neutralized_query>\n你能不能推荐一些适合混合性皮肤的护肤产品和护理步骤，特别是在清洁、保湿和防晒方面？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "服装搭配：根据晨曦的工作和休闲需要，提供合适的服装搭配建议。",
+      "available_apis": {
+        "askForDetails": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Asks the user specific questions to gather details about their work and leisure needs."
+        },
+        "generateOutfitSuggestions": {
+          "arguments": [
+            "work_environment",
+            "leisure_activities"
+          ],
+          "description": "Generates outfit suggestions based on the user's work environment and leisure activities."
+        }
+      },
+      "scene_desc": "晨曦最近在忙于医院的工作和家庭事务，终于决定利用即将到来的周末放松一下。她计划去逛街并希望买一些新的衣服来更新她的衣橱。晨曦希望AI能够根据她的工作和休闲需要，推荐一些适合的服装搭配。她特别强调需要一些既适合在医院工作，又能在周末家居和外出休闲时穿的衣服。她通常喜欢细致和实用的建议，并且更倾向于实惠但高品质的选项。",
+      "expected_response": "\nAI应该首先询问晨曦的具体需求，包括她的工作环境和休闲活动的具体细节，以及她的服装偏好（例如，颜色、风格、功能性需求）。接着，AI应使用“askForDetails”API来获取这些信息。然后，AI应该结合这些数据，通过“generateOutfitSuggestions”API生成相应的搭配建议。AI应推荐一些既适合医院工作又能在休闲时穿的多功能服装，并确保推荐的选项具有性价比和高品质。AI还应该提供详细的步骤指南，包括购买和搭配的具体建议，并附上图文并茂或视频教程来帮助晨曦做出最佳选择。最后，AI应该询问晨曦是否需要进一步的支持，如购买链接或更多的搭配建议。",
+      "scene_context": "晨曦的具体需求如下：\n1. 工作环境：医院，需穿着舒适、易清洗和专业的服装，例如医护服、舒适的鞋子。\n2. 休闲活动：周末家居和外出购物，需穿着舒适、休闲但有时尚感的衣服，如休闲裤、T恤、休闲鞋。\n3. 服装偏好：颜色偏好为浅色系（如白色、淡蓝色、粉色），风格偏好为简约大方，功能性需求包括易清洗、耐穿和多功能性。\n\n晨曦希望AI推荐以下几种搭配：\n1. 医院工作时穿的服装，例如专业医护服、舒适鞋。\n2. 周末家居的舒适服装，例如休闲裤、T恤。\n3. 外出购物的时尚但舒适的服装，例如牛仔裤、休闲鞋、简约上衣。",
+      "personalized_query": "早上好，AI助手！我这周末终于有些时间想去逛街，想买些新的衣服来更新衣橱。你能帮我推荐一些适合医院工作、周末家居和外出购物时穿的服装吗？我希望这些衣服既舒适又实用。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n我需要一些适合工作、周末家居和外出购物时穿的舒适且实用的服装推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "手工艺和DIY项目：为晨曦提供手工艺和DIY项目的建议和指导，满足她的兴趣爱好。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends an email containing detailed handcraft and DIY project suggestions, tutorials, and resources to the user's email address."
+        }
+      },
+      "scene_desc": "晨曦刚刚结束了一天忙碌的工作，回到家后想要放松一下。她决定开始一个新的手工艺或DIY项目，并想通过AI助手获取一些建议和指导。她对木工和纺织品制作特别感兴趣，并希望找到一些详细的教程和实例，以便能够逐步完成项目。她还考虑到需要购置一些高品质的工具和材料，因此也希望得到推荐和预算建议。",
+      "expected_response": "根据晨曦的persona描述，AI应该首先询问她具体感兴趣的手工艺或DIY项目类型（如木工或纺织品制作），然后根据她的偏好提供详细和实用的步骤指南。AI还应该检索图文并茂和视频教程，以便晨曦能够更好地理解和实施项目。鉴于晨曦对高品质工具和食材的偏好，AI 还应进行适当的搜索，推荐性价比高的工具和材料，并提供预算管理建议。最后，AI可以通过邮件发送详细的手工艺和DIY项目建议、教程和资源链接，以便她随时查阅。",
+      "scene_context": "晨曦目前有两个DIY项目的初步想法，一个是制作木制书架，另一个是编织一条羊毛围巾。她希望AI助手能够详细介绍这两个项目的步骤和所需工具材料，并提供一些高质量的教程链接。另外，她还希望能够得到一些推荐的工具和材料品牌，并估算每个项目的预算。\n\n木制书架：\n- 所需工具：锯子、电钻、砂纸、测量工具（如卷尺和水平仪）、木工胶、钉子或螺丝\n- 所需材料：优质木材（如松木或橡木）、木蜡油或清漆\n\n羊毛围巾：\n- 所需工具：编织针（适合羊毛的尺寸）、剪刀、缝针\n- 所需材料：高品质羊毛线（建议颜色和品牌）\n\n她还希望能够获取一些综合性的预算建议，以及推荐一些性价比高的工具和材料品牌。",
+      "personalized_query": "嗨，我今天回到家后想开始一个新的手工艺项目。最近对木工和纺织品制作很感兴趣，所以在考虑做一个木制书架或者编织一条羊毛围巾。你能帮我提供两个项目的详细步骤和所需工具材料吗？再推荐一些质量好的品牌和估算一下预算就更好了。",
+      "neutralized_query": "<neutralized_query>\n我需要一些关于木制书架和羊毛围巾编织项目的详细步骤和所需工具材料的指导。同时希望你推荐一些质量好的品牌和估算一下预算。\n</neutralized_query>"
+    }
+  ]
+}

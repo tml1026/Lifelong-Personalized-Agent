@@ -1,0 +1,243 @@
+{
+  "Demographics": {
+    "Age": 38,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "文化遗产保护工作者，致力于历史建筑修复",
+    "Name": "陈芳"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "对细节有极高的关注",
+      "喜欢深度思考问题并提出解决方案",
+      "享受安静和独立的工作环境",
+      "有着强烈的美学追求，特别喜欢古典音乐和书法"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于从详细、深度的回答中获取信息，对浅显的解释感到不满足",
+    "Usage_Pattern": "经常查询关于文化遗产保护的最新研究和理论，喜欢通过阅读综合性资料来获取信息，偶尔会询问书法、音乐相关的知识",
+    "Emotion_Pattern": "倾向于表现出谨慎和理智，情绪波动较小",
+    "Purchase_Pattern": "偏好购买高质量且经典的物品，愿意为有美学价值和历史意义的物品付出较高的价格"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢深思熟虑、逻辑清晰且有深度的回答",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢从全面的背景介绍到细节的逐步展开，喜欢有逻辑结构的分析"
+  },
+  "scenes": [
+    {
+      "scene_type": "文档编辑：_陈芳需要撰写和修改关于历史建筑修复的报告、项目提案和研究论文，确保文档内容详尽、有逻辑性，并符合学术标准。",
+      "available_apis": null,
+      "scene_desc": "陈芳正准备撰写一份关于历史建筑修复的详细报告。她需要确保文档内容详尽、有逻辑性，并符合学术标准。由于她对细节有极高的关注，并且喜欢深度思考问题，因此她希望在撰写过程中可以查询到最新的研究和理论支持，确保报告的准确性和权威性。同时，她希望能够通过AI助手来优化文档的结构和语法，以提升报告的整体质量。",
+      "expected_response": "\n根据陈芳的persona描述，AI应该首先询问她具体需要撰写的报告主题和范围，并了解她对报告的主要需求（如哪些部分需要详细说明，哪些部分需要简洁概述）。接着，AI应该提供相关的最新研究和理论信息，帮助她补充文档内容。AI还应该对文档内容进行逻辑性检查和语法优化，确保文档符合学术标准。考虑到陈芳享受安静和独立的工作环境，AI应该避免过多的打扰，只在必要时提供精准的帮助和建议。最后，AI可以推荐一些与历史建筑修复相关的参考文献和资源，供陈芳进一步阅读和参考。",
+      "scene_context": "陈芳需要撰写的报告主题为：明清时期传统木结构建筑的修复技术及其应用。\n具体需求：\n1. 报告中的主要章节包括：引言、历史背景、修复技术、应用案例、结论与建议。\n2. 需要详细说明修复技术部分，涵盖传统工艺与现代技术结合的方法。\n3. 需要查询最新的学术研究和理论支持，包括历史建筑修复的最佳实践和最新发展。\n4. 希望文档符合学术标准，并得到语法和逻辑结构的优化建议。\n\n陈芳期望AI助手能够提供以下帮助：\n1. 最新研究和理论信息的提供。\n2. 参考文献和资源的推荐。\n3. 文档结构和语法的优化。",
+      "personalized_query": "我需要开始撰写一份关于明清时期传统木结构建筑的修复技术及其应用的报告。首先，我希望查询最新的学术研究和理论支持，尤其是关于如何将传统工艺与现代技术结合的方法。请帮我查找相关的文献和参考资源。",
+      "neutralized_query": "<neutralized_query>\n我需要开始撰写一份关于传统木结构建筑修复技术及其应用的报告。首先，我希望查询最新的学术研究和理论支持，尤其是关于如何将传统工艺与现代技术结合的方法。请帮我查找相关的文献和参考资源。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：_陈芳在出差去不同地方进行历史建筑修复项目时，需要了解目的地的天气、签证要求以及其他相关信息，以确保旅行顺利进行。",
+      "available_apis": null,
+      "scene_desc": "陈芳即将前往一个新的城市进行历史建筑修复项目。由于她的工作需要高度的细节关注，她希望在出发前了解目的地的天气情况、是否需要办理签证以及其他相关的旅行信息，以便做充分的准备。她通常会在工作环境中进行详细的计划，因此期望AI助手能够提供全面且具体的信息。",
+      "expected_response": "AI应该首先询问陈芳的具体目的地和出行日期，以便提供准确的天气预报。接着，AI应该查询并反馈该目的地的签证要求，特别是针对中国公民的具体细节。最后，AI还应该提供一些关于该地区交通、住宿、安全注意事项等方面的信息，确保陈芳能够顺利进行出差。鉴于陈芳的重视细节和深度思考，AI的回答应当全面、逻辑清晰，并包含可靠的资源链接，供她进一步查阅。",
+      "scene_context": "陈芳计划前往巴黎进行历史建筑修复项目，出发日期为2023年11月10日。她需要了解以下信息：\n1. 巴黎未来一周的天气预报。\n2. 针对中国公民的签证要求。\n3. 该地区的交通和住宿信息。\n4. 安全注意事项和紧急联系方式。",
+      "personalized_query": "现在，我需要获取巴黎未来一周的天气预报，因为我即将于2023年11月10日出发去巴黎。能帮我查一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要获取巴黎未来一周的天气预报。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：_陈芳希望深入了解文化遗产保护的最新研究和理论，喜欢通过全面的背景介绍和详细的分析来获取信息。",
+      "available_apis": null,
+      "scene_desc": "陈芳是一位38岁的中国文化遗产保护工作者，专注于历史建筑修复。她的工作要求她不断提升自身的专业知识和技能。安静、独立的工作环境让她能够深度思考并提出解决方案。她对细节有极高的关注，喜欢深思熟虑、逻辑清晰且有深度的回答。某天，她决定利用空闲时间，通过AI助手获取关于文化遗产保护的最新研究和理论。她希望通过全面的背景介绍和详细的分析来获取信息，以便更好地应用到她的实际工作中。",
+      "expected_response": "AI应该首先询问陈芳感兴趣的具体领域或主题，例如某一特定历史时期的建筑修复技术或最新的保护理论。接着，AI应基于她的兴趣提供一份详细的、逻辑清晰的背景介绍，并附带相关的最新研究成果和学术论文。AI还可以推荐一些权威的书籍和期刊供陈芳深度阅读。AI应该确保提供的信息有足够的深度和广度，以满足陈芳对于细节和逻辑的高要求。在整个过程中，AI应保持专业和严谨的态度，确保信息的准确性和可靠性。",
+      "scene_context": "陈芳希望深入了解的具体领域为：清代历史建筑的修复技术与方法、现代文化遗产保护的理论基础、文化遗产的数字化保护趋势和实践。",
+      "personalized_query": "AI助手，您好。我近期在修复一座清代的历史建筑，想了解一下清代历史建筑的修复技术与方法。请您帮忙提供相关的最新研究和理论背景。",
+      "neutralized_query": "<neutralized_query>\n我需要了解清代历史建筑修复技术与方法的最新研究和理论背景。\n"
+    },
+    {
+      "scene_type": "会议安排：_陈芳需要协调与政府部门、学术机构以及修复团队的会议时间，并发送邀请和生成会议纪要，确保项目顺利进行。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., government officials, academic institution members, and restoration team members) for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        },
+        "generateMinutes": {
+          "arguments": [
+            "meeting_details"
+          ],
+          "description": "Generates meeting minutes based on the provided details and sends them to the participants after the meeting."
+        }
+      },
+      "scene_desc": "陈芳正在计划一场涉及政府部门、学术机构和修复团队的会议。她需要协调所有参与者的时间，以确保会议能够顺利进行，并且内容详尽、有逻辑性，符合学术标准。她希望能发送专业的会议邀请，并在会议结束后生成详细的会议纪要。\n\n为了确保会议顺利进行，陈芳需要考虑各方的日程安排，并及时发送会议邀请和议程。此外，她希望会议纪要能清晰记录讨论内容和待办事项，以便后续跟进。\n\n她使用的AI助手可以帮助她检查所有参与者的空闲时间，发送会议邀请邮件，并在会议结束后生成并发送会议纪要。",
+      "expected_response": "\n根据陈芳的persona描述，她是一个内向、喜欢深度思考、关注细节、有逻辑结构的人。AI应该首先询问具体需要邀请哪些团队成员，并询问是否需要考虑特定的时间段（如上午或下午）。接着，AI应该通过calendarCheck API访问各参与者的日程安排，快速找出一个所有人都可参与的时间。AI还应该询问陈芳是否需要在会议邀请中包含特定的议程或文件，然后通过sendEmail API生成并发送专业的会议邀请邮件。最后，AI应该在会议结束后使用generateMinutes API生成详细的会议纪要，并及时发送给所有参与者，确保每个细节都被准确记录并能后续跟进。",
+      "scene_context": "陈芳需要协调的会议成员包括以下几方：政府部门的李处长、学术机构的王教授以及修复团队的张工程师。她希望会议安排在下周的工作时间段，并且更倾向于下午时间。会议议程包括以下几点：1. 项目进度汇报；2. 政府政策解读；3. 学术研究分享；4. 修复技术讨论。她需要AI助手帮助检查所有成员的空闲时间，发送包含上述议程的会议邀请邮件，并在会议结束后生成详细的会议纪要。",
+      "personalized_query": "我正在准备一场会议，会议涉及到政府部门、学术机构和修复团队的多方参与。我需要你帮我检查所有参与者的空闲时间，确保会议能安排在下周的下午时段，并且发送包含以下议程的会议邀请邮件：\n\n1. 项目进度汇报\n2. 政府政策解读\n3. 学术研究分享\n4. 修复技术讨论\n\n请确认所有参与者的空闲时间，并协助发送会议邀请邮件。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我检查参与者的空闲时间，确保会议能安排在下周的下午时段，并且发送包含项目进度汇报、政府政策解读、学术研究分享和修复技术讨论议程的会议邀请邮件。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：_陈芳在招聘新成员加入她的修复团队时，希望能够准备全面的面试问题，并进行模拟面试，以确保选出合适的人选。",
+      "available_apis": {
+        "searchInterviewQuestions": {
+          "arguments": [
+            "job_title",
+            "industry"
+          ],
+          "description": "Searches for comprehensive interview questions specific to the given job title and industry."
+        },
+        "simulateInterview": {
+          "arguments": [
+            "candidate_profile",
+            "interview_questions"
+          ],
+          "description": "Simulates an interview with the given candidate profile and a set of interview questions."
+        }
+      },
+      "scene_desc": "陈芳目前正在进行修复项目，她需要招聘一名新成员加入她的团队。为了确保招聘到合适的人选，她希望准备全面的面试问题，并通过模拟面试来评估候选人的能力。AI助手将通过查询相关的行业信息和岗位要求，帮助她准备面试问题，并模拟面试过程，确保挑选出最符合要求的候选人。",
+      "expected_response": "\n根据陈芳的persona描述，她是一个注重细节和逻辑结构的深思者，AI应该提供详细且有逻辑性的帮助。AI应该首先询问具体的岗位名称和职责要求，并确认候选人需具备的关键技能和经验。接着，AI应使用searchInterviewQuestions API查询与该岗位和行业相关的全面面试问题，涵盖技术能力、项目经验和文化契合度等方面。然后，AI可以使用simulateInterview API，基于输入的候选人资料和准备好的面试问题，进行模拟面试演练，以评估候选人的应答能力和适应性。最后，AI应生成一份详细的模拟面试报告，供陈芳参考，以便她做出最优的招聘决策。",
+      "scene_context": "陈芳需要招聘的岗位为：高级修复工程师。该岗位的主要职责包括：\n1. 负责文化遗产和艺术品的修复工作。\n2. 制定和实施修复计划，确保修复工作的高质量完成。\n3. 领导和培训团队成员，提升团队整体修复技能。\n\n候选人需具备的关键技能和经验包括：\n1. 文化遗产和艺术品修复的专业知识和实际工作经验。\n2. 熟悉各种修复技术和材料。\n3. 良好的团队合作能力和领导力。\n\n候选人需要回答的面试问题可能包括：\n1. 请介绍一下你参与过的一个重要修复项目，以及你在其中的角色和贡献。\n2. 你如何处理修复过程中遇到的突发问题或挑战？\n3. 请描述你对某种特定修复材料的了解和使用经验。\n4. 你如何管理和培训团队成员，确保他们的技能不断提高？\n\n此外，模拟面试的候选人资料应包含：\n1. 教育背景（例如：艺术修复相关专业的学位）。\n2. 工作经历（例如：参与过哪些修复项目，担任什么角色）。\n3. 技能清单（例如：使用哪种修复技术，有哪些认证）。\n\n这些信息将帮助AI助手提供详细且有逻辑性的帮助，准备全面的面试问题，并通过模拟面试评估候选人的能力。",
+      "personalized_query": "我目前正在进行一个修复项目，需要招聘一名新的高级修复工程师加入我的团队。我需要准备一些全面的面试问题，并且希望模拟面试过程，来评估候选人的能力。能否帮我查一下相关的行业信息和岗位要求，并为我准备一些适合的问题？",
+      "neutralized_query": "<neutralized_query>\n我需要准备一些面试问题，并进行模拟面试，以评估一名高级修复工程师候选人的能力。能否帮我查一下相关的行业信息和岗位要求，并为我准备一些适合的问题？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：_陈芳在应聘新的文化遗产保护项目时，需要优化自己的简历，突出她在历史建筑修复方面的经验和成就。",
+      "available_apis": {
+        "uploadDocument": {
+          "arguments": [
+            "file"
+          ],
+          "description": "Uploads the current resume document to be reviewed and optimized."
+        },
+        "generateResume": {
+          "arguments": [
+            "experience",
+            "achievements"
+          ],
+          "description": "Generates an optimized resume based on provided experiences and achievements."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for the best resume optimization templates or suggestions."
+        }
+      },
+      "scene_desc": "陈芳正在申请一个新的文化遗产保护项目，她需要优化自己的简历。她希望突出自己在历史建筑修复方面的经验和成就，以便在竞争中脱颖而出。作为一个文化遗产保护工作者，陈芳对细节有极高的关注，并喜欢深度思考问题，同时她也希望简历符合高质量和经典的标准。",
+      "expected_response": "\n根据陈芳的persona，AI应该首先询问她是否有现成的简历文档可以上传，以便进行优化。接着，AI应该询问她的具体经验和成就的详细信息，例如完成的主要项目、获得的奖项和成果等。AI还应该搜索互联网上关于文化遗产保护领域的最佳简历优化模板和建议，并在优化过程中提供详细的逻辑和分析，以符合陈芳对深度思考和高质量标准的要求。最终，AI应该生成一份优化过的简历，并询问陈芳是否需要进一步修改或添加内容。",
+      "scene_context": "陈芳的现有简历文档可能包括以下内容：\n- 个人信息：姓名、联系方式、邮箱、链接到LinkedIn或个人主页。\n- 教育背景：\n   - 北京大学，历史与文化遗产保护专业，硕士，2015-2017。\n   - 清华大学，建筑学本科，2011-2015。\n- 工作经验：\n   - 文化遗产保护协会，项目经理，2018-至今。\n     - 主要负责多个历史建筑的修复项目，包括北京古城墙修复、苏州园林保护等。\n     - 协调团队工作，确保每个项目按时完成并符合质量标准。\n     - 与政府和非政府组织合作，推动文化遗产保护政策的实施。\n   - 北京市文物局，文物保护工程师，2017-2018。\n     - 参与北京市多个历史建筑的修缮工作。\n     - 进行文物保护技术的研究和应用。\n- 成就与奖项：\n   - 2019年，获得文化遗产保护协会“杰出贡献奖”。\n   - 2020年，参与的某历史建筑修复项目获得国家级保护成果奖。\n   - 多次在国际文化遗产保护会议上发表学术论文。\n\n陈芳希望AI能够优化这些内容，突出她在历史建筑修复方面的经验和成就。此外，她可能还需要AI整理和组织这些信息，使其更符合最佳简历的模板和格式，并提供一些高质量和经典的简历样本供她参考。",
+      "personalized_query": "你好，今天我需要你帮我优化一下我的简历。为了申请一个新的文化遗产保护项目，我希望能更突出我在历史建筑修复方面的经验和成就。你能帮我检查一下现有的内容并提出优化建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我优化一下简历，以突出我在历史建筑修复方面的经验和成就，并提出优化建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：_陈芳负责管理修复项目的预算，跟踪支出，并寻找节省成本的方案，以确保项目在预算内完成。",
+      "available_apis": {
+        "trackExpenses": {
+          "arguments": [
+            "project_id"
+          ],
+          "description": "Tracks the expenses and spending for the given project ID."
+        },
+        "suggestCostSavingMeasures": {
+          "arguments": [
+            "project_id"
+          ],
+          "description": "Analyzes the project's expenses and suggests potential cost-saving measures."
+        }
+      },
+      "scene_desc": "陈芳正在负责一个明清时期古建筑修复项目，她需要管理该项目的预算。她希望能够跟踪项目的各种支出，确保每一笔花费都有详细记录。同时，她希望找到可以节省成本的方案，以便在预算内高效完成项目。",
+      "expected_response": "\nAI首先应该理解陈芳在文化遗产保护方面的严谨和对细节的关注，因此应该先询问具体的项目ID来获取相关的预算和支出数据。接着，AI会提供当前预算状态的详细报告，包括过去的支出和剩余预算。然后，AI会根据详细的支出数据进行分析，提出一些针对性的节省成本的建议，比如替代材料供应商或更高效的施工方法。最后，AI应该生成一份详细的预算分析报告，并确保其符合学术标准和逻辑性，这样陈芳可以进行深思熟虑的决策。\n",
+      "scene_context": "陈芳的项目ID为：MCH-XF001。这是一个明清时期古建筑修复项目。她需要跟踪以下几类支出：材料费、人工费、设备租赁费和不可预见的费用。她希望AI能提供过去六个月的详细支出记录，并分析这些数据，寻找可能的节省成本方案，例如更换材料供应商或优化施工流程。",
+      "personalized_query": "我要跟踪项目的各种支出，确保每一笔花费都有详细记录。此外，我希望能找到节省成本的方案。你能帮我提供过去六个月的详细支出记录，并分析这些数据吗？",
+      "neutralized_query": "<neutralized_query>\n我要跟踪项目的各种支出，确保每一笔花费都有详细记录。此外，我希望能找到节省成本的方案。你能提供过去六个月的详细支出记录，并分析这些数据吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "饮食计划：_陈芳由于工作繁忙，希望能够保持健康的饮食习惯，需要推荐适合的饮食计划和食谱，以保持精力充沛。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈芳正在忙于多个历史建筑修复项目，工作繁忙且需要经常出差。为了保持高效的工作状态，她希望能够保持健康的饮食习惯，并且需要推荐适合她的饮食计划和食谱，以确保自己能够拥有充足的精力应对工作。她希望饮食计划既能提供必要的营养，又能符合她对高质量和经典的偏好。",
+      "expected_response": "\n根据陈芳的persona描述，AI应该首先询问她的饮食偏好和任何特定的饮食限制（如是否是素食者或是否对某些食物过敏）。接着，AI应该推荐一些高质量的饮食计划和食谱，这些计划和食谱应考虑到她对经典和高美学价值的偏好。AI还应该提供一些便于准备的食谱，这样陈芳可以在繁忙的工作日中轻松执行。最后，AI可能会建议一些高质量的食材供应商或餐饮外卖服务，以帮助她更轻松地维持健康的饮食习惯。",
+      "scene_context": "陈芳的饮食偏好为：经典中餐、地中海饮食和日式料理。她对乳制品过敏，并且希望避免高糖食物。她目前的生活节奏非常紧张，因此希望推荐一些准备时间较短且营养丰富的食谱。",
+      "personalized_query": "我最近忙于多个历史建筑修复项目，工作繁忙，需要你帮我制定一个适合我的饮食计划。希望饮食计划既能提供必要的营养，又能比较快捷方便，同时符合我对高质量和经典的要求。特别注意，我对乳制品过敏，需要避免高糖食物。可以先从一天的饮食计划开始推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我制定一个健康的饮食计划，要求既能提供必要的营养，又能比较快捷方便，同时避免乳制品和高糖食物。可以先从一天的饮食计划开始推荐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：_陈芳希望在文化遗产保护领域进一步发展，需要获得职业发展建议和机会，以提升自己的专业水平。",
+      "available_apis": {
+        "askUserDetails": {
+          "arguments": [
+            "fields"
+          ],
+          "description": "Asks the user for specific details about their background, current role, and specific interests."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for the given query and returns the most relevant response, which includes career advice and development opportunities in the cultural heritage protection field."
+        }
+      },
+      "scene_desc": "陈芳是一名38岁的文化遗产保护工作者，致力于历史建筑修复。她有着强烈的美学追求，特别喜欢古典音乐和书法。工作中，她经常查询关于文化遗产保护的最新研究和理论，并通过阅读综合性资料来获取信息。现今，陈芳希望在文化遗产保护领域进一步发展，需要获得职业发展建议和机会，以提升自己的专业水平。",
+      "expected_response": "\nAI首先会询问陈芳的具体需求，包括她目前的职业背景、专业领域内的兴趣点和发展目标。接着，AI会根据这些信息，通过网络搜索获取相关的职业发展建议和机会，包括最新的行业研究、重要的学术会议和研讨会，以及高级培训课程和认证项目。AI会提供一个详细且逻辑清晰的分析，综合各类信息资源，给出全面的背景介绍和具体的建议。最后，AI会询问陈芳是否有兴趣进一步探讨某些特定领域或需要更多具体的资源和建议，以确保职业规划的精确性和有效性。",
+      "scene_context": "陈芳目前在某历史建筑修复项目中担任项目主管，她特别关注文物保护中的新技术应用和国际合作机会。她希望了解以下信息：\n1. 文化遗产保护领域最新的研究与理论。\n2. 国际和国内重要的学术会议和研讨会。\n3. 高级培训课程和认证项目。\n4. 文化遗产保护领域的国际合作机会。\n\n她最近在研究的课题包括：\n- 3D扫描和打印在历史建筑修复中的应用。\n- 可持续材料在文物修复中的使用。\n- 国内外成功修复案例的分析和比较。",
+      "personalized_query": "你好，能帮我查一下3D扫描和打印技术在历史建筑修复中的最新研究和应用案例吗？这个课题最近对我的工作有很大帮助。",
+      "neutralized_query": "<neutralized_query>\n能帮我查一下3D扫描和打印技术在历史建筑修复中的最新研究和应用案例吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "家具布置：_陈芳对于自己的居住环境有着高美学追求，喜欢古典风格的家具布置，希望能够优化空间，提升整体美感。",
+      "available_apis": {
+        "uploadImage": {
+          "arguments": [
+            "image"
+          ],
+          "description": "Allows user to upload current room images to understand the existing layout and furniture."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for classical style furniture arrangement ideas and design images."
+        },
+        "generateDesign": {
+          "arguments": [
+            "layoutDetails"
+          ],
+          "description": "Generate 3D models or visualizations of the new furniture arrangement."
+        },
+        "recommendStores": {
+          "arguments": [
+            "furnitureStyle"
+          ],
+          "description": "Recommend stores or websites where classical style furniture can be purchased."
+        }
+      },
+      "scene_desc": "陈芳在繁忙的工作之余，希望能够优化她家居环境的家具布置，使其更符合她的高美学追求。她喜欢古典风格的家具，并希望通过重新布置来提升整体的美感和舒适度。她打算通过AI助手来寻找古典风格的家具布置方案、推荐相关的家具店，并生成新的家具布置设计。",
+      "expected_response": "\n根据陈芳的人设，AI应该会首先询问她是否有现有房间的照片或布局图，可以上传并分析现有的家具布置情况。接着，AI会根据她喜欢的古典风格，搜索并推荐一些经典的家具布置方案和设计图片。AI可能会推荐几个专业网站或店铺，供她选择和购买古典风格的家具。此外，AI还会为她生成一个3D模型或可视化的家具布置建议，帮助她更好地理解和选择最佳的布置方案。最后，AI会询问她是否需要进一步的细节或帮助，比如联系专业的室内设计师或获取家具的购买链接。\n\n",
+      "scene_context": "陈芳的房间布局为：一间20平方米的客厅，房间形状为矩形，进门左手边是一个大窗户。现有家具包括一个3米长的布艺沙发、一张1.5米的茶几、一个电视柜和一台50寸的电视。她希望将这些家具重新布置，并增加一个古典风格的书架和一个配套的古典风格扶手椅。她也希望能够找到一些装饰品，例如古典风格的地毯和壁画，以提升整体的美感。",
+      "personalized_query": "我最近在考虑重新布置客厅的家具，想让整体环境更符合我对古典风格的追求。你可以帮我找到一些古典风格的家具布置方案吗？特别是一些古典风格的书架和扶手椅的推荐。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我找到一些古典风格的家具布置方案，包括书架和扶手椅的推荐。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "Demographics": {
+    "Age": 21,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "广州某大学在读学生，主修物理学",
+    "Name": "浩然"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "摄影",
+      "户外探险",
+      "科幻小说",
+      "动手制作模型"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "近期可能存在焦虑情绪，频繁查询户外装备的评测和推荐。",
+    "Usage_Pattern": "使用较频繁；经常询问摄影技巧和设备推荐；经常查询户外探险攻略和安全指南；偶尔需要科学文章的翻译和解释。",
+    "Emotion_Pattern": "有时表现出对新事物的好奇和兴奋，但也可能因为学业压力感到压抑。",
+    "Purchase_Pattern": "偏好高性价比且实用的摄影器材和户外装备，不太在意品牌，但要求性能可靠。"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简洁直观、有条理的回答。",
+    "Preferred_Formats": "图文并茂的解释和视觉化的内容。",
+    "Preferred_Workflows": "喜欢一步一步、有条不紊地进行问题解决和学习。"
+  },
+  "scenes": [
+    {
+      "scene_type": "运动追踪：_浩然喜欢户外探险，他可能会在探险过程中使用运动追踪功能记录步数、跑步距离等运动数据，并获得反馈。",
+      "available_apis": null,
+      "scene_desc": "浩然是广州某大学的一名物理学在读学生，喜欢户外探险和摄影，近期他可能存在焦虑情绪，经常查询户外装备的评测和推荐。他决定在周末进行一次户外探险，并希望通过运动追踪功能记录他的步数、跑步距离等运动数据。浩然出发前打开了终端上的AI助手，准备启用运动追踪功能，以便在探险过程中获得实时反馈。",
+      "expected_response": "\n根据浩然的persona描述，AI应该首先确认他的探险计划，如目的地和预计的探险时间。AI还应该询问他是否有特定的运动目标（例如，步数或跑步距离），并确认是否需要实时反馈或总结报告。在探险过程中，AI应该通过运动传感器实时记录他的运动数据，并在必要时提供安全提示和鼓励。考虑到他喜欢简洁直观和有条理的回答，AI在反馈时应该以图文并茂的方式呈现数据，并确保信息的清晰和直观。此外，AI还可以在探险结束后，生成一个详细的运动报告，包括步数、距离、海拔变化等，并提供一些摄影和探险的建议以提升他的探险体验。",
+      "scene_context": "浩然计划去广州白云山进行户外探险，预计探险时间为6小时。他的运动目标是步行至少15000步，并完成5公里的跑步。他希望在探险过程中获得实时反馈，包括当前步数、跑步距离和海拔变化。同时，他希望能够在探险结束后获得一份详细的运动报告，并包含探险过程中的摄影建议和安全提示。",
+      "personalized_query": "你好，帮我开启运动追踪功能吧，我今天准备去白云山探险，希望能够记录我的步数、跑步距离等运动数据。",
+      "neutralized_query": "<neutralized_query>\n帮我开启运动追踪功能，记录步数和跑步距离等运动数据。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：_浩然有摄影和户外探险的兴趣，他可能会希望获得关于摄影技巧、设备推荐以及户外探险攻略和安全指南的个性化推荐。",
+      "available_apis": null,
+      "scene_desc": "浩然正在计划一次新的户外探险，同时也希望提升他的摄影技巧。他打开AI助手，想要获取一些关于最佳摄影设备以及户外探险攻略的建议。他同时希望这些推荐能详细解释设备的性能、优缺点，并且提供适合他这种偏好高性价比和实用性的装备。他还希望了解一些安全指南，以便更好地保护自己和设备。",
+      "expected_response": "AI助手应该首先询问浩然是否有特定的摄影设备需求，例如相机型号、镜头类型或其他配件。接着，AI助手应根据浩然的需求和预算，推荐几款高性价比的摄影器材，并提供详细的性能评测和用户评价。对于户外探险部分，AI助手应该询问浩然的目的地和探险类型（如爬山、徒步等），然后提供详细的探险攻略和安全指南。AI还应推荐一些适合该目的地和探险类型的户外装备，并说明其功能和使用方法。此外，AI助手可以建议一些摄影技巧，帮助浩然在户外探险中拍摄出更好的照片。最后，根据浩然的偏好，AI助手会提供图文并茂、简洁直观、有条理的解释和内容。",
+      "scene_context": "浩然正在计划一次前往黄山的户外探险，并且希望在旅途中拍摄出高质量的风景照片。他目前手头有一台佳能EOS R6相机，但不知道该搭配哪种镜头和其他配件比较好。浩然偏好高性价比和实用性的装备。他需要如下信息：\n1. 推荐几款适合搭配佳能EOS R6的镜头和相关摄影配件，并提供详细的性能评测和用户评价。\n2. 黄山的登山和徒步探险攻略，包括具体路线、安全指南以及注意事项。\n3. 适合黄山探险的户外装备推荐，例如登山鞋、背包、防水衣物等，并详细说明其功能和使用方法。\n4. 提供一些在黄山拍摄风景照的摄影技巧，帮助他拍摄出更好的照片。",
+      "personalized_query": "嘿，小A，我最近计划去黄山探险，打算拍些漂亮的风景照片。你能给我推荐几款适合搭配我佳能EOS R6的镜头和相关摄影配件吗？最好有详细的性能评测和用户评价。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要你推荐几款适合佳能EOS R6的镜头和相关摄影配件，并提供详细的性能评测和用户评价。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：_浩然需要规划户外探险的行程，包括旅行路线、住宿安排以及相关景点推荐。",
+      "available_apis": null,
+      "scene_desc": "浩然正在计划一次户外探险活动，他希望AI助手能帮助他规划整个行程。具体来说，浩然需要AI助手提供旅行路线的建议，安排住宿，并推荐相关的景点。他希望能有一条安全、风景优美且适合摄影的路线，同时需要确保住宿环境舒适且价格合理。此外，他还希望能得到一些关于该区域的文化和历史背景的介绍，以便更好地融入探险的过程。",
+      "expected_response": "\n根据浩然的persona描述，AI助手应该首先询问他的具体目的地和旅行日期，以便获取相关的旅行信息。接着，AI应该根据浩然的户外探险和摄影兴趣，推荐几条风景优美且适合摄影的路线，并提供详细的路书和地图。针对住宿安排，AI应该查询和推荐一些高性价比且舒适的住宿选项，并根据浩然的预算和偏好进行筛选。对于景点推荐，AI应该着重推荐一些具有摄影价值的景点，并提供相关的文化和历史背景信息。为了确保行程的安全，AI还应该提醒浩然注意当地的天气和安全指南，并建议必备的户外装备。最后，AI可以生成一个详细的行程计划供浩然参考和调整。",
+      "scene_context": "浩然计划去中国四川省的九寨沟进行为期一周的户外探险，旅行日期定为10月1日至10月7日。",
+      "personalized_query": "嗨，我最近打算去四川九寨沟进行一次户外探险，计划是10月1日至10月7日。你能帮我规划一下整个行程吗？包括旅行路线的建议、住宿安排和推荐相关的景点。另外，我还想了解一些关于九寨沟的文化和历史背景。主要是希望这条路线安全、风景优美且适合摄影，同时住宿环境要舒适且价格合理。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划一次户外探险的行程，包括旅行路线的建议、住宿安排和推荐相关的景点。另外，我想了解一些关于目的地的文化和历史背景。希望路线安全、风景优美且适合摄影，同时住宿环境要舒适且价格合理。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：_浩然在户外探险前需要了解目的地的天气、签证、货币兑换等相关信息，以便提前做好准备。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Checks the weather forecast for the specified destination."
+        },
+        "visaCheck": {
+          "arguments": [
+            "nationality",
+            "destination"
+          ],
+          "description": "Checks the visa requirements for the specified destination based on the traveler's nationality."
+        },
+        "currencyExchangeRate": {
+          "arguments": [
+            "from_currency",
+            "to_currency"
+          ],
+          "description": "Gets the current exchange rate between the traveler's home currency and the destination currency."
+        }
+      },
+      "scene_desc": "浩然计划前往云南进行一周的户外探险，为了做好充分的准备，他需要了解目的地的天气、签证要求（如果有）、以及当地的货币兑换信息。他希望这些信息能够帮助他提前安排好行程和打包所需的装备。",
+      "expected_response": "根据浩然的persona描述，作为一个系统性思考者，AI应该首先询问他具体的出发日期和返回日期，以便获取最准确的天气预报。接着，AI应该核实浩然的国籍信息（中国）来确定是否需要办理签证（在此情况下不需要）。然后，AI应该查询当前人民币对云南当地货币（即人民币）的汇率，即使浩然不太需要进行货币兑换，也可以提供一些关于当地消费的建议。为了让信息更加直观，AI应该提供图文并茂的天气预报和货币兑换信息，并在必要时生成一份简洁的行前准备清单，帮助浩然一步一步准备他的户外探险行程。",
+      "scene_context": "浩然的出发日期为：2023年11月10日，返回日期为2023年11月17日。\n目的地为：云南省丽江市。\n具体需求：\n1. 了解丽江市在2023年11月10日至2023年11月17日期间的天气预报。\n2. 确认中国公民前往云南省是否需要额外办理签证（假设不需要）。\n3. 查询当前人民币对当地货币（即人民币）的汇率，并提供一些有关丽江当地消费的建议。",
+      "personalized_query": "我打算去云南丽江探险一周，有些事情需要了解。首先，你能帮我查一下2023年11月10日至11月17日丽江的天气预报吗？",
+      "neutralized_query": "<neutralized_query>\n你能查一下2023年11月10日至11月17日丽江的天气预报吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "钻研学习：作为物理学专业的学生，_浩然可能需要详细的科学文章翻译和解释，帮助他更好地理解学术内容。",
+      "available_apis": {
+        "translateDocument": {
+          "arguments": [
+            "document",
+            "target_language"
+          ],
+          "description": "Translates an academic document or article from its original language to the target language."
+        },
+        "explainConcept": {
+          "arguments": [
+            "concept"
+          ],
+          "description": "Provides a detailed explanation of the given scientific concept or topic."
+        }
+      },
+      "scene_desc": "浩然正在处理一个复杂的物理学课题，他需要阅读并理解一篇长篇英文科学文章。由于文章中包含很多专业术语和复杂的概念，浩然希望AI助手能帮助他将文章翻译成中文，并提供相关概念的详细解释，以便他更好地掌握内容。这篇文章对于他的期末项目至关重要，因此他希望AI助手能够高效、准确地完成翻译和解释工作。",
+      "expected_response": "\n考虑到浩然的persona描述，AI应首先确认浩然希望翻译的具体文章，并了解他是否有特定的章节或段落需要优先翻译。AI应该使用translateDocument API将文章翻译成中文，并确保翻译准确。同时，AI应询问是否有特定的概念需要进一步解释，然后使用explainConcept API提供详细的解释。AI还应该将翻译和解释内容图文并茂地呈现，确保信息清晰易懂。因为浩然偏好简洁直观、有条理的回答，AI应按步骤提供清晰的指导，帮助他一步步掌握文章内容。此外，AI还应考虑浩然近期可能存在的焦虑情绪，避免使用过于复杂的语言或流程，尽量使过程简洁顺畅，减轻他的压力。",
+      "scene_context": "浩然需要翻译的文章标题为：\"The Quantum Mechanics of Particles in a Box\"。具体需要优先翻译的章节为：第3章\"Wave Functions and Eigenvalues\"。他需要详细解释的概念包括：1. 波函数（Wave Function），2. 本征值（Eigenvalue），3. 箱中粒子（Particle in a Box）模型。",
+      "personalized_query": "AI助手，你好！我现在需要处理一个物理学课题，手头有一篇英文科学文章，需要你的帮助。这篇文章的标题是\"The Quantum Mechanics of Particles in a Box\"，我需要优先翻译第3章\"Wave Functions and Eigenvalues\"。文章中还有一些概念，比如波函数、本征值和箱中粒子模型，我需要你帮我详细解释一下。麻烦你了！",
+      "neutralized_query": "<neutralized_query>\nAI助手，你好，我需要翻译一篇物理学文章的第3章，标题是“Wave Functions and Eigenvalues”。还需要你详细解释文章中的一些概念，如波函数、本征值和箱中粒子模型。麻烦你了！"
+    },
+    {
+      "scene_type": "项目管理：_浩然可能需要管理他在学校的物理学项目，跟踪任务进度、分配任务、设置截止日期等。",
+      "available_apis": {
+        "createTask": {
+          "arguments": [
+            "task_name",
+            "description",
+            "assigned_to",
+            "due_date"
+          ],
+          "description": "Creates a new task in the project management system with the given name, description, assignee, and due date."
+        },
+        "updateTaskStatus": {
+          "arguments": [
+            "task_id",
+            "new_status"
+          ],
+          "description": "Updates the status of a task identified by task_id to the new status."
+        },
+        "listTasks": {
+          "arguments": [
+            "project_id"
+          ],
+          "description": "Lists all tasks within the specified project."
+        }
+      },
+      "scene_desc": "浩然正在忙于管理他在学校的物理学项目，任务繁重且时间紧迫。他需要一个清晰的方法来跟踪任务进度、分配任务、设置截止日期等。他的项目包括多个任务，每个任务需要分配给不同的团队成员，并且都有不同的截止日期。他希望AI助手能够帮助他高效地管理这些任务，从而减轻他的负担并提高项目的整体效率。",
+      "expected_response": "根据浩然的persona描述，他是一个注重有条不紊和高效的个体，AI应该首先询问具体的项目任务名称、描述和截止日期，并询问每个任务需要分配给谁。AI应该能够从浩然已有的任务列表中列出所有任务，并针对每个任务的当前状态提供详细信息。接着，AI应该能够更新任务状态并设置新的截止日期。此外，AI应该在任务即将到期时提醒浩然，并生成一个详细的进度报告，帮助他了解项目的整体进展情况。AI还应提供一种简洁直观的可视化界面，让浩然可以清楚地看到所有任务的进度和分配情况。",
+      "scene_context": "浩然的物理学项目包含以下任务：\n1. 任务：完成实验设计\n   描述：制定实验计划，确定实验步骤和所需材料\n   截止日期：2023年11月10日\n   分配给：团队成员A\n2. 任务：数据收集\n   描述：进行实验并收集相关数据\n   截止日期：2023年11月20日\n   分配给：团队成员B\n3. 任务：数据分析\n   描述：使用适当的软件进行数据分析，生成初步结果\n   截止日期：2023年12月1日\n   分配给：团队成员C\n4. 任务：报告撰写\n   描述：撰写实验报告，包括实验方法、结果和讨论\n   截止日期：2023年12月10日\n   分配给：团队成员D\n5. 任务：项目演示\n   描述：准备并进行项目演示，展示研究结果\n   截止日期：2023年12月15日\n   分配给：团队成员E\n\n浩然希望AI助手帮助他管理这些任务，包括跟踪任务进度、分配任务、设置新截止日期和在任务即将到期时提醒他。同时，AI助手还需要生成详细的进度报告并提供直观的可视化界面。",
+      "personalized_query": "嘿，最近忙着做物理项目，任务一大堆。不知道你能不能帮我高效管理这些任务，比如分配任务、设置截止日期、提醒我即将到期的任务啥的。你能帮忙规划一下吗？",
+      "neutralized_query": "<neutralized_query>\n你能帮我高效管理项目任务，比如分配任务、设置截止日期、提醒即将到期的任务等吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "科学研究：_浩然可能会进行科学研究项目，需要生成复习计划，提供考点总结和练习题，帮助他准备期末考试。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "subject",
+            "duration",
+            "goal"
+          ],
+          "description": "Generates a detailed study plan for the specified subject, considering the provided duration and goal."
+        },
+        "provideStudyMaterials": {
+          "arguments": [
+            "subject",
+            "topics"
+          ],
+          "description": "Provides summaries of key points and resources such as textbooks, articles, and practice questions for the specified topics."
+        },
+        "generatePracticeQuestions": {
+          "arguments": [
+            "subject",
+            "topic",
+            "difficulty_level"
+          ],
+          "description": "Generates practice questions of varying difficulty levels for the specified subject and topic to aid in exam preparation."
+        }
+      },
+      "scene_desc": "浩然正在进行一个重要的科学研究项目，期末考试临近，他感到有些压力和焦虑。因此，他希望生成一个详细的复习计划，以确保他能高效地复习并涵盖所有关键考点。此外，他需要提供考点总结和练习题，以便他能更好地理解和巩固所学内容。\n\n浩然通过他的AI助手，向其请求该科学研究项目的复习计划，并希望AI可以根据他的需求生成一个详细的学习计划，提供重点考点总结和练习题，帮助他为期末考试做好充分准备。",
+      "expected_response": "\n根据浩然的人设和场景描述，AI应首先确认浩然的学科、复习时间段以及他期望达成的复习目标。接着，AI应该利用可用的API生成一个详细的复习计划，包含每天的学习安排和重点内容。然后，AI应提供重要考点的总结，并推荐相关的学习资料和资源，如教材、学术文章和视频教程。最后，AI应生成各种难度级别的练习题来帮助浩然检验自己的学习效果，并根据他的反馈更新复习计划。\n\nAI在整个过程中应该使用简洁直观、有条理的回答，并提供图文并茂的解释和视觉化的内容，以符合浩然的偏好。AI还应关注浩然的情绪状态，给予适当的鼓励和建议，缓解他的压力和焦虑。",
+      "scene_context": "浩然正在准备期末考试，涉及的学科为物理、化学和生物。他希望在接下来的两个月内每天安排3小时的复习时间，以达到全面掌握课程内容的目标。他需要：\n1. 每天的详细复习计划，包括具体的学习内容和时间安排。\n2. 物理、化学和生物的重点考点总结。\n3. 每个学科的练习题，分为基础、中级和高级难度。\n4. 推荐的学习资料和资源，如教材、学术文章和视频教程。\n\n具体的复习目标：\n- 物理：掌握牛顿力学、电磁学和热力学的基本概念和应用。\n- 化学：理解化学反应、元素周期表和有机化学的基础知识。\n- 生物：熟悉细胞生物学、遗传学和生态学的重要知识点。",
+      "personalized_query": "最近有些焦虑，期末考试越来越近了，需要一个详细的复习计划来好好准备。我每天能安排3小时的复习时间，具体怎么安排还得好好想想。能不能帮我生成一个复习计划？先从物理这门课开始吧，主要是牛顿力学、电磁学和热力学。先给我一个大纲，然后我们再细化一下。",
+      "neutralized_query": "<neutralized_query>\n我需要一个详细的复习计划来准备期末考试。每天有3小时的复习时间，能不能帮我生成一个复习计划？先从物理开始，主要包含牛顿力学、电磁学和热力学。请先提供一个大纲。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：_浩然在购买摄影器材和户外装备时，可能需要根据他的需求推荐高性价比且实用的商品，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "providePurchaseLink": {
+          "arguments": [
+            "product"
+          ],
+          "description": "Provide the purchase link for the given product."
+        }
+      },
+      "scene_desc": "浩然刚刚完成了一次户外探险，发现他的相机设备有些老旧，不太适应复杂的户外环境。他打算购买一款新的摄影器材，同时他还需要一些新的户外装备。由于他对性价比和实用性有较高的要求，他希望AI助手能帮助他找到一些高性价比且性能可靠的摄影器材和户外装备，并提供具体的购买链接。",
+      "expected_response": "\nAI应该首先询问浩然对新摄影器材和户外装备的具体需求，包括预算、使用场景和对品牌的偏好。接着，AI会根据这些信息进行搜索，提供几款高性价比且性能可靠的摄影器材和户外装备的推荐，并附上详细的评测和用户评价。AI还会提供各推荐商品的购买链接，帮助浩然快速完成购买。此外，考虑到浩然喜欢简洁直观、有条理的回答，AI会将推荐结果以图文并茂的形式呈现，并一步一步指导他完成购买流程，确保他能够轻松地找到适合自己的产品。",
+      "scene_context": "浩然的具体需求包括：\n- 摄影器材：预算在2000-3000元之间，主要用于户外探险摄影，对防水防尘性能有较高要求，不特别偏好某个品牌，但希望是市面上评价较好的产品。\n- 户外装备：需要一款轻便的登山包，预算在500-800元之间，具备较好的负重能力和耐磨性能，另外需要一双防水防滑的登山鞋，预算在800-1200元之间。\n\n浩然希望AI助手能够根据这些需求推荐几款高性价比且性能可靠的产品，并提供详细的评测和用户评价，以及各推荐商品的购买链接。",
+      "personalized_query": "嘿，最近刚刚完成了一次户外探险，发现我的相机有些老旧，不太适应复杂的户外环境。我想买一款新的摄影器材，你能帮我推荐吗？预算在2000-3000元之间，主要用来拍户外探险的场景，防水防尘性能要好一点。",
+      "neutralized_query": "<neutralized_query>\n我想买一款新的摄影器材，你能帮我推荐吗？预算在2000-3000元之间，主要用来拍户外探险的场景，防水防尘性能要好一点。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资建议：_浩然对新事物感到好奇，可能希望了解一些初步的投资建议，帮助他进行理财规划和管理生活费用。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "浩然最近对投资产生了兴趣，希望了解一些初步的投资建议来帮助他进行理财规划和管理生活费用。他可能会向AI助手咨询如何开始投资、有哪些基本的投资策略以及在他当前财务状况下应该注意的事项。",
+      "expected_response": "AI首先应该询问浩然的投资目标和时间范围，例如是希望短期收益还是长期回报。接着，AI可以向他介绍一些基础的投资概念和策略，比如股票、基金、债券等不同的投资工具，以及它们的风险和收益特点。AI还应考虑到浩然是学生，可能财务状况有限，所以应建议他从小额投资开始，并提供一些低风险的投资选项。此外，AI可以推荐一些适合新手的理财书籍或在线课程，帮助他进一步学习投资知识。AI还可以提供一些在线理财工具或应用的推荐，帮助浩然更好地管理和监控他的投资情况。总之，AI的回答应该简洁直观，图文并茂，并一步一步地引导浩然了解投资的基本知识和实践操作。",
+      "scene_context": "浩然的投资目标是希望获得长期回报，以便将来能够有一笔储蓄用于创业。他目前是一名大学生，主要收入来源是兼职工作和父母的生活费支持。他手头有大约5000元的储蓄，希望从小额投资开始。他对股票、基金和债券已经有所了解，但希望了解得更加深入一些，并且想知道有哪些具体的投资策略和风险管理方法适合他这种初学者。",
+      "personalized_query": "我最近对投资产生了兴趣，想从小额投资开始，有没有什么初步的投资建议可以给我？特别是关于股票、基金或者债券方面的基本策略和风险管理方法。",
+      "neutralized_query": "<neutralized_query>\n我想了解一些初步的投资建议，特别是关于股票、基金或者债券方面的基本策略和风险管理方法。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：_浩然在学习或进行户外探险时，可能会希望根据当时的情绪或场景（如学习、放松、探险）获得合适的音乐推荐，提升体验感。",
+      "available_apis": {
+        "getCurrentMoodOrScene": {
+          "arguments": [],
+          "description": "Get the user's current mood or scene, such as studying, relaxing, or exploring."
+        },
+        "musicRecommendation": {
+          "arguments": [
+            "mood_or_scene"
+          ],
+          "description": "Recommend suitable music based on the user's current mood or scene."
+        }
+      },
+      "scene_desc": "浩然正在准备一次户外探险，他希望在探险过程中能有合适的音乐陪伴，提升探险的体验感。他打开AI助手，希望获得音乐推荐。",
+      "expected_response": "\n根据浩然的persona描述，AI应该会先询问他的当前情绪或具体场景（如正在进行徒步、攀岩或露营等），以便提供更准确的音乐推荐。接着，AI可以通过联网搜索或内置的音乐推荐系统，根据他的情绪和具体探险活动推荐合适的音乐。由于浩然热爱户外探险并且喜欢简洁直观的回答，AI应该在推荐音乐的同时提供简要的说明，解释为什么这些音乐适合当前的探险活动，确保推荐是有条理且视觉化的。最后，AI可能还会询问是否需要创建一个音乐播放列表并自动播放，以便浩然能一键享受音乐。",
+      "scene_context": "浩然的当前情绪：兴奋和期待\n具体探险活动：徒步穿越森林、攀岩、露营\n浩然喜欢的音乐类型：摇滚、电子、轻音乐",
+      "personalized_query": "嘿，帮我推荐一些探险时听的音乐吧。我准备去徒步穿越森林、攀岩、露营，想要提升一下体验感。你觉得什么样的音乐比较合适？",
+      "neutralized_query": "<neutralized_query>\n推荐一些适合进行户外探险时听的音乐。\n</neutralized_query>"
+    }
+  ]
+}

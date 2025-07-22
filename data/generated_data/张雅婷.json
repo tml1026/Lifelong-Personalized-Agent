@@ -1,0 +1,230 @@
+{
+  "Demographics": {
+    "Age": 60,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "吴语"
+    ],
+    "Career_Information": "江苏苏州退休园林设计师",
+    "Name": "张雅婷"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "热爱传统园林文化",
+      "喜欢在自家庭院中种植花草",
+      "欣赏古典音乐，尤其是中国传统音乐",
+      "喜欢下围棋",
+      "喜欢收集古籍和古玩"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常查询有关园艺、花草养护及传统文化的资料",
+    "Usage_Pattern": "主要用于获取园艺知识和技巧，偶尔会探索新的园林设计理念",
+    "Emotion_Pattern": "对AI的回答大多持积极态度，但偶尔会对一些复杂问题感到困惑",
+    "Purchase_Pattern": "偏好购买高质量的园艺工具和古籍，对价格较为敏感"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简明扼要的回答，更容易消化信息",
+    "Preferred_Formats": "喜欢图文并茂的回答，尤其是涉及园艺技巧时",
+    "Preferred_Workflows": "倾向于提出问题，让AI提供详尽的答案，不满意时会要求更详细的解释或提供具体实例"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：张雅婷需要规划去苏州周边的传统园林参观游览，或者计划参加古典音乐会和围棋比赛等活动。",
+      "available_apis": null,
+      "scene_desc": "张雅婷最近计划去参观苏州周边的传统园林，并希望在旅途中安排一些她喜欢的活动，如古典音乐会和围棋比赛。她希望AI助手能够帮她规划一个详细的行程，包括最佳的参观路线和活动安排。她还希望AI助手能够提供一些有关传统园林、古典音乐会和围棋比赛的详细信息，以便她可以提前了解和做准备。",
+      "expected_response": "\n根据张雅婷的persona描述，AI应该询问她具体想参观哪些苏州周边的传统园林，并询问是否有特定的园林她特别想去。接着，AI应该提供有关这些园林的开放时间、交通方式和游玩建议。对于古典音乐会，AI应该查询并推荐最近的音乐会信息，尤其是中国传统音乐相关的演出。对于围棋比赛，AI应该查找并提供当地的围棋比赛信息，包括报名方式和比赛时间。AI还应该将所有信息整合成一个详细的行程规划，并询问张雅婷是否满意或需要进一步调整。最终，AI应该生成一个可下载或打印的行程表，便于张雅婷进行实际的参观和活动安排。",
+      "scene_context": "张雅婷希望参观的苏州周边传统园林包括：拙政园、留园、狮子林。\n她对古典音乐会感兴趣，尤其是昆曲和传统乐器演奏的音乐会。\n她也希望参加当地的围棋比赛，了解比赛的时间和报名方式。",
+      "personalized_query": "我最近计划去苏州周边的传统园林参观，想去的地方有拙政园、留园和狮子林。希望你帮我设计一个详细的行程，最好能够在途中安排一些我喜欢的活动，比如昆曲和传统乐器演奏的音乐会，还有围棋比赛。你能帮我规划一下行程吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙设计一个详细的苏州周边传统园林参观的行程，包括参观一些著名景点和安排昆曲、传统乐器演奏的音乐会以及围棋比赛等活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文档编辑：张雅婷可能需要帮助整理和优化他收藏的古籍资料，或者撰写有关园艺设计和传统文化的文章。",
+      "available_apis": null,
+      "scene_desc": "张雅婷是一位60岁退休的苏州园林设计师，他喜欢传统园林文化和中国传统音乐，同时也喜欢在自家庭院中种植花草。他有收藏古籍和古玩的兴趣，并且时常撰写有关园艺设计和传统文化的文章。今天，张雅婷希望整理和优化他收藏的古籍资料，并计划撰写一篇关于苏州园林设计的文章。他想要AI助手帮助他进行文档整理和编辑工作。",
+      "expected_response": "\n根据张雅婷的persona描述，他喜欢简明扼要和图文并茂的信息，AI应该首先询问具体需要整理和优化哪些古籍资料，并确认这些资料的文件格式（例如，是否是扫描件或文字文件）。接着，AI可以帮助分类这些资料，并提供一个系统的归档方案。AI还应该根据张雅婷的需求，提供一些关于苏州园林设计的扩展阅读材料或参考资料，这些推荐最好是图文并茂的形式。最后，AI可以帮助张雅婷撰写文章的初稿，并根据他的反馈进行优化和完善，使文章更符合他的要求和风格。AI需要确保所有的步骤都清晰明了，以便让张雅婷能够轻松地理解和使用。",
+      "scene_context": "张雅婷需要整理和优化的古籍资料包括以下三本：\n1. 《园冶》 - 明代计成著，关于中国古代园林设计的经典著作。\n2. 《长物志》 - 明代文人文震亨著，涉及园林、居住空间和日常生活的美学。\n3. 《花镜》 - 清代王象晋著，详细介绍了各种花卉的种植和园艺技巧。\n\n张雅婷计划撰写的关于苏州园林设计的文章初步纲要如下：\n1. 引言\n   - 简介苏州园林的历史和文化背景。\n2. 设计理念\n   - 园林设计中的主要理念和美学追求。\n3. 经典案例\n   - 介绍几个著名的苏州园林实例，如拙政园、留园和网师园。\n4. 现代应用\n   - 传统园林设计理念在现代园艺中的应用。\n5. 结论\n   - 总结苏州园林设计的独特之处及其对现代园艺的启示。\n\n这些资料的文件格式包括扫描件（PDF格式）和文字文件（DOCX格式）。",
+      "personalized_query": "今天我需要整理一些古籍资料，并计划撰写一篇关于苏州园林设计的文章。首先，我有三本古籍需要处理：《园冶》、《长物志》和《花镜》。麻烦你帮我先把这些资料整理一下。文件格式是PDF和DOCX。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我整理一些古籍资料，并计划撰写一篇关于园艺设计的文章。资料包括《园冶》、《长物志》和《花镜》，文件格式是PDF和DOCX。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：张雅婷可能需要撰写专业的电子邮件联系园艺工具供应商、古籍收藏家或围棋爱好者。",
+      "available_apis": null,
+      "scene_desc": "张雅婷需要撰写一封专业的电子邮件联系园艺工具供应商，以便购买一些高质量的园艺工具。同时，他也可能需要联系古籍收藏家或围棋爱好者，讨论有关收藏或比赛的事宜。张雅婷希望邮件内容简明扼要，且包含必要的细节。",
+      "expected_response": "\n根据张雅婷的persona描述，AI应该首先询问具体需要联系的是哪类对象（园艺工具供应商、古籍收藏家或围棋爱好者），并确认具体的意图（如购买工具、讨论古籍收藏或安排围棋比赛）。接着，AI应该根据对象的性质提供一个结构化的邮件模板，包括问候语、主题说明和主要内容。例如，对于园艺工具供应商，AI可以建议包括他对工具的具体需求、质量要求及预算范围；对于古籍收藏家，AI可以建议详细描述他感兴趣的古籍及希望进行的交流方式；对于围棋爱好者，AI可以建议包括他想安排的比赛时间和地点。AI还应提醒张雅婷检查并确认邮件内容的准确性和完整性，并提供发送选项。最后，AI可以询问是否需要跟踪邮件的回复情况，并设置相应的提醒。",
+      "scene_context": "张雅婷需要联系的具体对象为：园艺工具供应商\n她希望购买的工具包括：高质量的修剪剪刀、园艺手套和种植铲\n张雅婷对工具的具体需求和质量要求：工具需耐用、防锈且符合人体工学设计\n她的预算范围：人民币500-1000元",
+      "personalized_query": "好的，我需要撰写一封专业的电子邮件给园艺工具供应商，以便购买一些高质量的园艺工具。你可以帮我起草一下邮件的内容吗？\n\n我需要购买的工具包含：\n1. 高质量的修剪剪刀\n2. 园艺手套\n3. 种植铲\n\n工具需耐用、防锈且符合人体工学设计，预算在人民币500-1000元之间。邮件内容请简明扼要，包含必要的细节。",
+      "neutralized_query": "<neutralized_query>\n我需要起草一封专业的电子邮件联系园艺工具供应商，内容包括购买高质量的修剪剪刀、园艺手套和种植铲。工具需耐用、防锈且符合人体工学设计，预算在人民币500-1000元之间。邮件内容请简明扼要，包含必要的细节。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：张雅婷经常查询园艺、花草养护以及传统文化的资料，AI可以提供相关的扩展阅读材料或深度分析。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张雅婷在自家庭院中种植了许多花草，并对园艺和传统文化有深厚的兴趣。她经常会查阅有关园艺、花草养护以及传统文化的资料，来提高自己的知识和技能。某一天，她想了解一些关于秋季园艺的具体技巧和中国古典园林设计的深度分析。",
+      "expected_response": "\nAI应该首先确认张雅婷具体感兴趣的园艺主题，比如是秋季园艺的基本技巧还是特定植物的养护方法。接着，AI应主动提供图文并茂的扩展阅读材料，包括具体的步骤和实例图示，以便她更好地理解和应用。这些材料应简明扼要，符合她喜欢消化信息的偏好。同时，AI可以建议一些与中国古典园林设计相关的深度分析，推荐一些高质量的书籍或论文供她参考。如果张雅婷对某些信息还需要更详细的解释，AI应该能灵活应对，提供更加具体的实例或进一步的分析。此外，AI还应保持积极的态度，鼓励她继续探索新的园艺知识，并提醒她如果有任何问题随时可以再次询问。",
+      "scene_context": "张雅婷目前特别感兴趣的是：\n1. 秋季园艺的具体技巧，如如何准备花园过冬、秋季播种及种植的最佳植物种类、土壤和肥料的管理等。\n2. 中国古典园林设计的深度分析，包括苏州园林的设计理念、典型元素及其文化背景。",
+      "personalized_query": "最近入秋了，我发现我的庭院里有些花草都开始衰败了。我想了解一下秋季园艺的具体技巧，比如如何准备花园过冬、秋季播种及种植的最佳植物种类，还有土壤和肥料的管理等方面的知识。你能帮我查一下吗？",
+      "neutralized_query": "<neutralized_query>\n我想了解一下秋季园艺的具体技巧，比如如何准备花园过冬、秋季播种及种植的最佳植物种类，还有土壤和肥料的管理等方面的知识。你能帮我查一下吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "热门榜单：张雅婷可能会关心最新的古典音乐排行榜，特别是中国传统音乐相关的资讯。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张雅婷是一名60岁的退休园林设计师，热爱传统园林文化和中国传统音乐。他喜欢简明扼要的回答以及图文并茂的内容。张雅婷对古典音乐，特别是中国传统音乐有浓厚的兴趣，并且经常关心相关的资讯。某天，他希望了解最新的古典音乐排行榜，特别是关于中国传统音乐的最新资讯。",
+      "expected_response": "根据张雅婷的persona描述，AI应该首先理解他对中国传统音乐的特别兴趣。AI应该询问他是否有特定的古典音乐类型或艺术家偏好，然后使用联网搜索功能查找最新的古典音乐排行榜，并特别注意筛选出其中的中国传统音乐相关信息。AI应该提供简明扼要的排行榜信息，并且图文并茂的展示。例如，可以显示排名前几位的专辑封面和艺术家简介。最后，AI可以询问张雅婷是否需要更多关于某个特定专辑或艺术家的详细信息，以便提供进一步的帮助。",
+      "scene_context": "张雅婷希望了解最新的古典音乐排行榜，特别是关于中国传统音乐的最新资讯。她没有特别提到具体的艺术家，但对整个中国传统音乐领域非常感兴趣。因此，AI应该查询以下内容：\n1. 最新的古典音乐排行榜。\n2. 中国传统音乐在排行榜中的表现。\n3. 排名前几位的中国传统音乐专辑或曲目。\n4. 每张专辑或曲目的封面和艺术家简介。",
+      "personalized_query": "我想了解一下最近的古典音乐排行榜，尤其是关于中国传统音乐的部分。你能帮我查一下有哪些最新的专辑或曲目在榜单上吗？",
+      "neutralized_query": "<neutralized_query>\n我想了解一下最近的古典音乐排行榜，特别是关于中国传统音乐的部分。你能帮我查一下有哪些最新的专辑或曲目在榜单上吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据张雅婷的听歌习惯，推荐与她兴趣相符的中国传统音乐、新专辑或艺术家。",
+      "available_apis": {
+        "getListeningHabits": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Gets the listening habits of the user based on their past music listening history."
+        },
+        "recommendMusic": {
+          "arguments": [
+            "listening_habits"
+          ],
+          "description": "Recommends music based on the user's listening habits, including Chinese traditional music, new albums, or artists."
+        }
+      },
+      "scene_desc": "张雅婷平时喜欢欣赏中国传统音乐，并且对新的音乐专辑和艺术家也很感兴趣。她经常在自家庭院中种植花草时播放音乐，以此获得放松与灵感。今天，她希望AI能够根据她的听歌习惯，推荐一些与她兴趣相符的中国传统音乐、新专辑或艺术家。",
+      "expected_response": "\n根据张雅婷的persona描述，AI应该能够识别她对中国传统音乐的偏好。首先，AI会查询她的听歌历史，获取她最近常听的音乐类型和艺术家。AI将使用这些信息，推荐一些新发布的中国传统音乐专辑或她可能感兴趣的新艺术家。同时，AI可能会提供一些著名的古典音乐榜单，以便她可以探索更多的音乐选择。如果张雅婷对推荐的内容不满意，AI还应准备好提供进一步的细化和个性化推荐。为了确保她能迅速获得所需信息，AI的回答应该简明扼要，并尽量图文并茂，提供音乐封面图片和简短的介绍。",
+      "scene_context": "张雅婷最近常听的中国传统音乐艺术家包括：吴蛮、方锦龙、冯满天。她近期最常播放的专辑是吴蛮的《丝绸之路》和方锦龙的《琴筝雅集》。她主要使用的音乐平台是网易云音乐，并且喜欢通过该平台探索新音乐和艺术家。",
+      "personalized_query": "你好，我最近在家里种花草的时候非常喜欢听中国传统音乐。能帮我推荐一些和我喜欢的风格相符合的新专辑或艺术家吗？最近听得比较多的有吴蛮、方锦龙和冯满天的作品。谢谢！",
+      "neutralized_query": "<neutralized_query>\n能帮我推荐一些和中国传统音乐风格相符合的新专辑或艺术家吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：虽然张雅婷已经退休，但他可能喜欢在自家庭院中种植花草，运动追踪可以记录他在园艺活动中的步数和体力消耗。",
+      "available_apis": {
+        "getUserInfo": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve basic information about the user, such as age, gender, and weight."
+        },
+        "setFitnessGoals": {
+          "arguments": [
+            "user_id",
+            "daily_steps_goal",
+            "daily_calories_goal"
+          ],
+          "description": "Set daily fitness goals for the user, including steps and calories."
+        },
+        "trackActivity": {
+          "arguments": [
+            "user_id",
+            "activity_type",
+            "duration",
+            "steps"
+          ],
+          "description": "Track the user's activity in real-time, including steps and duration."
+        },
+        "generateReport": {
+          "arguments": [
+            "user_id",
+            "report_type"
+          ],
+          "description": "Generate a fitness report for the user, including daily, weekly, and monthly summaries."
+        }
+      },
+      "scene_desc": "张雅婷喜欢在自家庭院中种植花草，既作为兴趣爱好也是一种日常锻炼。虽然已经退休，他仍然保持着积极的生活方式并希望记录在园艺活动中的步数和体力消耗。一天早上，他打开AI助手，准备开始一天的园艺活动。",
+      "expected_response": "\n根据张雅婷的persona描述，AI应该首先了解他的日常活动习惯，并确认他的运动追踪需求。AI应该主动询问张雅婷是否需要记录今天的园艺活动，并了解他希望追踪哪些特定的运动数据（如步数、体力消耗等）。接着，AI应该能够通过获取张雅婷的基本信息（如年龄、体重等），设定合理的运动追踪目标，然后实时记录他的活动数据。AI还可以提供每日或每周的运动报告，帮助张雅婷了解自己的活动情况，并给予适当的健康建议。此外，AI应该注意用简明扼要的方式回答问题，并提供图文并茂的反馈，确保信息易于理解和消化。",
+      "scene_context": "张雅婷的基本信息：\n- 年龄：65岁\n- 体重：60公斤\n\n她希望追踪的数据：\n- 每日步数\n- 体力消耗（卡路里）\n- 每天进行园艺活动的时长\n\n张雅婷希望每天早上打开AI助手，记录当天的园艺活动，并在一天结束后查看详细报告。",
+      "personalized_query": "早上好啊，我今天想在花园里做些园艺活动。你能帮我记录今天的步数、体力消耗和园艺时长吗？",
+      "neutralized_query": "<neutralized_query>\n你能帮我记录今天的步数、体力消耗和活动时长吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "文件管理：张雅婷可能有大量的古籍、园艺设计图和相关资料，AI可以帮助他整理和归档这些文件，使其更容易查找和使用。",
+      "available_apis": {
+        "fileOrganizer": {
+          "arguments": [
+            "file_types",
+            "source_directory",
+            "destination_directory"
+          ],
+          "description": "Organizes files by type (e.g., ancient books, garden design diagrams, related materials) from the source directory into designated destination directories."
+        },
+        "fileSearch": {
+          "arguments": [
+            "query",
+            "directory"
+          ],
+          "description": "Searches for specific files or documents based on the given query within the specified directory."
+        }
+      },
+      "scene_desc": "张雅婷退休后热爱园艺和传统文化，平日里会在自家庭院中种植花草，并收藏古籍和古玩。但是，由于她收藏的古籍、园艺设计图和相关资料数量庞大，有时难以找到所需的信息。因此，她希望AI能帮助她整理和归档这些文件，使其更容易查找和使用。",
+      "expected_response": "根据张雅婷的persona描述，她偏好简明扼要和图文并茂的回答，因此AI应该首先询问她具体需要整理和归档哪些类型的文件（如古籍、园艺设计图等）。接着，AI应该提供一个清晰的分类方案，并询问她是否有特定的归档偏好或目录结构。AI还需提供一个整理进度的实时反馈，并在整理过程中展示一些示例图表，以便张雅婷随时了解进展。最后，AI应该生成一个整洁有序的文件管理系统，并询问是否需要进一步优化或调整分类，以确保所有文件都妥善归档，方便她日后查找和使用。",
+      "scene_context": "张雅婷需要整理和归档的文件包括：\n1. 古籍：有《山海经》、《红楼梦》和《本草纲目》。\n2. 园艺设计图：有玫瑰园设计图、日式庭院设计图和垂直花园设计图。\n3. 相关资料：有《中国古代园林设计》、《现代园艺技术》和《古玩鉴赏指南》。\n\n具体需求：\n- 古籍的归档偏好：按朝代和类别归档。\n- 园艺设计图的归档偏好：按植物种类和设计风格归档。\n- 相关资料的归档偏好：按主题和出版年份归档。",
+      "personalized_query": "AI助手，我最近整理和归档古籍、园艺设计图和相关资料有些吃力。你能帮我按照我的偏好来归档这些文件吗？",
+      "neutralized_query": "<neutralized_query>\n我需要帮助整理和归档一些文件，使它们更容易查找和使用。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "选课策略：陆晓宁即将进入大学，需要制定一个课程选修计划，以便兼顾兴趣与学业。",
+      "available_apis": {
+        "courseSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for courses based on the given query and return a list of relevant courses."
+        },
+        "courseRecommend": {
+          "arguments": [
+            "interests",
+            "academic_needs"
+          ],
+          "description": "Recommend courses based on the student's interests and academic needs."
+        }
+      },
+      "scene_desc": "陆晓宁即将进入大学，他对绘画和旅游有着浓厚的兴趣，同时希望兼顾学业。为了制定一个科学合理的课程选修计划，他决定请AI助手帮助他选择适合的课程。AI需要了解陆晓宁的具体兴趣领域和学业需求，并在此基础上推荐相应的课程。",
+      "expected_response": "AI应该首先询问陆晓宁对绘画和旅游的具体兴趣，例如他是否更喜欢绘画的理论课、实践课或艺术史，以及他对旅游相关课程的偏好是地理、文化还是旅游管理。接着，AI会查询大学课程数据库，筛选出与这些兴趣相符的课程。AI还应考虑陆晓宁的学业需求，确保推荐的课程能够满足学分要求并具有一定的难度平衡。同时，AI可以提供一些课程的详细信息和学生评价，帮助陆晓宁更好地做出决定。最终，AI应该生成一个包含推荐课程的列表，并提供选项让陆晓宁进行进一步筛选或确认选修计划。",
+      "scene_context": "陆晓宁即将进入的大学为ABC大学。陆晓宁的专业是计算机科学，但他对绘画和旅游有着浓厚的兴趣。他希望每学期选修2门绘画类课程和1门旅游类课程。同时，他希望了解绘画方面的理论课、实践课和艺术史课程，以及旅游方面的地理、文化和旅游管理课程。陆晓宁希望推荐的课程能够满足学分要求，每学期至少修满15个学分，并且课程难度适中。",
+      "personalized_query": "我有个问题想请你帮忙，我即将进入大学，专业是计算机科学，但我对绘画和旅游也有很大兴趣。我想制定一个科学合理的课程选修计划，希望你能帮我推荐一些合适的课程。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我制定一个科学合理的课程选修计划，并推荐一些合适的课程。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "校园社团：陆晓宁想要加入几个大学里的社团，特别是与绘画或旅游相关的，以便结交新朋友和扩展社交圈。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "listClubs": {
+          "arguments": [
+            "category"
+          ],
+          "description": "List all the clubs and societies in the given category (e.g., painting, travel) with their details."
+        }
+      },
+      "scene_desc": "陆晓宁即将进入大学，他希望通过加入几个与绘画或旅游相关的社团来结交新朋友并扩展自己的社交圈。为此，陆晓宁使用他的AI助手寻找和了解大学里相关的社团信息，包括社团的活动内容、成员情况以及如何加入等详细信息。",
+      "expected_response": "\n根据陆晓宁的persona描述，他是一个喜欢艺术和旅游，并且乐于结交新朋友的人。AI应该首先询问他是否有具体的社团名称或类别偏好（如绘画或旅游）。接着，AI可以通过webSearch API搜索大学里与绘画和旅游相关的社团，提供最新的社团信息和活动安排。AI还应详细说明每个社团的活动内容、入会要求和成员情况，以帮助陆晓宁做出更好的选择。最后，AI可以询问是否需要进一步帮助，例如发送加入申请或获取更多的社团活动信息。总之，AI的回应应该是全面且细致的，确保陆晓宁能够顺利找到合适的社团并扩展他的社交圈。",
+      "scene_context": "陆晓宁即将进入的大学是北京大学，他想要加入的社团类型包括绘画和旅游相关的。陆晓宁特别感兴趣的社团有：\"北大绘画社\" 和 \"北大旅游爱好者协会\"。他希望AI助手能够提供这些社团的详细信息，包括活动内容、成员情况、入会要求和如何加入等。",
+      "personalized_query": "你好，我需要了解一下北京大学的几个社团，特别是绘画社和旅游爱好者协会的情况。能帮我查一下这些社团的活动内容、成员情况和入会要求吗？谢谢。",
+      "neutralized_query": "<neutralized_query>\n我需要了解一下北京大学几个社团的情况，特别是绘画社和旅游爱好者协会的活动内容、成员情况和入会要求。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "普通话",
+      "重庆话",
+      "英文"
+    ],
+    "Career_Information": "重庆某大学在读本科生，喜欢极限运动和电子竞技，性格外向活泼。",
+    "Name": "李思涵"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢尝试各种极限运动，例如攀岩、滑板和蹦极",
+      "沉迷于电子竞技，经常参与各种线上和线下的电竞比赛",
+      "重视朋友和同学之间的团队精神，喜欢参加各类社交活动",
+      "对新鲜事物充满好奇，喜欢挑战自我和探索未知"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常会询问关于如何提升极限运动技能的建议，以及最新的电子竞技策略和资讯。",
+    "Usage_Pattern": "使用较为频繁，主要用于获取极限运动和电子竞技的相关信息；偶尔询问如何平衡学习与兴趣爱好的时间管理策略。",
+    "Emotion_Pattern": "在面对失败时容易表现出失落，但很快会重整旗鼓，再次挑战。",
+    "Purchase_Pattern": "倾向于购买高质量的运动装备和电子竞技相关设备，注重品牌和性能，但也喜欢尝试新兴品牌和独特设计。"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢直接、实用的建议和信息，讨厌复杂和拖泥带水的解释。",
+    "Preferred_Formats": "喜欢图文并茂的内容，尤其是有详细步骤和示意图的教程。",
+    "Preferred_Workflows": "喜欢快速获取答案，最好有明确的步骤和实用的小技巧。"
+  },
+  "scenes": [
+    {
+      "scene_type": "运动追踪：李思涵喜欢极限运动，可以在对话中跟踪他的运动数据，如攀岩距离、滑板技巧进步等，并提供反馈，帮助他提升技能。",
+      "available_apis": null,
+      "scene_desc": "李思涵刚刚完成了一次滑板训练，他想了解自己的滑板技巧是否有进步，并希望得到一些提高技巧的建议。他打开AI助手，询问关于他的运动数据及相应的反馈。",
+      "expected_response": "\nAI应首先询问具体的运动数据，例如滑板训练的时间、距离、技巧类型等。如果李思涵使用了运动追踪器，AI应主动请求访问相关数据。接着，AI应分析这些数据并提供反馈，指出他的进步及需要改进的地方。AI可以推荐一些具体的技巧或训练方法，并可能提供相关的视频教程或图文并茂的步骤指南来帮助他提升技能。最后，AI还应该询问他是否需要设定未来的训练目标和提醒，以便帮助他持续进步。",
+      "scene_context": "李思涵的滑板运动数据如下：\n- 时间：45分钟\n- 距离：5公里\n- 技巧类型：Ollie、Kickflip、Grind\n\n李思涵提供了他使用的运动追踪器数据，并希望AI能帮助分析这些数据，提供改进建议，尤其是如何提高Ollie和Kickflip的成功率，以及如何在Grind技巧上保持平衡。",
+      "personalized_query": "嗨，刚刚结束了一次滑板训练，有点累了，但还是想了解下我的进步情况。今天练了45分钟，滑了5公里，主要练了Ollie、Kickflip和Grind。能帮我分析下这些数据，并给我一些提高技巧的建议吗？特别是如何提高Ollie和Kickflip的成功率，还有如何在Grind上保持更好的平衡。",
+      "neutralized_query": "<neutralized_query>\n我刚结束了一次训练，想了解下我的进步情况。今天练了45分钟，移动了5公里，练了一些技巧。能帮我分析下这些数据，并给我一些提高技巧的建议吗？特别是如何提高成功率，还有如何保持更好的平衡。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：李思涵可能会为了参加各地的极限运动活动或电子竞技比赛，需要了解目的地的天气、签证、货币兑换等信息。",
+      "available_apis": null,
+      "scene_desc": "李思涵计划前往另一座城市参加一个极限运动比赛。他需要了解目的地的天气情况、签证要求、以及货币兑换的信息，以便更好地做准备。他打开终端上的AI助手，准备获取这些信息。",
+      "expected_response": "\n根据李思涵的persona描述，AI助手应该会迅速理解并响应他的需求。首先，AI助手会询问具体目的地和出行日期，以便提供准确的天气预报。接着，AI助手会查询该目的地是否需要签证，并提供签证办理的详细流程和所需材料。此外，AI助手还会查找当前的货币汇率，并推荐几个可靠的货币兑换点或方式。AI助手应该简明扼要地提供这些信息，并可以进一步提供相关链接或详细步骤，以满足李思涵喜欢直接、实用建议的偏好。如果李思涵有其他额外的需求，比如需要了解当地的交通情况或住宿推荐，AI助手也应具备快速响应和提供信息的能力。",
+      "scene_context": "李思涵计划前往的城市是：新西兰皇后镇，出行日期为：2023年12月15日",
+      "personalized_query": "我准备要去新西兰皇后镇参加一个极限运动比赛，想了解一下那边的天气情况。你能帮我查一下12月15日那天的天气吗？",
+      "neutralized_query": "<neutralized_query>\n我想了解新西兰皇后镇12月15日的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：李思涵沉迷于电子竞技，可以根据他的游戏习惯推荐新游戏、电竞装备或策略指南。",
+      "available_apis": null,
+      "scene_desc": "李思涵刚完成一场紧张的电子竞技比赛，感觉自己在一些关键的策略上还有提升空间。他打开AI助手，想要获取一些关于当前热门游戏的最新策略指南和装备推荐，以提高自己的游戏技能。同时，他还想了解是否有适合自己的新游戏，以便在赛季间隙尝试新的挑战。",
+      "expected_response": "\n根据李思涵的persona描述，他是一个喜欢直接、实用建议的外向型大学生，AI应该能够迅速识别并响应他的需求。首先，AI应该询问李思涵最近在玩哪些游戏以及他感兴趣的游戏类型（如MOBA、FPS等）。接着，AI可以通过联网搜索功能查找当前热门游戏的最新策略指南，并通过提供图文并茂的教程来帮助李思涵提高技能。AI还应该根据他的游戏习惯和设备需求，推荐高质量的电竞装备，包括鼠标、键盘和显示器等，并提供购买链接和用户评价。最后，AI可以根据李思涵的兴趣和当前游戏趋势，推荐一些新游戏，并简要介绍这些游戏的特点和亮点。对于每个环节，AI要确保信息的直观性和实用性，以满足李思涵的偏好。",
+      "scene_context": "李思涵最近在玩的游戏包括《英雄联盟》、《使命召唤》和《绝地求生》。他特别喜欢玩MOBA和FPS类型的游戏。",
+      "personalized_query": "刚打完比赛，感觉在关键策略上还有些欠缺。帮我查一下《英雄联盟》的最新策略指南和推荐装备，我想提升一下自己的技能。顺便看看最近有没有什么新的热门游戏适合我尝试，谢谢。",
+      "neutralized_query": "<neutralized_query>\n请查找《英雄联盟》的最新策略指南和推荐装备，并推荐一些最近热门的新游戏。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：李思涵会用到英文，可以通过多轮对话进行模拟口语练习，提升语言交流能力，方便日后参加国际赛事或旅行。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "generateConversation": {
+          "arguments": [
+            "scenario",
+            "level"
+          ],
+          "description": "Generates a multi-turn conversation based on the given scenario and difficulty level."
+        }
+      },
+      "scene_desc": "李思涵即将参加一个国际性的极限运动比赛，他希望通过模拟对话练习自己的英文口语能力，以便在比赛期间能够顺畅地与国际参赛者和组织者沟通。AI助手将扮演不同的角色，例如比赛的裁判、其他参赛选手或工作人员，进行多轮对话练习，帮助李思涵提升英语交流能力。",
+      "expected_response": "根据李思涵的persona描述，他是一个喜欢极限运动和电子竞技的外向活泼的大学生，AI应该能够理解并响应他的需求。AI首先会询问他具体想要练习的场景和对话内容，例如比赛中的交流、日常对话或比赛规则的讨论。接着，AI应该根据这些要求生成多轮对话，并根据对话的情景和难度级别调整对话内容。通过模拟对话，AI助手将提供即时反馈，并在每一轮对话结束后给出改进建议。AI还会推荐一些实用的小技巧和常见的英语表达方式，以帮助李思涵更好地掌握口语交流的技能。最终，AI助手会总结练习结果，并可以记录李思涵的进步情况，以便未来进行更有针对性的训练。",
+      "scene_context": "李思涵希望练习的场景包括：\n1. 比赛开始前的自我介绍，例如：“Hi, I'm Lihan Li from China. I'm here to participate in the extreme sports competition. Nice to meet you all!”\n2. 与其他参赛选手讨论比赛细节，例如：“What kind of training do you do to prepare for this competition?” 或 “Which is your favorite extreme sport and why?”\n3. 与裁判或工作人员交流比赛规则，例如：“Can you explain the scoring system for this event?” 或 “What are the safety regulations we need to follow during the competition?”\n4. 比赛中的紧急情况对话，例如：“I think I injured my ankle. Can you call for medical assistance?”\n5. 日常交流对话，例如：“What are some good places to eat around here?” 或 “How do you spend your free time when you're not competing?”\n\n这些具体的场景将帮助AI生成多轮对话，并根据对话情景和难度级别调整对话内容，以帮助李思涵提升英语交流能力。",
+      "personalized_query": "Hey, I need to practice my English for the upcoming international extreme sports competition. Can you help me with some dialogue scenarios? Let's start with a simple self-introduction, like meeting other participants before the event.",
+      "neutralized_query": "<neutralized_query>\nHey, I need to practice my English for an international event. Can you help me with some dialogue scenarios? Let's start with a simple self-introduction, like meeting other participants before the event.\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：李思涵需要平衡学业、极限运动和电子竞技比赛的时间，可以帮助他安排日程，设定提醒，并管理待办事项。",
+      "available_apis": {
+        "calendarAddEvent": {
+          "arguments": [
+            "event_details"
+          ],
+          "description": "Adds a new event to the user's calendar."
+        },
+        "setReminder": {
+          "arguments": [
+            "event_id",
+            "reminder_time"
+          ],
+          "description": "Sets a reminder for a specific event."
+        },
+        "manageTasks": {
+          "arguments": [
+            "task_action",
+            "task_details"
+          ],
+          "description": "Creates, updates, or deletes tasks in the user's to-do list."
+        }
+      },
+      "scene_desc": "李思涵刚结束了一场激烈的电子竞技比赛，意识到自己还有不少课程作业需要完成，同时还计划明天去攀岩。他打开AI助手，希望能够帮他安排接下来的时间，确保既能完成学业任务又不影响极限运动和电子竞技比赛的时间。他希望AI能帮他合理规划每天的时间，并提醒他重要的活动和任务。",
+      "expected_response": "\n根据李思涵的persona描述，他喜欢快速获取实用建议，倾向于购买高质量的运动和电竞装备，并经常参与社交活动。他需要AI助手能迅速理解并响应他的时间管理需求。首先，AI应该询问他具体的学业任务、电子竞技比赛和极限运动的具体时间和要求。接着，AI应该推荐一个合理的日程安排，确保在学习、运动和比赛之间找到平衡。同时，AI应该设置相应的提醒功能，确保李思涵不会错过任何重要的任务或活动。此外，AI还可以提供一些时间管理的小技巧，帮助他更有效地安排时间。最后，AI应确认日程安排是否符合他的预期，并在必要时进行调整。",
+      "scene_context": "李思涵需要安排的具体活动如下：\n1. 学业任务：\n   - 数学作业（需用时3小时，截止日期为明天下午5点）\n   - 物理实验报告（需用时2小时，截止日期为后天下午3点）\n   \n2. 电子竞技比赛：\n   - 每天晚上8点到10点线上比赛训练\n   - 本周六晚上7点正式比赛\n\n3. 极限运动：\n   - 攀岩活动：明天上午9点到11点",
+      "personalized_query": "嘿，我刚结束了一场激烈的比赛，但是眼下急需考虑接下来的任务安排。明天我还有个攀岩活动，上午9点到11点。这边还有一堆学业任务需要完成，特别是数学作业和物理实验报告。你能帮我合理规划一下时间吗？确保我既能完成这些学业任务，又不耽误极限运动和电竞训练。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我合理规划一下时间，确保能完成学业任务，同时不耽误其他活动安排。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资建议：李思涵可能会对购买高质量的运动装备和电竞设备有较高的消费需求，可以提供初步的投资建议，帮助他进行理财规划。",
+      "available_apis": {
+        "getFinancialInfo": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the financial information of the user, including income, expenses, savings, and investment preferences."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the current market for the prices and investment potential of high-quality sports equipment and esports devices."
+        },
+        "generateInvestmentAdvice": {
+          "arguments": [
+            "financial_info",
+            "market_data"
+          ],
+          "description": "Generate investment advice and financial planning based on the user's financial information and the current market data."
+        }
+      },
+      "scene_desc": "李思涵最近因为需要购买一套新的高质量滑板和一些电竞设备，正在考虑如何进行理财规划。他希望了解在有限预算内，如何合理分配资金以满足他的需求，同时也感兴趣是否有值得投资的理财产品可以帮助他增加资金。",
+      "expected_response": "根据李思涵的persona描述，AI应该首先询问李思涵的预算范围和具体的购买需求（滑板和电竞设备的具体品牌或型号）。接着，AI应该能够通过联网搜索，提供这些物品当前市场的价格以及可能的折扣信息。之后，AI应询问李思涵是否有现有的储蓄或投资，并通过获取其财务信息，生成一个初步的投资建议，包括一些适合年轻人和初学者的理财产品推荐（例如定期存款、低风险基金等）。AI还应该提示李思涵注意分散投资风险，并建议他定期查看和调整投资组合。最后，AI应提供一些实用的理财小技巧，帮助李思涵更好地管理他的资金，例如如何设定储蓄目标和记录开支。",
+      "scene_context": "李思涵的预算范围为5000元。他希望购买一套XYZ品牌的高质量滑板（市场价格约为2000元）和一台ABC品牌的电竞显示器（市场价格约为1500元）。另外，他考虑是否购买一套DEF品牌的电竞耳机（市场价格约为800元）。李思涵目前有10000元的储蓄，他希望可以通过合理的理财规划，在未来一年内增加他的资金。",
+      "personalized_query": "嗨，我最近想买一套新的高质量滑板和一些电竞设备，不过因为预算有限，想请你帮我做个理财规划。先简单说一下，我现在有5000元预算，打算买XYZ品牌的滑板、大约2000元，还有ABC品牌的电竞显示器，大约1500元。另外，考虑买一套DEF品牌的电竞耳机，大约800元。你觉得我该怎么合理分配这些钱？或者有没有什么理财产品能推荐，让我在一年内增加资金？",
+      "neutralized_query": "<neutralized_query>\n我希望你帮我做个理财规划，合理分配购买高质量运动装备和电竞设备的预算，并推荐一些能够在一年内增加资金的理财产品。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：李思涵将来可能会考虑将兴趣爱好转化为职业，可以根据他的兴趣和技能，提供职业发展建议和机会。",
+      "available_apis": {
+        "findUserProfile": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the user's profile information, including interests and skills."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for the most relevant career opportunities, articles, and resources based on the user's interests and skills."
+        }
+      },
+      "scene_desc": "李思涵即将毕业，考虑将自己的兴趣爱好（极限运动和电子竞技）转化为职业。他希望获得职业发展建议和机会。李思涵在与AI对话时，表达了自己对于如何将这些兴趣转化为职业的困惑，并希望AI能提供相关的建议和资源。",
+      "expected_response": "\n根据李思涵的persona描述，AI首先应该询问他是否对特定的职业方向有初步的想法，例如他是否更倾向于成为一名职业电竞选手、极限运动教练，或是电竞赛事的组织者等。接着，AI应该利用现有的API（如findUserProfile和webSearch），获取李思涵的兴趣和技能信息，并搜索与其相关的职业机会、职业发展文章和资源。另外，AI还应该提供一些实际可行的步骤和建议，如需要考取哪些资格证书、提升哪些技能、参加哪些培训课程或活动等。最后，AI可能会推荐一些相关的职业社交平台和网络，帮助李思涵扩大人脉，获取更多的职业发展机会和资讯。",
+      "scene_context": "李思涵的具体技能和兴趣包括：\n1. 极限运动：攀岩、滑雪、山地自行车\n2. 电子竞技：擅长的游戏是《英雄联盟》和《守望先锋》，曾参与过业余赛事并取得较好的成绩",
+      "personalized_query": "嘿，AI，我最近在想一个问题。我将要毕业了，一直很喜欢极限运动和电子竞技，我想知道有没有办法把这些兴趣爱好转化成职业。你有什么建议吗？",
+      "neutralized_query": "<neutralized_query>\n我想知道有没有办法把我的兴趣爱好转化成职业。你有什么建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：李思涵未来可能需要准备面试问题，可以帮助他进行模拟面试练习，提升应对面试的能力。",
+      "available_apis": {
+        "startInterviewSimulation": {
+          "arguments": [
+            "candidate_name",
+            "job_role",
+            "industry"
+          ],
+          "description": "Initiates a simulated interview for the given candidate, including questions tailored to the specified job role and industry."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "candidate_name"
+          ],
+          "description": "Provides detailed feedback on the candidate's performance in the simulated interview, including strengths and areas for improvement."
+        }
+      },
+      "scene_desc": "李思涵即将毕业，计划进入电子竞技行业工作。他需要准备一份针对某一具体职位的模拟面试，以提升他在实际面试中的表现。AI助手将帮助他进行模拟面试练习，并提供反馈和改进建议。李思涵希望模拟面试的内容能够涵盖行业相关知识、团队合作能力及个人优势等方面的问题。",
+      "expected_response": "根据李思涵的人设，AI应该首先询问具体的职位名称和相关行业，以便生成针对性的面试问题。AI还应该考虑到李思涵对电子竞技和团队合作的重视，提出相关的问题。此外，AI应该提供实时反馈，指出李思涵在回答中的亮点和需要改进的地方，并给出具体的建议。最后，AI可以根据李思涵的表现，生成一份详细的面试反馈报告，并询问是否需要进行进一步的练习或提供更多的资源来帮助他提升面试技巧。",
+      "scene_context": "李思涵需要准备的具体职位为“电子竞技经理”。他希望模拟面试的内容能够涵盖以下几个方面的问题：\n1. 行业相关知识：\n   - 请简述当前电子竞技行业的主要趋势和挑战。\n   - 如何评价当前市场上最具影响力的几款电子竞技游戏及其发展前景？\n2. 团队合作能力：\n   - 作为电子竞技经理，您将如何管理和激励团队成员？\n   - 您如何处理团队内的冲突和分歧？\n3. 个人优势：\n   - 请谈谈您在以前的工作或项目中展现出的领导能力。\n   - 您认为自己的哪些技能和经验能够为这个职位带来最大的价值？\n\n李思涵希望AI助手能够根据这些问题提供详细的反馈，并给出改进建议。",
+      "personalized_query": "嘿，准备好了吗？我得模拟一下即将到来的电子竞技经理面试。你帮我练练吧，最好能够全面一点，先从行业相关知识开始。比如，问我当前电子竞技行业的主要趋势和挑战是什么。",
+      "neutralized_query": "<neutralized_query>\n我得模拟一下即将到来的面试。你帮我练练吧，最好能够全面一点，先从行业相关知识开始。比如，问我当前行业的主要趋势和挑战是什么。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：李思涵即将毕业，可能需要求职或申请相关工作，可以在对话中协助他优化简历内容，突出重要信息。",
+      "available_apis": {
+        "documentAnalysis": {
+          "arguments": [
+            "document_content"
+          ],
+          "description": "Analyzes the content of the given document (resume) and identifies areas for improvement."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李思涵即将毕业，需要求职或申请相关工作。他的简历需要优化，以突出其技能、经验和兴趣。李思涵希望AI助手能帮助他分析简历内容，找出需要改进的地方，并提供一些具体的建议和模板，让他的简历更具竞争力。",
+      "expected_response": "\n根据李思涵的persona描述，他是一个喜欢直接、实用的建议和信息的人。AI应该能迅速理解并响应他的需求。AI应该首先询问李思涵是否有具体的职位或行业目标，以便提供更有针对性的建议。接着，AI应该分析李思涵的简历内容，指出需要改进的地方，特别是如何更好地突出他的极限运动和电子竞技技能，团队精神和社交活动经验。AI还应该提供一些模板和示例，帮助李思涵优化简历的格式和结构。此外，AI可以建议他在简历中添加一些图文并茂的内容，比如他的运动成就和电竞比赛成绩，以增强视觉效果和吸引力。最后，AI可以提供一些关于求职信和面试准备的附加资源，帮助李思涵全方位提升求职竞争力。",
+      "scene_context": "李思涵的简历内容如下：\n\n**个人信息：**\n- 姓名：李思涵\n- 联系方式：1234567890\n- 邮箱：lsh@example.com\n- 地址：北京市海淀区中关村大街XX号\n\n**教育背景：**\n- 2018-2022 北京大学 计算机科学与技术 本科\n\n**技能：**\n- 编程语言：Python, Java, C++\n- Web开发：HTML, CSS, JavaScript, React\n- 数据分析：Pandas, NumPy, Matplotlib\n- 数据库：MySQL, MongoDB\n\n**工作经验：**\n- 2021年7月-2021年9月 百度 实习生\n  - 负责开发和维护公司内部工具\n  - 优化现有代码，提高了系统运行效率\n\n**项目经验：**\n- 在线购物平台开发\n  - 使用React和Node.js开发一个完整的在线购物平台\n  - 实现用户认证、购物车、订单管理等功能\n\n**兴趣爱好：**\n- 极限运动：攀岩、滑雪\n- 电子竞技：参加多次区域性比赛并取得优异成绩\n\n李思涵希望应聘的职位是前端开发工程师。",
+      "personalized_query": "嘿，AI，我要开始找工作了，目标是前端开发工程师。我有一份简历，但是觉得还可以优化一点，你能帮我看看哪里需要改进吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我检查和优化我的前端开发工程师的简历。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：李思涵可能需要与电子竞技团队、比赛主办方或学校老师进行邮件沟通，可以协助他撰写专业的电子邮件，并处理常见的工作通信。",
+      "available_apis": {
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional email to the specified recipients, including the email subject and body content."
+        }
+      },
+      "scene_desc": "李思涵正在准备一封电子邮件，他需要联系一个电子竞技团队的负责人，讨论即将到来的比赛事宜。他希望邮件内容能够简洁明了，包含必要的细节，例如比赛的时间、地点以及队伍的相关准备工作。此外，他可能需要向学校老师发送另一封邮件，请假参加这次比赛，同时说明比赛的具体情况。",
+      "expected_response": "\nAI应该首先询问李思涵希望联系的电子竞技团队的具体负责人信息和电子邮件地址。然后，AI需要了解李思涵想要在邮件中包含的具体信息，包括比赛的时间、地点、对方需要准备的事项和任何其他重要细节。接着，AI应该帮助李思涵组织邮件内容，使其简洁明了，符合正式邮件的格式。\n\n对于向学校老师发送请假邮件，AI需要询问老师的电子邮件地址以及请假的具体理由和比赛的详细情况。AI还应该帮助李思涵将请假原因和比赛情况表述清楚，并确保邮件用语正式、礼貌。\n\n在完成邮件草稿后，AI需要提供选项让李思涵确认邮件内容，并在确认后直接发送。此外，AI可以建议李思涵设定一个提醒，以便及时跟进这两封邮件的回复。",
+      "scene_context": "李思涵需要联系的电子竞技团队负责人是张伟，电子邮件地址为zhangwei@esports.com。李思涵需要在邮件中包含以下信息：比赛的时间是10月20日，地点是北京国际会议中心，对方需要准备的事项包括提供参赛名单和确认场地设备。\n\n同时，李思涵需要向学校老师刘老师（电子邮件地址：liulaoshi@school.edu）发送请假邮件。请假理由是参加10月20日在北京国际会议中心举行的电子竞技比赛，比赛的具体情况包括比赛时间、地点和李思涵在比赛中的角色是队伍的队长。",
+      "personalized_query": "好的，明白了。那我们现在开始吧。\n\n首先，我需要帮忙起草一封电子邮件，发给电子竞技团队的负责人张伟，讨论即将到来的比赛事宜。邮件需要简明扼要，包含比赛的时间、地点和对方需要准备的事项。我先描述一下基本内容，你帮我组织一下语言。\n\n比赛时间是10月20日，地点是北京国际会议中心。他们需要准备参赛名单和确认场地设备。可以用这个信息来帮我写一封邮件吗？",
+      "neutralized_query": "<neutralized_query>\n我需要帮忙起草一封电子邮件，发给团队负责人，讨论即将到来的比赛事宜。邮件需要简明扼要，包含比赛的时间、地点和对方需要准备的事项。比赛时间是10月20日，地点是北京国际会议中心。他们需要准备参赛名单和确认场地设备。\n</neutralized_query>"
+    }
+  ]
+}

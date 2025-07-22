@@ -1,0 +1,211 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "某知名工科大学的机械工程专业大四本科生",
+    "Name": "安琪"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢亲自动手制作，享受解决实际问题的乐趣",
+      "热爱修理各种机械设备",
+      "在自由时间喜欢尝试DIY项目",
+      "对环境保护和可持续发展有浓厚兴趣"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于自己动手尝试后再寻求帮助，希望可以提供具体的、操作性强的指导",
+    "Usage_Pattern": "经常查阅关于DIY项目、机械修理和创客文化的资源和信息，偶尔会询问手工制作的技巧或工具的使用建议",
+    "Emotion_Pattern": "当遇到复杂问题时，情绪会有些急躁，但解决后会感到非常满足",
+    "Purchase_Pattern": "偏好购买品质可靠、功能实用的工具和材料，愿意为高质量的产品支付更高的价格"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细、直接的指导，尤其是带有具体操作步骤的说明",
+    "Preferred_Formats": "倾向于图文结合的解答，图片可以帮助更好地理解操作步骤",
+    "Preferred_Workflows": "喜欢从概念到实践逐步深入的解决方案，希望能提供相关背景知识后再进行实际操作"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：安琪在进行多个DIY项目时，需要跟踪项目进度、分配任务和设置截止日期，以确保项目按计划完成。",
+      "available_apis": null,
+      "scene_desc": "安琪正在同时进行多个DIY项目，包括制作桌椅、自行车修理和设计一个小型太阳能发电装置。他希望能够有效地跟踪各个项目的进度，分配具体任务，并设置明确的截止日期，以确保所有项目按计划完成。安琪希望通过AI助手获取这些管理任务的具体指导。",
+      "expected_response": "\n根据安琪的persona描述，他是一个享受解决实际问题的DIY爱好者，AI应该能够理解他对实际操作的偏好。AI应该首先询问安琪当前进行的各个DIY项目的具体内容，并获取每个项目的详细任务清单。接着，AI应该指导安琪如何分配任务给自己或其他可能协助的人，并帮助设定每个任务的截止日期。AI应提供一个可视化的进度跟踪工具，例如甘特图，来展示每个项目的进度和任务状态。AI还应该定期提醒安琪即将到来的截止日期，并根据安琪的情绪模式，提供实用的建议和鼓励，帮助他在遇到复杂问题时保持冷静。最后，AI应该能够保存和更新所有项目的进度记录，确保安琪可以随时查看和调整项目计划。",
+      "scene_context": "安琪当前进行的DIY项目包括：\n1. 制作桌椅\n    - 任务：选购木材和工具，切割木材，组装桌椅，打磨和上漆\n    - 截止日期：选购木材和工具（5月10日），切割木材（5月15日），组装桌椅（5月20日），打磨和上漆（5月25日）\n2. 自行车修理\n    - 任务：检查自行车情况，选购替换零件，修理车胎和链条，调整刹车系统\n    - 截止日期：检查自行车情况（5月12日），选购替换零件（5月17日），修理车胎和链条（5月22日），调整刹车系统（5月27日）\n3. 设计小型太阳能发电装置\n    - 任务：研究太阳能电池板，设计电路图，购买组件，组装和测试装置\n    - 截止日期：研究太阳能电池板（5月15日），设计电路图（5月20日），购买组件（5月25日），组装和测试装置（5月30日）",
+      "personalized_query": "嘿，AI助手，我现在有几个DIY项目在进行，想要有效地跟踪进度和分配任务。能不能帮我设定一些具体的计划和截止日期？\n\n先来看看桌椅制作，我需要选购木材和工具，然后切割木材，接着组装桌椅，最后打磨和上漆。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我设定一些具体的计划和截止日期，以跟踪进度和分配任务。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：安琪在学习机械工程过程中可能会涉及编写代码，需要帮助调试代码，定位错误并提出解决方案。",
+      "available_apis": null,
+      "scene_desc": "安琪正在完成一个机械工程的课程作业，这期间他需要编写一些代码来实现某个机械装置的控制算法。然而，在测试代码过程中，他遇到了一个无法解决的错误，这让他感到有些急躁。安琪决定向AI助手寻求帮助，希望AI能协助他调试代码，定位错误并提出解决方案。他希望AI能提供详细的、直接的指导，最好是带有具体操作步骤的说明，以便他能迅速理解并解决问题。",
+      "expected_response": "\n根据安琪的persona描述，AI助手应该首先询问他目前的代码具体是什么功能，以及遇到的错误信息或症状是什么。接着，AI助手应该提供一个逐步排查错误的指导，包括检查代码逻辑、变量值、函数调用等详细操作步骤，并可能建议插入调试语句来跟踪程序运行情况。AI还可以利用联网搜索功能，查找与错误相关的解决方案或代码示例，帮助安琪更好地理解问题所在。整个过程中，AI应该保持耐心和清晰的解答，以减轻安琪的急躁情绪，并帮助他顺利解决代码问题。",
+      "scene_context": "安琪需要调试的代码如下：\n\n```python\ndef control_algorithm(sensor_input):\n    try:\n        # 读取传感器输入\n        value = float(sensor_input)\n    \n        # 控制算法逻辑\n        if value > 50:\n            output = \"Activate cooling system\"\n        elif value < 20:\n            output = \"Activate heating system\"\n        else:\n            output = \"System is stable\"\n        \n        return output\n    except ValueError as e:\n        return f\"Error: Invalid sensor input - {e}\"\n\n# 测试代码\ntest_input = \"35\"\nprint(control_algorithm(test_input))  # 预期输出: \"System is stable\"\n```\n\n安琪遇到的错误信息是：\n```\nError: Invalid sensor input - could not convert string to float: '35'\n```",
+      "personalized_query": "我在运行控制算法代码时遇到了一个问题。错误信息是：“Error: Invalid sensor input - could not convert string to float: '35'”。你能帮我调试一下这个问题吗？",
+      "neutralized_query": "<neutralized_query>\n我在运行控制算法代码时遇到了一个错误：“Error: Invalid sensor input - could not convert string to float: '35'”。你能帮我调试一下这个问题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码优化：在编写代码进行项目时，安琪需要优化代码效率或结构，寻找最佳实践以提升代码质量。",
+      "available_apis": null,
+      "scene_desc": "安琪正在完成一个机械工程项目的编程部分，但发现他的代码运行效率不高，且结构不够清晰。这让他感到有些急躁，因为他希望能以高质量的代码完成项目。他决定请AI助手帮忙优化代码。安琪希望AI助手能提供具体的、操作性强的指导，并希望能通过图文结合的方式来更好地理解优化建议。",
+      "expected_response": "\n根据安琪的人设，AI助手应该首先询问他代码的具体问题和目前的性能瓶颈，例如运行时间过长或内存消耗过大。AI助手应该提供详细、具体的代码优化建议，可能包括重新组织代码结构、优化算法或使用更高效的数据结构。为了帮助安琪更好地理解这些建议，AI助手应提供图文结合的解答，例如示例代码片段和对应的优化步骤。最后，AI助手应该考虑安琪的情绪模式，在提供解决方案的过程中保持耐心和鼓励，帮助他解决问题并体验到解决后的满足感。",
+      "scene_context": "安琪正在处理的代码片段如下：\n\n```python\ndef calculate_forces(masses, accelerations):\n    forces = []\n    for i in range(len(masses)):\n        forces.append(masses[i] * accelerations[i])\n    return forces\n\nmasses = [10, 20, 30]\naccelerations = [9.8, 9.8, 9.8]\n\nresult = calculate_forces(masses, accelerations)\nprint(result)\n```\n\n他发现这个代码在处理大数据集时运行效率不高，希望AI助手能帮助优化代码的效率和结构。",
+      "personalized_query": "嗨，我正在做一个机械工程项目的编程部分，但发现我的代码运行效率不高，结构也不够清晰。这里是代码片段：\n\n```python\ndef calculate_forces(masses, accelerations):\n    forces = []\n    for i in range(len(masses)):\n        forces.append(masses[i] * accelerations[i])\n    return forces\n\nmasses = [10, 20, 30]\naccelerations = [9.8, 9.8, 9.8]\n\nresult = calculate_forces(masses, accelerations)\nprint(result)\n```\n\n这个代码在处理大数据集时运行效率不太好。你能帮我优化一下代码的效率和结构吗？最好提供具体的指导和图文结合的解释。",
+      "neutralized_query": "<neutralized_query>\n我正在编写代码时发现运行效率不高，结构也不够清晰。能帮我优化一下代码的效率和结构吗？这是代码片段：\n\n```python\ndef calculate_forces(masses, accelerations):\n    forces = []\n    for i in range(len(masses)):\n        forces.append(masses[i] * accelerations[i])\n    return forces\n\nmasses = [10, 20, 30]\naccelerations = [9.8, 9.8, 9.8]\n\nresult = calculate_forces(masses, accelerations)\nprint(result)\n```\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：安琪在购买机械修理工具和DIY项目材料时，需要制定预算，跟踪支出，并提供节省建议。",
+      "available_apis": {
+        "budgetTracker": {
+          "arguments": [
+            "item",
+            "amount"
+          ],
+          "description": "Tracks the expenses for each item purchased and updates the budget status."
+        },
+        "budgetAdvisor": {
+          "arguments": [
+            "current_expenses",
+            "budget_limit"
+          ],
+          "description": "Provides suggestions on how to save money based on the current expenses and the budget limit."
+        }
+      },
+      "scene_desc": "安琪正在为他最新的DIY项目购买机械修理工具和各种材料，为了确保支出在合理范围内，他决定制定一个详细的预算计划，并在购买过程中进行实时跟踪。安琪希望AI助手能帮助他记录每一项工具和材料的购买支出，并在需要时提供节省开支的建议。他对品质可靠的工具有较高的要求，因此愿意为高质量的产品支付更高的价格。",
+      "expected_response": "\n根据安琪的persona描述，AI应该首先询问他具体计划购买哪些工具和材料，并记录每一项的预估费用。接着，AI应使用budgetTracker API来跟踪每项购买的支出，并实时更新预算状态。如果支出接近或超过预算限制，AI应主动提示安琪，并使用budgetAdvisor API根据当前的支出和预算限制提供节省建议。AI还应该确保提供的建议能帮助他在不牺牲工具和材料品质的前提下节省开支。最后，AI应该生成一个详细的支出报告，帮助安琪更好地管理他的预算。",
+      "scene_context": "安琪计划购买的工具和材料包括：\n1. 电动钻 - 预估费用：500元\n2. 切割机 - 预估费用：300元\n3. 螺丝刀套装 - 预估费用：150元\n4. 木材 - 预估费用：200元\n5. 金属板 - 预估费用：250元\n6. 砂纸 - 预估费用：50元\n\n安琪的总预算为：1500元\n\n他希望AI助手能根据这些预估费用进行预算管理和支出跟踪，并在需要时提供节省建议。",
+      "personalized_query": "嘿，帮我做个工具和材料的预算计划。我现在有些要买的东西，想记下每一项的支出，并想看看有没有节省的建议。我们现在开始吧。",
+      "neutralized_query": "<neutralized_query>\n帮我做个工具和材料的预算计划，记录每项支出，并提供节省的建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "材料选择：安琪在进行DIY项目时，需要帮助选择适合的材料，如不同种类的金属、塑料等，以达到最好的制作效果。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for information about different materials and their properties to recommend the best options for the DIY project."
+        }
+      },
+      "scene_desc": "安琪正在进行一个DIY项目，他决定制作一个金属和塑料结合的机械装置。然而，安琪对不同种类的金属和塑料的选择感到困惑，不确定哪种材料最适合他的项目。他希望能够选择出最适合的材料，以确保制作效果最佳。",
+      "expected_response": "\n根据安琪的persona描述，他注重实际操作和具体的指导，并且喜欢详细的图文结合的解答。AI应该首先询问安琪的具体需求和项目的详细信息，以便更好地推荐合适的材料。接着，AI应该使用webSearch API搜索不同种类的金属和塑料的特性和应用，并提供详细的对比分析。AI还应提供图文结合的指导材料，帮助安琪理解每种材料的优缺点和适用场景。最后，AI可以推荐一些品质可靠的材料供应商，并提供购买链接，确保安琪能够采购到高质量的材料。",
+      "scene_context": "安琪的DIY项目是制作一个小型机械臂装置。具体需求如下：\n1. 机械臂的框架需要选择轻便但坚固的金属材料。\n2. 铰链和活动关节部分需要选择耐磨且低摩擦的材质。\n3. 一些饰面和外壳部分需要使用耐用且美观的塑料材料。\n\n安琪希望能得到以下信息：\n1. 适合框架的金属材料推荐（如铝合金、不锈钢等）。\n2. 适合铰链和活动关节的材料推荐（如黄铜、青铜等）。\n3. 适合饰面和外壳的塑料材料推荐（如ABS塑料、聚碳酸酯等）。\n\n安琪还希望通过图文结合的形式了解这些材料的特性、优缺点和具体应用场景，以及可靠的材料供应商和购买链接。",
+      "personalized_query": "最近在弄一个DIY项目，有点儿困惑。我要做一个小型机械臂的装置，但不太确定应该用哪些金属和塑料材料。你能先给我一些适合做框架的金属材料建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你推荐一些适合做框架的金属材料。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：安琪希望通过对话获取机械工程相关的扩展阅读材料或深度分析某个话题，以提升专业知识。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "安琪正在学习机械工程，并希望通过对话获取一些机械工程相关的扩展阅读材料或深度分析某个话题，以提升自己的专业知识。他用他的终端AI助手，请求推荐一些相关的学术文章或书籍。他特别感兴趣的是环境保护和可持续发展在机械工程中的应用。",
+      "expected_response": "\n根据安琪的persona描述，AI应该首先询问他具体感兴趣的主题或领域，以便进行更有针对性的推荐。由于安琪喜欢详细、直接的指导，并且偏好图文结合的解答，AI应该提供一些精选的学术文章、行业报告或专业书籍的链接，并附上简要的介绍和主要内容摘要。如果可能的话，AI还应该提供下载链接或在线阅读的选项，以方便安琪获取资源。AI可以通过联网搜索相关的主题，并依据安琪的描述推荐最相关的资料。此外，AI还可以建议一些在线课程或讲座，帮助安琪进一步深入学习该领域。最后，AI可以询问安琪是否需要跟踪推荐的阅读进度，以便提供后续的学习建议或提醒。",
+      "scene_context": "安琪对环境保护和可持续发展在机械工程中的应用特别感兴趣。她希望AI助手能够推荐以下内容：\n1. 学术文章：涉及机械工程中环境保护与可持续发展的最新研究成果。\n2. 行业报告：关于机械工程行业在环境保护和可持续发展方面的最新趋势和创新。\n3. 专业书籍：深入探讨机械工程中可持续发展实践的权威书籍。\n4. 在线课程或讲座：详细讲解环境保护与可持续发展在机械工程中应用的在线课程或讲座。\n\n具体请求示例：\n1. \"AI助手，请推荐一些关于机械工程中可持续发展的学术文章。\"\n2. \"有哪些最新的行业报告讨论了机械工程在环境保护方面的进展？\"\n3. \"我想了解更多关于机械工程中可持续实践的书籍，你能推荐几本吗？\"\n4. \"是否有在线课程或讲座可以帮助我深入了解机械工程中的环境保护应用？\"",
+      "personalized_query": "AI助手，我最近对环境保护和可持续发展在机械工程中的应用特别感兴趣。你能推荐一些相关的学术文章吗？",
+      "neutralized_query": "<neutralized_query>\n你能推荐一些关于环境保护和可持续发展在机械工程中应用的学术文章吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：尽管安琪偏向动手制作，但他也需要跟踪自己的运动数据，如步数、跑步距离等，并获取健康反馈。",
+      "available_apis": {
+        "trackActivity": {
+          "arguments": [
+            "user_id",
+            "start_time",
+            "end_time"
+          ],
+          "description": "Tracks the user's activity data like steps and running distance for the given time period."
+        },
+        "analyzeActivity": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Analyzes the tracked activity data and provides health feedback."
+        }
+      },
+      "scene_desc": "安琪最近忙于完成多个DIY项目，虽然他对动手制作充满热情，但也意识到保持健康的重要性。因此，他想使用AI助手来跟踪他的运动数据，例如每日步数和跑步距离，并从中获取健康反馈。某天晚上，他在完成一个DIY项目后，决定进行一次跑步锻炼，并希望AI助手可以帮助他记录和分析这次运动的数据。",
+      "expected_response": "\n根据安琪的persona描述，他是一个机械工程专业的大四学生，喜欢亲自动手制作并解决实际问题。尽管他更爱动手制作，但也需要保持身体健康。AI助手应该能理解他的需求，并迅速响应。首先，AI助手应该确认安琪需要记录哪种类型的运动数据（如步数或跑步距离）。接着，AI助手应提示安琪在运动开始时启动追踪功能，并在运动结束后收集数据。基于这些数据，AI助手还应该提供详细的健康反馈，如卡路里消耗、运动时长以及如何改进运动计划。最后，AI助手可以建议安琪一些与他的兴趣和生活方式相匹配的健康活动或运动小贴士，以帮助他在繁忙的项目制作中保持健康。",
+      "scene_context": "安琪打算查询和记录的数据包括：每日步数、跑步距离和运动时长。安琪希望在某天晚上的跑步锻炼中，AI助手能够帮助他记录以下信息：\n1. 跑步开始和结束的时间。\n2. 跑步的总距离（如5公里）。\n3. 每公里的平均速度（如每公里6分钟）。\n4. 总步数。\n5. 总卡路里消耗。\n\n安琪希望AI助手在跑步结束后提供如下健康反馈：\n1. 总卡路里消耗。\n2. 跑步时长。\n3. 如何改进未来的跑步计划。\n4. 为他推荐一些适合机械工程专业学生的运动小贴士。",
+      "personalized_query": "嘿，晚上好。我刚完成了一个DIY项目，现在准备去跑步。能帮我记录一下这次跑步的数据吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我记录一下这次跑步的数据吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "DIY项目建议：根据安琪的兴趣和技术水平，推荐适合的DIY项目，并提供详细的制作步骤和技巧。",
+      "available_apis": {
+        "queryUserPreference": {
+          "arguments": [
+            "question"
+          ],
+          "description": "Ask the user for their specific interests and skill level in DIY projects."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for suitable DIY project recommendations and detailed instructions based on the user's interests and skill level."
+        }
+      },
+      "scene_desc": "安琪最近在网上看到了一些有趣的DIY项目，他想根据自己的兴趣和技术水平找到一个适合的项目。他希望这个项目不仅能锻炼他的动手能力，还能与他的机械工程专业相关，最好还能涉及环保方面的内容。他需要AI助手帮助他搜寻适合的DIY项目，并提供详细的制作步骤和技巧帮助他完成项目。",
+      "expected_response": "\n根据安琪的persona描述，AI应该首先询问安琪具体的兴趣方向，如机械修理、环保装置或家具制作等，然后询问他的技术水平以及是否有特定的工具或材料。接着，AI可以使用`queryUserPreference` API来进一步了解安琪的偏好和技能水平。AI应搜索与这些偏好相匹配的DIY项目，通过`webSearch` API获取相关信息，并整理成详细的制作步骤和技巧。AI还应确保内容图文并茂，以便安琪更好地理解操作步骤。同时，AI应该提供一些背景知识，解释项目的原理和目标，帮助安琪从概念到实践逐步深入。如果安琪遇到困难，AI还可以提供具体的操作指导，帮助他解决问题。最后，AI可以询问安琪是否需要跟踪项目进度或设定截止日期，以确保项目按计划完成。",
+      "scene_context": "安琪感兴趣的方向包括：机械修理、环保装置和家具制作。安琪的技术水平为中级，他有基本的电动工具和一些常见的机械零件。安琪希望找到一个涉及环保的机械装置DIY项目，并希望项目步骤详细，包括所需材料、具体操作步骤、以及相关的技巧和注意事项。",
+      "personalized_query": "嘿，我最近在网上看到几个有趣的DIY项目，我想做一个和我的机械工程专业相关的DIY装置，最好还能和环保挂钩。你能帮我找一个合适的项目吗？我希望能有详细的制作步骤和技巧。",
+      "neutralized_query": "<neutralized_query>\n我想做一个和机械工程相关的DIY装置，最好还能和环保挂钩。你能帮我找一个合适的项目，并提供详细的制作步骤和技巧吗？\n"
+    },
+    {
+      "scene_type": "机械修理指导：提供具体的机械设备修理指导，帮助安琪解决实际遇到的修理问题。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "安琪在周末打算修理自己的一台老式车床，但在拆卸过程中遇到了一个问题：主轴传动部分无法顺利拆下。由于这是他第一次遇到这种型号的车床问题，他决定求助AI助手，寻找具体的拆卸指导和问题原因的解决办法。",
+      "expected_response": "\nAI应该先询问安琪具体的车床型号和当前遇到的问题细节。接着，AI可以通过联网搜索相关的修理指南和操作手册，找出一个详细的拆卸步骤。考虑到安琪偏好详细、直接的指导，AI应提供图文结合的解答，包含每个步骤的详细说明和对应的图片。同时，AI还可以提供一些常见问题的排查方法，帮助安琪确认问题的根本原因。如果需要工具或配件的推荐，AI可以推荐品质可靠、适合此型号车床的选项。最后，AI可以询问安琪是否需要进一步的帮助或有其他相关问题，以确保修理过程顺利进行。",
+      "scene_context": "安琪正在修理的一台老式车床型号为：南通NTH-2250。当前遇到的问题是：主轴传动部分无法顺利拆下，已经尝试过使用手动工具进行拆卸，但仍然无法成功。",
+      "personalized_query": "嘿，AI助手，我现在正在修理一台老式的南通NTH-2250车床，但在拆主轴传动部分的时候遇到了麻烦。用手动工具试了半天都拆不下来。你能帮我查一下具体的拆卸步骤和可能的解决办法吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你提供拆卸老式南通NTH-2250车床主轴传动部分的具体步骤和解决办法。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购买推荐：根据安琪的需求，推荐品质可靠、功能实用的DIY工具和机械修理设备，并提供购买链接。",
+      "available_apis": {
+        "getUserRequirements": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the specific requirements and preferences of the user regarding DIY tools and mechanical repair equipment."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for the given query on various e-commerce platforms and returns a list of relevant products."
+        },
+        "generateProductRecommendations": {
+          "arguments": [
+            "search_results"
+          ],
+          "description": "Generates a list of recommended products based on the search results and includes purchase links."
+        }
+      },
+      "scene_desc": "安琪最近在DIY项目上遇到了一些麻烦，他发现现有的一些工具无法满足他的需求。他希望购买一套新的高质量DIY工具和机械修理设备，以便更好地进行项目制作和设备修理。他希望这些工具既可靠又实用，并且愿意为高质量的产品支付更高的价格。他决定求助于AI助手，希望能获得有关工具推荐的帮助，并获取购买链接。",
+      "expected_response": "\n根据安琪的persona描述，AI应该会首先询问具体的需求和偏好，例如他希望购买哪些类型的工具（如电动工具、手动工具等），以及具体的功能需求。AI还会询问他是否有特定的品牌偏好或预算范围。接着，AI会基于这些需求和偏好进行网络搜索，找到一些高质量且功能实用的工具推荐，并提供详细的产品信息，包括用户评价和价格对比。AI会在推荐中包含购买链接，以便安琪能够直接进行购买。最后，AI可能会询问安琪是否需要更多相关的信息或帮助，比如使用这些工具的技巧或维护建议。根据安琪喜欢详细、直接的指导风格，AI应该确保推荐的信息清晰易懂，并附带具体的操作步骤和图文结合的说明。\n",
+      "scene_context": "安琪需要购买的工具包括：电钻、扳手套装和多功能螺丝刀套装。他希望这些工具具有高耐用性和多功能的特点，并且愿意支付更高的价格以确保这些工具的品质。",
+      "personalized_query": "最近在DIY项目上遇到了一些麻烦，现有的一些工具无法满足我的需求。我现在想购买一套新的高质量DIY工具和机械修理设备，主要是电钻、扳手套装和多功能螺丝刀套装。最好这些工具都具有高耐用性和多功能的特点，你能帮我推荐一些值得购买的品牌和具体型号吗？",
+      "neutralized_query": "<neutralized_query>\n我想购买一套高质量的DIY工具和机械修理设备，包括电钻、扳手套装和多功能螺丝刀套装。请推荐一些具有高耐用性和多功能特点的品牌和具体型号。\n</neutralized_query>"
+    }
+  ]
+}

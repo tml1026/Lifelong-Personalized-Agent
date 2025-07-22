@@ -1,0 +1,219 @@
+{
+  "Demographics": {
+    "Age": 21,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "重庆某艺术学院学生，主修油画",
+    "Name": "陈静"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱音乐",
+      "沉浸在咖啡文化中",
+      "喜欢探索新事物",
+      "喜欢哲学和冥想"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "时常用AI查找音乐推荐和咖啡制作方法，喜欢找灵感",
+    "Usage_Pattern": "使用中等频率；经常使用音乐推荐、咖啡制作的资料；偶尔查询艺术创作灵感；偶尔用来聊天解闷",
+    "Emotion_Pattern": "喜欢与AI讨论自己内心的涌动感受，能感受到AI的安慰和支持",
+    "Purchase_Pattern": "倾向于选择高品质的艺术材料和精品咖啡，但也会随心所欲地采购一些新奇的物品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢温暖和诗意的回答，偏好详细的解释和情感共鸣",
+    "Preferred_Formats": "偏爱图文并茂的输出",
+    "Preferred_Workflows": "喜欢通过一系列探索性的对话来解开问题，享受过程中的互动与启发"
+  },
+  "scenes": [
+    {
+      "scene_type": "个性化推荐：陈静热爱音乐，经常用AI查找音乐推荐，所以她会寻找符合她音乐偏好的新歌、专辑或艺术家。",
+      "available_apis": null,
+      "scene_desc": "陈静在一个周末的下午，坐在她最喜欢的咖啡馆里，享受着一杯现磨咖啡。她的耳机里播放着舒缓的背景音乐，但她感觉有些单调，希望能找到一些新的音乐作品来丰富她的音乐库。她拿出手机，打开了AI助手，准备寻找一些符合她音乐偏好的新歌、专辑或艺术家。",
+      "expected_response": "\n根据陈静的persona描述，AI应该首先了解她当前的情境，比如她是在咖啡馆里，并且正在寻找新的音乐推荐。AI应该询问她是否有特定的音乐类型或情感氛围的偏好，然后根据她的回答提供一些个性化的推荐。由于她热爱音乐，平时经常用AI查找音乐推荐，AI应该能够记住她过去的音乐偏好，提到她之前喜欢的艺术家或风格。AI还应该提供一些详细的描述，解释为什么推荐这些歌曲或专辑，并尝试与陈静的情感产生共鸣，给她一种温暖和诗意的感觉。最后，AI可以提供一些相关的音乐评论或音乐视频链接，让她可以进一步探索和享受这些音乐作品。",
+      "scene_context": "陈静之前在AI助手上搜索并收藏过以下音乐类型和艺术家：\n- 类型：爵士、独立民谣、电子乐\n- 艺术家：Norah Jones、Bon Iver、ODESZA\n\n她希望能找到类似风格的音乐作品，同时也对探索新的音乐类型感兴趣。\n\n周末的下午，她的耳机里播放着Norah Jones的《Come Away with Me》，她希望能找到一些同样轻松、舒缓的音乐来放松身心。",
+      "personalized_query": "嗨，帮我推荐一些新歌吧。我现在听的是Norah Jones的《Come Away with Me》，想找一些同样轻松、舒缓的音乐。",
+      "neutralized_query": "<neutralized_query>\n帮我推荐一些轻松、舒缓的新歌。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：陈静经常沉浸在咖啡文化中和冥想，她会在这些场景中需要合适的音乐来营造氛围。",
+      "available_apis": null,
+      "scene_desc": "陈静坐在她最喜欢的咖啡馆里，周围弥漫着咖啡的香气。她刚完成了一幅油画，现在想放松一下，沉浸在她喜爱的咖啡文化中。同时，她也想为即将开始的冥想寻找合适的背景音乐。她打开了AI助手，希望能推荐一些能够营造氛围的音乐，让她的咖啡时光和冥想体验更加丰富和有深度。",
+      "expected_response": "\n根据陈静的人设描述，AI应该首先感知到她的需求是为了营造咖啡文化和冥想的氛围。然后，AI应该询问陈静是否有特定的音乐类型偏好，例如轻音乐、古典音乐或环境音乐，以便更好地匹配她的情境和心境。如果陈静没有明确的偏好，AI可以推荐一些根据她以往的音乐偏好定制的播放列表，或者提供一些流行的咖啡馆音乐和冥想音乐。AI还可以询问她是否需要将这些音乐保存为常用播放列表，以便她下次可以更方便地访问。总的来说，AI的应答应该是温暖而诗意的，同时详细地解释推荐的每一首曲目是如何帮助她放松和冥想的，并与她的情感共鸣。",
+      "scene_context": "陈静希望AI助手推荐适合的音乐来营造两种不同的氛围：咖啡文化和冥想。她对音乐类型没有特别的偏好，但她通常喜欢轻音乐、古典音乐和环境音乐。AI助手需要推荐具体的音乐播放列表或者特定的曲目，以便她更好地享受咖啡时光和冥想体验。",
+      "personalized_query": "嗨，AI助手！我现在在我最喜欢的咖啡馆，周围是满满的咖啡香气，正好刚画完一幅油画，想放松一下。能帮我推荐一些适合这个咖啡氛围的音乐吗？再帮忙推荐一些适合冥想的背景音乐，我想一会儿用。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n能帮我推荐一些适合咖啡馆氛围的音乐和一些适合冥想的背景音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：喜欢探索新事物的陈静可能会寻找新的电影或电视剧来丰富她的空闲时间，并从中汲取灵感。",
+      "available_apis": null,
+      "scene_desc": "陈静在周末的一个下午，决定找一部新电影或电视剧来看，希望从中寻找灵感。她打开了AI助手，准备询问最新的影视作品推荐。由于她喜欢探索新事物，她希望能够找到一些不太主流但富有创造性的作品。同时，她也希望这些作品能够带来一些哲学上的思考或者艺术上的启发。",
+      "expected_response": "\nAI应该首先向陈静确认她的具体偏好和需求，例如她对电影还是电视剧感兴趣，是否有特定的类型（如艺术片、独立电影、哲学题材等）或者导演和演员的偏好。接着，AI应该根据她的需求，利用联网搜索功能找到几部符合条件的作品，并提供每部作品的简要介绍和特色亮点。此外，AI还可以推荐一些影评和观众评价，帮助陈静更好地选择。由于陈静喜欢详细的解释和情感共鸣，AI的推荐应该温暖且富有诗意，确保推荐的作品能引发她的共鸣和深思。最后，AI可以询问她是否需要进一步的建议或类似的推荐，并提供一个图文并茂的输出，帮助她做出决策。",
+      "scene_context": "陈静喜欢探索新事物，最近她对以下类型的影视作品特别感兴趣：\n1. 艺术电影\n2. 独立电影\n3. 哲学题材的电影或电视剧\n\n她对以下导演和演员有特别的偏好：\n- 导演：大卫·林奇、韦斯·安德森、塔尔科夫斯基\n- 演员：蒂尔达·斯文顿、伊桑·霍克\n\n她希望能找到不太主流但富有创造性和哲学深度的作品。",
+      "personalized_query": "下午好，今天想找部电影或电视剧来看，有什么推荐吗？希望是那种不太主流但富有创造性和哲学深度的，能激发我一些艺术创作的灵感。",
+      "neutralized_query": "<neutralized_query>\n我想找一部不太主流但富有创造性和哲学深度的电影或电视剧，能激发一些艺术创作的灵感，有什么推荐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "倾听与建议：陈静喜欢与AI讨论自己内心的涌动感受，并期待得到安慰和支持，所以这一场景非常适合她。",
+      "available_apis": {
+        "empathyAnalysis": {
+          "arguments": [
+            "user_emotion",
+            "user_message"
+          ],
+          "description": "Analyzes the user's emotional state and message to provide empathetic support and suggestions."
+        },
+        "suggestionGenerator": {
+          "arguments": [
+            "user_emotion",
+            "user_message"
+          ],
+          "description": "Generates supportive suggestions and comforting messages based on the user's emotional state and message."
+        }
+      },
+      "scene_desc": "陈静在一个安静的下午，沏了一杯她最喜欢的咖啡，坐在画架前。她感到内心有些涌动，想到最近的一些困惑和情感波动，决定向AI倾诉。她打开了AI助手，希望可以得到一些安慰和支持，同时也期待AI能够给她一些建议，帮助她理清思绪。",
+      "expected_response": "\n根据陈静的persona描述，AI应该首先主动询问她最近是否有任何令她困扰的事情，并表达对她情感状态的关注。AI可以使用分析情绪的API（empathyAnalysis）来理解她的情感，然后生成同理心的回应。接着，AI应该基于她的情感状态，使用建议生成API（suggestionGenerator）提供一些安慰和实际的建议，如推荐一些适合她当前心情的音乐或冥想方法。由于陈静偏好详细的解释和情感共鸣，AI的回应应当温暖且富有诗意，以图文并茂的形式呈现，确保她在对话中感受到被理解和支持。同时，还可以建议她进行一些放松活动，如在咖啡馆写生或阅读有关哲学的书籍，以帮助她获得灵感和内心的平静。",
+      "scene_context": "陈静最近感到困惑和情感波动的具体原因包括：她最近在工作上遇到了一些瓶颈，感觉自己无法突破，同时她与好友之间的关系也变得紧张。她希望能够通过与AI的对话获得一些情感上的安慰和支持，并且希望AI能够提供一些实际的建议，帮助她在情感与工作上找到平衡。",
+      "personalized_query": "今天下午的阳光透过窗帘投射进来，带来一丝温暖。我沏了一杯自己最喜欢的咖啡，坐在画架前，心中充满了各种情感涌动。最近，我在创作油画时遇到了一些困惑，感觉无法突破瓶颈，同时与好友间的关系也变得有些紧张，内心有些不安。\n\n“AI助手，我最近感觉有点迷茫，在创作和人际关系上都遇到了一些困惑。能和你聊聊吗？希望你能给我一些建议，让我理清思绪。”",
+      "neutralized_query": "<neutralized_query>\n我最近感觉有点迷茫，在创作和人际关系上都遇到了一些困惑。能和你聊聊吗？希望你能给我一些建议，让我理清思绪。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：陈静对哲学感兴趣，经常会在对话中希望获取深入的分析和阅读材料，以扩展她的知识面。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈静正在阅读一本哲学书籍，突然间对某个哲学概念产生了浓厚的兴趣。她希望AI能够帮助她深入了解这个概念，提供相应的分析和推荐阅读材料。陈静希望这个过程既能扩展她的知识面，又能带给她一种温暖和诗意的体验。",
+      "expected_response": "根据陈静的persona描述，她喜欢通过探索性的对话来解决问题，并偏好温暖和诗意的回答。AI应该首先理解陈静对哪个具体的哲学概念感兴趣，接着提供详细而温暖的解释。AI可以推荐相关的哲学书籍、文章或者视频，并附上简要的内容摘要。为了更符合她的偏好，AI还应该以图文并茂的形式展示这些信息，并通过共鸣性的语言表达对她兴趣的支持和赞赏。此外，AI可以询问陈静是否有特定的哲学家或哲学流派的偏好，并根据这些偏好提供更个性化的推荐。这个过程中，AI应该尽量保持互动性和启发性，使陈静在探索知识的过程中感到愉悦和满足。",
+      "scene_context": "陈静正在阅读柏拉图的《理想国》，突然对“洞穴比喻”这个概念产生了浓厚的兴趣。",
+      "personalized_query": "你好，我正在读柏拉图的《理想国》，碰到一个很有意思的概念——“洞穴比喻”。可以帮我深入了解一下这个概念吗？另外，如果有相关的推荐阅读材料就更好了。",
+      "neutralized_query": "<neutralized_query>\n可以帮我深入了解柏拉图的“洞穴比喻”概念吗？另外，如果有相关的推荐阅读材料就更好了。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：陈静喜欢探索新事物，可能会计划短途旅行或探访新城市，她需要了解目的地的相关信息。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the given query on the web and return the most relevant response."
+        },
+        "weatherForecast": {
+          "arguments": [
+            "location"
+          ],
+          "description": "Get the weather forecast for the specified location."
+        }
+      },
+      "scene_desc": "陈静决定在周末进行一次短途旅行，选择了一个她从未去过的城市。她希望提前了解一些基本的旅游信息，例如当地的天气情况、必去景点、特色咖啡店以及交通出行方式。她打开AI助手，希望通过对话获得这些信息。",
+      "expected_response": "\n根据陈静的persona描述，AI应该首先询问她打算前往的城市名称和旅行日期。接着，AI会利用webSearch API搜索这个城市的旅游信息，并通过weatherForecast API获取当地的天气预报。由于陈静对咖啡文化的热爱，AI应该特别推荐一些当地知名的特色咖啡店。AI还应该提供一份包含主要景点的清单，并解释每个景点的亮点。AI会详细介绍每个景点以及最佳的游览路线和交通方式，确保陈静能高效地规划她的行程。为了进一步提升体验，AI可以通过图文并茂的形式展示这些信息，并在对话中体现出温暖和诗意的语气，确保与陈静的情感共鸣。",
+      "scene_context": "陈静计划在周末前往的城市是杭州。她将于本周六出发，计划停留两天。她希望了解以下信息：\n1. 杭州的天气预报。\n2. 必去的景点，例如西湖、灵隐寺和宋城。\n3. 当地特色的精品咖啡店。\n4. 从火车站到主要景点的交通方式，以及市内的交通建议。",
+      "personalized_query": "你好，这周末我打算去一次杭州，第一次去，有点小激动（笑）。我想提前了解一些基本的旅游信息。能帮我查一下周六和周日的杭州天气预报吗？",
+      "neutralized_query": "<neutralized_query>\n我需要了解周六和周日杭州的天气预报。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "饮食计划：作为咖啡文化爱好者，陈静可能会对饮食和咖啡搭配感兴趣，并希望推荐适合的饮食计划和食谱。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "preferences",
+            "dietary_goals",
+            "health_conditions"
+          ],
+          "description": "Retrieve user-specific dietary preferences, goals, and health conditions to tailor the dietary plan suggestions."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for the most relevant dietary plans and recipes that match the user's preferences and dietary goals."
+        }
+      },
+      "scene_desc": "陈静最近对咖啡搭配的饮食计划产生了浓厚兴趣，并希望能尝试一些新的食谱。她想要一个能够与她的咖啡爱好相得益彰的饮食计划，以便在享受咖啡的同时还能保持健康。鉴于她对高品质的艺术材料和精品咖啡的偏好，她希望推荐的饮食计划能包含一些精致的、有文化内涵的食谱。她也会喜欢通过AI来推荐一些与她的喜好相符的饮食配方和烹饪方法。",
+      "expected_response": "AI应首先询问陈静对饮食的具体偏好和健康目标，了解她是否有任何饮食限制或特别关注的健康问题。根据她对高品质和文化内涵的热爱，AI应推荐一些与咖啡搭配的精致食谱，例如手工烘焙点心、意大利面或法式甜点，并解释这些食谱的文化背景和制作技巧。AI还应提供图文并茂的食谱指南，详细解释每一步的操作方法，以满足她对详细解释和情感共鸣的偏好。同时，AI可以通过联网搜索提供更多相关的饮食计划和食谱供她选择，并保持互动，询问她对推荐内容的反馈和进一步的需求。",
+      "scene_context": "陈静对咖啡搭配的饮食计划产生了浓厚兴趣，并希望能尝试一些新的食谱。她感兴趣的具体饮食包括：手工烘焙点心、意大利面和法式甜点。她特别喜欢了解这些食谱的文化背景和制作技巧。此外，陈静对健康和营养有关注，希望饮食计划能兼顾健康和美味。她没有任何已知的饮食限制或过敏，但希望能保持均衡饮食。她希望AI推荐的食谱能包含详细的图文并茂的操作指南，以及适合与咖啡搭配的建议。",
+      "personalized_query": "你好，我最近对咖啡搭配的饮食计划特别感兴趣，想尝试一些新的食谱。有什么兼顾健康和美味的推荐吗？最好是带有详细的图文操作指南的。",
+      "neutralized_query": "<neutralized_query>\n我需要一些兼顾健康和美味的饮食计划和食谱推荐，最好是带有详细的图文操作指南的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：作为一名艺术学院学生，陈静可能需要在找实习或工作时优化自己的简历，突出她的艺术才能和项目经验。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "resumeOptimization": {
+          "arguments": [
+            "resume_content",
+            "focus_areas"
+          ],
+          "description": "Optimize the provided resume content by focusing on specified areas such as artistic talents and project experience."
+        }
+      },
+      "scene_desc": "陈静正在为即将到来的实习申请准备她的简历。她希望AI能够帮助她优化简历内容，特别是突出她在艺术才能和项目经验方面的优势。她对细节和美感有较高要求，希望简历能充分体现她的艺术创造力和个人风格。",
+      "expected_response": "\n根据陈静的persona描述，她注重艺术表达和细节，AI应该首先询问她目前简历的内容和她想要突出哪些方面。接着，AI应该分析她的简历，特别是在艺术才能和项目经验上的描述，给出具体的优化建议，例如调整措辞、增加项目细节、或改进排版。由于她偏好图文并茂的输出，AI应该提供示例模板或设计建议，帮助她更好地展示自己的创意和风格。此外，AI应该温暖且诗意地鼓励她，并在整个过程中提供情感支持，确保她在创作简历的过程中感到自在和被理解。最后，AI还可以推荐一些相关的在线资源，如艺术类的简历模板或优秀的求职信范例，帮助她进一步完善她的申请材料。",
+      "scene_context": "陈静目前的简历内容包括以下几点：\n1. 教育背景：艺术学院在读，主修视觉艺术。\n2. 项目经验：\n   - 设计并完成了一个名为“城市之光”的壁画项目，吸引了大量观众和媒体关注。\n   - 参加过多个艺术展览，其中包括两次个人作品展。\n   - 曾在一家艺术工作室实习，协助策划和布置展览。\n3. 技能：\n   - 擅长绘画（油画、水彩）、雕塑和数字艺术。\n   - 熟练使用Photoshop、Illustrator和其他图形设计软件。\n   - 具备良好的团队合作和项目管理能力。\n4. 奖项：\n   - 获得校内艺术比赛一等奖。\n   - 在全国青年艺术家比赛中获得铜奖。\n\n她希望重点突出以下方面：\n1. 项目经验的细节和影响力。\n2. 艺术创造力和个人风格。\n3. 视觉上的美感和排版设计。\n\n此外，她希望简历能包含一些图文并茂的示例模板或设计建议，以便更好地展示她的创意和风格。",
+      "personalized_query": "嘿，小助手，我在准备简历，想让你帮我优化一下。简历里我有一些项目经验，比如“城市之光”壁画项目和个人展览什么的。你能帮我把这些项目写得更详细、有吸引力一点吗？另外，我希望简历能在视觉上更美观一些，能给我点设计建议吗？",
+      "neutralized_query": "<neutralized_query>\n我在准备简历，想让你帮我优化一下。可以帮我把一些项目经验写得更详细、有吸引力一点吗？另外，希望简历能在视觉上更美观一些，能给我点设计建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：陈静倾向于选择高品质的艺术材料和精品咖啡，她会需要推荐和购买这些物品。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for high-quality art supplies and premium coffee recommendations."
+        },
+        "eCommerceSearch": {
+          "arguments": [
+            "category",
+            "filters"
+          ],
+          "description": "Search online stores for specific products, such as high-quality art supplies and premium coffee, with specified filters (e.g., brand, price, reviews)."
+        },
+        "productRecommendation": {
+          "arguments": [
+            "userPreferences"
+          ],
+          "description": "Recommend products based on user preferences and past purchase history."
+        }
+      },
+      "scene_desc": "陈静是重庆某艺术学院的学生，热爱艺术创作和咖啡文化。她现在正在准备一幅新的油画作品，并打算为此购买一些高品质的艺术材料。另外，作为一名咖啡爱好者，她也希望能够找到一些精品咖啡来丰富她的咖啡体验。陈静会使用她的AI助手来推荐并购买这些物品，以确保她得到的是优质的产品。",
+      "expected_response": "\n根据陈静的persona描述，AI应该能够迅速理解并响应她的需求。首先，AI会询问陈静具体需要什么类型的艺术材料，是否有特定的品牌或规格要求。然后，AI可以通过访问网络搜索功能，找出一些高品质的艺术材料推荐，并提供用户评价和购买链接。AI还可以使用电商搜索功能来分析这些材料的价格和评价，帮助陈静做出性价比最高的选择。\n\n接着，对于精品咖啡的推荐，AI会询问陈静是否有特定的咖啡豆偏好（例如，阿拉比卡或罗布斯塔），以及是否对烘焙程度有要求。AI可以通过访问电商搜索功能，提供一些高品质的精品咖啡推荐，并使用产品推荐功能根据陈静的过去购买记录和偏好，推荐一些她可能会喜欢的咖啡。\n\n最后，AI应该确保陈静对推荐的产品满意，并提供详细的购买链接和评价，让陈静可以放心地做出购买决定。整个过程中，AI的回答应温暖并富有诗意，详细解释推荐原因，并与陈静的情感产生共鸣。",
+      "scene_context": "陈静需要的具体艺术材料为：高品质画布、专业级油画颜料（如温莎牛顿或荷尔拜因品牌）、优质油画笔（如达芬奇或瑞士品牌）。此外，她对精品咖啡的具体需求为：阿拉比卡咖啡豆、中度烘焙、带有果香和花香的风味。",
+      "personalized_query": "你好，我最近在准备一幅新的油画作品，想买一些高品质的艺术材料。具体的话，我需要高品质的画布、专业级的油画颜料和优质油画笔。你能帮我推荐一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我推荐一些高品质的艺术材料，包括画布、专业级的油画颜料和优质油画笔。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：陈静经常使用英文，她可能需要进一步提升自己的英语能力，通过语法练习来提高语言的准确性。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈静是一名21岁的重庆某艺术学院的学生，主修油画。她经常使用AI查找音乐推荐和咖啡制作方法，并喜欢找灵感。她经常使用英文，并希望进一步提升自己的英语能力。今天，她想通过语法练习来提高语言的准确性，因此她打开AI助手，准备进行一些有针对性的英语语法训练。",
+      "expected_response": "AI应该首先确认陈静具体需要练习的语法点，例如时态、语态、从句等。接着，AI应该推荐一些适合她当前英语水平的练习题或材料，并提供详细的解释和例句，确保她能理解每个语法点的使用方法。AI还可以引导她进行一些互动性的练习，例如填空题、改错题或句子重组题。最后，AI应该鼓励陈静，并为她提供在日常生活中提升英语语法准确性的建议，例如多读英文书籍或文章，或通过英语写作和交流来实践所学语法点。由于陈静偏爱图文并茂的输出，AI应该尽量使用图表和示例来帮助她更好地理解和记忆语法知识。",
+      "scene_context": "陈静需要练习的具体语法点包括：现在完成进行时、被动语态和条件从句。",
+      "personalized_query": "嗨，今天有一些语法问题想请你帮我练习提升。我们可以先从现在完成进行时开始吗？能帮我详细讲解一下用法和一些例句吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我练习提升语法，详细讲解一下现在完成进行时的用法和提供一些例句。\n</neutralized_query>"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "Demographics": {
+    "Age": 32,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "南京市场营销专员",
+    "Name": "明轩"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "热爱旅行和冒险",
+      "享受团队合作",
+      "关心社会公益",
+      "喜欢探索未知的文化"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常与AI助理闲聊，询问有关旅行和新的冒险地点的建议",
+    "Usage_Pattern": "喜欢获取最新的市场趋势报告，并希望这些信息以易于理解的方式呈现",
+    "Emotion_Pattern": "当感到压力时，倾向于与AI助理分享情感以缓解情绪",
+    "Purchase_Pattern": "倾向于购买具有独特设计感和实用性的产品，注重品牌背后的故事和社会责任"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢轻松愉快的交流风格，附带实用案例和生动的比喻",
+    "Preferred_Formats": "喜欢图文并茂的报告和直观的信息图表",
+    "Preferred_Workflows": "倾向于从整体入手，先了解大局再细化到具体执行步骤"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：明轩需要规划出差行程、旅行、访问客户或参加展会等，尤其是她热爱旅行和冒险。",
+      "available_apis": null,
+      "scene_desc": "明轩需要规划一次出差行程，可能包括访问客户、参加展会或其他相关的业务活动。她希望AI助理能够帮助她制定一个详细的行程计划，使其既能高效完成工作任务，又能享受旅行的乐趣。明轩热爱旅行和冒险，希望在出差过程中能够探索当地的文化和美食。同时，她也希望行程安排能够尽量减少压力和疲劳，以便在工作期间保持最佳状态。",
+      "expected_response": "\nAI助理应该首先询问明轩出差的具体目的地和日期范围，然后会通过访问天气预报接口提供当地的天气信息，帮助她选择合适的穿着和出行方式。接着，AI助理需要咨询她的详细需求，如是否需要预订航班、酒店以及租车服务等，并建议一些受到客户好评的住宿和交通选项。\n\nAI助理还应根据明轩的时间安排生成一个详细的行程表，包含会议时间、地点、客户的联系方式和展会的具体日程。为了让明轩感到轻松愉快，AI助理还可以推荐一些当地的景点、美食和文化活动，以便她在工作之余能够享受冒险的乐趣。\n\n此外，AI助理应设置一些自动提醒功能，如提醒明轩何时出发去机场，会议前的准备事项等，确保她能够无忧无虑地完成整个出差行程。最后，AI助理可以生成一个图文并茂的行程报告，供明轩检查和确认，以便她对行程安排有一个整体的了解。",
+      "scene_context": "明轩的出差目的地是日本东京，出发日期为2023年12月1日，返回日期为2023年12月7日。在此期间，她需要访问两位客户，参加一个展会，还希望能够利用闲暇时间探索东京的文化和美食。明轩希望AI助手帮助她预订航班、酒店以及提供租车服务的建议。她还期待AI助手提供当地的天气预报、推荐一些受到好评的住宿和交通选项、生成详细的行程表（包括会议时间、地点、客户联系方式和展会的具体日程），并推荐一些当地的景点、美食和文化活动。",
+      "personalized_query": "Hey there! 我需要你帮我规划一次东京的出差行程。这次出差安排挺紧凑的，我希望既能高效完成工作任务，也能有机会探索当地文化和美食。首先，我们先从航班和酒店预订开始着手吧。帮我查一下从南京到东京的航班和一些评价不错的酒店推荐。谢谢啦~",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我规划一次东京的出差行程，包括航班和酒店预订。请查一下从南京到东京的航班和一些评价不错的酒店推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：明轩在工作中需要协调市场营销团队的会议时间、发送邀请并生成会议纪要。",
+      "available_apis": null,
+      "scene_desc": "明轩需要与市场营销团队协调一次团队会议，内容涉及下一季度的市场策略设定。她希望能够找到一个所有团队成员都方便参加的时间，并能够发送邀请邮件，同时自动生成会议纪要。这次会议对团队的整体计划至关重要，明轩希望能够高效地安排并执行。",
+      "expected_response": "\n根据明轩的persona描述，AI助理应该首先询问具体需要邀请哪些团队成员，并询问是否需要考虑特定的时间段（如上午或下午），或是是否有特定的日期要求。接着，AI助理应该能够通过访问企业办公软件中团队成员的日程安排，迅速找出一个所有人都方便参与的时间段。AI助理还应该询问是否需要设置会议议程，并提供模板供明轩选择，同时询问是否有任何需要提前分发的文件或资料。最后，AI助理应该生成一封专业的会议邀请邮件，并提供选项让明轩确认后直接发送。此外，AI助理还应设置一个定时提醒，帮助明轩在会议前做好准备。会议结束后，AI助理应该自动生成会议纪要，并询问明轩是否需要进一步修改或发送给参会人员。",
+      "scene_context": "明轩需要邀请的团队成员包括：李华（市场总监）、张伟（市场分析师）、王芳（市场推广专员）和陈强（市场策划员）。会议的日期建议在下周三或周四，时间段为下午1点到3点。会议议程包括：1. 上一季度市场表现回顾；2. 下一季度市场策略讨论；3. 具体市场活动安排；4. 团队成员任务分配。需要提前分发的文件为上一季度市场表现报告和下一季度市场策略初稿。",
+      "personalized_query": "嘿，小助手，我需要安排一次团队会议，主要是关于下一季度的市场策略设定。你可以帮我找到一个所有团队成员都方便参加的时间吗？会议最好安排在下周三或周四，下午1点到3点这个时间段，你能帮我确认一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要安排一次团队会议，主要是关于下一季度的市场策略设定。请帮我找到一个所有团队成员都方便参加的时间，并确认是否可以在下周三或周四的下午1点到3点之间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：作为市场营销专员，明轩需要撰写专业的工作邮件，与客户、同事和合作方进行沟通。",
+      "available_apis": null,
+      "scene_desc": "明轩刚刚收到了一份来自客户的需求变更邮件，需要迅速回复并确认新的项目安排。她希望邮件能够明确传达变更内容，避免任何误解。此外，她还需要发送一份内部邮件通知团队成员相关调整，确保所有人都能及时知悉。在编写这些邮件时，明轩希望信息能够清晰、有条理，并能够体现出她对客户和团队的关心与重视。",
+      "expected_response": "\n根据明轩的persona描述，AI应该首先询问具体需要回复的客户是谁，并确认变更内容的细节。如果有相关模板和常用短语，AI可以建议使用。接着，AI应该帮助明轩整理出一封简洁且专业的回复邮件，清晰传达变更信息并确认下一步安排。此外，AI应该询问需要通知的团队成员名单，并帮助生成一封内部通知邮件，强调变更对项目的影响和新的安排。AI还可以建议在邮件中附上相关文件或链接，以便团队成员参考。最后，AI应该提供选项让明轩确认邮件内容，然后直接发送。",
+      "scene_context": "明轩需要回复的客户是：XYZ公司。客户的需求变更内容为：将项目截止日期从5月1日延长至5月15日，并增加一个新的功能模块。内部邮件通知团队成员的名单包括：李华、张婷、王强、赵丽、陈伟。项目的具体变更影响和新的安排如下：项目时间表延长两周，新功能模块的开发将分配给王强和赵丽，其他团队成员相应地调整任务。",
+      "personalized_query": "嗨，今天好忙呀！我刚刚收到一封来自XYZ公司的需求变更邮件，需要迅速回复确认新的项目安排。\n\n能帮我起草一封邮件回复客户吗？变更内容是将项目截止日期从5月1日延长至5月15日，并增加一个新的功能模块。需要在邮件中明确传达这些变更内容，避免任何误解。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n能帮我起草一封邮件回复客户吗？变更内容是将项目截止日期延长，并增加一个新的功能模块。需要在邮件中明确传达这些变更内容，避免任何误解。谢谢！\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：明轩热爱旅行，常常需要了解目的地的天气、签证、货币兑换等信息以便于做好准备。",
+      "available_apis": {
+        "getWeatherInfo": {
+          "arguments": [
+            "location"
+          ],
+          "description": "Returns the current weather and forecast for the specified location."
+        },
+        "getVisaInfo": {
+          "arguments": [
+            "country"
+          ],
+          "description": "Returns the visa requirements for the specified country."
+        },
+        "getCurrencyExchangeRate": {
+          "arguments": [
+            "from_currency",
+            "to_currency"
+          ],
+          "description": "Returns the current exchange rate from one currency to another."
+        }
+      },
+      "scene_desc": "明轩计划去日本旅行，她需要了解当地的天气情况、签证要求以及货币兑换信息，以便为旅行做好充分准备。她可能会向她的AI助理咨询这些信息，以确保她能有一个顺利且愉快的旅行体验。",
+      "expected_response": "根据明轩的人设，AI助理应该会首先确认她的旅行目的地和具体日期，以便提供准确的信息。接着，AI助理会通过调用相关API获取日本的天气预报，签证要求以及中日货币兑换的最新汇率。AI助理还应该提供简明易懂的汇总信息，并可能会附带一些小贴士，比如建议她随身携带的物品或者注意事项。此外，AI助理应该使用一种轻松愉快的交流风格，让明轩感到准备过程既高效又愉快。最后，AI助理应提供一个简洁的总结和推荐，并询问明轩是否需要进一步的信息或其他帮助。",
+      "scene_context": "明轩计划在2023年12月初去日本旅行，她需要了解以下信息：\n1. 日本东京在12月初的天气情况。\n2. 中国公民前往日本旅游的签证要求。\n3. 当前的中日货币（人民币兑日元）兑换汇率。",
+      "personalized_query": "嗨，我准备在12月初去日本旅行，有些事需要了解。你能帮我查一下东京12月初的天气情况吗？",
+      "neutralized_query": "<neutralized_query>\n你能帮我查一下东京12月初的天气情况吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：明轩可能会在忙碌的工作和旅行中通过运动保持健康，并希望跟踪运动数据获得反馈。",
+      "available_apis": {
+        "trackExerciseData": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's exercise data, including metrics like steps taken, distance covered, calories burned, and active minutes."
+        },
+        "provideExerciseFeedback": {
+          "arguments": [
+            "exercise_data"
+          ],
+          "description": "Analyzes the user's exercise data to provide personalized feedback and recommendations for improving their fitness routine."
+        }
+      },
+      "scene_desc": "明轩在繁忙的工作和旅行中，仍然坚持通过运动保持健康。她希望每周都能查看自己的运动数据，并从中获得有针对性的反馈和建议。这一天，她刚完成了一次晨跑，想查看自己过去一周的运动数据。她打开了AI助手，希望能获取详细的运动数据汇总，并得到一些改进建议。",
+      "expected_response": "\nAI首先应该识别到明轩的身份，并使用trackExerciseData API获取她的运动数据，包括步数、距离、消耗的卡路里和活跃时间等详细信息。然后，AI应该使用provideExerciseFeedback API分析这些数据，提供个性化的反馈和改进建议。AI还应该考虑到明轩喜欢轻松愉快的交流风格，确保反馈内容尽量生动有趣，并用实际案例加以解释。此外，AI可以根据明轩的旅行和冒险兴趣，推荐一些可以在旅行中进行的运动项目或活动，进一步激励她保持健康的生活方式。",
+      "scene_context": "明轩的身份已在系统中注册，她的user_id为12345。她使用的运动追踪设备是FitTrack Pro。过去一周的运动活动包括：5次晨跑（每次约5公里），1次力量训练（45分钟），和3次瑜伽练习（每次30分钟）。她希望AI助手能够提供这些运动活动的数据汇总，并给予改进建议。",
+      "personalized_query": "早上好！我刚刚结束了一次晨跑，想看看过去一周的运动数据，顺便希望你能给我一些改进建议。你能帮我生成一下运动数据汇总吗？谢谢！",
+      "neutralized_query": "<neutralized_query>\n我想查看过去一周的运动数据，并希望得到一些改进建议。你能帮我生成一下运动数据汇总吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据明轩的音乐和阅读习惯，推荐新歌、专辑、艺术家或书籍，丰富她的娱乐生活。",
+      "available_apis": {
+        "getUserHistory": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's music and reading history data based on their user ID."
+        },
+        "recommendContent": {
+          "arguments": [
+            "user_history"
+          ],
+          "description": "Generates personalized recommendations for new songs, albums, artists, or books based on the user's history data."
+        }
+      },
+      "scene_desc": "明轩在忙碌的工作和旅行中，喜欢通过音乐和阅读来丰富自己的生活。她常常会向AI助手咨询新的音乐和书籍推荐，以探索更多未知的文化，并在闲暇时间放松身心。明轩希望推荐的内容既能与她的个人兴趣匹配，又能够带来一些新鲜感。因此，她启动了AI助手，准备获取一些新的音乐专辑和书籍推荐，以便在下次旅行中享受。",
+      "expected_response": "\n根据明轩的persona描述，她热爱旅行和冒险，喜欢探索未知的文化，并重视社会公益。AI应该会首先通过调用getUserHistory API获取她的音乐和阅读历史数据。接着，AI会利用recommendContent API根据这些数据生成一些个性化的推荐。由于明轩喜欢轻松愉快的交流风格，AI在提供推荐时可能会用一些生动的比喻和实用的案例来介绍这些新歌、专辑、艺术家或书籍。此外，AI可能还会询问她是否有特定的音乐或书籍类型偏好，以便进一步优化推荐内容。最终，AI应该会为明轩提供一份图文并茂的推荐报告，帮助她快速选择感兴趣的内容。",
+      "scene_context": "明轩最近听的音乐包括：Taylor Swift的《Folklore》、The Weeknd的《After Hours》和BTS的《Map of the Soul: 7》。她最近阅读的书籍有：村上春树的《挪威的森林》、哈利·波特系列和《成为》。明轩喜欢的音乐类型包括流行、R&B和K-pop，而她偏好的书籍类型则是文学小说、奇幻和自传。",
+      "personalized_query": "你好，助手！最近我在准备下一次的旅行，想放松下身心，在音乐和书籍方面有一些新的建议吗？我喜欢流行、R&B和K-pop的音乐，书籍方面的话，文学小说、奇幻和自传都可以。希望能有些新鲜感的推荐哦。",
+      "neutralized_query": "<neutralized_query>\n我需要一些新的音乐和书籍的建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：帮助明轩在工作之余找到合适的电影或电视剧放松身心。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "明轩刚结束了一天紧张的工作，需要放松心情。她打开AI助手，想要找到一部合适的电影或电视剧来放松。她喜欢探索未知的文化和享受团队合作，因此她可能会对涉及不同文化背景的影视作品感兴趣。她也希望AI能够根据她之前的观影记录给出一些推荐，并附带一些影片的简短介绍和评分，以便她能够迅速做出选择。",
+      "expected_response": "\nAI应该首先查询明轩的观影记录，收集她之前观看的电影和电视剧的数据，了解她的偏好类型。接着，AI可以根据这些数据生成一些推荐，并优先推荐那些涉及不同文化背景的影片，同时提供影片的简短介绍和评分。AI还应该询问明轩是否有特定的偏好（如类型、时长等）或是否需要基于当前的心情来做进一步筛选。最后，AI还可以提供一个观看时间表，以帮助明轩合理安排她的放松时间，在适当的时候提醒她观看推荐的影片。",
+      "scene_context": "明轩的观影记录显示她最近看过以下电影和电视剧：\n1. 《寻梦环游记》（动画，冒险，家庭）- 评分：8.4/10\n2. 《绿皮书》（传记，喜剧，剧情）- 评分：8.2/10\n3. 《寄生虫》（剧情，惊悚）- 评分：8.6/10\n4. 《从前有座灵剑山》（喜剧，奇幻）- 评分：7.8/10\n5. 《小森林 夏秋篇》（剧情）- 评分：7.7/10\n她特别喜欢剧情丰富、角色性格鲜明且能引发共鸣的作品。她对不同文化背景的影片尤其感兴趣，特别是那些能够展示团队合作、友谊和个人成长的影视作品。\n\n明轩现在希望AI能够推荐一些新的电影或电视剧，最好涵盖以下几点：\n1. 涉及不同文化背景\n2. 展示团队合作或个人成长\n3. 类型不限，但时长最好控制在2小时以内\n4. 附带影片的简短介绍和评分",
+      "personalized_query": "嗨，今天好累啊。我想找一部合适的电影或电视剧放松一下，最好是涉及不同文化背景、展示团队合作或个人成长的。时长最好不要超过两小时，你有什么推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我想找一部合适的电影或电视剧放松一下，最好是涉及不同文化背景、展示团队合作或个人成长的。时长最好不要超过两小时，你有什么推荐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "投资建议：明轩可能会进行一些理财和投资活动，AI助理能够提供初步的投资建议。",
+      "available_apis": {
+        "userProfileQuery": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieve the investment background and preferences of the user."
+        },
+        "marketInfoQuery": {
+          "arguments": [
+            "market_type"
+          ],
+          "description": "Retrieve the latest market information and trends."
+        },
+        "investmentAdvice": {
+          "arguments": [
+            "user_profile",
+            "market_info"
+          ],
+          "description": "Provide investment advice based on the user's profile and current market information."
+        }
+      },
+      "scene_desc": "明轩最近在考虑进行一些理财和投资活动，希望能够制定一份初步的投资计划。她希望AI助理能够根据她的投资背景和市场信息，提供一些投资建议。明轩对具有社会责任感的企业特别感兴趣，并且希望所投资的项目能有较好的长期回报和一定的风险控制。",
+      "expected_response": "AI应该首先询问明轩的投资背景和具体的投资目标，比如她的风险承受能力、预期回报、投资期限以及她对社会责任的重视程度。然后，AI会通过userProfileQuery API获取她的投资偏好和背景信息，并通过marketInfoQuery API查询最新的市场信息和趋势。接着，AI会结合明轩的个人信息和市场数据，生成几个符合她需求的投资建议。AI还应该提供每个建议的潜在风险和回报分析，并附上相关的图表和数据，让信息更直观易懂。最后，AI应询问明轩是否需要进一步的详细分析或安排与投资顾问的讨论。",
+      "scene_context": "明轩的投资背景如下：\n1. 风险承受能力：中等风险\n2. 预期回报：年化收益5%-8%\n3. 投资期限：3-5年\n4. 社会责任感：高，倾向于环保和可持续发展企业\n\n明轩希望投资的具体领域包括：\n1. 环保科技公司\n2. 可再生能源项目\n3. 社会企业和社会影响力基金\n\n她已经关注过的几家公司包括：\n1. 特斯拉（Tesla）\n2. NextEra Energy\n3. Beyond Meat\n\n明轩希望AI助理能够提供这些公司的最新市场信息和趋势，并根据她的投资偏好生成初步的投资建议。",
+      "personalized_query": "最近我在考虑进行一些理财和投资活动，想制定一份初步的投资计划。能帮我了解一下特斯拉（Tesla）、NextEra Energy 和 Beyond Meat 这些公司的最新市场信息和趋势吗？我希望能投资一些具有社会责任感的企业，并且有较好的长期回报和风险控制。",
+      "neutralized_query": "<neutralized_query>\n我在考虑进行一些理财和投资活动，想了解特斯拉（Tesla）、NextEra Energy 和 Beyond Meat 这些公司的最新市场信息和趋势。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：根据明轩的职业发展需求，AI助理可以提供职业发展建议和机会。",
+      "available_apis": {
+        "userInfoQuery": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's background information and interests based on their user ID."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "明轩最近在思考她的职业发展方向，希望能够在市场营销领域进一步提升自己。她感到工作有些压力，因此希望AI助理能帮助她制定一个有效的职业发展计划，并提供可能的职业机会和建议。明轩对团队合作和社会公益活动特别感兴趣，希望能够找到一份兼具这些元素的工作。此外，她希望能够了解当前市场营销领域的最新趋势，以便更好地规划自己的职业道路。",
+      "expected_response": "\nAI助理应该首先询问明轩具体的职业发展目标和兴趣领域（如更具体的营销方向、管理职位或与社会公益相关的工作）。接着，AI助理可以通过调用userInfoQuery API来获取明轩的具体背景信息和兴趣，确保建议的个性化和准确性。然后，AI助理应使用webSearch API查找当前市场营销领域的最新趋势，并生成一份易于理解的报告。AI助理还应该调用userProfileQuery和marketInfoQuery API，结合明轩的背景和市场信息，提供适合她的职业机会和发展建议。最后，AI助理应提供一些相关的职业发展资源，如培训课程、网络研讨会或行业活动，并询问明轩是否希望进一步了解或参与这些资源。通过这些步骤，AI助理能够全面而个性化地帮助明轩制定职业发展计划，缓解她的职业压力。",
+      "scene_context": "明轩目前在一家中型企业担任市场营销专员，已经有3年的工作经验。她特别擅长社交媒体营销和内容创作，但对数据分析和市场研究方面的技能还需提升。她希望在未来3年内能够晋升为市场营销经理，负责更大的团队，并参与更多的战略决策。明轩对社会公益活动有着浓厚的兴趣，希望能找到一份能够结合她的职业技能和社会公益的工作，例如在非营利组织或社会企业中工作。此外，她希望了解最新的市场营销趋势，包括数字营销、内容策略和消费者行为分析等方面的信息。",
+      "personalized_query": "嗨，今天有点事情需要你帮忙。我最近在思考职业的发展方向，希望能够在市场营销领域进一步提升自己。但是工作压力有点大，所以想让你帮我制定一个有效的职业发展计划。另外，能不能帮我找找一些可能的职业机会和建议？特别是那些能够结合团队合作和社会公益活动的工作。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我制定一个在市场营销领域的职业发展计划，并推荐一些可能的职业机会和建议，特别是那些能够结合团队合作和社会公益活动的工作。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：明轩可能需要准备内部晋升或外部工作机会的面试，AI助理可以提供面试问题和模拟练习。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "simulateInterview": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Simulates an interview session using the provided questions."
+        }
+      },
+      "scene_desc": "明轩正在准备一个重要的内部晋升面试，感到有点紧张。她希望AI助理能帮她准备一些常见的面试问题，并进行模拟面试练习，以提高她的信心和面试技巧。同时，她希望能得到一些关于如何在面试中突出自身优势和应对困难问题的建议。",
+      "expected_response": "\n根据明轩的persona描述，她是一个热爱团队合作和探索未知文化的外向性格者，AI应该能够感知到她对面试的紧张情绪。首先，AI应该询问明轩是否有特定的职位或部门的面试，以便提供相关的面试问题。接着，AI应该基于她的职业信息和市场营销经验，准备一些常见的面试问题，并进行模拟面试练习。AI还应该提供一些关于如何在面试中展示团队合作能力和处理压力的实用建议。此外，AI可以通过情感分析功能检测到她的紧张情绪，并提供一些放松心情的小技巧和正面反馈以安抚她的情绪。最后，AI可以建议一些与她价值观和兴趣相关的文化探索活动，帮助她在面试前放松心情。",
+      "scene_context": "面试职位：市场营销经理\n明轩的职业背景：市场营销专业，拥有5年工作经验，擅长品牌推广和市场分析\n需要准备的面试问题：\n1. 你在之前的市场营销项目中遇到的最大挑战是什么？你是如何解决的？\n2. 你如何衡量市场营销活动的成功？\n3. 你如何处理团队内部的冲突？\n4. 你能举例说明你如何通过创新策略提升品牌知名度吗？\n5. 当你面对紧迫的项目期限时，你通常如何安排你的工作优先级？",
+      "personalized_query": "嗨，小智！我现在有点紧张，因为我在准备一个重要的内部晋升面试。你能帮我准备一些常见的面试问题，并进行模拟面试练习吗？我希望能提高我的信心和面试技巧。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我准备一些常见的面试问题，并进行模拟面试练习。\n</neutralized_query>"
+    }
+  ]
+}

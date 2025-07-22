@@ -1,0 +1,228 @@
+{
+  "Demographics": {
+    "Age": 28,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "在深圳某金融公司做数据分析师，擅长python编程",
+    "Name": "王婷"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱健身和攀岩",
+      "对极限运动有极大的热情",
+      "喜欢探索新技术和工具",
+      "日常生活中追求刺激和冒险"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常和AI助理讨论健身和运动相关的问题，同时也喜欢分享最新的技术发现",
+    "Usage_Pattern": "习惯于用AI助理快速获取某个特定问题的解决方案或建议，喜欢直接且实用的信息",
+    "Emotion_Pattern": "偶尔会因为未能马上得到想要的答案而表现出急躁",
+    "Purchase_Pattern": "偏好购买能够提升运动表现的设备和工具，对高科技产品有浓厚兴趣"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简洁明了的回答，直接给出关键点和可行性建议",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "习惯于通过尝试错误的方法探索新领域，喜欢在实践中学习"
+  },
+  "scenes": [
+    {
+      "scene_type": "运动追踪：王婷热爱健身和攀岩，并对极限运动有极大的热情，因此他会使用AI助理跟踪他的运动数据，如步数、跑步距离和攀岩进度，并获取相关反馈。",
+      "available_apis": null,
+      "scene_desc": "王婷正在进行一次强度较高的攀岩训练，他希望使用AI助理来记录他的攀岩进度，包括攀爬的高度、使用的时间和消耗的卡路里。同时，王婷有计划在下周参加一个攀岩比赛，因此他希望AI助理能给出一些针对性的训练建议，并建议他应该购买哪些攀岩装备来提升他的表现。",
+      "expected_response": "\nAI助理应该能够自动记录王婷的攀岩进度，包括高度、时间和卡路里消耗。这可以通过连接王婷的智能手表或其他运动追踪设备来实现。AI应该给出详细的反馈，比如当前的攀爬高度、用时和消耗的卡路里。接着，AI助理应该根据王婷的训练数据和下周的比赛计划，生成一份个性化的训练建议。这些建议可能包括特定的训练动作、训练频率和休息时间。最后，AI应该根据王婷的需求和偏好，推荐适合攀岩的装备，提供购买链接，并给出一些关于这些装备如何提升表现的专业建议。",
+      "scene_context": "王婷的智能手表型号为Garmin Fenix 6，她目前的攀爬高度为150米，训练时间为2小时，消耗卡路里为1200卡。她计划参加的比赛是下周六举行的“城市攀岩挑战赛”。她希望获得一些高级攀岩鞋、攀岩粉袋和多功能攀岩工具的推荐，以及这些装备如何提升她表现的专业建议。",
+      "personalized_query": "Hey, 帮我记录一下今天的攀岩训练进度：攀爬高度150米，训练时间2小时，消耗卡路里1200卡。同时，我还要参加下周六的“城市攀岩挑战赛”，你能给我一些针对性的训练建议吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我记录一下今天的攀岩训练进度：攀爬高度150米，训练时间2小时，消耗卡路里1200卡。另外，我需要一些针对下周六攀岩比赛的训练建议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：王婷可能需要规划出差行程、旅行、访问客户或参加展会等。",
+      "available_apis": null,
+      "scene_desc": "王婷即将有一次出差行程，她需要规划从深圳到上海的商务旅行。她希望AI助理能够帮她安排好整个行程，包括选择合适的航班和酒店，提供交通建议，并创建一个详细的日程表。此外，王婷还需要获取上海的天气预报和推荐一些适合运动的地点，以便她可以在出差期间继续保持健身和攀岩的习惯。由于王婷有时会急躁，因此她希望能迅速得到所有相关信息。",
+      "expected_response": "\n根据王婷的人设和场景，AI助理应该首先确认她的出发日期和返回日期，以及是否有特定的航班和酒店偏好。接着，AI应该通过联网搜索查找并推荐符合她要求的航班和酒店，并提供详细的交通路线建议。AI还应检查上海的天气预报，特别是她出差期间的天气情况，并推荐一些适合健身和攀岩的地点。此外，AI应该根据航班和酒店预订信息，为王婷生成一个详细的日程表，并确保所有信息清晰简洁，直接给出关键点和可行性建议，避免让王婷感到急躁。最后，AI应提供一个确认步骤，让王婷查看和确认所有安排，并在确认后发送相关的预订和行程信息到她的邮箱。\n\n",
+      "scene_context": "王婷的出差行程细节如下：\n- 出发日期：2023年11月10日\n- 返回日期：2023年11月15日\n- 航班偏好：希望选择直飞航班，尽量避免过早或过晚的航班\n- 酒店偏好：靠近客户公司的四星或五星酒店，最好带有健身房\n- 客户公司地址：上海市浦东新区世纪大道1000号\n- 喜欢的健身和攀岩地点：希望找到离酒店较近的健身房和攀岩馆\n\n日程安排需包括：\n1. 航班信息（起飞、到达时间及航班号）\n2. 交通建议（如何从机场到酒店，从酒店到客户公司）\n3. 酒店信息（名称、地址、联系方式）\n4. 每日天气预报（11月10日至11月15日）\n5. 适合健身和攀岩的地点推荐\n6. 每日详细日程表（包括会议时间、自由活动时间等）",
+      "personalized_query": "好的，我需要安排一次从深圳到上海的商务旅行。出发日期是11月10日，返回日期是11月15日。希望选择直飞航班，并且尽量避免过早或过晚的航班。另外，我需要靠近客户公司（上海市浦东新区世纪大道1000号）并且带有健身房的四星或五星酒店。你能帮我查找这些信息吗？\n\n具体需求如下：\n1. 航班信息（起飞、到达时间及航班号）\n2. 酒店推荐（名称、地址、联系方式）\n然后再进行详细安排。",
+      "neutralized_query": "<neutralized_query>\n我需要安排一次从深圳到上海的商务旅行，出发日期是11月10日，返回日期是11月15日。选择直飞航班，并且尽量避免过早或过晚的航班。另外，我需要靠近客户公司并且带有健身房的四星或五星酒店。你能帮我查找这些信息吗？具体需求如下：\n1. 航班信息（起飞、到达时间及航班号）\n2. 酒店推荐（名称、地址、联系方式）\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：王婷喜欢探索新技术和工具，因此他会使用AI助理根据他的听歌习惯和阅读偏好推荐新歌、专辑或艺术家，或者推荐涵盖不同类型和题材的书籍。",
+      "available_apis": null,
+      "scene_desc": "王婷在工作之余喜欢探索新技术和工具，她对最新的音乐和书籍也有浓厚的兴趣。某天，她在休息时打开了AI助理，希望能够得到一些关于听歌和阅读的个性化推荐。她希望能找到一些新的音乐专辑来充实她的播放列表，同时也希望能获得一些涵盖不同类型和题材的书籍推荐，以便在闲暇时间阅读。",
+      "expected_response": "\nAI应该首先询问王婷最近的听歌习惯和偏好，了解她当前喜欢的音乐类型、艺术家或专辑。接着，AI可以根据她的偏好推荐一些新发布的专辑或艺术家，特别是那些与她当前兴趣相关的，或者是一些她可能会喜欢的相似类型的音乐。此外，考虑到她热爱健身和攀岩，AI还可以推荐一些适合锻炼时听的动感音乐。对于书籍推荐，AI应该询问她最近阅读的书籍类型和内容偏好，包括是否有特定的主题或题材感兴趣。根据她对新技术和工具的兴趣，AI可以推荐一些相关的技术书籍或工具指南，同时也可以推荐一些涵盖不同类型和题材的书籍，以丰富她的阅读体验。总体来说，AI的应答应该简洁明了，并直接给出推荐的关键点和理由，以符合王婷喜欢直接且实用信息的偏好。",
+      "scene_context": "王婷最近听的音乐类型包括电子音乐、爵士和流行音乐。她最喜欢的艺术家有Daft Punk、Norah Jones和Taylor Swift。她最近阅读的书籍类型多为科幻小说、心理学和技术指南，最近读过的书有《三体》、《影响力》和《精益创业》。",
+      "personalized_query": "嘿，最近工作有点忙，终于有些闲暇时光。我想找一些新的音乐和书籍充实一下我的生活。最近我听的比较多的是电子音乐、爵士和流行音乐，你能推荐一些相关的新专辑给我吗？另外，我想看些不同类型的书，不知道有没有什么好的推荐？",
+      "neutralized_query": "<neutralized_query>\n我想找一些新的音乐和书籍来充实生活，你能推荐一些新专辑和不同类型的书吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：作为数据分析师，王婷在python编程方面擅长，因此他会使用AI助理在多轮对话中帮助他调试代码，定位错误并提出解决方案。",
+      "available_apis": {
+        "debugCode": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Analyzes the given Python code snippet to identify errors and provide debugging suggestions."
+        },
+        "codeCorrection": {
+          "arguments": [
+            "code_snippet",
+            "error_message"
+          ],
+          "description": "Offers corrected code snippets or solutions based on the provided error messages from the user's code."
+        }
+      },
+      "scene_desc": "王婷正在开发一个Python脚本，用于从多个数据源收集金融数据并进行自动化分析。然而，当她运行这个脚本时，遇到了一个运行时错误。王婷希望使用她的AI助手来帮助调试这个代码，定位错误原因并提出解决方案。她通常习惯于直接获取具体问题的解决方案，因此她会将错误信息和部分代码片段提供给AI助手，并期望能得到快速且实用的反馈。",
+      "expected_response": "\nAI应该首先识别并确认用户提供的错误信息和代码片段。根据王婷的需求，AI会询问是否需要具体的错误定位和分析，并使用debugCode API分析提供的代码片段，找出潜在的错误位置。接着，AI应该调用codeCorrection API，根据错误信息提供修正建议。AI需要确保回答简洁明了，直接给出关键点和可行性建议。同时，AI需要保持对话的流畅性，以便在接下来的多轮对话中继续协助王婷进行进一步的代码调试和优化工作。如果王婷表现出急躁，AI应当保持冷静并迅速提供实用的信息来缓解她的情绪。",
+      "scene_context": "王婷正在调试的Python代码片段如下：\n```python\nimport pandas as pd\nimport yfinance as yf\nfrom sqlalchemy import create_engine\n\ndef fetch_data(symbols):\n    data = {}\n    for symbol in symbols:\n        stock_data = yf.download(symbol, start=\"2020-01-01\", end=\"2021-01-01\")\n        data[symbol] = stock_data\n    return data\n\ndef store_data(data, db_url):\n    engine = create_engine(db_url)\n    for symbol, df in data.items():\n        df.to_sql(symbol, con=engine, if_exists='replace')\n\nsymbols = ['AAPL', 'GOOGL', 'MSFT']\ndb_url = 'sqlite:///financial_data.db'\n\ntry:\n    data = fetch_data(symbols)\n    store_data(data, db_url)\nexcept Exception as e:\n    print(\"Error:\", e)\n```\n\n运行代码时出现以下错误：\n```\nValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().\n```",
+      "personalized_query": "嘿，AI助手，我在运行我的Python脚本时遇到了一个错误。具体错误信息是：\n\n```\nValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().\n```\n\n帮我看看这个问题出在哪里，该怎么解决？这是相关的代码片段：\n\n```python\nimport pandas as pd\nimport yfinance as yf\nfrom sqlalchemy import create_engine\n\ndef fetch_data(symbols):\n    data = {}\n    for symbol in symbols:\n        stock_data = yf.download(symbol, start=\"2020-01-01\", end=\"2021-01-01\")\n        data[symbol] = stock_data\n    return data\n\ndef store_data(data, db_url):\n    engine = create_engine(db_url)\n    for symbol, df in data.items():\n        df.to_sql(symbol, con=engine, if_exists='replace')\n\nsymbols = ['AAPL', 'GOOGL', 'MSFT']\ndb_url = 'sqlite:///financial_data.db'\n\ntry:\n    data = fetch_data(symbols)\n    store_data(data, db_url)\nexcept Exception as e:\n    print(\"Error:\", e)\n```\n\n麻烦帮我检查一下，谢谢。",
+      "neutralized_query": "<neutralized_query>\n我在运行我的Python脚本时遇到了一个错误：\n\n```\nValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().\n```\n\n请帮我检查错误出在哪里以及如何解决。以下是相关的代码片段：\n\n```python\nimport pandas as pd\nimport yfinance as yf\nfrom sqlalchemy import create_engine\n\ndef fetch_data(symbols):\n    data = {}\n    for symbol in symbols:\n        stock_data = yf.download(symbol, start=\"2020-01-01\", end=\"2021-01-01\")\n        data[symbol] = stock_data\n    return data\n\ndef store_data(data, db_url):\n    engine = create_engine(db_url)\n    for symbol, df in data.items():\n        df.to_sql(symbol, con=engine, if_exists='replace')\n\nsymbols = ['AAPL', 'GOOGL', 'MSFT']\ndb_url = 'sqlite:///financial_data.db'\n\ntry:\n    data = fetch_data(symbols)\n    store_data(data, db_url)\nexcept Exception as e:\n    print(\"Error:\", e)\n```\n\n请帮忙检查并提供解决方案。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码优化：王婷可能会寻求AI助理的帮助来改进代码效率或结构，并获取最佳实践建议。",
+      "available_apis": {
+        "codeAnalysis": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Analyzes the given code snippet and identifies potential areas for improvement."
+        },
+        "codeImprovementSuggestions": {
+          "arguments": [
+            "analysis_result"
+          ],
+          "description": "Provides specific code improvement suggestions based on the analysis result."
+        },
+        "resourceRecommendation": {
+          "arguments": [
+            "improvement_area"
+          ],
+          "description": "Recommends relevant resources, articles, or tools to help improve the specified area of the code."
+        }
+      },
+      "scene_desc": "王婷在工作中需要对一个Python项目的代码进行优化。她希望AI助理能够帮助她改进代码的效率和结构，并提供最佳实践建议。她将代码片段发送给AI助理，并期待获取详细的分析和改进建议。由于王婷对新技术和工具有极大的兴趣，她希望AI助理不仅能提供优化方案，还能推荐相关的技术资源和工具以供她进一步学习和应用。",
+      "expected_response": "AI助理应该首先确认王婷希望优化的具体目标（如提高运行效率、减少内存占用或改进代码可读性）。接着，AI会对提供的代码片段进行分析，并识别出潜在的优化点。AI助理会提供具体的改进建议，包括重构代码、使用更高效的数据结构或算法等。此外，AI助理应推荐相关的技术资源和工具，如优化代码的文档、相关的教程或性能分析工具。最后，AI助理应确保信息简洁明了，直接给出关键点和可行性建议，以符合王婷偏好的沟通风格。",
+      "scene_context": "王婷提供的代码片段如下：\n\n```python\ndef calculate_statistics(data):\n    mean = sum(data) / len(data)\n    var_res = 0\n    for d in data:\n        var_res += (d - mean) ** 2\n    variance = var_res / len(data)\n    \n    result = {\n        'mean': mean,\n        'variance': variance\n    }\n    \n    return result\n\ndata = [23, 45, 67, 89, 12, 34, 56]\nprint(calculate_statistics(data))\n```\n\n她希望优化的目标包括：\n1. 提高代码运行效率。\n2. 减少内存占用。\n3. 改进代码可读性。\n\n此外，她对新技术和工具有兴趣，希望AI助理能推荐相关的技术资源和工具。",
+      "personalized_query": "嗨，AI助理，我需要对一个Python项目的代码进行优化，具体代码片段如下：\n\n```python\ndef calculate_statistics(data):\n    mean = sum(data) / len(data)\n    var_res = 0\n    for d in data:\n        var_res += (d - mean) ** 2\n    variance = var_res / len(data)\n    \n    result = {\n        'mean': mean,\n        'variance': variance\n    }\n    \n    return result\n\ndata = [23, 45, 67, 89, 12, 34, 56]\nprint(calculate_statistics(data))\n```\n\n我的目标是提高代码运行效率，减少内存占用，并改进代码可读性。另外，如果有相关的新技术或工具也可以推荐给我。你能帮我看一下这段代码，并给出优化建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要对一个Python项目的代码进行优化，以提高运行效率，减少内存占用，并改进代码可读性。下面是具体代码片段：\n\n```python\ndef calculate_statistics(data):\n    mean = sum(data) / len(data)\n    var_res = 0\n    for d in data:\n        var_res += (d - mean) ** 2\n    variance = var_res / len(data)\n    \n    result = {\n        'mean': mean,\n        'variance': variance\n    }\n    \n    return result\n\ndata = [23, 45, 67, 89, 12, 34, 56]\nprint(calculate_statistics(data))\n```\n\n请提供优化建议，并推荐相关的新技术或工具。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：王婷喜欢探索新技术和工具，因此他会使用AI助理在对话中获得扩展阅读材料或深度分析某个技术话题。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王婷正准备研究一种新兴的分布式数据库技术，他打算在数据分析项目中应用这一技术。王婷希望AI助理能为他提供一些权威的扩展阅读材料和对这种技术的深度分析，以便他能在项目中更好地应用这项技术。",
+      "expected_response": "\n根据王婷的persona描述，她习惯于用AI助理快速获取某个特定问题的解决方案或建议，并且她喜欢探索新技术和工具。AI应该首先询问王婷具体想要了解的分布式数据库技术，然后进行联网搜索，找出相关的学术论文、技术博客和权威网站的文章。接着，AI可以提供一个简洁明了的概述，并推荐几篇深入的分析文章或书籍章节。由于王婷对新技术有浓厚兴趣，AI还可以推荐一些相关的在线课程或技术视频，以便她可以通过多种方式学习。最后，AI应确保提供的信息简洁明了，直接切中要点，符合王婷偏好实用建议的习惯。同时，AI需注意处理王婷可能出现的急躁情绪，快速响应并提供高质量的资源。",
+      "scene_context": "王婷正在研究的分布式数据库技术是：CockroachDB、TiDB和Cassandra。",
+      "personalized_query": "我准备在数据分析项目中应用一些新兴的分布式数据库技术，需要你帮我提供一些权威的扩展阅读材料和对这些技术的深度分析。具体来说，我正在研究 CockroachDB、TiDB 和 Cassandra。先从 CockroachDB 开始吧，你能给我推荐一些详细的技术文档或权威的分析文章吗？",
+      "neutralized_query": "<neutralized_query>\n我准备在数据分析项目中应用一些新兴的分布式数据库技术，请你提供一些权威的扩展阅读材料和对这些技术的深度分析。你能提供一些关于 CockroachDB 的详细技术文档或权威的分析文章吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：虽然王婷目前有稳定的工作，但他可能需要准备内部晋升或跳槽的面试问题，进行模拟面试练习。",
+      "available_apis": {
+        "fetchInterviewQuestions": {
+          "arguments": [
+            "job_role",
+            "company_type"
+          ],
+          "description": "Fetch a list of potential interview questions and answers based on the job role and company type."
+        },
+        "conductMockInterview": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Conduct a mock interview session using the provided list of questions."
+        }
+      },
+      "scene_desc": "王婷目前在深圳某金融公司担任数据分析师。尽管她目前的工作比较稳定，但她希望能够获得内部晋升或考虑跳槽到其他公司。因此，她决定利用AI助理来准备面试问题，并进行模拟面试练习。她希望AI可以帮助她掌握可能会被问到的问题，并提供一些互动的练习机会，以提高她在真实面试中的表现。",
+      "expected_response": "\n根据王婷的persona描述，她是一个喜欢直接且实用的信息的人，并且对新技术和工具有浓厚的兴趣，AI应该能够迅速理解她的需求并提供有针对性的帮助。首先，AI应该询问她希望准备的面试职位和公司类型，以便获取更为精准的面试问题。接着，AI应该利用可用的API来提取相关职位和公司类型的潜在面试问题和答案，并帮助她进行模拟面试练习。AI在模拟面试过程中应提供实时反馈，例如指出她的回答中的不足之处，并给出改进建议。最后，AI应该询问她是否需要进一步的帮助，例如整理面试中的常见问题，或者提供一些相关的资源和文章，帮助她更好地准备面试。",
+      "scene_context": "王婷希望准备的面试职位是高级数据分析师，她考虑的公司类型是大型科技公司和金融公司。",
+      "personalized_query": "嘿，助手，我最近想准备一些高级数据分析师的面试问题。你能帮我整理一些可能会被问到的问题吗？我主要考虑去大型科技公司或者金融公司。",
+      "neutralized_query": "<neutralized_query>\n我需要一些高级数据分析师的面试问题来进行准备，你能帮我整理一些可能会被问到的问题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：王婷可能会寻求AI助理的帮助来优化他的简历内容，突出重要信息，以便在职业发展中获得更多机会。",
+      "available_apis": {
+        "getResumeContent": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the current resume content for the specified user."
+        },
+        "optimizeResume": {
+          "arguments": [
+            "resume_content"
+          ],
+          "description": "Analyzes and optimizes the given resume content to highlight important information and improve overall quality."
+        }
+      },
+      "scene_desc": "王婷在最近一直忙于项目工作，她打算在现有公司的内部进行一次职位晋升申请。为了提高晋升的成功率，她希望优化自己的简历，以突出她在数据分析领域的专业技能和成就。她决定求助于AI助理来帮助她完成这项任务。一天早上，王婷在办公间隙打开了她的AI助理，并提出了优化简历的请求。",
+      "expected_response": "\n根据王婷的persona描述，她喜欢简洁明了的回答和直接可行的建议，AI助理应该首先询问她是否有特定的简历内容需要重点优化，例如项目经验、技能列表或个人成就。接着，AI助理可以建议她提供当前简历的电子版本，或者直接从她的已有记录中提取简历内容。AI助理将利用可用的优化API对简历内容进行分析，并识别出可以改进的部分。之后，AI助理会提供具体的优化建议，包括修改措辞、添加关键成就或调整格式等，并给出几个改进后的例子供王婷选择。最后，AI助理会询问她是否需要进一步的调整或直接生成最终版本的简历，并提供下载链接或自动保存回她的简历管理系统中。 \n\n这些行为和应答反映了王婷对直接实用的信息和高效处理的偏好，同时也帮助她在职业发展中获得更多的机会。",
+      "scene_context": "王婷正在申请数据分析师职位的晋升，她的当前简历内容包括以下部分：\n1. 个人信息：\n   - 姓名：王婷\n   - 联系方式：wangting@example.com\n   - 电话：123-456-7890\n\n2. 工作经验：\n   - 公司：现任公司\n   - 职位：数据分析师\n   - 工作时间：2018年5月至今\n   - 职责：\n     - 负责公司销售数据的分析和报告撰写\n     - 开发和维护数据分析模型，以支持业务决策\n     - 与团队合作完成市场研究和趋势分析项目\n\n3. 技能列表：\n   - 数据分析：Python, R, SQL\n   - 数据可视化：Tableau, PowerBI\n   - 机器学习：Scikit-learn, TensorFlow\n   - 其他：Excel高级操作, 数据清洗\n\n4. 项目经验：\n   - 项目名称：销售数据预测模型\n     - 描述：开发了一个基于机器学习的预测模型，有效提升了销售预测的准确性\n     - 成就：预测准确率提高了20%\n\n5. 教育背景：\n   - 学校：某某大学\n   - 学历：统计学硕士\n   - 时间：2016年9月 - 2018年6月",
+      "personalized_query": "早上好，我打算申请公司内部的职位晋升，希望你能帮我优化一下简历，突出我的专业技能和成就。你能先看一下我现有简历的内容，然后给点优化的建议吗？谢谢！",
+      "neutralized_query": "<neutralized_query>\n我打算申请公司内部的职位晋升，希望你能帮我优化一下简历，突出专业技能和成就。你能先看一下现有简历的内容，然后给点优化的建议吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：王婷对高科技产品和提升运动表现的设备有浓厚兴趣，因此他会使用AI助理根据需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "provideLinks": {
+          "arguments": [
+            "product_list"
+          ],
+          "description": "Provide purchase links for the given list of products."
+        }
+      },
+      "scene_desc": "王婷正在考虑购买一款新的高科技运动设备，以提升她的攀岩和健身表现。她希望AI助理能够推荐一些适合她需求的产品，并提供购买链接。她希望这些设备能够帮助她更好地追踪运动数据，并且对她的极限运动有实际的帮助。",
+      "expected_response": "\nAI 应该会首先询问王婷具体需要哪种类型的运动设备，例如是否是专注于健身、攀岩、或是其他极限运动领域。然后，AI 应该会根据她的需求和兴趣迅速推荐几款高科技运动设备，例如智能手表、心率监测器或攀岩辅助工具，并提供相关的购买链接。同时，AI 还应提供每款产品的简洁明了的关键特性和优势，以便王婷能够快速做出决定。此外，AI 可能会询问她是否需要任何特定品牌或价格范围的建议，并根据这些额外信息进一步优化推荐列表。最后，AI 应该会为她提供购买链接和可能的用户评论，以帮助她更全面地了解产品。",
+      "scene_context": "王婷需要购买的高科技运动设备包括：\n1. 智能手表（例如：Apple Watch Series 8, Garmin Fenix 7）\n2. 心率监测器（例如：Polar H10, Wahoo TICKR FIT）\n3. 攀岩辅助工具（例如：Trango Rock Prodigy Training Center, Metolius Foundry Training Board）\n\n她希望这些设备能够帮助她更好地追踪运动数据，并且对她的极限运动（特别是攀岩和健身）有实际的帮助。",
+      "personalized_query": "嗨，我正在考虑购买一些新的高科技运动设备，想提升我的攀岩和健身表现。你能推荐几个适合的产品吗？包括智能手表、心率监测器和一些攀岩辅助工具。希望这些设备能帮助我更好地追踪运动数据。",
+      "neutralized_query": "<neutralized_query>\n我正在考虑购买一些高科技运动设备，特别是智能手表、心率监测器和攀岩辅助工具。请推荐一些适合追踪运动数据的产品。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：王婷热爱冒险和极限运动，因此他会使用AI助理获取目的地的天气、签证、货币兑换等相关信息，以确保他的旅行计划顺利进行。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Checks the weather forecast for the specified destination to help plan for the adventure and extreme sports."
+        },
+        "visaInfo": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Provides information on visa requirements for the specified destination to ensure smooth travel plans."
+        },
+        "currencyExchangeRate": {
+          "arguments": [
+            "from_currency",
+            "to_currency"
+          ],
+          "description": "Fetches the current exchange rate between the specified currencies to aid in financial planning for the trip."
+        }
+      },
+      "scene_desc": "王婷计划下个月去新疆进行一次攀岩冒险之旅。他希望了解当地的天气情况、是否需要签证，以及如何进行货币兑换。他首先打开了AI助理，然后询问这些信息，以确保他的旅行计划顺利进行。",
+      "expected_response": "\n根据王婷的persona描述，AI助理应该迅速理解他的需求，并提供相应的信息。AI首先应该确认他即将去的具体地点，并询问他的行程日期。然后，AI助理应立即提供该地的天气预报，包括温度、降雨概率、风速等关键数据。此外，AI助理还应查询是否需要签证（尽管对于中国公民在国内旅行通常不需要，但这是一个良好的习惯），并提供详细的货币兑换信息，包括当前的汇率和可以兑换的地点。由于王婷热爱极限运动，AI助理还可以主动推荐一些可能有用的当地攀岩场地和相关注意事项，以便他更好地规划行程。最后，AI助理应该询问王婷是否需要进一步的信息或其他帮助，以确保他的旅行计划无缝对接。",
+      "scene_context": "王婷需要查询的信息包括：\n1. 新疆乌鲁木齐的天气预报（预计行程日期为下个月的10号至15号），包括温度、降雨概率、风速等关键数据。\n2. 是否需要签证（虽然在国内旅行通常不需要，但确认这一点是一个良好的习惯）。\n3. 货币兑换信息，包括当前的汇率和可以兑换的地点。\n4. 推荐乌鲁木齐附近的攀岩场地和相关注意事项。",
+      "personalized_query": "我马上计划下个月去新疆攀岩，需要查一下新疆乌鲁木齐在10号到15号的天气情况，能帮我看看吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我查询新疆乌鲁木齐在10号到15号的天气情况。\n</neutralized_query>"
+    }
+  ]
+}

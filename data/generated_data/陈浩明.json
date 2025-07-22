@@ -1,0 +1,273 @@
+{
+  "Demographics": {
+    "Age": 16,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "广东高中生和篮球校队成员",
+    "Name": "陈浩明"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢结交新朋友",
+      "热爱冒险和刺激",
+      "充满活力和动力",
+      "对新的体验和挑战充满好奇"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于通过互动和对话获取信息，喜欢生动且富有趣味的内容",
+    "Usage_Pattern": "经常寻找与社交和冒险相关的有趣活动和建议，有时会查询如何改善运动表现的方法",
+    "Emotion_Pattern": "None",
+    "Purchase_Pattern": "倾向于购买与运动和冒险相关的装备，对新奇和高科技产品也有兴趣"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢互动性强且生动有趣的指导，尤其是带有视频和实景演示的说明",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢充满挑战和变化的解决方案，从中获取成就感，喜欢明确的目标和衡量标准"
+  },
+  "scenes": [
+    {
+      "scene_type": "运动追踪：陈浩明是篮球校队成员，需要跟踪日常运动数据，如步数、跑步距离和训练情况，并获取反馈以提高运动表现。",
+      "available_apis": null,
+      "scene_desc": "陈浩明是广东的一名高中生，同时也是篮球校队的成员。他充满活力和好奇心，喜欢结交新朋友和参与各种冒险活动。为了提升篮球表现，他需要一个能够跟踪日常运动数据的AI助手，帮助记录步数、跑步距离和训练情况，并提供反馈和建议。每天训练之后，他希望获取到详细的运动数据和分析，以便了解自己的进步情况和需要改进的地方。",
+      "expected_response": "\n根据陈浩明的人设，AI应该首先询问他当天的训练计划和目标，以便更精准地跟踪相关数据。接着，AI应该能够自动记录步数、跑步距离和训练情况，并在训练结束后提供详细的数据分析和反馈。由于陈浩明倾向于通过互动和对话获取信息，AI还应该使用生动有趣的方式，如视频或图表，来展示他的运动数据和表现。此外，AI可能会推荐一些具体的训练建议，以帮助他进一步提高运动表现，甚至引导他参加一些有挑战性的新训练项目或活动。最后，AI应该能根据他的运动数据和目标，生成一个定期的反馈报告，让陈浩明清楚了解自己的进步情况。",
+      "scene_context": "陈浩明的训练计划包括：\n1. 每天早上进行3公里的慢跑。\n2. 篮球专项训练，包括投篮练习、运球练习和对抗性训练，每次训练持续1.5小时。\n3. 力量训练，包括深蹲、卧推和引体向上，每次训练持续1小时。\n\n他希望AI助手能够记录他的每日步数、跑步距离和训练具体情况，并在训练结束后提供如下分析：\n- 当天的总步数和跑步距离。\n- 投篮命中率和运球成功率。\n- 力量训练中完成的总次数和重量。\n\n此外，AI助手还需要生成一份每周的总结报告，包含以下内容：\n- 该周的总步数和跑步距离。\n- 篮球专项训练的总体表现统计。\n- 力量训练的进展情况。\n- 针对他的弱点提出具体的改进建议。\n\n最后，AI助手可以推荐一些新的训练项目或活动，例如高强度间歇训练（HIIT）或者瑜伽来增强核心力量和灵活性。",
+      "personalized_query": "嘿，小助手，今天的训练结束了，帮我记录下今天的运动数据吧！今天早上跑了3公里，然后篮球专项练习1.5小时，还做了1小时的力量训练。你能帮我分析下今天的总步数、跑步距离，还有篮球训练和力量训练的表现吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我记录并分析今天的运动数据，包括总步数、跑步距离以及篮球训练和力量训练的表现。\n"
+    },
+    {
+      "scene_type": "饮食计划：陈浩明为了保持运动状态和健康，需要根据他的健康目标，推荐适合的饮食计划和食谱。",
+      "available_apis": null,
+      "scene_desc": "陈浩明是一名广东的高中生，同时也是学校篮球校队的成员。他充满活力，喜欢冒险和结交新朋友。为了保持运动状态和健康，他希望制定一个适合自己的饮食计划和食谱。由于他对新奇和高科技产品感兴趣，他可能希望在饮食计划中加入一些有趣和创新的食材或餐点，以便能够持续保持对饮食计划的兴趣。\n\n在某个下午的训练结束后，陈浩明打开了他的AI助手，想要获取一个适合他健康目标的饮食计划。他希望这个计划能帮助他提高运动表现，同时也能根据他的个人口味和偏好进行定制。\n\nAI助手需要访问相关的数据和建议，提供一个详细的饮食计划，包括每天的三餐和必要的营养补充，确保饮食均衡并支持他的高强度运动需求。此外，AI应该能够根据陈浩明的反馈进行调整，提供替代方案，并推荐一些有趣和新奇的食材或菜谱。",
+      "expected_response": "根据陈浩明的persona描述，AI助手应该首先询问他的具体健康目标，例如增肌、减脂或提高耐力等。然后，AI应该询问陈浩明是否有任何食物过敏或饮食限制，以及他是否有任何特别喜欢或不喜欢的食物。接着，AI可以推荐一个详细的饮食计划，包括每天的三餐和营养补充，并提供一些具体的菜谱和准备方法。同时，AI应该推荐一些新奇和高科技的食材或餐点，以保持陈浩明对饮食计划的兴趣。\n\nAI应该通过互动性强且生动有趣的方式来呈现这些信息，可能包括视频演示或图片说明。最后，AI应该询问陈浩明的反馈，并根据他的意见进行必要的调整和优化，确保饮食计划既科学有效，又符合他的个人口味和偏好。",
+      "scene_context": "陈浩明的具体健康目标是增肌。他没有食物过敏或饮食限制，特别喜欢吃鸡肉和牛油果，但不喜欢西兰花。此外，他对一些新奇的高科技食材，例如螺旋藻粉和昆虫蛋白感兴趣。",
+      "personalized_query": "嘿，刚训练完，感觉今天状态不错！我在想，平时的饮食是不是可以调整一下，帮我提高运动表现还增肌？你能帮我制定一个适合我的饮食计划吗？希望能有点新意，不要太枯燥。另外，我喜欢鸡肉和牛油果，但真的不喜欢西兰花。",
+      "neutralized_query": "<neutralized_query>\n你能帮我制定一个饮食计划，以提高运动表现和增肌吗？希望饮食计划有点新意，不要太枯燥。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：陈浩明喜欢冒险和刺激，可能会在假期进行旅行活动，因此需要关于目的地的天气、签证、货币兑换等相关信息。",
+      "available_apis": null,
+      "scene_desc": "陈浩明计划在假期进行一个冒险旅行，他选择了一个他从未去过的国家。他希望了解这个目的地的天气状况，以便做适当的准备。同时，他还需要了解签证信息和货币兑换的事宜，以确保旅行顺利。此外，他希望能够找到一些适合冒险活动的推荐，以便充分利用假期的时间。",
+      "expected_response": "\n根据陈浩明的persona描述，AI应该首先询问具体的目的地和旅行日期，以便提供最准确的信息。接着，AI应通过联网搜索获取该地的近期天气预报，确保陈浩明能够做好相应的准备。为了进一步帮助陈浩明，AI应该能够提供详细的签证信息，包括所需文件和申请流程。同时，AI应指导陈浩明如何进行货币兑换，提供最近的汇率信息和兑换点建议。最后，AI应推荐一些适合该目的地的冒险活动，根据陈浩明的兴趣和旅行时间，确保他能享受一个充满刺激和乐趣的假期。",
+      "scene_context": "陈浩明计划在假期前往新西兰进行冒险旅行，计划的旅行日期是2023年12月15日至2023年12月25日。他希望了解以下信息：\n1. 新西兰在旅行日期间的天气预报。\n2. 新西兰的签证信息，包括所需文件和申请流程。\n3. 货币兑换事宜，最近的汇率信息和兑换点建议。\n4. 新西兰适合冒险活动的推荐，例如徒步、蹦极和滑翔伞等。",
+      "personalized_query": "嗨，伙计，我准备在假期去新西兰冒险旅行。我好像没有去过那边，对当地的一些情况不太了解。你能帮我查一下新西兰在12月15日至25日期间的天气预报吗？我需要确保装备带得合适。谢谢！",
+      "neutralized_query": "<neutralized_query>\n请帮我查一下新西兰在12月15日至25日期间的天气预报。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：陈浩明需要规划家庭旅行或学校组织的活动行程，旅行、参加比赛或冒险活动等。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "findFlights": {
+          "arguments": [
+            "origin",
+            "destination",
+            "departure_date",
+            "return_date",
+            "passengers"
+          ],
+          "description": "Finds flights based on the origin, destination, departure date, return date, and number of passengers."
+        },
+        "findHotels": {
+          "arguments": [
+            "location",
+            "check_in_date",
+            "check_out_date",
+            "guests"
+          ],
+          "description": "Finds hotel options based on the location, check-in date, check-out date, and number of guests."
+        },
+        "findActivities": {
+          "arguments": [
+            "location",
+            "date_range"
+          ],
+          "description": "Finds activities and events in the specified location and date range."
+        }
+      },
+      "scene_desc": "陈浩明计划在暑假期间与家人进行一次家庭旅行，同时也在考虑学校组织的活动行程，如参加篮球比赛或班级冒险活动。为了确保行程顺利，他需要制定详细的旅行计划，包括机票和酒店的预订、目的地的活动安排，以及了解当地的天气和其他实用信息。",
+      "expected_response": "AI应该首先询问陈浩明旅行的具体目的地和日期，然后根据家庭成员的数量和旅行时间段，查找并推荐合适的航班和酒店选择。接着，AI应该建议一些适合家庭旅行的活动和景点，并提供当地的天气预报。对于学校组织的活动行程，AI应该询问是否需要查询更多关于比赛或冒险活动的具体安排和时间表。AI还可以通过查找相关资料，为陈浩明提供一些旅行和比赛的实用建议，确保行程的顺利和愉快。最后，AI可以生成一个详细的行程计划，并询问是否需要提醒和更新行程信息。",
+      "scene_context": "陈浩明计划的家庭旅行目的地是日本东京，旅行日期为8月1日至8月10日。家庭成员包括他本人、妻子和两个孩子。对于学校组织的活动，陈浩明需要查询8月15日的全国青少年篮球比赛的具体安排和时间表，以及8月20日的班级冒险活动的详细信息。",
+      "personalized_query": "嘿，我打算暑假带家人去日本东京玩，旅行日期是8月1日至8月10日。你帮我查查8月1日到东京的机票和那边的酒店推荐吧。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙查询8月1日到日本东京的机票和那边的酒店推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据陈浩明的听歌习惯和阅读偏好，推荐新歌、专辑或与冒险相关的书籍和材料。",
+      "available_apis": {
+        "getUserData": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the user's listening and reading history to understand their preferences."
+        },
+        "recommendMusic": {
+          "arguments": [
+            "listening_history"
+          ],
+          "description": "Recommends new songs and albums based on the user's listening history."
+        },
+        "recommendBooks": {
+          "arguments": [
+            "reading_history",
+            "genre"
+          ],
+          "description": "Recommends books and reading materials based on the user's reading history and specified genre."
+        }
+      },
+      "scene_desc": "陈浩明刚刚完成了一天的篮球训练，回到家里后，他想要放松一下，听一些新歌或者阅读一些与冒险相关的书籍。他打开AI助手，希望能根据他的兴趣和习惯获得一些个性化的推荐。",
+      "expected_response": "\nAI应该首先询问陈浩明最近的听歌和阅读记录，以便获取他最新的偏好。然后，AI可以调用getUserData API获取这些记录，接着调用recommendMusic和recommendBooks APIs根据他的听歌历史和阅读偏好推荐新歌、专辑以及与冒险相关的书籍和材料。AI在推荐时，应选择互动性强且生动有趣的内容，并且如果有相关的视频或实景演示的说明也应一并推荐。同时，AI可以询问陈浩明是否希望在推荐的音乐和书籍中加入一些新的挑战和变化，以满足他的好奇心和对新体验的渴求。最后，AI应该确认推荐是否符合他的预期，并询问是否需要调整推荐内容或者添加更多的推荐项。",
+      "scene_context": "陈浩明最近听过的歌曲包括：Imagine Dragons的《Believer》、Taylor Swift的《Love Story》和周杰伦的《夜曲》。他最近读过的冒险书籍包括《荒野求生》、《鲁滨逊漂流记》和《哈利·波特与魔法石》。",
+      "personalized_query": "今天的篮球训练可真累啊，我想放松一下。先听点音乐吧，最近有啥好听的歌推荐吗？最好是像《Believer》那种节奏感强的歌。",
+      "neutralized_query": "<neutralized_query>\n最近有啥好听的节奏感强的歌推荐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：通过多轮对话进行模拟口语练习，帮助陈浩明提升英语交流能力，以便与国际友人交流或参加海外训练营。",
+      "available_apis": {
+        "getUserLevelAndNeeds": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the current English level and specific practice needs for the user."
+        },
+        "startConversationPractice": {
+          "arguments": [
+            "user_id",
+            "topic"
+          ],
+          "description": "Starts a conversation practice session on a specific topic for the user."
+        },
+        "continueConversation": {
+          "arguments": [
+            "user_id",
+            "conversation_id",
+            "user_input"
+          ],
+          "description": "Continues the conversation based on the user's input."
+        },
+        "provideFeedback": {
+          "arguments": [
+            "user_id",
+            "conversation_id"
+          ],
+          "description": "Provides feedback and suggestions for improvement after the conversation practice session."
+        }
+      },
+      "scene_desc": "陈浩明是一名充满活力的广东高中生，同时也是学校篮球队的成员。他喜欢结交新朋友，热爱冒险和挑战。由于他有机会参加一个海外的篮球训练营，他希望通过多轮对话的方式进行英语口语练习，以提升他的英语交流能力，确保能够顺利与国际友人沟通并在训练营中表现出色。",
+      "expected_response": "AI应该首先询问陈浩明当前的英语水平和具体的练习需求，例如他希望重点提升哪些方面的英语能力（如日常对话、篮球相关术语等）。接着，AI应该开始一段关于篮球训练营相关话题的模拟对话，逐步引导陈浩明参与互动。在对话过程中，AI应提供即时反馈和建议，帮助陈浩明改进语法、发音和用词。同时，AI可以适时推荐一些实景演示的视频资源，帮助陈浩明更好地理解和应用学习内容。最后，AI应在对话结束时总结他的进步和需要改进的地方，并询问是否需要安排下一次练习时间或提供更多练习材料。",
+      "scene_context": "陈浩明目前的英语水平为中等，他希望重点提升日常对话和篮球相关术语的应用能力。具体的练习需求包括：\n1. 如何介绍自己和队友。\n2. 常用的篮球术语和指令，例如“传球”、“防守”、“进攻”等。\n3. 在比赛中如何进行交流和鼓励队友。\n4. 训练营的日常沟通，例如安排时间、询问训练内容等。\n\n以下是一个可能的模拟对话场景：\n1. 自我介绍和介绍队友：\n   - Hello, my name is Haoming Chen. I am from Guangdong, and I am a member of our school basketball team. What about you?\n   - This is my teammate, Li Wei. He is our point guard and has excellent dribbling skills.\n\n2. 篮球术语和指令：\n   - Pass me the ball!\n   - Great defense!\n   - Let's go on the offensive now.\n   - Nice shot!\n\n3. 比赛交流和鼓励：\n   - Keep it up, team! We can win this.\n   - Stay focused and watch their center player.\n   - Good job, everyone. Let's maintain our lead.\n\n4. 训练营日常沟通：\n   - What time is our next training session?\n   - Can you tell me what drills we will be practicing today?\n   - Excuse me, where is the locker room?\n\n此模拟对话场景可以帮助陈浩明在真实训练营中更好地与国际友人沟通，并提升他的英语交流能力。",
+      "personalized_query": "Hey AI，我最近有机会去参加一个海外篮球训练营，我想练习一下我的英语口语。可以先教我怎么用英语介绍自己和队友吗？",
+      "neutralized_query": "<neutralized_query>\n我想练习一下英语口语，可以先教我怎么用英语介绍自己和队友吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：陈浩明可能会申请篮球训练营或夏令营，帮助他准备相关面试问题，进行模拟面试练习。",
+      "available_apis": {
+        "generateInterviewQuestions": {
+          "arguments": [
+            "program_type"
+          ],
+          "description": "Generates a list of common interview questions for the specified type of program (e.g., basketball training camp or summer camp)."
+        },
+        "evaluateAnswer": {
+          "arguments": [
+            "question",
+            "answer"
+          ],
+          "description": "Evaluates the given answer to a specific interview question and provides feedback on how to improve it."
+        },
+        "simulateInterview": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Simulates a live interview session with the provided questions, allowing for real-time practice and feedback."
+        }
+      },
+      "scene_desc": "陈浩明是一名广东高中的篮球校队成员，热爱冒险和挑战，充满活力和动力。他即将申请一个篮球训练营或夏令营，并希望通过AI助手帮助他准备相关的面试问题，进行模拟面试练习。这个面试对他非常重要，因为他希望借此机会提升自己的篮球技术，并在未来的比赛中表现更出色。为了确保面试成功，他想要了解一些常见的问题，并练习如何回答这些问题。\n\n在这个场景中，陈浩明打开终端上的AI助手，向其请求帮助，准备和模拟即将到来的训练营面试。",
+      "expected_response": "AI应该首先询问陈浩明所申请的训练营或夏令营的具体类型，以便生成更相关的问题。接着，AI会利用可用API（generateInterviewQuestions）生成一系列常见的面试问题，涉及他的篮球经历、技巧、训练计划和团队合作能力等方面。\n\n之后，AI会询问陈浩明是否需要实时模拟面试（模拟面试）以及是否希望获得即时反馈（evaluateAnswer）。在模拟面试过程中，AI会扮演面试官，提问生成的问题，并根据陈浩明的回答提供详细的反馈和建议，帮助他改进回答策略和表现。\n\n最后，AI还会提供一些面试技巧和注意事项，确保陈浩明在面试中更加自信和准备充分。\n\n由于陈浩明充满活力、热爱冒险和挑战，AI在整个过程中会保持互动性强且生动有趣的指导风格，确保他在准备过程中仍然保持高涨的兴趣和动力。",
+      "scene_context": "陈浩明申请的训练营或夏令营为：Nike篮球训练营、NBA青少年夏令营和运动员精英训练营。",
+      "personalized_query": "嘿，AI！我最近要申请一个篮球训练营，面试对于我很重要。我想要提前准备一些常见的问题，可以帮我搞定这个吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮助准备一些常见的面试问题，进行模拟面试练习。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：推荐适合陈浩明的社交活动或聚会场所，帮助他结交新朋友，拓展社交圈。",
+      "available_apis": {
+        "eventRecommendation": {
+          "arguments": [
+            "userPreferences",
+            "location"
+          ],
+          "description": "Recommend social events or gatherings based on the user's preferences and location to help them meet new people and expand their social circle."
+        }
+      },
+      "scene_desc": "陈浩明是一名16岁的广东高中生，同时也是篮球校队的成员，性格外向，热爱结交新朋友和冒险。在一个周末，他想要找一些社交活动来放松一下，并结识更多的新朋友。他打开了终端上的AI助手，希望能得到一些推荐。",
+      "expected_response": "根据陈浩明的persona描述，他充满活力和动力，喜欢结交新朋友和参与冒险刺激的活动。AI应该能迅速理解他的需求，并根据他的兴趣和偏好提供个性化的社交活动建议。首先，AI会询问陈浩明当前的位置，以提供附近的活动推荐。接着，AI会通过本地活动数据库或者联网搜索，推荐一些富有趣味和互动性的社交活动，如户外探险、社区活动或青少年聚会等。AI还会详细介绍每个活动的时间、地点和内容，并提供报名方式。此外，AI可能会推荐一些陈浩明之前可能会感兴趣的活动，以确保这些推荐切中他的兴趣点。最后，AI会询问是否需要设置提醒或获取更多信息，以确保陈浩明能顺利参加这些活动。",
+      "scene_context": "陈浩明当前的位置是广东广州。他最喜欢的社交活动包括：篮球比赛或训练营、户外探险活动（如爬山或野营）、社区聚会（如青年交流会或志愿者活动）。他希望活动能够在接下来的周末进行，并且不希望地点离市区太远。",
+      "personalized_query": "嘿，今天有什么好玩的活动推荐吗？我这个周末想出去放松一下，还能结识一些新朋友的那种。能帮我查查吗？",
+      "neutralized_query": "<neutralized_query>\n这个周末有什么好玩的活动推荐吗？特别是那种能结识新朋友的活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：生成复习计划，提供考点总结和练习题，帮助陈浩明在学业上取得好成绩。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "exam_date",
+            "exam_scope"
+          ],
+          "description": "Generates a detailed study plan based on the exam date and scope."
+        },
+        "fetchExamSummary": {
+          "arguments": [
+            "subject",
+            "topics"
+          ],
+          "description": "Fetches and summarizes key points for given subjects and topics."
+        },
+        "fetchPracticeQuestions": {
+          "arguments": [
+            "subject",
+            "topics"
+          ],
+          "description": "Provides practice questions for given subjects and topics."
+        }
+      },
+      "scene_desc": "陈浩明正在准备即将到来的期末考试，但同时他还需要兼顾篮球训练。他希望AI可以帮助他生成一个高效的复习计划，涵盖所有重要考点，并提供配套的练习题。由于他性格外向且充满活力，他更倾向于通过互动性强且生动有趣的内容进行学习。另外，他希望能够在复习中找到成就感，并对自己的学习进度有明确的衡量标准。",
+      "expected_response": "\nAI应该会首先询问陈浩明的考试日期和考试范围，以便生成一个详细的复习计划。接着，AI应该提供考点总结和相关的练习题，确保内容生动有趣，可能会推荐一些视频讲解和实景演示的资料以增加互动性。AI还应该根据生成的复习计划给陈浩明设定明确的目标和衡量标准，帮助他追踪学习进度并提供反馈。考虑到陈浩明需要兼顾篮球训练，AI应确保复习计划灵活可调整，甚至可以在需要时自动调整时间安排，以便他能平衡学习和训练时间。",
+      "scene_context": "陈浩明正在准备的课程和考试科目为：数学、物理和英语。他需要一个涵盖这三门课程的重要考点的复习计划，并希望配套有相关的练习题。他的期末考试日期是三周后，每周需要兼顾三次篮球训练，每次训练时间为两小时。此外，他喜欢通过视频讲解和实景演示的资料进行学习。",
+      "personalized_query": "嘿，AI助手，我现在需要一个高效的期末复习计划。我的期末考试是三周后，主要是数学、物理和英语。同时我还得参加每周三次篮球训练，每次两小时。你能帮我搞定吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一个高效的期末复习计划，期末考试将在三周后进行，包括数学、物理和英语科目。同时我每周还需参加三次每次两小时的篮球训练。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "训练技巧分享：陈浩明在篮球校队训练时，教练要求队员们分享各自的训练技巧和经验，以提升整个球队的表现。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "sendNotification": {
+          "arguments": [
+            "recipients",
+            "message"
+          ],
+          "description": "Sends a notification to the specified recipients, prompting them to share their training tips and experiences."
+        }
+      },
+      "scene_desc": "陈浩明在篮球校队的训练时，教练要求队员们分享各自的训练技巧和经验，以提升整个球队的表现。因此，陈浩明希望利用AI助手收集和整理一些最新的篮球训练技巧和经验分享给队友们。在训练期间，陈浩明通过终端设备与AI助手交互，查找相关信息并撰写一个简短的报告，以便在团队会议上分享。",
+      "expected_response": "\nAI应该首先了解陈浩明具体需要哪些类型的训练技巧和经验（如防守技巧、进攻策略或体能训练方法）。接着，AI应该利用网络搜索功能查找最新且相关的篮球训练技巧和经验。AI可以将找到的内容进行整合，提供一个简短的总结或报告，并建议是否需要包含视频演示或图解来增加报告的生动性和可操作性。此外，AI还可以发送提醒通知给陈浩明，提醒他在团队会议上分享这些技巧。最后，AI可以通过发送通知给其他队员，鼓励他们也分享自己的训练技巧和经验，以便在团队会议上进行全面的交流和讨论。",
+      "scene_context": "陈浩明希望收集的训练技巧和经验包括以下几点：\n1. 防守技巧：如站位、防守策略、抢断技巧等。\n2. 进攻策略：如传球策略、突破技巧、投篮方法等。\n3. 体能训练方法：如力量训练、速度训练、敏捷性训练等。\n\n他希望AI助手能够通过网络搜索获取这些方面的最新技巧和经验，并将其整合成一份简短的报告，包含以下结构：\n- 防守技巧\n  - 最新防守站位策略\n  - 高效抢断技巧分享\n- 进攻策略\n  - 新颖的传球策略\n  - 实用的投篮方法\n- 体能训练方法\n  - 最新力量训练方法\n  - 提高速度的训练技巧\n\n此外，他希望报告中包含一些视频演示或图解，以增加内容的生动性和可操作性。同时，希望AI助手能在团队会议前发送提醒通知给他，并鼓励其他队员也准备分享自己的训练技巧和经验。",
+      "personalized_query": "嘿，帮个忙，我需要一些最新的篮球训练技巧，准备在队里分享。能搜集下关于防守技巧、进攻策略和体能训练方法的资料吗？最好有视频演示或者图解。",
+      "neutralized_query": "<neutralized_query>\n我需要一些最新的篮球训练技巧，包括防守技巧、进攻策略和体能训练方法的资料，最好有视频演示或者图解。\n</neutralized_query>"
+    }
+  ]
+}

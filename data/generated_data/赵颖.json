@@ -1,0 +1,244 @@
+{
+  "Demographics": {
+    "Age": 55,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "退休",
+    "Name": "赵颖"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "热心社区公益活动",
+      "喜欢打麻将和广场舞",
+      "性格直爽",
+      "喜欢尝试新鲜事物",
+      "欣赏传统文化"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常咨询AI助手关于社区活动的组织和管理方法",
+    "Usage_Pattern": "多用于计划社区活动或寻找新的娱乐和学习方式",
+    "Emotion_Pattern": "对于AI的回答耐心，但不满意时会直接指出问题",
+    "Purchase_Pattern": "倾向于购买与社交活动相关的产品，喜欢性价比高的选择"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢简明扼要的回答，有时会要求更详细的解释",
+    "Preferred_Formats": "倾向于表格或者列表形式的信息展示",
+    "Preferred_Workflows": "喜欢给AI设定具体的任务目标，并期待得到明确的答复"
+  },
+  "scenes": [
+    {
+      "scene_type": "社交活动建议：赵颖热心社区公益活动，经常组织或参与社区活动，她需要AI推荐适合的社交活动或聚会场所。",
+      "available_apis": null,
+      "scene_desc": "赵颖是一位退休的55岁女性，热心于社区公益活动，经常组织或参与社区活动，如广场舞和打麻将。她喜欢尝试新鲜事物，并且欣赏传统文化。她现在希望AI能够推荐一些适合她和社区成员参与的社交活动或聚会场所。\n\n她打开AI助手，准备询问关于最近有哪些适合的社交活动或聚会场所推荐。她特别关注活动的性价比和是否能促进社区成员的互动与交流。",
+      "expected_response": "\n根据赵颖的persona描述，AI应该首先确认她的具体需求，例如活动的类型（如公益活动、娱乐活动或文化活动）和参与的人数。然后，AI可以基于她的兴趣（如广场舞、打麻将、传统文化）推荐相关的社交活动或聚会场所。\n\nAI应该提供简明扼要的回答，并可以通过表格或列表形式展示推荐的活动及场所。对于每一个推荐的活动或场所，AI应该提供详细的信息，包括地点、费用、时间安排和活动内容。\n\n同时，AI应该询问是否需要考虑具体的时间段（如早上、下午或晚上）和是否有特定的预算限制。最后，AI可以总结推荐的选项，并给出赵颖选择的余地，以便她可以进一步筛选和决定。\n\n总结起来，AI在回答时需要做到以下几点：\n1. 询问具体需求（活动类型、人数、时间段）。\n2. 基于赵颖的兴趣推荐相关活动或场所。\n3. 使用表格或列表形式展示推荐信息。\n4. 提供详细信息（地点、费用、时间、内容）。\n5. 询问预算限制，并总结推荐选项供选择。",
+      "scene_context": "赵颖正在询问AI助手最近几周有哪些适合55岁以上社区成员参与的社交活动或聚会场所。她特别感兴趣的是以下几类活动：广场舞、传统文化讲座、社区公益活动和棋牌比赛。她希望这些活动能在她所在的社区或附近的公园、文化中心举办，并且关注活动的费用是否合理。赵颖还希望AI能提供活动的时间安排，以便她能根据社区成员的时间方便进行组织。",
+      "personalized_query": "你好，AI助手，我想找一些适合咱们社区成员参加的社交活动或聚会场所。最近有没有什么推荐？最好是广场舞、传统文化讲座、社区公益活动和棋牌比赛这种类型的。活动地点可以是社区或者附近的公园、文化中心，费用也要合理些。你能帮我查查吗？",
+      "neutralized_query": "<neutralized_query>\n能帮忙推荐一些适合社区成员的社交活动或聚会场所吗？最好是广场舞、传统文化讲座、社区公益活动和棋牌比赛这种类型的，活动地点可以是社区或者附近的公园、文化中心，费用也要合理些。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "运动追踪：赵颖喜欢广场舞，需要跟踪她的运动数据，如步数、运动时长等，并提供健康反馈。",
+      "available_apis": null,
+      "scene_desc": "赵颖是一位55岁的退休女士，热心参与社区公益活动，并且非常喜欢广场舞。她经常在AI助手上咨询关于社区活动的组织和管理方法，喜欢尝试新鲜事物，性格直爽。赵颖希望能够跟踪她的广场舞运动数据，如步数和运动时长，并希望AI能提供健康反馈。这些数据对她来说非常重要，因为她重视健康，并希望保持活力和良好的身体状态。赵颖的AI助手需要具备记录和分析运动数据的功能，并能以简明扼要的方式向她汇报健康状况。",
+      "expected_response": "\n根据赵颖的persona描述，AI应该首先确认她的运动计划，询问她每天跳广场舞的时间和地点。接着，AI需要通过连接她的智能手环或其他运动追踪设备，实时记录她的步数和运动时长。AI还应定期提供简明扼要的健康反馈，包括每周的运动数据总结和身体状况分析。此外，AI应针对赵颖的喜好，定期推荐一些新的广场舞曲目或动作，帮助她保持对广场舞的兴趣。最后，如果赵颖对反馈不满意，AI需要能够灵活调整信息展示的方式，可能以表格或列表形式呈现数据，以便她更容易理解和使用这些健康信息。",
+      "scene_context": "赵颖的运动计划如下：\n- 每天跳广场舞的时间：上午8:00到8:45\n- 跳舞地点：社区公园\n- 使用的智能手环型号：Fitbit Charge 4\n- 运动数据需要记录的内容：步数、运动时长、心率\n\n健康反馈需求：\n- 每周的运动数据总结：包括总步数、总运动时长、平均心率\n- 身体状况分析：根据步数和心率的变化提供健康建议\n- 新广场舞曲目推荐：每周推荐3首新曲目\n- 数据展示方式：表格形式，数据清晰易懂\n\n赵颖的其他喜好：\n- 新鲜事物：喜欢尝试新的广场舞动作\n- 社区活动：经常咨询社区活动的组织和管理方法",
+      "personalized_query": "早上好！今天我在公园跳完广场舞了，但我的智能手环上的数据还没来得及整理。你帮我统计一下今天的步数、运动时长和心率吧，然后给我个反馈。谢谢！",
+      "neutralized_query": "<neutralized_query>\n请帮我统计今天的步数、运动时长和心率，并给我个健康反馈。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：赵颖需要安排她的社交活动、社区公益活动和娱乐活动，如打麻将和广场舞，并设定提醒和管理待办事项。",
+      "available_apis": null,
+      "scene_desc": "赵颖刚从社区公益活动中回来，意识到接下来几天有许多社交和娱乐活动需要安排。她打开终端上的AI助手，希望能够有效管理她的日程，包括打麻将和广场舞等活动。她希望能够设定提醒，以便不会错过任何重要的社交活动，并保持她的日程井然有序。",
+      "expected_response": "\n根据赵颖的persona描述，她是一个热心社区公益活动和社交活动的退休人员，喜欢尝试新鲜事物，并且对AI助手的回答有较高的期待。AI应该首先询问她近期需要安排的具体活动类型和时间，然后以表格或列表的形式展示她的日程安排。AI还应该提供设定提醒的选项，并确保提醒的时间和频率符合她的需求。AI可以进一步优化日程管理功能，询问赵颖是否需要添加其他任务或待办事项，并提供明确的任务目标和答复。AI在全程中应保持互动简洁明了，提供简明扼要的回答，并在必要时提供详细解释。",
+      "scene_context": "赵颖需要安排的具体活动包括：\n1. 明天上午10点在社区中心参加广场舞活动。\n2. 后天下午3点在邻居家打麻将。\n3. 周五上午9点在社区公园参加公益清洁活动。\n4. 周六晚上6点和朋友在餐馆聚餐。\n\n赵颖希望AI助手能够为这些活动设定提醒，并且需要管理待办事项，如：\n1. 购买打麻将时的零食。\n2. 准备广场舞的音乐播放设备。\n3. 清洁公益活动需要准备的工具。\n4. 预订餐馆座位。",
+      "personalized_query": "你好，我刚从社区公益活动回来，有几个接下来的社交和娱乐活动需要安排。你帮我设定一下提醒吧。这样，不会错过任何重要的活动。先从后天的麻将开始吧，记得提醒我下午3点在邻居家打麻将。",
+      "neutralized_query": "<neutralized_query>\n帮我设定一些提醒，以便管理即将到来的社交和娱乐活动。先设定一个后天下午3点去一个地点的提醒。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "美容护理：赵颖可能会关心自己的皮肤和外貌，希望AI推荐适合她年龄段的美容护肤产品和护理步骤。",
+      "available_apis": {
+        "getUserAge": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the age of the user based on their user ID."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for the most relevant skincare products and routines based on the given query."
+        }
+      },
+      "scene_desc": "赵颖在日常生活中非常关心自己的皮肤和外貌，尤其是随着年龄的增长，她希望能找到适合自己年龄段的美容护肤产品和护理步骤。她决定利用AI助手来获取一些专业建议和产品推荐。她打开AI助手并询问如何护理自己55岁的皮肤，以及有哪些适合她的护肤产品。",
+      "expected_response": "\nAI应该首先确认赵颖的年龄，以确保推荐的产品和护理步骤适合她的年龄段。接着，AI可以利用联网搜索功能，查找针对55岁女性的最佳护肤产品和步骤。AI还应该提供简明扼要的护肤步骤，并可以根据赵颖的需求提供更详细的解释。如果赵颖对某些产品有特定要求（如性价比高），AI应该能根据这些要求进一步筛选产品并提供购买链接。同时，AI可以将这些信息整理成表格或列表形式展示，以便赵颖更直观地查看和比较。最后，AI应询问赵颖是否需要将这些推荐保存或者设置定期提醒进行美容护理。",
+      "scene_context": "赵颖希望了解适合55岁女性的美容护肤产品和护理步骤。她更关注的产品类型包括抗衰老面霜、保湿精华和眼霜。她希望产品推荐能够兼顾性价比，并且对敏感肌肤友好。",
+      "personalized_query": "你好，我最近对美容护肤特别感兴趣，尤其是我这个年纪的皮肤护理。你能给我一些关于55岁女性皮肤护理步骤的建议吗？另外，有哪些适合我的抗衰老面霜、保湿精华和眼霜可以推荐？",
+      "neutralized_query": "<neutralized_query>\n你能给我一些关于55岁女性皮肤护理步骤的建议吗？另外，有哪些适合的抗衰老面霜、保湿精华和眼霜可以推荐？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "服装搭配：赵颖喜欢尝试新鲜事物，可能会需要AI根据不同的场合或季节提供服装搭配建议。",
+      "available_apis": {
+        "getUserPreference": {
+          "arguments": [
+            "occasion",
+            "season"
+          ],
+          "description": "Asks the user for their preferred occasion and current season to tailor clothing suggestions."
+        },
+        "fetchOutfitSuggestions": {
+          "arguments": [
+            "occasion",
+            "season"
+          ],
+          "description": "Fetches outfit suggestions based on the given occasion and season."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches the web for additional fashion resources like outfit guides, fashion blogs, or shopping websites."
+        }
+      },
+      "scene_desc": "赵颖最近收到一个社区朋友的邀请，打算参加一个在春天举行的社区野餐活动。她希望AI助手能帮助她搭配一套既适合春天又适合户外活动的服装。赵颖对新鲜事物有兴趣，所以她希望这套搭配能有一些时尚的元素，同时又不失舒适和实用。",
+      "expected_response": "\nAI应该先询问赵颖具体的活动场合和季节，确认她需要的是春季的户外野餐活动的服装建议。接着，AI应当使用`getUserPreference` API来获取赵颖对于场合和季节的偏好，并通过`fetchOutfitSuggestions` API提供几套适合的服装搭配建议。由于赵颖喜欢尝试新鲜事物，AI应该在推荐的服装中加入一些时尚元素，而不是仅仅实用的搭配。此外，AI还可以通过`webSearch` API来查找更多关于春季时尚和野餐活动的穿搭文章或博客，以提供更丰富的建议。通过这些步骤，AI可以确保推荐的服装既符合赵颖的需求，又能满足她对时尚的追求。",
+      "scene_context": "赵颖希望AI推荐的服装搭配包括以下几种场景：\n1. 轻松舒适的春季连衣裙，适合户外野餐。\n2. 时尚的休闲裤搭配春季上衣，既时髦又适合活动。\n3. 适合春季的牛仔夹克和时尚的运动鞋，搭配舒适的T恤和牛仔裤。\n\n她对新鲜事物有兴趣，希望能看到一些有时尚元素的搭配。",
+      "personalized_query": "小AI，我刚收到一个社区朋友的邀请，打算参加一个春天的社区野餐活动。你帮我搭配一套既适合春天又适合户外活动的服装吧，我希望这套搭配能有一些时尚的元素，同时又要舒适实用。先给我一个简单的搭配方案，轻松舒适的春季连衣裙，要适合户外野餐哦。",
+      "neutralized_query": "<neutralized_query>\n请你提供一个适合春天和户外野餐的服装搭配建议，要求既时尚又舒适实用。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：赵颖可能会组织和管理社区活动的会议，需要AI帮助协调会议时间、发送邀请和生成会议纪要。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., 赵颖 and community members) for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        }
+      },
+      "scene_desc": "赵颖是社区活动的热心组织者，性格直爽且喜欢简明扼要的信息展示。她需要组织一次社区活动的会议，并希望AI助手能够帮助她协调会议时间、发送邀请和生成会议纪要。赵颖特别注重效率和明确的任务目标，所以她期待AI能够快速处理这些任务，并提供清晰的反馈。\n\n在这个场景中，赵颖希望AI助手能够帮助她在社区成员中协调一个合适的会议时间，然后发送会议邀请给相关成员，最后在会议结束后生成并发送会议纪要给所有参与者。",
+      "expected_response": "根据赵颖的persona描述，她喜欢简明扼要的回答并期待明确的任务目标，AI应该会首先询问赵颖需要邀请哪些社区成员，以及她的时间偏好（如上午或下午）。接着，AI应该利用calendarCheck API来检查这些成员的时间表，并建议一个所有人都方便的时间段。\n\n一旦确定会议时间，AI应该使用sendEmail API生成并发送专业的会议邀请邮件，邮件内容包括会议时间、地点和议程概要。赵颖希望得到明确的答复，因此AI在发送邀请前应该让她确认邀请内容。\n\n会议结束后，AI还应该生成一份详细的会议纪要，并询问赵颖是否需要发送给所有参与者。如果需要，AI将使用sendEmail API发送会议纪要给所有参与者。通过这些流程，AI确保了每一步都符合赵颖的要求和习惯。",
+      "scene_context": "赵颖需要协调会议的社区成员包括：李华、王芳、周伟和张明。她的时间偏好是下午。",
+      "personalized_query": "今天我们需要组织一次社区活动的会议，首先得先确定一个合适的会议时间。请你帮我协调一下李华、王芳、周伟和张明的时间，看他们下午什么时候有空。\n\n等时间确定了，再接着安排其他事宜。",
+      "neutralized_query": "<neutralized_query>\n请你帮我协调一下会议参与者的时间，看看他们下午什么时候有空，以便组织一次社区活动的会议。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：虽然赵颖已经退休，但她可能会帮助社区的年轻人或同龄人优化简历，找到合适的工作机会。",
+      "available_apis": {
+        "getUserProfile": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the profile information of the user including education background, work experience, and skills."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response. This can be used to find current job opportunities that match the user's profile."
+        },
+        "optimizeResume": {
+          "arguments": [
+            "user_profile",
+            "job_descriptions"
+          ],
+          "description": "Generates resume optimization suggestions based on the user's profile and the job descriptions."
+        }
+      },
+      "scene_desc": "赵颖是社区中的一位热心公益活动的退休老年人，她经常帮助社区的年轻人和同龄人优化简历，寻找合适的工作机会。某一天，她接到一个年轻人的请求，希望她能帮忙优化简历并提供一些相关的职业建议。赵颖决定向她的AI助手寻求帮助，以便找到最新的简历优化建议和相关的工作机会。\n\n赵颖对AI助手说：“我需要帮助优化一份简历，同时查找一些相关职位的信息。”",
+      "expected_response": "\n根据赵颖的persona描述，AI助手应该首先询问简历的具体信息，如用户的教育背景、工作经验和技能等。这些信息可以通过调用`getUserProfile` API来获取。接着，AI助手应该通过`webSearch` API搜索当前市场上相关职位的最新信息，并通过`optimizeResume` API提供简历优化建议。\n\n因为赵颖喜欢简明扼要的回答，同时有时会要求更详细的解释，AI助手应该在提供建议时简洁明了，并附带详细解释的选项供她查阅。此外，考虑到赵颖喜欢表格或列表形式的信息展示，AI助手应该以易于理解的格式呈现相关建议和职位信息。\n\n最后，AI助手还应考虑到赵颖的直爽性格，确保及时响应她的反馈并根据她的需求及时调整建议。总之，AI助手应展示以下行为：\n1. 获取并确认简历的基本信息。\n2. 提供简洁的简历优化建议，并附带详细解释的选项。\n3. 查找并呈现相关的职位信息，以表格或列表形式展示。\n4. 根据赵颖的反馈及时调整建议，并确保信息准确且易于理解。",
+      "scene_context": "赵颖需要帮助优化的简历包括以下信息：\n- 姓名：李明\n- 教育背景：计算机科学专业，本科毕业，XX大学\n- 工作经验：1. XYZ科技公司，软件开发工程师，2年；2. ABC公司，实习生，3个月\n- 技能：Java, Python, HTML, CSS, JavaScript, SQL\n- 兴趣爱好：开源项目贡献、技术博客写作、参加编程竞赛\n\n赵颖希望帮助李明优化简历，并查找相关的职位信息，特别是软件开发工程师的职位。",
+      "personalized_query": "我需要帮助优化一份简历，同时查找一些相关职位的信息。",
+      "neutralized_query": "<neutralized_query>\n我需要帮助优化一份简历，并查找相关职位的信息。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：赵颖可能会旅游或参加一些文化活动，她需要AI提供目的地的天气、签证、货币兑换等相关信息。",
+      "available_apis": {
+        "weatherForecast": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Provides the weather forecast for the specified destination."
+        },
+        "visaInfo": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Provides visa requirements and application information for the specified destination."
+        },
+        "currencyExchangeRates": {
+          "arguments": [
+            "from_currency",
+            "to_currency"
+          ],
+          "description": "Returns the current exchange rates between the specified currencies."
+        }
+      },
+      "scene_desc": "赵颖即将前往日本旅游，并计划参加当地的文化活动。由于她对于旅行的各种细节非常关注，所以她希望AI助手能帮助她查询东京的天气预报、签证信息以及人民币兑日元的最新汇率。此外，她还想了解一些关于东京的文化活动信息，以便安排她的行程。",
+      "expected_response": "\n根据赵颖的persona描述，她是一个热心社区公益活动且喜欢尝试新鲜事物的人，AI应该能够快速响应她的需求。AI首先会询问赵颖具体的旅游日期和停留时间，以便提供相应的天气预报和签证信息。接着，AI会查询并提供东京的最新天气预报，确保她能带上合适的衣物。随后，AI会查询并告知她去日本所需的签证类型和申请流程。对于货币兑换，AI还会实时查询人民币兑日元的最新汇率并建议她最佳的兑换方式与地点。此外，由于赵颖喜欢参与文化活动，AI会搜索并推荐她在东京期间可以参加的文化活动，并帮她安排日程。AI的回答应该简明扼要，并且在必要时提供详细的解释或列出信息表格，以便赵颖更好地理解和使用这些信息。",
+      "scene_context": "赵颖的旅游日期为2023年12月1日至2023年12月10日，停留地点为东京。她希望了解以下信息：\n1. 这段时间东京的天气预报。\n2. 前往日本所需的签证类型和申请流程。\n3. 人民币兑日元的最新汇率及最佳兑换方式与地点。\n4. 在东京期间可以参加的文化活动，例如茶道体验、传统舞蹈表演和艺术展览。",
+      "personalized_query": "你好，我正在准备12月初去东京的旅行，需要你帮我查一些信息。首先，能帮我看看从12月1日到12月10日这段时间东京的天气预报吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我查一下从12月1日到12月10日这段时间东京的天气预报。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：赵颖可能会在社区活动中提供职业建议，帮助年轻人找到职业发展方向，她可以利用AI来获取相关信息和建议。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "getResourceLinks": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Fetch relevant resource links (e.g., career planning articles, industry reports) for the given topic."
+        }
+      },
+      "scene_desc": "赵颖在社区中心参加了一次青年职业规划活动。在活动中，有几位年轻人向她咨询关于职业发展的建议。赵颖希望利用AI助手，为这些年轻人提供最准确和有用的职业信息。她希望AI能推荐一些适合年轻人了解和发展的行业，提供相关的职业规划资源链接，并能帮助这些年轻人优化他们的简历，以增加他们在求职中的竞争力。",
+      "expected_response": "\nAI应该首先询问具体的职业咨询需求，例如是否有特定的行业或职业方向。同时，AI应该通过访问网络搜索功能，为年轻人提供一些当下热门行业的趋势报告和职业发展建议。接着，AI可以推荐一些职业规划相关的资源链接，比如职业规划文章、行业报告等。AI还可以利用简历优化功能，收集年轻人的教育背景、工作经验和技能信息，并生成简历优化建议，帮助他们提升简历的吸引力。最后，AI应该提供一个明确的步骤列表，包括职业规划、简历优化和资源链接，以便赵颖能够简明扼要地传达信息，并根据年轻人的反馈进行详细解释和进一步的职业指导。\n",
+      "scene_context": "赵颖需要帮助的年轻人包括：小明、小华和小李。\n小明对IT行业充满兴趣，希望了解软件开发和数据科学的职业前景。\n小华对创意产业（如广告、设计）有浓厚的兴趣，希望获取相关的职业发展建议。\n小李希望进入金融行业，但不确定从哪里开始，可以提供一些金融分析师和投资银行的职业指导。\n\n他们各自的简历初稿如下：\n1. 小明的简历\n```\n姓名：小明\n教育背景：计算机科学本科\n工作经验：无\n技能：Python、Java、数据分析基础\n```\n\n2. 小华的简历\n```\n姓名：小华\n教育背景：广告与设计本科\n工作经验：参与过几个校园广告设计项目\n技能：Photoshop、Illustrator、创意思维\n```\n\n3. 小李的简历\n```\n姓名：小李\n教育背景：金融学本科\n工作经验：无\n技能：Excel、基本财务分析\n```",
+      "personalized_query": "今天在社区中心，有几位年轻人找我聊了一些关于职业发展的事情。我想请你帮我提供一些建议和相关资源。下面是他们的情况：\n\n首先是小明。他对IT行业非常感兴趣，尤其是软件开发和数据科学。他现在是计算机科学本科毕业，技能方面掌握了Python、Java和数据分析的基础。你能不能推荐一些适合小明发展的行业和职业前景？\n\n其次，小华对创意产业有浓厚的兴趣，尤其是广告和设计。他有广告与设计的本科背景，参与过几个校园广告设计项目，技能包括Photoshop、Illustrator和创意思维。能不能给小华一些职业发展建议？\n\n最后是小李，他希望进入金融行业，但不确定从哪里开始。小李是金融学本科毕业，技能包括Excel和基本的财务分析。需要一些关于金融分析师和投资银行的职业指导。\n\n另外，能否帮他们优化一下简历，让他们在求职时更有竞争力？先从小明的简历开始吧。",
+      "neutralized_query": "<neutralized_query>\n我需要你提供一些职业发展建议和相关资源，适用于不同背景和兴趣的年轻人。具体来说，有人对IT行业特别是软件开发和数据科学感兴趣，有人对创意产业特别是广告和设计感兴趣，还有人希望进入金融行业但不确定从哪里开始。你能否分别提供适合他们的职业发展建议和前景？另外，能否帮忙优化简历以提高求职竞争力，并先从IT行业相关的简历优化开始？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：赵颖倾向于购买与社交活动相关的产品，希望AI根据她的需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "productSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for products based on the given query and return a list of relevant products."
+        },
+        "getProductDetails": {
+          "arguments": [
+            "product_id"
+          ],
+          "description": "Get the detailed information of a specified product, including the purchase link."
+        }
+      },
+      "scene_desc": "赵颖正在准备一场大型社区活动，她需要购买一些与社交活动相关的产品，如桌椅、音响设备、装饰品等。她希望AI能够根据她的具体需求推荐合适的商品，并提供购买链接。赵颖注重性价比，并且喜欢简明扼要的回答，但也希望在必要时得到详细的解释。",
+      "expected_response": "\n根据赵颖的persona描述，AI应该首先询问她具体需要购买哪些种类的产品，并确认她的预算范围。然后，AI可以通过调用productSearch API，根据她的需求和预算搜索合适的商品，并以表格或列表形式展示结果，包括每个商品的价格、主要功能和购买链接。如果赵颖对某些商品有疑问，AI应该能够提供更详细的解释和用户评价。最后，AI应该询问赵颖是否需要将推荐的商品加入购物清单或设定购买提醒。",
+      "scene_context": "赵颖需要购买以下几类产品：\n1. 桌椅：用于社区活动中的座位安排，预算为每套（桌子和四把椅子）不超过300元。\n2. 音响设备：用于活动现场的音频播放，预算为每台不超过1000元。\n3. 装饰品：用于美化活动场地，预算为每件不超过50元。\n\n希望AI根据上述需求推荐合适的商品，并提供详细的购买链接和产品描述。",
+      "personalized_query": "今天需要帮我做些事情。我正在准备一场大型社区活动，需要购买一些物品。先帮我找找活动用的桌椅，预算是每套不超过300元。请推荐几款合适的商品并提供购买链接。",
+      "neutralized_query": "<neutralized_query>\n我需要购买一些用于活动的桌椅，预算是每套不超过300元。请推荐几款合适的商品并提供购买链接。\n</neutralized_query>"
+    }
+  ]
+}

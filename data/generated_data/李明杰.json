@@ -1,0 +1,243 @@
+{
+  "Demographics": {
+    "Age": 64,
+    "Gender": "女",
+    "Nationality": "台湾",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "退休的护士",
+    "Name": "李明杰"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "喜欢园艺",
+      "阅读",
+      "参与社区志愿者活动",
+      "收藏古董钟表"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "常向AI询问园艺技巧、书籍推荐和社区活动组织相关问题",
+    "Usage_Pattern": "日常使用频率较高，尤其在早晨和下午时段",
+    "Emotion_Pattern": "倾向于表达积极和关心的话语，偶尔也会显得内向和深思",
+    "Purchase_Pattern": "注重实用性和耐用性，但有时会为小众和独特的物品花费"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细而温和的反馈，能够解释背景知识",
+    "Preferred_Formats": "图文并茂，尤其是图表和插图",
+    "Preferred_Workflows": "偏爱逐步引导的流程，喜欢详细的计划和任务列表"
+  },
+  "scenes": [
+    {
+      "scene_type": "书籍推荐：李明杰喜欢阅读，需要根据她的阅读偏好推荐新书、经典作品或相关的文学作品。",
+      "available_apis": null,
+      "scene_desc": "李明杰正在寻找新的阅读材料。她喜欢阅读经典作品和相关文学作品，经常会向AI寻求建议。今天早晨，她打算在享用早餐时浏览一些新书推荐。她特别喜欢带有详细背景信息和文学评论的推荐，希望AI不仅能推荐书目，还能为她提供一些关于这些书的详细介绍和作者背景。",
+      "expected_response": "\nAI应该首先询问李明杰最近感兴趣的阅读主题或类型，以便更精准地推荐书籍。接着，AI应该根据她的喜好推荐几本新书和经典作品，并提供每本书的详细介绍、作者背景、以及文学评论。此外，AI应该展示书籍封面和相关插图，以图文并茂的方式呈现推荐内容。最后，AI可以提供在线购买链接或图书馆借阅信息，并询问李明杰是否需要设置一个提醒，以便规划她的阅读时间。",
+      "scene_context": "李明杰最近对以下阅读主题和类型感兴趣：女性文学、现代主义作品、诺贝尔文学奖获奖作品",
+      "personalized_query": "早安，我想找一些新的书籍来读。你能帮我推荐一些女性文学、现代主义作品或者诺贝尔文学奖获奖的书吗？特别是那些有详细背景信息和文学评论的书。如果能有一些关于书籍和作者的介绍就更好了。谢谢。",
+      "neutralized_query": "<neutralized_query>\n我想找一些新的书籍来读。你能帮我推荐一些女性文学、现代主义作品或者诺贝尔文学奖获奖的书吗？如果能有一些关于书籍和作者的介绍就更好了。谢谢。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "园艺技巧：李明杰喜欢园艺，经常会向AI询问如何种植和养护植物，解决园艺问题。",
+      "available_apis": null,
+      "scene_desc": "李明杰在早晨的花园里散步时，发现她的玫瑰花叶子上有一些异样的斑点。她担心这可能是某种病害或虫害，所以她拿出手机向AI求助，想了解这些斑点的成因以及如何处理。此外，李明杰还计划为她的花园增加一些新的植物，她希望AI可以推荐一些适合台湾气候的花卉，并提供详细的种植和养护建议。",
+      "expected_response": "\nAI应该首先表现出对李明杰花园问题的关心，并询问更多细节（例如斑点的颜色和形状）。如果可能，AI可以建议李明杰拍一张照片上传，以便更准确地诊断问题。接着，AI应该搜索并提供关于玫瑰花常见病害的相关信息，解释这些斑点可能的成因，并给出适当的处理方法。\n\n在推荐新的植物时，AI应考虑台湾的气候条件，并选择适宜的花卉品种。AI应该提供每种植物的详细信息，包括种植方法、光照和水分需求、以及如何预防常见病害。为了符合李明杰喜欢详细而温和的反馈的偏好，AI应该以图文并茂的形式展示这些信息，并逐步引导她完成种植计划。\n\n此外，AI可以建议她相关的园艺书籍或者社区的园艺活动，以帮助她进一步提升园艺技能，并鼓励她参与到社区的园艺分享中。",
+      "scene_context": "李明杰发现玫瑰花叶子上有一些黑色和黄色的斑点，形状不规则。她计划增加一些适合台湾气候的花卉，考虑种植兰花、茉莉花和栀子花。",
+      "personalized_query": "早安，我发现我的玫瑰花叶子上有一些奇怪的斑点，担心会不会是什么病害或虫害。可以帮我查一下这可能是什么原因造成的吗？另外，我也想增加一些适合台湾气候的花卉，你有推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我的玫瑰花叶子上有一些斑点，可能是病害或虫害吗？还有，能推荐一些适合台湾气候的花卉吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社区活动建议：李明杰喜欢参与社区志愿者活动，需要推荐适合她的志愿者项目或社区活动。",
+      "available_apis": null,
+      "scene_desc": "李明杰正在寻找新的社区志愿者活动来充实她的生活。她喜欢参与社区活动，并且作为一个退休护士，她希望能够通过自己的技能和经验为社区服务。她更倾向于参与那些能与人互动的活动，如社区健康检查、园艺项目、或是读书分享会。她希望AI能够为她找到这些活动，并提供详细的信息，包括活动的时间、地点、内容，以及如何报名参加。",
+      "expected_response": "\n根据李明杰的人设，AI应该首先表达对她积极参与社区活动的赞许，并温和地询问她是否有特定的志愿者活动类型偏好，比如健康检查、园艺项目或读书分享会。然后，AI应该利用联网搜索功能查找本地社区活动的详细信息，尤其是那些符合她兴趣的活动。AI应提供一个图文并茂的列表，包含每个活动的时间、地点、内容以及报名方式。最后，AI可以为她提供逐步的报名流程指导，并为她设定活动提醒，以确保她不会错过感兴趣的活动。",
+      "scene_context": "李明杰所在的城市为上海，她希望在上海找到合适的社区志愿者活动。她对以下类型的志愿者活动感兴趣：\n1. 社区健康检查\n2. 园艺项目\n3. 读书分享会\n\n她希望AI助手能够提供每个活动的详细信息，包括：\n- 活动时间\n- 活动地点\n- 活动内容\n- 如何报名参加\n\n此外，李明杰希望能够得到报名流程的指导和活动提醒功能。",
+      "personalized_query": "早上好！我这几天在考虑找一些社区志愿者活动来充实自己的生活。你能帮我查查最近有没有什么适合我的活动吗？特别是社区健康检查、园艺项目或者读书分享会这样的活动。谢谢！",
+      "neutralized_query": "<neutralized_query>\n你能帮我查查最近有没有什么社区志愿者活动吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "收藏建议：李明杰收藏古董钟表，可能需要AI推荐收藏的古董钟表商店、拍卖会信息，或提供维护和保养的建议。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "李明杰正在寻找如何扩展她的古董钟表收藏，她希望了解更多关于可靠的古董钟表商店和即将举行的拍卖会的信息。同时，她也在寻找一些关于古董钟表的维护和保养建议。李明杰决定向她常用的AI助手求助，希望能获取到详细而有用的信息，以帮助她做出明智的收藏决策。",
+      "expected_response": "\n根据李明杰的persona描述，她是一个注重实用性和耐用性，喜欢详细而温和反馈的用户。AI应该首先询问她对古董钟表的特定偏好，如特定品牌或时期。接着，AI可以利用网络搜索功能查询可靠的古董钟表商店和即将举行的拍卖会，并提供详细的商店评价、拍卖会时间和地点等信息。对于维护和保养建议，AI应该提供图文并茂的详细指南，包括清洁和润滑等步骤。AI在整个过程中应保持温和和关心的语调，并在提供信息时解释背景知识和重要细节，确保李明杰能充分理解和应用这些建议。",
+      "scene_context": "李明杰对以下古董钟表品牌和时期感兴趣：劳力士（Rolex）、百达翡丽（Patek Philippe），主要关注19世纪末至20世纪中期的作品。她希望了解以下几方面的信息：\n1. 可靠的古董钟表商店推荐。\n2. 即将举行的古董钟表拍卖会信息，包括时间、地点和拍卖钟表的详细信息。\n3. 古董钟表的日常维护和保养建议。\n\n以下是她准备向AI助手咨询的具体问题：\n1. 请推荐几家可靠的古董钟表商店，最好包含评价信息。\n2. 近期有没有即将举行的古董钟表拍卖会？我感兴趣的品牌有劳力士和百达翡丽。\n3. 能提供一些关于古董钟表维护和保养的详细建议吗？比如清洁、润滑等步骤。",
+      "personalized_query": "你好，我最近在考虑扩展我的古董钟表收藏，尤其是劳力士和百达翡丽。我想请你推荐几家可靠的古董钟表商店，还有即将举行的拍卖会信息也希望你能帮我找一下。可以吗？",
+      "neutralized_query": "<neutralized_query>\n请推荐几家可靠的古董钟表商店，并提供即将举行的拍卖会信息。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "日程管理：李明杰可能需要AI帮助她安排日程，设定提醒，以便参与社区活动、志愿者工作或社交活动。",
+      "available_apis": {
+        "scheduleEvent": {
+          "arguments": [
+            "title",
+            "date_time",
+            "participants",
+            "location",
+            "description"
+          ],
+          "description": "Schedules an event in the calendar with the provided details."
+        },
+        "setReminder": {
+          "arguments": [
+            "date_time",
+            "message"
+          ],
+          "description": "Sets a reminder for the specified date and time with the given message."
+        }
+      },
+      "scene_desc": "李明杰正在准备参加一次社区志愿者活动，但她的日程安排比较紧张，需要AI帮助她安排日程。她希望能够设定几个提醒，以便不忘记重要的社区活动和志愿者工作。同时，她也希望AI能够帮助她记录一些和园艺相关的任务，以及计划阅读的书籍时间。",
+      "expected_response": "根据李明杰的persona描述，她是一个喜欢详细计划和任务列表的人。AI应该首先询问她具体需要安排的社区活动和志愿者工作的时间和地点，并确认这些活动的详细信息。接着，AI应该建议她设定几个提醒，以确保她不会错过任何重要时间点。AI还应该帮助她安排和记录一些与园艺相关的任务时间，比如浇水、施肥等，以及她计划阅读的书籍时间。总的来说，AI应该温和而详细地引导她完成这些日程安排，提供清晰的图表和插图，并在过程中解释每个步骤的背景知识。",
+      "scene_context": "李明杰需要安排的具体社区活动和志愿者工作包括：\n1. 社区清洁活动：\n   - 日期：10月12日\n   - 时间：早上9:00 - 中午12:00\n   - 地点：社区公园\n2. 老年人陪伴志愿者工作：\n   - 日期：10月15日\n   - 时间：下午2:00 - 5:00\n   - 地点：社区养老院\n\n园艺相关的任务：\n1. 浇水：\n   - 日期：每周一、三、五\n   - 时间：早上7:00\n2. 施肥：\n   - 日期：10月20日\n   - 时间：早上8:00\n\n计划阅读的书籍和时间：\n1. 《园艺入门》\n   - 章节：第一章\n   - 时间：10月10日晚上8:00 - 9:00\n2. 《社区志愿者手册》\n   - 章节：全部（10页）\n   - 时间：10月13日晚上8:00 - 9:00",
+      "personalized_query": "早上好！我希望能够请你帮我安排一下未来几天的志愿者活动和园艺任务。最近有点忙，怕忘记了一些重要的事。首先，帮我设定几个提醒，好吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我安排一下未来几天的任务并设定几个提醒。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行规划：李明杰需要规划出游行程，如参观花园、古董展览或参加文化活动等。",
+      "available_apis": {
+        "eventSearch": {
+          "arguments": [
+            "location",
+            "date_range",
+            "interests"
+          ],
+          "description": "Searches for events such as garden tours, antique exhibitions, or cultural activities based on the given location, date range, and interests."
+        },
+        "locationRecommendation": {
+          "arguments": [
+            "current_location",
+            "interests"
+          ],
+          "description": "Provides recommendations for places to visit, such as gardens, exhibitions, and cultural sites based on the user's current location and interests."
+        }
+      },
+      "scene_desc": "李明杰计划在周末进行一次短途旅行。她想参观一些有趣的花园，也可能对古董展览和文化活动感兴趣。由于她对园艺和古董钟表有浓厚兴趣，因此她希望AI能够帮她规划一个包含这些元素的行程。此外，李明杰希望行程安排详细且井井有条，并包含地图、活动时间表和票务信息等详细资料。她打算从早上开始出发，一直到下午结束。\n\n她在早晨打开AI助手，询问有关这次旅行的建议和详细规划。她希望AI能提供相关活动的具体信息，并帮助她安排好整个行程。",
+      "expected_response": "\n根据李明杰的人设，AI应该会首先询问她的具体兴趣点和旅行日期，确认她想参观的地点和时间范围。AI应该能通过联网搜索找到相关的花园、古董展览和文化活动的信息，并且提供相关的活动时间、门票价格等详细资料。\n\n接着，AI应该生成一个详细的行程计划，包括每个景点的访问顺序、交通安排、活动时间表以及地图指引。鉴于李明杰喜欢详细而温和的反馈，AI还应该提供一些背景知识，例如每个花园或展览的历史和特色。\n\n此外，AI应询问她是否需要提前购买门票，并提供购票链接或直接协助购票。AI还可以设定提醒，确保李明杰不会错过任何一个活动。最后，AI应该将整个行程生成图文并茂的格式，包括插图和图表，然后发送给李明杰以供参考和确认。",
+      "scene_context": "李明杰的旅行日期定在本周六。她具体感兴趣的地点包括： \n1. **静园花园**——以其精美的园艺和多样的植物闻名。\n2. **古风钟表展览**——展示各种古董钟表及其历史。\n3. **城市文化中心**——本周末有一场当地文化艺术表演。\n\n李明杰希望在上午9点出发，下午5点结束一天的行程。她想知道每个地点的开放时间、门票价格、交通方式（如公交路线或步行路径），以及每个活动的推荐参观时间。她还希望能够提前购买门票，以免当天排队等候。\n\n她需要AI提供一个详细的行程安排，包括：\n- 每个参观地点的开放时间和门票信息\n- 从一个地点到下一个地点的具体交通方式和时间\n- 每个地点的简短介绍和值得注意的特色\n- 一个整合的行程时间表和地图指引\n- 提前购票的链接和提醒设置",
+      "personalized_query": "早安！我计划这个周六进行一次短途旅行，想参观一些有趣的花园和古董展览。你能帮我规划一个包含这些元素的行程吗？我希望行程详细一点，包括开放时间、门票价格、交通方式和推荐参观时间等。谢谢！",
+      "neutralized_query": "<neutralized_query>\n你能帮我规划一个短途旅行的行程吗？我要参观一些花园和古董展览，行程需要详细一些，包括开放时间、门票价格、交通方式和推荐参观时间等。谢谢！\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电影推荐：李明杰可能会需要根据她的兴趣推荐适合的电影，以丰富她的休闲生活。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "getMovieDetails": {
+          "arguments": [
+            "movieTitle"
+          ],
+          "description": "Get detailed information about the movie, including synopsis, rating, and viewing links."
+        }
+      },
+      "scene_desc": "李明杰在一个悠闲的下午，想着找一部好电影来看，以丰富她的休闲生活。她打开AI助手，向其询问有哪些适合她观赏的电影推荐。她希望能够找到一些既经典又有深度的影片，同时也希望AI能够根据她的个人喜好和兴趣来进行推荐。",
+      "expected_response": "\n根据李明杰的persona，AI应该首先询问她最近是否有特定的电影类型或主题感兴趣，如文学改编、经典电影或具有深刻内涵的影片。然后，AI可以根据她的兴趣和偏好，推荐一些与她喜欢的书籍和园艺相关的电影，比如关于自然、植物或历史的纪录片。此外，考虑到她的内向性格和喜欢细腻情感的特点，AI还可以推荐一些温情感人的剧情片。AI应该确保推荐的电影兼具实用性和耐用性，提供详细的电影介绍和影评，以帮助她做出选择。最后，AI还可以根据她的观影时间段（如下午时段）提供适合的播放平台和链接。",
+      "scene_context": "李明杰喜欢的书籍包括《百年孤独》和《傲慢与偏见》，她平时喜欢园艺，特别是种植花卉。她最近对文学改编的电影和经典电影特别感兴趣。下午有两个小时的空闲时间适合观影。",
+      "personalized_query": "嗨，下午好！今天下午我有两个小时的空闲时间，想找一部好电影来看。你能推荐一些经典又有深度的影片吗？最近我对文学改编的电影和经典电影特别感兴趣。谢谢！",
+      "neutralized_query": "<neutralized_query>\n你能推荐一些经典又有深度的电影吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "美容护理：李明杰关注生活品质，可能需要AI推荐适合她的美容护肤产品和护理步骤。",
+      "available_apis": {
+        "askUserPreferences": {
+          "arguments": [
+            "skin_type",
+            "skin_concerns",
+            "product_preferences"
+          ],
+          "description": "Asks the user for their skin type, skin concerns, and any specific product preferences."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for skincare products based on the given query and return the most relevant product recommendations."
+        },
+        "generateCareRoutine": {
+          "arguments": [
+            "products"
+          ],
+          "description": "Generates a personalized skincare routine based on the recommended products."
+        }
+      },
+      "scene_desc": "李明杰正在关注自己的美容护理，她希望得到AI的推荐，以找到适合她的美容护肤产品和具体的护理步骤。由于李明杰已经退休，她有足够的时间来细致地照顾自己的肌肤，这也是她生活品质的重要组成部分。她希望AI能够根据她的具体需求，给出详细而温和的建议，并提供图文并茂的介绍和说明。",
+      "expected_response": "\n根据李明杰的persona描述，AI应该首先询问她的皮肤类型、具体的皮肤问题和偏好的产品类型（如是否偏爱天然成分或特定品牌）。接着，AI可以通过联网搜索，找到适合她的护肤产品，并生成一个详细的每日护理步骤，包括早晚的护肤流程。AI还应该提供图文并茂的解释，展示每个护肤步骤的具体做法和使用的产品。最后，AI应该询问李明杰是否需要设置定时提醒或保存这些建议以供日后参考，并是否需要进一步的产品使用反馈或定期更新护理方案。",
+      "scene_context": "李明杰的皮肤类型为干性皮肤，主要皮肤问题是细纹和肤色不均。她偏好天然成分的产品，尤其是含有芦荟、维生素C和透明质酸的护肤品。李明杰希望每天早晚进行护理，早上主要关注补水和防晒，晚上注重修复和滋养。",
+      "personalized_query": "你好呀，可以帮我推荐一些适合我干性皮肤的美容护肤产品吗？我主要关注补水和防晒，尤其喜欢含有天然成分的产品。希望你能给我一些详细的建议和具体的护理步骤。谢谢！",
+      "neutralized_query": "<neutralized_query>\n可以帮我推荐一些适合干性皮肤的美容护肤产品吗？我主要关注补水和防晒，希望你能给我一些详细的建议和具体的护理步骤。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：李明杰可能在空闲时间学习新的知识或考证书，需要AI帮助她生成复习计划，提供考点总结和练习题。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "available_time",
+            "exam_date",
+            "subject_areas"
+          ],
+          "description": "Generates a personalized study plan based on the available study time, exam date, and key subject areas."
+        },
+        "provideStudyMaterials": {
+          "arguments": [
+            "subject_areas"
+          ],
+          "description": "Provides summarized study materials and key points for the specified subject areas."
+        },
+        "generatePracticeQuestions": {
+          "arguments": [
+            "subject_areas"
+          ],
+          "description": "Generates practice questions and sample tests for the specified subject areas."
+        }
+      },
+      "scene_desc": "李明杰决定利用她的闲暇时间学习新的知识，并准备参加一个近期的专业考试。她对某个特定领域的知识有浓厚兴趣，并希望能够通过系统的学习和复习，成功通过考试。她打开AI助手，寻求帮助生成一个适合她的复习计划，并希望AI能够提供考点总结和练习题，以便她能高效地进行复习。",
+      "expected_response": "\n根据李明杰的persona描述，AI应该首先询问她的考试日期、可用的学习时间以及具体的考试科目，以便生成一个个性化的复习计划。接着，AI应该查询并提供与考试相关的考点总结，并生成适量的练习题帮助她复习。AI还应该提供图文并茂的复习材料，并在每个学习阶段提供详细的指导和任务列表。同时，AI还应设置适当的提醒，以便李明杰能够按时完成每个学习任务，并在复习过程中提供关心和鼓励的话语，帮助她保持积极的心态。",
+      "scene_context": "李明杰决定准备参加一个近期的专业考试，该考试是国家计算机等级考试（NCRE）二级C语言程序设计。她的考试日期是两个月后。李明杰每天可以花2小时进行复习。她已经有一定的编程基础，但需要系统地复习和练习以确保通过考试。她希望AI助手能够帮助她生成一个复习计划，提供考点总结和练习题，并在复习过程中给予督促和鼓励。",
+      "personalized_query": "你好，今天可能需要你的帮助。我打算准备一场专业考试，时间只有两个月。我每天能花大约两个小时进行复习，能不能帮我生成一个复习计划，并提供一些考点总结和练习题？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我生成一个复习计划，并提供一些考点总结和练习题。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "机器人竞赛：刘艳在准备一场全国高中生机器人竞赛，需要设计并编写代码来控制自己的机器人完成指定任务。",
+      "available_apis": {
+        "getSensorData": {
+          "arguments": [
+            "sensor_type"
+          ],
+          "description": "Fetches data from the specified sensor type, such as distance, temperature, or camera."
+        },
+        "controlMovement": {
+          "arguments": [
+            "direction",
+            "speed"
+          ],
+          "description": "Controls the movement of the robot in the specified direction at the given speed."
+        },
+        "executeAction": {
+          "arguments": [
+            "action"
+          ],
+          "description": "Executes a specific action with the robot, such as grabbing or releasing an object."
+        }
+      },
+      "scene_desc": "刘艳是一名热爱科技的高中生，目前正在准备全国高中生机器人竞赛。他需要设计并编写代码来控制自己的机器人完成指定任务。刘艳通常会在放学后的空闲时间进行复习和练习。他喜欢挑战复杂的逻辑谜题和编程问题，并享受解决问题的过程。因此，他经常使用AI助手来获取有关机器人技术和编程的建议和帮助。",
+      "expected_response": "\n根据刘艳的persona描述，AI应该迅速理解他对机器人竞赛任务的需求。首先，AI应该询问刘艳具体的竞赛任务要求以及机器人需要完成的操作。接着，AI应该提供相关的编程建议和代码示例，帮助刘艳设计和优化机器人控制代码。AI还可以通过调用可用的API（如getSensorData、controlMovement和executeAction），帮助刘艳调试机器人，确保其能够准确完成任务。最后，AI应提供一些常见问题的解决方法和优化策略，帮助刘艳提高机器人的性能和稳定性，同时鼓励他继续挑战和解决复杂的技术问题。",
+      "scene_context": "刘艳需要机器人完成的任务是：从起点自主导航到终点，并在过程中避开障碍物。她的机器人配有超声波传感器用于测距，和一个简单的移动控制模块。她使用的是Arduino平台，编程语言为C++。\n\n可能的代码示例如下：\n```cpp\n#include <Ultrasonic.h>\n\n// 定义超声波传感器引脚\n#define trigPin 9\n#define echoPin 10\n\n// 定义电机控制引脚\n#define motorPin1 3\n#define motorPin2 4\n#define motorPin3 5\n#define motorPin4 6\n\nUltrasonic ultrasonic(trigPin, echoPin);\n\nvoid setup() {\n  Serial.begin(9600);\n  \n  // 设置电机控制引脚为输出\n  pinMode(motorPin1, OUTPUT);\n  pinMode(motorPin2, OUTPUT);\n  pinMode(motorPin3, OUTPUT);\n  pinMode(motorPin4, OUTPUT);\n}\n\nvoid loop() {\n  long distance = ultrasonic.Ranging(CM); // 测量距离\n  \n  if (distance < 20) { // 如果距离小于20厘米\n    stopMovement(); // 停止移动\n    delay(1000); // 停顿1秒\n    turnRight(); // 右转避开障碍物\n  } else {\n    moveForward(); // 否则继续前进\n  }\n  delay(100);\n}\n\nvoid moveForward() {\n  digitalWrite(motorPin1, HIGH);\n  digitalWrite(motorPin2, LOW);\n  digitalWrite(motorPin3, HIGH);\n  digitalWrite(motorPin4, LOW);\n}\n\nvoid stopMovement() {\n  digitalWrite(motorPin1, LOW);\n  digitalWrite(motorPin2, LOW);\n  digitalWrite(motorPin3, LOW);\n  digitalWrite(motorPin4, LOW);\n}\n\nvoid turnRight() {\n  digitalWrite(motorPin1, HIGH);\n  digitalWrite(motorPin2, LOW);\n  digitalWrite(motorPin3, LOW);\n  digitalWrite(motorPin4, HIGH);\n  delay(500); // 右转500毫秒\n  stopMovement();\n}\n```",
+      "personalized_query": "你好，AI助手。我在准备全国高中生机器人竞赛，我需要让我的机器人从起点自主导航到终点，并在过程中避开障碍物。我用的是Arduino平台，编程语言是C++。目前我机器人有超声波传感器用于测距，还有一个简单的移动控制模块。你能帮我看看我写的代码有什么问题吗？机器人有时候会在避障后不再继续前进。",
+      "neutralized_query": "<neutralized_query>\n我需要帮助检查一个控制机器人自主导航并避开障碍物的代码，机器人在避障后有时不再继续前进。平台是Arduino，编程语言是C++，使用了超声波传感器和移动控制模块。能帮忙看看代码中的问题吗？\n"
+    }
+  ]
+}

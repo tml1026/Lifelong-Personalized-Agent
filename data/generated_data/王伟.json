@@ -1,0 +1,228 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "广州某大学物理系学生",
+    "Name": "王伟"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢天文学和科幻小说",
+      "对宇宙奥秘充满好奇",
+      "热衷于参加天文观测活动",
+      "兴趣广泛，喜欢探讨前沿科学问题",
+      "喜欢结交新朋友，讨论各种新奇的点子"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常查询最新的天文学研究和科幻小说推荐",
+    "Usage_Pattern": "喜欢用AI助手寻找创作灵感或获取最新的科学资讯",
+    "Emotion_Pattern": "在发现新的知识或有趣的内容时会表现出极大的兴奋和热情",
+    "Purchase_Pattern": "喜欢购买与天文学和科幻相关的书籍和设备，对价格比较敏感"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢互动性强的对话，在长时间讨论中保持活跃",
+    "Preferred_Formats": "喜欢图文并茂的答案，视觉上更容易理解",
+    "Preferred_Workflows": "倾向于提出开放性问题，鼓励AI提供多样化的视角，并在回答不全面时请求补充信息"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：_王伟需要规划参加天文观测活动的行程，包括选择观测地点、交通安排和住宿。",
+      "available_apis": null,
+      "scene_desc": "王伟最近听说在距离广州不远的一个山区有一个非常适合天文观测的地点，他决定利用周末组织一次天文观测活动。王伟需要AI助手帮助他选择最佳的观测地点、安排交通工具以及预订住宿。他希望能够有一个宽敞且视野开阔的地方进行观测，还需要考虑到天气情况，以确保观测活动顺利进行。此外，作为一个大学生，他对价格比较敏感，因此希望找到性价比高的选择。",
+      "expected_response": "\nAI应该首先询问王伟是否有特定的观测地点建议或偏好，然后根据他的回答和天气情况提供合适的观测地点建议。接着，AI应该询问王伟对交通工具的偏好（如公共交通、自驾车等），并建议最便捷和经济的交通方式。AI需要通过联网搜索来获取实时的天气预报，以确保选择的观测地点在行程期间天气晴朗。对于住宿，AI应该推荐一些附近性价比高的住宿选项，包括民宿、青年旅舍等，并考虑是否需要提前预订。最后，AI应该总结并确认行程安排，生成一个包含所有细节的行程计划供王伟确认和参考。\n",
+      "scene_context": "王伟听说的观测地点是“韶关市南华寺的后山”，他需要安排的行程包括：\n1. 选择观测地点：是否有更合适的地点推荐？\n2. 交通安排：从广州到韶关市的交通方式（如火车、自驾车等）。\n3. 住宿安排：在韶关市附近的性价比高的住宿选项（如民宿、青年旅舍等）。\n4. 天气情况：确认观测地点在行程期间的天气情况。\n\n具体行程规划：\n1. 观测地点：韶关市南华寺的后山\n2. 出发时间：周六早上\n3. 返回时间：周日下午\n4. 预算：总预算控制在800元以内",
+      "personalized_query": "嘿，最近我听说韶关南华寺那边有个特别适合天文观测的地方，我打算这个周末去那边搞一次天文观测活动。想让你帮我安排一下全部的行程，首先你能帮我查查除了韶关南华寺的后山之外，还有没有其他更合适的观测地点推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我需要帮忙安排天文观测活动的行程，包括推荐适合的观测地点。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：_王伟可能会组织或参与天文社团的活动、学术研讨会或科幻小说讨论会，需要协调会议时间、发送邀请和生成会议纪要。",
+      "available_apis": null,
+      "scene_desc": "王伟在组织天文社团的一次观测活动会议。他需要确定会议时间、发送邀请，并在会议结束后生成会议纪要。王伟希望与同学们讨论活动的具体安排、分享最新的天文学发现，以及探讨如何更好地吸引新成员加入。他希望AI助手能帮助他高效地协调会议的各项细节，并确保所有参与者都了解会议的议程。",
+      "expected_response": "\nAI应该首先询问王伟具体的会议日期和时间偏好，同时确认需要邀请的同学名单。接着，AI可以通过访问团队成员的日程安排，找到一个所有人都方便的时间段。AI还应该提供一个自动提醒功能，提醒王伟及其同学们会议的时间和主要议题。然后，AI应生成一个详细的会议邀请，包括会议议程和讨论的主要话题，供王伟确认和发送。最后，AI应该在会议结束后帮助王伟生成会议纪要，记录主要讨论内容和决定事项，并将会议纪要发送给所有参与者。\n",
+      "scene_context": "王伟正在组织的天文社团观测活动会议的具体信息如下：\n- 会议时间偏好：周五下午3点到5点\n- 需要邀请的同学名单：李华、张强、刘婷、赵敏、陈凯\n- 讨论的主要议题：\n  1. 确定观测活动的具体日期和地点\n  2. 分享最近的天文学发现，如新发现的星系或行星\n  3. 探讨如何通过社交媒体和校园活动更好地吸引新成员\n  4. 分配活动期间的具体任务和负责人\n\n王伟希望AI助手能够：\n1. 协调所有人的日程，找到最合适的会议时间。\n2. 生成并发送包含会议议程的邀请，确保所有参与者都得到通知。\n3. 会议召开前自动提醒所有参与者。\n4. 会议结束后生成会议纪要，记录主要讨论内容和决定事项，并向所有参与者发送纪要。",
+      "personalized_query": "嘿，帮我定一下天文社团下一次观测活动的会议时间，我想在周五下午3点到5点之间举办。能帮我协调一下大家的时间吗？需要邀请的同学有李华、张强、刘婷、赵敏和陈凯。",
+      "neutralized_query": "<neutralized_query>\n帮我定一下下一次观测活动的会议时间，目标时间是周五下午3点到5点，并协调参加者的时间。需要邀请一些同学参加。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：_王伟对前沿科学问题和宇宙奥秘充满好奇，经常会通过对话获取扩展阅读材料或深度分析某个话题。",
+      "available_apis": null,
+      "scene_desc": "王伟正在图书馆进行物理作业，但他对最近读到的一篇关于暗物质的文章产生了浓厚的兴趣。他想更深入地了解这个话题，并希望AI助手能提供一些权威的扩展阅读材料，以及一些科学家的相关研究和分析。他还计划和天文社团的朋友们分享这些资料，因此需要图文并茂的答案，以便更好地传达信息。",
+      "expected_response": "根据王伟的persona描述，AI应该首先询问他是否对某些特定方面的暗物质研究有兴趣，例如观测方法、理论模型或实验结果等。AI可通过联网搜索获取相关权威资料，并提供图文并茂的答案。此外，AI应该关注王伟对互动性强的对话和多样化视角的需求，提供不同科学家的研究观点和分析。最后，AI应询问王伟是否需要将这些资料整理成便于分享的格式，并提供生成分享链接或发送邮件的选项。",
+      "scene_context": "王伟对以下几个特定方面的暗物质研究有兴趣：\n1. 暗物质的观测方法：他希望了解当前主要的观测手段和技术，如引力透镜效应、宇宙微波背景辐射等。\n2. 理论模型：他对暗物质的候选粒子及相关理论模型（如WIMPs和轴子）感兴趣。\n3. 实验结果：他想知道最近有哪些重要的实验数据和结论，例如来自LUX-ZEPLIN实验或XENON1T实验的结果。\n\n他希望AI助手能提供图文并茂的资料，包括科学家的研究观点和分析，以及一些权威的扩展阅读材料。",
+      "personalized_query": "嘿，AI助手，我最近在读一篇关于暗物质的文章，觉得特别有意思。我想进一步了解一些内容，特别是关于暗物质的观测方法和相关的理论模型。你能帮我找到一些图文并茂的资料吗？我想和天文社的朋友们分享这些资料。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n我最近对暗物质非常感兴趣，想了解暗物质的观测方法和相关理论模型。你能帮我找到一些图文并茂的资料吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据_王伟的阅读和听歌习惯，推荐与天文学和科幻相关的书籍和音乐，帮助他发现新的灵感。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the reading and listening history of the user."
+        },
+        "recommendContent": {
+          "arguments": [
+            "user_preferences",
+            "categories"
+          ],
+          "description": "Generates recommendations based on user preferences and specified categories (e.g., astronomy and science fiction)."
+        }
+      },
+      "scene_desc": "王伟刚刚读完了一本天文学的书，并且最近在听一些与太空探索相关的音乐。他现在希望能发现更多与天文学和科幻相关的书籍和音乐，以获取更多灵感。他打开AI助手，希望AI能根据他过去的阅读和听歌习惯，推荐一些新的书籍和音乐。",
+      "expected_response": "\n根据王伟的persona描述，AI应该首先通过”getUserPreferences” API查询他的阅读和听歌习惯。接着，AI应该使用”recommendContent” API，根据获取到的用户偏好数据和指定的类别（如天文学和科幻）生成一系列个性化的推荐内容。AI可能会询问王伟是否有特定的偏好或最近特别关注的主题，然后根据这些信息进一步细化推荐。AI还应该提供每个推荐内容的简要介绍和获取链接，并询问王伟是否需要更多类似的推荐。此外，AI应该注意与王伟进行互动，保持对话的趣味性和互动性，确保王伟能从推荐中获得新的灵感。",
+      "scene_context": "王伟最近读过的书籍包括《宇宙的琴弦》、《时间简史》和《三体》。他最近听的音乐有《Interstellar》电影原声带、《Arrival》电影原声带和《Space Oddity》。",
+      "personalized_query": "嗨，我又读完了一本天文学的书，也在听一些太空探索相关的音乐。我想看看有没有更多推荐的书籍和音乐，能帮我推荐一些吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我推荐一些书籍和音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "热门榜单：提供最新的科幻小说、天文学书籍或影视作品的排行榜，帮助_王伟获取热门内容。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王伟刚刚完成了一次天文观测活动，现在他希望了解最新的科幻小说、天文学书籍或影视作品，以便在接下来的休息时间里获取一些新的创作灵感和有趣的阅读材料。他打开AI助手，询问关于这些类别的最新热门榜单，希望AI能够推荐一些值得阅读和观看的作品。",
+      "expected_response": "\nAI应该首先确认王伟是否有特定的偏好，例如更喜欢哪一类作品（科幻小说、天文学书籍或影视作品），以及是否有具体的类型或主题倾向，例如宇宙探索、外星生命等。接着，AI应该利用联网搜索功能，查询最新的科幻小说、天文学书籍和相关影视作品的排行榜，并根据王伟的偏好进行个性化推荐。AI还应该提供每个推荐作品的简要介绍和评价，帮助王伟更好地做出选择。最后，AI可以询问王伟是否需要进一步的详细信息或直接提供购买或观看链接，以便他能够方便地获取这些资源。",
+      "scene_context": "王伟目前对以下几类作品感兴趣：\n1. 科幻小说\n2. 天文学书籍\n3. 影视作品\n\n具体的主题偏好包括：\n1. 宇宙探索\n2. 外星生命\n3. 太空旅行\n\n他希望AI助手能够提供这些类别中最新的热门榜单，并附上简要介绍和评价。",
+      "personalized_query": "嘿！刚忙完这次天文观测活动，挺有收获的。有点想找些新的科幻小说、天文学书籍或者影视作品来放松一下。能帮我推荐一些最近热门的作品吗？希望主题是关于宇宙探索、外星生命或者太空旅行的。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n能帮我推荐一些最近热门的科幻小说、天文学书籍或者影视作品吗？希望主题是关于宇宙探索、外星生命或者太空旅行的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "代码调试：作为物理系学生，_王伟可能需要编写和调试代码进行物理实验或数据分析，AI助手可以帮助他定位错误并提出解决方案。",
+      "available_apis": {
+        "codeAnalyze": {
+          "arguments": [
+            "code_snippet"
+          ],
+          "description": "Analyzes the given code snippet to detect bugs, errors, or issues."
+        },
+        "solutionSuggest": {
+          "arguments": [
+            "errors"
+          ],
+          "description": "Provides suggestions and resources to fix the detected errors in the code."
+        }
+      },
+      "scene_desc": "王伟正在进行一个物理实验数据分析，但在编写和调试代码时遇到了问题。他希望AI助手能够帮助他快速定位错误并提出解决方案，以便他能够顺利完成实验报告。他已经尝试了几次自己解决，但问题依然存在，因此他非常希望能得到AI助手的帮助。",
+      "expected_response": "\n根据王伟的persona描述，他是一个充满好奇和热情的物理系学生，喜欢探讨新奇的科学问题并利用AI助手寻找灵感和解决方案。AI助手应该首先询问王伟是否可以提供出错的代码片段，并详细描述错误的表现形式。接着，AI应该利用`codeAnalyze` API来分析代码，定位错误或问题。如果发现错误后，AI应该通过`solutionSuggest` API提供相应的解决方案，并解释解决方案的思路和步骤。在这个过程中，AI助手应该保持互动性强的对话风格，鼓励王伟提出进一步的问题并提供补充信息，以确保问题得到全面解决。此外，AI可以提供一些与王伟的研究主题相关的额外资料或参考文献，帮助他在完成当前任务的同时拓展相关知识。",
+      "scene_context": "王伟正在编写的物理实验数据分析代码如下：\n\n```python\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# 读取数据文件\ndata = np.loadtxt('experiment_data.txt')\n\n# 数据处理\ntime = data[:, 0]\namplitude = data[:, 1]\n\n# 数据拟合\ndef model(t, a, b):\n    return a * np.exp(-b * t)\n\nfrom scipy.optimize import curve_fit\n\npopt, pcov = curve_fit(model, time, amplitude)\na, b = popt\n\n# 结果可视化\nplt.plot(time, amplitude, 'b-', label='Data')\nplt.plot(time, model(time, a, b), 'r-', label='Fit')\nplt.xlabel('Time')\nplt.ylabel('Amplitude')\nplt.legend()\nplt.show()\n\n# 计算残差\nresiduals = amplitude - model(time, a, b)\n```\n\n他遇到的问题是：在运行代码时，出现了`RuntimeError`，提示“Optimal parameters not found: Number of calls to function has reached maxfev = 800”。\n\n他希望AI助手能够帮助他快速找到问题的原因并提供解决方案。",
+      "personalized_query": "嘿，助手，我在调试一个物理实验数据分析的代码时遇到了问题。运行代码时，出现了“Optimal parameters not found: Number of calls to function has reached maxfev = 800”的错误。能帮我找找问题出在哪儿吗？还有解决方案吗？",
+      "neutralized_query": "<neutralized_query>\n我在调试一个数据分析的代码时遇到了“Optimal parameters not found: Number of calls to function has reached maxfev = 800”的错误。能帮我找找问题出在哪儿吗？还有解决方案吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：_王伟需要准备大学的物理考试，AI助手可以生成复习计划，提供考点总结和练习题。",
+      "available_apis": {
+        "generateStudyPlan": {
+          "arguments": [
+            "subject",
+            "time_frame"
+          ],
+          "description": "Generates a comprehensive study plan for the specified subject and time frame."
+        },
+        "provideStudyMaterials": {
+          "arguments": [
+            "subject"
+          ],
+          "description": "Provides study materials such as summarized key points, important concepts, and topics for the specified subject."
+        },
+        "generatePracticeQuestions": {
+          "arguments": [
+            "subject",
+            "difficulty_level"
+          ],
+          "description": "Generates practice questions for the specified subject and difficulty level to aid in exam preparation."
+        }
+      },
+      "scene_desc": "_王伟即将迎来大学的物理考试，他希望通过AI助手来生成一个全面的复习计划，提供考点总结和练习题。由于_王伟对前沿科学问题和探索宇宙奥秘有浓厚的兴趣，他希望复习过程能既科学严谨又充满趣味，以激发他的学习热情。此外，_王伟对视觉化的信息比较敏感，喜欢图文并茂的答案。因此，他希望通过与AI助手的互动，能动态调整复习计划，确保覆盖所有重要考点，并能获得各种不同难度的练习题来检测自己的掌握程度。",
+      "expected_response": "\n根据_王伟的persona描述，他是一个热爱天文学和科幻小说的大学物理系学生，比较外向，喜欢互动性强的对话。AI助手应该首先根据_王伟提供的考试时间和科目，生成一个详细的复习计划，并且该计划应该具有灵活性，以便_王伟可以根据自己的进度和需求进行调整。AI助手应该提供图文并茂的考点总结，帮助_王伟更直观地理解和记忆重要概念。接着，AI助手应该生成一系列不同难度的练习题，涵盖考试大纲中的所有重点，同时在发现_王伟有特别感兴趣的前沿科学问题时，提供扩展阅读材料，激发他的学习热情。AI助手还应该鼓励_王伟提出开放性问题，以便提供多样化的视角和补充信息。最终，AI助手应该确保_王伟的复习过程严谨而有趣，帮助他自信地应对即将到来的考试。",
+      "scene_context": "王伟的物理考试时间为三周后，主要涉及的考试内容包括经典力学、电磁学和量子力学。他希望AI助手能根据以下具体需求生成复习计划：\n\n1. 经典力学：\n   - 重点考点：牛顿运动定律、动量和能量守恒、刚体转动、万有引力定律。\n   - 练习题：简单的单选题、填空题以及较复杂的计算题。\n\n2. 电磁学：\n   - 重点考点：库仑定律、电场和磁场的基本概念、高斯定律、安培定律、法拉第电磁感应定律。\n   - 练习题：概念性的选择题和结合公式的计算题。\n\n3. 量子力学：\n   - 重点考点：波粒二象性、薛定谔方程、量子态和叠加原理、测不准原理。\n   - 练习题：基础概念题和部分计算题。\n\n此外，王伟对前沿科学问题如黑洞和引力波特别感兴趣，希望AI助手能推荐一些相关的扩展阅读资料。他喜欢图文并茂的解释方式，因此希望考点总结能包含示意图、公式图解和实际应用例子。",
+      "personalized_query": "嘿，最近要准备物理考试了，需要点帮忙。能帮我生成一个全面的复习计划吗？主要考经典力学、电磁学和量子力学这三部分。希望能有重点考点总结和一些练习题，不同难度的那种。还有啊，最好是图文并茂的。可以吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一个全面的物理考试复习计划，包含经典力学、电磁学和量子力学的重点考点总结和不同难度的练习题，并且最好是图文并茂的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：_王伟即将毕业，需要优化简历内容，突出他在天文学和物理学领域的经验和技能，以便申请相关的工作或研究项目。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "王伟即将从广州的物理系毕业，他计划申请与天文学和物理学相关的工作或研究项目。因此，他需要优化他的简历，突出他在天文学和物理学领域的经验和技能。作为一个对宇宙奥秘充满好奇、热衷于参加天文观测活动的大学生，王伟希望他的简历能突出他的兴趣和相关经验。同时，王伟对价格比较敏感，因此他希望能够找到免费或低成本的简历优化资源和工具。",
+      "expected_response": "\n根据王伟的persona描述，AI应该首先确认他目前简历的具体内容，并询问他希望特别突出的经验和技能。接着，AI应该利用webSearch功能搜索相关领域的简历模板和优化建议，帮助王伟找到适合的资源。AI还应提议王伟在简历中添加具体的天文观测活动和他在科幻小说讨论会中的组织或参与经历。最后，AI应该提供一些免费的在线简历优化工具，并询问王伟是否需要帮助生成一份新的简历草稿或直接优化现有的简历。AI可以通过以下几个步骤来实现这一预期：\n\n1. 确认王伟的简历内容和希望突出的经验和技能。\n2. 使用webSearch功能搜索相关的简历模板和优化建议。\n3. 提议添加与天文学和科幻相关的具体经历。\n4. 提供免费或低成本的在线简历优化工具。\n5. 询问是否需要帮助生成或优化简历草稿。\n\n这样，AI能通过充分考虑王伟的需求和个性化偏好，提供精准且实用的简历优化建议。",
+      "scene_context": "王伟目前的简历内容包括：\n1. 教育背景：广州物理系本科，主修物理学，辅修天文学。\n2. 实习经历：在天文台担任实习研究员，参与观测和数据分析工作。\n3. 项目经验：参与大学的天文观测活动，组织并主导研究小组。\n4. 技能：精通Python编程，熟悉天文数据分析软件（如Astropy），具备良好的团队合作能力。\n5. 兴趣爱好：热衷于科幻小说，与朋友组织了科幻小说讨论会。\n\n希望特别突出的经验和技能：\n1. 天文台实习经历，特别是具体的观测和数据分析项目。\n2. 参与和组织天文观测活动的经验。\n3. 编程和数据分析技能。",
+      "personalized_query": "嘿，最近我在改我的简历，打算申请一些跟天文学和物理学相关的工作或研究项目。你能帮我优化一下我的简历吗？我想在简历中突出我的天文台实习经历、天文观测活动的组织经验，还有编程和数据分析的技能。最好还能帮我找一些免费的简历优化资源或工具。",
+      "neutralized_query": "<neutralized_query>\n我需要优化我的简历，以便申请天文学和物理学相关的工作或研究项目。请帮助我突出相关实习经历、活动组织经验，以及编程和数据分析技能。另外，能否推荐一些免费的简历优化资源或工具？\n"
+    },
+    {
+      "scene_type": "购物建议：_王伟喜欢购买与天文学和科幻相关的书籍和设备，AI助手可以根据他的需求推荐合适的商品，并提供购买链接。",
+      "available_apis": {
+        "queryProducts": {
+          "arguments": [
+            "keywords"
+          ],
+          "description": "Searches for products related to the given keywords and returns a list of relevant items with purchase links."
+        }
+      },
+      "scene_desc": "王伟刚刚浏览了一篇关于最新天文学发现的文章，他对文中提到的某些先进观测设备产生了浓厚的兴趣。他决定购买一些天文学相关的书籍和设备，以便深入研究。他打开AI助手，希望能得到一些合适的购物建议。AI助手需要根据王伟的购买习惯、阅读和听歌历史，推荐与天文学和科幻相关的书籍和设备，并提供购买链接。",
+      "expected_response": "\nAI助手首先会访问王伟的用户偏好和历史记录，了解他最近浏览和购买的书籍及设备。然后，AI会询问王伟当前的具体需求，比如是否有特定的书籍或设备名称，或是某个预算范围。接着，AI应该利用检索API查询相关商品，并推荐一些具有高评价和符合王伟兴趣的选项。为了确保推荐的内容正中王伟的下怀，AI助手会将推荐列表图文并茂地呈现，并提供每个商品的详细信息和购买链接。此外，AI助手可能会推荐一些相关的科幻小说或天文学书籍，以激发王伟更多的灵感。最后，AI会确认王伟是否需要进一步的帮助，如比较商品或提供折扣信息，以确保购物体验的顺利进行。",
+      "scene_context": "王伟最近浏览和购买的书籍包括：\n1. 《宇宙的奥秘：探索天文学的前沿》\n2. 《银河帝国：基地》\n3. 《黑洞与时间弯曲》\n\n他最近感兴趣的设备有：\n1. 高精度天文望远镜\n2. 天文摄影仪器\n3. 星空投影仪\n\n王伟希望购买一些与天文学相关的书籍和设备，同时他的预算范围是3000元以内。",
+      "personalized_query": "嗨，我刚刚看了一篇关于最新天文学发现的文章，里面提到了一些很先进的观测设备，特别是高精度天文望远镜和天文摄影仪器。我想买一些相关书籍和设备来深入研究一下。你能给我推荐一些好书和设备吗？我预算大概在3000元以内。",
+      "neutralized_query": "<neutralized_query>\n我想买一些关于天文学的书籍和观测设备，预算大概在3000元以内。你能给我推荐一些好书和设备吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "活动策划：李雪琴需要策划一个以民俗文化为主题的幼儿园活动，以帮助孩子们了解传统文化。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "generateEventPlan": {
+          "arguments": [
+            "theme",
+            "age_group",
+            "activities"
+          ],
+          "description": "Generates a detailed event plan based on the given theme, age group, and suggested activities."
+        },
+        "getCraftIdeas": {
+          "arguments": [
+            "theme",
+            "age_group"
+          ],
+          "description": "Fetches craft ideas suitable for the given theme and age group."
+        },
+        "sendInvitation": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional invitation email to the selected recipients, including details about the planned event."
+        }
+      },
+      "scene_desc": "李雪琴是一名热衷于儿童教育的幼儿园教师，她计划策划一个以民俗文化为主题的幼儿园活动，旨在帮助孩子们了解传统文化。她需要AI助手帮助设计详细的活动方案，包括安排适合幼儿的传统文化活动、准备手工艺环节、协调家长参与以及发送活动邀请。李雪琴希望活动能够生动有趣，吸引孩子们的注意力，并帮助他们学习和体验传统文化。",
+      "expected_response": "\n根据李雪琴的persona描述，她是一位重视细节和组织能力强的教师，AI应该能够提供多样化的活动方案，并确保所有环节都安排妥当。AI应该首先询问活动的具体主题和目标年龄段，然后建议几种适合的民俗文化活动，如传统故事讲述、民族舞蹈表演和传统手工艺制作。接着，AI应该通过搜索获取相关的手工艺创意，并提供详细的制作步骤和材料清单。同时，AI需要检查社区中心的场地可用性，确保活动时间和地点的安排合理。此外，AI应该生成并优化活动计划，包括时间安排和具体活动内容，并发送专业的活动邀请邮件给家长，确保他们了解活动细节和参与方式。最后，AI应该提供后续的活动提醒和总结，帮助李雪琴顺利执行并评估活动效果。",
+      "scene_context": "李雪琴需要策划的活动主题为：春节民俗文化。\n\n活动的目标年龄段为：3-6岁。\n\n需要安排的活动包括：\n1. 传统故事讲述（如《十二生肖的故事》）。\n2. 民族舞蹈表演（如简单的舞龙舞狮）。\n3. 传统手工艺制作（如剪纸、灯笼制作）。\n\n需要协调家长参与的环节：家长互动游戏、手工艺制作辅导。\n\n场地安排：幼儿园的多功能活动室。\n\n活动邀请的发送对象：每个孩子的家长。\n\n其他需要的信息包括：社区中心场地可用性，活动时间安排，材料清单，活动的详细步骤和准备工作提醒。",
+      "personalized_query": "嗨AI助手，我需要你的帮忙策划一个适合幼儿园小朋友的春节民俗文化主题活动。首先，我们需要一些有趣的传统文化活动来吸引孩子们的注意力，你可以帮我列个简单的活动清单吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你的帮忙策划一个适合幼儿园小朋友的春节民俗文化主题活动，并列出一些有趣的传统文化活动清单。\n</neutralized_query>"
+    }
+  ]
+}

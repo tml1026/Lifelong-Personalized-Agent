@@ -1,0 +1,244 @@
+{
+  "Demographics": {
+    "Age": 58,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "退休小学教师",
+    "Name": "张雨桐"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "S",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "园艺",
+      "烘焙",
+      "社区志愿活动",
+      "古典音乐",
+      "旅游"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常查找与园艺和烘焙相关的知识，有多个session关于社区活动和志愿服务的查询记录",
+    "Usage_Pattern": "使用频率适中，经常查询园艺技巧、烘焙配方和社区活动安排；经常需要AI助手提供详细的步骤和温馨提示。",
+    "Emotion_Pattern": "通常情绪稳定，有时对新技术感到好奇和兴奋",
+    "Purchase_Pattern": "偏好高质量的园艺工具和烘焙设备，喜欢购买对社区活动有帮助的物品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢温暖、有亲和力的回复风格，带有详尽的步骤说明和鼓励",
+    "Preferred_Formats": "None",
+    "Preferred_Workflows": "喜欢按部就班地完成任务，希望AI助手能够一步一步地引导"
+  },
+  "scenes": [
+    {
+      "scene_type": "园艺技巧：张雨桐喜欢园艺，经常需要查询种植、修剪和病虫害防治等园艺知识，并获取种植花卉和蔬菜的技巧。",
+      "available_apis": null,
+      "scene_desc": "张雨桐在一个阳光明媚的早晨，正在她的花园里修剪玫瑰花。她遇到了一些关于如何防治玫瑰病虫害的问题，并且希望了解更多关于种植新的蔬菜苗的技巧。她打开了终端上的AI助手，准备查询这些园艺知识。张雨桐对新技术很感兴趣，对AI助手充满了好奇和期待，希望能得到详细和温馨的指导。",
+      "expected_response": "\nAI应该首先表达对张雨桐花园的兴趣，并亲切地问她具体需要帮助的方面。然后，AI应该详细介绍如何有效地防治玫瑰的病虫害，包括常见病虫的识别和处理方法。同时，AI还应提供详细的步骤说明，包括适合的农药种类、使用方法和频率。另外，针对张雨桐希望种植新的蔬菜苗，AI应该提供适合她所在地区气候和季节的蔬菜种类建议，并且详细说明种植步骤，如土壤准备、播种深度、水肥管理和间苗方法。AI还可以提供一些温馨提示，如最佳种植时间和注意事项，确保张雨桐能顺利进行园艺活动。最后，AI可以鼓励张雨桐，如果有任何进一步的问题或者需要更多帮助，可以随时询问。\n",
+      "scene_context": "张雨桐需要查询的园艺知识包括：\n1. 玫瑰病虫害防治技巧：\n   - 常见病虫识别与处理方法\n   - 适合的农药种类、使用方法和频率\n2. 种植新的蔬菜苗的技巧：\n   - 适合她所在地区气候和季节的蔬菜种类建议\n   - 详细的种植步骤，如土壤准备、播种深度、水肥管理和间苗方法\n   - 最佳种植时间和注意事项",
+      "personalized_query": "早上好，花园里的玫瑰真漂亮！不过，这些玫瑰最近好像有些问题，有些叶子上出现了黑斑，我怀疑是病虫害。你能帮我查查如何防治玫瑰的病虫害吗？尤其是如何识别和处理这些常见的问题。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我查查如何防治玫瑰的病虫害，尤其是如何识别和处理这些常见的问题。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "烘焙配方：张雨桐热爱烘焙，常常需要查询并尝试新的烘焙配方，如面包、蛋糕和饼干的制作方法，并需要详细的步骤说明。",
+      "available_apis": null,
+      "scene_desc": "张雨桐退休后热爱烘焙，经常在家里尝试新配方。今天，她打算制作一种新的蛋糕，但她不太熟悉这个配方，希望AI助手能为她提供详细的步骤说明。她已经备好了基本的烘焙材料，并且希望AI能够一步一步地引导她完成制作，确保操作正确。",
+      "expected_response": "AI应该首先询问张雨桐想要尝试的具体蛋糕配方，并确认她是否已经准备好了所有必要的材料。接着，AI应该按照张雨桐的偏好，以温暖且有亲和力的语气，提供详细的步骤说明和温馨提示。AI也应该在每个关键步骤给予鼓励，并确保张雨桐清楚下一步的操作。同时，AI可以在必要时提供一些小技巧或常见问题的解决方案，以帮助她顺利完成蛋糕的制作。",
+      "scene_context": "张雨桐想要尝试的具体蛋糕配方是红丝绒蛋糕。她已经准备好了以下材料：面粉、糖、鸡蛋、黄油、牛奶、可可粉、红色食用色素、香草精、泡打粉、盐和奶油奶酪。她希望AI助手能够提供详细的步骤说明，包括如何调配材料、烤制时间和温度，以及如何制作和涂抹奶油奶酪霜。",
+      "personalized_query": "今天我想尝试做个红丝绒蛋糕，不过我对这个配方不太熟悉。可以请你详细地一步步教我该怎么做吗？我已经备好了面粉、糖、鸡蛋、黄油、牛奶、可可粉、红色食用色素、香草精、泡打粉、盐和奶油奶酪。",
+      "neutralized_query": "<neutralized_query>\n我想要一个红丝绒蛋糕的详细制作步骤。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社区志愿活动：张雨桐积极参与社区志愿活动，需要查询社区活动的安排、报名流程和相关详情，以及如何组织和参与这些活动。",
+      "available_apis": null,
+      "scene_desc": "张雨桐是一个充满热情的社区志愿者，她希望了解社区即将开展的志愿活动的详细安排和报名流程。她还想知道如何更好地组织和参与这些活动，以便能够更好地为社区服务。她刚刚听说社区将举办一个新的公益活动，想要了解更多细节并报名参与。",
+      "expected_response": "\n根据张雨桐的persona描述，AI应该能理解她对社区志愿活动的高度参与和热情。AI应该首先提供即将开展的社区志愿活动的详细信息，包括时间、地点和活动内容。接着，AI应详细说明报名流程，并提供直接报名的链接或方法。同时，AI可以提供一些关于如何组织和参与社区活动的技巧和建议，可能包括如何招募志愿者、安排活动日程等。AI还应该鼓励张雨桐继续参与，并提供温馨提示和激励，以增强她的参与感和满足感。最后，AI可能需要询问她是否需要额外的信息或帮助，确保她对活动安排和自己的参与都非常清楚和满意。",
+      "scene_context": "张雨桐需要获取社区即将举办的以下志愿活动的信息：\n1. 社区卫生清洁活动\n2. 老人关怀志愿服务\n3. 青少年辅导计划\n\n她需要了解每个活动的具体时间、地点、活动内容、报名流程，并且希望获取一些如何组织和参加这些活动的建议。",
+      "personalized_query": "你好，我听说社区要举办一个新的公益活动。我想了解一下具体有哪些志愿活动，比如社区卫生清洁、老人关怀志愿服务和青少年辅导计划的详细安排和报名流程。可以帮我查一下这些活动的具体时间、地点和内容吗？",
+      "neutralized_query": "<neutralized_query>\n我想了解一下社区新举办的公益活动的具体安排和报名流程，包括活动的时间、地点和内容。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：张雨桐喜欢旅游，需要查询目的地的天气、签证、货币兑换等相关信息，以便合理安排旅游行程。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Retrieves the current weather information for the specified travel destination."
+        },
+        "visaInfo": {
+          "arguments": [
+            "country"
+          ],
+          "description": "Provides visa requirement information for the specified country."
+        },
+        "currencyExchange": {
+          "arguments": [
+            "from_currency",
+            "to_currency"
+          ],
+          "description": "Retrieves the current exchange rate between the specified currencies."
+        }
+      },
+      "scene_desc": "张雨桐计划一次出国旅游，她需要了解目的地的天气情况、签证要求以及货币兑换信息。她希望这些信息能够帮助她合理安排旅游行程，确保旅途顺利。",
+      "expected_response": "\n根据张雨桐的persona描述，她是一个性格外向、注重细节和有条理的人，AI应该能迅速理解并响应她的需求。AI应该首先询问具体的旅游目的地和出发日期，以便获取准确的天气信息。接着，AI应该查询并提供该国家的签证要求和申请流程，确保她能够顺利入境。此外，AI还应查找并提供当前人民币兑换该国货币的汇率信息，并根据她的行程预算提供一些建议。为了让张雨桐感到安心，AI应该以温暖和有亲和力的方式提供这些信息，并鼓励她有什么其他问题随时询问。最后，AI可以提议张雨桐保存这些信息或将其发送到她的电子邮箱，以便在旅行过程中随时查看。",
+      "scene_context": "张雨桐计划去日本东京旅游，出发日期为2023年12月15日，返回日期为2023年12月25日。她需要查询的具体信息包括：\n1. 东京在12月15日至12月25日期间的天气预报。\n2. 中国公民前往日本的签证要求和申请流程。\n3. 人民币兑日元的当前汇率以及东京的主要货币兑换地点。",
+      "personalized_query": "我正在计划一次去日本东京的旅行。能帮我查查东京12月15日至25日的天气预报吗？",
+      "neutralized_query": "<neutralized_query>\n能帮我查查东京12月15日至25日的天气预报吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：张雨桐需要规划旅游行程，包括选择景点、路线和活动，确保旅行顺利且充实。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the given query on the web and return the most relevant response."
+        },
+        "routePlanner": {
+          "arguments": [
+            "starting_location",
+            "destination",
+            "preferences"
+          ],
+          "description": "Plan the best route from the starting location to the destination based on user preferences."
+        },
+        "bookingService": {
+          "arguments": [
+            "service_type",
+            "details"
+          ],
+          "description": "Book the specified service (e.g., hotel, car rental) based on the given details."
+        }
+      },
+      "scene_desc": "张雨桐是一位58岁的退休小学教师，性格开朗、喜欢与人交流。她热爱园艺、烘焙、社区志愿活动以及古典音乐，并且喜欢旅游。她经常使用AI助手来查询与这些兴趣相关的信息。这次，她计划进行一次文化之旅，希望能够拜访一些与古典音乐相关的景点，同时确保旅行过程顺利且充实。她需要AI助手帮助她规划行程，包括选择景点、设计路线和安排活动。",
+      "expected_response": "\n根据张雨桐的persona描述，AI应该首先询问张雨桐的旅游目的地和具体的时间安排。接着，AI应该根据她的兴趣特别是古典音乐，为她推荐一些与古典音乐相关的景点和活动。AI应该使用联网搜索功能找到这些景点的详细信息，包括位置、开放时间和门票信息。然后，AI应该利用路线规划功能为她设计一条最优路线，确保她能够顺利地拜访这些景点。AI还应帮助她预订相关的服务，如酒店和交通工具，并在过程中提供温馨提示和详细的步骤说明，确保她的旅游行程顺利且充实。此外，AI应提供天气预报、签证要求和货币兑换建议，以便她做好充分的准备。整个过程应该保持温暖和亲和力，以符合张雨桐的偏好，并一步一步地引导她完成所有必要的准备工作。",
+      "scene_context": "张雨桐计划的旅游目的地为维也纳，她的旅行时间安排是2023年10月15日至2023年10月22日。她希望拜访以下与古典音乐相关的景点：\n1. 维也纳音乐厅\n2. 维也纳国家歌剧院\n3. 莫扎特故居\n4. 约翰·施特劳斯博物馆\n\n她还希望体验一些文化活动，如观看一场交响音乐会和参观一场古典音乐展览。此外，她需要AI助手帮助她预订合适的酒店和交通工具，并提供天气预报、签证要求和货币兑换建议。",
+      "personalized_query": "你好，可以帮我规划一下我去维也纳的文化之旅吗？我希望能拜访一些与古典音乐相关的景点，并体验一些文化活动。此外，也需要帮我预订合适的酒店和交通工具。",
+      "neutralized_query": "<neutralized_query>\n你可以帮我规划一下去维也纳的文化之旅，包括拜访与古典音乐相关的景点，体验一些文化活动，并预订合适的酒店和交通工具吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "古典音乐推荐：张雨桐喜欢古典音乐，希望AI助手能够根据她的喜好推荐合适的古典音乐作品和演奏家。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "preferences"
+          ],
+          "description": "Gets the user's specific preferences for classical music (e.g., favorite composers, instruments, periods)."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张雨桐正在寻找新的古典音乐作品和演奏家。她最近对巴洛克时期的音乐产生了浓厚兴趣，尤其是巴赫的作品。她希望AI助手能够根据她的喜好，推荐一些巴洛克时期的经典作品，并介绍一些著名的演奏家和乐团。此外，张雨桐计划在社区组织一次古典音乐分享会，她希望AI助手能帮助她找到适合播放的音乐，并提供一些背景信息，以方便她在分享会上介绍这些作品。",
+      "expected_response": "AI助手应该首先确认张雨桐的具体喜好，例如她是否有特别喜欢的作曲家、乐器或演奏风格。接着，AI助手应该利用用户偏好API获取她的具体音乐偏好，然后通过网络搜索，推荐一些巴洛克时期的经典作品和著名演奏家。AI还应该提供这些作品的背景信息和演奏家的简历，以便张雨桐在社区分享会上使用。除此之外，AI助手应该询问她是否需要创建一个播放列表，并帮助她组织分享会的资料和流程，确保活动顺利进行。",
+      "scene_context": "张雨桐特别喜欢巴赫的作品，尤其是《勃兰登堡协奏曲》和《哥德堡变奏曲》。此外，她对巴洛克时期的其他作曲家如维瓦尔第和亨德尔也很感兴趣。她希望AI助手能够推荐一些经典的巴洛克作品，并且想了解著名的演奏家如古尔德和马友友的演奏版本。张雨桐计划在社区分享会上播放这些音乐，并且希望能够获得这些作品的历史背景和乐曲分析，以便在分享会上介绍。",
+      "personalized_query": "我最近对巴洛克音乐特别感兴趣，尤其是巴赫的作品。可以帮我推荐几首经典的巴洛克作品吗？最好能介绍一下这些作品的背景和一些著名演奏家的版本。",
+      "neutralized_query": "<neutralized_query>\n可以帮我推荐几首经典的巴洛克音乐作品，并介绍一下这些作品的背景和一些著名演奏家的版本吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "食谱推荐：张雨桐在烘焙之外也喜欢尝试新的菜肴，希望得到不同类型和风味的食谱推荐。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "张雨桐今天在浏览烘焙网站时，突然想尝试一些新的菜肴。她希望AI助手能推荐一些不同类型和风味的食谱，她特别感兴趣的是那些能够用现有的食材简单制作的家庭菜肴。由于张雨桐喜欢按部就班地完成任务，她希望AI能够提供详细的步骤说明，并且最好能带有一些温馨提示，帮助她顺利完成烹饪。另外，张雨桐对风味多样性有一定的要求，希望AI能够推荐一些特色菜肴，包括但不限于中式、西式和东南亚风味的食谱。",
+      "expected_response": "\nAI应该首先询问张雨桐是否有特定的食材或风味偏好，以便更精准地推荐适合她口味的菜谱。接着，AI应该利用联网搜索功能，查找和筛选不同类型和风味的食谱。在找到合适的食谱后，AI应详细列出每道菜的制作步骤，并附上温馨提示，如具体的火候控制和调味技巧，确保张雨桐能够按部就班地完成每一步。最后，AI应该鼓励她，并询问是否需要进一步的帮助或有任何问题需要解答。这种亲切且有条理的引导方式符合张雨桐喜欢温暖、有亲和力回复风格的偏好。",
+      "scene_context": "张雨桐目前有的食材包括：鸡胸肉、青椒、洋葱、番茄、鸡蛋、面粉和虾仁。她对中式、西式和东南亚风味的菜肴感兴趣，特别希望尝试一些能够用这些食材简单制作的家庭菜肴。",
+      "personalized_query": "你好，我想试试做些新的菜肴，你能推荐一些用鸡胸肉、青椒、洋葱、番茄、鸡蛋、面粉和虾仁这些现有食材就能做的简单家庭菜吗？希望有中式、西式和东南亚风味的菜肴推荐哦。麻烦你提供详细的步骤和一些温馨提示，谢谢！",
+      "neutralized_query": "<neutralized_query>\n我想试试用鸡胸肉、青椒、洋葱、番茄、鸡蛋、面粉和虾仁这些食材做些新的简单家庭菜。你能推荐一些中式、西式和东南亚风味的菜肴，并提供详细的步骤和一些温馨提示吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：张雨桐需要购买高质量的园艺工具和烘焙设备，希望AI助手推荐合适的产品，并提供购买链接。",
+      "available_apis": {
+        "productSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search for high-quality gardening tools and baking equipment based on the given query and return the most relevant products with purchase links."
+        }
+      },
+      "scene_desc": "张雨桐最近发现她的园艺工具和烘焙设备有些老旧，需要购买新的高质量产品。她希望AI助手能够推荐几款性价比高的园艺工具和烘焙设备，并提供购买链接。张雨桐尤其注重工具和设备的质量和用户评价，她希望这些新设备能更好地服务于她的园艺和烘焙爱好，同时也能在社区活动中为邻居们提供更好的体验。",
+      "expected_response": "\n根据张雨桐的persona描述，她是一位喜欢按部就班完成任务且注重高质量产品的退休小学教师。AI助手应该首先询问她具体需要购买的园艺工具和烘焙设备种类，然后利用联网搜索功能查找用户评价好且质量高的产品。AI助手应该提供详细的产品信息，包括质量、用户评价和价格，并推荐多种选择以供她比较。接着，AI助手应提供各个推荐产品的购买链接，以及简明扼要的购物指南，确保张雨桐能够方便快捷地找到适合她需求的产品。最后，AI助手应该以温暖、有亲和力的回复风格，鼓励张雨桐在购买后联系AI助手获取更多使用技巧和建议。",
+      "scene_context": "张雨桐需要购买的具体园艺工具包括：\n1. 剪枝剪\n2. 园艺手套\n3. 浇水壶\n\n她需要购买的具体烘焙设备包括：\n1. 电动搅拌机\n2. 烤箱温度计\n3. 硅胶烤盘",
+      "personalized_query": "最近我的园艺工具和烘焙设备有些老旧了，我想买一些新的高质量产品。你能推荐几款性价比高的剪枝剪和电动搅拌机吗？最好能提供购买链接和一些用户评价。",
+      "neutralized_query": "<neutralized_query>\n我想购买几款高质量的剪枝剪和电动搅拌机，你能推荐性价比高的产品并提供购买链接和用户评价吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "预算管理：张雨桐需要管理退休后的预算，跟踪支出，并希望AI助手提供节省建议，确保财务健康。",
+      "available_apis": {
+        "fetchFinancialData": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the current financial data of the user including bank accounts, credit card transactions, and other relevant financial information."
+        },
+        "generateExpenseReport": {
+          "arguments": [
+            "financial_data"
+          ],
+          "description": "Generates a detailed expense report based on the user's financial data."
+        },
+        "provideSavingsSuggestions": {
+          "arguments": [
+            "expense_report"
+          ],
+          "description": "Provides specific suggestions on how to save money based on the expense report."
+        },
+        "financialHealthCheck": {
+          "arguments": [
+            "financial_data"
+          ],
+          "description": "Performs a financial health check to ensure the user's budget is on track and suggests adjustments if necessary."
+        }
+      },
+      "scene_desc": "张雨桐是一名58岁的退休小学教师，她热爱园艺、烘焙以及参与社区志愿活动。她的性格外向，善于感知和判断，倾向于情感上的共鸣。她通常对新技术感到好奇和兴奋，但也希望AI助手能提供详细的步骤和温馨提示。在预算管理方面，张雨桐希望跟踪自己的支出，并获得节省建议，以确保财务健康。\n\n今天，张雨桐决定利用AI助手来帮助她管理退休后的预算。她需要AI助手帮助她跟踪支出、生成详细的预算报告，并提供节省建议。",
+      "expected_response": "根据张雨桐的persona，AI助手应该首先温暖地问候她，并询问是否需要帮助她管理预算和跟踪支出。AI助手应该主动提示她连接银行账户和信用卡以获取最新的财务数据。\n\n接下来，AI助手应提示张雨桐生成一个详细的支出报告，并耐心解释如何查看和理解这些数据。AI助手还应提供一些实用的节省建议，例如减少不必要的订单或寻找更经济的购物选择。\n\nAI助手还应询问张雨桐是否希望进行财务健康检查，以确保她的预算和支出在合理的范围内，并在必要时提供调整建议。整个过程应当体现亲和力和鼓励，使张雨桐感到被支持和指导。",
+      "scene_context": "张雨桐当前的月收入为：5000人民币（退休金和兼职收入）\n最近三个月的主要支出项目和金额如下：\n1. 生活用品：1500人民币/月\n2. 医疗费用：800人民币/月\n3. 娱乐活动（如园艺、烘焙材料）：600人民币/月\n4. 水电煤气等公用事业费：400人民币/月\n5. 杂费（如交通、通讯等）：300人民币/月\n\n张雨桐希望AI助手帮助她：\n1. 跟踪每个月的支出并生成预算报告。\n2. 提供节省支出的建议，例如如何减少生活用品和娱乐活动的费用。\n3. 建议一些经济实惠的购物选择和社区活动。\n\n张雨桐已经准备好连接她的主银行账户和两张信用卡，期待AI助手能提供详细的操作步骤。",
+      "personalized_query": "你好，我最近想管理一下我的退休预算。你能帮我跟踪每个月的支出并生成预算报告吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我跟踪每个月的支出并生成预算报告。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "园艺课程设计：张雨桐在社区活动中，受邀设计并讲授一堂关于植物养护的园艺课程。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        },
+        "createPresentation": {
+          "arguments": [
+            "content",
+            "template"
+          ],
+          "description": "Creates a presentation based on the given content and template."
+        },
+        "sendInvitations": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "message"
+          ],
+          "description": "Sends invitations to the specified recipients with the given subject and message."
+        }
+      },
+      "scene_desc": "张雨桐近期被邀请在社区活动中设计并讲授一堂关于植物养护的园艺课程。作为一名热爱园艺和社区活动的退休小学教师，她希望课程能够帮助社区成员更好地了解和掌握植物养护技巧。她需要AI助手协助她查找相关的园艺知识，设计课程内容并制作教学PPT，同时安排和邀请社区成员参加这次课程。",
+      "expected_response": "\n根据张雨桐的persona描述，她喜欢温暖、有亲和力的回复风格，并且希望AI助手能够提供详细的步骤说明和鼓励。AI助手应该首先确认她的课程设计需求，询问她是否有具体的主题或内容偏好。接着，AI可以通过网络搜索帮助她查找有关植物养护的最新资料和教学内容。然后，AI助手可以提供一个模板，并帮助她基于搜集的资料制作详细的教学PPT。AI还应询问她希望邀请哪些社区成员，并协助发送邀请邮件。最后，AI可以提供温馨提示，确保所有准备工作都已完成，并鼓励她在活动中取得成功。",
+      "scene_context": "张雨桐希望设计的园艺课程的主题包括：如何选择适合的植物、植物的浇水和施肥技巧、病虫害防治以及盆栽植物的修剪和移植。具体内容需要涵盖以下几点：\n1. 植物选择：介绍几种适合社区环境的易养植物，如绿萝、虎尾兰和芦荟。\n2. 浇水和施肥：分享不同植物的浇水频率和施肥方法。\n3. 病虫害防治：常见病虫害的识别和处理方法。\n4. 修剪和移植：盆栽植物的修剪技巧和移植步骤。\n\n张雨桐希望课程内容能易于理解，并且包含丰富的图片和示例。她还需要一个结构化的PPT模板来展示这些内容。她打算邀请社区内对园艺感兴趣的成员以及社区中的年轻人和老人一同参加课程。",
+      "personalized_query": "你好，我最近需要在社区活动中设计并讲授一堂关于植物养护的园艺课程。我想从如何选择适合的植物、植物的浇水和施肥技巧、病虫害防治以及盆栽植物的修剪和移植等方面来讲解。你能帮我查找相关的园艺知识，设计课程内容并制作教学PPT吗？另外，还要帮我安排和邀请社区成员参加这次课程。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要你帮忙设计并讲授一堂关于植物养护的园艺课程，覆盖如何选择植物、浇水和施肥技巧、病虫害防治，以及盆栽植物的修剪和移植等方面的内容。另外，还需要查找相关的园艺知识，制作教学PPT，并安排和邀请社区成员参加课程。谢谢！\n</neutralized_query>"
+    }
+  ]
+}

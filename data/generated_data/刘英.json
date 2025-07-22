@@ -1,0 +1,254 @@
+{
+  "Demographics": {
+    "Age": 28,
+    "Gender": "男",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "历史学博士研究生，专攻古代军事史",
+    "Name": "刘英"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "T",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "喜欢独立思考和深度研究",
+      "对冷门话题有着强烈的热情",
+      "享受与志同道合者分享和讨论",
+      "拥有探索未知的好奇心，喜欢挑战传统观点"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于深入搜索信息，喜欢获取具有深度分析和学术价值的内容",
+    "Usage_Pattern": "经常使用AI来协助进行数据分析和文献整理，有时会询问关于算法优化的问题",
+    "Emotion_Pattern": "会保持理性和客观，避免情感干扰决策",
+    "Purchase_Pattern": "偏好购买科技和学术书籍，购物时注重实用性和长期价值"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细和结构化的解答，尤其是带有数据支持和参考文献的说明",
+    "Preferred_Formats": "长篇详细的文字和图表形式的解答",
+    "Preferred_Workflows": "喜欢系统化和有条理的解决方案，从根本上解决问题，避免表面处理"
+  },
+  "scenes": [
+    {
+      "scene_type": "文档编辑：刘英需要撰写和修改学术论文、研究报告和项目文档，确保内容结构严谨、逻辑清晰。",
+      "available_apis": null,
+      "scene_desc": "刘英正在撰写一篇关于古代军事史的学术论文。他需要确保论文内容结构严谨、逻辑清晰，引用的文献准确，并且每个章节都有详细的数据支持和学术参考文献。刘英希望AI能帮助他进行文献整理、数据分析，并提供一些高质量的参考资料和模板。",
+      "expected_response": "根据刘英的persona描述，AI应该首先询问他的具体需求，如需要整理哪些方面的文献，或者是否有特定的章节需要特别注意。接着，AI应该能够通过联网搜索功能和专门的学术数据库检索，快速找到与古代军事史相关的高质量学术论文和资料。AI还应提供详细的数据分析工具，帮助刘英对收集到的数据进行深入分析，并生成结构化的图表和报表。此外，AI应该能提供学术论文写作的模板和格式建议，以确保刘英的论文结构严谨、逻辑清晰。最后，AI应该根据刘英的反馈，不断调整和优化提供的内容，确保最大程度地满足他的学术需求。",
+      "scene_context": "刘英需要撰写的论文题目为：古代中国军事战略的演变。他需要特别关注以下几个方面：\n1. 各个朝代的军事战略及其变化。\n2. 关键战役和军事人物的详细分析。\n3. 古代军事技术和器械的发展。\n刘英希望AI能够整理相关的文献，包括以下几本书和文章：\n- 《孙子兵法》\n- 《汉书》\n- 一篇关于秦始皇军事改革的学术文章（需通过学术数据库检索）\n此外，刘英需要AI提供数据分析工具，用于分析各个朝代的战役数据，并生成柱状图和饼状图，以便清晰地展示数据。同时，刘英希望AI能提供一个符合学术论文标准的模板，以确保他的论文排版和格式正确。",
+      "personalized_query": "我最近在撰写一篇关于古代中国军事战略演变的学术论文。为了确保论文内容结构严谨、逻辑清晰，引用的文献准确，我需要你协助我进行一些文献整理和数据分析。\n\n首先，我希望你帮我整理《孙子兵法》和《汉书》中的相关军事战略部分的文献。能否提供一个列表，包括这两部著作中涉及军事战略的章节和相关的学者评论？\n\n另外，我需要检索一篇关于秦始皇军事改革的学术文章，这应该可以通过学术数据库找到。\n\n请你先帮我完成这个文献整理工作。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我整理一些关于古代中国军事战略的文献，并进行相关数据分析。能否提供一份包含《孙子兵法》和《汉书》中涉及军事战略章节及相关学者评论的列表？另外，我还需要检索一篇关于古代军事改革的学术文章。请先完成这个文献整理工作。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：刘英经常需要与导师、同行和学术机构进行邮件沟通，撰写专业且正式的电子邮件。",
+      "available_apis": null,
+      "scene_desc": "刘英是一位28岁的历史学博士研究生，专攻古代军事史。他经常需要与导师、同行和学术机构进行邮件沟通，撰写专业且正式的电子邮件。今天刘英需要给他的导师发一封邮件，汇报他最近的研究进展，并且希望能够安排一次面对面的会议，进一步讨论研究方向和下一步计划。刘英希望邮件内容结构严谨、逻辑清晰，并附上相关的研究数据和文献引用，显示出他的独立思考和深度研究能力。",
+      "expected_response": "\n根据刘英的persona特点，AI应该会首先询问刘英是否有具体的研究数据或文献需要附加到邮件中。接着，AI会建议一个合理的邮件结构，包括问候语、研究进展概述、详细的数据分析和文献引用、以及会议安排的请求。AI应该提供选项让刘英选择是否需要对邮件中的每个部分进行详细检查和修改。AI还会建议一个正式且专业的邮件格式，并询问刘英是否需要检查导师的日程以安排合适的会议时间。最后，AI应该生成一个专业的邮件草稿，供刘英确认和发送。",
+      "scene_context": "刘英的具体研究进展包括：他最近分析了秦朝长城的军事防御体系，发现了多处未被之前研究注意到的战略要点，并通过地理信息系统（GIS）绘制了详细的防御地图。他的研究数据包括一些新的考古发现和相关文献：\n\n1. 分析的长城防御体系地图（GIS绘制）\n2. 新发现的考古数据和图片\n3. 相关文献引用，包括《长城防御战略新探》及其相关引用页码\n\n刘英希望邮件包括以下内容：\n\n1. 问候语\n2. 研究进展概述\n3. 详细的数据分析和相关文献引用\n4. 会议安排的请求\n\n邮件应以以下格式呈现：\n\n```\n尊敬的[导师姓名]教授，\n\n您好！\n\n我希望向您汇报我在秦朝长城军事防御体系研究上的最新进展。最近，我通过地理信息系统（GIS）绘制了包含战略要点的详细地图，并发现了多处之前未被注意到的防御节点。\n\n研究进展概述：\n1. 通过GIS绘制的长城防御体系地图\n2. 新的考古发现和图片\n3. 引用文献：《长城防御战略新探》及其相关引用页码\n\n为了更深入地讨论研究方向和下一步计划，我希望能够安排一次面对面的会议。请让我知道您的可行时间。\n\n感谢您的指导和支持！\n\n此致\n敬礼！\n\n刘英\n```",
+      "personalized_query": "嗨，我需要给导师发一封邮件，汇报我最近研究秦朝长城防御体系的进展，并请求安排一次面对面的会议。需要把内容结构化，有条理并附带相关的数据和文献引用。你能帮我写一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要撰写一封邮件，汇报最近的研究进展，并请求安排一次面对面的会议。邮件需要结构化，有条理并附带相关的数据和文献引用。你能帮我写一下吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "考试复习：刘英作为博士研究生，需要制定复习计划、总结考点和进行练习题，以准备课程考试和资格考试。",
+      "available_apis": null,
+      "scene_desc": "刘英作为一名历史学博士研究生，需要为即将到来的课程考试和资格考试制定复习计划。他希望AI助手能够帮助他系统性地总结考点，提供相关的练习题，并建立一个详细的复习时间表，以确保复习的全面性和有效性。此外，他可能需要AI提供一些重要的参考文献和学术资源，以支持他的复习过程。",
+      "expected_response": "\n根据刘英的persona，AI应该首先询问他即将参加的考试科目和具体的考试日期。接着，AI应该帮助他制定一个详细的复习计划，包括每天的复习内容和时间安排。AI还应该提供与刘英的研究方向相关的考点总结，可能涉及冷门但重要的古代军事史知识点，并推荐一些高质量的学术资源供他参考。AI还应提供相应的练习题，并安排定期的自测以评估复习效果。此外，AI应该注意提供系统化和结构化的解决方案，确保所有内容都严谨且有逻辑地呈现，并随时更新复习进度和调整计划以适应刘英的需求。\n",
+      "scene_context": "刘英即将参加的考试科目为：古代军事史、现代史研究方法和历史文献研究。具体的考试日期分别为：古代军事史在10月15日，现代史研究方法在10月20日，历史文献研究在10月25日。他希望AI助手能够帮助他在这三个科目上制定详细的复习计划，包含每天的复习内容和时间安排。此外，他还希望AI能够提供相关考点总结、练习题和重要的参考文献与学术资源。",
+      "personalized_query": "我需要制定一个复习计划，有三个科目分别是古代军事史、现代史研究方法和历史文献研究。你能帮我系统总结考点、提供相关练习题并建立一个详细的复习时间表吗？",
+      "neutralized_query": "<neutralized_query>\n我需要制定一个复习计划。你能帮我系统总结考点、提供相关练习题并建立一个详细的复习时间表吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：刘英会通过对话获取更多与古代军事史相关的文献和研究材料，深化自己的研究内容。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "retrieveAcademicPapers": {
+          "arguments": [
+            "keywords"
+          ],
+          "description": "Retrieve academic papers from scholarly databases based on the given keywords."
+        },
+        "provideResourceLinks": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Provide links to relevant resources such as online libraries, research institution websites, etc."
+        }
+      },
+      "scene_desc": "刘英正在深入研究古代军事史，尤其对某个特定时期的战略和战术感兴趣。他希望通过AI助手来获取更多相关的学术文献和研究材料，以便能更全面地理解该时期的军事动态和历史背景。刘英通常会优先查询学术价值较高的文献，并对数据和信息做深度分析。他希望AI能帮助他找到最新的研究成果、重要的历史文献及相关的学术讨论，同时提供相关的参考资料和数据支持。",
+      "expected_response": "\n根据刘英的人设，AI应该首先确认他具体关注的是哪个时期或战役，以便能更精准地提供相关资料。接着，AI应该利用“retrieveAcademicPapers” API来搜索和获取相关的学术论文，并利用“provideResourceLinks” API提供相关的在线资源链接，如图书馆、研究机构网站等。AI还应该提供简明扼要的文献摘要，帮助刘英快速了解文献内容。同时，AI应推荐一些具有深度分析的文章和研究报告，并附带相关的数据和参考文献，以满足刘英对详细和结构化解答的偏好。最后，AI可以建议刘英一些相关的学术讨论或论坛，方便他与其他研究者交流讨论。",
+      "scene_context": "刘英正在研究的古代军事史特定时期为：三国时期的赤壁之战。他希望获取以下内容：\n1. 与赤壁之战相关的最新学术论文和研究成果。\n2. 重要的历史文献，例如《三国志》、《资治通鉴》中关于赤壁之战的记载。\n3. 相关的学术讨论和论坛链接。",
+      "personalized_query": "我最近在深入研究三国时期的赤壁之战，目前需要一些相关的最新学术论文和研究成果。能帮我搜集一下这方面的文献资料吗？",
+      "neutralized_query": "<neutralized_query>\n我需要关于三国时期赤壁之战的最新学术论文和研究成果。\n"
+    },
+    {
+      "scene_type": "预算管理：刘英需要管理研究经费，合理分配预算，确保资金用于最需要的地方，如书籍购买、研究材料和出差费用。",
+      "available_apis": {
+        "budgetAllocation": {
+          "arguments": [
+            "total_budget",
+            "categories"
+          ],
+          "description": "Allocates the given total budget to specified categories such as books, research materials, and travel expenses."
+        },
+        "expenseTracking": {
+          "arguments": [
+            "category",
+            "amount"
+          ],
+          "description": "Tracks expenses for each category to ensure that spending stays within the allocated budget."
+        },
+        "remainingBudgetCheck": {
+          "arguments": [
+            "category"
+          ],
+          "description": "Checks the remaining budget for a specified category."
+        }
+      },
+      "scene_desc": "刘英是一位28岁的中国男博士研究生，专攻古代军事史。他有管理研究经费的需求，确保资金用于最需要的地方，如书籍购买、研究材料和出差费用。刘英的研究工作需要大量的学术书籍和文献资源，他还需要经常参加学术会议，这些都是重要的预算项目。刘英喜欢系统化和有条理的解决方案，注重实用性和长期价值。",
+      "expected_response": "\n根据刘英的persona，AI应该首先询问总预算金额，然后询问具体的预算项目和每个项目的重要性和优先级。AI可以通过预算分配API将总预算合理分配到各个项目（书籍购买、研究材料、出差费用等）。接着，AI应该使用费用跟踪API来记录每个项目的支出，并定期检查各项目的剩余预算，以确保总支出在合理范围内。AI还应提供详细的预算报告，以便刘英可以按需进行调整。此外，AI应提供长篇详细的文字解释和图表形式的分析，以满足刘英对详细和结构化解答的偏好。",
+      "scene_context": "刘英的总预算金额为：30,000元。具体的预算项目包括：\n1. 书籍购买：10,000元\n2. 研究材料：12,000元\n3. 出差费用：8,000元\n\n他需要AI助手帮助他管理这些预算，确保每个项目的资金使用合理，并提供详细的预算报告和图表分析。",
+      "personalized_query": "你好，最近我需要对我的研究经费进行管理，确保资金用在最需要的地方。可以帮我做一个书籍购买、研究材料和出差费用的预算管理吗？我需要确保每个项目的资金使用合理，并且希望能有详细的预算报告和图表分析。",
+      "neutralized_query": "<neutralized_query>\n我需要对研究经费进行管理，确保资金用在最需要的地方。可以帮我做一个书籍购买、研究材料和出差费用的预算管理吗？需要确保每个项目的资金使用合理，并希望能有详细的预算报告和图表分析。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "职业建议：刘英可能会考虑未来的职业发展方向，如进入学术界或博物馆等机构，因此需要职业建议和机会信息。",
+      "available_apis": {
+        "getUserProfile": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's background information and interests."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "刘英正在考虑未来的职业发展方向。他对进入学术界或博物馆等机构感兴趣，但需要更多的建议和机会信息来做出决定。刘英习惯于做出理性且基于数据的决策，他希望AI能提供有深度分析和学术价值的建议，而不是一般性的职业建议。同时，他可能会希望获取相关领域的最新研究机会、职位空缺信息以及这些职位的具体要求。他还可能对学术界和博物馆的职业发展路径、可能遇到的挑战和成功案例感兴趣。\n\n刘英决定使用AI助手来获取这些信息。他期望AI能提供详细且结构化的解答，并附带学术资源和参考文献。",
+      "expected_response": "\n根据刘英的persona，AI应该会先询问刘英的具体兴趣领域和目标，以便提供更有针对性的建议。AI可能会使用职业发展相关的API，通过联网搜索获取最新的学术界和博物馆职位空缺信息，并提供这些职位的详细要求和申请流程。AI应该提供深度分析，解释各个职业路径的优缺点，可能的发展前景以及所需的技能和资格。\n\n此外，AI可能会利用学术资源API，检索相关的学术研究机会、新的研究项目以及研究资助信息，并提供这些资源的链接和参考文献。AI还应推荐阅读一些成功案例和职业规划指南，以帮助刘英更全面地了解自己的职业选择。\n\n整个应答过程中，AI会保持结构化和系统化的解答方式，确保每一个步骤都紧密围绕刘英的具体需求，并提供详细的数据支持和参考文献。",
+      "scene_context": "刘英目前对以下具体领域感兴趣：博物馆的文物修复、学术界的文化遗产研究和历史学。他希望了解在这些领域的最新职位空缺、研究机会和职业发展路径。同时，他关注这些职位的具体要求、可能的职业挑战和成功案例。",
+      "personalized_query": "我正在考虑未来的职业发展方向，尤其是对进入学术界或博物馆等机构感兴趣。你能帮我找到一些最新的研究机会、职位空缺，以及这些领域的具体要求吗？尤其是关于博物馆的文物修复和学术界的文化遗产研究和历史学领域的。",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我找到进入学术界或博物馆等机构的最新研究机会、职位空缺，以及这些领域的具体要求。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：刘英需要准备学术会议或求职面试的问题，并进行模拟面试练习，以提升面试表现。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "mockInterview": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Simulate an interview by presenting questions to the user and recording their responses."
+        }
+      },
+      "scene_desc": "刘英即将参加一个重要的学术会议或求职面试，他需要准备潜在的问题，并进行模拟面试练习，以提升面试表现。由于刘英是一个历史学博士研究生，专攻古代军事史，因此他希望AI能提供相关的面试问题和背景资料，并进行模拟问答的练习。他也希望能够获取一些与此相关的学术资源和文献，以便更好地准备回答复杂和深度的问题。",
+      "expected_response": "根据刘英的persona描述，AI应该首先理解他需要准备的面试的具体背景，是学术会议还是求职面试。接着，AI应该通过联网搜索和学术文献检索功能，提供与古代军事史相关的典型面试问题和答案。AI还应该进行模拟面试练习，提出这些问题并记录刘英的回答，同时提供反馈和改进建议。考虑到刘英喜欢详细和结构化的解答，AI还应提供一些学术资源的链接和相关文献，以便他进行更深入的准备。为了确保逻辑清晰和结构严谨，AI应该帮助刘英优化他的回答内容，使其更具说服力和学术价值。最后，AI可以询问刘英是否需要生成一份面试准备计划，包括要复习的要点和练习时间安排，以系统化和有条理地解决问题。",
+      "scene_context": "刘英需要准备的面试是一个学术会议面试。他专攻古代军事史，因此他希望AI助手能够提供以下内容：\n1. 几个典型的与古代军事史相关的面试问题，如：\n   - 请谈谈汉朝军事制度的发展和演变。\n   - 你如何看待古代战术对现代军事战略的影响？\n   - 解释一下三国时期主要战役的战术分析。\n2. 提供这些问题的参考答案示例。\n3. 与古代军事史相关的学术资源和文献链接，如《孙子兵法》、汉书中的军事篇章、学术期刊文章等。\n4. 模拟面试练习，AI助手提出这些问题并记录刘英的回答，同时提供反馈和改进建议。\n5. 帮助刘英优化回答内容，使其更具说服力和学术价值。\n6. 询问刘英是否需要生成一份面试准备计划，包括要复习的要点和练习时间安排。",
+      "personalized_query": "我准备参加一个学术会议的面试，需要你帮我准备一些典型的与古代军事史相关的面试问题，并提供参考答案。同时，也希望你能推荐几篇相关的学术文献。我们可以先从几个面试问题开始吗？",
+      "neutralized_query": "<neutralized_query>\n我准备参加一个学术会议的面试，需要你帮我准备一些典型的面试问题，并提供参考答案。同时，也希望你能推荐几篇相关的学术文献。我们可以先从几个面试问题开始吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "简历优化：刘英需要撰写和优化学术简历，突出研究成果、发表的论文和参与的项目。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        },
+        "parseResearchPapers": {
+          "arguments": [
+            "researcher_name"
+          ],
+          "description": "Retrieve and parse the research papers published by the researcher to extract key information such as title, journal, impact factor, and citations."
+        },
+        "getProjectDetails": {
+          "arguments": [
+            "researcher_name"
+          ],
+          "description": "Fetch details of the projects the researcher has participated in, including project title, role, duration, and outcomes."
+        }
+      },
+      "scene_desc": "刘英需要撰写和优化学术简历，以突出他的研究成果、发表的论文和参与的项目。他打算申请一个重要的研究资助，需要确保简历内容详实、结构清晰，并且能够展现他的学术能力和专业成就。",
+      "expected_response": "\n根据刘英的persona描述，他是一个喜欢详细和结构化解答的学术研究者，AI应该能迅速理解并响应他的需求。AI应该首先询问刘英是否需要检索其所有发表的论文和研究项目，并提供一个提炼关键信息（如论文标题、期刊、影响因子和引用次数）的摘要。接着，AI应该能通过联网搜索和学术数据库提供参考文献和相关数据支持，确保简历内容的准确性和权威性。AI还应该建议使用合适的结构化模板，帮助刘英系统化地展示他的研究成果。最后，AI应该生成一份初步简历草稿，并提供选项让他确认和进一步修改。",
+      "scene_context": "刘英最近的研究成果包括以下几项：\n1. 论文标题：\"Deep Learning Approaches for Image Recognition\"\n   发表期刊：IEEE Transactions on Neural Networks and Learning Systems\n   期刊影响因子：14.255\n   引用次数：120\n\n2. 论文标题：\"A Comprehensive Survey on Graph Neural Networks\"\n   发表期刊：Journal of Machine Learning Research\n   期刊影响因子：3.421\n   引用次数：95\n\n3. 研究项目：\"AI-Powered Predictive Maintenance for Smart Manufacturing\"\n   参与角色：项目负责人\n   项目资金来源：国家自然科学基金\n   项目周期：2020-2023\n\n刘英希望将这些信息整合到他的学术简历中，并希望AI助手能推荐一个结构化的简历模板，突出他的研究成果、发表的论文和参与的项目。",
+      "personalized_query": "我最近要申请一个研究资助，需要优化一下我的学术简历。可以先帮我推荐一个结构化的简历模板吗？主要是想突出我的研究成果、发表的论文和参与的项目。",
+      "neutralized_query": "<neutralized_query>\n我需要推荐一个结构化的学术简历模板，主要突出研究成果、发表的论文和参与的项目。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：刘英需要协调与导师、研究小组或学术会议的时间，发送会议邀请并生成会议纪要。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., Liu Ying, her advisor, and research group members) for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        },
+        "generateMeetingMinutes": {
+          "arguments": [
+            "meeting_notes"
+          ],
+          "description": "Generates meeting minutes from the given meeting notes and shares it with all participants."
+        }
+      },
+      "scene_desc": "刘英需要协调与导师、研究小组或学术会议的时间，发送会议邀请并生成会议纪要。刘英作为一名历史学博士研究生，擅长进行古代军事史的研究，通常会与导师和研究小组成员进行深入的学术讨论和项目进展汇报。他倾向于使用AI来优化时间安排和会议管理，以确保每次会议都能高效且具有学术价值。",
+      "expected_response": "\n根据刘英的persona描述，他喜欢系统化和有条理的解决方案。AI应该首先询问具体需要邀请的导师和研究小组成员，并确认是否有特定的时间偏好或时间段（如上午或下午）。接着，AI应该通过访问各参与者的日程安排，快速找到一个所有人都可参与的时间，并提供几个备选时间供刘英确认。然后，AI应该生成一个专业的会议邀请，包括讨论议题、日期和时间，并询问是否需要附加任何相关文档或议程。会议结束后，AI应该自动生成会议纪要并分享给所有参与者，同时将相关的会议内容归档，以便后续参考和研究。",
+      "scene_context": "刘英需要协调的会议参与者包括：导师王教授、研究小组成员张三、李四和王五。时间偏好为：上午10点到12点或下午2点到4点。当前有一个即将到来的学术会议，需要讨论的议题包括：1. 项目进展汇报；2. 近期研究成果分享；3. 下一阶段的研究计划。会议需要的相关文档包括：最新的研究报告和上一次会议的纪要。",
+      "personalized_query": "我需要安排一次研究小组会议，与导师王教授和小组成员张三、李四、王五讨论近期的研究进展、分享研究成果以及下一阶段的研究计划。会议时间最好在上午10点到12点或下午2点到4点之间。请帮我协调一下各位的时间，并发送会议邀请。",
+      "neutralized_query": "<neutralized_query>\n我需要安排一次研究小组会议，讨论近期的研究进展、分享研究成果以及下一阶段的研究计划。会议时间最好在上午10点到12点或下午2点到4点之间。请帮我协调各位的时间，并发送会议邀请。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "工厂设备维护：刘娟作为机械工程师，定期需要制定和执行工厂机械设备的维护和保养计划。",
+      "available_apis": {
+        "getEquipmentStatus": {
+          "arguments": [
+            "equipment_ids"
+          ],
+          "description": "Retrieves the current status and maintenance records of the specified equipment."
+        },
+        "generateMaintenancePlan": {
+          "arguments": [
+            "equipment_status"
+          ],
+          "description": "Generates a maintenance plan based on the status and usage of the equipment."
+        },
+        "notifyMaintenancePersonnel": {
+          "arguments": [
+            "personnel_ids",
+            "maintenance_plan"
+          ],
+          "description": "Notifies the maintenance personnel about the maintenance tasks and schedules."
+        }
+      },
+      "scene_desc": "刘娟是一名机械工程师，负责工厂机械设备的维护和保养计划。她需要定期制定和执行这些计划，以确保设备的正常运行和生产效率。她还需要监控设备的状态，记录维护记录，并及时通知维护人员进行必要的保养工作。刘娟通常会使用AI助手来获取设备的当前状态和维护记录，从而制定详细的维护计划，并通知相关人员执行维护任务。",
+      "expected_response": "\n根据刘娟的persona描述，AI应该首先询问她需要获取哪些设备的状态和维护记录。接着，AI应根据这些信息生成一个详细的维护计划，包括每个设备的具体维护步骤和时间安排。同时，AI应该能够通知相关的维护人员关于计划中的维护任务和时间安排。AI还应定期向刘娟更新设备的状态，并记录所有完成的维护任务，以便她可以查看和管理这些记录。整体来说，AI的应答应该是详细和结构化的，提供系统化和有条理的解决方案，并避免表面处理，确保维护工作能够顺利进行。",
+      "scene_context": "刘娟需要查询和维护的设备包括：1号生产线的冲压机、3号生产线的注塑机以及5号生产线的数控机床。 \n\n她需要获取这些设备当前的运行状态和最近一次的维护记录，以便制定下一次的维护计划，并通知相关维护人员具体的维护任务和时间安排。",
+      "personalized_query": "好的，我明白了。现在进入角色，与AI助手进行对话。\n\n---\n\n需要查询一下1号生产线的冲压机、3号生产线的注塑机和5号生产线的数控机床的当前运行状态和最近一次的维护记录。帮我获取这些信息。",
+      "neutralized_query": "<neutralized_query>\n需要查询1号生产线的冲压机、3号生产线的注塑机和5号生产线的数控机床的当前运行状态和最近一次的维护记录。\n</neutralized_query>"
+    }
+  ]
+}

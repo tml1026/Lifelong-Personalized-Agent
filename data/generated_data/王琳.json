@@ -1,0 +1,245 @@
+{
+  "Demographics": {
+    "Age": 22,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "大学生",
+    "Name": "王琳"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱绘画和写作",
+      "喜欢探索内心世界",
+      "喜欢乡村旅游和安静的自然景点",
+      "对心理学和哲学有浓厚的兴趣",
+      "享受沉浸式的虚拟现实游戏"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常使用AI助手记录灵感和创意",
+    "Usage_Pattern": "喜欢用AI助手来帮忙整理写作思路和绘画创意",
+    "Emotion_Pattern": "有时会因为无法表达清晰感受而感到沮丧",
+    "Purchase_Pattern": "倾向于购买与艺术和写作相关的工具和软件，预算有限"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细和鼓励性的反馈，尤其是带有情感关怀的回复",
+    "Preferred_Formats": "图文结合的回复方式",
+    "Preferred_Workflows": "倾向于在AI助手的帮助下分解复杂问题，逐步解决，喜欢反馈能够激发进一步创作的灵感"
+  },
+  "scenes": [
+    {
+      "scene_type": "文档编辑：_王琳需要经常整理和优化她的写作内容，通过AI助手协助她提升文字表达，理清写作思路。",
+      "available_apis": null,
+      "scene_desc": "王琳是一名热爱绘画和写作的大学生，她经常使用AI助手记录灵感和创意，帮助她整理和优化写作内容。她有时会因为无法清晰表达感受而感到沮丧，因此她偏好详细且带有情感关怀的反馈。这一天，王琳正在写一篇关于心理学与哲学交织的文章，但她觉得写作思路有些混乱，于是她决定求助于AI助手，希望AI能够帮助她提升文字表达，理清写作思路。",
+      "expected_response": "\nAI助手应该首先询问王琳目前的写作进展和具体的难点，了解她最需要帮助的部分。接着，AI可以分析她已有的文字内容并提供详细的建议，帮助她改善句子结构和逻辑流畅度。AI还应根据王琳的风格偏好，提出一些情感丰富的表达方式，鼓励她继续创作。为了更好地帮助王琳，AI可以分步骤解决她遇到的问题，如首先整理文章的大纲，然后逐步处理每个段落的具体内容，并提供图文结合的回复方式，激发她进一步的创作灵感。最终，AI应该提供一个优化后的文档，并询问王琳是否还有其他方面需要帮助的地方。",
+      "scene_context": "王琳目前正在写的一篇关于心理学与哲学交织的文章，具体章节和段落如下：\n\n1. **引言**\n   - 心理学与哲学的交汇点\n   - 探讨两者对人类认知与行为的解释\n\n2. **心理学的基础理论**\n   - 行为主义\n   - 精神分析学\n   - 认知心理学\n\n3. **哲学的核心命题**\n   - 实在论与唯心论\n   - 伦理学与道德哲学\n\n4. **心理学与哲学的交织**\n   - 在认知科学中的应用\n   - 对人类意识理解的提升\n\n5. **结论**\n   - 心理学和哲学的互补作用\n   - 对未来研究方向的展望\n\n王琳在写作中遇到的具体难点是：在第三部分“哲学的核心命题”中，她觉得部分论述不够逻辑流畅，尤其是在解释实在论与唯心论时感到表达不清晰。此外，她希望能在文章中加入更多情感丰富的表达方式，使文章更加引人入胜。",
+      "personalized_query": "嗨，AI助手，我在写一篇关于心理学与哲学的文章，但第三部分“哲学的核心命题”感觉写得不够流畅，特别是解释实在论与唯心论时有些混乱。你能帮我理清一下这部分的思路吗？另外，能不能给我一些建议，让表达更加情感丰富，吸引读者？",
+      "neutralized_query": "<neutralized_query>\n我在写一篇关于心理学与哲学的文章，第三部分“哲学的核心命题”感觉不够流畅，特别是解释实在论与唯心论时有些混乱。你能帮我理清一下这部分的思路吗？另外，能不能给我一些建议，让表达更加情感丰富，吸引读者？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：_王琳对心理学和哲学有浓厚的兴趣，AI助手可以为她提供相关的扩展阅读材料或深度分析，帮助她进行学术研究和个人兴趣探索。",
+      "available_apis": null,
+      "scene_desc": "王琳正在进行一篇关于心理学与哲学交叉领域的研究，为了更深入地了解相关的理论与实践，她希望AI助手能够为她提供一些权威的扩展阅读材料和深度分析。王琳希望这些材料能够既有学术性又有可读性，以激发她的创作灵感，并帮助她更好地理清研究思路。",
+      "expected_response": "\n根据王琳的persona，AI助手应该首先询问她具体希望探索的主题或问题，例如某个心理学理论和哲学观点的关联，或者某个特定的学术问题。AI助手应该利用联网搜索功能查找相关的学术论文、书籍和权威网站，推荐几篇具有代表性的资料，并提供简短的摘要解释每篇资料的核心内容。AI还应该询问王琳是否需要更多类似的资料或深入的分析，并鼓励她对这些资料进行批判性思考和总结。此外，AI助手还可以建议一些相关的虚拟现实游戏或互动体验，结合她对虚拟现实游戏的兴趣，来帮助她更生动地理解这些理论和观点。",
+      "scene_context": "王琳对以下几个具体主题感兴趣：\n1. 心理学中的自我认同理论与哲学中的存在主义之间的关系\n2. 弗洛伊德的潜意识理论与现象学的比较研究\n3. 认知行为疗法（CBT）与实用主义哲学的交叉应用\n\nAI助手可以针对这几个主题，提供相关的学术论文、书籍和权威网站推荐，并简要总结每篇资料的核心内容。",
+      "personalized_query": "你好，我最近在研究心理学与哲学交叉领域的一些问题，特别是心理学中的自我认同理论和哲学中的存在主义之间的关系。你能帮我找一些权威的扩展阅读材料吗？最好是学术性和可读性兼具的那种。谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要一些关于心理学中的自我认同理论和哲学中的存在主义之间关系的权威扩展阅读材料。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "语法练习：作为大学生，特别是一个热爱写作的人，_王琳可能需要提升自己的语法水平，AI助手可以提供语法规则解释和练习题。",
+      "available_apis": null,
+      "scene_desc": "场景描述：_王琳准备通过AI助手来提升她的语法水平。她希望AI助手可以为她提供语法规则的解释以及一些练习题。_王琳打开AI助手，开始询问关于英文语法的问题，希望能够通过这些练习来提高自己的写作能力，并且能够更准确地表达自己的想法。",
+      "expected_response": "根据王琳的persona描述，她是一个内向且喜欢详细和鼓励性反馈的人，AI应该会首先询问她具体希望提升哪些方面的语法（例如时态、句式、标点等）。接着，AI会提供清晰的语法规则解释，并通过图文结合的方式展示，以便她更好地理解。同时，AI会给出一些与她兴趣相关的例句，让她感到这些规则是实用且有趣的。之后，AI将提供一些练习题，并在她完成后给出详细的反馈和鼓励性评价，帮助她找出错误并给出改进建议，最终激发她进一步学习的动力。",
+      "scene_context": "_王琳希望重点提升以下三个方面的语法：过去时态的使用、复合句的构建以及标点符号的正确使用。此外，_王琳特别喜欢文学作品，她希望练习题能与经典文学作品相关，以保持她的学习兴趣。",
+      "personalized_query": "嘿，我今天想要提升一下我的英语语法，特别是过去时态的使用、复合句的构建以及标点符号的正确使用。你可以帮我解释一下这些规则，并提供一些和经典文学作品相关的练习题吗？",
+      "neutralized_query": "<neutralized_query>\n我需要提升我的英语语法，特别是过去时态的使用、复合句的构建以及标点符号的正确使用。你可以解释这些规则，并提供相关的练习题吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：_王琳喜欢乡村旅游和安静的自然景点，AI助手可以帮助她规划旅行路线，推荐和她喜好的景点并安排出行细节。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "mapService": {
+          "arguments": [
+            "destination"
+          ],
+          "description": "Fetches information about the destination including points of interest, travel routes, and nearby attractions."
+        },
+        "bookingService": {
+          "arguments": [
+            "destination",
+            "dates",
+            "preferences"
+          ],
+          "description": "Books travel tickets and accommodation based on the specified preferences."
+        }
+      },
+      "scene_desc": "王琳正在计划一次乡村旅游，选择一个安静的自然景点以放松心情。她希望AI助手能够帮助她规划出一条理想的旅行路线，推荐一些符合她喜好的景点，并安排好出行的所有细节，包括交通、住宿和可能的活动。王琳特别希望这个行程能够帮助她体验大自然的宁静，同时也能够激发她的创作灵感。",
+      "expected_response": "\n根据王琳的persona描述，她喜欢乡村旅游和安静的自然景点，并且预算有限。AI助手应该首先询问她的旅行时间和大致预算，接着利用webSearch功能搜索适合的乡村旅游目的地和安静的自然景点。AI应该特别留意推荐那些能够提供宁静环境并且有利于激发创作灵感的景点，比如带有美丽自然风景和历史文化底蕴的地方。\n\n在推荐具体的景点时，AI助手应当提供详细的信息，包括景点的特色、最佳访问时间、附近的餐饮和住宿选择等。接着，AI助手应利用mapService功能规划出最佳的旅行路线，确保交通方便且适应她的时间安排。\n\nAI还可以使用bookingService功能帮助她预定交通和住宿，确保这些选项符合她的预算和需求。为了更贴合她的个性化需求，AI助手应该在整个过程中提供详细且鼓励性的反馈，并询问她是否有任何特别的偏好或需要，比如是否希望参加当地的文化活动或户外写生活动。同时，AI助手可以在行程中添加一些她可能感兴趣的小景点或艺术画廊，进一步丰富她的旅行体验。",
+      "scene_context": "王琳计划的旅行时间为6月15日至6月20日，预算为3000元人民币。她希望去的地方是云南的某个乡村地区，最好是一个有山有水且没有太多游客的地方。她特别喜欢写生和摄影，因此希望行程中能够包含一些适合这两项活动的景点。此外，她希望能够体验当地的文化，并住在具有特色的民宿。",
+      "personalized_query": "嘿，AI，我最近想安排一次乡村旅游，希望你能帮我计划一下。地点是云南的一个乡村，具体时间是6月15日至6月20日。预算是3000元人民币。我希望这个行程能够让我好好放松，同时也能激发我的创作灵感。可以帮我推荐一些适合写生和摄影的景点，还有交通和住宿的安排吗？",
+      "neutralized_query": "<neutralized_query>\n我想安排一次6月15日至6月20日的乡村旅游，地点是云南，预算是3000元人民币。请帮我推荐一些适合写生和摄影的景点，并安排交通和住宿。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：_王琳可能需要与同学或教授进行讨论和交流，AI助手可以帮助她协调会议时间、发送邀请并生成会议纪要。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants (e.g., 王琳 and her classmates or professors) for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        },
+        "generateMeetingMinutes": {
+          "arguments": [
+            "meeting_id"
+          ],
+          "description": "Generates meeting minutes for the given meeting, summarizing the key points discussed and action items."
+        }
+      },
+      "scene_desc": "王琳是一名大学生，热爱绘画和写作，性格内向，喜欢探索内心世界，对心理学和哲学感兴趣。她需要与同学或教授进行讨论和交流，并且会使用AI助手来帮助她协调会议时间、发送邀请并生成会议纪要。她的AI助手可以访问她的日程安排以及她同学和教授的日程安排，并能够发送专业的会议邀请邮件。\n\n场景设定：王琳需要与心理学教授安排一次讨论课题的会议，但她不确定教授的具体可用时间，以及需要协调自己的时间表。",
+      "expected_response": "\n根据王琳的persona，AI助手首先应该询问具体需要邀请的教授或同学的姓名，然后询问王琳是否有特定的时间偏好或限制（如上午或下午）。AI助手会通过日历检查API访问王琳和相关教授的日程安排，并找出一个双方都有空的时间段。接着，AI助手应该设置一个自动提醒来提醒王琳即将进行的会议，并询问她是否需要在会议邀请中包含具体的议程或讨论点。最后，AI助手会生成一个专业的会议邀请，并在王琳确认后发送邀请邮件。此外，AI助手应该在会议后生成一份详细的会议纪要，帮助王琳更好地整理和记录讨论内容。",
+      "scene_context": "王琳需要安排与心理学教授张教授讨论课题的会议。她有以下的时间偏好：每周三和周五的下午3点到5点。需要协调的日程安排包括王琳的课程时间和张教授的办公时间。王琳希望在会议邀请中包含以下讨论点：1. 研究课题的进展情况，2. 数据分析方法，3. 文献综述的建议。",
+      "personalized_query": "嗨，\n\n我需要安排一次和张教授讨论心理学课题的会议。我有每周三和周五下午3点到5点的空闲时间，但我不确定教授的具体可用时间。可以帮我协调一下时间表并发出会议邀请吗？\n\n谢谢！",
+      "neutralized_query": "<neutralized_query>\n我需要安排一次和教授讨论课题的会议。我有每周三和周五下午3点到5点的空闲时间，但不确定教授的具体可用时间。可以帮我协调一下时间表并发出会议邀请吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：_王琳热爱绘画和写作，AI助手可以根据她的兴趣推荐新的绘画工具、写作软件或相关书籍，激发她的创意灵感。",
+      "available_apis": {
+        "queryUserInterests": {
+          "arguments": [
+            "category"
+          ],
+          "description": "Ask the user about their specific interests and preferences in a given category (e.g., painting, writing)."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search online for the most relevant and popular products or resources based on the given query."
+        }
+      },
+      "scene_desc": "王琳正在一个阳光明媚的下午坐在她的书桌前，思索着绘画和写作的灵感。她希望能找到一些新的绘画工具和写作软件，以帮助她在创作过程中更加得心应手。她打开AI助手，准备寻求一些个性化的推荐。",
+      "expected_response": "\n根据王琳的persona描述，她是一个内向但富有想象力和创意的人，喜欢详细和鼓励性的反馈，尤其是带有情感关怀的回复。AI应该首先询问她当前的创作需求和偏好，进一步了解她在绘画和写作上的具体兴趣点。接着，AI可以通过queryUserInterests API询问她在绘画和写作工具上的具体需求和预算。然后，AI应该使用webSearch API搜索相关的高性价比产品，并提供详细的产品信息，包括用户评价和使用体验。最后，AI应该给出鼓励性的反馈，激发她的创作灵感，并关注她的情感需求，通过情感关怀的方式推荐这些产品。",
+      "scene_context": "王琳目前正在寻找以下类型的产品推荐：\n1. 绘画工具：她希望找到一些新的水彩颜料和高质量的画笔。\n2. 写作软件：她正在寻找一个能够帮助她更好地组织和编辑小说的写作软件。\n3. 相关书籍：她对绘画技法和写作技巧的书籍感兴趣，尤其是关于如何激发创意的书籍。\n\n她的预算相对宽松，但希望找到性价比高的产品。她喜欢详细的用户评价和使用体验，以便做出更好的选择。",
+      "personalized_query": "AI助手，你好！我最近在寻找一些新的绘画工具和写作软件，希望能够更好地帮助我的创作。你能给我推荐一些高质量的水彩颜料和画笔吗？",
+      "neutralized_query": "<neutralized_query>\n你能推荐一些高质量的水彩颜料和画笔吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "自我反思：_王琳喜欢探索内心世界，AI助手可以引导她进行自我反思，通过对话提升她的自我认知和情感管理。",
+      "available_apis": {
+        "promptUser": {
+          "arguments": [
+            "prompt"
+          ],
+          "description": "通过引导性问题或话题，帮助用户进行自我反思。"
+        },
+        "recommendResources": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "推荐相关的资源，如文章、书籍或活动，帮助用户提升自我认知和情感管理。"
+        }
+      },
+      "scene_desc": "王琳刚刚读完一本关于自我认知的心理学书籍，感到对自己的一些情感和行为有很多新的思考。她决定利用AI助手来引导她进行自我反思，通过对话提升自己的自我认知和情感管理。她希望AI助手能提出一些引导性的问题，帮助她更深刻地理解自己的内心世界，并推荐一些有助于她进一步探索相关主题的文章或书籍。",
+      "expected_response": "根据王琳的人设，她热爱探索内心世界，对心理学和哲学有浓厚的兴趣，AI应该首先确认她是否有特定的反思主题或需要深入探讨的心理学或哲学概念。接着，AI可以通过一系列开放性问题和引导性话题，帮助她进行自我反思。例如，AI可以询问她近期遇到的情感困扰或有意义的事件，鼓励她描述自己的感受和看法。AI还可以根据她的回应，提供情感关怀和鼓励性的反馈，帮助她理解和管理自己的情绪。最后，AI可以推荐一些与她兴趣相关的阅读材料，如心理学书籍或哲学文章，帮助她进一步提升自我认知和情感管理能力。",
+      "scene_context": "王琳刚刚读完的书籍是《自我认知的心理学探秘》。她对书中的以下几个主题特别感兴趣：\n1. 情感管理和情绪智力\n2. 自我认知与自我接纳\n3. 内在动机与个人成长\n\n她希望AI助手能帮助她更深入地理解这些主题，并引导她进行以下三个方面的自我反思：\n1. 最近一次情绪波动的经历以及她是如何处理的。\n2. 对于自己的优点和缺点的认识与接纳。\n3. 最近一次让她感到有动力和成就的事情。\n\n此外，她还希望能够收到一些推荐的心理学和哲学书籍或文章来进一步探索这些主题。",
+      "personalized_query": "最近我读完了一本心理学的书，叫《自我认知的心理学探秘》。书里的内容让我对自己的情感和行为有了很多新的思考。我想通过自我反省来提升自我认知和情感管理。你能帮我引导一下，提一些问题让我自己去思考，并推荐一些相关的书籍或文章吗？",
+      "neutralized_query": "<neutralized_query>\n我希望通过自我反省来提升自我认知和情感管理。你能帮忙引导一下，提一些问题让我自己去思考，并推荐一些相关的书籍或文章吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "口语练习：_王琳懂中文和英文，作为大学生，她可能需要提升自己的口语交流能力，AI助手可以通过多轮对话进行模拟练习。",
+      "available_apis": {
+        "startConversation": {
+          "arguments": [
+            "language",
+            "topic"
+          ],
+          "description": "Initiates a conversation in the specified language on the given topic for practicing speaking skills."
+        },
+        "continueConversation": {
+          "arguments": [
+            "response"
+          ],
+          "description": "Continues the conversation based on the user's response, keeping the dialogue engaging and relevant to the practice topic."
+        }
+      },
+      "scene_desc": "王琳希望提升她的英语口语交流能力，决定使用AI助手进行多轮对话的模拟练习。她希望通过这种方式增强她在课堂讨论、课外活动和日常对话中的英语表达流畅度。由于她是一个内向且喜欢细致反馈的人，她希望AI助手能给她提供详细且鼓励性的反馈，帮助她逐步改善口语技能。",
+      "expected_response": "AI应该首先确认王琳希望练习的语言（英语）和对话主题（例如课题讨论、日常对话或特定情境）。AI会选择一个合适的对话主题，并以较慢的语速和清晰的发音进行对话。在对话过程中，AI会注意到王琳的表达细节，并在必要时进行适当的纠正和提示。对话结束后，AI应提供详细且鼓励性的反馈，指出王琳的进步与需要改进的地方，并推荐相关的学习资源（例如英语口语练习网站或书籍）。此外，AI可以询问她是否希望继续相同主题的对话练习，或者尝试其他主题，以激发进一步的学习兴趣并帮助她逐步提高口语能力。",
+      "scene_context": "王琳希望练习的英语对话主题如下：\n1. 课堂讨论：讨论关于人工智能对社会的影响。\n2. 日常对话：在咖啡店点单和与朋友闲聊。\n3. 特定情境：模拟工作面试，回答常见的面试问题。\n\n每个对话主题中的具体问题和情境如下：\n1. 课堂讨论\n   - 问题1: \"What are some positive impacts of artificial intelligence on society?\"\n   - 问题2: \"Do you think AI will replace human jobs? Why or why not?\"\n\n2. 日常对话\n   - 情境1: 点单\n     - 服务员: \"Hi, welcome to our coffee shop! What would you like to order today?\"\n     - 王琳: \"I would like a medium latte and a blueberry muffin, please.\"\n   - 情境2: 闲聊\n     - 朋友: \"Hey, how was your weekend?\"\n     - 王琳: \"It was great! I went hiking and watched a movie. How about you?\"\n\n3. 特定情境\n   - 问题1: \"Can you tell me a little about yourself and your background?\"\n   - 问题2: \"Why do you want to work for our company?\"\n\n这些具体的对话情境将帮助AI助手为王琳提供有针对性的模拟练习，并在对话结束后提供详细且鼓励性的反馈。",
+      "personalized_query": "Hi there! I want to improve my English speaking skills, especially for classroom discussions and daily conversations. Could you help me practice? \n\nLet's start with a classroom discussion. The topic is: \"What are some positive impacts of artificial intelligence on society?\"",
+      "neutralized_query": "<neutralized_query>\nI want to improve my English speaking skills, especially for classroom discussions and daily conversations. Could you help me practice? \n\nLet's start with a classroom discussion. The topic is: \"What are some positive impacts of artificial intelligence on society?\"\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：_王琳作为一名大学生，将来可能需要准备面试，AI助手可以帮助她准备面试问题，进行模拟面试练习，提升自信心。",
+      "available_apis": {
+        "interviewQuestionGenerator": {
+          "arguments": [
+            "job_role",
+            "industry"
+          ],
+          "description": "Generates interview questions based on the specified job role and industry."
+        },
+        "mockInterview": {
+          "arguments": [
+            "questions"
+          ],
+          "description": "Conducts a mock interview using the provided questions and gives real-time feedback to the user."
+        }
+      },
+      "scene_desc": "王琳是一名大学生，她正在为即将到来的面试做准备。她希望通过AI助手提供一些面试问题，进行模拟面试练习，以提升她的自信心。王琳的专业是心理学，她申请的职位是与此相关的实习岗位。她希望AI助手能够根据她的专业背景和申请职位提供相关的面试问题，并在模拟面试过程中给予具体且建设性的反馈。",
+      "expected_response": "根据王琳的persona描述，AI助手首先应该询问她申请的具体职位和行业，以便生成相关的面试问题。接着，AI可以提供一组与心理学相关的面试问题，并进行多轮模拟面试练习。AI应该注意到王琳喜欢详细和鼓励性的反馈，因此在每轮练习结束后，AI助手应该提供具体的建议和鼓励性评价，帮助她提升应对面试的信心。AI助手还可以根据她的回答，提出改进建议，例如如何更清晰地表达自己的观点或者如何更好地展示自己的相关经验。最终，AI应该询问王琳是否需要进一步的练习，并提供相应的资源，如面试技巧文章或视频。",
+      "scene_context": "王琳申请的具体职位是心理咨询实习生，主要职责包括协助资深心理咨询师进行患者咨询、撰写咨询报告、参与心理健康项目等。她希望AI助手能够提供以下方面的面试问题：\n1. 心理学基础知识，例如常见的心理学理论与应用。\n2. 实际操作问题，如如何处理紧急心理状况的案例。\n3. 职业发展问题，如她未来在心理学领域的职业规划。\n4. 行为面试问题，例如她在团队合作中的角色和表现。\n\n示例问题：\n1. 请解释一下认知行为疗法（CBT）的基本原理和应用场景。\n2. 如果遇到一个有自杀倾向的患者，你会如何处理？\n3. 你认为心理咨询工作中最重要的技能是什么？为什么？\n4. 请描述一个你曾经参与的团队项目，以及你在其中的具体角色和贡献。\n\n王琳还希望AI助手能够在模拟面试过程中，针对她的回答提供具体的改进建议，如如何更清晰地表达观点，如何更有效地展示自己的相关经验，以及如何应对突发问题等。",
+      "personalized_query": "嘿，AI助手，我正在为即将到来的心理咨询实习生面试做准备。可以帮我模拟一下面试吗？我想从基础知识、实际操作、职业发展和行为面试这几个方面来练习一下。",
+      "neutralized_query": "<neutralized_query>\n可以帮我模拟一下面试吗？我想从基础知识、实际操作、职业发展和行为面试这几个方面来练习一下。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：_王琳倾向于购买与艺术和写作相关的工具和软件，AI助手可以根据她的需求推荐高性价比的商品，帮助她在有限的预算内做出最佳选择。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the internet for high-value products related to art and writing tools and software."
+        },
+        "productDetails": {
+          "arguments": [
+            "product_id"
+          ],
+          "description": "Fetch detailed information about the specified product, including price, features, and user reviews."
+        },
+        "checkAvailability": {
+          "arguments": [
+            "product_id"
+          ],
+          "description": "Check the availability and any ongoing promotions of the specified product."
+        }
+      },
+      "scene_desc": "王琳最近在寻找一些新的绘画工具和写作软件，她想要在有限的预算内购买性价比最高的商品。她打开了AI助手，希望能得到一些专业的购买建议。同时，她希望这些工具和软件能激发她的创意灵感，并帮助她在艺术和写作上取得突破。",
+      "expected_response": "\n根据王琳的persona描述，AI助手应该首先询问她具体的需求和预算情况，了解她对绘画工具和写作软件的具体偏好。接着，AI助手可以使用webSearch功能搜索相关的高性价比商品，并根据王琳的需求和预算提供详细的推荐，包括商品的价格、功能、用户评价以及购买链接。AI助手还应该注意提供带有情感关怀的回复，激发王琳的创作灵感。例如，建议一些受欢迎的绘画软件和具有丰富功能的写作工具，并鼓励她在创作中尝试新的方法。此外，AI助手可以提供一些与艺术和写作相关的最新资讯或资源，进一步激发她的创意灵感。总体来说，AI助手应该提供详尽而鼓励性的反馈，并确保推荐的商品在王琳的预算范围内且具有高性价比。",
+      "scene_context": "王琳的预算为500元人民币，她对绘画工具的需求包括：数位板、颜料和画笔。对于写作软件，她希望找到能够进行结构化写作和灵感记录的软件。她倾向于购买价格在200元以内的数位板，100元以内的颜料和画笔，以及价格在200元以内的写作软件。",
+      "personalized_query": "嗨，今天需要你帮我找一下性价比高的绘画工具和写作软件，预算500元以内。对于绘画工具，我需要数位板、颜料和画笔。数位板希望价格在200元以内，颜料和画笔一起控制在100元以内。写作软件预算200元左右。你能帮我推荐一些合适的选择吗？",
+      "neutralized_query": "<neutralized_query>\n请帮我推荐一些性价比高的绘画工具和写作软件，预算500元以内。绘画工具包括数位板（预算200元以内）、颜料和画笔（预算100元以内）。写作软件预算200元左右。谢谢！\n</neutralized_query>"
+    }
+  ]
+}

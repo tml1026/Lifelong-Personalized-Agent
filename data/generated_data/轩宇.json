@@ -1,0 +1,276 @@
+{
+  "Demographics": {
+    "Age": 35,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文"
+    ],
+    "Career_Information": "浙江某公司市场调研员",
+    "Name": "轩宇"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "I",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "J",
+    "Values_and_Interests": [
+      "追求内心的平和与宁静",
+      "喜欢挑战自我并不断成长",
+      "善于倾听和共情他人",
+      "有很强的责任感和团队精神"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "倾向于详细地理解信息的来龙去脉，希望获取全局视角的建议",
+    "Usage_Pattern": "常常查阅心理学、瑜伽技术以及健康生活方式的相关信息",
+    "Emotion_Pattern": "会对温暖和支持性的回应有很好的反应，容易因为过度压力而感到焦虑",
+    "Purchase_Pattern": "偏好购买高质量且具有独特价值的产品，购物时注重品牌和产品的环保特性"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢得到详细且结构化的指导，尤其是能够提供背景和理由的说明",
+    "Preferred_Formats": "偏好文字和图表并茂的格式，偶尔喜欢视频教程",
+    "Preferred_Workflows": "喜欢从整体框架到具体细节的逐步深入，确保每一步都有清晰的解释和理由"
+  },
+  "scenes": [
+    {
+      "scene_type": "项目管理：轩宇作为市场调研员，需要协助团队跟踪市场调研项目的进度，分配任务和设定截止日期，确保项目按时完成。",
+      "available_apis": null,
+      "scene_desc": "轩宇作为浙江某公司市场调研员，目前正在协助团队跟踪一个市场调研项目的进度。她需要分配任务和设定截止日期，以确保项目按时完成。轩宇倾向于详细地理解信息的来龙去脉，并希望获取全局视角的建议。她注重团队精神，善于倾听和共情他人，常常查阅心理学、瑜伽技术以及健康生活方式的相关信息。当前，由于项目压力较大，她感到一些焦虑，急需一个系统化的任务管理工具来帮助她整理和跟踪项目的各项任务。",
+      "expected_response": "\nAI应该首先询问轩宇当前市场调研项目的总体目标和主要任务，以便获取项目的全局视角。接着，AI应该请求她提供团队成员的信息和他们各自的职责，以便合理分配任务。AI还应该让轩宇设定每项任务的优先级和截止日期，确保所有任务都有清晰的时间表。此外，AI应该提供自动提醒功能，提醒轩宇和团队成员即将到来的任务截止日期，并生成定期的进度报告。AI还可以建议轩宇安排团队会议以讨论项目进展和解决潜在问题，并提供情感支持，帮助她缓解由于项目压力带来的焦虑感。AI会确保所有的建议和指导都详细且结构化，并提供相关背景和理由，以满足轩宇的偏好。",
+      "scene_context": "当前市场调研项目的总体目标是评估本地消费者对新推出的健康饮品的接受程度并了解其市场潜力。具体任务包括：\n\n1. 问卷设计：撰写一份详细的调查问卷，涵盖消费者的饮品偏好、购买习惯和对新健康饮品的期望。\n2. 数据收集：组织线下和线上调查，确保样本量达到500人。\n3. 数据分析：使用统计软件（如SPSS）对收集到的数据进行分析，找出关键趋势和消费者偏好。\n4. 报告撰写：撰写一份详细的市场调研报告，包括数据分析结果、市场建议及未来策略。\n\n团队成员及职责：\n- 李华：负责问卷设计和数据分析，擅长使用统计软件。\n- 王丽：负责线下调查的组织和执行，善于与人沟通。\n- 张强：负责线上调查的推广和数据收集，精通社交媒体运营。\n- 轩宇（自己）：协调整个项目，分配任务，跟踪进度，并撰写最终报告。\n\n优先级和截止日期：\n1. 问卷设计：优先级高，截止日期为下周一。\n2. 数据收集：优先级中，截止日期为两周后。\n3. 数据分析：优先级中，截止日期为三周后。\n4. 报告撰写：优先级高，截止日期为四周后。\n\n轩宇需要一个系统化的任务管理工具来跟踪这些任务，并设置自动提醒功能，以提醒她和团队成员即将到来的任务截止日期。",
+      "personalized_query": "你好，我需要一个系统化的任务管理工具来跟踪我们目前的市场调研项目。可以推荐一些合适的工具吗？另外，我希望这个工具能有自动提醒功能，帮我和团队成员提醒即将到来的任务截止日期。",
+      "neutralized_query": "<neutralized_query>\n我需要一个系统化的任务管理工具来跟踪市场调研项目，并且希望这个工具能有自动提醒功能，提醒即将到来的任务截止日期。可以推荐一些合适的工具吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "会议安排：轩宇需要协调与客户或团队的会议时间，发送邀请并生成会议纪要，以确保所有人都了解会议内容和决策。",
+      "available_apis": null,
+      "scene_desc": "轩宇被要求协调与客户或团队的会议时间。她首先需要确认每个人的可用时间，然后发送会议邀请，并且在会议结束后生成会议纪要，以便所有的参会者都能够了解会议的内容和决策。这次会议的目的是讨论一个新的市场调研项目，并分配任务和设定截止日期，确保项目按时完成。",
+      "expected_response": "\n轩宇的AI助手首先会询问她具体需要邀请哪些客户或者团队成员，并询问是否有优先选择的时间段（例如上午或下午）。接着，AI助手会使用API访问企业办公软件中的团队成员的schedule，找到一个所有人都可参与的时间，并生成会议邀请邮件。在发送邮件之前，AI助手会询问轩宇是否需要在会议邀请中包含特定的议程或文件。\n\n在会议结束后，AI助手会通过调用recordMeeting API记录会议内容，并生成会议纪要，其中包括会议的主要讨论点、决策和分配的任务。AI助手会确保会议纪要结构化和详细，以便所有参会者都能清晰理解会议的结论和后续步骤。最后，AI助手会将生成的会议纪要发送给所有参会者，并询问轩宇是否需要进行进一步的修改或补充。\n",
+      "scene_context": "轩宇需要协调和邀请的客户和团队成员包括：客户经理李明、市场调研团队成员张伟和王芳，以及产品经理刘娜。她希望会议时间在工作日的上午9点到11点之间。会议议程包括以下内容：1. 新市场调研项目介绍；2. 任务分配；3. 设定项目截止日期；4. 讨论潜在问题并制定解决方案。她还需要在会议邀请中附上项目背景文件和初步的市场调研报告。",
+      "personalized_query": "你好，我需要安排一个有关新市场调研项目的会议。你能帮我确认以下几个参会者——李明、张伟、王芳、刘娜——的可用时间吗？会议倾向安排在工作日的上午9点到11点之间。",
+      "neutralized_query": "<neutralized_query>\n我需要安排一个会议，你能帮我确认几位参会者的可用时间吗？会议倾向安排在工作日的上午9点到11点之间。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "行程规划：轩宇可能需要规划出差行程，例如参加市场调研活动、访问客户或参加行业会议，以便高效开展工作。",
+      "available_apis": null,
+      "scene_desc": "轩宇需要规划一次出差行程，以参加市场调研活动、访问客户或参加行业会议。她希望行程高效，能够最大化利用时间，并且需要考虑到环保交通方式和高质量的住宿选择。\n\n为了确保行程的顺利进行，轩宇希望AI能够帮助她从整体规划到具体细节，提供详细而结构化的指导。她希望能够通过短时间内完成所有必要的安排，包括交通、住宿和会议时间的协调。同时，她希望此次出差行程能符合环保价值观，并能够帮助她在职业发展上继续成长。",
+      "expected_response": "根据轩宇的persona描述，AI应该首先询问出差的具体日期和地点，并了解她的详细需求和偏好，包括是否有特定的客户或会议需要优先安排。AI应推荐适合的环保交通方式（如高铁或航班），并提供高质量且环保认证的住宿选择。\n\nAI应该提供一个详细的行程表，包括交通、住宿和会议安排，并确保每一步都有清晰的背景和理由，以满足轩宇喜欢详细且结构化指导的需求。AI还应考虑到轩宇的情感需求，提供温暖和支持性的回应，以减轻她对出差安排的焦虑。\n\n此外，AI应该能够查找并推荐与市场调研活动相关的有用资源，帮助她在出差过程中紧跟市场趋势，并提供有关目的地的健康生活方式建议（如当地瑜伽工作室或健康餐饮选择），确保她能在出差期间保持身心健康。\n\n最后，AI应该设置自动提醒功能，确保轩宇能按时完成每一个行程安排，并能够在需要时及时提供帮助和支持。",
+      "scene_context": "轩宇计划前往上海参加市场调研活动、访问客户并参加行业会议。她希望出差日期安排在下个月的15日至18日。她对环保交通方式感兴趣，例如高铁，并希望入住绿色认证的酒店。轩宇需要参加的会议和客户访问时间如下：\n- 16日：上午10点市场调研活动，下午2点访问客户A公司\n- 17日：全天行业会议，会议地点在上海世博展览馆\n\n她希望行程详细安排，包括交通、住宿、会议时间的协调，需符合环保价值观并帮助她在职业发展上继续成长。她还需要有关目的地的健康生活方式建议，如当地的瑜伽工作室和健康餐饮选择。",
+      "personalized_query": "我需要规划一次下个月的上海出差行程，日期大致在15日至18日。在此期间，我需要参加市场调研活动、访问客户并参加行业会议。希望你能帮我制定一个详细而有效的行程安排，特别是要利用环保交通方式和高质量的住宿选择。\n\n你可以先帮我查一下从杭州到上海的高铁班次和绿色认证酒店推荐吗？",
+      "neutralized_query": "<neutralized_query>\n我需要规划一次下个月的出差行程，包括市场调研、客户访问和行业会议。麻烦你帮我查一下从某地到目的地的高铁班次和绿色认证酒店推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "电子邮件撰写：轩宇需要撰写专业的电子邮件，与客户、团队成员或上级进行沟通，处理各种工作事务。",
+      "available_apis": {
+        "getEmailDetails": {
+          "arguments": [
+            "recipients",
+            "subject"
+          ],
+          "description": "Gets the details of the email, including recipients and subject."
+        },
+        "generateEmailBody": {
+          "arguments": [
+            "recipients",
+            "subject"
+          ],
+          "description": "Generates a professional email body based on the given recipients and subject."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends the email to the specified recipients with the given subject and body."
+        }
+      },
+      "scene_desc": "轩宇需要撰写一封专业的电子邮件，以便与客户、团队成员或上级沟通处理各种工作事务。她希望邮件内容专业且详细，能够清晰传达信息并减少后续的沟通成本。轩宇对信息的准确性和结构化有较高要求，因此需要AI助手提供详细的指导和背景说明，以确保邮件内容符合预期。",
+      "expected_response": "AI应该首先询问轩宇需要发送邮件的具体对象（客户、团队成员或上级）和邮件的主题。然后通过访问相关API（如getEmailDetails和generateEmailBody），AI应该详细了解邮件的背景和目标，并提供一份专业、结构化且详细的邮件正文草稿。AI还应根据轩宇的偏好，解释每个段落的目的和内容，确保每部分都有清晰的解释和理由，以符合她对详细且结构化指导的需求。最后，AI应询问轩宇是否需要进行修改或补充，并在得到确认后，通过sendEmail API发送邮件。",
+      "scene_context": "轩宇需要撰写一封邮件，以便向客户汇报项目进展。她需要提供以下详细信息：\n1. 项目名称：AI驱动的客户管理系统\n2. 项目进度：已完成初步设计和原型开发，正在进行用户测试\n3. 需要客户提供的反馈：对原型的整体反馈、功能需求的进一步确认\n4. 邮件对象：客户公司代表李先生\n\n邮件主题：AI驱动的客户管理系统 - 项目进展汇报及反馈请求\n\n邮件大致内容需要包括：\n1. 问候语\n2. 项目进展的详细说明\n3. 需要客户提供的具体反馈\n4. 感谢客户的合作与支持\n5. 期待进一步的交流沟通\n\n以下是邮件的初步草稿：\n```\n尊敬的李先生，\n\n您好！\n\n在此向您汇报我们AI驱动的客户管理系统项目的最新进展。目前我们已经完成了初步设计和原型开发，并正在进行用户测试。\n\n为了确保最终产品能够最大程度地满足您的需求，我们需要您对以下几点提供反馈：\n1. 原型的整体体验与用户界面设计\n2. 功能需求的进一步确认与调整\n\n我们非常感谢您在项目过程中给予的支持与合作，期待您的宝贵反馈。\n\n此致\n敬礼！\n\n轩宇\n```",
+      "personalized_query": "你好，我需要撰写一封专业的邮件，向客户汇报我们项目的进展，并请求对方提供反馈。能帮我先起个头吗？",
+      "neutralized_query": "<neutralized_query>\n我需要撰写一封专业的邮件，向客户汇报项目的进展并请求对方提供反馈。能帮我先起个头吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "倾听与建议：轩宇善于倾听和共情他人，可能会在对话中寻求情感支持和建议，帮助缓解因压力引起的焦虑。",
+      "available_apis": {
+        "emotionAnalysis": {
+          "arguments": [
+            "user_input"
+          ],
+          "description": "Analyze the user's input for emotional content to understand their current emotional state."
+        },
+        "provideCounselingSupport": {
+          "arguments": [
+            "emotional_state",
+            "user_context"
+          ],
+          "description": "Provide emotional support and advice based on the detected emotional state and the user's context."
+        }
+      },
+      "scene_desc": "轩宇最近因为工作压力过大而感到焦虑，决定向AI寻求情感支持和建议。她希望通过与AI的对话来缓解自己的情绪，并找到一些有效的管理压力的方法。轩宇使用AI的情感分析功能，表达了自己目前的焦虑感，并希望得到AI的温暖回应和具体建议。",
+      "expected_response": "\n根据轩宇的persona描述，她追求内心的平和与宁静，并注重情感支持，同时倾向于详细地理解信息的来龙去脉。AI应该首先通过emotionAnalysis功能分析轩宇的情绪状态，确认她的焦虑程度。接着，AI应提供温暖和支持性的回应来安抚轩宇的情绪，例如表示理解她的感受并提供共情的回复。然后，AI应根据轩宇的情绪状态和个人背景（如她对健康生活方式和心理学的兴趣），通过provideCounselingSupport功能，提供具体的压力管理技巧和方法，例如推荐一些适合的瑜伽练习、呼吸技巧或心理学书籍。AI还可以建议轩宇进行适当的休息或参加一些放松心情的活动。同时，AI应确保给出的建议是详细且结构化的，解释每个方法的背景和理由，以帮助轩宇更好地理解和实施这些建议。",
+      "scene_context": "轩宇最近的工作压力主要来自于多个项目的截止日期临近，她感到任务繁重且时间紧迫。她希望AI能帮助她找到一些有效的应对策略，缓解她的焦虑和压力。以下是轩宇提供的一些具体信息：\n- 她每天工作超过10个小时，几乎没有休息时间。\n- 她担心自己无法按时完成项目，导致工作表现不佳。\n- 她感到疲倦且入睡困难，经常失眠。\n- 她对心理学和健康生活方式有兴趣，并希望了解更多关于这方面的知识。\n\n她希望AI能提供一些具体的建议，包括：\n1. 一些适合办公室环境的放松技巧。\n2. 如何有效地安排和管理时间。\n3. 一些有助于睡眠的习惯和建议。\n4. 推荐几本关于心理学和压力管理的书籍。",
+      "personalized_query": "最近工作压力真的好大，感觉有点顶不住了，心里也很焦虑。能帮我一些情感支持和建议吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些情感支持和建议来缓解因工作压力引起的焦虑。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "面试准备：轩宇有很强的责任感和团队精神，可能需要为自己或团队成员准备面试问题，进行模拟面试练习，帮助他们在职业发展中取得成功。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        }
+      },
+      "scene_desc": "轩宇是一位市场调研员，她需要为自己或团队成员准备即将到来的面试。她希望能够通过模拟面试练习，帮助团队成员在职业发展中取得成功。轩宇注重详细且结构化的指导，并喜欢从整体框架到具体细节逐步深入。她需要AI助手来帮助她制定面试问题，安排模拟面试的时间，并提供反馈意见，以确保面试对象能够充分准备。",
+      "expected_response": "\nAI应该首先了解面试对象的背景和岗位需求，以便生成有针对性的面试问题。之后，AI应询问适合的模拟面试时间，并使用企业办公软件检查参与者的日程安排，建议一个所有人都空闲的时段。AI还应该提供一个详细的面试问题清单和结构化的反馈模板，并询问轩宇是否有任何特别的关注点或需要添加的面试问题。最后，AI应生成模拟面试的安排邮件，并询问轩宇是否需要包含任何特定的文件或资料。在整个过程中，AI应提供温暖和支持性的回应，以缓解轩宇可能的焦虑情绪。\n",
+      "scene_context": "面试对象的背景和岗位需求如下：\n- 面试对象：陈晴\n- 背景：市场调研员，具有3年的行业经验，擅长数据分析和市场趋势预测。\n- 岗位需求：高级市场分析师，需具备更强的战略思维能力和领导能力。\n\n安排模拟面试的时间段：\n- 建议时间：下周三下午2点到4点\n- 参与者日程安排：所有团队成员在这个时间段均无会议安排\n\n面试问题清单示例：\n1. 请介绍一下你在市场调研项目中遇到的最大挑战以及你是如何应对的？\n2. 在进行数据分析时，你通常使用哪些工具和方法？能否举例说明一个具体的案例？\n3. 你是如何确定市场趋势的？请详细描述你的分析过程。\n4. 面对团队中的分歧时，你会如何调解并确保项目顺利推进？\n5. 作为高级市场分析师，你认为哪些技能和品质是必须具备的？\n\n结构化反馈模板：\n- 优点：\n  - 专业技能：例如数据分析能力强、市场趋势判断准确\n  - 软技能：团队合作意识强、沟通能力优秀\n- 需要改进的方面：\n  - 例如战略思维的提升、领导能力的培养\n- 总结意见：整体表现优秀，适合高级市场分析师岗位，但需在某些方面进一步提升。\n\n特别关注点：\n- 轩宇希望特别关注面试对象的领导能力和战略思维能力，并希望AI助手能添加相关问题。\n\n模拟面试安排邮件示例：\n- 标题：关于模拟面试的安排通知\n- 内容：\n  - 亲爱的团队成员，\n  - 为了帮助陈晴准备即将到来的高级市场分析师面试，我们将于下周三下午2点到4点进行模拟面试。\n  - 请大家提前准备，并在这个时间段保持空闲。\n  - 附件中包含面试问题清单和反馈模板，请查收。\n  - 如有任何问题，请随时联系我。\n\n  - 谢谢大家的支持！\n  - 轩宇\n\n所需的特定文件或资料：\n- 面试问题清单\n- 反馈模板\n- 陈晴的简历及以往项目报告",
+      "personalized_query": "你好，我需要为团队成员陈晴准备一场模拟面试，她在下周会参加关于高级市场分析师岗位的面试。能帮我制定一些面试问题并安排模拟面试的时间吗？",
+      "neutralized_query": "<neutralized_query>\n我需要为团队成员准备一场模拟面试，能帮我制定一些面试问题并安排模拟面试的时间吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "市场分析报告：轩宇需要在工作中撰写一份关于浙江市场趋势的深度分析报告，她花费时间充分调研并通过数据展示市场机会。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "搜索浙江市场趋势的相关数据和报告。"
+        },
+        "fetchMarketData": {
+          "arguments": [
+            "region"
+          ],
+          "description": "获取特定于浙江市场的统计数据和市场情报。"
+        },
+        "analyzeMarketTrends": {
+          "arguments": [
+            "market_data"
+          ],
+          "description": "分析市场数据以发现趋势和机会。"
+        },
+        "generateReport": {
+          "arguments": [
+            "analysis_results"
+          ],
+          "description": "生成市场分析报告。"
+        }
+      },
+      "scene_desc": "轩宇是一位浙江某公司市场调研员，她需要撰写一份关于浙江市场趋势的深度分析报告。她非常注重每一步的详细信息和背景解释，倾向于从整体框架到具体细节的逐步深入。在准备这份报告时，她查阅了大量的市场数据和行业报告，希望通过这些数据来展示市场机会。她希望AI能帮助她高效地搜集并分析市场数据，生成有价值的洞察，最终形成一份结构化的报告。",
+      "expected_response": "\n根据轩宇的persona，AI应该首先询问她对报告的具体需求，包括需要覆盖的市场数据和趋势。接着，AI应该利用可用API（如webSearch和fetchMarketData）搜集相关的浙江市场数据和行业报告，并通过analyzeMarketTrends API分析这些数据，找出市场机会和趋势。在分析结果基础上，AI应生成一份详细的初步报告草稿，包括图表和文字说明。为了符合轩宇的偏好，AI还应该提供详细的背景信息和每一步的说明，以确保每个数据点都有清晰的解释。最后，AI应该询问轩宇是否需要进一步修改或补充，并提供相关的分析和建议，以确保最终报告的质量和完整性。",
+      "scene_context": "轩宇需要AI帮助搜集和分析以下几个方面的数据：\n1. 浙江省各主要城市的人口增长趋势和人口结构。\n2. 浙江省近五年的GDP增长率及各行业贡献情况。\n3. 浙江省消费市场的变化趋势，包括居民消费水平和主要消费品类的市场份额。\n4. 浙江省新兴产业的发展情况和前景分析，例如新能源、电子商务、生物科技等。\n5. 浙江省主要竞争对手和市场份额分析，特别是同行业主要公司的市场表现和竞争态势。\n\n她希望AI利用这些方面的数据生成一份有以下结构的报告：\n1. 引言\n2. 人口及经济概况\n   - 人口增长趋势\n   - GDP增长及行业贡献\n3. 消费市场分析\n   - 消费水平及品类市场份额\n4. 新兴产业发展情况\n   - 重点产业概述\n   - 发展前景分析\n5. 竞争态势分析\n   - 主要竞争对手\n   - 市场份额及表现\n6. 结论与建议",
+      "personalized_query": "Hi，很高兴能帮助你完成浙江市场趋势的深度分析报告。我们先从人口增长趋势和人口结构这部分开始，你觉得怎么样？还是你有其他优先处理的部分？",
+      "neutralized_query": "<neutralized_query>\n我们先从人口增长趋势和人口结构这部分开始，还是你有其他优先处理的部分？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "客户调研会议：轩宇主持一个关于新产品市场潜力的客户调研会议，收集客户反馈并为产品改进提供建议。",
+      "available_apis": {
+        "calendarCheck": {
+          "arguments": [
+            "participants",
+            "preferred_time_slot"
+          ],
+          "description": "Checks the availability of the participants for the preferred time slot and suggests a suitable meeting time."
+        },
+        "sendEmail": {
+          "arguments": [
+            "recipients",
+            "subject",
+            "body"
+          ],
+          "description": "Sends a professional meeting invitation email to the selected recipients, including the proposed meeting time and the agenda."
+        },
+        "recordMeeting": {
+          "arguments": [
+            "meeting_id"
+          ],
+          "description": "Records and transcribes the meeting to capture customer feedback."
+        },
+        "generateReport": {
+          "arguments": [
+            "meeting_transcript"
+          ],
+          "description": "Analyzes the meeting transcript and generates a report with suggestions for product improvement."
+        }
+      },
+      "scene_desc": "轩宇是一位浙江公司市场调研员，负责主持一场关于新产品市场潜力的客户调研会议。在这次会议中，她需要收集客户反馈并为产品改进提供建议。会议参与者包括多个客户代表和公司内部团队成员。为了确保会议顺利进行，轩宇需要安排会议时间、发送邀请、记录会议内容并生成会议报告。\n\n轩宇喜欢详细且结构化的指导，尤其是能够提供背景和理由的说明。她倾向于详细地理解信息的来龙去脉，并希望获取全局视角的建议。她也会对温暖和支持性的回应有很好的反应。",
+      "expected_response": "AI应该首先询问轩宇具体需要邀请哪些客户代表和公司内部团队成员，并询问是否有首选的会议时间段。接着，AI应该使用\"calendarCheck\" API检查所有参与者的可用时间，并建议一个适合的会议时间。\n\n在会议前，AI应生成一个专业的会议邀请邮件，并使用\"sendEmail\" API将其发送给所有参与者。邮件中应包括会议时间、议程以及参与者名单。\n\n在会议过程中，AI可以使用\"recordMeeting\" API记录和转录会议内容，确保所有客户反馈都被捕捉。会议结束后，AI应使用\"generateReport\" API分析会议记录，并生成一份详细的报告，提供产品改进建议。\n\n最后，AI应向轩宇发送会议总结，并询问是否需要进一步的帮助或安排后续的跟进会议。总体来说，AI的行为应体现出对轩宇需求的详细理解和温暖的支持性回应。",
+      "scene_context": "轩宇需要邀请的客户代表包括：阿里巴巴的李明、华为的王强和腾讯的赵丽。公司内部团队成员包括：产品经理张伟、市场部主管李霞和技术支持工程师刘东。首选的会议时间段为下周三上午10点至12点。",
+      "personalized_query": "我需要安排一场会议并收集客户反馈。请帮助我确认下周三上午10点到12点阿里巴巴的李明、华为的王强和腾讯的赵丽是否有空参加会议。",
+      "neutralized_query": "<neutralized_query>\n我需要安排一场会议并收集客户反馈。请帮助我确认下周三上午10点到12点相关人员是否有空参加会议。\n"
+    },
+    {
+      "scene_type": "健康瑜伽课程：轩宇参加了一个在线的高级瑜伽课程，通过视频教程逐步练习，以达到内心平和和身体健康的双重目标。",
+      "available_apis": {
+        "recommendYogaVideos": {
+          "arguments": [
+            "current_level",
+            "goals"
+          ],
+          "description": "Recommends suitable advanced yoga videos based on the user's current level and goals."
+        },
+        "trackProgress": {
+          "arguments": [
+            "session_details"
+          ],
+          "description": "Tracks the details of the user's yoga practice session, including exercises performed and duration."
+        },
+        "provideHealthInfo": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Provides information on the health benefits of yoga and related health tips."
+        }
+      },
+      "scene_desc": "轩宇报名参加了一个在线的高级瑜伽课程，她希望通过视频教程逐步练习，以达到内心平和和身体健康的双重目标。她在课程开始前，想要AI帮助她推荐适合的瑜伽视频，记录每次的练习进度，并提供相关的健康信息和建议，以便她能够有效地达到目标。",
+      "expected_response": "\n根据轩宇的persona描述，AI应首先询问她的当前瑜伽水平和具体目标（如增强体力、提高灵活性或减压）。然后，AI应根据这些信息推荐一系列适合她的高级瑜伽视频。接着，AI应提供一个系统来记录每次瑜伽练习的细节，包括练习的时间、动作和持续时间，以便轩宇能够跟踪她的进度。此外，AI还应提供一些关于瑜伽和健康生活方式的相关信息和建议，例如如何通过饮食和睡眠来支持她的练习目标。最后，AI应以温暖和支持性的方式回应轩宇的请求，帮助她缓解任何可能的焦虑情绪，并鼓励她坚持练习。",
+      "scene_context": "轩宇的当前瑜伽水平为中级，她的具体目标包括增强体力、提高灵活性和减压。她希望AI推荐适合她的高级瑜伽视频，并记录每次的练习进度。她还需要一些关于瑜伽和健康生活方式的相关信息和建议，以便通过饮食和睡眠来支持她的练习目标。",
+      "personalized_query": "你好，我最近报名了一个高级瑜伽课程，想请你帮我推荐一些适合我的瑜伽视频。我要提高体力、提高灵活性和减压。谢谢！",
+      "neutralized_query": "<neutralized_query>\n请推荐一些适合提高体力、提高灵活性和减压的瑜伽视频。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "心理学读书会：轩宇参加了一个心理学读书会，通过与同样对心理学感兴趣的成员分享和讨论，进一步提升自我和他人的理解。",
+      "available_apis": {
+        "getUserInterests": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the interests and specific needs of the user."
+        },
+        "recommendResources": {
+          "arguments": [
+            "interest_keywords"
+          ],
+          "description": "Recommends relevant books, articles, or resources based on the user's interests."
+        },
+        "recommendDiscussionTools": {
+          "arguments": [],
+          "description": "Provides recommendations for online discussion and sharing tools."
+        }
+      },
+      "scene_desc": "轩宇参加了一个心理学读书会，目的是通过与同样对心理学感兴趣的成员分享和讨论，进一步提升自我和他人的理解。在一次读书会之前，她想找到一些有趣且相关的心理学书籍或文章来分享，同时希望可以找到一些合适的在线讨论工具，以便更好地组织和进行读书会的活动。她需要AI助手帮忙推荐适合的资源和工具，并给出一些关于如何更高效地开展读书会的建议。",
+      "expected_response": "\n根据轩宇的persona设定，AI助手应该首先询问她具体的兴趣点或她想要讨论的心理学主题，确保推荐的资源能够满足她的需求。接着，AI助手会利用webSearch API来查找相关的心理学书籍、文章或研究报告，并通过recommendResources API推荐适合轩宇和读书会成员讨论的材料。AI还应该考虑轩宇对详细且结构化的指导的偏好，提供清晰的说明和理由，解释这些资源的选择逻辑和推荐理由。\n\n接下来，AI助手应该推荐一些合适的在线讨论和分享工具，如在线会议软件或读书会专用的讨论平台，并说明每个工具的优缺点，帮助轩宇做出选择。AI助手也可以提供一些组织和开展读书会的建议，例如如何制定议程、如何引导讨论，以及如何记录和总结讨论内容，以确保读书会活动高效且有意义。\n\n最后，AI应当通过温暖和支持性的回应，鼓励并支持轩宇的努力，帮助她在读书会中更好地提升自我和他人的理解，并提供必要的情感支持，缓解她在读书会准备过程中可能遇到的压力和焦虑。",
+      "scene_context": "轩宇感兴趣的心理学主题包括：情绪管理、认知行为疗法和积极心理学。她希望找到以下内容：\n\n1. 有关情绪管理的书籍或文章，例如《情绪智力》 by 丹尼尔·戈尔曼（Daniel Goleman）和与情绪管理相关的最新研究报告。\n2. 有关认知行为疗法的书籍或文章，例如《改变行为的认知疗法》 by Aaron T. Beck 和一些应用实例或案例研究。\n3. 有关积极心理学的书籍或文章，例如《积极心理学》 by 马丁·塞利格曼（Martin Seligman）和最近的研究成果。\n\n轩宇还希望了解以下在线讨论和分享工具：\n1. 适合进行线上会议的工具，如Zoom和Microsoft Teams。\n2. 适合协同编辑和分享文档的平台，如Google Docs和Notion。\n3. 适合组织和管理读书会的工具，如Goodreads和Bookclubz。\n\n此外，她也希望得到一些组织和开展读书会的实用建议，比如如何制定讨论议程、如何引导讨论，以及如何高效地记录和总结讨论内容。",
+      "personalized_query": "嗨，我现在在准备一个即将到来的心理学读书会，想找一些有趣且相关的心理学书籍或文章来分享。能你帮我推荐一些适合读书会的资源吗？",
+      "neutralized_query": "<neutralized_query>\n我想找一些有趣且相关的心理学书籍或文章来分享，能推荐一些适合读书会的资源吗？\n"
+    }
+  ]
+}

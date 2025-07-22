@@ -1,0 +1,238 @@
+{
+  "Demographics": {
+    "Age": 19,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "广东某艺术学院大一学生，主修音乐表演",
+    "Name": "陈晨曦"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "热爱自由，不喜欢被约束",
+      "对新鲜事物充满好奇心",
+      "重视人际关系，朋友很多",
+      "热衷参加各类音乐节和现场演出",
+      "喜欢摄影和旅行，尤其是自然风光"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常与AI助理讨论音乐相关的话题，但也会询问关于旅行和摄影的建议",
+    "Usage_Pattern": "喜欢获取关于最新音乐节和演出活动的信息，同时也会查找旅游景点和摄影技巧",
+    "Emotion_Pattern": "容易表现出兴奋和热情，对新信息有无尽的好奇心",
+    "Purchase_Pattern": "乐于购买音乐节门票、摄影器材和旅行用品，倾向于选择高性价比的产品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢轻松愉快且略带幽默的对话风格，偏好图文并茂的信息呈现",
+    "Preferred_Formats": "倾向于简洁明了的文字结合图片的回答，偶尔也喜欢观看短视频",
+    "Preferred_Workflows": "喜欢先获取总体概念，再逐步深入了解详细信息，注重体验和趣味性"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：陈晨曦需要规划旅行行程，寻找自然风光的摄影地点或参加音乐节的路线安排。",
+      "available_apis": null,
+      "scene_desc": "陈晨曦正准备在下个假期进行一次摄影旅程，她希望这次旅行中能有机会拍摄到壮丽的自然风光。同时，陈晨曦还想利用这次旅行参与一些她感兴趣的音乐节活动。她需要AI助手帮助她规划一个既能满足她摄影需求又能包含音乐节活动的旅行行程。",
+      "expected_response": "根据陈晨曦的persona描述，AI应首先询问她对旅行的具体需求，例如目的地的偏好、旅行的时间段和预算等。接着，AI应推荐一些以自然风光著称的摄影地点，并结合她的旅行时间段搜索那些地点附近的音乐节活动。AI可以提供音乐节的详细信息，如日期、地点、演出阵容等，并帮助她制定一个包含摄影和音乐节活动的详细行程计划。AI还应查找适合的摄影技巧和设备建议以供她参考。最后，AI可以生成一个图文并茂的行程表，并提供相关链接供她预定机票、酒店和音乐节门票。",
+      "scene_context": "陈晨曦的旅行偏好和需求如下：\n- 目的地偏好：冰岛和挪威\n- 旅行时间段：7月中旬至8月中旬\n- 预算：人民币2万元左右\n- 摄影需求：壮丽的自然风光，例如冰川、瀑布和极光\n- 音乐节兴趣：她对电子音乐和摇滚音乐感兴趣\n\n她希望AI助手提供的信息和帮助包括：\n1. 在冰岛和挪威的著名自然风光摄影地点推荐\n2. 在她的旅行时间段内，这些地点附近的电子音乐节和摇滚音乐节活动详细信息（日期、地点、演出阵容等）\n3. 为她规划一个既能拍摄自然风光又能参加音乐节的详细旅行行程\n4. 提供适合拍摄冰川、瀑布和极光的摄影技巧和设备建议\n5. 生成图文并茂的行程表，并提供相关预定链接，例如机票、酒店和音乐节门票的预定",
+      "personalized_query": "嘿，小助手！我计划在这个暑假去一趟冰岛和挪威，主要是去拍些震撼的自然风光照片，比如冰川、瀑布，还有极光。如果还能参加几个音乐节，那就更好了，特别是电子音乐和摇滚音乐节。\n\n你能帮我推荐一些拍照好地方和音乐节活动吗？我的旅行时间是7月中旬到8月中旬，预算大概是两万人民币左右。先帮我查查吧！",
+      "neutralized_query": "<neutralized_query>\n我需要推荐一些适合拍摄自然风光的地点和音乐节活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据陈晨曦的听歌习惯和阅读偏好，推荐新歌、专辑或艺术家，帮助她发现更多喜爱的音乐。",
+      "available_apis": null,
+      "scene_desc": "陈晨曦刚结束了一场音乐节的狂欢，回到宿舍后，她打开AI助手，想要寻找一些新的音乐来丰富她的歌单。她希望AI能根据她之前的听歌记录和阅读偏好，推荐一些她可能会喜欢的新歌、专辑或艺术家。她比较喜欢轻松愉快的对话风格，并且希望能看到图文并茂的推荐信息，偶尔也喜欢观看短视频。",
+      "expected_response": "\n根据陈晨曦的persona描述，AI应该首先询问她是否有特定的音乐风格或类型的偏好，例如她是否想要探索新的音乐风格或者继续听她常听的类型。接着，AI应该通过访问她的听歌历史和阅读记录，生成一份推荐列表，包括新歌、专辑和艺术家。推荐信息应当以简洁明了的文字结合图片的形式呈现，偶尔还可以包含一些相关的短视频，以增加趣味性。AI还可以询问她是否想要生成一个个性化的播放列表，并提供选项让她保存到她常用的音乐应用上。由于陈晨曦重视体验和趣味性，AI在整个过程中应保持轻松愉快且略带幽默的对话风格，以提高交互体验。",
+      "scene_context": "陈晨曦喜欢的音乐类型包括：流行音乐、独立音乐和电子音乐。她最近听得最多的艺术家有：Billie Eilish、Tame Impala和Kygo。她的阅读偏好主要是关于音乐评论和音乐人的采访文章。",
+      "personalized_query": "哇！今天的音乐节真是太棒了！不过现在也有点累，正好趁这个机会更新一下我的歌单。嘿，AI助手，可以根据我最近听的歌推荐一些新的音乐吗？我最近听了很多Billie Eilish、Tame Impala和Kygo的歌。要是有图文推荐或者短视频就更好了！",
+      "neutralized_query": "<neutralized_query>\n可以根据我最近听的歌推荐一些新的音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：根据陈晨曦的情绪或场景（如学习、娱乐、放松）推荐合适的音乐，提升她的生活品质。",
+      "available_apis": null,
+      "scene_desc": "陈晨曦刚结束了一天的课程，回到宿舍后感到有些疲惫。她希望听些音乐来放松心情，同时也想收拾一下房间。她打开了AI助手，想要获取一些合适的音乐推荐，以帮助她放松和恢复元气。",
+      "expected_response": "\n根据陈晨曦的persona描述，她是一位热情且重视体验的艺术学院学生，喜欢轻松愉快且略带幽默的对话风格。\n\n1. AI应该先询问陈晨曦当前的情绪和她期望的音乐类型（如轻松、愉悦、放松等）。\n2. 了解具体需求后，AI应该根据她的情绪和放松的场景，推荐一些轻松愉快的音乐，可能是一些她经常听的歌手或新发现的艺术家。\n3. AI还可以提供一些与推荐音乐相关的背景信息或者趣闻，以增加对话的趣味性。\n4. 如果陈晨曦表现出对某些推荐感兴趣，AI可以进一步提供该音乐的播放链接，并询问是否需要创建一个专门的放松播放列表。\n5. AI应该保持对话风格轻松愉快，偶尔加入一些幽默元素，使整个互动过程更加生动有趣。\n",
+      "scene_context": "陈晨曦特别喜欢听以下几类音乐：爵士乐、轻音乐和独立音乐。她经常听的歌手包括：Norah Jones、Yiruma 和 Sufjan Stevens。她希望AI推荐一些适合放松的音乐，同时提供一些新歌手或乐队的推荐。",
+      "personalized_query": "嘿！今天好累啊，刚下课回到宿舍，想听点轻音乐放松一下，顺便收拾下房间。你能给我推荐一些适合放松的音乐吗？最好是那种有点治愈的。",
+      "neutralized_query": "<neutralized_query>\n请推荐一些适合放松的轻音乐。"
+    },
+    {
+      "scene_type": "影视作品推荐：根据陈晨曦的喜好推荐电影或电视剧，供她在休息时间观看和放松。",
+      "available_apis": {
+        "getUserInterests": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the user's interests in movies or TV shows based on their profile or viewing history."
+        },
+        "recommendMedia": {
+          "arguments": [
+            "interests"
+          ],
+          "description": "Recommends movies or TV shows based on the provided interests."
+        }
+      },
+      "scene_desc": "陈晨曦刚刚结束了一天的课业，回到宿舍稍作休息后，打算找一部电影或电视剧来放松一下。她打开终端上的AI助手，希望能根据她的心情和喜好推荐一些影视作品。她喜欢轻松幽默的对话风格，并且对各种新鲜有趣的影片充满好奇，同时，她也有着丰富的人际关系，喜欢分享和讨论影视作品。",
+      "expected_response": "\nAI应该会首先询问陈晨曦的具体心情和当前偏好的影视类型（如喜剧、爱情、冒险等），以便更精确地进行推荐。接着，AI可以访问她的观看历史和兴趣记录，通过调用getUserInterests API来获取她的影视偏好。基于这些偏好，AI会利用recommendMedia API推荐几部符合她当前需求的电影或电视剧。为了增加趣味性和体验感，AI可以提供每部推荐作品的简要介绍和评分，并附上几张相关图片或预告片的短视频，让陈晨曦直观了解内容。此外，AI还可以提醒她哪些影片是近期热门或在她的朋友圈中被讨论较多的。最后，AI可能会询问她是否需要将推荐的影视作品分享到她的社交媒体或与朋友进行讨论。",
+      "scene_context": "陈晨曦最近观看了以下几部影视作品：  \n1. 《怪奇物语》（Stranger Things）  \n2. 《老友记》（Friends）  \n3. 《生活大爆炸》（The Big Bang Theory）\n\n她偏好轻松幽默的喜剧类电影或电视剧，并对奇幻冒险类题材也有一定兴趣。  \n当前她的心情是轻松愉快，她希望找到一些能让她继续保持这种心情的影视作品。",
+      "personalized_query": "嘿，AI助手，我今天刚回到宿舍，想找点轻松有趣的电影或电视剧看看，有什么好推荐的吗？最近心情挺好的，想找些能让我继续保持这种感觉的片子。",
+      "neutralized_query": "<neutralized_query>\n请推荐一些轻松有趣的电影或电视剧。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "热门榜单：提供最新的音乐节、演出活动的排行榜，并介绍热门内容，帮助陈晨曦选择参加哪些活动。",
+      "available_apis": {
+        "getHotEvents": {
+          "arguments": [
+            "location",
+            "category"
+          ],
+          "description": "Retrieve the latest music festivals and performances ranked by popularity for a given location and category. This helps users discover trending events."
+        },
+        "eventDetails": {
+          "arguments": [
+            "event_id"
+          ],
+          "description": "Provide detailed information about a specific event, including date, time, venue, and a brief description to help users make informed choices."
+        }
+      },
+      "scene_desc": "陈晨曦刚刚结束了一个忙碌的学期，准备利用假期时间参加一些音乐节和现场演出。她打开AI助手，希望获取最新的音乐节、演出活动的排行榜，并了解哪些活动最受欢迎，同时获取详细的活动信息以便做出选择。",
+      "expected_response": "AI应该会先询问陈晨曦的具体位置或她感兴趣的目标城市，以便提供相关的音乐节和演出活动的排行榜。接着，AI会根据她的喜好，检索并展示最新的音乐节和演出活动列表。针对每个活动，AI将提供详细信息，包括日期、时间、地点、票价和演出阵容，并附上相关的图片和视频链接，以增强她的体验。AI还可能推荐一些性价比高的门票购买链接。鉴于陈晨曦重视人际关系，AI还可以提示她将感兴趣的活动分享给朋友，一起参加。最后，AI会根据她的反馈进行进一步的个性化推荐，确保她能找到最符合她兴趣的活动。",
+      "scene_context": "陈晨曦感兴趣的目标城市是北京和上海。她对流行音乐和电子音乐节特别感兴趣。",
+      "personalized_query": "嘿，小助手！这个学期总算结束了，我准备在假期里放松一下，打算去几个音乐节和现场演出。你能帮我查一下最近北京和上海有哪些受欢迎的流行音乐节和电子音乐节吗？要是有详细的活动信息就更好了！",
+      "neutralized_query": "<neutralized_query>\n请帮我查询最近北京和上海有哪些受欢迎的流行音乐节和电子音乐节，并提供详细的活动信息。\n"
+    },
+    {
+      "scene_type": "个性化播放单：根据陈晨曦的观影习惯和音乐偏好，创建定制化的播放列表，方便她随时随地享受音乐。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "userId"
+          ],
+          "description": "Retrieve the user's viewing and music preferences based on their history or settings."
+        },
+        "generatePlaylist": {
+          "arguments": [
+            "preferences"
+          ],
+          "description": "Generate a personalized playlist based on the provided viewing and music preferences."
+        },
+        "savePlaylist": {
+          "arguments": [
+            "playlist",
+            "userId"
+          ],
+          "description": "Save the generated playlist and return it to the user."
+        }
+      },
+      "scene_desc": "陈晨曦刚刚结束一天的课程，准备在宿舍里放松一下。她希望创建一个个性化的播放列表，既包含她喜欢的音乐，又能帮助她放松心情。她打开了AI助手，准备请求AI根据她的音乐偏好和最近听歌的习惯，为她生成一个播放列表。她喜欢的音乐风格比较多样，包括流行、独立音乐和一些小众的电子音乐。她之前在AI助手上讨论过她对这些音乐的喜好，并且经常会向AI助手寻求新歌推荐和音乐节的最新信息。",
+      "expected_response": "\nAI应该首先询问陈晨曦当前的具体需求和情景，如她希望播放的音乐是用于放松、学习还是娱乐，因为她的情绪和场景会影响音乐的选择。接着，AI会调用用户偏好和听歌历史相关的API，获取陈晨曦的音乐偏好和习惯信息。然后，根据这些信息生成一个个性化的播放列表，列表中可能包含她喜欢的流行、独立音乐和小众电子音乐。AI还可以提供一些最近热门的新歌和新专辑，并附带简短的介绍。最后，AI会询问陈晨曦是否需要保存这个播放列表，以便她日后随时访问，并提供一个简洁明了的界面展示生成的播放列表。",
+      "scene_context": "陈晨曦喜欢的音乐风格包括流行音乐、独立音乐和小众电子音乐。她最近听过的一些歌曲和艺术家有：\n1. 流行音乐：Billie Eilish的《Happier Than Ever》、Ariana Grande的《Positions》\n2. 独立音乐：Phoebe Bridgers的《Kyoto》、Bon Iver的《Hey, Ma》\n3. 小众电子音乐：Tycho的《Awake》、Kiasmos的《Looped》\n\n她希望这次创建的播放列表能够帮助她放松心情。",
+      "personalized_query": "嘿，小助手，我刚下课，有点累了，想放松一下。这次我想创建一个播放列表，能不能帮我推荐一些适合放松的音乐？我最近听过的音乐有Billie Eilish的《Happier Than Ever》、Phoebe Bridgers的《Kyoto》和Tycho的《Awake》。你能不能根据这些给我一些推荐？",
+      "neutralized_query": "<neutralized_query>\n我想创建一个播放列表，能不能帮我推荐一些适合放松的音乐？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "购物建议：根据陈晨曦的需求推荐合适的摄影器材、旅行用品和音乐节门票，并提供购买链接。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search the web for the given query and return the most relevant response, including photography equipment, travel gear, and music festival tickets."
+        },
+        "provideLinks": {
+          "arguments": [
+            "products"
+          ],
+          "description": "Generate purchasing links for the recommended products."
+        }
+      },
+      "scene_desc": "陈晨曦正在准备一次新的旅行，她想购买一些摄影器材以更好地拍摄自然风光，同时也需要一些旅行用品。她还听说有一个即将在她附近举行的音乐节，想了解门票的购买信息。因此，她向AI助理寻求建议，希望能找到高性价比的产品。",
+      "expected_response": "根据陈晨曦的人设和需求，AI应该首先询问她具体需要哪些类型的摄影器材（如相机、镜头、三脚架等）和旅行用品（如背包、防晒霜、运动鞋等）。接着，AI会利用联网搜索功能，查找高性价比的产品，并提供详细的购买链接和用户评价。对于音乐节门票，AI会提供详细的购票信息，包括日期、地点、票价和购票链接。AI的回复应该以简洁明了的文字为主，结合精美的图片展示，同时保持轻松愉快且略带幽默的对话风格，以符合陈晨曦的偏好。AI还可以询问她是否需要更多关于摄影技巧或旅行计划的建议，以便提供更个性化的服务。",
+      "scene_context": "陈晨曦需要购买的摄影器材包括：一台单反相机（例如Canon EOS 90D），一个广角镜头（例如Canon EF-S 10-18mm），和一个轻便的三脚架（例如Manfrotto Befree Advanced）。她需要的旅行用品包括：一个多功能背包（例如Osprey Farpoint 40），一瓶高效防晒霜（例如Neutrogena Ultra Sheer Dry-Touch），和一双舒适的运动鞋（例如Nike Air Zoom Pegasus 38）。此外，她对即将在她附近举行的“春天音乐节”感兴趣，想了解门票的购买信息。",
+      "personalized_query": "嘿，AI助理！我最近在计划一次旅行，想拍摄一些自然风光，所以需要买一些摄影器材。你能帮我推荐一下高性价比的相机、广角镜头和三脚架吗？另外，我还需要一些旅行用品，像是多功能背包和防晒霜。谢谢啦！",
+      "neutralized_query": "<neutralized_query>\n我需要一些高性价比的相机、广角镜头和三脚架的推荐，还有旅行用品如多功能背包和防晒霜。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：为陈晨曦提供目的地的天气、签证、货币兑换等相关信息，帮助她做好旅行准备。",
+      "available_apis": {
+        "weatherCheck": {
+          "arguments": [
+            "destination",
+            "date"
+          ],
+          "description": "Checks the weather forecast for the given destination and date."
+        },
+        "visaCheck": {
+          "arguments": [
+            "destination",
+            "nationality"
+          ],
+          "description": "Checks if a visa is required for the given destination based on the traveler's nationality and provides relevant visa information."
+        },
+        "currencyExchange": {
+          "arguments": [
+            "from_currency",
+            "to_currency",
+            "amount"
+          ],
+          "description": "Converts the given amount from one currency to another based on current exchange rates."
+        }
+      },
+      "scene_desc": "陈晨曦计划去日本旅行，为了做好充分准备，她需要了解目的地的天气、签证要求和货币兑换信息。她特别希望能在东京拍摄到美丽的自然风光，因此对当地的天气状况尤其关注。此外，她想知道具体的签证办理流程和所需文件，以及如何以最优汇率兑换日元。",
+      "expected_response": "\nAI应首先询问陈晨曦的具体旅行日期，以便提供准确的天气预报。接着，AI应确认她的国籍和目的地，以便检索相关的签证信息，包括所需的文件、办理流程和费用。针对货币兑换，AI应该提供当前的汇率，并建议她去哪里兑换货币以获得最佳汇率。为了让信息更直观，AI应提供相关的图片或简洁的图表。由于陈晨曦喜欢图文并茂的呈现方式，AI应尽量将信息以简洁明了的文字和图片结合的形式展示，且可以推荐一些关于如何更好拍摄自然风光的技巧和地点。\n",
+      "scene_context": "陈晨曦计划的旅行日期为2023年12月15日至2023年12月25日，她的国籍是中国。她希望了解的具体信息包括：\n1. 东京在这段时间的天气预报，特别是自然风光拍摄的最佳时机。\n2. 中国公民前往日本旅游的签证办理流程和所需文件。\n3. 当前的日元汇率及在东京兑换货币的最佳地点。\n4. 拍摄自然风光的技巧和推荐地点。",
+      "personalized_query": "嘿，AI小助理！我有个计划，12月中旬准备去日本东京旅行。你能帮我查一下那段时间的天气吗？我特别想拍些美丽的自然风光。",
+      "neutralized_query": "<neutralized_query>\n我需要查询12月中旬东京的天气情况。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "摄影技巧：提供摄影技巧，如如何拍摄自然风光、夜景等，帮助陈晨曦提升摄影技能。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "陈晨曦刚刚购买了一台新的单反相机，并计划在即将到来的周末去附近的自然风光区进行摄影活动。她想提升自己在拍摄自然风光和夜景方面的技能，所以打开了AI助手，准备获取一些专业的摄影技巧和建议。",
+      "expected_response": "\n根据陈晨曦的persona描述，AI应该首先表现出她的兴奋感和热情，并亲切地回应她的新设备和即将进行的摄影活动。AI应该针对她的需求，提供一些简洁明了的文字结合图片的摄影技巧，尤其是针对自然风光和夜景拍摄的技巧。此外，AI可以通过联网搜索，提供一些优秀的摄影博客或短视频教程链接，以便她能够更深入地学习。考虑到她对体验和趣味性的重视，AI还应该推荐一些摄影比赛或社区，让她可以分享作品并与其他摄影爱好者互动，进一步提升她的摄影技能。",
+      "scene_context": "陈晨曦希望获取有关以下内容的摄影技巧：\n1. 自然风光摄影：如何捕捉壮丽的景色、具体的构图方法、最佳拍摄时间、使用哪些相机设置等。\n2. 夜景摄影：如何拍摄星空、避免光污染、长曝光技巧等。\n\n她使用的设备是Canon EOS 90D单反相机，并计划前往的自然风光区是位于郊外的青山公园。\n\n她还希望能够了解一些流行的摄影博客或短视频教程，以便进一步学习，并寻找可以分享作品和互动的摄影社区。",
+      "personalized_query": "嘿AI，我刚买了台Canon EOS 90D单反相机，周末打算去青山公园拍点自然风光和夜景。能给我一些拍摄自然风光和夜景的技巧吗？特别是构图方法和相机设置方面的。",
+      "neutralized_query": "<neutralized_query>\n能给我一些拍摄自然风光和夜景的技巧吗？特别是构图方法和相机设置方面的。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行路线规划：林枫正在为即将到来的毕业旅行规划旅游路线，需要寻找既适合高中毕业生又能满足其冒险精神的线路。",
+      "available_apis": {
+        "askPreferences": {
+          "arguments": [
+            "preferences"
+          ],
+          "description": "Asks the user about their travel preferences, such as destination, budget, travel period, and specific interests (e.g., adventure activities)."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Searches for suitable travel routes and activities based on the user's preferences and returns the most relevant options."
+        },
+        "provideRecommendations": {
+          "arguments": [
+            "recommendations"
+          ],
+          "description": "Provides detailed travel route recommendations along with links to booking sites and additional resources."
+        }
+      },
+      "scene_desc": "林枫正在为即将到来的毕业旅行规划旅游路线。他渴望寻找既适合高中毕业生又能满足其冒险精神的线路。林枫希望这次旅行能够既有趣又富有挑战性，体验到不同的自然风光和户外活动。他需要一个详细的旅行路线推荐，包含适合的景点、活动以及必要的安排。",
+      "expected_response": "根据林枫的persona描述，AI应该首先询问他的具体旅行偏好，例如他对冒险活动的兴趣程度、旅行预算、旅行时间段和目的地等信息。然后，AI需要通过访问互联网来搜索适合林枫需求的旅行路线和活动。AI应该能够提供几条不同的推荐路线，每条路线都应包含详细的景点介绍、活动安排和注意事项。考虑到林枫喜欢户外运动和探险，AI还应该特别推荐一些涉及徒步、攀岩或其他冒险活动的行程。最后，AI可以生成一个包含所有推荐路线的概览，并提供相关的链接以便林枫进一步了解和预订相关内容。",
+      "scene_context": "林枫对旅行有以下具体的偏好：他对徒步、攀岩和潜水等冒险活动有浓厚兴趣，预算在5000-8000元之间，旅行时间段为夏季的两周时间，目的地倾向于热带海岛和山地景观。林枫希望能够体验不同的自然风光，包括海滩、热带雨林和高山。他还希望旅行中能有机会尝试当地美食和文化体验。",
+      "personalized_query": "嘿，我在计划我的毕业旅行，想找一条既适合像我这样的高中毕业生又能满足我冒险精神的路线。能帮我推荐一条详细的旅行线路吗？包括适合的景点和活动，还有必要的安排之类的。",
+      "neutralized_query": "<neutralized_query>\n我在计划一次毕业旅行，想找一条适合年轻人且能满足冒险精神的路线。能推荐一条详细的旅行线路吗？包括适合的景点和活动，以及必要的安排。\n</neutralized_query>"
+    }
+  ]
+}

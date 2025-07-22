@@ -1,0 +1,229 @@
+{
+  "Demographics": {
+    "Age": 27,
+    "Gender": "女",
+    "Nationality": "中国",
+    "Language": [
+      "中文",
+      "英文"
+    ],
+    "Career_Information": "平面设计师，热爱旅行和摄影",
+    "Name": "刘铭杰"
+  },
+  "Personality": {
+    "Extraversion_or_Introversion": "E",
+    "Sensing_or_Intuition": "N",
+    "Thinking_or_Feeling": "F",
+    "Judging_or_Perceiving": "P",
+    "Values_and_Interests": [
+      "在人群中找到灵感",
+      "冒险",
+      "创新",
+      "与朋友和家人共度时光",
+      "探索新的文化"
+    ]
+  },
+  "Pattern": {
+    "Behavior_Engagement_Pattern": "经常咨询关于新摄影技巧和旅行目的地的信息",
+    "Usage_Pattern": "使用频繁；喜欢询问关于设计灵感的建议；经常寻求与人连接的方式；时常寻找新的体验和活动",
+    "Emotion_Pattern": "经常表现出兴奋和好奇，特别是在探索新的事物时",
+    "Purchase_Pattern": "喜欢购买与摄影和旅行相关的设备和配件；倾向于购买能够提升个人体验的产品"
+  },
+  "Preference": {
+    "Preferred_Styles": "喜欢详细且富有创意的回答，可以激发灵感的内容",
+    "Preferred_Formats": "倾向于视觉化和多媒体形式的输出，如图像和视频",
+    "Preferred_Workflows": "喜欢灵活且非线性的工作方式，偏好自由探索和即兴创作"
+  },
+  "scenes": [
+    {
+      "scene_type": "行程规划：刘铭杰需要规划旅行行程，探索新的文化和摄影场景，寻找灵感和冒险体验。",
+      "available_apis": null,
+      "scene_desc": "刘铭杰正在策划她下一次的旅行行程，她希望能够探索新的文化和摄影场景，从中寻找灵感和冒险体验。她计划访问几个不同的国家和城市，希望AI助手能够帮助她制定详细的行程，包括推荐最适合摄影的景点、当地的文化活动、以及能够激发她创作灵感的冒险活动。同时，她需要了解各个目的地的天气情况、签证要求和货币兑换信息，以便更好地准备和规划旅程。",
+      "expected_response": "\nAI应该首先询问刘铭杰她计划访问的目的地和旅行的时间段。接着，AI应该根据她的兴趣和摄影需求，推荐一系列适合拍摄的景点和文化活动，并详细说明每个活动的具体信息。AI还应该提供各个目的地的天气预报、签证要求和货币兑换信息，以确保刘铭杰能够充分准备她的旅程。此外，AI可以建议一些冒险活动，如徒步旅行、潜水等，来满足她对新体验的追求。AI还可以提供一些灵感来源，如摄影作品集或设计灵感板，以帮助她在旅途中保持创意和灵感。总之，AI的回答应该详细且富有创意，能够激发她的灵感，并帮助她灵活地规划一个丰富多彩的旅行行程。",
+      "scene_context": "刘铭杰计划访问的目的地包括：日本东京、法国巴黎和澳大利亚悉尼。她的旅行时间段为明年春季的3月到4月。",
+      "personalized_query": "我准备开始策划下次的旅行了，计划去日本东京、法国巴黎和澳大利亚悉尼。我希望你能帮我制定一个详细的行程，特别是推荐一些最适合摄影的景点，还有当地的文化活动以及能够激发我创作灵感的冒险活动。可以先从东京开始吗？",
+      "neutralized_query": "<neutralized_query>\n我需要你帮我制定一个详细的东京旅行行程，包括适合摄影的景点、当地的文化活动以及能激发创作灵感的冒险活动。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "酒店和餐厅推荐：刘铭杰在旅行过程中需要推荐适合的酒店和餐厅，同时考虑到摄影需求和创作灵感。",
+      "available_apis": null,
+      "scene_desc": "刘铭杰正在一家咖啡馆中，她正在为即将到来的旅行做准备。她计划前往意大利，并希望在旅途中能够找到一些让她灵感迸发的酒店和餐厅。作为一名平面设计师和摄影爱好者，刘铭杰希望住宿和用餐的地方不仅舒适，还能够提供丰富的视觉素材和创作灵感。她打开了终端AI助手，想要获取推荐。",
+      "expected_response": "\n根据刘铭杰的persona描述，AI应该首先询问她在意大利旅行的具体目的地和日期，以便提供精准的推荐。接着，AI应该了解她对住宿和餐厅的具体需求，比如是否需要靠近著名景点、是否需要特别的设计风格、是否有特定的美食偏好等。基于这些信息，AI应该能够提供详细且富有创意的推荐，包含一些视觉上很吸引人的酒店和餐厅，以激发她的设计灵感。同时，AI应该提供这些地方的相关图片和用户评价，帮助刘铭杰做出更好的选择。最后，AI还应该为她规划好如何预定这些酒店和餐厅，并提供更多关于当地文化和摄影景点的信息。",
+      "scene_context": "刘铭杰计划前往意大利的三座城市：罗马、佛罗伦萨和威尼斯。她的旅行日期为6月15日至6月25日。她希望在以下方面获得推荐：\n1. 罗马：靠近历史遗址和古建筑的酒店，以及提供传统意大利美食的餐厅。\n2. 佛罗伦萨：拥有独特设计风格的精品酒店，以及提供地道托斯卡纳美食的餐厅。\n3. 威尼斯：风景优美、适合摄影的水上酒店，以及提供海鲜美食的餐厅。\n\n刘铭杰对这些地方的具体需求包括：\n- 酒店需要有特色的设计和装饰，能够提供独特的视觉体验。\n- 餐厅需要提供地道美食，并且有良好的氛围，适合拍照。\n- 每个推荐的地方最好附带图片和用户评价，便于她做出选择。\n\n她希望AI助手能帮她规划好如何预定这些酒店和餐厅，并提供更多关于当地文化和摄影景点的信息。",
+      "personalized_query": "你好，今天我需要一些帮助。我要去意大利旅行，具体是罗马、佛罗伦萨和威尼斯，想找一些有设计感的酒店和地道美食的餐厅。能帮我推荐一下吗？",
+      "neutralized_query": "<neutralized_query>\n我需要推荐适合在意大利罗马、佛罗伦萨和威尼斯旅行时入住的有设计感的酒店和享用地道美食的餐厅。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "旅行须知：刘铭杰计划旅行时，需要了解目的地的天气、签证、货币兑换等信息，以便更好地准备和规划旅程。",
+      "available_apis": null,
+      "scene_desc": "刘铭杰正在计划一次旅行，她需要了解目的地的天气、签证要求和货币兑换信息，以便更好地准备和规划行程。她希望能够得到详细且富有创意的回答，这样可以激发她的旅行灵感。作为一名平面设计师，她对细节和创意有很高的要求，并且经常在旅行中寻找新的灵感和冒险体验。",
+      "expected_response": "\nAI应该首先询问刘铭杰的具体旅行目的地和旅行日期，以便提供准确的信息。接着，AI会使用相应的API来获取该目的地的天气预报、签证要求以及货币兑换信息，并提供这些信息的详细和创意化的描述，可能还会附上相关图片或视频来增强视觉效果。考虑到刘铭杰的职业背景和兴趣，AI还可以推荐一些当地的摄影热点和文化活动，以帮助她在旅行中找到新的灵感。最后，AI应该询问刘铭杰是否需要进一步的帮助，如预订酒店或规划具体的旅行路线。如果刘铭杰表现出特别的兴奋和好奇，AI应该继续提供更多关于目的地的有趣信息和建议。",
+      "scene_context": "刘铭杰计划前往日本东京，旅行日期为2023年12月15日至2023年12月22日。",
+      "personalized_query": "嘿，今天需要你的帮助！我准备去日本东京旅行，日期是2023年12月15日至12月22日。我想了解一下那时候的天气情况，应该穿些什么合适？",
+      "neutralized_query": "<neutralized_query>\n我需要了解东京在2023年12月15日至12月22日的天气情况，以及建议穿什么合适。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "个性化推荐：根据刘铭杰的听歌习惯和阅读偏好，推荐能够激发设计灵感的新歌、专辑或书籍。",
+      "available_apis": {
+        "getSongRecommendations": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches personalized song recommendations based on the user's listening habits."
+        },
+        "getAlbumRecommendations": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches personalized album recommendations based on the user's listening habits."
+        },
+        "getBookRecommendations": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches personalized book recommendations based on the user's reading preferences."
+        }
+      },
+      "scene_desc": "刘铭杰在繁忙的设计项目中感到灵感枯竭，她决定寻求AI助手的帮助，推荐一些能够激发她创意的新歌、专辑或书籍。刘铭杰通常喜欢视觉化和多媒体形式的内容，她希望AI助手能够根据她的听歌习惯和阅读偏好，提供一些能够在她工作时带来灵感的推荐。",
+      "expected_response": "\nAI应该首先确认刘铭杰是否有特定的音乐或图书偏好，譬如她最近喜欢的歌手或作家。接着，AI可以通过访问相关API（如getSongRecommendations和getBookRecommendations），基于她的听歌和阅读习惯，推荐一些适合她最近情绪和设计创作需求的内容。AI还应提供详细的推荐理由，如这些新歌或书籍如何与她的创作风格契合，并可能附带一些视觉化的元素（如专辑封面或书籍封面）来吸引她的兴趣。通过这些个性化推荐，AI帮助刘铭杰找到新的灵感来源，并提升她在设计项目中的创造力。",
+      "scene_context": "刘铭杰最近听的歌手包括：Lana Del Rey、Billie Eilish和The Weeknd。她最近阅读的书籍包括：《设计中的设计》 by 原研哉、《艺术的故事》 by E.H. Gombrich和《写给大家看的设计书》 by Robin Williams。",
+      "personalized_query": "最近灵感特别枯竭，总感觉设计没什么新意。我想找点新的音乐和书，或许能激发一些创意。你能不能推荐一些适合我风格的歌、专辑或书？最近我比较喜欢Lana Del Rey、Billie Eilish和The Weeknd的歌，还有《设计中的设计》这类书。希望有视觉化和多媒体内容的推荐。能帮我找找吗？",
+      "neutralized_query": "<neutralized_query>\n我需要一些新的音乐和书籍推荐，以激发我的创意。希望有视觉化和多媒体内容的推荐。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "影视作品推荐：根据刘铭杰的喜好，推荐能够激发创意和灵感的电影或电视剧，并提供详细的剧情介绍。",
+      "available_apis": {
+        "getUserPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Retrieves the user's preferences based on their profile or previous interactions."
+        },
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "刘铭杰正准备放松一下，同时寻找一些创意灵感，她希望AI推荐能够激发她设计灵感的电影或电视剧。她打开AI助手，告诉它她想要一些电影或电视剧推荐，特别是那些有创意的视觉效果、独特的故事情节，或是能给她带来启发的影片。刘铭杰喜欢详细且富有创意的回答，所以她希望AI不仅能提供推荐，还能给出详细的剧情介绍，以便她能快速决定是否观看这些作品。",
+      "expected_response": "\n根据刘铭杰的persona描述，她是一个热爱创新和冒险的平面设计师，经常表现出兴奋和好奇，特别是在探索新的事物时。AI应该首先询问她最近的创作项目方向，以便推荐最相关的电影或电视剧。接着，AI可以通过getUserPreferences API检索她的喜好，确保推荐的内容符合她的兴趣。AI应提供详细的剧情介绍，并强调视觉效果或故事独特性的部分，以激发她的创作灵感。如果可能，AI可以使用webSearch API查找这些电影或电视剧的影评和评分，帮助刘铭杰更全面地了解推荐的作品。AI还可以建议一些相关的扩展阅读材料或访谈，进一步激发她的灵感。最终，AI应该确保这些推荐是多样化的，涵盖不同的文化背景和创意领域，以满足她对新体验和新文化的探索欲望。",
+      "scene_context": "刘铭杰最近的创作项目方向是与未来科技和赛博朋克风格有关的平面设计作品，她特别喜欢带有科幻视觉效果和复杂情节的电影和电视剧。例如，她喜欢《银翼杀手2049》、《盗梦空间》和《黑镜》。因此，推荐的影片需要着重于这些方向，以便为她提供更多灵感。",
+      "personalized_query": "嗨，今天想放松一下，同时也想找点创意灵感。能推荐几部电影或电视剧吗？我特别喜欢那些有创意的视觉效果、独特的故事情节，或者能给我带来启发的作品。",
+      "neutralized_query": "<neutralized_query>\n能推荐几部电影或电视剧吗？我特别喜欢那些有创意的视觉效果、独特的故事情节，或者能给我带来启发的作品。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "情境音乐：根据刘铭杰的情绪或工作场景（如设计创作、旅行）推荐合适的音乐，帮助她集中注意力或放松心情。",
+      "available_apis": {
+        "fetchUserMoodAndPreferences": {
+          "arguments": [
+            "user_id"
+          ],
+          "description": "Fetches the current mood and musical preferences of the user based on recent interactions or user settings."
+        },
+        "recommendMusic": {
+          "arguments": [
+            "mood",
+            "activity",
+            "preferences"
+          ],
+          "description": "Recommends a playlist or individual tracks based on the user's mood, current activity, and musical preferences."
+        }
+      },
+      "scene_desc": "刘铭杰正准备开始一项新的设计项目，但她发现自己无法集中注意力。她打开AI助手，希望能推荐一些适合当前情绪和工作的音乐。她说明自己感到有些分散，需要集中注意力进行创作，希望AI能推荐一些背景音乐来帮助她进入创作状态。",
+      "expected_response": "\nAI应该首先询问刘铭杰当前的情绪状况和工作场景，以便更精准地推荐合适的音乐。根据她的描述，AI会了解她需要集中注意力进行创作，因此会推荐一些能够帮助专注和激发灵感的背景音乐。由于刘铭杰偏好视觉化和多媒体形式的输出，AI可以提供一个带有音乐推荐和简短描述的视觉化界面。此外，AI还应考虑她的音乐偏好，并询问她是否有特定的音乐类型或艺术家偏好。在推荐音乐时，AI应该使用fetchUserMoodAndPreferences和recommendMusic这两个API，以确保推荐的音乐能够符合她的当前需求和喜好。最后，AI应及时反馈并提供播放选项，让刘铭杰能够立即开始聆听推荐的音乐。",
+      "scene_context": "刘铭杰当前的情绪状况是有些分散，工作场景是设计创作。她的音乐偏好是轻音乐和古典音乐，喜欢的艺术家包括Ludovico Einaudi和Yiruma。",
+      "personalized_query": "我最近在做一个新的设计项目，但是有点分散注意力，没法集中精神。能推荐一些适合当前情绪和工作的背景音乐吗？我喜欢轻音乐和古典音乐。",
+      "neutralized_query": "<neutralized_query>\n我最近在做一个新的项目，但是有点分散注意力，没法集中精神。能推荐一些适合当前情绪和工作的背景音乐吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "知识拓展：在对话中提供关于设计和摄影方面的扩展阅读材料或深度分析，帮助刘铭杰提升专业水平。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google for the given query and return the most relevant response."
+        },
+        "recommendReading": {
+          "arguments": [
+            "topic"
+          ],
+          "description": "Recommend authoritative books or articles related to the given topic."
+        }
+      },
+      "scene_desc": "刘铭杰最近在设计项目中遇到了一些瓶颈，她希望通过扩展阅读材料和获取专业的深度分析来提升她在设计和摄影方面的专业水平。她打开了AI助手，希望能快速找到一些权威的资源和讲解，以激发她的创意和灵感。",
+      "expected_response": "\n根据刘铭杰的persona描述，她是一个外向且富有创意的平面设计师，热爱旅行和摄影，经常表现出对新事物的好奇和兴奋，喜欢非线性和即兴的工作方式。AI应该首先询问她目前具体需要提升哪方面的设计或摄影技能，例如色彩理论、排版技巧、光影处理等。接着，AI应利用联网搜索功能，提供一些权威的书籍、文章或视频讲解，并确保这些资源是详细且富有创意的，以激发刘铭杰的灵感。此外，AI还可以建议一些在线课程或研讨会，帮助她深入理解相关主题。最后，AI可以询问她是否需要将这些资源保存到她的个人资料或分享给她的设计团队，以便未来参考。",
+      "scene_context": "目前刘铭杰希望提升的具体技能包括：色彩理论、排版技巧和光影处理。",
+      "personalized_query": "嗨，我最近在设计项目中遇到了一些瓶颈，想要提升自己在色彩理论、排版技巧和光影处理方面的专业水平。你能帮我找一些权威的资源和深度分析吗？",
+      "neutralized_query": "<neutralized_query>\n我在设计项目中需要提升色彩理论、排版技巧和光影处理方面的专业水平。你能帮我找一些权威的资源和深度分析吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "社交活动建议：推荐适合刘铭杰的社交活动或聚会场所，帮助她与朋友和家人共度时光并找到新的灵感。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        }
+      },
+      "scene_desc": "刘铭杰正计划与朋友和家人共度一个周末，她希望能找到一些能够激发灵感的社交活动或聚会场所。她希望活动既能让大家轻松愉快，又能够提供一些新奇、有趣的体验，比如艺术展览、创意市集或者室外探险活动。刘铭杰希望AI能够根据她的兴趣和当地的活动推荐适合的选项，并能帮助她了解活动的具体细节，比如时间、地点和票价等信息。",
+      "expected_response": "\nAI应该首先询问刘铭杰是否有具体的日期和时间段的偏好，以便推荐合适的活动。接着，AI可以根据刘铭杰的兴趣，如艺术、创意和冒险，搜索并推荐当地即将举办的相关活动。AI应该提供每个推荐活动的详细信息，包括时间、地点、票价和活动内容，并且考虑到刘铭杰喜欢摄影，还可以推荐一些适合拍照的场所。最后，AI可以询问刘铭杰是否需要预订门票或做其他准备，并提供相应的帮助，如在线购票链接或活动主办方的联系方式。",
+      "scene_context": "刘铭杰当前所在的城市是上海。她和朋友打算在下个周末（即此次查询的具体日期为10月14日和15日）进行活动。她对以下三类活动特别感兴趣：1. 艺术展览，如现代艺术展；2. 创意市集，例如手工艺品和本地设计师作品展示；3. 室外探险活动，比如城市徒步或自然保护区探险。刘铭杰希望了解每个活动的详细信息，包括时间、地点、票价和活动内容，并希望AI还能够推荐一些适合拍照的场所。",
+      "personalized_query": "嗨，计划出炉了吗？这个周末我想和朋友们一起过得特别些，能帮我找找上海有哪些有趣的活动吗？如果能有现代艺术展、创意市集或者户外探险那就更棒了！",
+      "neutralized_query": "<neutralized_query>\n能推荐一些上海这个周末有趣的活动吗？\n</neutralized_query>"
+    },
+    {
+      "scene_type": "设计灵感：刘铭杰需要在紧迫的设计项目中快速找到新的创意灵感。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "imageSearch": {
+          "arguments": [
+            "keywords"
+          ],
+          "description": "Search for inspiring images based on given keywords and return the most relevant ones."
+        },
+        "getDesignTrends": {
+          "arguments": [
+            "year"
+          ],
+          "description": "Fetch the latest design trends for the specified year."
+        }
+      },
+      "scene_desc": "刘铭杰正在面对一个紧迫的设计项目，她需要快速找到新的创意灵感。作为一名平面设计师，她需要从不同的领域和资源中汲取灵感。她希望AI助手能帮助她搜集最新的设计趋势、视觉素材，以及提供一些能够激发创意的资源。她的目标是尽快完成一个视觉化的设计稿，分享给设计团队进行讨论和改进。",
+      "expected_response": "\nAI应该首先询问刘铭杰关于项目的一些具体信息，例如设计的主题、目标受众以及她目前的灵感来源。然后，AI可以使用以下几个API来提供帮助：\n\n1. 使用`webSearch` API搜索最新的设计趋势和相关资料，并通过多媒体形式（如图片、视频）展示搜索结果，因为刘铭杰偏好视觉化的内容。\n2. 使用`imageSearch` API根据指定的关键词（例如“创新设计”、“现代艺术”）提供高质量的图片和视觉素材。\n3. 提供一些推荐阅读的材料，例如设计领域的权威书籍或文章，使用`recommendReading` API。\n4. 提供一些设计灵感板的示例，帮助刘铭杰构建她自己的灵感板。\n5. 如果时间允许，AI还可以帮助刘铭杰将她的创意灵感板快速分享给她的设计团队，使用`shareBoard` API。\n\n最后，AI应该询问刘铭杰是否需要进一步的帮助，比如安排团队讨论会议或者提供更多的创意资源。这样，AI不仅能够帮助她快速找到设计灵感，还能确保她能够高效地与团队分享和讨论这些灵感。",
+      "scene_context": "刘铭杰正在为一个以“可持续发展”为主题的设计项目寻找灵感。她当前的灵感来源包括Pinterest和Behance上的设计板，但她希望能找到更多新颖的素材和趋势。她特别感兴趣于现代艺术和生态设计，并希望获取一些相关的高质量视觉素材和创新设计的最新趋势。此外，她还想要阅读一些关于可持续设计的权威书籍或文章，以便更好地理解这个主题。",
+      "personalized_query": "我现在正在寻找一些灵感，设计一个以“可持续发展”为主题的项目。我希望能找到最新的设计趋势和视觉素材，尤其是和现代艺术、生态设计相关的内容。你能帮我搜集一些这样的资源吗？",
+      "neutralized_query": "<neutralized_query>\n我需要寻找一些关于“可持续发展”主题的设计灵感和资源，特别是最新的设计趋势和视觉素材。\n</neutralized_query>"
+    },
+    {
+      "scene_type": "朋友聚会策划：作为ENFP的她，组织了一次创意主题的朋友聚会，希望每个朋友都能带来一件有趣的作品分享。",
+      "available_apis": {
+        "webSearch": {
+          "arguments": [
+            "query"
+          ],
+          "description": "Search Google the given query and return the most relevant response."
+        },
+        "sendMessage": {
+          "arguments": [
+            "recipients",
+            "message"
+          ],
+          "description": "Send a message to the selected recipients with the details of the creative theme and request for bringing an interesting creation to share."
+        }
+      },
+      "scene_desc": "刘铭杰计划组织一次创意主题的朋友聚会，这次聚会旨在让每位朋友带来一件有趣的作品进行分享。作为一个外向且热爱冒险的ENFP，她希望这次聚会能充满创意和灵感，促进朋友之间的互动和创作交流。她需要AI助手帮助她策划这次聚会，包括确定邀请名单、发送邀请、推荐聚会场地和活动，并确保每位朋友都能带来独特的作品分享。",
+      "expected_response": "\n根据刘铭杰的persona描述，她是一位热爱与人互动且富有创意的平面设计师。AI应该首先询问她具体要邀请哪些朋友，并确保这些朋友都了解聚会的创意主题和分享要求。接着，AI应该能够帮助她选择一个适合创意展示和互动的聚会场地，并推荐一些适合的创意活动或小游戏，确保聚会充满乐趣和灵感。同时，AI还可以提供一些创意展示的示例和灵感，帮助她引导朋友们准备他们的作品。最后，AI应该能够制定一个聚会日程，并发送详细的邀请信息给每位朋友，确保所有人都清楚聚会的时间、地点和活动安排。",
+      "scene_context": "刘铭杰打算邀请的朋友名单包括：李华（摄影师）、张明（音乐制作人）、王丽（插画师）、陈涛（编剧）和赵玲（陶艺师）。她希望AI助手能帮助她选择一个适合创意展示的场地，例如一个宽敞的艺术工作室或一个带有户外空间的咖啡馆。她还希望能够推荐一些适合的创意活动或小游戏，例如即兴创作比赛、艺术品交换或创意演讲。此外，她希望AI能够提供一些创意展示的示例和灵感，以激发朋友们的创作热情。最终，AI需要帮助她制定一个详细的聚会日程，并发送详细的邀请信息给每位朋友，包括聚会的时间、地点和活动安排。",
+      "personalized_query": "嘿，小助手，我这次想组织一个创意主题的朋友聚会，每个人都带一件有趣的作品来分享。你能帮我策划一下吗？首先，咱们需要确定邀请的人、发送邀请，以及选择一个适合创意展示的场地。你有推荐的地方吗？",
+      "neutralized_query": "<neutralized_query>\n我想组织一个创意主题的朋友聚会，每个人都带一件有趣的作品来分享。你能帮我策划一下吗？具体需要确定邀请的人、发送邀请，以及选择一个适合创意展示的场地。你有推荐的地方吗？\n"
+    }
+  ]
+}
