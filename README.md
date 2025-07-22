@@ -128,3 +128,16 @@ The **Lifelong-Personalized-Agent** framework is built around several core compo
 
 ### 5. **Persona**
 - Represents the user's persona, including demographic data, personality traits, behavioral patterns, and preferences.
+
+## Citation
+
+If you find our work valuable for your research or applications, we would greatly appreciate a star ⭐ and a citation using the BibTeX entry provided below.
+
+```bibtex
+@article{wang2024ai,
+  title={Ai persona: Towards life-long personalization of llms},
+  author={Wang, Tiannan and Tao, Meiling and Fang, Ruoyu and Wang, Huilin and Wang, Shuai and Jiang, Yuchen Eleanor and Zhou, Wangchunshu},
+  journal={arXiv preprint arXiv:2412.13103},
+  year={2024}
+}
+```
